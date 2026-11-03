@@ -1,0 +1,291 @@
+{
+  "id": "fiche-personnage.invocations",
+  "type": "codex",
+  "identity": {
+    "name": "Fiche Invocation",
+    "subtitle": "Fiche / Lien, configuration et manifestation",
+    "icon": "✦",
+    "tags": [
+      "Invocation",
+      "invocateur",
+      "profil",
+      "élément",
+      "menace",
+      "apparence"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Menace estimée",
+        "value": "niveau d’invocation utilisé faute de calcul dédié"
+      },
+      {
+        "label": "Nature",
+        "value": "physique ou magique"
+      },
+      {
+        "label": "Profil",
+        "value": "répartition des quatre bases"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Avantages et désavantages",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Points de vie",
+        "sectionId": "systeme",
+        "entryId": "rules.pv"
+      },
+      {
+        "label": "Points de fatigue",
+        "sectionId": "systeme",
+        "entryId": "rules.pf"
+      },
+      {
+        "label": "Initiative",
+        "sectionId": "systeme",
+        "entryId": "rules.initiative"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Conjuration et Invocations",
+        "sectionId": "systeme",
+        "entryId": "rules.conjuration-invocations"
+      },
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Portrait et identité",
+        "anchor": "portrait",
+        "blocks": [
+          {
+            "title": "Nom",
+            "anchor": "nom",
+            "text": "Le nom et le portrait décrivent cet Actor sans changer sa nature ni son lanceur."
+          },
+          {
+            "title": "Invocateur",
+            "anchor": "invocateur",
+            "text": "Le lanceur est résolu depuis les identifiants déjà enregistrés. La fiche ne choisit pas arbitrairement un token et n’expose pas un nouvel éditeur d’UUID."
+          }
+        ]
+      },
+      {
+        "label": "Configuration",
+        "anchor": "nature",
+        "blocks": [
+          {
+            "title": "Niveau d’invocation",
+            "anchor": "niveau",
+            "text": "Niveau de cette invocation, distinct du niveau du lanceur et du niveau magique. Il alimente menace, budget, PF et dégâts par défaut."
+          },
+          {
+            "title": "Élément",
+            "anchor": "element",
+            "text": "Affinité enregistrée séparément de la nature. Une invocation physique peut conserver cette donnée."
+          },
+          {
+            "title": "Niveau magique",
+            "anchor": "niveau-magique",
+            "text": "Donnée séparée dont seuls les consommateurs explicites du moteur déterminent les effets."
+          },
+          {
+            "title": "Profil de répartition",
+            "anchor": "profil-repartition",
+            "text": "Un profil distribue le budget entre les quatre bases. L’appliquer peut remplacer ces bases ; une modification manuelle marque la répartition comme personnalisée."
+          },
+          {
+            "title": "Attaque principale",
+            "anchor": "attaque-principale",
+            "text": "Profil offensif principal : statistique, type de dégâts et portée. Il ne remplace ni la nature ni l’élément."
+          },
+          {
+            "title": "Budget de statistiques",
+            "anchor": "budget-statistiques",
+            "text": "Somme des quatre bases comparée à la référence du niveau."
+          },
+          {
+            "title": "Niveau de menace estimé",
+            "anchor": "menace",
+            "text": "Aucun calcul de menace dédié n’existe actuellement pour les invocations. Les étoiles utilisent provisoirement system.level entre 0 et 10. Une ancienne bestiary.threat.rating différente reste historique et n’est ni utilisée comme autorité ni réécrite."
+          }
+        ]
+      },
+      {
+        "label": "Lien d’invocation",
+        "anchor": "lien-invocation",
+        "blocks": [
+          {
+            "text": "La fiche affiche le lanceur réellement résolu. Les informations de durée, permanence ou manifestation ne sont montrées que lorsqu’elles appartiennent à cette manifestation précise."
+          }
+        ]
+      },
+      {
+        "label": "Statistiques",
+        "anchor": "statistiques",
+        "blocks": [
+          {
+            "text": "PHY, MENT, MAG et MOB présentent une base, les effets et le total effectif. Le total n’est pas sauvegardé dans la base."
+          }
+        ]
+      },
+      {
+        "label": "Ressources",
+        "anchor": "ressources",
+        "blocks": [
+          {
+            "text": "Les PV et PF tiennent compte des règles d’invocation, du lien au lanceur et des bonus ou multiplicateurs de conjuration disponibles."
+          },
+          {
+            "title": "Réserves AV et DV",
+            "anchor": "reserves-av-dv",
+            "text": "Les interactions de réserve sont conservées telles qu’implémentées par la fiche."
+          }
+        ]
+      },
+      {
+        "label": "Attaques rapides",
+        "anchor": "attaques-rapides",
+        "blocks": [
+          {
+            "text": "Les trois commandes utilisent leur statistique réelle et le niveau d’attaque correspondant. Une surcharge explicite peut remplacer le niveau général."
+          }
+        ]
+      },
+      {
+        "label": "Initiative",
+        "anchor": "initiative",
+        "blocks": [
+          {
+            "text": "MOB fournit l’initiative de fiche. La conjuration peut créer le combatant à l’initiative du lanceur + 1 ; la fiche n’appelle cette valeur effective que lorsque le combatant exact est identifiable."
+          }
+        ]
+      },
+      {
+        "label": "Résistances",
+        "anchor": "resistances",
+        "blocks": [
+          {
+            "text": "Les résistances générales combinent base et effets sans représenter un pourcentage."
+          },
+          {
+            "title": "Résistances élémentaires",
+            "anchor": "resistances-elementaires",
+            "text": "Chaque élément conserve son total propre."
+          },
+          {
+            "title": "Affinité élémentaire",
+            "anchor": "affinite-elementaire",
+            "text": "Les relations élémentaires proviennent de la table magique du système."
+          }
+        ]
+      },
+      {
+        "label": "Compétences spéciales",
+        "anchor": "competences-speciales",
+        "blocks": [
+          {
+            "title": "Nom",
+            "anchor": "competence-nom",
+            "text": "Nom affiché de la compétence."
+          },
+          {
+            "title": "Type",
+            "anchor": "competence-type",
+            "text": "Profil physique, magique ou mental utilisé par l’attaque."
+          },
+          {
+            "title": "Dégâts",
+            "anchor": "competence-degats",
+            "text": "Formule propre à la compétence."
+          },
+          {
+            "title": "Description",
+            "anchor": "competence-description",
+            "text": "Texte narratif sans effet implicite."
+          },
+          {
+            "title": "Effets",
+            "anchor": "competence-effets",
+            "text": "Effets mécaniques réellement configurés."
+          },
+          {
+            "title": "Commandes",
+            "anchor": "competence-actions",
+            "text": "Modification, validation et suppression de la ligne."
+          }
+        ]
+      },
+      {
+        "label": "Description et particularités",
+        "anchor": "description-particularites",
+        "blocks": [
+          {
+            "text": "Description générale, type de danger, particularités et notes restent quatre données séparées. Aucun texte narratif n’applique une capacité sans mécanisme explicite."
+          }
+        ]
+      },
+      {
+        "label": "Apparence : désignation",
+        "anchor": "apparence-designation",
+        "blocks": [
+          {
+            "text": "La désignation, le type descriptif et le résumé décrivent l’entité sans modifier sa nature mécanique."
+          }
+        ]
+      },
+      {
+        "label": "Apparence : morphologie",
+        "anchor": "apparence-morphologie",
+        "blocks": [
+          {
+            "text": "Type biologique, enveloppe, silhouette, locomotion, signes distinctifs et anatomie restent descriptifs. Ils ne créent ni déplacement, ni attaque, ni résistance."
+          }
+        ]
+      },
+      {
+        "label": "Apparence : dimensions",
+        "anchor": "apparence-dimensions",
+        "blocks": [
+          {
+            "text": "Hauteur, longueur, envergure, poids et gabarit ne redimensionnent pas automatiquement le token."
+          }
+        ]
+      },
+      {
+        "label": "Description visuelle",
+        "anchor": "apparence-visuelle",
+        "blocks": [
+          {
+            "text": "Description libre de l’aspect de l’invocation, sans effet mécanique implicite."
+          }
+        ]
+      }
+    ]
+  }
+}

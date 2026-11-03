@@ -1,0 +1,237 @@
+{
+  "id": "materials.sylven",
+  "type": "material",
+  "identity": {
+    "name": "Sylven",
+    "subtitle": "Bois · Magique",
+    "icon": "◆",
+    "tags": [
+      "sylven",
+      "Sylven",
+      "wood",
+      "Bois",
+      "magique",
+      "Magique",
+      "Essence forestière chargée de flux naturel",
+      "Vert-gris",
+      "Bois vivant qui conserve une faible activité végétale.",
+      "Nature/Plante",
+      "hybrid",
+      "Hybride",
+      "Normal",
+      "Bâtons druidiques",
+      "talismans",
+      "objets vivants",
+      "forestier",
+      "druide",
+      "mage",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Bois",
+    "rarity": 5
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "sylven",
+    "family": "wood",
+    "weaponProfile": "hybrid",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Bois"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Magique"
+      },
+      {
+        "label": "Rareté",
+        "value": 5
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Essence forestière chargée de flux naturel"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Vert-gris"
+          },
+          {
+            "title": "Description",
+            "text": "Bois vivant qui conserve une faible activité végétale."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "3"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Nature/Plante"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Amplifie et stabilise les enchantements naturels."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut se déformer ou repousser si mal séché."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Bâtons druidiques",
+              "talismans",
+              "objets vivants"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "forestier",
+              "druide",
+              "mage",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Planche de 1 m (≈3 kg)"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "3"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "38"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "30"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "entrave/plante"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_plante_entrave_vegetale_t1",
+              "etat_plante_entrave_vegetale"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

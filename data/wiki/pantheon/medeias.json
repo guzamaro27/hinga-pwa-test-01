@@ -1,0 +1,174 @@
+{
+  "id": "medeias",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Medeias",
+    "subtitle": "Le Triomphe de la Volonté",
+    "tags": [
+      "Medeias",
+      "Le Triomphe de la Volonté",
+      "esprit majeur",
+      "Objectif",
+      "Persévérance",
+      "Volonté",
+      "Accomplissement",
+      "Réussite",
+      "Échec",
+      "Détermination Infaillible",
+      "Relance d’un jet de Charisme"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#8C4A2F",
+    "visualNote": "Objectif • Persévérance • Volonté • Accomplissement • Réussite • Échec"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "medeias",
+    "name": "Medeias",
+    "title": "Le Triomphe de la Volonté",
+    "type": "esprit_majeur",
+    "domains": [
+      "Objectif",
+      "Persévérance",
+      "Volonté",
+      "Accomplissement",
+      "Réussite",
+      "Échec"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunrise",
+      "label": "À chaque lever du soleil"
+    },
+    "cult": {
+      "short": "Déclarer un objectif personnel",
+      "ritual": "Dire un objectif personnel à quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La détermination est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "determination_infaillible": {
+        "key": "determination_infaillible",
+        "name": "Détermination Infaillible",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Relance d’un jet de Charisme",
+        "fullDescription": "Une fois par cycle de dévotion, peut relancer un jet de Charisme.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#8C4A2F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Objectif",
+              "Persévérance",
+              "Volonté",
+              "Accomplissement",
+              "Réussite",
+              "Échec"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Déclarer un objectif personnel"
+          },
+          {
+            "title": "Rituel",
+            "text": "Dire un objectif personnel à quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lever du soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunrise"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Détermination Infaillible (améliorée, actif)",
+              "Effet court : Relance d’un jet de Charisme",
+              "Description : Une fois par cycle de dévotion, peut relancer un jet de Charisme.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La détermination est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "medeias"
+  }
+}

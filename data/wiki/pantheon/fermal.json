@@ -1,0 +1,174 @@
+{
+  "id": "fermal",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Fermal",
+    "subtitle": "L’Architecte du Progrès",
+    "tags": [
+      "Fermal",
+      "L’Architecte du Progrès",
+      "esprit majeur",
+      "Invention",
+      "Progrès",
+      "Technologie",
+      "Société",
+      "Risque",
+      "Excitation",
+      "Réseau Opportuniste",
+      "Trouver facilement de l’aide en milieu urbain"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#7C6F58",
+    "visualNote": "Invention • Progrès • Technologie • Société • Risque • Excitation"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "fermal",
+    "name": "Fermal",
+    "title": "L’Architecte du Progrès",
+    "type": "esprit_majeur",
+    "domains": [
+      "Invention",
+      "Progrès",
+      "Technologie",
+      "Société",
+      "Risque",
+      "Excitation"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "planet_revolution",
+      "label": "À chaque révolution de la planète"
+    },
+    "cult": {
+      "short": "Rester nu une journée",
+      "ritual": "Rester nu pendant une journée complète."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’instinct d’innovation est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "reseau_opportuniste": {
+        "key": "reseau_opportuniste",
+        "name": "Réseau Opportuniste",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Trouver facilement de l’aide en milieu urbain",
+        "fullDescription": "Permet de repérer quelqu’un disposé à aider ou à fournir des informations utiles dans un environnement urbain ou social.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#7C6F58",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Invention",
+              "Progrès",
+              "Technologie",
+              "Société",
+              "Risque",
+              "Excitation"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Rester nu une journée"
+          },
+          {
+            "title": "Rituel",
+            "text": "Rester nu pendant une journée complète."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque révolution de la planète"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "planet_revolution"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Réseau Opportuniste (commune, passif)",
+              "Effet court : Trouver facilement de l’aide en milieu urbain",
+              "Description : Permet de repérer quelqu’un disposé à aider ou à fournir des informations utiles dans un environnement urbain ou social.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’instinct d’innovation est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "fermal"
+  }
+}

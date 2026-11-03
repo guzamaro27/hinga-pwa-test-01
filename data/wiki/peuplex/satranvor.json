@@ -1,0 +1,736 @@
+{
+  "id": "satranvor",
+  "type": "peuple",
+  "identity": {
+    "name": "Satranvor",
+    "subtitle": "",
+    "slug": "satranvor",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/satranvor.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Satranvor sont reconnaissables à leur peau très claire, leurs cheveux sombres, leurs ongles noirs rétractiles et les deux grandes cornes qui s’élèvent depuis leur front en formant une courbe ouverte."
+          },
+          {
+            "text": "Leur résistance physique, leur capacité d’adaptation et leur attention aux faiblesses d’un adversaire leur valent une réputation de combattants difficiles à épuiser et capables de profiter rapidement d’une situation favorable."
+          },
+          {
+            "text": "Ils sont fréquemment associés au froid et à la glace. Cette association provient de leur affinité traditionnelle à l’Eau, souvent exprimée sous une forme gelée, ainsi que de leur palette naturelle blanche, grise et violette."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 5/10 — Présence moyenne"
+          },
+          {
+            "text": "**Tendances :** Les Satranvor vivent principalement dans les villes et les grandes agglomérations."
+          },
+          {
+            "text": "On les rencontre notamment dans :"
+          },
+          {
+            "items": [
+              "les centres urbains importants ;",
+              "les quartiers techniques et artisanaux ;",
+              "les villes disposant d’écoles ou d’institutions magiques ;",
+              "les communautés situées près des grandes voies de circulation."
+            ]
+          },
+          {
+            "text": "Ils peuvent vivre dans les campagnes et les petites communautés, mais y sont moins représentés."
+          },
+          {
+            "text": "Les Satranvor ne dépendent pas d’un climat précis et peuvent s’adapter à des régions variées. Leur apparence froide et leur magie fréquemment liée à la glace ne les obligent pas à vivre dans des territoires enneigés."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Satranvor mesurent généralement autour de **1,80 mètre** pour environ **70 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est de taille moyenne et de constitution équilibrée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc proportionné ;",
+              "des épaules modérément larges ;",
+              "des membres solides ;",
+              "une ossature robuste ;",
+              "une musculature modérée ;",
+              "une posture stable ;",
+              "une apparence générale résistante sans être massive."
+            ]
+          },
+          {
+            "text": "Leur corps paraît plus endurant que puissant. Leur morphologie n’est ni particulièrement fine, ni excessivement large."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau satranvor se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le blanc ;",
+              "le gris très clair ;",
+              "le gris froid ;",
+              "le violet extrêmement pâle ;",
+              "certains tons gris lavande."
+            ]
+          },
+          {
+            "text": "Elle est généralement épaisse et relativement uniforme."
+          },
+          {
+            "text": "De petites taches grises peuvent apparaître sur le corps, notamment sur :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "les épaules ;",
+              "les bras ;",
+              "le torse."
+            ]
+          },
+          {
+            "text": "Elles restent généralement peu nombreuses et discrètes."
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont légèrement plus foncées que le reste de la peau."
+          },
+          {
+            "text": "Elles présentent fréquemment des nuances :"
+          },
+          {
+            "items": [
+              "violettes ;",
+              "gris violet ;",
+              "mauves ;",
+              "lavande sombre."
+            ]
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage satranvor est généralement étroit et légèrement pointu."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front marqué par la naissance des cornes ;",
+              "des pommettes visibles ;",
+              "des joues relativement lisses ;",
+              "une mâchoire fine ;",
+              "un menton pointu ;",
+              "un nez de taille moyenne ;",
+              "des traits nets ;",
+              "des oreilles pointues."
+            ]
+          },
+          {
+            "text": "L’ensemble donne souvent au visage une apparence attentive et sévère, même lorsque l’individu est au repos."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Satranvor possèdent des yeux fins, généralement allongés."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances sombres comprenant :"
+          },
+          {
+            "items": [
+              "le violet ;",
+              "le violet profond ;",
+              "le gris violet ;",
+              "le noir ;",
+              "certains tons rouge violet très foncés."
+            ]
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux satranvor sont généralement sombres."
+          },
+          {
+            "text": "Ils se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le violet sombre ;",
+              "le violet noir ;",
+              "le gris très foncé ;",
+              "le noir."
+            ]
+          },
+          {
+            "text": "Ils sont fréquemment :"
+          },
+          {
+            "items": [
+              "épais ;",
+              "durs ;",
+              "raides ou légèrement ondulés ;",
+              "difficiles à discipliner lorsqu’ils sont courts."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle et faciale suit généralement la même palette."
+          },
+          {
+            "text": "Les poils sont également épais et relativement rigides."
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité perdent progressivement leur couleur avant de devenir gris ou blancs."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Satranvor possèdent deux grandes cornes implantées sur la partie supérieure du front."
+          },
+          {
+            "text": "Chaque corne :"
+          },
+          {
+            "items": [
+              "s’élève depuis le front ;",
+              "se courbe vers l’extérieur ;",
+              "forme une large arche arrondie ;",
+              "se redresse à son extrémité ;",
+              "termine sa croissance en pointant vers le haut."
+            ]
+          },
+          {
+            "text": "Observées de face, les deux cornes forment une courbe symétrique ouverte vers le haut."
+          },
+          {
+            "text": "Leur surface peut être :"
+          },
+          {
+            "items": [
+              "lisse ;",
+              "légèrement striée ;",
+              "mate ;",
+              "plus sombre que la peau."
+            ]
+          },
+          {
+            "text": "Les Satranvor possèdent également des ongles noirs particulièrement robustes."
+          },
+          {
+            "text": "Ces ongles sont :"
+          },
+          {
+            "items": [
+              "épais ;",
+              "pointus ;",
+              "rétractiles ;",
+              "capables de repousser rapidement lorsqu’ils sont cassés ou coupés."
+            ]
+          },
+          {
+            "text": "Au repos, ils restent partiellement retirés et ne gênent pas les manipulations ordinaires. Lorsqu’ils sont déployés, ils dépassent nettement de l’extrémité des doigts."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les cornes satranvor sont solidement intégrées à la partie supérieure du crâne."
+          },
+          {
+            "text": "Leur courbure éloigne leurs extrémités du visage et limite leur gêne lors des mouvements ordinaires."
+          },
+          {
+            "text": "Elles ne constituent pas automatiquement une arme naturelle et n’accordent aucun bonus mécanique par leur seule présence."
+          },
+          {
+            "text": "Les ongles rétractiles sont contrôlés par de petits muscles situés à leur base."
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "sortis volontairement ;",
+              "retirés pour protéger leur pointe ;",
+              "employés pour améliorer une prise ;",
+              "utilisés lors de certaines manipulations ou actions physiques."
+            ]
+          },
+          {
+            "text": "Ils restent toutefois des ongles et non des armes naturelles automatiques. Leur utilisation offensive dépend des règles normales de l’action entreprise."
+          },
+          {
+            "text": "Leur croissance rapide compense les cassures et l’usure courante. Une blessure profonde à la base de l’ongle peut néanmoins ralentir ou déformer sa repousse."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Satranvor sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient fréquemment :"
+          },
+          {
+            "items": [
+              "les plats épicés ;",
+              "les sauces fortement aromatisées ;",
+              "les associations de saveurs complexes ;",
+              "les préparations chaudes et longuement cuisinées."
+            ]
+          },
+          {
+            "text": "Leur goût développé les rend particulièrement attentifs aux différences entre les ingrédients, les épices et les méthodes de préparation."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Satranvor possèdent une espérance de vie moyenne d’environ **100 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **120 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Leur organisme est particulièrement adapté :"
+          },
+          {
+            "items": [
+              "aux efforts prolongés ;",
+              "à la récupération après une dépense physique ;",
+              "au maintien d’une position ;",
+              "aux changements progressifs de conditions ;",
+              "aux transformations temporaires affectant leur affinité élémentaire."
+            ]
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les rides deviennent plus visibles ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "la force physique baisse progressivement ;",
+              "les mouvements deviennent moins rapides ;",
+              "les cornes peuvent présenter davantage de marques ou de stries."
+            ]
+          },
+          {
+            "text": "Les Satranvor ne possèdent aucune réserve supplémentaire de PV ni récupération améliorée de PF sans sélection de la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Goût**"
+          },
+          {
+            "text": "Les Satranvor possèdent une perception gustative particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "des saveurs proches ;",
+              "les différents ingrédients d’un plat ;",
+              "les variations de cuisson ;",
+              "les traces d’épices ;",
+              "une altération légère d’un aliment ;",
+              "les différences entre plusieurs préparations similaires ;",
+              "certaines substances inhabituelles présentes dans la nourriture."
+            ]
+          },
+          {
+            "text": "Cette acuité ne permet pas automatiquement d’identifier les propriétés exactes d’un poison ou d’une substance inconnue."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Audition**"
+          },
+          {
+            "text": "L’acuité auditive satranvor est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "entendre un son très faible ;",
+              "localiser précisément un bruit éloigné ;",
+              "isoler une voix dans un environnement bruyant ;",
+              "distinguer plusieurs sons proches ;",
+              "percevoir un bruit à travers un obstacle épais ;",
+              "reconnaître de faibles variations de tonalité."
+            ]
+          },
+          {
+            "text": "Leur audition reste pleinement fonctionnelle pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie satranvor repose fréquemment sur l’endurance, l’adaptation et l’observation des phénomènes élémentaires."
+          },
+          {
+            "text": "Leur Vitalité développée favorise notamment :"
+          },
+          {
+            "items": [
+              "les transformations temporaires ;",
+              "les effets exigeant un maintien corporel ;",
+              "l’adaptation à une énergie reçue ;",
+              "les pratiques sollicitant directement l’organisme ;",
+              "les manifestations qui modifient temporairement leur propre corps ou leur affinité."
+            ]
+          },
+          {
+            "text": "Leur Perception développée facilite :"
+          },
+          {
+            "items": [
+              "l’identification d’une faiblesse ;",
+              "l’observation d’une attaque ;",
+              "l’analyse d’une posture ;",
+              "la reconnaissance d’un changement élémentaire ;",
+              "l’exploitation d’une ouverture critique."
+            ]
+          },
+          {
+            "text": "Leur Psyché diminuée les rend moins naturellement adaptés aux pratiques reposant principalement sur :"
+          },
+          {
+            "items": [
+              "l’affrontement mental direct ;",
+              "la domination psychique ;",
+              "la résistance prolongée aux pressions de l’esprit ;",
+              "l’application volontaire d’états mentaux complexes."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Eau**"
+          },
+          {
+            "text": "L’Eau constitue l’affinité élémentaire recommandée pour les Satranvor."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie satranvor liée à l’Eau se manifeste fréquemment sous la forme du froid et de la glace."
+          },
+          {
+            "text": "Elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une pellicule de givre ;",
+              "de cristaux gelés ;",
+              "d’une brume froide ;",
+              "de glace se développant sur une surface ;",
+              "de gouttes suspendues puis solidifiées ;",
+              "d’un halo violet ou blanc autour du corps ;",
+              "d’une vapeur froide apparaissant au rythme de la respiration."
+            ]
+          },
+          {
+            "text": "Les manifestations satranvor privilégient généralement :"
+          },
+          {
+            "items": [
+              "l’adaptation ;",
+              "la solidification ;",
+              "le ralentissement ;",
+              "la résistance ;",
+              "l’observation ;",
+              "l’exploitation d’une faiblesse."
+            ]
+          },
+          {
+            "text": "L’Eau reste cependant l’élément mécanique de référence. La glace constitue l’une de ses expressions possibles et non un élément distinct."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La principale particularité magique associée aux Satranvor est leur aptitude à la **Mutation Élémentaire**."
+          },
+          {
+            "text": "Lorsqu’elle est volontairement activée, cette mutation place leur organisme dans un état d’adaptation temporaire."
+          },
+          {
+            "text": "Si une attaque magique élémentaire hostile leur fait réellement perdre des PV pendant cette période, leur affinité principale peut être temporairement remplacée par l’élément qui les a blessés."
+          },
+          {
+            "text": "Cette adaptation :"
+          },
+          {
+            "items": [
+              "ne se déclenche pas automatiquement chez tous les Satranvor ;",
+              "nécessite la compétence correspondante ;",
+              "ne modifie pas définitivement l’affinité choisie ;",
+              "ne se déclenche pas sur une attaque qui ne provoque aucune perte réelle de PV."
+            ]
+          },
+          {
+            "text": "Lorsqu’elle se produit, la transformation peut modifier temporairement l’apparence du personnage en fonction de l’élément copié."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage satranvor :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "VITA +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "PERC +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "PSY −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Eau"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. L’Eau constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Mutation Élémentaire",
+                  "A"
+                ],
+                [
+                  "Faille Décisive",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Mutation Élémentaire",
+            "headingLevel": 5,
+            "anchor": "mutation-elementaire",
+            "text": "Cette formation développe la capacité à adapter temporairement son affinité élémentaire à une attaque reçue."
+          },
+          {
+            "text": "Au N1 :"
+          },
+          {
+            "items": [
+              "l’activation demande une action majeure et un jet de VITA ;",
+              "l’état adaptatif reste disponible pendant quatre tours complets ;",
+              "la première attaque magique élémentaire hostile admissible faisant perdre au moins 1 PV déclenche la mutation ;",
+              "l’affinité principale est temporairement remplacée par l’élément ayant infligé les dégâts ;",
+              "l’affinité copiée reste active pendant deux tours, ou quatre en cas de réussite critique à l’activation."
+            ]
+          },
+          {
+            "text": "Les niveaux supérieurs permettent davantage de tentatives par combat et prolongent la durée de l’affinité copiée."
+          },
+          {
+            "title": "Faille Décisive",
+            "headingLevel": 5,
+            "anchor": "faille-decisive",
+            "text": "Cette formation développe la capacité à exploiter plus efficacement une ouverture critique."
+          },
+          {
+            "text": "Le passif doit être activé manuellement pour 1 PF."
+          },
+          {
+            "text": "Il ne modifie pas les chances d’obtenir une réussite critique."
+          },
+          {
+            "text": "Au N1 :"
+          },
+          {
+            "items": [
+              "une réussite critique utilise un multiplicateur de dégâts de `×1,35` ;",
+              "une réussite critique ultime utilise un multiplicateur de dégâts de `×1,65`."
+            ]
+          },
+          {
+            "text": "Ces valeurs remplacent les multiplicateurs critiques ordinaires."
+          },
+          {
+            "text": "La compétence ne s’applique pas :"
+          },
+          {
+            "items": [
+              "aux soins ;",
+              "aux poisons ;",
+              "aux dégâts périodiques ;",
+              "aux dégâts environnementaux ;",
+              "aux pertes directes de ressources ;",
+              "aux effets sans véritable jet offensif."
+            ]
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Mutation Élémentaire ;",
+              "Faille Décisive."
+            ]
+          },
+          {
+            "title": "Réserve naturelle — PV",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-pv",
+            "text": "Votre maximum de **PV** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de PV augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Récupération améliorée — PF",
+            "headingLevel": 5,
+            "anchor": "recuperation-amelioree-pf",
+            "text": "Lorsque vous récupérez des PF grâce à un soin ou à un repos, le montant restauré augmente de **10 %**."
+          },
+          {
+            "text": "Ce bonus s’applique selon les règles générales de Récupération améliorée."
+          },
+          {
+            "title": "Sens aiguisé — Goût",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-gout",
+            "text": "Vous obtenez **+5 en Goût**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la perception gustative."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Satranvor.md",
+    "sourceSha256": "869575ca3bc322469a241cc6f0c1d54f39bb9d04bc54b8ea75807f3bbbfffe6e"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "tamelinas",
+  "type": "plant",
+  "identity": {
+    "name": "Tamelinas",
+    "subtitle": "Arbuste-bosquet des montagnes seches",
+    "unknownName": "Arbuste bas a troncs noueux et fruits epineux",
+    "slug": "tamelinas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tamelinas.png",
+    "visualNote": "Arbuste large forme de plusieurs troncs noueux, avec une cime verte arrondie et des fruits epineux vert-violet.",
+    "tags": [
+      "arbuste",
+      "montagne",
+      "bosquet",
+      "fruits-epineux"
+    ]
+  },
+  "classification": {
+    "category": "arbuste",
+    "family": "buisson",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne seche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "sol caillouteux",
+      "rocaille",
+      "terre pauvre",
+      "terre seche"
+    ],
+    "season": [
+      "redoux",
+      "degel",
+      "premiers froids",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "2 a 7 m",
+    "width": "3 a 10 m",
+    "colorMain": "vert mousse",
+    "colorSecondary": "brun noueux, violet racinaire, vert pale",
+    "distinctiveSigns": [
+      "forme basse et large de bosquet",
+      "plusieurs troncs noueux partant d'une meme base",
+      "branches tordues et entrelacees",
+      "feuillage dense vert mousse",
+      "feuilles ovales a nervures violettes",
+      "ecorce brune rugueuse avec quelques epines",
+      "racines epaisses apparentes",
+      "fruits verts a enveloppe epineuse",
+      "capsules contenant des graines rondes"
+    ],
+    "descriptionShort": "Le Tamelinas est un arbuste montagnard large, noueux et piquant par ses fruits.",
+    "descriptionFull": "Le Tamelinas pousse la ou les arbres hauts resisteraient mal au vent froid. Plusieurs troncs courts et tordus partent d'une base commune, formant un bosquet dense capable d'abriter un sentier ou de stabiliser un talus. Ses fruits vert-violet portent de petites epines, tandis que ses racines s'accrochent fortement dans les fissures rocheuses."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les fruits et certains rameaux peuvent piquer lors d'un contact direct."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Tamelinas donne surtout du bois courbe, utile aux petites pieces rustiques, aux poignees et au combustible de montagne."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

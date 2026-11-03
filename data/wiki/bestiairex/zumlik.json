@@ -1,0 +1,30 @@
+{
+  "id": "zumlik",
+  "type": "creature-public",
+  "identity": {
+    "name": "Zumlik",
+    "subtitle": "Le Chasseur Maladroit",
+    "tags": [
+      "sauvage",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Zumlik vit principalement dans les forêts tempérées, les lisières, les clairières, les sous-bois et les herbes hautes. Il recherche les zones riches en insectes, qui constituent l’intégralité de son régime. Sa petite taille, sa vitesse et ses bonds fréquents lui permettent de se déplacer rapidement, même si sa maladresse le rend vulnérable."
+          },
+          {
+            "text": "Le Zumlik est une petite créature colorée aux tons rouges et violets, parsemée de taches arrondies. Sa silhouette est allongée, avec un long cou et une queue fine. Sa colonne vertébrale dépasse sous forme de petites pointes visibles du sommet du crâne jusqu’au bout de la queue. Autour de son cou, une masse de peau pendante forme une crinière molle. Il possède un seul œil protubérant au sommet de la tête. Sa large bouche, dépourvue de dents, laisse apparaître une longue langue collante utilisée pour capturer les insectes."
+          },
+          {
+            "text": "Les Zumlik vivent en petits groupes hiérarchisés, avec un leader identifiable. Leur cohésion semble surtout servir à repérer les zones riches en insectes et à réagir collectivement aux menaces."
+          }
+        ]
+      }
+    ]
+  }
+}

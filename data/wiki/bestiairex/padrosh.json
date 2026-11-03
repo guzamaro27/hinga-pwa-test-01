@@ -1,0 +1,34 @@
+{
+  "id": "padrosh",
+  "type": "creature-public",
+  "identity": {
+    "name": "Padrosh",
+    "subtitle": "Le Coursier du Vent",
+    "tags": [
+      "domestique",
+      "monture",
+      "course",
+      "transport",
+      "elevage",
+      "prestige"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Padrosh vit principalement dans les plaines ouvertes, les régions tempérées, les routes commerciales et les territoires domestiqués. Herbivore, il se nourrit d’herbes, de feuilles basses, de céréales et de plantes riches en fibres. Sa morphologie fine, ses longues pattes et sa musculature sèche en font une monture de course recherchée, particulièrement utile pour les messagers, les courses et les voyageurs disposant d’un dressage adapté."
+          },
+          {
+            "text": "Le Padrosh est une monture élancée et nerveuse, connue pour sa vitesse exceptionnelle. Son corps long et fin possède une musculature sèche parfaitement adaptée à la course. Ses longues pattes fines terminées par des sabots étroits lui permettent d’atteindre de grandes vitesses sur des terrains fermes. Son cou long soutient une tête étroite, surmontée de deux cornes fines légèrement recourbées. Son pelage est court et dense, généralement dans des teintes sable, brunes ou beige clair. Certaines lignées présentent des couleurs plus marquées comme le roux profond ou le brun sombre. La crinière et la queue sont composées de longues plumes légères. Lorsqu’il court, ces plumes se déploient vers l’arrière comme un panache fluide. Cette silhouette élégante et dynamique donne au Padrosh une allure noble et spectaculaire."
+          },
+          {
+            "text": "Le Padrosh vit seul ou en petits groupes selon les lignées et les conditions d’élevage. Sa reproduction est généralement contrôlée dans des haras spécialisés, où les lignées sont sélectionnées pour la vitesse, l’endurance, la couleur des plumes et la stabilité du tempérament."
+          }
+        ]
+      }
+    ]
+  }
+}

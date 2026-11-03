@@ -1,0 +1,106 @@
+{
+  "id": "rules.flux-magique",
+  "type": "codex",
+  "identity": {
+    "name": "Flux magique — Kaërion et Sérimoth",
+    "subtitle": "Polarité des actions magiques",
+    "icon": "↕",
+    "tags": [
+      "Flux magique — Kaërion et Sérimoth",
+      "flux",
+      "Kaërion",
+      "Sérimoth",
+      "polarité"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/magic-flux-polarity.mjs",
+    "module/data/states_data.mjs"
+  ],
+  "mechanics": {
+    "range": [
+      -4,
+      4
+    ],
+    "momentumThresholds": {
+      "positive": 3,
+      "negative": 3
+    },
+    "stateIds": {
+      "1": "etat_fremissement_flux",
+      "2": "etat_resonance_arcane",
+      "3": "etat_deferlement_ka",
+      "4": "etat_kaerion",
+      "-4": "etat_silence_arcanique",
+      "-3": "etat_chute_flux",
+      "-2": "etat_dephasage_eth",
+      "-1": "etat_frisson_essence"
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Polarité",
+        "value": "De −4 à +4"
+      },
+      {
+        "label": "Élan",
+        "value": "3 points par défaut pour changer de palier"
+      },
+      {
+        "label": "Variation",
+        "value": "+2/+1/0/−1/−2 selon le résultat"
+      }
+    ],
+    "links": [
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Progression",
+        "blocks": [
+          {
+            "text": "Une réussite critique ultime donne +2, une réussite critique +1, un résultat normal 0, un échec critique −1 et un échec critique ultime −2. Quand l’élan atteint le seuil positif ou négatif, la polarité avance d’un palier."
+          }
+        ]
+      },
+      {
+        "label": "Actions prises en compte",
+        "blocks": [
+          {
+            "text": "Le suivi concerne les véritables actions magiques qualifiées par leur contexte. Les défenses magiques et étapes intermédiaires exclues ne déplacent pas le flux."
+          }
+        ]
+      },
+      {
+        "label": "Paliers",
+        "blocks": [
+          {
+            "text": "Chaque valeur non nulle applique l’état canonique correspondant. Consultez le catalogue des états pour son libellé, sa durée et ses effets exacts. Le suivi se réinitialise selon le cycle de combat prévu."
+          }
+        ]
+      }
+    ]
+  }
+}

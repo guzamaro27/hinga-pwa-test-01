@@ -1,0 +1,87 @@
+{
+  "id": "stat-etiquette-diplomatique",
+  "type": "codex",
+  "identity": {
+    "name": "Étiquette Diplomatique",
+    "subtitle": "Action spéciale de CHAR",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [{
+          "title": "Contexte à désigner",
+          "items": [
+            "Clic droit sur CHAR après activation de la compétence.",
+            "Désignez un interlocuteur, une autorité, une institution ou un groupe codifié.",
+            "Le contexte doit posséder un protocole formel reconnu ; un simple commerce ordinaire ne suffit pas.",
+            "Une tentative est disponible par autorité et par scène. Elle est consommée lorsque le jet est lancé.",
+            "Aucune zone géométrique ni portée métrique ne s’applique."
+          ]
+        }]
+      },
+      {
+        "label": "Jet",
+        "blocks": [{
+          "title": "CHAR AV1",
+          "items": [
+            "Le jet sert à comprendre et appliquer le protocole ; il ne remplace jamais Marchander.",
+            "Une réussite crée Protocole maîtrisé pour l’autorité désignée jusqu’à la fin de l’échange, au plus tard jusqu’à la fin de la scène.",
+            "Un échec ne crée ni effet, ni accès garanti, ni sanction sociale automatique."
+          ]
+        }]
+      },
+      {
+        "label": "Protocole maîtrisé",
+        "blocks": [
+          {
+            "title": "Usages et accès",
+            "items": [
+              "Permet de reconnaître les titres, préséances, usages manifestes, faux pas évidents et tensions protocolaires observables.",
+              "Le MJ peut lever un obstacle reposant uniquement sur la méconnaissance des usages.",
+              "Ne crée aucune autorisation, invitation, clé, permission physique, concession majeure ou disposition favorable forcée."
+            ]
+          },
+          {
+            "title": "Limites de la lecture sociale",
+            "items": [
+              "Ne révèle pas automatiquement les pensées, mensonges, complots, intentions secrètes, notes MJ ou influences mentales cachées.",
+              "Un indice communiqué par le MJ doit reposer sur un signe protocolaire réellement observable."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Marchander",
+        "blocks": [{
+          "title": "Protocole diplomatique (+1)",
+          "items": [
+            "Variante explicite disponible seulement tant que Protocole maîtrisé est valide et pour la même autorité.",
+            "Accorde exactement +1 niveau pour une faveur, un accès, une audience, une concession, une autorisation, un privilège, un soutien, un avantage institutionnel ou une transaction formelle régie par le protocole.",
+            "La variante demande le type de requête, une justification brève et la confirmation que le protocole est respecté.",
+            "Aucun AV1 supplémentaire n’est accordé. Le niveau final de Marchander reste plafonné à 5.",
+            "La variante est refusée pour le commerce ordinaire, une autre autorité ou une violation volontaire du protocole."
+          ]
+        }]
+      },
+      {
+        "label": "Critique",
+        "blocks": [{
+          "title": "Choix du MJ",
+          "items": [
+            "Sur critique ou critique ultime, le MJ choisit entre une faveur mineure implicite et une marque de respect durable liée à l’autorité.",
+            "La faveur reste proportionnée et ne contraint jamais l’autorité à une concession majeure.",
+            "La marque de respect n’accorde aucun bonus chiffré automatique et peut être retirée en cas d’offense ou de trahison.",
+            "Le critique ultime offre le même choix, sans bénéfice implicite supplémentaire."
+          ]
+        }]
+      }
+    ]
+  }
+}

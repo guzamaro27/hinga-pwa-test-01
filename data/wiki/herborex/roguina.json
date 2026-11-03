@@ -1,0 +1,93 @@
+{
+  "id": "roguina",
+  "type": "plant",
+  "identity": {
+    "name": "Roguina",
+    "subtitle": "Herbe des roches sèches",
+    "unknownName": "Herbe aromatique verte à pointes pâles et nervures violettes",
+    "slug": "roguina",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Roguina.png",
+    "visualNote": "Herbe aromatique en touffe ramifiée, avec nombreuses tiges fines vert sombre, petites feuilles serrées et fleurs pâles veinées de violet.",
+    "tags": [
+      "aromatique",
+      "roche",
+      "epice"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "aromatique",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne sèche froide",
+      "steppe sèche chaude",
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "rocaille",
+      "sol caillouteux",
+      "terre sèche"
+    ],
+    "season": [
+      "retour des pluies",
+      "floraison",
+      "saison sèche"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "25 à 90 cm",
+    "width": "25 à 80 cm",
+    "colorMain": "vert sombre",
+    "colorSecondary": "violet, brun, blanc crème",
+    "distinctiveSigns": [
+      "touffe très ramifiée depuis une souche centrale",
+      "nombreuses tiges fines dressées ou arquées",
+      "petites feuilles ovales serrées le long des tiges",
+      "nervures violettes discrètes sur les feuilles",
+      "fleurs pâles au bout des rameaux",
+      "capsules vertes à violettes",
+      "parfum sec, chaud et résineux quand les feuilles sont froissées"
+    ],
+    "descriptionShort": "La Roguina est une herbe aromatique de rocaille sèche aux petites feuilles sombres.",
+    "descriptionFull": "La Roguina forme des touffes denses dans les terrains secs, caillouteux et bien exposés. Ses petites feuilles sombres dégagent une odeur chaude lorsqu'on les froisse, et ses fleurs pâles apparaissent au bout des rameaux pendant les périodes favorables. La plante reste basse, robuste, et repousse bien tant que la souche n'est pas arrachée."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "feuille-roguina",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "// TODO_LINK: à lier plus tard avec l'objet ingrédient feuille-roguina"
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "infusion",
+      "parfum",
+      "semis"
+    ],
+    "notes": "Cette plante pourrait devenir la source de l'ingrédient Roguina; la partie récoltée serait surtout la feuille, avec les sommités fleuries."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

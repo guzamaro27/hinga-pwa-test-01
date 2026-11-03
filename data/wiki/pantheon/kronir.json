@@ -1,0 +1,174 @@
+{
+  "id": "kronir",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Kronir",
+    "subtitle": "Le Gardien du Temps",
+    "tags": [
+      "Kronir",
+      "Le Gardien du Temps",
+      "esprit majeur",
+      "Temps",
+      "Rites Funéraires",
+      "Vieillesse",
+      "Jeunesse",
+      "Vitesse",
+      "Patience",
+      "Impatience Fortuite",
+      "Gain temporaire de vitesse"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#6A5E4C",
+    "visualNote": "Temps • Rites Funéraires • Vieillesse • Jeunesse • Vitesse • Patience"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "kronir",
+    "name": "Kronir",
+    "title": "Le Gardien du Temps",
+    "type": "esprit_majeur",
+    "domains": [
+      "Temps",
+      "Rites Funéraires",
+      "Vieillesse",
+      "Jeunesse",
+      "Vitesse",
+      "Patience"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "great_moon_cycle",
+      "label": "Chaque cycle lunaire de la plus grande lune"
+    },
+    "cult": {
+      "short": "Rester immobile dans un cercle",
+      "ritual": "Tracer un cercle symbolique au sol et y rester immobile pendant quelques minutes."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le contrôle du temps est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "impatience_fortuite": {
+        "key": "impatience_fortuite",
+        "name": "Impatience Fortuite",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Gain temporaire de vitesse",
+        "fullDescription": "Une fois par cycle, peut gagner un bonus de +2 en Vitesse ou Réaction pour un tour, ou agir en premier sur une scène.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#6A5E4C",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Temps",
+              "Rites Funéraires",
+              "Vieillesse",
+              "Jeunesse",
+              "Vitesse",
+              "Patience"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Rester immobile dans un cercle"
+          },
+          {
+            "title": "Rituel",
+            "text": "Tracer un cercle symbolique au sol et y rester immobile pendant quelques minutes."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Chaque cycle lunaire de la plus grande lune"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "great_moon_cycle"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Impatience Fortuite (améliorée, actif)",
+              "Effet court : Gain temporaire de vitesse",
+              "Description : Une fois par cycle, peut gagner un bonus de +2 en Vitesse ou Réaction pour un tour, ou agir en premier sur une scène.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le contrôle du temps est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "kronir"
+  }
+}

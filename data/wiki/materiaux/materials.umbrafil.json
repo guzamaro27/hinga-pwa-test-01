@@ -1,0 +1,241 @@
+{
+  "id": "materials.umbrafil",
+  "type": "material",
+  "identity": {
+    "name": "Umbrafil",
+    "subtitle": "Textiles · Magique",
+    "icon": "◆",
+    "tags": [
+      "umbrafil",
+      "Umbrafil",
+      "textile",
+      "Textiles",
+      "magique",
+      "Magique",
+      "Fibre d’ombre",
+      "Noir absolu, absorbe la lumière",
+      "Tissu qui réduit fortement les reflets et la silhouette visuelle.",
+      "Ténèbres",
+      "magical",
+      "Exceptionnel",
+      "Capes de furtivité",
+      "occultation",
+      "rituels d’ombre",
+      "ombre",
+      "mage",
+      "trésor majeur",
+      "cache",
+      "contrebande"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 10
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "umbrafil",
+    "family": "textile",
+    "weaponProfile": "magical",
+    "weaponTier": 4,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Magique"
+      },
+      {
+        "label": "Rareté",
+        "value": 10
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "4 — Exceptionnel"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre d’ombre"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir absolu, absorbe la lumière"
+          },
+          {
+            "title": "Description",
+            "text": "Tissu qui réduit fortement les reflets et la silhouette visuelle."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "5"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Exceptionnelle (5)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "5"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Ténèbres"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Dissimulation optique exceptionnelle sur un objet fini."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Réagit mal aux sources lumineuses intenses",
+              "commerce surveillé."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Capes de furtivité",
+              "occultation",
+              "rituels d’ombre"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "4 — Exceptionnel"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "ombre",
+              "mage",
+              "trésor majeur",
+              "cache",
+              "contrebande"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "5000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.65"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Trésor majeur"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "1"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "perception/ténèbres"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_tenebres_obscurci_t1",
+              "etat_tenebres_obscurci",
+              "etat_tenebres_obscurci_t3",
+              "etat_tenebres_obscurci_t4"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

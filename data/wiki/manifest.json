@@ -250,5 +250,129 @@
   {
     "path": "data/wiki/fiche-personnage/invocations.json",
     "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/peuplex/peuplex.guide-creation.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/amdalar.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/anioma.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/arionar.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/befoni.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/borors.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/epektrior.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/erounmer.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/esia.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/fahoma.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/farlin.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/filiaen.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/fona.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/houlvar.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/iegoma.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/jounaril.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/kai.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/kalmani.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/karzak.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/kifirt.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/kreun.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/latchari.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/loenmer.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/magoma.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/marnasa.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/nanjao.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/oni.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/pashran.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/rogmandar.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/satranvor.json",
+    "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/peuplex/wijilia.json",
+    "section": "peuplex"
   }
 ]

@@ -1,0 +1,236 @@
+{
+  "id": "materials.konjir",
+  "type": "material",
+  "identity": {
+    "name": "Konjir",
+    "subtitle": "Métaux · Alliage",
+    "icon": "◆",
+    "tags": [
+      "konjir",
+      "Konjir",
+      "metal",
+      "Métaux",
+      "alliage",
+      "Alliage",
+      "Konir + Tanji; proportions à définir",
+      "Orange clair",
+      "Alliage lourd, économique et facile à produire.",
+      "Métal",
+      "physical",
+      "Physique",
+      "Faible",
+      "Armures communes",
+      "plaques",
+      "renforts",
+      "forgeron",
+      "armurerie",
+      "caisse",
+      "marchand"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 2
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "konjir",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Alliage"
+      },
+      {
+        "label": "Rareté",
+        "value": 2
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Konir + Tanji; proportions à définir"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Orange clair"
+          },
+          {
+            "title": "Description",
+            "text": "Alliage lourd, économique et facile à produire."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "4"
+          },
+          {
+            "title": "Masse relative",
+            "text": "4"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Réfractaire (-1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "-1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Meilleure robustesse que ses composants les plus tendres."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Corrosion et faible stabilité magique."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armures communes",
+              "plaques",
+              "renforts"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "forgeron",
+              "armurerie",
+              "caisse",
+              "marchand"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "10"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.65"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Pauvre"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "80"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "dégradation/métal"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_metal_marque_t1"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

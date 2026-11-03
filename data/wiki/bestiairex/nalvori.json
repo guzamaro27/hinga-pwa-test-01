@@ -1,0 +1,34 @@
+{
+  "id": "nalvori",
+  "type": "creature-public",
+  "identity": {
+    "name": "Nalvori",
+    "subtitle": "Le Veilleur aux Veines Bleues",
+    "tags": [
+      "sauvage",
+      "arboricole",
+      "magique",
+      "vigilant",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Nalvori vit principalement dans les forêts denses, les canopées basses et les réseaux de branches épaisses. Il se déplace avec agilité entre les troncs, les lianes naturelles et les racines aériennes, utilisant sa longue queue comme appui, balancier et point d’accroche. Omnivore opportuniste, il consomme des fruits, des insectes, de petites proies arboricoles et des œufs trouvés dans les hauteurs. Ses veinures bleutées semblent s’intensifier lorsqu’il est actif, inquiet ou prêt à fuir."
+          },
+          {
+            "text": "Le Nalvori est une créature arboricole fine et nerveuse, couverte d’un pelage brun, beige et gris sombre. Son corps souple est porté par de longs membres capables de s’agripper aux branches avec précision. Ses mains, presque aussi expressives que son regard, possèdent des doigts allongés terminés par des griffes courtes. Sa tête présente un museau court, de grands yeux dorés à pupille verticale et une crinière sombre légèrement hérissée sur la nuque. Sa longue queue spiralée est son trait le plus visible : elle l’aide à garder l’équilibre, à ralentir une chute ou à se stabiliser lors d’un bond. De fines lignes bleutées parcourent son corps, sa queue et le contour de ses yeux. Ces marques semblent liées à un organe interne lumineux placé au centre du tronc."
+          },
+          {
+            "text": "Le Nalvori vit seul ou en petits groupes familiaux. Les abris sont généralement placés dans des cavités de branches, des troncs creux ou des amas végétaux élevés. Les jeunes restent longtemps proches des adultes, car leur queue et leurs mains ne deviennent réellement efficaces qu’après une longue période d’apprentissage."
+          }
+        ]
+      }
+    ]
+  }
+}

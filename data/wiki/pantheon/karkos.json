@@ -1,0 +1,182 @@
+{
+  "id": "karkos",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Karkos",
+    "subtitle": "L’Ouragan du Changement",
+    "tags": [
+      "Karkos",
+      "L’Ouragan du Changement",
+      "esprit majeur",
+      "Chaos",
+      "Révolution",
+      "Folie",
+      "Inconsistance",
+      "Mutation",
+      "Rage",
+      "Changement",
+      "Chaos Imprévisible",
+      "Annule un bonus ou malus"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#7A3E6D",
+    "visualNote": "Chaos • Révolution • Folie • Inconsistance • Mutation • Rage • Changement"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "karkos",
+    "name": "Karkos",
+    "title": "L’Ouragan du Changement",
+    "type": "esprit_majeur",
+    "domains": [
+      "Chaos",
+      "Révolution",
+      "Folie",
+      "Inconsistance",
+      "Mutation",
+      "Rage",
+      "Changement"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "red_moon",
+      "label": "À chaque lune rouge"
+    },
+    "cult": {
+      "short": "Marcher à reculons",
+      "ritual": "Marcher à reculons pendant une dizaine de minutes, sans pouvoir se retourner."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le chaos libéré par Karkos est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "chaos_imprevisible": {
+        "key": "chaos_imprevisible",
+        "name": "Chaos Imprévisible",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Annule un bonus ou malus",
+        "fullDescription": "Une fois par cycle de dévotion, peut annuler un malus ou un bonus sur un de ses jets.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "incompatibilities": [
+      "gaaken"
+    ],
+    "ui": {
+      "color": "#7A3E6D",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Chaos",
+              "Révolution",
+              "Folie",
+              "Inconsistance",
+              "Mutation",
+              "Rage",
+              "Changement"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Marcher à reculons"
+          },
+          {
+            "title": "Rituel",
+            "text": "Marcher à reculons pendant une dizaine de minutes, sans pouvoir se retourner."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lune rouge"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "red_moon"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Chaos Imprévisible (améliorée, actif)",
+              "Effet court : Annule un bonus ou malus",
+              "Description : Une fois par cycle de dévotion, peut annuler un malus ou un bonus sur un de ses jets.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le chaos libéré par Karkos est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "gaaken"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "karkos"
+  }
+}

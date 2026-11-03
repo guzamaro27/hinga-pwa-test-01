@@ -1,0 +1,59 @@
+{
+  "id": "afflictions.guide-systeme",
+  "type": "affliction",
+  "identity": {
+    "name": "Système des Afflictions",
+    "subtitle": "Guide réservé au MJ",
+    "icon": "◇",
+    "tags": [
+      "affliction",
+      "MJ",
+      "transformation",
+      "progression"
+    ]
+  },
+  "classification": {
+    "category": "affliction"
+  },
+  "sources": [
+    "module/engine/afflictions/registry.mjs",
+    "module/engine/afflictions/affliction-manager.mjs",
+    "module/engine/afflictions/affliction-runtime.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Objet",
+        "value": "Guide réservé au MJ"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Principe",
+        "blocks": [
+          {
+            "text": "Une Affliction est un ensemble de règles possédé par un acteur. Elle peut fournir une activation, une transformation, des aptitudes, une progression ou des attaques spéciales."
+          }
+        ]
+      },
+      {
+        "label": "Registre",
+        "blocks": [
+          {
+            "text": "Le registre actuel comprend Béfoni, Falstanie, Thérianthropie, Vampirisme et Démon. Chaque entrée conserve ses propres conditions et effets."
+          }
+        ]
+      },
+      {
+        "label": "Confidentialité",
+        "blocks": [
+          {
+            "text": "Cette section est réservée au MJ. Les joueurs ne reçoivent que les informations que leur fiche ou le MJ rend visibles."
+          }
+        ]
+      }
+    ]
+  }
+}

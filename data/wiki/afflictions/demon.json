@@ -1,0 +1,1703 @@
+{
+  "id": "demon",
+  "type": "affliction",
+  "identity": {
+    "name": "Démon",
+    "subtitle": "Version 1.0 · Cinq rangs · ESO / ARC / PSY",
+    "slug": "demon",
+    "tags": [
+      "affliction",
+      "démoniaque",
+      "Démoniaque",
+      "mental",
+      "magie"
+    ]
+  },
+  "classification": {
+    "category": "Affliction",
+    "family": "Affliction démoniaque"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Périmètre d’intégration",
+        "anchor": "integration",
+        "blocks": [
+          {
+            "text": "Démon v1.0 : page MJ, fiche acteur, achat des rangs et satellites, prérequis et modificateurs permanents intégrés. Les activations de satellites restent manuelles : aucune portée, durée de prison, action ou dépense non validée n'est automatisée."
+          },
+          {
+            "text": "Acquisition : tarif commun provisoire de 2 points par achat, hérité du registre des Aptitudes d'Affliction, dans l'attente d'une tarification démoniaque. Atteindre un rang n'accorde aucun satellite gratuitement. La tarification définitive reste un point ouvert de la conception."
+          }
+        ]
+      },
+      {
+        "label": "1. Identité et apparence",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "title": "1.1. Concept général",
+            "headingLevel": 4,
+            "text": "Le démon est un être sournois, trompeur et opportuniste, de type *trickster*. Ses pouvoirs reposent principalement sur le mental et la magie."
+          },
+          {
+            "text": "Il privilégie la tromperie, la perturbation, la contrainte et la domination plutôt que la force brute. Il fausse l’identité que les autres lui prêtent, dérègle leurs repères, impose des obstacles et suspend leur capacité d’agir."
+          },
+          {
+            "text": "Sa progression comporte cinq rangs. Chaque rang apporte des bonus et des contreparties ; à partir du rang 2, il ouvre également l’accès à des capacités satellites à acheter."
+          },
+          {
+            "title": "1.2. Les trois axes",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Axe",
+                "Fonction dans l’affliction"
+              ],
+              "rows": [
+                [
+                  "ESO",
+                  "Copier une apparence et une signature magique par le mimétisme."
+                ],
+                [
+                  "ARC",
+                  "Perturber l’espace, repousser, créer des obstacles et emprisonner."
+                ],
+                [
+                  "PSY",
+                  "Tromper l’esprit, influencer, manipuler et suspendre la capacité d’agir."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "PSY et ARC constituent les deux voies de spécialisation offensive et de contrôle. ESO porte le mimétisme et reçoit des gains communs aux rangs supérieurs."
+          },
+          {
+            "title": "1.3. Combattre ou fuir",
+            "headingLevel": 4,
+            "text": "Lorsqu’il se sent inférieur, le démon tend à fuir sans hésitation. Sa survie prime sur l’obligation de tenir sa position ou de livrer un combat défavorable."
+          },
+          {
+            "text": "Cette tendance définit son identité. Elle ne constitue pas une règle de fuite forcée retirant au joueur ses décisions."
+          },
+          {
+            "text": "Les deux satellites du rang maximal expriment cette dualité :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Satellite",
+                "Fonction principale"
+              ],
+              "rows": [
+                [
+                  "Onde dimensionnelle",
+                  "Créer un bref intervalle de désorganisation pour prendre la fuite."
+                ],
+                [
+                  "Géhenne",
+                  "Enfermer les cibles et leur imposer une captivité consciente."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "1.4. Apparence démoniaque",
+            "headingLevel": 4,
+            "text": "Les manifestations démoniaques s’accentuent avec les rangs. Elles ne constituent pas une transformation que le personnage active et désactive librement."
+          },
+          {
+            "text": "Les caractéristiques générales comprennent les cornes, la queue et des traits du visage plus marqués ou anguleux. Un aspect fatigué et des griffes sombres restent des possibilités esthétiques, sans être imposés à chaque démon."
+          },
+          {
+            "text": "Aucune silhouette unique n’est obligatoire. Les démons peuvent être effilés, nerveux, massifs ou présenter d’autres morphologies. Le corps trapu n’est pas une caractéristique générale de l’affliction."
+          },
+          {
+            "text": "Chaque personnage possède sa propre expression de ces traits. Leur apparition et leur intensification précises à chaque rang restent à définir."
+          },
+          {
+            "text": "Aucun bonus de force, attaque naturelle ou dégât de griffes n’est automatiquement déduit de l’apparence."
+          },
+          {
+            "title": "1.5. Morphologie d’origine et Pashran",
+            "headingLevel": 4,
+            "text": "Les manifestations s’adaptent au peuple d’origine. Des cornes ou une queue déjà présentes peuvent être altérées ; l’affliction ne prévoit pas d’ajout automatique d’appendices en double."
+          },
+          {
+            "text": "Les Pashran, descendants de démons, peuvent accéder à l’affliction démoniaque dès la création du personnage. Cette possibilité ne signifie pas que tous les Pashran possèdent automatiquement l’affliction."
+          }
+        ]
+      },
+      {
+        "label": "2. Acquisition, rangs et choix",
+        "anchor": "acquisition",
+        "blocks": [
+          {
+            "title": "2.1. Points d’affliction",
+            "headingLevel": 4,
+            "text": "L’affliction utilise les points d’affliction, actuellement les points de compétence, comme les autres afflictions."
+          },
+          {
+            "text": "Les modalités communes aux afflictions servent de cadre. Les prix exacts des rangs et des satellites ne sont pas chiffrés dans cette version."
+          },
+          {
+            "title": "2.2. Hiérarchie des rangs",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Rang",
+                "Nom"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Suppôt"
+                ],
+                [
+                  "2",
+                  "Tentateur"
+                ],
+                [
+                  "3",
+                  "Corrupteur"
+                ],
+                [
+                  "4",
+                  "Dominateur"
+                ],
+                [
+                  "5",
+                  "Seigneur"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le cinquième et dernier rang s’intitule simplement Seigneur."
+          },
+          {
+            "title": "2.3. Déblocage et achat des satellites",
+            "headingLevel": 4,
+            "text": "Atteindre un rang débloque la possibilité d’acheter ses satellites. Cela ne les accorde pas gratuitement."
+          },
+          {
+            "text": "Lorsqu’un choix est exclusif, les options sont des alternatives : débloquer plusieurs possibilités n’autorise pas à toutes les acheter."
+          },
+          {
+            "table": {
+              "headers": [
+                "Rang atteint",
+                "Accès ouvert à l’achat",
+                "Règle de choix"
+              ],
+              "rows": [
+                [
+                  "1 — Suppôt",
+                  "Aucun satellite.",
+                  "—"
+                ],
+                [
+                  "2 — Tentateur",
+                  "Satellite 1 : Mimétisme.",
+                  "Accessible après un choix ESO, PSY ou ARC au rang 2."
+                ],
+                [
+                  "3 — Corrupteur",
+                  "Satellite 2 : perturbation offensive PSY ou ARC.",
+                  "Seule la version correspondant à la statistique choisie au rang 3 est accessible."
+                ],
+                [
+                  "4 — Dominateur",
+                  "Satellite 3 : spécialisation.",
+                  "Une seule capacité parmi les deux de la voie choisie au rang 4."
+                ],
+                [
+                  "5 — Seigneur",
+                  "Satellite 4 : Onde dimensionnelle et satellite 5 : Géhenne.",
+                  "Deux achats distincts, sans exclusion entre les deux."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "2.4. Indépendance entre les rangs",
+            "headingLevel": 4,
+            "text": "Le choix statistique d’un rang limite, lorsque cela s’applique, les satellites accessibles à ce rang seulement. Il n’impose pas une spécialisation définitive."
+          },
+          {
+            "text": "Un démon peut donc choisir ARC au rang 2 puis PSY au rang 3. Le second choix ne modifie pas rétroactivement le premier. Les capacités déjà acquises restent celles de ses choix antérieurs."
+          },
+          {
+            "text": "Au rang 4, les alternatives sont les suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Choix statistique au rang 4",
+                "Satellites 3 accessibles",
+                "Limite"
+              ],
+              "rows": [
+                [
+                  "ARC",
+                  "Mur invisible OU Écran de fuite.",
+                  "Une seule des deux capacités."
+                ],
+                [
+                  "PSY",
+                  "Mimétisme accru OU Manipulation mentale.",
+                  "Une seule des deux capacités."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "2.5. Exception commune du mimétisme",
+            "headingLevel": 4,
+            "text": "Le mimétisme constitue le socle commun du rang 2. Il utilise ESO, mais son achat n’est pas réservé aux personnages ayant choisi ESO à ce rang."
+          },
+          {
+            "text": "Cette exception ne supprime pas les restrictions locales des rangs 3 et 4."
+          }
+        ]
+      },
+      {
+        "label": "3. Bonus et contreparties",
+        "anchor": "progression",
+        "blocks": [
+          {
+            "title": "3.1. Règle de cumul",
+            "headingLevel": 4,
+            "text": "Les valeurs indiquées sont les gains et malus ajoutés lors de l’acquisition de chaque rang, et non les valeurs finales du personnage."
+          },
+          {
+            "text": "Les gains et contreparties des rangs précédents sont conservés. Le rang 5 ne remplace ni n’efface les malus déjà acquis."
+          },
+          {
+            "title": "3.2. Rang 1 — Suppôt",
+            "headingLevel": 4,
+            "text": "Choisir une seule orientation parmi les trois suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Orientation",
+                "Bonus",
+                "Malus associé"
+              ],
+              "rows": [
+                {
+                  "anchor": "rang1Eso",
+                  "cells": [
+                    "ESO",
+                    "+10 ESO",
+                    "−5 à chacune des cinq autres perceptions."
+                  ]
+                },
+                {
+                  "anchor": "rang1Psy",
+                  "cells": [
+                    "PSY",
+                    "+10 PSY",
+                    "−10 VITA."
+                  ]
+                },
+                {
+                  "anchor": "rang1Arc",
+                  "cells": [
+                    "ARC",
+                    "+10 ARC",
+                    "−10 FOR."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Satellite accessible : aucun."
+          },
+          {
+            "title": "3.3. Rang 2 — Tentateur",
+            "headingLevel": 4,
+            "text": "Choisir une seule orientation parmi les trois suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Orientation",
+                "Bonus",
+                "Malus associé"
+              ],
+              "rows": [
+                {
+                  "anchor": "rang2Eso",
+                  "cells": [
+                    "ESO",
+                    "+5 ESO",
+                    "−5 à chacune des cinq autres perceptions."
+                  ]
+                },
+                {
+                  "anchor": "rang2Psy",
+                  "cells": [
+                    "PSY",
+                    "+5 PSY",
+                    "−5 VITA."
+                  ]
+                },
+                {
+                  "anchor": "rang2Arc",
+                  "cells": [
+                    "ARC",
+                    "+5 ARC",
+                    "−5 FOR."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Satellite accessible à l’achat : Mimétisme, quelle que soit l’orientation choisie."
+          },
+          {
+            "title": "3.4. Précision sur les cinq autres perceptions",
+            "headingLevel": 4,
+            "text": "Les perceptions concernées sont VIS, AUD, OLF, TAC et GUS. Chacune reçoit le malus indiqué."
+          },
+          {
+            "text": "ESO et la statistique PERC générale ne reçoivent pas directement ce malus. Il ne faut donc pas remplacer cette règle par un malus à PERC générale."
+          },
+          {
+            "text": "Choisir ESO aux rangs 1 et 2 produit, par cumul, −10 VIS, −10 AUD, −10 OLF, −10 TAC et −10 GUS."
+          },
+          {
+            "title": "3.5. Rang 3 — Corrupteur",
+            "headingLevel": 4,
+            "text": "Bonus commun : +5 ESO."
+          },
+          {
+            "text": "Choisir une seule voie :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Voie",
+                "Bonus",
+                "Malus associé",
+                "Dégâts supplémentaires"
+              ],
+              "rows": [
+                {
+                  "anchor": "rang3Psy",
+                  "cells": [
+                    "PSY",
+                    "+5 PSY",
+                    "−5 DEM",
+                    "+1 dégât mental."
+                  ]
+                },
+                {
+                  "anchor": "rang3Arc",
+                  "cells": [
+                    "ARC",
+                    "+5 ARC",
+                    "−5 CONST",
+                    "+1 dégât magique."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Satellite accessible à l’achat : version PSY ou ARC du satellite 2, correspondant au choix de ce rang."
+          },
+          {
+            "text": "Le bonus commun de +5 ESO n’est pas un nouveau choix ESO : il ne provoque aucun malus supplémentaire aux perceptions."
+          },
+          {
+            "title": "3.6. Rang 4 — Dominateur",
+            "headingLevel": 4,
+            "text": "Bonus commun : +5 ESO."
+          },
+          {
+            "text": "Choisir une seule voie :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Voie",
+                "Bonus",
+                "Malus associé",
+                "Dégâts supplémentaires",
+                "Résistance supplémentaire"
+              ],
+              "rows": [
+                {
+                  "anchor": "rang4Psy",
+                  "cells": [
+                    "PSY",
+                    "+5 PSY",
+                    "−5 DEM",
+                    "+1 dégât mental.",
+                    "+2 résistance mentale."
+                  ]
+                },
+                {
+                  "anchor": "rang4Arc",
+                  "cells": [
+                    "ARC",
+                    "+5 ARC",
+                    "−5 CONST",
+                    "+1 dégât magique.",
+                    "+2 résistance magique."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Satellite accessible à l’achat : une seule capacité du satellite 3, parmi les deux de la voie choisie à ce rang."
+          },
+          {
+            "text": "Le bonus commun de +5 ESO ne provoque aucun malus supplémentaire aux perceptions."
+          },
+          {
+            "title": "3.7. Rang 5 — Seigneur",
+            "headingLevel": 4,
+            "text": "Rang maximal. Tous les gains suivants sont obtenus ensemble :",
+            "anchor": "rang5Seigneur"
+          },
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Gain ou malus ajouté au rang 5"
+              ],
+              "rows": [
+                [
+                  "ESO",
+                  "+5"
+                ],
+                [
+                  "ARC",
+                  "+5"
+                ],
+                [
+                  "PSY",
+                  "+5"
+                ],
+                [
+                  "SM maximale",
+                  "+5"
+                ],
+                [
+                  "Dégâts mentaux",
+                  "+2"
+                ],
+                [
+                  "Dégâts magiques",
+                  "+2"
+                ],
+                [
+                  "Résistance mentale",
+                  "+2"
+                ],
+                [
+                  "Résistance magique",
+                  "+2"
+                ],
+                [
+                  "CONST",
+                  "−5"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le seul nouveau malus de ce rang est −5 CONST. Aucun nouveau malus de DEM n’est ajouté."
+          },
+          {
+            "text": "Exemple : un personnage ayant choisi PSY aux rangs 3 et 4 conserve leurs −10 DEM cumulés. Le rang 5 ajoute −5 CONST, sans nouvelle perte de DEM."
+          },
+          {
+            "text": "Satellites accessibles à l’achat : Onde dimensionnelle et Géhenne, séparément et sans exclusion."
+          },
+          {
+            "title": "3.8. Portée des bonus de dégâts et de résistance",
+            "headingLevel": 4,
+            "text": "Les bonus de dégâts concernent toutes les attaques du personnage appartenant au type correspondant, pas uniquement ses satellites démoniaques."
+          },
+          {
+            "text": "Un bonus mental n’est pas un bonus magique, et réciproquement. Les deux bonus obtenus au rang 5 restent distincts."
+          },
+          {
+            "text": "Aucun dégât n’est ajouté implicitement à un pouvoir qui n’en prévoit pas. Un bonus aux dégâts magiques ne transforme donc pas un mur, un écran ou une cage en attaque infligeant automatiquement des dégâts."
+          },
+          {
+            "text": "Les bonus de résistance mentale et magique restent distincts des statistiques PSY et ARC. Leur traduction précise dans les champs et conventions du système reste à raccorder, sans changer les valeurs définies ci-dessus."
+          }
+        ]
+      },
+      {
+        "label": "4. Satellite 1 — Mimétisme",
+        "anchor": "mimetisme",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Règle"
+              ],
+              "rows": [
+                [
+                  "Accès",
+                  "Rang 2, toutes orientations."
+                ],
+                [
+                  "Acquisition",
+                  "Achat du satellite après déblocage."
+                ],
+                [
+                  "Statistique utilisée",
+                  "ESO."
+                ],
+                [
+                  "Fonction",
+                  "Reproduire l’apparence et la signature magique d’une cible."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "4.1. Réalisation de la copie",
+            "headingLevel": 4,
+            "text": "Un jet d’ESO réussi sur la cible suffit à permettre le mimétisme : le démon reproduit son apparence et sa signature magique."
+          },
+          {
+            "text": "Il n’a pas à gagner ensuite un nouveau duel de perception contre chaque observateur."
+          },
+          {
+            "title": "4.2. Nature de la forme copiée",
+            "headingLevel": 4,
+            "text": "Le mimétisme est plus qu’une illusion visuelle superficielle. Sa nature magique et mentale permet une modification effective de la forme présentée."
+          },
+          {
+            "text": "Les cornes et la queue dissimulées par la forme copiée disparaissent effectivement sous cette forme. Un observateur ne peut pas découvrir des appendices invisibles simplement en les touchant."
+          },
+          {
+            "text": "Il ne faut donc pas traiter le mimétisme comme une image plaquée sur un corps dont toutes les différences resteraient immédiatement palpables."
+          },
+          {
+            "title": "4.3. Perception et limites de la copie",
+            "headingLevel": 4,
+            "text": "Tant que le mimétisme fonctionne, une vérification fondée uniquement sur VIS ou ESO ne révèle pas la supercherie. Ces deux canaux sont précisément ceux que la copie trompe."
+          },
+          {
+            "text": "La copie ne confère ni statistiques, ni compétences, ni pouvoirs, ni souvenirs de la cible."
+          },
+          {
+            "text": "D’autres perceptions, des informations manquantes ou des incohérences de comportement peuvent susciter des doutes. Le détail des informations reproduites au-delà de l’apparence et de la signature magique reste à préciser."
+          },
+          {
+            "text": "Le mimétisme simple ne confère aucune influence mentale d’alliance ou d’obéissance sur les observateurs."
+          },
+          {
+            "title": "4.4. Découverte et dissipation",
+            "headingLevel": 4,
+            "text": "Comprendre la tromperie ne dissipe pas le mimétisme."
+          },
+          {
+            "text": "Un observateur peut soupçonner le démon à cause de ce qu’il dit ou de ce qu’il ignore. Cette découverte ne fait pas automatiquement réapparaître ses traits démoniaques."
+          },
+          {
+            "text": "La dissipation vient du démon lui-même ou d’une intervention magique ou mentale capable de l’y contraindre. Le simple contact ne suffit pas."
+          },
+          {
+            "title": "4.5. Paramètres non arrêtés",
+            "headingLevel": 4,
+            "text": "Les modalités de prise et de conservation des modèles, les coûts, les éventuelles limites de durée et les conditions de dissipation forcée restent à définir. Aucun mécanisme supplémentaire de maintien ou de détection répétée n’est fixé implicitement."
+          }
+        ]
+      },
+      {
+        "label": "5. Satellite 2 — Perturbation offensive",
+        "anchor": "perturbation",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Règle"
+              ],
+              "rows": [
+                [
+                  "Accès",
+                  "Rang 3."
+                ],
+                [
+                  "Acquisition",
+                  "Achat de la version correspondant au choix PSY ou ARC du rang 3."
+                ],
+                [
+                  "Choix",
+                  "Une seule version accessible pour ce rang."
+                ],
+                [
+                  "Fonction",
+                  "Ajouter volontairement un état à une attaque du type correspondant."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "5.1. Déclenchement commun",
+            "headingLevel": 4,
+            "text": "Le satellite est ajouté volontairement à une attaque mentale ou magique du type correspondant. Son activation est annoncée avant la résolution de l’attaque."
+          },
+          {
+            "text": "Ce n’est pas un état gratuit appliqué passivement par toutes les attaques."
+          },
+          {
+            "text": "L’état est appliqué lorsque les conditions de réussite de l’attaque et de résistance de la cible le permettent, selon le fonctionnement habituel des états. Ce document n’ajoute pas un jet supplémentaire sans nécessité au fonctionnement existant."
+          },
+          {
+            "title": "5.2. Version PSY — Choc mental",
+            "headingLevel": 4,
+            "text": "État retenu : Choc mental, T2 — choc_mental_t2.",
+            "anchor": "chocMental"
+          },
+          {
+            "table": {
+              "headers": [
+                "Paramètre de l’état existant",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Axe",
+                  "Mental."
+                ],
+                [
+                  "Contre",
+                  "PSY."
+                ],
+                [
+                  "Durée",
+                  "3 tours, profil standard."
+                ],
+                [
+                  "Effets",
+                  "−2 PSY, −2 INT et −2 REACT."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le démon perturbe la pensée et les réflexes de sa cible. L’effet ne lui impose pas d’obéir et ne retire pas directement toute sa capacité d’agir."
+          },
+          {
+            "title": "5.3. Version ARC — Déphasage spatial",
+            "headingLevel": 4,
+            "text": "État retenu : Déphasage spatial T2 — etat_espace_dephasage.",
+            "anchor": "dephasageSpatial"
+          },
+          {
+            "table": {
+              "headers": [
+                "Paramètre de l’état existant",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Axe",
+                  "Magique."
+                ],
+                [
+                  "Contre",
+                  "DEM."
+                ],
+                [
+                  "Durée",
+                  "3 tours, profil standard."
+                ],
+                [
+                  "Effets",
+                  "−5 aux attaques de précision et aux défenses positionnelles."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le démon perturbe le positionnement de la cible. L’effet n’est pas remplacé par un affaiblissement général de toutes ses statistiques magiques."
+          },
+          {
+            "title": "5.4. Limites à paramétrer",
+            "headingLevel": 4,
+            "text": "Le coût d’activation et la fréquence d’utilisation restent à fixer."
+          },
+          {
+            "text": "Une attaque de zone ou à plusieurs impacts ne doit pas multiplier automatiquement les applications. Le nombre de cibles et le traitement des impacts multiples doivent être définis explicitement."
+          },
+          {
+            "text": "L’interaction avec une attaque appliquant déjà un autre état reste également à préciser. Aucun cumul ou remplacement systématique n’est établi ici."
+          }
+        ]
+      },
+      {
+        "label": "6. Satellite 3 — Spécialisation",
+        "anchor": "specialisation",
+        "blocks": [
+          {
+            "text": "Accès : rang 4. Achat d’une seule capacité parmi les deux de la voie choisie à ce rang."
+          },
+          {
+            "table": {
+              "headers": [
+                "Option",
+                "Voie",
+                "Capacité",
+                "Fonction"
+              ],
+              "rows": [
+                [
+                  "3a",
+                  "ARC",
+                  "Mur invisible",
+                  "Bloquer un passage ou séparer des adversaires."
+                ],
+                [
+                  "3b",
+                  "PSY",
+                  "Mimétisme accru",
+                  "Faire considérer le démon comme un allié."
+                ],
+                [
+                  "3c",
+                  "PSY",
+                  "Manipulation mentale",
+                  "Faire exécuter des ordres simples."
+                ],
+                [
+                  "3d",
+                  "ARC",
+                  "Écran de fuite",
+                  "Dissimuler un passage, une direction ou un départ."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "6.1. Option 3a — Mur invisible",
+            "headingLevel": 4,
+            "text": "Statistique : ARC.",
+            "anchor": "murInvisible"
+          },
+          {
+            "text": "Le démon crée un obstacle magique invisible permettant de bloquer un passage ou de séparer des adversaires."
+          },
+          {
+            "text": "Le mur ne provoque pas de neutralisation mentale. Une personne empêchée de le traverser n’est pas automatiquement soumise à un état supprimant ses actions."
+          },
+          {
+            "text": "Traitement retenu : effet propre à la capacité, pas état personnel imposé à tous les personnages concernés."
+          },
+          {
+            "text": "Les dimensions, la résistance, la destruction et la dissipation du mur restent à définir. Ses interactions avec les projectiles, les sorts et les différentes formes de déplacement ne sont pas encore fixées."
+          },
+          {
+            "title": "6.2. Option 3b — Mimétisme accru",
+            "headingLevel": 4,
+            "text": "Statistique : PSY, en complément du mimétisme.",
+            "anchor": "mimetismeAccru"
+          },
+          {
+            "text": "Le démon ajoute au mimétisme une influence hypnotique. Les observateurs affectés le considèrent comme l’un des leurs."
+          },
+          {
+            "text": "L’influence utilise PSY et les résistances mentales classiques."
+          },
+          {
+            "text": "Elle n’accorde ni autorité supérieure ni obéissance automatique. Un garde peut considérer le démon comme un collègue et lui refuser malgré tout un passage interdit, faute d’ordre ou d’autorisation."
+          },
+          {
+            "text": "Le mimétisme simple trompe sur l’apparence et la signature magique. Le mimétisme accru ajoute une croyance d’alliance. La manipulation mentale agit sur les actions. Ces trois fonctions restent distinctes."
+          },
+          {
+            "text": "Résister à l’hypnose ne dissipe pas le mimétisme de base."
+          },
+          {
+            "text": "Traitement retenu : effet propre à la capacité, sans application automatique de Charmé. L’état Charmé existant interdit les actions négatives envers le lanceur et retire une action mineure ; il dépasse donc la simple croyance d’alliance recherchée ici."
+          },
+          {
+            "text": "La portée, les observateurs concernés, la durée et les conditions de rupture de cette influence restent à paramétrer."
+          },
+          {
+            "title": "6.3. Option 3c — Manipulation mentale",
+            "headingLevel": 4,
+            "text": "Statistique : PSY.",
+            "anchor": "manipulationMentale"
+          },
+          {
+            "text": "Le démon impose des ordres simples, plutôt qu’un contrôle total et permanent de sa cible."
+          },
+          {
+            "text": "État retenu : Soumis — etat_soumis."
+          },
+          {
+            "table": {
+              "headers": [
+                "Paramètre de l’état existant",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Tier",
+                  "3."
+                ],
+                [
+                  "Axe",
+                  "Mental."
+                ],
+                [
+                  "Contre",
+                  "PSY/DV."
+                ],
+                [
+                  "Durée",
+                  "4 tours, profil standard."
+                ],
+                [
+                  "Effets",
+                  "Obéissance aux ordres simples, perte d’action majeure et perte de 1d4 SM."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La réutilisation de cet état conserve ses conséquences. Les ordres doivent être réalisables avec les moyens et les actions disponibles de la cible."
+          },
+          {
+            "text": "La manipulation ne fournit pas d’actions gratuites pour exécuter un ordre. Elle ne restaure pas implicitement l’action majeure retirée par l’état."
+          },
+          {
+            "text": "Le relevé fourni ne précise pas la périodicité de la perte de 1d4 SM. Cette mention n’est donc pas transformée en dégâts à chaque tour. Son calendrier d’application devra être vérifié lors du raccordement au système."
+          },
+          {
+            "text": "Les coûts, la portée, la formulation et les limites précises des ordres restent à paramétrer."
+          },
+          {
+            "title": "6.4. Option 3d — Écran de fuite",
+            "headingLevel": 4,
+            "text": "Statistique : ARC.",
+            "anchor": "ecranDeFuite"
+          },
+          {
+            "text": "Le démon crée une zone de dissimulation pour masquer un passage, une direction ou son départ."
+          },
+          {
+            "text": "L’écran agit sur ce que l’on peut observer à travers la zone. Il ne rend pas automatiquement les personnes aveugles et ne supprime pas tous leurs sens."
+          },
+          {
+            "text": "Traitement retenu : effet de zone propre à la capacité. Aucun état de cécité ou de brouillage sensoriel général n’est appliqué par défaut."
+          },
+          {
+            "text": "L’écran conserve une utilité après l’acquisition de l’onde dimensionnelle : il est conçu comme moins coûteux et plus discret, avec une dissimulation qui peut persister, tandis que l’onde produit une interruption instantanée."
+          },
+          {
+            "text": "Les valeurs de coût, les dimensions, la durée et les conditions de dissipation de l’écran restent à fixer."
+          },
+          {
+            "title": "6.5. Utilité conservée après le rang 5",
+            "headingLevel": 4,
+            "text": "La manipulation fait accomplir une action ; la Géhenne retire l’initiative."
+          },
+          {
+            "text": "L’écran masque un passage ; l’onde crée l’instant permettant de partir."
+          },
+          {
+            "text": "Le mur sépare ou bloque sans imposer d’emprise mentale. Les capacités du rang 5 ne remplacent donc pas automatiquement les outils du rang 4."
+          }
+        ]
+      },
+      {
+        "label": "7. Satellite 4 — Onde dimensionnelle",
+        "anchor": "ondeDimensionnelle",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Règle"
+              ],
+              "rows": [
+                [
+                  "Accès",
+                  "Rang 5."
+                ],
+                [
+                  "Acquisition",
+                  "Achat distinct de celui de la Géhenne."
+                ],
+                [
+                  "Jets du lanceur",
+                  "ARC et PSY séparés."
+                ],
+                [
+                  "Fonction principale",
+                  "Fuite."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "7.1. Principe général",
+            "headingLevel": 4,
+            "text": "L’onde dimensionnelle perturbe les adversaires pendant un très bref instant afin de permettre au démon de partir."
+          },
+          {
+            "text": "Les deux composantes ont un effet réel et indépendant :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Composante",
+                "Effet"
+              ],
+              "rows": [
+                [
+                  "ARC",
+                  "Repousser les cibles vers l’arrière."
+                ],
+                [
+                  "PSY",
+                  "Provoquer une sidération extrêmement brève, troublant le suivi du départ et empêchant d’y réagir activement pendant cet intervalle."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "L’activation utilise un jet d’ARC et un jet de PSY, pas une moyenne des deux statistiques. La réussite de l’une des composantes ne remplace pas celle de l’autre."
+          },
+          {
+            "text": "Une spécialisation ARC facilite la composante ARC sans améliorer artificiellement PSY, et réciproquement. Une réussite partielle conserve donc son utilité."
+          },
+          {
+            "title": "7.2. Résistances indépendantes",
+            "headingLevel": 4,
+            "text": "La cible peut résister au repoussement sans résister à la sidération, ou l’inverse."
+          },
+          {
+            "text": "Le tableau suivant décrit les conséquences des résistances lorsque les composantes concernées peuvent s’appliquer :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Résistance au repoussement ARC",
+                "Résistance à l’effet mental PSY",
+                "Résultat"
+              ],
+              "rows": [
+                [
+                  "Échec",
+                  "Échec",
+                  "La cible est repoussée et subit la coupure mentale."
+                ],
+                [
+                  "Réussite",
+                  "Échec",
+                  "La cible reste en place, mais subit la coupure mentale."
+                ],
+                [
+                  "Échec",
+                  "Réussite",
+                  "La cible est repoussée, mais suit consciemment le départ."
+                ],
+                [
+                  "Réussite",
+                  "Réussite",
+                  "Aucun des deux effets ne l’entrave."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "L’échec d’une composante du lanceur ne rend pas automatiquement l’autre inefficace."
+          },
+          {
+            "title": "7.3. Déplacement réel et perception du départ",
+            "headingLevel": 4,
+            "text": "Pour une cible mentalement affectée, le démon semble avoir disparu d’un emplacement pour se retrouver ailleurs : un instant lui échappe."
+          },
+          {
+            "text": "Le démon ne s’est pas téléporté. Il s’est déplacé avec ses propres moyens."
+          },
+          {
+            "text": "L’onde ne lui accorde ni vitesse supplémentaire ni déplacement gratuit par défaut. Une cible qui résiste aux deux composantes peut suivre son départ sans entrave créée par l’onde."
+          },
+          {
+            "text": "La sensation que le démon paraît accéléré, ou que l’observateur se sent ralenti, ne constitue pas à elle seule un malus supplémentaire imposé après des résistances réussies."
+          },
+          {
+            "title": "7.4. Composante ARC — Projeté",
+            "headingLevel": 4,
+            "text": "État retenu : Projeté — etat_projete."
+          },
+          {
+            "table": {
+              "headers": [
+                "Paramètre de l’état existant",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Tier",
+                  "3."
+                ],
+                [
+                  "Axe",
+                  "Physique pour la conséquence de déplacement forcé."
+                ],
+                [
+                  "Contre",
+                  "FOR/DV."
+                ],
+                [
+                  "Durée",
+                  "Spéciale."
+                ],
+                [
+                  "Effet",
+                  "Déplacement forcé."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La distance du repoussement n’est pas fixée par cet état ; elle reste à paramétrer pour l’onde."
+          },
+          {
+            "text": "Aucun état Déséquilibré supplémentaire n’est ajouté automatiquement. Le repoussement ne confère pas non plus de dégâts supplémentaires par défaut."
+          },
+          {
+            "title": "7.5. Composante PSY — Sidération mentale",
+            "headingLevel": 4,
+            "text": "État retenu : Sidération mentale — etat_sideration_mentale, nouvel état défini en section 9."
+          },
+          {
+            "text": "Pour l’onde, sa durée est limitée à l’intervalle immédiat du départ. Il ne supprime pas automatiquement le prochain tour de la cible et ne devient pas un étourdissement de plusieurs tours."
+          },
+          {
+            "text": "La borne technique exacte de cet intervalle reste à paramétrer, sans transformer ce bref effet en neutralisation prolongée."
+          },
+          {
+            "title": "7.6. Paramètres non arrêtés",
+            "headingLevel": 4,
+            "text": "Le coût, l’action d’activation, la portée, le nombre de cibles, la distance de repoussement et le détail de résolution des défenses restent à raccorder aux règles du système. Les effets ARC et PSY doivent rester indépendants dans ce raccordement."
+          }
+        ]
+      },
+      {
+        "label": "8. Satellite 5 — Géhenne",
+        "anchor": "gehenne",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Règle"
+              ],
+              "rows": [
+                [
+                  "Accès",
+                  "Rang 5."
+                ],
+                [
+                  "Acquisition",
+                  "Achat distinct de celui de l’Onde dimensionnelle."
+                ],
+                [
+                  "Jets du lanceur",
+                  "ARC et PSY séparés."
+                ],
+                [
+                  "Fonction",
+                  "Captivité et domination."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "8.1. Nature de la Géhenne",
+            "headingLevel": 4,
+            "text": "La Géhenne combine une prison magique et une emprise mentale."
+          },
+          {
+            "text": "ARC forme les cages. PSY suspend la capacité d’agir."
+          },
+          {
+            "text": "La cible pleinement affectée reste consciente, captive, incapable d’initiative, dans l’attente de ce qui lui est imposé. C’est cette captivité consciente qui porte l’identité de la capacité."
+          },
+          {
+            "text": "La version 1.0 ne prévoit pas que le démon fasse librement agir ses prisonniers comme des marionnettes. La manipulation active reste la fonction du satellite 3c."
+          },
+          {
+            "text": "Aucun dégât automatique de PV ou de SM n’est ajouté à la Géhenne. L’idée de supplice ne constitue pas, à elle seule, une formule de dégâts."
+          },
+          {
+            "title": "8.2. Deux composantes distinctes",
+            "headingLevel": 4,
+            "text": "L’activation repose sur un jet d’ARC et un jet de PSY séparés. La réussite de l’une des composantes ne remplace pas celle de l’autre."
+          },
+          {
+            "text": "Une cage peut subsister sans incapacité mentale. Une emprise mentale ne crée pas à elle seule une cage."
+          },
+          {
+            "text": "La présence de la cage et l’état mental de sa cible doivent donc être suivis séparément. Leurs conditions précises d’application initiale et de fin restent à paramétrer là où elles ne sont pas définies ci-dessous."
+          },
+          {
+            "title": "8.3. Résistance mentale au début de chaque tour",
+            "headingLevel": 4,
+            "text": "Au début de chacun de ses tours, tant que l’emprise de la Géhenne peut encore s’exercer sur elle, la cible effectue un jet de résistance mentale."
+          },
+          {
+            "text": "Ce test ne consomme pas une action de la cible. Il ne constitue pas une tentative de destruction ou de franchissement de la cage."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat de la résistance",
+                "Conséquence"
+              ],
+              "rows": [
+                [
+                  "Échec",
+                  "La cible reste consciente, mais ne peut pas agir pendant ce tour. Sidération mentale est appliquée ou maintenue jusqu’au prochain test prévu."
+                ],
+                [
+                  "Réussite",
+                  "La cible retrouve sa capacité d’agir pour ce tour. Sidération mentale est retirée, sans suppression automatique de la cage."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Retrouver sa liberté mentale ne signifie pas sortir de la prison magique."
+          },
+          {
+            "title": "8.4. Agir contre la cage",
+            "headingLevel": 4,
+            "text": "Après une résistance mentale réussie, agir contre la cage demande une action distincte, selon la méthode utilisée."
+          },
+          {
+            "text": "La cible dispose de ses actions normalement disponibles. Elle ne reçoit pas d’action gratuite pour se libérer et ne détruit pas les barreaux en réussissant simplement son test mental."
+          },
+          {
+            "text": "Les méthodes de destruction, de dissipation ou de franchissement des cages restent à définir. Les propriétés de la cage continuent de s’appliquer indépendamment de l’état mental de la cible."
+          },
+          {
+            "title": "8.5. Réapplication de l’emprise",
+            "headingLevel": 4,
+            "text": "Au tour suivant, une nouvelle tentative d’emprise peut s’exercer et une nouvelle résistance est effectuée, tant que la cible reste soumise à cet effet source."
+          },
+          {
+            "text": "Une résistance réussie ne donne pas une immunité définitive à cette Géhenne. En revanche, elle protège la liberté d’action obtenue jusqu’au prochain test prévu."
+          },
+          {
+            "text": "Le démon ne peut pas provoquer une boucle de nouvelles tentatives immédiates pendant le même tour pour effacer cette réussite. La cadence de réapplication appartient à la Géhenne, pas à l’état générique Sidération mentale."
+          },
+          {
+            "title": "8.6. Maintien actif et fonctionnement autonome",
+            "headingLevel": 4,
+            "text": "Le démon peut maintenir activement son emprise ou laisser la Géhenne fonctionner sans y consacrer une action de maintien."
+          },
+          {
+            "text": "Relâcher le maintien ne signifie pas dissiper la Géhenne. Les cages et l’effet persistant ne disparaissent pas simplement parce que le lanceur entreprend autre chose."
+          },
+          {
+            "title": "Réglage de référence retenu pour la version 1.0",
+            "headingLevel": 5,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Mode",
+                "Engagement du démon",
+                "Résistance mentale des cibles"
+              ],
+              "rows": [
+                [
+                  "Maintien actif",
+                  "Une action majeure par tour du démon consacrée au maintien.",
+                  "PSY/2."
+                ],
+                [
+                  "Fonctionnement autonome",
+                  "Aucune action de maintien. Le démon peut agir autrement.",
+                  "PSY."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Ce réglage est retenu comme base des premiers essais. Il ne constitue pas une preuve que l’équilibrage chiffré est déjà validé en partie."
+          },
+          {
+            "text": "Aucun désavantage supplémentaire n’est ajouté automatiquement à PSY/2. La variante PSY/2 avec désavantage en maintien et PSY/2 en fonctionnement autonome n’est pas la règle retenue pour cette version."
+          },
+          {
+            "text": "Le maintien décrit ici fixe un coût en action. Aucun coût supplémentaire chiffré en ressource n’est déduit de cette mention."
+          },
+          {
+            "title": "8.7. Changement de mode",
+            "headingLevel": 4,
+            "text": "Un changement entre maintien actif et fonctionnement autonome affecte les résistances suivantes."
+          },
+          {
+            "text": "Il ne déclenche pas un nouveau test immédiat pour annuler une réussite déjà obtenue. Reprendre le maintien ne recrée pas une cage déjà détruite."
+          },
+          {
+            "text": "Une résistance normale en fonctionnement autonome ne constitue pas une sortie automatique : un échec retire encore la possibilité d’agir, une réussite laisse la cage en place, et une nouvelle résistance peut être nécessaire au tour suivant."
+          },
+          {
+            "title": "8.8. Traitement de la prison",
+            "headingLevel": 4,
+            "text": "La cage est un effet propre à la Géhenne, distinct de Sidération mentale."
+          },
+          {
+            "text": "L’état Immobilisé n’est pas appliqué automatiquement : il retire lui-même une action majeure et interdit le mouvement, ce qui ajouterait une pénalité indépendante après une libération mentale réussie."
+          },
+          {
+            "text": "Les dimensions, la résistance, la destruction, la dissipation et la durée des cages restent à définir. Leur interaction avec les attaques ou interventions venues de l’extérieur doit être fixée avant utilisation."
+          },
+          {
+            "text": "Le fonctionnement autonome ne signifie pas que la durée est illimitée. La durée maximale et les autres conditions de fin restent des paramètres ouverts."
+          },
+          {
+            "title": "8.9. Résumé du cycle mental",
+            "headingLevel": 4,
+            "text": "Au début du tour de la cible, on détermine le mode de la Géhenne, puis on résout PSY/2 sous maintien actif ou PSY en fonctionnement autonome."
+          },
+          {
+            "text": "En cas d’échec, la cible est sidérée et ne peut pas agir. En cas de réussite, elle peut utiliser ses actions disponibles, notamment pour tenter séparément d’agir contre la cage."
+          },
+          {
+            "text": "Au prochain début de tour, si l’emprise source peut toujours s’exercer, le test est renouvelé. Une cage détruite n’est pas restaurée par ce renouvellement."
+          }
+        ]
+      },
+      {
+        "label": "9. Nouvel état — Sidération mentale",
+        "anchor": "sideration",
+        "blocks": [
+          {
+            "title": "9.1. Décision de conception",
+            "headingLevel": 4,
+            "text": "Créer un seul nouvel état pour les incapacitations particulières de l’Onde dimensionnelle et de la Géhenne : Sidération mentale."
+          },
+          {
+            "text": "Il s’agit d’un état défini pour la future implémentation. Ce document ne prétend pas qu’il existe déjà dans le catalogue fourni ou qu’il a été ajouté au code."
+          },
+          {
+            "table": {
+              "headers": [
+                "Paramètre",
+                "Définition retenue"
+              ],
+              "rows": [
+                [
+                  "Nom",
+                  "Sidération mentale."
+                ],
+                [
+                  "Identifiant proposé",
+                  "etat_sideration_mentale."
+                ],
+                [
+                  "Axe",
+                  "Mental."
+                ],
+                [
+                  "Contre de base",
+                  "PSY, avec difficulté modifiable par la capacité source."
+                ],
+                [
+                  "Durée",
+                  "Déterminée par la capacité source."
+                ],
+                [
+                  "Tier et raccordement technique",
+                  "À définir lors de la configuration."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "9.2. Effet principal",
+            "headingLevel": 4,
+            "text": "La cible reste consciente, mais ne peut engager aucune action volontaire, aucun déplacement volontaire et aucune réaction active pendant l’intervalle de sidération."
+          },
+          {
+            "text": "Les jets de résistance nécessaires pour s’en libérer restent possibles. Sidération mentale ne met pas PSY à zéro et ne retire pas la faculté de résister."
+          },
+          {
+            "text": "L’état n’ajoute aucun malus statistique, aucune perte automatique de SM et aucun contrôle des actions par le lanceur."
+          },
+          {
+            "title": "9.3. Application par l’Onde dimensionnelle",
+            "headingLevel": 4,
+            "text": "L’état est appliqué pour l’intervalle immédiat du départ du démon."
+          },
+          {
+            "text": "Il crée la coupure mentale qui empêche la cible affectée de suivre normalement cet instant et d’y réagir activement. Il ne supprime pas automatiquement le prochain tour de la cible et n’hérite pas d’une durée de plusieurs tours par défaut."
+          },
+          {
+            "title": "9.4. Application par la Géhenne",
+            "headingLevel": 4,
+            "text": "L’état est appliqué ou maintenu après un échec de la résistance mentale, jusqu’au prochain test prévu. Il est retiré après réussite."
+          },
+          {
+            "text": "Une réapplication est possible au tour suivant tant que la Géhenne peut encore exercer son emprise. Cette réapplication relève de la capacité source, pas d’un comportement automatique de l’état utilisé ailleurs."
+          },
+          {
+            "title": "9.5. Distinction avec les états existants",
+            "headingLevel": 4,
+            "text": "Sidération mentale n’est pas un simple changement de nom de Paralysé ou de Contrôlé."
+          },
+          {
+            "text": "Paralysé utilise un contre physique, bloque le mouvement, retire une action mineure et applique un malus de REACT ; il ne correspond pas à l’interdiction complète d’initiative décrite ici."
+          },
+          {
+            "text": "Contrôlé transfère le contrôle de la cible au lanceur et comporte une perte de SM. La sidération ne transfère pas ce contrôle : la cible ne peut simplement pas engager d’action volontaire."
+          },
+          {
+            "text": "Il n’est donc pas nécessaire de modifier globalement ces états existants pour leur faire porter le fonctionnement de l’affliction Démon."
+          }
+        ]
+      },
+      {
+        "label": "10. Paramètres encore ouverts",
+        "anchor": "parametres",
+        "blocks": [
+          {
+            "text": "La version 1.0 consolide les choix de conception. Les paramètres suivants restent non renseignés ou non arrêtés. Ils ne doivent pas être complétés silencieusement lors de la mise en place."
+          },
+          {
+            "title": "10.1. Cadre commun",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Domaine",
+                "Paramètres à fixer ou à raccorder"
+              ],
+              "rows": [
+                [
+                  "Acquisition",
+                  "Prix des rangs et des satellites, selon les conventions des afflictions ; modalités d’accès non décrites au-delà du cas des Pashran."
+                ],
+                [
+                  "Utilisation",
+                  "Coûts en ressources, actions d’activation, fréquences, portées, cibles et durées non déjà précisées."
+                ],
+                [
+                  "Résolution",
+                  "Application des règles habituelles de réussite, de résistance et des résultats de jets, sans fusionner ARC et PSY pour les ultimes."
+                ],
+                [
+                  "Bonus de résistance",
+                  "Traduction exacte des résistances mentale et magique dans les champs et conventions du système."
+                ],
+                [
+                  "Apparence",
+                  "Répartition des traits par rang et adaptation précise aux morphologies d’origine."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "10.2. Paramètres par satellite",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Capacité",
+                "Paramètres encore ouverts"
+              ],
+              "rows": [
+                [
+                  "Mimétisme",
+                  "Acquisition et conservation des modèles, informations reproduites au-delà de l’apparence et de la signature magique, limites de forme, durée et dissipation forcée."
+                ],
+                [
+                  "Perturbation offensive",
+                  "Coût, fréquence, nombre de cibles, traitement des attaques de zone ou à plusieurs impacts, interaction avec les autres états d’une attaque."
+                ],
+                [
+                  "Mur invisible",
+                  "Dimensions, durée, résistance, destruction, dissipation et interaction avec déplacements, projectiles et sorts."
+                ],
+                [
+                  "Mimétisme accru",
+                  "Portée, personnes affectées, durée, application des résistances et conditions de rupture de l’hypnose."
+                ],
+                [
+                  "Manipulation mentale",
+                  "Coûts, portée, formulation et limites des ordres ; calendrier réel de la perte de 1d4 SM de Soumis."
+                ],
+                [
+                  "Écran de fuite",
+                  "Coût, dimensions, durée, portée exacte de la dissimulation et dissipation."
+                ],
+                [
+                  "Onde dimensionnelle",
+                  "Coût et action d’activation, portée, cibles, distance du repoussement et borne exacte de la sidération très brève."
+                ],
+                [
+                  "Géhenne",
+                  "Coût et action d’activation, cibles, application initiale, propriétés et durée des cages, durée maximale de l’emprise, limites de distance, interruptions du lanceur, conditions de fin et interventions extérieures."
+                ]
+              ]
+            }
+          },
+          {
+            "title": "10.3. Raccordement des états et des durées",
+            "headingLevel": 4,
+            "text": "Les quatre états existants retenus conservent leurs définitions citées. Leur présence dans l’export ne remplace pas une vérification de leur exécution réelle dans Foundry."
+          },
+          {
+            "text": "Sidération mentale doit être raccordée au suivi des actions, réactions, résistances et durées. Son usage par l’onde doit rester très bref ; son usage par la Géhenne doit respecter les tests de début de tour et la liberté d’action acquise jusqu’au test suivant."
+          },
+          {
+            "text": "Les effets propres aux capacités — notamment le mimétisme, la fausse alliance, le mur, l’écran et les cages — ne sont pas transformés par défaut en états génériques supplémentaires."
+          },
+          {
+            "text": "Le réglage du maintien de la Géhenne est déjà retenu : une action majeure par tour pour PSY/2, contre PSY sans action de maintien. Sa présence dans cette version n’efface pas les autres paramètres encore ouverts."
+          }
+        ]
+      },
+      {
+        "label": "Annexe — Synthèse des états et effets",
+        "anchor": "synthese-etats",
+        "blocks": [
+          {
+            "title": "A. États retenus",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Usage",
+                "État",
+                "Identifiant",
+                "Contre",
+                "Durée"
+              ],
+              "rows": [
+                [
+                  "Satellite 2 PSY",
+                  "Choc mental, T2.",
+                  "choc_mental_t2",
+                  "PSY.",
+                  "3 tours."
+                ],
+                [
+                  "Satellite 2 ARC",
+                  "Déphasage spatial T2.",
+                  "etat_espace_dephasage",
+                  "DEM.",
+                  "3 tours."
+                ],
+                [
+                  "Satellite 3c",
+                  "Soumis, T3.",
+                  "etat_soumis",
+                  "PSY/DV.",
+                  "4 tours."
+                ],
+                [
+                  "Satellite 4 ARC",
+                  "Projeté, T3.",
+                  "etat_projete",
+                  "FOR/DV.",
+                  "Spéciale ; déplacement forcé."
+                ],
+                [
+                  "Satellite 4 PSY",
+                  "Sidération mentale, nouvel état.",
+                  "etat_sideration_mentale — proposé.",
+                  "PSY, selon la capacité source.",
+                  "Intervalle immédiat du départ."
+                ],
+                [
+                  "Satellite 5 PSY",
+                  "Sidération mentale, nouvel état.",
+                  "etat_sideration_mentale — proposé.",
+                  "PSY/2 sous maintien actif ; PSY en fonctionnement autonome.",
+                  "Après échec, jusqu’au prochain test prévu ; retrait après réussite."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Les paramètres des quatre états existants proviennent de l’export fourni. Les deux dernières lignes sont les usages distincts du même nouvel état défini en section 9."
+          },
+          {
+            "title": "B. Effets propres aux capacités",
+            "headingLevel": 4,
+            "text": ""
+          },
+          {
+            "table": {
+              "headers": [
+                "Capacité",
+                "Traitement retenu"
+              ],
+              "rows": [
+                [
+                  "Mimétisme",
+                  "Copie de forme et de signature magique ; pas état de perception négatif imposé aux observateurs."
+                ],
+                [
+                  "Mimétisme accru",
+                  "Fausse alliance ; pas application automatique de Charmé."
+                ],
+                [
+                  "Mur invisible",
+                  "Obstacle magique ; pas état Immobilisé appliqué aux personnes derrière le mur."
+                ],
+                [
+                  "Écran de fuite",
+                  "Zone de dissimulation ; pas cécité ou brouillage général des sens par défaut."
+                ],
+                [
+                  "Cages de Géhenne",
+                  "Prisons magiques suivies séparément de l’emprise mentale ; pas application automatique d’Immobilisé."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Bilan de la version 1.0 : quatre états existants réutilisés et un seul nouvel état générique à créer. Aucun ensemble supplémentaire d’états démoniaques n’est ajouté."
+          }
+        ]
+      },
+      {
+        "label": "Traçabilité des sources",
+        "anchor": "sources",
+        "blocks": [
+          {
+            "text": "La conception des rangs, des choix, des satellites et de Sidération mentale provient des décisions prises dans la présente discussion et du dernier récapitulatif validé avant la demande de rédaction de la version 1.0."
+          },
+          {
+            "text": "Les fichiers antérieurs restent des archives de travail distinctes : Hinga_Affliction_Demon_Premier_Jet_2026-09-25.md et Hinga_Affliction_Demon_Deuxieme_Jet_2026-09-25.md. Les corrections et décisions ultérieures consolidées dans la présente version prévalent sur leurs formulations anciennes."
+          },
+          {
+            "text": "Les références ci-dessous désignent l’export d’états fourni, et non un audit en direct du dépôt. Les marqueurs descriptifs d’effets et leurs champs normalisés dans cet export ne constituent pas deux applications séparées d’un même malus."
+          },
+          {
+            "text": "Fin de la version 1.0 — Affliction Démon."
+          }
+        ]
+      }
+    ]
+  },
+  "documentation": {
+    "sourceMarkdown": "docs/afflictions/demon.md",
+    "aptitudes": [
+      {
+        "aptitudeId": "rang1Eso",
+        "anchor": "rang1Eso"
+      },
+      {
+        "aptitudeId": "rang1Psy",
+        "anchor": "rang1Psy"
+      },
+      {
+        "aptitudeId": "rang1Arc",
+        "anchor": "rang1Arc"
+      },
+      {
+        "aptitudeId": "rang2Eso",
+        "anchor": "rang2Eso"
+      },
+      {
+        "aptitudeId": "rang2Psy",
+        "anchor": "rang2Psy"
+      },
+      {
+        "aptitudeId": "rang2Arc",
+        "anchor": "rang2Arc"
+      },
+      {
+        "aptitudeId": "rang3Psy",
+        "anchor": "rang3Psy"
+      },
+      {
+        "aptitudeId": "rang3Arc",
+        "anchor": "rang3Arc"
+      },
+      {
+        "aptitudeId": "rang4Psy",
+        "anchor": "rang4Psy"
+      },
+      {
+        "aptitudeId": "rang4Arc",
+        "anchor": "rang4Arc"
+      },
+      {
+        "aptitudeId": "rang5Seigneur",
+        "anchor": "rang5Seigneur"
+      },
+      {
+        "aptitudeId": "mimetisme",
+        "anchor": "mimetisme"
+      },
+      {
+        "aptitudeId": "chocMental",
+        "anchor": "chocMental"
+      },
+      {
+        "aptitudeId": "dephasageSpatial",
+        "anchor": "dephasageSpatial"
+      },
+      {
+        "aptitudeId": "murInvisible",
+        "anchor": "murInvisible"
+      },
+      {
+        "aptitudeId": "mimetismeAccru",
+        "anchor": "mimetismeAccru"
+      },
+      {
+        "aptitudeId": "manipulationMentale",
+        "anchor": "manipulationMentale"
+      },
+      {
+        "aptitudeId": "ecranDeFuite",
+        "anchor": "ecranDeFuite"
+      },
+      {
+        "aptitudeId": "ondeDimensionnelle",
+        "anchor": "ondeDimensionnelle"
+      },
+      {
+        "aptitudeId": "gehenne",
+        "anchor": "gehenne"
+      }
+    ],
+    "specialActions": []
+  }
+}

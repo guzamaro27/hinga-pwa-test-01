@@ -1,0 +1,337 @@
+{
+  "id": "zarapas",
+  "type": "plant",
+
+  "identity": {
+    "name": "Zarapas",
+    "subtitle": "La Plante aux Épis Blancs des Forêts Chaudes",
+    "unknownName": "Plante tropicale à grandes feuilles vertes et épis crème",
+    "slug": "zarapas",
+    "tags": [
+      "plante",
+      "tropical",
+      "humide",
+      "chaud",
+      "feuilles-larges",
+      "epis-blancs",
+      "epis-creme",
+      "racines",
+      "rhizome",
+      "graines",
+      "sève",
+      "pulpe",
+      "fibre",
+      "forêt-chaude"
+    ]
+  },
+
+  "display": {
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Zarapas.png",
+    "icon": "🌿",
+    "color": "#6fa034",
+    "visualNote": "Plante tropicale à grandes feuilles vertes luisantes, bordées de violet, portant de hauts épis crème granuleux dressés au-dessus de la touffe."
+  },
+
+  "classification": {
+    "category": "plante vivace",
+    "family": "herbacée tropicale à épis",
+    "rarity": "inhabituelle",
+    "origin": "naturelle",
+    "element": "plante",
+    "magicalNature": "faible",
+    "toxicity": "faible",
+    "legality": "libre"
+  },
+
+  "ecology": {
+    "biomes": [
+      "foret tropicale",
+      "jungle",
+      "sous-bois chaud",
+      "lisiere humide",
+      "vallon humide"
+    ],
+    "climates": [
+      "tropical",
+      "humide",
+      "chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre profonde",
+      "sol humide",
+      "sol riche",
+      "sous-bois lumineux",
+      "lisière tropicale",
+      "vallon chaud",
+      "terrain meuble",
+      "bord de cours d’eau lent",
+      "pente humide stabilisée"
+    ],
+    "season": [
+      "saison humide",
+      "après pluies longues",
+      "été chaud",
+      "fin de saison des pluies",
+      "période de floraison chaude"
+    ],
+    "abundance": "dispersee",
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte"
+  },
+
+  "morphology": {
+    "size": "moyenne",
+    "height": "80 cm à 2,4 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "crème, beige, orange et violet",
+    "distinctiveSigns": [
+      "touffe centrale dense composée de longues feuilles vertes luisantes",
+      "feuilles lancéolées, larges, souples et légèrement arquées",
+      "bords des feuilles soulignés d’un liseré violet net",
+      "nervures principales claires, parfois violettes près de la base",
+      "base courte et épaisse, partiellement cachée par les feuilles",
+      "racines nombreuses, épaisses, brunes, avec radicelles fines violettes",
+      "un ou plusieurs épis dressés, longs, cylindriques et crème",
+      "surface des épis formée de petites loges ou grains serrés",
+      "base des épis entourée de bractées orange ou brun doré",
+      "section de tige montrant une structure alvéolée avec bord violet",
+      "petites bulles ou graines translucides beige clair mouchetées de violet",
+      "épi mûr pouvant se détacher en grains ou perles végétales"
+    ],
+    "descriptionShort": "Le Zarapas est une plante tropicale humide à grandes feuilles vertes luisantes, reconnaissable à ses hauts épis crème granuleux et à ses racines épaisses veinées de violet.",
+    "descriptionFull": "Le Zarapas pousse dans les forêts tropicales humides et chaudes, surtout dans les sous-bois lumineux, les vallons riches et les lisières où l’eau reste disponible sans noyer les racines. La plante forme une touffe large de feuilles vertes, souples et luisantes, bordées d’un fin liseré violet. Au centre, elle produit de grands épis crème, épais et granuleux, dont la surface est composée de nombreuses petites loges serrées. Ces épis sont protégés à leur base par des bractées orangées, plus dures, qui s’ouvrent progressivement lorsque la plante arrive à maturité. Les racines du Zarapas sont solides, nombreuses et très visibles lorsqu’on dégage la plante, avec des veines violettes dans les radicelles. Dans Hinga, le Zarapas est surtout récolté pour ses épis, ses fibres de feuilles et ses graines claires, mais il doit être rapidement traité après coupe car ses parties tendres fermentent vite en climat humide."
+  },
+
+  "danger": {
+    "level": 1,
+    "labels": [
+      "épi fermentescible",
+      "sève irritante légère",
+      "racines glissantes",
+      "pulpe amère"
+    ],
+    "contactRisk": "faible",
+    "ingestionRisk": "faible",
+    "magicalRisk": "faible",
+    "symptoms": [
+      "légère irritation de la peau après contact prolongé avec la sève fraîche",
+      "doigts collants après manipulation des épis mûrs",
+      "goût amer et farineux si les grains sont mâchés crus",
+      "gêne digestive mineure en cas d’ingestion excessive de graines crues",
+      "odeur aigre si les épis coupés sont laissés trop longtemps en panier fermé",
+      "risque de glissade sur les feuilles tombées et détrempées"
+    ]
+  },
+
+  "harvest": {
+    "difficulty": 35,
+    "stat": "perc",
+    "requiredTool": "couteau solide, petite serpe, panier aéré ou gants simples",
+    "bestMethod": "Couper les épis lorsqu’ils sont fermes et crème, avant ramollissement, puis prélever les feuilles extérieures sans arracher la base racinaire.",
+    "failureEffect": "Les épis s’écrasent, les grains se détachent trop tôt, la pulpe commence à fermenter ou les feuilles se déchirent en fibres irrégulières.",
+    "yield": {
+      "min": 2,
+      "max": 7,
+      "unit": "parts"
+    },
+    "parts": [
+      {
+        "id": "leaf",
+        "name": "Feuille verte de Zarapas",
+        "difficultyModifier": 0,
+        "use": "Emballage végétal, fibre souple, tressage léger, protection de récolte."
+      },
+      {
+        "id": "spike",
+        "name": "Épi crème de Zarapas",
+        "difficultyModifier": 10,
+        "use": "Grains, pulpe farineuse, préparation locale, poudre claire après séchage."
+      },
+      {
+        "id": "grain",
+        "name": "Grain crème",
+        "difficultyModifier": 10,
+        "use": "Poudre végétale, semis, ingrédient alimentaire préparé, charge d’atelier."
+      },
+      {
+        "id": "seed",
+        "name": "Graine translucide mouchetée",
+        "difficultyModifier": 15,
+        "use": "Semis, poudre fine, huile très faible après séchage."
+      },
+      {
+        "id": "bract",
+        "name": "Bractée orange",
+        "difficultyModifier": 5,
+        "use": "Teinture douce, poudre chaude, repère botanique, allume-feu faible."
+      },
+      {
+        "id": "sap",
+        "name": "Sève claire de Zarapas",
+        "difficultyModifier": 15,
+        "use": "Liant faible, stabilisant de poudre, base d’onguent simple."
+      },
+      {
+        "id": "root",
+        "name": "Racine violette épaisse",
+        "difficultyModifier": 20,
+        "use": "Fibre dure, décoction amère, stabilisation de sol humide."
+      }
+    ]
+  },
+
+  "uses": {
+    "medicinal": true,
+    "toxic": false,
+    "edible": true,
+    "ritual": false,
+    "magical": false,
+    "crafting": true,
+    "construction": false,
+    "ornamental": true,
+    "effects": [
+      {
+        "id": "epi-creme-zarapas",
+        "label": "Épi crème de Zarapas",
+        "type": "food",
+        "description": "Les grains de l’épi peuvent être préparés localement après séchage, broyage ou cuisson légère. Crus, ils restent amers et farineux."
+      },
+      {
+        "id": "feuille-large-zarapas",
+        "label": "Feuille large de Zarapas",
+        "type": "material",
+        "description": "Les grandes feuilles souples servent d’emballage végétal, de protection de récolte ou de fibre courte pour un tressage simple."
+      },
+      {
+        "id": "poudre-claire-de-grain",
+        "label": "Poudre claire de grain",
+        "type": "crafting",
+        "description": "Les grains séchés et broyés donnent une poudre claire, utilisée comme charge végétale ou base de préparation locale."
+      },
+      {
+        "id": "seve-claire-liante",
+        "label": "Sève claire liante",
+        "type": "crafting",
+        "description": "La sève fraîche peut stabiliser une poudre ou servir de base très simple à un onguent, mais elle ne forme pas une colle durable."
+      },
+      {
+        "id": "bractee-orange-teinture",
+        "label": "Bractée orange",
+        "type": "crafting",
+        "description": "Les bractées séchées peuvent donner une poudre chaude ou une teinture orangée faible sur supports clairs."
+      }
+    ]
+  },
+
+  "crafting": {
+    "ingredientTier": 2,
+    "preparations": [
+      "grain prepare",
+      "poudre",
+      "farine grossiere",
+      "emballage vegetal",
+      "fibre",
+      "liant",
+      "onguent",
+      "teinture"
+    ],
+    "recipes": [
+      {
+        "id": "poudre-claire-de-zarapas",
+        "name": "Poudre Claire de Zarapas",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "grain-prepare-de-zarapas",
+        "name": "Grain Préparé de Zarapas",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "emballage-large-de-zarapas",
+        "name": "Emballage Large de Zarapas",
+        "requiredKnowledge": 2
+      },
+      {
+        "id": "fibre-verte-de-zarapas",
+        "name": "Fibre Verte de Zarapas",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "teinture-orange-de-bractee",
+        "name": "Teinture Orange de Bractée",
+        "requiredKnowledge": 3
+      }
+    ],
+    "synergies": [
+      "Les grains se conservent mieux lorsqu’ils sont détachés de l’épi puis séchés rapidement dans un lieu ventilé.",
+      "Les feuilles restent souples si elles sont utilisées fraîches ou gardées dans un linge humide non fermé.",
+      "La poudre claire se mélange bien aux préparations végétales épaisses.",
+      "Les bractées donnent une couleur plus propre lorsqu’elles sont séchées à l’ombre.",
+      "La sève stabilise mieux les poudres lorsqu’elle est filtrée avant usage."
+    ],
+    "incompatibilities": [
+      "Les épis fermentent vite s’ils sont stockés entiers en climat tropical humide.",
+      "Les grains deviennent aigres si l’épi est coupé trop tard.",
+      "Les feuilles moisissent rapidement lorsqu’elles sont empilées sans aération.",
+      "La poudre claire prend une odeur désagréable si elle n’est pas parfaitement sèche.",
+      "Les racines fraîches deviennent gluantes si elles sont conservées dans un panier fermé."
+    ]
+  },
+
+  "economy": {
+    "valueCategory": "modérée",
+    "baseValue": {
+      "pk": 26,
+      "pa": 0,
+      "po": 0
+    },
+    "valueNotes": "Le Zarapas a une valeur modérée dans les zones tropicales, surtout pour ses épis préparables, ses grandes feuilles d’emballage et ses fibres souples. Il se vend mal frais sur de longues distances, car les épis fermentent vite.",
+    "tradeLegality": "legale",
+    "demand": "moyenne"
+  },
+
+  "gameplay": {
+    "discoverCheck": {
+      "stat": "perc",
+      "difficulty": 20
+    },
+    "identifyCheck": {
+      "stat": "intell",
+      "difficulty": 35
+    },
+    "studyCheck": {
+      "stat": "mental",
+      "difficulty": 45
+    },
+    "flags": [
+      "plant.perennial",
+      "plant.tropical_wet_hot",
+      "plant.food_prepared",
+      "harvest.leaf",
+      "harvest.spike",
+      "harvest.grain",
+      "harvest.seed",
+      "craft.clear_powder",
+      "craft.leaf_wrap",
+      "craft.fiber",
+      "food.grain_prepared",
+      "terrain.tropical_understory",
+      "humidity.high",
+      "irritant.sap_light"
+    ]
+  },
+
+  "gm": {
+    "publicNotes": "Le Zarapas est une plante tropicale humide à grandes feuilles vertes et hauts épis crème. Ses épis peuvent être préparés, ses feuilles servent d’emballage, et ses fibres sont utiles aux usages simples.",
+    "privateNotes": "Le Zarapas peut servir de ressource alimentaire secondaire, mais pas comme aliment miracle. Il demande préparation, séchage ou cuisson. Son intérêt principal : épis crème, feuilles larges, fibre, fermentation rapide en climat humide.",
+    "plotHooks": [
+      "Un village tropical doit sécher rapidement une récolte de Zarapas avant que les épis ne fermentent.",
+      "Un cuisinier cherche des épis encore fermes pour préparer une farine grossière locale.",
+      "Des feuilles de Zarapas utilisées pour emballer une cargaison commencent à moisir après un trajet trop humide.",
+      "Un récolteur arrache les bases racinaires au lieu de couper les épis, provoquant la colère des habitants qui veulent préserver les touffes.",
+      "Une cargaison de grains de Zarapas mal séchés tourne à l’aigre, créant un conflit entre marchand et cueilleurs."
+    ]
+  }
+}

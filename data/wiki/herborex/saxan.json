@@ -1,0 +1,96 @@
+{
+  "id": "saxan",
+  "type": "plant",
+  "identity": {
+    "name": "Saxan",
+    "subtitle": "Arbre-reserve des terres arides",
+    "unknownName": "Arbre rouge a tronc renfle",
+    "slug": "saxan",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Saxan.png",
+    "visualNote": "Arbre rouge a tronc massif et renfle, aux branches torsadees portant des bouquets de petites feuilles olive.",
+    "tags": [
+      "desert",
+      "arbre",
+      "tronc-renfle",
+      "racines-profondes"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "desert chaud sec",
+      "savane seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "terre seche",
+      "rocaille",
+      "terre pauvre"
+    ],
+    "season": [
+      "saison seche",
+      "retour des pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "tres faible",
+    "legality": "controlee"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "3 a 7 m",
+    "width": "2 a 6 m",
+    "colorMain": "rouge ocre",
+    "colorSecondary": "vert olive, brun chaud, jaune pale",
+    "distinctiveSigns": [
+      "tronc tres renfle servant de reserve",
+      "ecorce rouge ocre rugueuse",
+      "branches longues, noueuses et torsadees",
+      "petits bouquets de feuilles ovales vert olive",
+      "racines epaisses plongeant profondement",
+      "fleurs a longues etamines jaunes",
+      "capsules rondes remplies de graines pales",
+      "bois interne parcouru de veines orangees"
+    ],
+    "descriptionShort": "Le Saxan est un arbre rouge des zones arides, reconnaissable a son tronc gonfle et a ses branches torsadees.",
+    "descriptionFull": "Le Saxan pousse lentement dans les sols secs ou ses racines peuvent atteindre une humidite profonde. Son tronc rouge, large et boursoufle lui donne une silhouette de reserve vivante, tandis que ses branches portent seulement de petits amas de feuilles pour limiter les pertes d'eau. Apres les pluies, il produit des fleurs dorees puis des capsules compactes qui restent visibles sur le bois rouge."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Saxan sert surtout de repere et d'arbre d'ombre dans les terres arides; son bois dense et ses branches mortes peuvent etre utilises avec parcimonie."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

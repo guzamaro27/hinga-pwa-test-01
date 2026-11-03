@@ -1,0 +1,323 @@
+{
+  "id": "tsugas",
+  "type": "plant",
+
+  "identity": {
+    "name": "Tsugas",
+    "subtitle": "La Grande Feuille des Sous-Bois Humides",
+    "unknownName": "Plante verte à feuilles larges bordées de violet",
+    "slug": "tsugas",
+    "tags": [
+      "plante",
+      "tempere",
+      "humide",
+      "sous-bois",
+      "feuilles-larges",
+      "feuilles-vertes",
+      "bord-violet",
+      "racines",
+      "tige",
+      "fruits",
+      "graines",
+      "sève",
+      "pigment",
+      "plante-de-sous-bois"
+    ]
+  },
+
+  "display": {
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tsugas.png",
+    "icon": "🌿",
+    "color": "#5fa843",
+    "visualNote": "Plante herbacée à grandes feuilles vertes découpées, bordées de violet, portée par une tige centrale courte et un réseau de racines fines."
+  },
+
+  "classification": {
+    "category": "plante vivace",
+    "family": "herbacée de sous-bois humide",
+    "rarity": "commune",
+    "origin": "naturelle",
+    "element": "plante",
+    "magicalNature": "faible",
+    "toxicity": "faible",
+    "legality": "libre"
+  },
+
+  "ecology": {
+    "biomes": [
+      "foret",
+      "sous-bois",
+      "vallon",
+      "lisiere humide",
+      "bord de ruisseau"
+    ],
+    "climates": [
+      "tempere",
+      "humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "sol profond",
+      "sous-bois clair",
+      "lisière ombragée",
+      "vallon frais",
+      "bord de ruisseau",
+      "terrain meuble",
+      "sol riche en feuilles mortes"
+    ],
+    "season": [
+      "printemps",
+      "été humide",
+      "après pluies longues",
+      "début automne",
+      "matins frais"
+    ],
+    "abundance": "commune",
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte"
+  },
+
+  "morphology": {
+    "size": "petite",
+    "height": "30 cm à 1,1 m",
+    "colorMain": "vert clair",
+    "colorSecondary": "vert sombre, violet et blanc translucide",
+    "distinctiveSigns": [
+      "grande touffe de feuilles partant d’une tige centrale courte",
+      "feuilles larges, vert clair, profondément découpées en lobes irréguliers",
+      "bords des feuilles soulignés d’un liseré violet net",
+      "zones plus sombres au centre de certaines feuilles, comme des marques naturelles",
+      "nervures principales vert pâle, assez visibles sur les feuilles adultes",
+      "tige centrale verte à reflets violets près de la base",
+      "racines fines, nombreuses, vertes et violettes, s’étalant dans les sols meubles",
+      "section de tige montrant plusieurs canaux violets internes",
+      "petits fruits ronds verts, tachés ou mouchetés de violet",
+      "graines violettes regroupées dans une capsule ronde ou une pulpe claire",
+      "sève translucide avec de fines veines violettes lorsqu’elle est observée fraîche"
+    ],
+    "descriptionShort": "Le Tsugas est une plante vivace des zones tempérées humides, reconnaissable à ses grandes feuilles vertes découpées, bordées de violet, et à ses petits fruits verts tachés de mauve.",
+    "descriptionFull": "Le Tsugas pousse dans les forêts tempérées humides, les sous-bois frais, les vallons et les lisières ombragées où le sol reste meuble. Il forme une touffe assez large, composée de grandes feuilles vertes découpées qui captent efficacement la lumière filtrée par les arbres. Le bord violet des feuilles est l’un de ses signes les plus faciles à reconnaître, surtout après la pluie, lorsque les nervures deviennent plus visibles. Sa tige centrale reste courte mais solide, et nourrit un réseau de racines fines qui s’étalent dans la couche de feuilles mortes. Le Tsugas produit de petits fruits verts, parfois mouchetés de violet, contenant des graines sombres ou mauves. Dans Hinga, il est considéré comme une plante ordinaire de sous-bois humide, utile pour ses feuilles souples, sa sève légère et ses pigments faibles."
+  },
+
+  "danger": {
+    "level": 1,
+    "labels": [
+      "sève irritante légère",
+      "fruit amer",
+      "feuilles fragiles",
+      "racines glissantes"
+    ],
+    "contactRisk": "faible",
+    "ingestionRisk": "faible",
+    "magicalRisk": "faible",
+    "symptoms": [
+      "légère irritation de la peau après contact prolongé avec la sève fraîche",
+      "coloration violette temporaire des doigts après manipulation des fruits mûrs",
+      "goût amer et végétal si les fruits sont mâchés crus",
+      "gêne digestive mineure en cas d’ingestion excessive de graines",
+      "feuilles rapidement visqueuses si elles sont écrasées en milieu humide",
+      "risque de glissade sur les feuilles tombées et détrempées"
+    ]
+  },
+
+  "harvest": {
+    "difficulty": 25,
+    "stat": "perc",
+    "requiredTool": "petit couteau, ciseaux d’herboriste, panier aéré ou linge humide",
+    "bestMethod": "Couper les feuilles adultes à la base sans arracher la tige centrale, puis récolter les fruits mûrs avant qu’ils ne s’écrasent dans l’humidité du sous-bois.",
+    "failureEffect": "Les feuilles se déchirent, les fruits s’écrasent dans le panier ou la tige principale est abîmée, réduisant la repousse.",
+    "yield": {
+      "min": 3,
+      "max": 8,
+      "unit": "parts"
+    },
+    "parts": [
+      {
+        "id": "leaf",
+        "name": "Feuille large de Tsugas",
+        "difficultyModifier": 0,
+        "use": "Compresse simple, emballage végétal, poudre verte faible, repère botanique."
+      },
+      {
+        "id": "fruit",
+        "name": "Fruit vert-mauve",
+        "difficultyModifier": 10,
+        "use": "Graines, pigment violet faible, pulpe amère, préparation sèche."
+      },
+      {
+        "id": "seed",
+        "name": "Graine violette",
+        "difficultyModifier": 10,
+        "use": "Semis, poudre fine, pigment faible, ingrédient d’atelier mineur."
+      },
+      {
+        "id": "sap",
+        "name": "Sève claire veinée",
+        "difficultyModifier": 15,
+        "use": "Liant faible, stabilisant de pigment, base d’onguent simple."
+      },
+      {
+        "id": "stem",
+        "name": "Tige verte de Tsugas",
+        "difficultyModifier": 5,
+        "use": "Fibre molle, décoction amère, petit composant végétal."
+      },
+      {
+        "id": "root",
+        "name": "Racine violette fine",
+        "difficultyModifier": 15,
+        "use": "Fibre courte, teinture faible, décoction très amère."
+      }
+    ]
+  },
+
+  "uses": {
+    "medicinal": true,
+    "toxic": false,
+    "edible": false,
+    "ritual": false,
+    "magical": false,
+    "crafting": true,
+    "construction": false,
+    "ornamental": true,
+    "effects": [
+      {
+        "id": "feuille-compresse-tsugas",
+        "label": "Feuille compresse de Tsugas",
+        "type": "support",
+        "description": "Les grandes feuilles fraîches peuvent servir de compresse végétale simple ou d’emballage temporaire pour protéger une petite récolte humide."
+      },
+      {
+        "id": "pigment-violet-tsugas",
+        "label": "Pigment violet de Tsugas",
+        "type": "crafting",
+        "description": "Les fruits mûrs et certaines graines donnent un pigment violet faible, surtout utile pour des marques temporaires sur papier ou tissu clair."
+      },
+      {
+        "id": "seve-claire-liante",
+        "label": "Sève claire liante",
+        "type": "crafting",
+        "description": "La sève fraîche peut stabiliser une poudre végétale légère, mais elle reste trop douce et trop humide pour une colle durable."
+      },
+      {
+        "id": "poudre-feuille-verte",
+        "label": "Poudre de feuille verte",
+        "type": "crafting",
+        "description": "Les feuilles séchées et broyées donnent une poudre verte pâle, utilisée comme charge végétale ou teinture très faible."
+      }
+    ]
+  },
+
+  "crafting": {
+    "ingredientTier": 1,
+    "preparations": [
+      "compresse",
+      "emballage vegetal",
+      "poudre",
+      "pigment",
+      "teinture",
+      "liant",
+      "onguent",
+      "decoction"
+    ],
+    "recipes": [
+      {
+        "id": "compresse-large-de-tsugas",
+        "name": "Compresse Large de Tsugas",
+        "requiredKnowledge": 2
+      },
+      {
+        "id": "pigment-mauve-de-fruit",
+        "name": "Pigment Mauve de Fruit",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "poudre-verte-de-sous-bois",
+        "name": "Poudre Verte de Sous-Bois",
+        "requiredKnowledge": 2
+      },
+      {
+        "id": "liant-clair-de-tsugas",
+        "name": "Liant Clair de Tsugas",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "emballage-frais-de-feuille",
+        "name": "Emballage Frais de Feuille",
+        "requiredKnowledge": 2
+      }
+    ],
+    "synergies": [
+      "Les feuilles restent souples plus longtemps si elles sont gardées dans un linge humide mais non trempé.",
+      "Le pigment violet tient mieux lorsqu’il est mélangé à une poudre claire.",
+      "La sève claire stabilise mieux les préparations lorsqu’elle est filtrée avant usage.",
+      "Les fruits donnent une couleur plus propre lorsqu’ils sont récoltés avant ramollissement complet.",
+      "Les feuilles se broient mieux après un séchage lent à l’ombre."
+    ],
+    "incompatibilities": [
+      "Les feuilles pourrissent vite si elles sont empilées sans aération.",
+      "Les fruits s’écrasent facilement et tachent les autres parts de récolte.",
+      "Le pigment vire au gris si les fruits sont chauffés trop fort.",
+      "La sève devient inutile si elle se mélange à trop de terre humide.",
+      "Les racines fraîches dégagent une odeur forte si elles sont stockées sans séchage."
+    ]
+  },
+
+  "economy": {
+    "valueCategory": "faible",
+    "baseValue": {
+      "pk": 9,
+      "pa": 0,
+      "po": 0
+    },
+    "valueNotes": "Le Tsugas est une plante courante des sous-bois humides. Sa valeur reste faible, mais ses grandes feuilles fraîches et ses fruits pigmentaires peuvent intéresser les herboristes et artisans locaux.",
+    "tradeLegality": "legale",
+    "demand": "faible"
+  },
+
+  "gameplay": {
+    "discoverCheck": {
+      "stat": "perc",
+      "difficulty": 15
+    },
+    "identifyCheck": {
+      "stat": "intell",
+      "difficulty": 25
+    },
+    "studyCheck": {
+      "stat": "mental",
+      "difficulty": 35
+    },
+    "flags": [
+      "plant.perennial",
+      "plant.herb",
+      "plant.temperate_wet",
+      "plant.understory",
+      "harvest.leaf",
+      "harvest.fruit",
+      "harvest.seed",
+      "harvest.sap",
+      "craft.compress",
+      "craft.green_powder",
+      "craft.violet_pigment",
+      "craft.binder",
+      "terrain.wet_forest",
+      "humidity.high",
+      "irritant.sap_light"
+    ]
+  },
+
+  "gm": {
+    "publicNotes": "Le Tsugas est une plante de sous-bois tempéré humide, facilement reconnaissable à ses grandes feuilles vertes découpées et bordées de violet. Elle sert surtout pour ses feuilles fraîches, ses fruits et ses pigments faibles.",
+    "privateNotes": "Le Tsugas doit rester une plante commune, utile mais pas spectaculaire. Bon ingrédient de forêt humide : feuilles larges, compresse, emballage végétal, pigment mauve faible, sève douce.",
+    "plotHooks": [
+      "Un herboriste demande des feuilles de Tsugas intactes pour préparer des compresses simples, mais la pluie les rend fragiles au transport.",
+      "Des fruits de Tsugas ont taché une cargaison de tissus clairs, déclenchant une dispute avec le cueilleur.",
+      "Un sous-bois rempli de Tsugas indique un sol très humide, utile pour retrouver un ancien ruisseau enterré.",
+      "Un village utilise des feuilles fraîches de Tsugas pour emballer certaines récoltes fragiles avant le marché.",
+      "Une zone de Tsugas disparaît après l’assèchement progressif d’un vallon, signalant un changement du terrain."
+    ]
+  }
+}

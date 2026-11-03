@@ -1,0 +1,177 @@
+{
+  "id": "lokaril",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Lokaril",
+    "subtitle": "L’Innocence Future",
+    "tags": [
+      "Lokaril",
+      "L’Innocence Future",
+      "esprit majeur",
+      "Innocence",
+      "Enfants",
+      "Futur",
+      "Procréation",
+      "Imagination",
+      "Amusement",
+      "Plaisir",
+      "Rire Contagieux",
+      "Restauration collective de SM"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#C4B37A",
+    "visualNote": "Innocence • Enfants • Futur • Procréation • Imagination • Amusement • Plaisir"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "lokaril",
+    "name": "Lokaril",
+    "title": "L’Innocence Future",
+    "type": "esprit_majeur",
+    "domains": [
+      "Innocence",
+      "Enfants",
+      "Futur",
+      "Procréation",
+      "Imagination",
+      "Amusement",
+      "Plaisir"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "week_end",
+      "label": "À chaque fin de semaine"
+    },
+    "cult": {
+      "short": "Jouer à un jeu",
+      "ritual": "Jouer à un jeu."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La joie de Lokaril est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "rire_contagieux": {
+        "key": "rire_contagieux",
+        "name": "Rire Contagieux",
+        "tier": "divine",
+        "type": "actif",
+        "shortEffect": "Restauration collective de SM",
+        "fullDescription": "Une fois par cycle de dévotion, peut éclater de rire ou exécuter une action joyeuse, permettant à tous ceux à proximité de récupérer 1d4+2 SM et réduire l’anxiété.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#C4B37A",
+      "textColor": "#111111",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Innocence",
+              "Enfants",
+              "Futur",
+              "Procréation",
+              "Imagination",
+              "Amusement",
+              "Plaisir"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Jouer à un jeu"
+          },
+          {
+            "title": "Rituel",
+            "text": "Jouer à un jeu."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque fin de semaine"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "week_end"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Rire Contagieux (divine, actif)",
+              "Effet court : Restauration collective de SM",
+              "Description : Une fois par cycle de dévotion, peut éclater de rire ou exécuter une action joyeuse, permettant à tous ceux à proximité de récupérer 1d4+2 SM et réduire l’anxiété.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La joie de Lokaril est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "lokaril"
+  }
+}

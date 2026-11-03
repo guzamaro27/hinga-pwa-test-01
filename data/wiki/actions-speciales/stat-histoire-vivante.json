@@ -1,0 +1,65 @@
+{
+  "id": "stat-histoire-vivante",
+  "type": "codex",
+  "identity": {
+    "name": "Histoire Vivante",
+    "subtitle": "Analyse historique sur INT",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [{
+          "title": "Conditions",
+          "items": [
+            "Clic droit sur INT, puis Analyse historique.",
+            "Nécessite le passif Histoire Vivante activé manuellement.",
+            "Le sujet doit être visible, accessible ou suffisamment documenté.",
+            "Sous pression ou en combat, l’analyse consomme une action majeure. Hors pression, elle ne consomme aucune action de combat."
+          ]
+        }]
+      },
+      {
+        "label": "Jet",
+        "blocks": [{
+          "title": "Méthode",
+          "items": [
+            "Jet direct : INT, sans avantage intrinsèque.",
+            "Une même analyse ne peut pas être répétée dans les mêmes circonstances sans nouvel indice, nouvelle source, changement significatif ou validation du MJ.",
+            "Un échec ne fournit aucune conclusion fiable et ne génère aucun faux fait certain."
+          ]
+        }]
+      },
+      {
+        "label": "Résultats",
+        "blocks": [{
+          "title": "Informations possibles",
+          "items": [
+            "N1 : origine, époque, civilisation, fonction historique, événement public et référence culturelle.",
+            "N2 : ajoute symboles, traditions, croyances, transformations historiques et comportement collectif probable.",
+            "N3 : ajoute mémoire contestée, symbole sensible, contradiction culturelle, ancienne trahison, faille historique et levier rhétorique.",
+            "La compétence ne crée jamais de lore, de secret ou de fait absent des données accessibles."
+          ]
+        }]
+      },
+      {
+        "label": "Usages sociaux",
+        "blocks": [{
+          "title": "Référence historique",
+          "items": [
+            "L’avantage social s’applique à l’action sociale sous-jacente, uniquement via la variante explicite Histoire Vivante — Référence historique.",
+            "La référence doit être déclarée, pertinente et comprise par la cible.",
+            "Au N3, Performance gagne +1 niveau uniquement lorsqu’un récit, une légende, une tradition, un symbole culturel ou une mémoire collective est réellement employé.",
+            "Une Performance purement artistique ne reçoit pas automatiquement AV1."
+          ]
+        }]
+      }
+    ]
+  }
+}

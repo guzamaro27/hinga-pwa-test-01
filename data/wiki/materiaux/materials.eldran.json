@@ -1,0 +1,237 @@
+{
+  "id": "materials.eldran",
+  "type": "material",
+  "identity": {
+    "name": "Eldran",
+    "subtitle": "Bois · Sacré",
+    "icon": "◆",
+    "tags": [
+      "eldran",
+      "Eldran",
+      "wood",
+      "Bois",
+      "sacre",
+      "Sacré",
+      "Essence sacrée",
+      "Doré clair",
+      "Bois rare qui conduit les flux spirituels avec peu de perte.",
+      "Sacré/Arcane",
+      "hybrid",
+      "Hybride",
+      "Bon",
+      "Artefacts",
+      "symboles religieux",
+      "sceptres",
+      "temple",
+      "royal",
+      "artisan",
+      "trésor majeur"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Bois",
+    "rarity": 9
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "eldran",
+    "family": "wood",
+    "weaponProfile": "hybrid",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Bois"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Sacré"
+      },
+      {
+        "label": "Rareté",
+        "value": 9
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Essence sacrée"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Doré clair"
+          },
+          {
+            "title": "Description",
+            "text": "Bois rare qui conduit les flux spirituels avec peu de perte."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "8"
+          },
+          {
+            "title": "Masse relative",
+            "text": "3"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Modéré (2)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "2"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Sacré/Arcane"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Canalisation stable de l’énergie magique."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Exploitation probablement réglementée",
+              "origine à préciser."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Artefacts",
+              "symboles religieux",
+              "sceptres"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "temple",
+              "royal",
+              "artisan",
+              "trésor majeur"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Planche de 1 m (≈3 kg)"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "3"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "1125"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.65"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Fabuleux"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "3"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "kaerion"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_resonance_arcane"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

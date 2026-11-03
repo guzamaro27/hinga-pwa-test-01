@@ -1,0 +1,46 @@
+{
+  "id": "mental-riposte-psychique",
+  "type": "codex",
+  "identity": {
+    "name": "Riposte psychique",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "2 PF · Réaction · 24 m · Palier -2",
+              "Jet offensif : PSY.",
+              "Seulement après une perte réelle de SM mentale supérieure à zéro causée par un attaquant identifié, pendant la fenêtre de réaction courante. Le bouton apparaît sur la carte après application des dégâts et devient accessible dans le menu Mental.",
+              "Retourne une attaque mentale contre le token attaquant d’origine. Utilise la réaction normale du round, sans action majeure ou mineure ; permissions, PSY, portée et PF sont vérifiés. Une Riposte psychique ne peut pas déclencher une autre Riposte psychique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rules.activation-competences",
+  "type": "codex",
+  "identity": {
+    "name": "Activation des compétences",
+    "subtitle": "Coût universel en points de fatigue",
+    "icon": "C",
+    "tags": [
+      "règles",
+      "compétences",
+      "activation",
+      "points de fatigue",
+      "PF"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "competences",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Coût d’activation",
+        "blocks": [
+          {
+            "title": "Règle générale",
+            "text": "Toute tentative d’activation d’une compétence consomme des PF. Le coût dépend uniquement de son type d’activation.",
+            "items": [
+              "Activation mineure : 2 PF.",
+              "Activation majeure : 3 PF.",
+              "Réaction, passif ou tout autre type d’activation : 1 PF."
+            ]
+          },
+          {
+            "title": "Moment de la dépense",
+            "items": [
+              "Les PF sont dépensés une fois les conditions et les choix préalables validés, juste avant le jet éventuel.",
+              "Le coût reste dépensé si le jet d’activation échoue.",
+              "Si le personnage ne possède pas assez de PF, la compétence ne s’active pas.",
+              "Désactiver une compétence ne consomme aucun PF."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

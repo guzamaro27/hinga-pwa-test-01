@@ -1,0 +1,179 @@
+{
+  "id": "heter",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Heter",
+    "subtitle": "Le Rédempteur Miséricordieux",
+    "tags": [
+      "Heter",
+      "Le Rédempteur Miséricordieux",
+      "esprit majeur",
+      "Miséricorde",
+      "Foi",
+      "Espoir",
+      "Pardon",
+      "Rédemption",
+      "Entraide",
+      "Clémence Mutuelle",
+      "Échange d’avantages/désavantages"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#C9C4B5",
+    "visualNote": "Miséricorde • Foi • Espoir • Pardon • Rédemption • Entraide"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "heter",
+    "name": "Heter",
+    "title": "Le Rédempteur Miséricordieux",
+    "type": "esprit_majeur",
+    "domains": [
+      "Miséricorde",
+      "Foi",
+      "Espoir",
+      "Pardon",
+      "Rédemption",
+      "Entraide"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "every_two_days",
+      "label": "Tous les deux jours"
+    },
+    "cult": {
+      "short": "S’allonger face contre terre",
+      "ritual": "S'allonger au sol, face contre terre, pendant au moins 2 minutes."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La clémence de Heter est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "clemence_mutuelle": {
+        "key": "clemence_mutuelle",
+        "name": "Clémence Mutuelle",
+        "tier": "divine",
+        "type": "actif",
+        "shortEffect": "Échange d’avantages/désavantages",
+        "fullDescription": "Une fois par cycle de dévotion, peut attribuer un avantage à un adversaire pour obtenir un avantage soi-même, ou enlever un désavantage à un adversaire pour en perdre un soi-même.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#C9C4B5",
+      "textColor": "#111111",
+      "glow": true
+    },
+    "incompatibilities": [
+      "xarnis"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Miséricorde",
+              "Foi",
+              "Espoir",
+              "Pardon",
+              "Rédemption",
+              "Entraide"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "S’allonger face contre terre"
+          },
+          {
+            "title": "Rituel",
+            "text": "S'allonger au sol, face contre terre, pendant au moins 2 minutes."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Tous les deux jours"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "every_two_days"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Clémence Mutuelle (divine, actif)",
+              "Effet court : Échange d’avantages/désavantages",
+              "Description : Une fois par cycle de dévotion, peut attribuer un avantage à un adversaire pour obtenir un avantage soi-même, ou enlever un désavantage à un adversaire pour en perdre un soi-même.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La clémence de Heter est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "xarnis"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "heter"
+  }
+}

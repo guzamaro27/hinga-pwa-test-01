@@ -1,0 +1,35 @@
+{
+  "id": "trozar",
+  "type": "creature-public",
+  "identity": {
+    "name": "Trozar",
+    "subtitle": "Le percuteur des plaines",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial",
+      "migrateur",
+      "chasse",
+      "artisanat",
+      "alimentaire"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Trozar vit principalement dans les plaines ouvertes, les steppes, les étendues herbeuses et les contreforts montagneux. Migrateur, il suit les saisons et se déplace en groupes structurés, capables de traverser de vastes espaces à grande vitesse. Son régime est omnivore, principalement végétal, mais il peut consommer de la chair de manière opportuniste lorsque la situation s’y prête."
+          },
+          {
+            "text": "Le Trozar possède une allure lourde mais parfaitement équilibrée. Son arrière-train est exagérément musclé, adapté aux départs fulgurants, tandis que son corps fuselé réduit la résistance à l’air malgré sa masse importante. Sa corne centrale est plus longue et plus épaisse que les deux autres, légèrement incurvée vers l’avant. Les deux cornes latérales servent davantage à stabiliser l’impact. Le pelage rouge sombre donne à la meute une présence impressionnante lorsqu’elle traverse la plaine à pleine vitesse."
+          },
+          {
+            "text": "Le Trozar vit en meute structurée, avec une hiérarchie stable dirigée par un chef. La survie collective prime sur l’affrontement inutile : le chef guide les déplacements, choisit les trajectoires de migration et évite les conflits lorsque cela reste possible."
+          }
+        ]
+      }
+    ]
+  }
+}

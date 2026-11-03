@@ -1,0 +1,227 @@
+{
+  "id": "materials.chalun",
+  "type": "material",
+  "identity": {
+    "name": "Chalun",
+    "subtitle": "Bois · Naturel",
+    "icon": "◆",
+    "tags": [
+      "chalun",
+      "Chalun",
+      "wood",
+      "Bois",
+      "naturel",
+      "Naturel",
+      "Essence commune",
+      "Brun clair",
+      "Bois léger, souple et facile à travailler.",
+      "Nature",
+      "physical",
+      "Physique",
+      "Faible",
+      "Arcs",
+      "meubles",
+      "outils",
+      "emballages",
+      "forestier",
+      "charpentier",
+      "caisse",
+      "tonneau"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Bois",
+    "rarity": 1
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "chalun",
+    "family": "wood",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Bois"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturel"
+      },
+      {
+        "label": "Rareté",
+        "value": 1
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Essence commune"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Brun clair"
+          },
+          {
+            "title": "Description",
+            "text": "Bois léger, souple et facile à travailler."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "3"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Nature"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Très bonne ouvrabilité."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Faible durabilité sans traitement."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Arcs",
+              "meubles",
+              "outils",
+              "emballages"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "forestier",
+              "charpentier",
+              "caisse",
+              "tonneau"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Planche de 1 m (≈3 kg)"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "3"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "2"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.9"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Pauvre"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "100"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

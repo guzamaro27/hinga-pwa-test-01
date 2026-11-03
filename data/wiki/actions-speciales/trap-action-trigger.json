@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-trigger",
+  "type": "codex",
+  "identity": {
+    "name": "Déclencher",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "déclencher"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Déclencher"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Activer volontairement un piège armé, connu et à portée."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Déclencher utilise le bouton existant pour provoquer un piège déjà armé. Un personnage proche peut le faire s'il connaît le piège au moins au niveau 1 et si le mode de déclenchement est compatible. Le MJ peut toujours déclencher le piège."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Sans connaissance du piège, le personnage ne peut pas le déclencher volontairement. Le créateur du piège est considéré comme suffisamment familier avec son mécanisme."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Créateur ou Knowledge 3 : réussite automatique. Knowledge 2 : jet de DEX normal. Knowledge 1 : jet de DEX/2. Aucun Knowledge 1 : action impossible."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "En cas de réussite, le piège applique sa résolution normale : animation, son, effets, dégâts, états, persistance et afterUse. Pour un piège à timer avec démarrage manuel, le clic amorce le timer au lieu d'appliquer immédiatement les effets."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Aucun nouveau bouton ni dialogue de type Provoquer n'est ajouté. L'action reste portée par le bouton Déclencher."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le bouton apparaît si le piège est armé, non détruit, non naturel, compatible avec un déclenchement volontaire, et si le personnage est à portée avec au moins Knowledge 1. Le MJ voit l'action sans cette restriction."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Refus si le piège est désarmé, détruit, naturel, introuvable, trop éloigné, inconnu du personnage, ou si son mode n'est pas compatible avec un déclenchement volontaire. Si le timer manuel est déjà amorcé, le système l'indique sans relancer le timer."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Les compétences d'analyse qui donnent un niveau de connaissance du piège peuvent ouvrir l'action : Knowledge 1 donne DEX/2, Knowledge 2 donne DEX, Knowledge 3 donne une réussite automatique."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le piège se déclenche, ou son timer est amorcé si son déclenchement manuel démarre un compte à rebours."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le piège ne se déclenche pas et son état ne change pas."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Sur réussite critique, le piège se déclenche normalement. Sur échec critique, le piège se déclenche de manière défavorable ; si aucune résolution automatique dédiée n'existe, une note TODO MJ est ajoutée à la carte de chat."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le créateur peut déclencher son piège sans jet. Le propriétaire ou le poseur ne sont plus les seuls à pouvoir utiliser l'action si un autre personnage proche possède une connaissance suffisante du piège."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Déclencher",
+            "text": "Le MJ garde la main forte : il peut déclencher un piège compatible même sans cible et même si un joueur ne pourrait pas utiliser l'action."
+          }
+        ]
+      }
+    ]
+  }
+}

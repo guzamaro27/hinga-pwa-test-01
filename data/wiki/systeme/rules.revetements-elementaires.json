@@ -1,0 +1,165 @@
+{
+  "id": "rules.revetements-elementaires",
+  "type": "codex",
+  "identity": {
+    "name": "Revêtements élémentaires",
+    "subtitle": "Charger temporairement une arme",
+    "icon": "◈",
+    "tags": [
+      "Revêtements élémentaires",
+      "revêtement",
+      "élément",
+      "matériau"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/coatings/elemental-coating.mjs",
+    "module/engine/competences/maitrise-du-revetement",
+    "module/data/materials.mjs"
+  ],
+  "mechanics": {
+    "tiers": {
+      "0": {
+        "coating": 0,
+        "enchantments": 0,
+        "damageCap": 0,
+        "stateTierCap": 0
+      },
+      "1": {
+        "coating": 1,
+        "enchantments": 0,
+        "damageCap": 2,
+        "stateTierCap": 1
+      },
+      "2": {
+        "coating": 1,
+        "enchantments": 1,
+        "damageCap": 3,
+        "stateTierCap": 2
+      },
+      "3": {
+        "coating": 1,
+        "enchantments": 2,
+        "damageCap": 4,
+        "stateTierCap": 3
+      },
+      "4": {
+        "coating": 1,
+        "enchantments": 2,
+        "damageCap": 5,
+        "stateTierCap": 4
+      }
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Capacité",
+        "value": "Dépend du Tier du matériau"
+      },
+      {
+        "label": "Effet",
+        "value": "Dégâts et état élémentaires plafonnés"
+      },
+      {
+        "label": "Fin",
+        "value": "Consommation, expiration, dissipation ou transfert"
+      }
+    ],
+    "links": [
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      },
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      },
+      {
+        "label": "Solidité des armes",
+        "sectionId": "systeme",
+        "entryId": "rules.weapon-defense"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Appliquer",
+        "blocks": [
+          {
+            "text": "Un revêtement associe un élément, des dégâts, un état et une durée à un objet compatible. Le matériau fixe la capacité et les plafonds."
+          }
+        ]
+      },
+      {
+        "label": "Tiers de matériau",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Tier",
+                "Revêtements",
+                "Enchantements",
+                "Cap dégâts",
+                "Cap état"
+              ],
+              "rows": [
+                [
+                  "0 — Réfractaire",
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  "1 — Faible",
+                  1,
+                  0,
+                  2,
+                  "T1"
+                ],
+                [
+                  "2 — Normal",
+                  1,
+                  1,
+                  3,
+                  "T2"
+                ],
+                [
+                  "3 — Bon",
+                  1,
+                  2,
+                  4,
+                  "T3"
+                ],
+                [
+                  "4 — Exceptionnel",
+                  1,
+                  2,
+                  5,
+                  "T4"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "text": "Sur une touche qualifiée, le revêtement ajoute sa contribution offensive. Maîtrise du Revêtement peut ouvrir une interaction défensive. La consommation, l’expiration, la dissipation ou un transfert incompatible le retirent."
+          }
+        ]
+      }
+    ]
+  }
+}

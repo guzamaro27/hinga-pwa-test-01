@@ -1,0 +1,33 @@
+{
+  "id": "sertash",
+  "type": "creature-public",
+  "identity": {
+    "name": "Sertash",
+    "subtitle": "L’Observateur de la Canopée",
+    "tags": [
+      "sauvage",
+      "arboricole",
+      "proie",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Sertash vit principalement dans les forêts tropicales et les jungles anciennes, au niveau de la canopée et des branches hautes. Omnivore opportuniste, il se nourrit de fruits, d’insectes, de petites proies arboricoles et d’œufs trouvés dans les hauteurs. Très prudent, il passe de longues périodes immobile à observer son environnement avant de se déplacer ou de fuir."
+          },
+          {
+            "text": "Le Sertash est une créature arboricole vive vivant dans les forêts denses. Son corps compact est recouvert d’une fourrure noire et brune épaisse, contrastant fortement avec la large collerette rousse qui entoure son cou comme une crinière circulaire. Son visage large est marqué par des joues gonflées très caractéristiques et par de grands yeux ambrés aux pupilles verticales, lui donnant un regard intense et particulièrement expressif. Ses longs bras et ses doigts griffus lui permettent de grimper avec aisance dans les arbres, tandis que sa longue queue souple l’aide à garder l’équilibre lorsqu’il se déplace dans la canopée."
+          },
+          {
+            "text": "Le Sertash vit en petits groupes familiaux. Les abris sont dissimulés dans les cavités d’arbres ou dans des amas de branches, souvent en hauteur et dans des zones difficiles à atteindre."
+          }
+        ]
+      }
+    ]
+  }
+}

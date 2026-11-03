@@ -34,7 +34,7 @@ STATS.map(k=>'<div class="wizard-stat"><label for="stat-'+k+'">'+esc(k.toUpperCa
 }else if(key==="token"){
 html='<p>La bibliothèque de tokens Foundry n’est pas intégrée à la PWA. Conservez ici une préférence visuelle, sans inventer de fichier.</p>'+field("token","Description du token souhaité",d.tokenDescription);
 }else if(key==="chance"){
-html='<p>Valeur de Chance du brouillon (aucun jet Foundry).</p>'+field("chance","Chance",d.chance??"","number")+'<button id="roll-chance" type="button">Tirer 1d100 (simulation locale)</button>';
+html='<p>Valeur de Chance du brouillon (aucun jet Foundry).</p>'+field("chance","Chance",d.chance??"","number");
 }else if(key==="age"){
 html=field("age","Âge (narratif)",d.age??"","number");
 }else if(key==="spirits"){
@@ -69,7 +69,7 @@ bind('[id^="trait-"]',el=>d.traits[Number(el.id.split("-")[1])]=el.value);
 bind("#extra",el=>d.extra=el.value);
 bind("#name",el=>record.name=el.value);
 const balance=host.querySelector("#balance");if(balance)balance.onclick=()=>{d.baseStats=Object.fromEntries(STATS.map(k=>[k,40]));save();render()};
-const roll=host.querySelector("#roll-chance");if(roll)roll.onclick=()=>{const bytes=new Uint32Array(1);crypto.getRandomValues(bytes);d.chance=1+(bytes[0]%100);save();render()};
+
 }
 render();
 }

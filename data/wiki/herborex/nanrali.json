@@ -1,0 +1,92 @@
+{
+  "id": "nanrali",
+  "type": "plant",
+  "identity": {
+    "name": "Nanrali",
+    "subtitle": "Touffe sombre des terres froides",
+    "unknownName": "Plante froide à tiges sombres et perles violettes",
+    "slug": "nanrali",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Nanrali.png",
+    "visualNote": "Touffe dense de tiges vert sombre bordées de violet, avec feuilles étroites irrégulières et petites perles mauves sur les racines et les feuilles.",
+    "tags": [
+      "toundra",
+      "fibre",
+      "perles-mauves"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "toundra sèche froide",
+      "taïga sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre pauvre",
+      "rocaille",
+      "neige"
+    ],
+    "season": [
+      "dégel",
+      "baisse des températures",
+      "premiers froids"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "25 cm à 1,1 m",
+    "width": "25 à 70 cm",
+    "colorMain": "vert sombre",
+    "colorSecondary": "violet, mauve, brun racinaire",
+    "distinctiveSigns": [
+      "touffe dense partant d'une base racinaire sombre",
+      "longues tiges étroites vert sombre",
+      "bords soulignés d'un liseré violet",
+      "feuilles longues parfois fendues ou ondulées",
+      "petites taches mauves sur les feuilles âgées",
+      "racines fines portant des nodules violets",
+      "petites perles mauves portées par de courts filaments"
+    ],
+    "descriptionShort": "Le Nanrali est une herbe froide en touffe sombre, bordée de violet et ponctuée de perles mauves.",
+    "descriptionFull": "Le Nanrali forme des touffes rigides dans les sols maigres des toundras et taïgas sèches. Ses tiges sombres restent souples sur les jeunes pousses mais se durcissent avec le froid. Les bords violets, les petites perles mauves et les nodules racinaires le distinguent des herbes sèches voisines, même lorsque la saison de croissance est courte."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Les tiges sèches donnent une fibre rude pour petits liens, et les perles mauves peuvent colorer faiblement des supports clairs."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

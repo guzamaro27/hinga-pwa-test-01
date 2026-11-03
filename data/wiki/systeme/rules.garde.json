@@ -1,0 +1,75 @@
+{
+  "id": "rules.garde",
+  "type": "codex",
+  "identity": {
+    "name": "Garde",
+    "subtitle": "Posture défensive et rupture de garde",
+    "icon": "▣",
+    "tags": [
+      "Garde",
+      "garde",
+      "brise-garde",
+      "défense"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/engine/competences",
+    "module/hingadex/actions-speciales/data/cac-brise-garde.json"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "But",
+        "value": "Renforcer ou briser une posture défensive"
+      },
+      {
+        "label": "Résolution",
+        "value": "Selon l’action ou la compétence utilisée"
+      }
+    ],
+    "links": [
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Bouclier",
+        "sectionId": "systeme",
+        "entryId": "rules.bouclier"
+      },
+      {
+        "label": "Oppositions",
+        "sectionId": "systeme",
+        "entryId": "rules.oppositions"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Principe",
+        "blocks": [
+          {
+            "text": "La garde représente une posture ou une protection active lorsqu’une action la crée. Une action de brise-garde ne devient disponible que dans le contexte qui la prévoit."
+          }
+        ]
+      },
+      {
+        "label": "Limite",
+        "blocks": [
+          {
+            "text": "Il n’existe pas de jauge universelle de garde à appliquer à toutes les attaques : utilisez les données de l’action, de l’état ou de la compétence concernée."
+          }
+        ]
+      }
+    ]
+  }
+}

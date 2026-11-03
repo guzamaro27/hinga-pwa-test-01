@@ -1,0 +1,79 @@
+{
+  "id": "arme-desarmement",
+  "type": "codex",
+  "identity": {
+    "name": "Désarmement",
+    "subtitle": "Action spéciale avec arme",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "arme",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur Attaque avec arme puis Désarmer.",
+              "Le lanceur doit avoir une arme équipée et être au contact d’une cible hostile unique.",
+              "Sans Désarmement Stratégique, l’équipement visé est l’arme équipée ordinaire de la cible.",
+              "Avec Désarmement Stratégique actif, une arme équipée ou un bouclier équipé peut être ciblé exactement.",
+              "Si la cible possède anti.desarm ou si l’accès physique est bloqué, l’action est annulée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode directe",
+            "items": [
+              "Attaquant : ATK/2 de l’arme utilisée.",
+              "Si Désarmement Stratégique est actif et que la cible possède un état de vulnérabilité admissible : ATK normal à la place d’ATK/2.",
+              "Défenseur : ATK normal de l’équipement ciblé ; son jet reste inchangé.",
+              "Désarmement Stratégique n’ajoute aucun AV à l’attaquant et aucun DV au défenseur.",
+              "Grip sûr actif donne AV1 uniquement au premier jet de résistance éligible du tour. Un échec préalable de l’attaquant ne consomme pas cette fenêtre."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Échec attaquant : l’équipement est conservé et aucune projection n’est lancée.",
+              "Réussite finale du défenseur sur la première fenêtre Grip sûr : l’équipement est conservé et une riposte classique peut être tentée immédiatement.",
+              "Victoire finale de l’attaquant : l’unique équipement ciblé est déséquipé.",
+              "Sans le passif actif, l’équipement est projeté à 1d4 mètres dans la direction aléatoire habituelle.",
+              "Avec le passif actif, l’équipement est projeté à 2d4 mètres, même si la cible n’était pas vulnérable.",
+              "Une réussite critique conserve les règles génériques de Désarmer et ne modifie pas la formule de projection.",
+              "La riposte de Grip sûr utilise la réaction, paie le coût normal de contre-attaque et suit toutes les restrictions ordinaires."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modificateurs",
+        "blocks": [
+          {
+            "title": "Compétences",
+            "items": [
+              "Maîtrise du Fouet N3 : bonus au seuil de désarmement inchangé.",
+              "Maîtrise du Bâton : bonus de désarmement inchangé selon le niveau.",
+              "Désarmement Stratégique : ATK normal uniquement contre une cible vulnérable ; arme ou bouclier ciblable ; projection 2d4.",
+              "Grip sûr : aucune immunité ; AV1 sur la première résistance éligible du tour, puis riposte classique possible seulement si cette résistance conserve finalement l’équipement."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

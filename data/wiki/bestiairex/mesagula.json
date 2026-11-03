@@ -1,0 +1,32 @@
+{
+  "id": "mesagula",
+  "type": "creature-public",
+  "identity": {
+    "name": "Mesagula",
+    "subtitle": "Le nageur des dunes",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Mesagula vit dans les déserts, au cœur du sable meuble et des dunes profondes. Il progresse presque exclusivement sous la surface, ne laissant souvent dépasser que son aileron dorsal sombre pour capter les vibrations. Carnivore strict, il détecte les proies imprudentes qui traversent son territoire et surgit brutalement du sol pour les saisir avant de disparaître à nouveau sous le sable."
+          },
+          {
+            "text": "Le Mesagula possède un pelage gris-jaune qui se confond avec le sable du désert. Son corps allongé peut s’étirer lorsqu’il se déplace, puis se replier en boule lorsqu’il est immobile. Un aileron dorsal plus sombre dépasse souvent légèrement du sable et lui permet de capter les vibrations. Son groin rose contraste avec le reste du corps. Ses pattes robustes se terminent par de longues griffes larges, parfaitement adaptées au creusement. L’absence d’yeux visibles accentue son aspect inquiétant."
+          },
+          {
+            "text": "Les Mesagula occupent des territoires adjacents en groupes lâches. Chaque individu semble conserver son espace de chasse, mais plusieurs territoires peuvent se chevaucher ou se répondre dans les mêmes zones de dunes."
+          }
+        ]
+      }
+    ]
+  }
+}

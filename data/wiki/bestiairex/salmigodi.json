@@ -1,0 +1,33 @@
+{
+  "id": "salmigodi",
+  "type": "creature-public",
+  "identity": {
+    "name": "Salmigodi",
+    "subtitle": "Le Fatras Visqueux",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "souterrain",
+      "magique",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Salmigodi vit dans les donjons, les ruines souterraines et les cavités profondes, où il occupe les couloirs obscurs, les galeries abandonnées et les salles humides. Sa petite torche naturelle éclaire faiblement les environs et attire les êtres vivants dans l'obscurité. Carnivore dissolvant, il absorbe progressivement les organismes qui s'approchent de sa masse visqueuse."
+          },
+          {
+            "text": "Le Salmigodi est une créature de petite taille dont le corps ressemble à un amas organique informe et visqueux. Sa surface est glissante, irrégulière et repoussante. Au sommet de sa tête pousse une petite torche de feu naturelle, qui éclaire faiblement les environs et attire les êtres vivants dans l'obscurité des donjons. Son corps est un amalgame de fragments miniaturisés issus des créatures qu'il a absorbées : oreilles réduites, cornes minuscules, yeux mal alignés et autres éléments dispersés. La partie inférieure de son corps est couverte d'une multitude de pieds miniaturisés, disproportionnés par rapport à sa masse, qui lui permettent de se déplacer plus rapidement qu'il n'y paraît. Sa bouche, large et sombre, est la seule partie entièrement issue de sa propre matière et peut se dilater ou se contracter selon la taille de ce qu'il consomme."
+          },
+          {
+            "text": "Le Salmigodi est généralement observé seul. Sa reproduction, sa durée de vie réelle et son mode de formation restent inconnus, car son corps change selon les êtres absorbés et les fragments qu'il intègre."
+          }
+        ]
+      }
+    ]
+  }
+}

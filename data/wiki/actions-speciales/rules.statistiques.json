@@ -1,0 +1,82 @@
+{
+  "id": "rules.statistiques",
+  "type": "codex",
+  "identity": {
+    "name": "Création de personnage — Répartition des statistiques",
+    "subtitle": "Budget des statistiques principales de base",
+    "icon": "S",
+    "tags": [
+      "statistiques",
+      "fiche personnage",
+      "création",
+      "budget",
+      "statistiques de base"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "statistiques",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Règle de création",
+        "blocks": [
+          {
+            "title": "Les 12 statistiques principales",
+            "text": "La répartition de création porte uniquement sur douze statistiques principales.",
+            "items": [
+              "FOR — Force.",
+              "CONST — Constitution.",
+              "VITA — Vitalité.",
+              "PSY — Psyché.",
+              "INT — Intelligence.",
+              "CHAR — Charisme.",
+              "DEM — Défense magique.",
+              "ARC — Arcane.",
+              "PERC — Perception.",
+              "DEX — Dextérité.",
+              "REACT — Réactivité.",
+              "DISCR — Discrétion."
+            ]
+          },
+          {
+            "title": "Budget",
+            "text": "La référence de création est de 480 points pour les douze statistiques, soit une moyenne humaine de 40. Une répartition peut utiliser moins ou davantage : au-dessus de 480, l’interface affiche un avertissement sans bloquer la saisie ni l’application."
+          },
+          {
+            "title": "Ce qui est compté",
+            "text": "Seules les valeurs de base distribuées à la création entrent dans le budget. Les bonus de peuple, les bonus d’hérédité, les compétences, les équipements, les états, les effets temporaires et les autres modificateurs sont appliqués séparément après cette répartition."
+          },
+          {
+            "title": "Sens et groupes",
+            "text": "Les sens dérivés ou spécialisés — VIS, AUD, OLF, TAC, GUS et ESO — ne comptent pas dans le budget. Il n’existe actuellement aucune limite de points par groupe de statistiques."
+          },
+          {
+            "title": "Groupes dérivés",
+            "text": "Les groupes PHY, MENT, MOB et MAG sont recalculés automatiquement par moyenne entière inférieure de leurs statistiques internes.",
+            "items": [
+              "PHY = ⌊(FOR + CONST + VITA) / 3⌋",
+              "MENT = ⌊(INT + CHAR + PSY) / 3⌋",
+              "MOB = ⌊(DEX + DISCR + REACT) / 3⌋",
+              "MAG = ⌊(ARC + DEM) / 2⌋"
+            ]
+          },
+          {
+            "title": "Mode saisie",
+            "text": "Le mode saisie permet de modifier directement les bases depuis la fiche personnage. Le compteur indique le total utilisé et l’écart avec la référence de 480 en direct. Un dépassement est signalé, mais reste applicable. Tant que ce mode est actif, les jets de statistiques du bloc sont désactivés."
+          },
+          {
+            "title": "Actions rapides",
+            "items": [
+              "Moyenne : met les 12 statistiques principales à 40, soit exactement 480 points.",
+              "Aléatoire : génère une répartition valide sans dépasser le budget.",
+              "Presets : propose des bases de statistiques comme Guerrier, Chevalier, Mage, Éclaireur ou Assassin. Un preset est un point de départ modifiable, pas une classe obligatoire."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

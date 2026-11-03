@@ -1,0 +1,90 @@
+{
+  "id": "banror",
+  "type": "plant",
+  "identity": {
+    "name": "Banror",
+    "subtitle": "Bulbe d'or du désert",
+    "unknownName": "Plante bulbeuse aux fleurs dorées",
+    "slug": "banror",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Banror.png",
+    "visualNote": "Plante désertique à gros bulbe brun craquelé, tiges torsadées et nombreuses fleurs dorées en étoile à cœur rosé.",
+    "tags": [
+      "desert",
+      "bulbe",
+      "fleur-doree"
+    ]
+  },
+  "classification": {
+    "category": "racine",
+    "family": "bulbe",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "retour des pluies",
+      "floraison",
+      "pic de chaleur"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "60 à 140 cm",
+    "width": "40 à 90 cm",
+    "colorMain": "brun terre",
+    "colorSecondary": "or pâle, rose",
+    "distinctiveSigns": [
+      "large bulbe central craquelé",
+      "tiges épaisses, noueuses et torsadées",
+      "fleurs dorées en étoile",
+      "cœur floral rose à rouge pâle",
+      "racines fines nombreuses autour du bulbe",
+      "sève ambrée visible dans les fissures"
+    ],
+    "descriptionShort": "Le Banror est une plante bulbeuse du désert, reconnaissable à son gros bulbe brun et à ses fleurs dorées étoilées.",
+    "descriptionFull": "Le Banror conserve l'eau et les sels dans un bulbe ligneux qui reste en grande partie hors du sable. Après les pluies rares, des tiges torsadées montent depuis le sommet et portent des fleurs dorées à cœur rosé. Ses racines fines explorent largement le sol alentour. La plante survit longtemps, mais supporte mal qu'on fende son bulbe."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu, mais le bulbe est dur et peut être difficile à couper."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "infusion",
+      "medicinale",
+      "semis",
+      "ornementale"
+    ],
+    "notes": ""
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

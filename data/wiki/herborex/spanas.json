@@ -1,0 +1,96 @@
+{
+  "id": "spanas",
+  "type": "plant",
+  "identity": {
+    "name": "Spanas",
+    "subtitle": "Arbre roux des forets fraiches",
+    "unknownName": "Arbre rouge a fruits ambres",
+    "slug": "spanas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Spanas.png",
+    "visualNote": "Arbre au tronc sombre et noueux, portant une cime rouge-roux dense et des fruits ambres.",
+    "tags": [
+      "arbre",
+      "roux",
+      "foret-fraiche",
+      "fruits-ambres"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "foret temperee humide",
+      "taiga seche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "baisse des temperatures",
+      "premiers froids",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "7 a 19 m",
+    "width": "5 a 13 m",
+    "colorMain": "roux profond",
+    "colorSecondary": "brun sombre, orange, ambre",
+    "distinctiveSigns": [
+      "couronne dense rouge-roux",
+      "tronc brun sombre, droit et rugueux",
+      "branches hautes tordues",
+      "feuilles ovales orangees aux nervures claires",
+      "racines sombres aux reflets ambres",
+      "fruits allonges rouges a ambres",
+      "petites graines orange-brun",
+      "bois brun a coeur orange vif"
+    ],
+    "descriptionShort": "Le Spanas est un arbre roux a cime dense, visible dans les forets fraiches et les bordures froides.",
+    "descriptionFull": "Le Spanas garde un feuillage rouge-roux qui semble persister au-dela des saisons de froid. Son tronc sombre monte droit avant de se tordre en branches hautes, cachees dans une cime compacte. Il produit des fruits ambres fibreux et des racines marquees d'orange, ce qui le rend facile a reconnaitre dans les lisieres et les forets froides."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Spanas est apprecie pour son bois brun, ses couleurs chaudes et ses branches seches qui prennent bien le feu dans les regions froides."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,1926 @@
+{
+  "id": "kalmani",
+  "type": "peuple",
+  "identity": {
+    "name": "Kal'mani",
+    "subtitle": "",
+    "slug": "kalmani",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/kalmani2.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Kal'mani, dont le nom signifie littéralement **« peuple animal »**, regroupent un très grand nombre de lignées humanoïdes possédant des caractéristiques animales distinctes."
+          },
+          {
+            "text": "Tous les Kal'mani partagent une organisation corporelle commune :"
+          },
+          {
+            "items": [
+              "une posture verticale ;",
+              "un torse humanoïde ;",
+              "deux bras ;",
+              "deux jambes ;",
+              "deux yeux ;",
+              "une tête présentant des caractères animaux ;",
+              "des mains capables de manipuler des outils."
+            ]
+          },
+          {
+            "text": "La diversité du peuple s’exprime principalement dans :"
+          },
+          {
+            "items": [
+              "la forme de la tête ;",
+              "les proportions du corps ;",
+              "le revêtement de la peau ;",
+              "la présence d’une queue ;",
+              "les cornes, bois, crocs ou défenses ;",
+              "la forme des mains et des pieds ;",
+              "les organes sensoriels ;",
+              "les couleurs et les motifs."
+            ]
+          },
+          {
+            "text": "Les formes animales dont ils reprennent les caractères ne correspondent pas à des espèces vivant indépendamment dans la faune connue de Hinga. Elles possèdent leurs propres noms et leur propre histoire dans le monde."
+          },
+          {
+            "text": "Chaque lignée kal'mani possède également un nom particulier, souvent partagé avec la communauté ou la tribu dont elle est issue."
+          },
+          {
+            "text": "Deux Kal'mani peuvent ainsi présenter des apparences très différentes tout en appartenant au même peuple."
+          },
+          {
+            "text": "Leur perception développée, leur vitalité et leur relation instinctive à leur environnement leur valent une réputation d’individus autonomes, attentifs et difficiles à surprendre."
+          },
+          {
+            "title": "Les Ter'kal",
+            "headingLevel": 4,
+            "anchor": "les-terkal",
+            "text": "Le terme **Ter'kal**, signifiant approximativement « semi-animal », désigne de manière informelle les Kal'mani dont les caractères animaux sont moins prononcés."
+          },
+          {
+            "text": "Un Ter'kal peut notamment posséder :"
+          },
+          {
+            "items": [
+              "un visage conservant peu de caractères animaux ;",
+              "seulement des oreilles ou une queue animales ;",
+              "une pilosité localisée ;",
+              "quelques griffes, crocs, écailles ou plumes ;",
+              "une morphologie proche de celle des autres peuples bipèdes."
+            ]
+          },
+          {
+            "text": "Le terme ne désigne pas un peuple distinct."
+          },
+          {
+            "text": "Son usage peut être neutre dans certaines régions et considéré comme réducteur ou discriminatoire dans d’autres."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 5/10 — Présence moyenne"
+          },
+          {
+            "text": "**Tendances :** Les Kal'mani sont rencontrés assez régulièrement sur Arolnia, mais la présence de chaque lignée varie fortement."
+          },
+          {
+            "text": "Certaines lignées mobiles, robustes ou habituées au voyage sont fréquemment représentées parmi :"
+          },
+          {
+            "items": [
+              "les aventuriers ;",
+              "les marchands ;",
+              "les éclaireurs ;",
+              "les mercenaires ;",
+              "les voyageurs."
+            ]
+          },
+          {
+            "text": "D’autres lignées sont beaucoup plus sédentaires et quittent rarement leur territoire traditionnel."
+          },
+          {
+            "text": "Il est donc possible de rencontrer régulièrement des Kal'mani sans jamais croiser certaines de leurs lignées."
+          },
+          {
+            "text": "Ils vivent aussi bien dans les villes que dans les campagnes, mais conservent fréquemment un attachement marqué aux environnements correspondant aux besoins de leur lignée."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Kal'mani ne possèdent aucune taille ni aucun poids moyens applicables à l’ensemble du peuple."
+          },
+          {
+            "text": "Leur gabarit dépend de leur lignée."
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "petits et légers ;",
+              "grands et fins ;",
+              "larges et puissants ;",
+              "trapus et denses ;",
+              "souples et allongés ;",
+              "couverts d’une importante masse de fourrure, de plumes ou d’écailles."
+            ]
+          },
+          {
+            "text": "Tous conservent néanmoins la même organisation corporelle générale :"
+          },
+          {
+            "items": [
+              "un torse vertical ;",
+              "deux bras ;",
+              "deux jambes ;",
+              "une tête ;",
+              "deux yeux ;",
+              "des mains préhensiles."
+            ]
+          },
+          {
+            "text": "Les proportions peuvent varier fortement."
+          },
+          {
+            "text": "Une lignée peut notamment posséder :"
+          },
+          {
+            "items": [
+              "des bras particulièrement longs ;",
+              "des jambes courtes et puissantes ;",
+              "une posture digitigrade ;",
+              "des pieds larges ou palmés ;",
+              "un torse étroit ;",
+              "une cage thoracique très développée ;",
+              "une silhouette très compacte."
+            ]
+          },
+          {
+            "text": "Ces variations ne produisent jamais de bras, de jambes ou d’yeux supplémentaires."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La surface corporelle des Kal'mani varie fortement selon leur lignée."
+          },
+          {
+            "text": "Elle peut être constituée de :"
+          },
+          {
+            "items": [
+              "peau nue ;",
+              "fourrure courte ;",
+              "fourrure épaisse ;",
+              "duvet ;",
+              "plumes ;",
+              "écailles ;",
+              "plaques dures ;",
+              "tissus lisses ou humides ;",
+              "structures mixtes combinant plusieurs de ces éléments."
+            ]
+          },
+          {
+            "text": "Les couleurs sont généralement héréditaires."
+          },
+          {
+            "text": "Elles peuvent être influencées par :"
+          },
+          {
+            "items": [
+              "la lignée ;",
+              "la famille ;",
+              "le territoire ancestral ;",
+              "l’âge ;",
+              "la santé ;",
+              "un changement durable d’environnement."
+            ]
+          },
+          {
+            "text": "Chez certaines lignées, une installation prolongée dans un nouvel habitat peut progressivement modifier :"
+          },
+          {
+            "items": [
+              "la saturation des couleurs ;",
+              "la densité de la fourrure ;",
+              "l’épaisseur des tissus ;",
+              "la répartition des marques ;",
+              "certaines nuances du plumage ou des écailles."
+            ]
+          },
+          {
+            "text": "Ces changements restent lents et ne constituent pas une transformation volontaire."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "La majorité des Kal'mani possèdent une tête principalement animale placée sur un corps bipède."
+          },
+          {
+            "text": "Le visage comprend toujours :"
+          },
+          {
+            "items": [
+              "deux yeux ;",
+              "un nez ou un organe olfactif équivalent ;",
+              "une bouche ;",
+              "deux oreilles ou structures auditives ;",
+              "une mâchoire adaptée à la lignée."
+            ]
+          },
+          {
+            "text": "La forme précise peut inclure :"
+          },
+          {
+            "items": [
+              "un museau court ou allongé ;",
+              "un nez plat ou saillant ;",
+              "un bec ;",
+              "des crocs ;",
+              "des défenses ;",
+              "une langue particulière ;",
+              "des vibrisses ;",
+              "des écailles faciales ;",
+              "des plumes ;",
+              "des plaques protectrices."
+            ]
+          },
+          {
+            "text": "La tête reste capable d’exprimer les émotions, même lorsque son anatomie s’éloigne fortement des visages rencontrés chez les autres peuples."
+          },
+          {
+            "text": "Les Ter'kal présentent généralement un visage moins animal, sur lequel seuls certains caractères de leur lignée restent visibles."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Tous les Kal'mani possèdent deux yeux."
+          },
+          {
+            "text": "Leur forme, leur position et leur fonctionnement dépendent de la lignée."
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "ronds ;",
+              "en amande ;",
+              "étroits ;",
+              "très larges ;",
+              "frontaux ;",
+              "légèrement latéraux ;",
+              "protégés par une paupière supplémentaire ;",
+              "dotés de pupilles rondes, verticales ou horizontales."
+            ]
+          },
+          {
+            "text": "Les couleurs peuvent varier considérablement et comprennent aussi bien des tons ordinaires que des teintes très saturées."
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent, sauf particularité explicitement définie pour une lignée."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les Kal'mani ne possèdent pas tous une chevelure distincte du reste de leur revêtement corporel."
+          },
+          {
+            "text": "Selon la lignée, la tête peut porter :"
+          },
+          {
+            "items": [
+              "des cheveux ;",
+              "une crinière ;",
+              "une fourrure continue ;",
+              "des plumes ;",
+              "des écailles ;",
+              "une peau nue ;",
+              "des filaments sensoriels ;",
+              "une combinaison de plusieurs éléments."
+            ]
+          },
+          {
+            "text": "La pilosité peut couvrir :"
+          },
+          {
+            "items": [
+              "uniquement certaines zones ;",
+              "la majorité du corps ;",
+              "l’intégralité du corps à l’exception des paumes et des muqueuses ;",
+              "aucune partie du corps."
+            ]
+          },
+          {
+            "text": "La couleur et la texture sont principalement déterminées par la lignée et l’hérédité."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Tous les Kal'mani possèdent :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "deux yeux ;",
+              "trois à cinq doigts à chaque main ;",
+              "trois à cinq orteils à chaque pied ;",
+              "une posture verticale."
+            ]
+          },
+          {
+            "text": "Les doigts et les orteils peuvent être terminés par :"
+          },
+          {
+            "items": [
+              "des ongles ;",
+              "des griffes ;",
+              "des sabots divisés ;",
+              "des coussinets ;",
+              "des membranes palmées."
+            ]
+          },
+          {
+            "text": "D’autres attributs peuvent apparaître selon la lignée :"
+          },
+          {
+            "items": [
+              "une queue ;",
+              "des cornes ;",
+              "des bois ;",
+              "des défenses ;",
+              "des crocs ;",
+              "des nageoires ;",
+              "des ailerons ;",
+              "des branchies ;",
+              "des plaques protectrices ;",
+              "des coussinets ;",
+              "des vibrisses ;",
+              "des crêtes ;",
+              "des plumes ou écailles spécialisées."
+            ]
+          },
+          {
+            "text": "Ces attributs complètent leur organisation bipède sans remplacer ou multiplier leurs membres."
+          },
+          {
+            "text": "La présence d’un attribut ne lui accorde pas automatiquement une capacité mécanique particulière."
+          },
+          {
+            "text": "Des griffes, des cornes, une queue ou des branchies suivent les capacités naturelles et les limites propres à la lignée concernée."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les attributs animaux des Kal'mani sont de véritables parties fonctionnelles de leur organisme."
+          },
+          {
+            "text": "Ils ne constituent ni des ornements ni des manifestations magiques permanentes."
+          },
+          {
+            "text": "Selon la lignée, ils peuvent participer :"
+          },
+          {
+            "items": [
+              "à l’équilibre ;",
+              "à la perception ;",
+              "à la respiration ;",
+              "à la régulation thermique ;",
+              "à la préhension ;",
+              "à la défense ;",
+              "à la communication ;",
+              "à la nage ;",
+              "au déplacement sur certains terrains."
+            ]
+          },
+          {
+            "text": "Le fonctionnement exact dépend de l’anatomie de la lignée."
+          },
+          {
+            "text": "Une queue peut, par exemple, servir :"
+          },
+          {
+            "items": [
+              "à l’équilibre ;",
+              "à la nage ;",
+              "à la communication ;",
+              "à la préhension légère."
+            ]
+          },
+          {
+            "text": "De même, les cornes, nageoires ou griffes ne remplissent pas nécessairement la même fonction chez toutes les lignées qui en possèdent."
+          },
+          {
+            "title": "Reproduction et dimorphisme",
+            "headingLevel": 4,
+            "anchor": "reproduction-et-dimorphisme",
+            "text": "Les Kal'mani ne possèdent pas un fonctionnement reproductif unique."
+          },
+          {
+            "text": "La plupart des lignées connaissent deux sexes reproductifs, mais leur dimorphisme varie fortement."
+          },
+          {
+            "text": "Chez certaines lignées vivipares, les différences peuvent concerner :"
+          },
+          {
+            "items": [
+              "la taille ;",
+              "la masse ;",
+              "la forme du visage ;",
+              "la pilosité ;",
+              "les cornes ;",
+              "les couleurs ;",
+              "la musculature."
+            ]
+          },
+          {
+            "text": "Chez de nombreuses lignées ovipares, les différences extérieures sont beaucoup plus discrètes."
+          },
+          {
+            "text": "Elles peuvent se limiter à :"
+          },
+          {
+            "items": [
+              "de légères variations de taille ;",
+              "des nuances de couleurs ;",
+              "certains motifs ;",
+              "des caractères visibles seulement durant certaines périodes."
+            ]
+          },
+          {
+            "text": "La gestation, la ponte, le nombre de nouveau-nés et le rythme de croissance dépendent entièrement de la lignée."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Il n’existe aucun régime alimentaire commun à tous les Kal'mani."
+          },
+          {
+            "text": "Selon leur lignée, ils peuvent être principalement :"
+          },
+          {
+            "items": [
+              "herbivores ;",
+              "carnivores ;",
+              "omnivores ;",
+              "insectivores ;",
+              "frugivores ;",
+              "piscivores ;",
+              "adaptés à des aliments particuliers."
+            ]
+          },
+          {
+            "text": "Leur physiologie influence les aliments qu’ils digèrent facilement, mais leurs habitudes alimentaires peuvent également évoluer selon leur culture et leur environnement."
+          },
+          {
+            "text": "Les restrictions et besoins spécifiques doivent être définis au niveau de chaque lignée."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Kal'mani ne possèdent aucune longévité, croissance ou résistance physiologique universelle."
+          },
+          {
+            "text": "Ces éléments dépendent notamment :"
+          },
+          {
+            "items": [
+              "de leur lignée ;",
+              "de leur gabarit ;",
+              "de leur métabolisme ;",
+              "de leur reproduction ;",
+              "de leur environnement ancestral."
+            ]
+          },
+          {
+            "text": "Leur point commun principal reste une forte capacité à exploiter les caractères physiques de leur lignée et à s’adapter aux conditions correspondant à celle-ci."
+          },
+          {
+            "text": "La vitalité généralement élevée du peuple n’accorde aucune résistance automatique aux blessures, aux poisons ou aux éléments."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Goût**"
+          },
+          {
+            "text": "Les Kal'mani possèdent généralement une perception gustative particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les saveurs proches ;",
+              "les ingrédients présents dans une préparation ;",
+              "les traces minérales ou organiques ;",
+              "les altérations légères d’un aliment ;",
+              "certaines substances inhabituelles ;",
+              "les différences entre plusieurs eaux ou nourritures semblables."
+            ]
+          },
+          {
+            "text": "La forme exacte de cette perception dépend de la langue, du palais et des organes sensoriels de la lignée."
+          },
+          {
+            "text": "Le bonus général de Goût ne signifie pas que toutes les lignées apprécient les mêmes aliments ou peuvent digérer les mêmes substances."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "Aucun sens diminué commun à l’ensemble des Kal'mani n’est retenu."
+          },
+          {
+            "text": "Certaines lignées peuvent posséder leurs propres limites sensorielles narratives, mais elles ne modifient pas automatiquement le socle mécanique du peuple."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie kal'mani repose principalement sur la perception, l’instinct et l’engagement du corps."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "de lire précisément un environnement ;",
+              "de repérer une anomalie ;",
+              "de mobiliser les sens ;",
+              "de renforcer une capacité physique ;",
+              "de supporter une pression prolongée ;",
+              "de s’adapter à un terrain ;",
+              "d’utiliser les caractères propres à une lignée."
+            ]
+          },
+          {
+            "text": "Leur Intelligence diminuée ne signifie pas une incapacité à raisonner ou à apprendre."
+          },
+          {
+            "text": "Elle traduit plutôt une moindre disposition générale pour :"
+          },
+          {
+            "items": [
+              "les constructions théoriques très abstraites ;",
+              "les systèmes savants détachés de toute expérience concrète ;",
+              "les raisonnements purement académiques ;",
+              "les pratiques reposant exclusivement sur l’étude formelle."
+            ]
+          },
+          {
+            "text": "Les Kal'mani privilégient fréquemment l’expérience directe, l’observation et l’apprentissage pratique."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Terre**"
+          },
+          {
+            "text": "La Terre constitue l’affinité élémentaire recommandée pour les Kal'mani."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie kal'mani varie considérablement selon la lignée."
+          },
+          {
+            "text": "Lorsqu’elle utilise la Terre, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de poussière ;",
+              "de pierre ;",
+              "de boue ;",
+              "de plaques minérales ;",
+              "de vibrations transmises par le sol ;",
+              "de marques suivant les pattes, les mains ou les griffes ;",
+              "d’un renforcement temporaire des appuis ;",
+              "d’une densification de certaines parties du corps."
+            ]
+          },
+          {
+            "text": "Les manifestations kal'mani s’intègrent fréquemment :"
+          },
+          {
+            "items": [
+              "aux mouvements ;",
+              "aux postures ;",
+              "aux sens ;",
+              "aux cris ;",
+              "aux traces ;",
+              "aux attributs animaux de l’individu."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "L’apparence animale d’un Kal'mani n’est pas produite par la magie."
+          },
+          {
+            "text": "Elle appartient à sa physiologie normale et reste présente indépendamment de son élément."
+          },
+          {
+            "text": "Un attribut visible n’accorde pas automatiquement de pouvoir magique correspondant. Un Kal'mani possédant des cornes, des griffes, une queue ou des branchies ne reçoit aucune capacité surnaturelle supplémentaire sans règle spécifique."
+          },
+          {
+            "text": "La transformation thériantropique constitue une Voie d’héritage distincte et n’est pas possédée automatiquement par tous les Kal'mani."
+          }
+        ]
+      },
+      {
+        "label": "Formes et clans ancestraux",
+        "anchor": "formes-et-clans-ancestraux",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Référent morphologique",
+                "Autonyme",
+                "Clan ancestral",
+                "Description physique"
+              ],
+              "rows": [
+                [
+                  "Aigle",
+                  "Agi",
+                  "Mor’agi",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec crochu, un plumage dense, des yeux frontaux et de larges ailes emplumées attachées au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Albatros",
+                  "Albo",
+                  "Albo’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long bec crochu, un plumage clair et de très longues ailes étroites attachées au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Alligator",
+                  "Liga",
+                  "Liga’ni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large, des mâchoires robustes, une peau écailleuse à plaques et une longue queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Alpaga",
+                  "Alga",
+                  "Vol’alga",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, de longues oreilles dressées et une toison laineuse abondante couvrant le cou et le corps. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Âne",
+                  "Anis",
+                  "Vol’anis",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de très longues oreilles mobiles, une crinière courte et une queue terminée par un toupet. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Anguille électrique",
+                  "Anga",
+                  "Anga’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête arrondie, une peau lisse sombre, de petites nageoires et une longue queue rubanée parcourue de lignes pâles. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Antilope",
+                  "Alip",
+                  "Alip’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de longues oreilles et une paire de cornes annelées s’élevant au-dessus du front. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Araignée sauteuse",
+                  "Araji",
+                  "Araji’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente de grands yeux frontaux accompagnés de petits ocelles, une peau couverte de soies fines et de courts appendices articulés le long du dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Autruche",
+                  "Atru",
+                  "Tsal’atru",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long cou emplumé, un bec aplati, un plumage fourni sur le torse et des jambes puissantes aux pieds larges. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Axolotl",
+                  "Ashol",
+                  "Ashol’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse, une large bouche, trois houppes branchiales externes de chaque côté de la tête et une queue bordée d’une nageoire souple. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Baleine",
+                  "Jiru",
+                  "Kan’jiru",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse et épaisse, une tête ample, un évent au sommet du crâne et des avant-bras bordés de nageoires charnues. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Bec-en-sabot du Nil",
+                  "Sabo",
+                  "Pro’sabo",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec très haut et large à pointe crochue, un plumage gris et une courte huppe dressée derrière le crâne. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Belette",
+                  "Belt",
+                  "Belt’roh",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit, de petites oreilles rondes, un pelage ras contrasté et une longue queue souple. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Bison",
+                  "Sibo",
+                  "Kal’sibo",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle large, de petites cornes recourbées, une forte bosse d’épaules et une épaisse fourrure sur la tête et le torse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Blaireau",
+                  "Blo",
+                  "Blo’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau puissant, de petites oreilles, un pelage dru et deux bandes claires traversant un masque facial sombre. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Bovin domestique",
+                  "Bounia",
+                  "Pro’bounia",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle large, des oreilles latérales, deux cornes frontales et une queue longue terminée par une touffe de poils. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Buffle",
+                  "Kron",
+                  "Kron’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle massif, de grandes oreilles et deux cornes épaisses s’écartant largement avant de remonter. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Caïman",
+                  "Ligu",
+                  "Liga’ni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large, des arcades osseuses marquées, une peau cuirassée d’écailles et une longue queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Caméléon",
+                  "Méla",
+                  "Kun’méla",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau couverte de fines écailles aux motifs changeants, des yeux globuleux, une crête basse et une queue préhensile enroulée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Campagnol",
+                  "Kanio",
+                  "Kanio’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un petit museau arrondi, de courtes oreilles presque noyées dans un pelage dense et une queue brève. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Canard",
+                  "Dako",
+                  "Kan’dako",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec plat, un plumage lisse et imperméable, des ailes courtes au dos et des pieds aux orteils palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Capybara",
+                  "Kabi",
+                  "Kabi’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau carré, de petites oreilles haut placées, un pelage rêche et des doigts partiellement palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Caracal",
+                  "Kark",
+                  "Kark’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, un pelage court fauve, de longues oreilles noires terminées par des pinceaux et une queue souple. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Casoar",
+                  "Katsh",
+                  "Po’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long cou coloré, un bec court, un casque osseux au sommet du crâne et un plumage sombre semblable à des crins. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Castor",
+                  "Kaor",
+                  "Kaor’asp",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court aux incisives visibles, un pelage dense, des doigts partiellement palmés et une large queue plate écailleuse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Céphalophe",
+                  "Séfaf",
+                  "Vol’séfaf",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau effilé, de grandes oreilles, deux petites cornes droites et un pelage court marqué d’une houppe frontale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cerf",
+                  "Tser",
+                  "Pro’tser",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de larges oreilles, un pelage ras et des bois ramifiés émergeant du front. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chacal",
+                  "Shak",
+                  "Shak’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit, de grandes oreilles pointues, un pelage fauve et sombre et une queue touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chameau",
+                  "Maho",
+                  "Vol’maho",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long museau, de petites oreilles velues, des cils épais, une toison rêche et une bosse dorsale charnue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chamois",
+                  "Shami",
+                  "Shami’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, des oreilles dressées, deux cornes noires recourbées vers l’arrière et un pelage court contrasté. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chat",
+                  "Nek",
+                  "Nek’an",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin court, des vibrisses, des oreilles triangulaires, un pelage souple et une longue queue mobile. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chauve-souris",
+                  "Shor",
+                  "Shor’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, de grandes oreilles membraneuses, une fine fourrure et des ailes de peau déployées entre de longs doigts dorsaux. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cheval",
+                  "Kis",
+                  "Moro’kis",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long museau, de grandes oreilles mobiles, une crinière fournie et une longue queue garnie de crins. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chèvre",
+                  "Gosh",
+                  "Hul’gosh",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit, des oreilles mobiles, deux cornes annelées, une barbiche et un pelage dru. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chevreuil",
+                  "Vroi",
+                  "Kun’vroi",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de grandes oreilles, un pelage brun ponctué de zones claires et de petits bois ramifiés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chien",
+                  "Ish",
+                  "Ish’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau canin, des oreilles mobiles de forme variable, un pelage ras ou fourni et une queue expressive. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chinchilla",
+                  "Shish",
+                  "Shish’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, de grandes oreilles rondes, une fourrure extrêmement dense et une longue queue en panache. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Chouette",
+                  "Hulu",
+                  "Hulu’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec court et crochu, un disque facial de plumes, de grands yeux frontaux et de larges ailes emplumées. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cigogne",
+                  "Besi",
+                  "Besi’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long bec droit, un cou élancé, un plumage clair et sombre, des ailes dorsales et de longues jambes fines. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cobra",
+                  "Saba",
+                  "Sebi’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête écailleuse, une langue bifide, une large coiffe extensible autour du cou et une longue queue serpentiforme. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cochon",
+                  "Poga",
+                  "Poga’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un groin rond, de larges oreilles, une peau épaisse couverte de soies clairsemées et une petite queue enroulée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Colibri",
+                  "Bril",
+                  "Bril’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec très fin et allongé, un plumage irisé, une gorge brillante et de petites ailes étroites. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Corbeau",
+                  "Kara",
+                  "Kara’sp",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec épais, un plumage noir aux reflets métalliques, une gorge hérissée et de larges ailes sombres. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Coyote",
+                  "Koouo",
+                  "Koouo’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau effilé, de hautes oreilles pointues, un pelage fauve grisé et une queue longue et touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Crabe",
+                  "Krani",
+                  "Kra’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace segmentée, des yeux portés par de courts pédoncules, des épaules larges et des mains encadrées de pinces chitineuses. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Crapaud",
+                  "Kopou",
+                  "Kaenou’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau épaisse et verruqueuse, une large bouche, des yeux saillants et des glandes visibles derrière la tête. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Crevette-mante",
+                  "Krema",
+                  "Krema’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace vivement colorée, des yeux globuleux sur pédoncules, de longues antennes et des avant-bras bordés de plaques ravisseuses. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Crocodile",
+                  "Ligo",
+                  "Liga’ni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, des mâchoires puissantes, une peau de plaques écailleuses et une longue queue comprimée latéralement. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Cygne",
+                  "Tsin",
+                  "Kom’tsin",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long cou courbe, un bec large, un plumage dense et de grandes ailes blanches attachées au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Daim",
+                  "Dosh",
+                  "Pro’dosh",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau délicat, de grandes oreilles, un pelage tacheté et des bois larges aux extrémités aplaties. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Dauphin",
+                  "Dof",
+                  "Dof’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse, un rostre allongé, un évent au sommet du crâne, une nageoire dorsale et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Diable de Tasmanie",
+                  "Ditsa",
+                  "Dits’ark",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large aux mâchoires puissantes, des oreilles rondes, un pelage sombre marqué de blanc et une queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Dingo",
+                  "Daro",
+                  "Daro’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau canin étroit, de grandes oreilles dressées, un pelage court fauve et une queue touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Dragon de Komodo",
+                  "Krats",
+                  "Krats’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête large, une langue bifide, une peau de grosses écailles granuleuses et une longue queue musculeuse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Dromadaire",
+                  "Droum",
+                  "Droum’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long museau, de petites oreilles, de fortes arcades, une toison courte et une unique bosse dorsale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Dugong",
+                  "Dong",
+                  "Dong’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau arrondi orienté vers le bas, une peau épaisse et lisse, de petits yeux et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Écureuil",
+                  "Ritsou",
+                  "Mor’ritsou",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, des oreilles dressées, un pelage doux et une très longue queue en panache. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Élan",
+                  "Pash",
+                  "Pash’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long museau, de grandes oreilles, une forte encolure et d’immenses bois aplatis et ramifiés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Éléphant",
+                  "Tof",
+                  "Hul’tof",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une trompe souple, de grandes oreilles en éventail, une peau épaisse plissée et deux défenses ivoirines. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Émeu",
+                  "Potsh",
+                  "Po’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long cou, un petit bec, un plumage hirsute couvrant le torse et des jambes robustes aux pieds larges. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Escargot",
+                  "Eska",
+                  "Eska’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau souple et humide, deux longues tentacules oculaires et une grande coquille spiralée portée sur le dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Espadon",
+                  "Espad",
+                  "Espad’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long rostre plat prolongeant le visage, une peau lisse, une haute nageoire dorsale et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Faisan",
+                  "Fazi",
+                  "Fazi’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec court, un plumage vivement contrasté, une collerette de plumes et une longue queue emplumée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Faucon",
+                  "Tanka",
+                  "Tanka’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec court et crochu, des yeux frontaux cerclés, un plumage serré et de longues ailes effilées. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Fennec",
+                  "Zul",
+                  "Zul’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, des oreilles démesurées, un pelage pâle et une longue queue touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Flamant rose",
+                  "Fawa",
+                  "Pro’fawa",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long cou souple, un bec recourbé vers le bas, un plumage rose et de longues jambes fines. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Fossa",
+                  "Fosa",
+                  "Fosa’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, des oreilles rondes, un pelage brun ras et une queue très longue servant de balancier. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Fouine",
+                  "Foni",
+                  "Tsal’foni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de petites oreilles rondes, un pelage brun à gorge claire et une longue queue touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Fourmilier",
+                  "Zoji",
+                  "Vol’zoji",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau tubulaire très allongé, de petites oreilles, une langue longue et une queue volumineuse couverte de poils. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Furet",
+                  "Goni",
+                  "Fir’goni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit, de petites oreilles arrondies, un pelage souple souvent masqué au visage et une longue queue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gallinacé domestique",
+                  "Koro",
+                  "Moro’koro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec court, un plumage fourni, une crête charnue, des caroncules et de courtes ailes au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gazelle",
+                  "Zaze",
+                  "Kom’zaze",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de grandes oreilles, deux longues cornes annelées et un pelage clair aux bandes contrastées. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gecko",
+                  "Kéko",
+                  "Kura’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête large, de grands yeux sans paupières, une peau de fines écailles et des doigts élargis en lamelles adhésives. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Genette",
+                  "Jant",
+                  "Jan’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de grandes oreilles, un pelage tacheté et une très longue queue annelée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gibbon",
+                  "Gibé",
+                  "Gibé’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une face courte, de petites oreilles, une fourrure épaisse et des bras proportionnellement très longs. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Girafe",
+                  "Kifa",
+                  "Kifa’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un cou très allongé, un museau étroit, deux ossicônes frontaux et un pelage couvert de grandes taches polygonales. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Glouton",
+                  "Golt",
+                  "Pro’golt",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large, de petites oreilles, une carrure trapue et un pelage épais brun traversé de bandes plus claires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gnou",
+                  "Gou",
+                  "Gou’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle allongé, une barbe, une crinière raide et deux cornes incurvées s’écartant sur les côtés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Gorille",
+                  "Gora",
+                  "Gora’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une face large au museau court, de petites oreilles, une forte arcade sourcilière et une pilosité sombre très dense. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Grenouille",
+                  "Kaenou",
+                  "Kaenou’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse et humide, une large bouche, des yeux saillants et de longs pieds aux orteils palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Guépard",
+                  "Haoua",
+                  "Haoua’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, un pelage court couvert de taches rondes, deux lignes sombres sous les yeux et une longue queue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hamster",
+                  "Taro",
+                  "Kan’taro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, de petites oreilles rondes, des joues extensibles, une fourrure dense et une queue minuscule. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hérisson",
+                  "Heso",
+                  "Heso’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de petites oreilles, une face couverte de poils et un dos hérissé de piquants courts. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hippocampe",
+                  "Siral",
+                  "Siral’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau tubulaire, une crête osseuse, des plaques dermiques, de petites nageoires et une queue préhensile enroulée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hippopotame",
+                  "Pota",
+                  "Pota’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau très large, de petites oreilles haut placées, une peau épaisse presque nue et de fortes canines visibles. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hirondelle",
+                  "Hisu",
+                  "Hisu’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un petit bec, un plumage lisse contrasté, de longues ailes pointues et une queue profondément fourchue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Homard",
+                  "Homar",
+                  "Homar’asp",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace segmentée, deux longues antennes, des mains encadrées de grandes pinces et une queue cuirassée en éventail. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Hyène",
+                  "Rodi",
+                  "Kan’rodi",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau puissant, de grandes oreilles rondes, une crinière dorsale et un pelage tacheté ou rayé. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Ibis",
+                  "Ibi",
+                  "Ibi’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long bec recourbé vers le bas, un cou élancé, un plumage lisse et de larges ailes dorsales. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Iguane",
+                  "Kigu",
+                  "Kura’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête massive, une peau écailleuse, un fanon sous la gorge, une crête dorsale et une longue queue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Jaguar",
+                  "Jaha",
+                  "Pro’jaha",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large museau félin, un pelage court couvert de rosettes sombres et une queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Kakapo",
+                  "Akapo",
+                  "Tsal’aram",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec puissant, un disque facial de petites plumes, un plumage vert moucheté et de courtes ailes arrondies. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Kangourou",
+                  "Karou",
+                  "Karou’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de grandes oreilles, des jambes très développées, une poche ventrale et une longue queue musculeuse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Kiwi",
+                  "Wiki",
+                  "Wiki’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long bec fin, de petites narines terminales, un plumage brun semblable à des poils et des ailes dorsales réduites. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Koala",
+                  "Kola",
+                  "Kola’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large nez sombre, de grandes oreilles rondes frangées et une fourrure épaisse gris argenté. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lama",
+                  "Mala",
+                  "Mala’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de longues oreilles incurvées, un long cou et une toison épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lapin",
+                  "Wiri",
+                  "Kom’wiri",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court aux vibrisses longues, de très grandes oreilles, une fourrure douce et une petite queue ronde. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Léopard",
+                  "Léha",
+                  "Asp’léha",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, un pelage souple couvert de rosettes et une longue queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lézard",
+                  "Kura",
+                  "Kura’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête anguleuse, une langue fine, une peau de petites écailles et une longue queue effilée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lièvre",
+                  "Vijé",
+                  "Pro’vijé",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de très longues oreilles aux pointes sombres, de longues jambes et une courte queue claire. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Limule",
+                  "Imul",
+                  "Imul’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace bombée en fer à cheval, de petits yeux latéraux et une longue épine caudale rigide. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lion",
+                  "Fran",
+                  "Fran’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large museau félin, un pelage fauve, une crinière développée autour du visage et une queue terminée par un pinceau. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Loup",
+                  "Lupo",
+                  "Lupo’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, des oreilles triangulaires, un pelage épais et une longue queue touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Loutre",
+                  "Loru",
+                  "Tsal’loru",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau arrondi aux longues vibrisses, de petites oreilles, un pelage dense, des doigts palmés et une queue puissante. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Lynx",
+                  "Loux",
+                  "Loux’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, des favoris épais, des oreilles pointues à pinceaux et une queue courte. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Manchot",
+                  "Manio",
+                  "Pro’manio",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec droit, un plumage dense noir et blanc, des ailes dorsales aplaties et des pieds aux orteils palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mandrill",
+                  "Sadril",
+                  "Kan’sari",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé aux reliefs colorés, de petites oreilles, une forte arcade sourcilière et une pilosité dense. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mangouste",
+                  "Muts",
+                  "Muts’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de petites oreilles, un pelage grisonnant et une longue queue effilée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mante religieuse",
+                  "Théli",
+                  "Théli’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête triangulaire aux grands yeux, deux antennes, une carapace fine et des avant-bras bordés de plaques ravisseuses. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mara",
+                  "Romo",
+                  "Romo’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau de rongeur, de longues oreilles dressées, des jambes élancées et un pelage court brun. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Marmotte",
+                  "Marots",
+                  "Marots’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large, de petites oreilles rondes, une fourrure épaisse et une queue courte et touffue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Méduse",
+                  "Néma",
+                  "Tsal’néma",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau translucide, un dôme souple prolongeant le crâne et de fins filaments sensoriels retombant autour du dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Morse",
+                  "Birs",
+                  "Birs’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau large couvert de vibrisses épaisses, deux longues défenses, une peau plissée et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mouton",
+                  "Lésho",
+                  "Lésh’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit, des oreilles latérales, une toison laineuse et des cornes spiralées selon les individus. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Mulot",
+                  "Molt",
+                  "Pro’molt",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de grandes oreilles rondes, un pelage fin et une longue queue presque nue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Murène",
+                  "Muré",
+                  "Muré’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête allongée, une large bouche aux dents fines, une peau lisse marbrée et une longue nageoire courant le long de la queue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Musaraigne",
+                  "Musa",
+                  "Musa’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau très effilé, de petites oreilles, un pelage velouté et une longue queue fine. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Narval",
+                  "Linou",
+                  "Linou’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse marbrée, une tête arrondie, un évent et une longue défense torsadée issue du front. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Nautile",
+                  "Nao",
+                  "Nao’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une coquille spiralée adossée au torse, de grands yeux simples et une couronne de courts tentacules autour de la bouche. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Ocelot",
+                  "Otsoé",
+                  "Mor’otsoé",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, de grandes oreilles arrondies, un pelage court à rosettes allongées et une longue queue annelée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Oie",
+                  "Wahé",
+                  "Kun’wahé",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec large, un long cou, un plumage dense, des ailes dorsales et des pieds aux orteils palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Okapi",
+                  "Kofi",
+                  "Kifa’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de grandes oreilles, deux petits ossicônes et des rayures claires sur les jambes et l’arrière du corps. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Opossum",
+                  "Opom",
+                  "Opom’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, des oreilles rondes presque nues, un pelage grisonnant et une longue queue préhensile sans poils. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Orang-outan",
+                  "Orag",
+                  "Orag’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une face large, de petites oreilles, de longs cheveux roux et une pilosité épaisse couvrant les bras et le dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Ornithorynque",
+                  "Niroun",
+                  "Niroun’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec large et souple, un pelage imperméable, des doigts palmés et une large queue plate. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Orque",
+                  "Wahaj",
+                  "Wahaj’asp",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse noire et blanche, une tête arrondie, un évent, une haute nageoire dorsale et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Oryctérope",
+                  "Orto",
+                  "Orto’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau tubulaire, de très longues oreilles, une peau couverte de poils clairsemés et une queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Otarie",
+                  "Tarié",
+                  "Thra’tarié",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court aux longues vibrisses, de petites oreilles externes, un pelage ras et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Ours",
+                  "Kourig",
+                  "Kourig’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large museau, de petites oreilles rondes, une carrure massive et une fourrure très dense. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Panda",
+                  "Dapa",
+                  "Pro’dapa",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau arrondi, de petites oreilles noires, une fourrure épaisse blanche et noire et des taches sombres autour des yeux. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Pangolin",
+                  "Gohé",
+                  "Tsal’gohé",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau étroit sans dents apparentes, de larges écailles superposées sur le dos et une longue queue cuirassée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Paon",
+                  "Réon",
+                  "Kan’réon",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un petit bec, une huppe fine, un plumage irisé et une longue traîne de plumes ocellées. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Paresseux",
+                  "Louzi",
+                  "Louzi’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un visage court aux marques sombres, une fourrure longue, des membres élancés et de grands ongles recourbés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Pélican",
+                  "Bétsa",
+                  "Bétsa’ñol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un très long bec muni d’une poche souple, un plumage clair et de larges ailes attachées au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Perroquet",
+                  "Aram",
+                  "Tsal’aram",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec puissant et recourbé, un plumage vivement coloré, de larges ailes et une longue queue de plumes. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Phacochère",
+                  "Pusha",
+                  "Pusha’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un groin large, deux paires de défenses courbes, des excroissances faciales et une crinière raide. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Phoque",
+                  "Votsou",
+                  "Votsou’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête ronde, de grands yeux, un museau aux longues vibrisses, une peau couverte d’un pelage ras et des avant-bras bordés de nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Pic-vert",
+                  "Piko",
+                  "Piko’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec droit et robuste, un plumage vert contrasté, une huppe colorée et une queue de plumes raides. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Pieuvre",
+                  "Pen",
+                  "Pen’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau souple à motifs changeants, de grands yeux et plusieurs appendices courts munis de ventouses autour de la taille et du dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Pingouin",
+                  "Pinu",
+                  "Pinu’kan",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec fin, un plumage dense noir et blanc, de petites ailes fonctionnelles au dos et des pieds aux orteils palmés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Poisson-globe",
+                  "Bogu",
+                  "Bogu’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau souple couverte de petits piquants, de grands yeux, une bouche en bec et des nageoires courtes aux avant-bras et au dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Poisson-lune",
+                  "Luné",
+                  "Luné’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un profil arrondi et comprimé, une petite bouche, une peau rugueuse et de hautes nageoires dorsale et ventrale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Porc-épic",
+                  "Épio",
+                  "Épio’fir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau arrondi, de petites oreilles et un manteau de longs piquants rayés couvrant le dos et la queue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Puma",
+                  "Libna",
+                  "Libna’kom",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, des oreilles rondes, un pelage court uniforme et une longue queue épaisse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Putois",
+                  "Puku",
+                  "Puku’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de petites oreilles, un pelage noir marqué de bandes blanches et une queue très fournie. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Python",
+                  "Souma",
+                  "Sebi’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête large aux fossettes visibles, une peau écailleuse couverte de grandes taches et une queue très musculeuse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Raie manta",
+                  "Régu",
+                  "Régu’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête large, une peau lisse, deux lobes céphaliques et de vastes nageoires souples s’étendant depuis les flancs du dos. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Rainette",
+                  "Kirou",
+                  "Kaenou’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse vivement colorée, de grands yeux et des doigts terminés par des disques adhésifs. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Rat",
+                  "Nera",
+                  "Tsal’nera",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de grandes oreilles rondes, des incisives visibles et une longue queue écailleuse presque nue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Raton laveur",
+                  "Arig",
+                  "Arig’vol",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court, des oreilles rondes, un masque sombre autour des yeux et une queue épaisse annelée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Renard",
+                  "Rox",
+                  "Rox’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin, de grandes oreilles triangulaires, un pelage roux et une très longue queue touffue à pointe claire. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Renne / caribou",
+                  "Tshoka",
+                  "Tshoka’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de grandes oreilles, une fourrure épaisse et de vastes bois ramifiés. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Requin",
+                  "Kamé",
+                  "Kamé’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse à fins denticules, plusieurs fentes branchiales au cou, une mâchoire garnie de dents triangulaires et une nageoire dorsale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Requin-marteau",
+                  "Kamar",
+                  "Kamé’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête élargie latéralement portant les yeux aux extrémités, des fentes branchiales au cou, une peau à denticules et une nageoire dorsale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Requin-scie",
+                  "Kasi",
+                  "Kamé’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un rostre long et plat bordé de dents, des fentes branchiales au cou, une peau à denticules et une nageoire dorsale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Rhinocéros",
+                  "Toké",
+                  "Toké’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large museau, une peau très épaisse formant des plis et une ou deux cornes de kératine au-dessus du nez. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Saïga",
+                  "Saï",
+                  "Saï’ani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau court prolongé par un nez souple et renflé, de grandes oreilles et deux cornes translucides annelées. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Salamandre",
+                  "Afeu",
+                  "Kom’afeu",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau lisse et humide aux motifs contrastés, une tête arrondie et une longue queue souple. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Sanglier",
+                  "Groun",
+                  "Pro’groun",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un groin puissant, des défenses recourbées, un pelage de soies épaisses et une crinière dorsale. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Scarabée-rhinocéros",
+                  "Gorak",
+                  "Kal’gorak",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace sombre et luisante, de courtes antennes et une grande corne recourbée s’élevant depuis le front. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Scorpion",
+                  "Sakar",
+                  "Sakar’asp",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une carapace segmentée, des mains encadrées de pinces et une longue queue articulée terminée par un aiguillon. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Seiche",
+                  "Shéa",
+                  "Shéa’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une peau souple à motifs changeants, de grands yeux, une collerette de nageoires et de courts tentacules autour de la bouche. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Serpent",
+                  "Sebi",
+                  "Sebi’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête fine, une langue bifide, une peau couverte d’écailles imbriquées et une longue queue serpentiforme. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Serval",
+                  "Logs",
+                  "Logs’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau félin, de très grandes oreilles, un pelage doré tacheté et une queue relativement courte. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Singe",
+                  "Sari",
+                  "Kan’sari",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une face expressive au museau court, des oreilles rondes, une pilosité dense et une longue queue mobile. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Suricate",
+                  "Timi",
+                  "Timi’hul",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de petites oreilles sombres, un pelage rayé sur le dos et une longue queue effilée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tamanoir nain",
+                  "Zoñi",
+                  "Vol’zoji",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau fin et allongé, de petites oreilles, un pelage doré et une longue queue préhensile partiellement nue. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tapir",
+                  "Furs",
+                  "Furs’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau prolongé par une courte trompe souple, de petites oreilles rondes, une peau épaisse et un pelage ras. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tatou",
+                  "Touta",
+                  "Vol’touta",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau allongé, de grandes oreilles, des bandes de plaques articulées sur le dos et une longue queue cuirassée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Taupe",
+                  "Torou",
+                  "Torou’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un museau pointu, de très petits yeux, un pelage velouté et de larges mains munies d’ongles robustes. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tigre",
+                  "Verg",
+                  "Verg’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un large museau félin, un pelage court orange ou pâle traversé de rayures sombres et une longue queue annelée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tortue",
+                  "Tort",
+                  "Tor’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête écailleuse au bec corné, une carapace bombée protégeant le dos et une peau épaisse sur les membres. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tortue marine",
+                  "Torm",
+                  "Tor’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête écailleuse au bec corné, une carapace aplatie et des avant-bras bordés de longues nageoires. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Tortue serpentine",
+                  "Tork",
+                  "Tor’vir",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une grosse tête au bec crochu, une carapace rugueuse à crêtes et une longue queue dentelée. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Toucan",
+                  "Hattsh",
+                  "Hattsh’mani",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec immense et vivement coloré, un plumage sombre à gorge claire, de courtes ailes et une queue de plumes. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Varan",
+                  "Dorg",
+                  "Dorg’thrat",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête allongée, une langue bifide, une peau granuleuse couverte d’écailles et une longue queue musculeuse. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Vautour",
+                  "Jonio",
+                  "Pro’jonio",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un bec puissant et crochu, un crâne peu emplumé, une collerette de plumes et de très larges ailes. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Vipère",
+                  "Siva",
+                  "Sebi’tsal",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente une tête triangulaire, des pupilles verticales, de longs crochets repliables et une peau écailleuse aux motifs anguleux. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Yak",
+                  "Kahu",
+                  "Kom’kahu",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle large, deux cornes recourbées, une longue fourrure tombante et une queue garnie de crins. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Zèbre",
+                  "Shima",
+                  "Shima’ni",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un long museau, de grandes oreilles, une crinière courte dressée et un pelage entièrement rayé. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ],
+                [
+                  "Zébu",
+                  "Soufa",
+                  "Soufa’moro",
+                  "Cette forme kal’mani conserve une stature bipède verticale, deux bras, deux jambes et deux yeux ; elle présente un mufle large, de grandes oreilles tombantes, deux cornes dressées, un fanon et une bosse charnue aux épaules. Ses mains et ses pieds portent trois à cinq doigts ou orteils."
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage kal'mani :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "PERC +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "VITA +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "INT −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Terre"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. La Terre constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "text": "La lignée du personnage détermine son apparence, ses caractères animaux et ses particularités narratives, sans modifier automatiquement les valeurs de ce socle."
+          },
+          {
+            "text": "Toute lignée kal'mani conserve deux bras, deux jambes et deux yeux."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Perception Supérieure",
+                  "B"
+                ],
+                [
+                  "Résistance Acharnée",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Perception Supérieure",
+            "headingLevel": 5,
+            "anchor": "perception-superieure",
+            "text": "Cette formation développe une lecture active du monde dépassant les perceptions ordinaires."
+          },
+          {
+            "text": "Elle permet d’examiner une cible, un objet ou une zone afin de rechercher une présence dissimulée, un piège, une illusion, une magie dormante ou une autre anomalie perceptible."
+          },
+          {
+            "title": "Résistance Acharnée",
+            "headingLevel": 5,
+            "anchor": "resistance-acharnee",
+            "text": "Cette formation développe la capacité à renforcer sa défense physique lorsque les blessures deviennent importantes."
+          },
+          {
+            "text": "Ses effets évoluent avec le niveau de la compétence et ne se déclenchent que selon ses propres conditions."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Perception Supérieure ;",
+              "Résistance Acharnée."
+            ]
+          },
+          {
+            "title": "Réserve naturelle — PF",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-pf",
+            "text": "Votre maximum de **PF** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de PF augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Transformation et Condition — Thériantropie",
+            "headingLevel": 5,
+            "anchor": "transformation-et-condition-theriantropie",
+            "text": "Vous obtenez le don inné de **Thériantropie** selon les règles générales de Transformation et Condition."
+          },
+          {
+            "title": "Sens aiguisé — Goût",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-gout",
+            "text": "Vous obtenez **+5 en Goût**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la perception gustative."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Kal'mani.md",
+    "sourceSha256": "d85a1d7a616a8407cb88f186a7255372efe47d7004d6a049c713083cd0def7c4"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "spaso",
+  "type": "plant",
+  "identity": {
+    "name": "Spaso",
+    "subtitle": "Conifere a etages des montagnes seches",
+    "unknownName": "Grand arbre droit a couronnes plates",
+    "slug": "spaso",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Spaso.png",
+    "visualNote": "Grand conifere montagnard au tronc droit, portant plusieurs couronnes horizontales vert sombre disposees en etages.",
+    "tags": [
+      "arbre",
+      "conifere",
+      "montagne",
+      "couronnes-etagees"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "conifere",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne seche froide",
+      "taiga seche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "sol caillouteux",
+      "rocaille",
+      "terre pauvre",
+      "terre seche"
+    ],
+    "season": [
+      "premiers froids",
+      "grand froid",
+      "degel",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "10 a 26 m",
+    "width": "4 a 10 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun, vert olive, beige boise",
+    "distinctiveSigns": [
+      "tronc haut, droit et brun",
+      "ecorce epaisse en longues plaques verticales",
+      "couronnes horizontales disposees en etages",
+      "feuillage vert sombre tres compact",
+      "rameaux portant de longues aiguilles fines",
+      "cones ovoïdes vert olive a ecailles epaisses",
+      "racines solides autour du pied",
+      "bois clair a anneaux reguliers"
+    ],
+    "descriptionShort": "Le Spaso est un conifere de montagne au tronc droit et aux couronnes vertes etagees.",
+    "descriptionFull": "Le Spaso pousse sur les pentes froides, seches et pierreuses ou son tronc droit resiste bien au vent. Ses masses de feuillage forment des plateaux naturels espaces, laissant glisser la neige et circuler l'air. Les cones compacts murissent lentement, tandis que les racines s'ancrent dans les fissures et stabilisent les talus."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le Spaso fournit un bois droit et regulier, utile aux piquets, planches simples, reparations de montagne et feux de camp."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

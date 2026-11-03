@@ -1,0 +1,637 @@
+{
+  "id": "farlin",
+  "type": "peuple",
+  "identity": {
+    "name": "Farlin",
+    "subtitle": "",
+    "slug": "farlin",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/farlin.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Farlin sont reconnaissables à leur très petite stature, leur peau grise couverte de taches rose pâle, leurs grandes oreilles pointues, leur nez retombant et leur dentition acérée."
+          },
+          {
+            "text": "Leur apparence plus éloignée des formes humanoïdes habituelles leur vaut encore d’être parfois considérés comme des créatures plutôt que comme un peuple. Cette perception persiste malgré l’existence de leurs langues, de leurs cultures et de communautés organisées."
+          },
+          {
+            "text": "Leur vivacité, leur force surprenante et leur capacité à saisir rapidement une occasion leur donnent une réputation de combattants instinctifs et particulièrement difficiles à prendre de vitesse."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 3/10 — Rare"
+          },
+          {
+            "text": "**Tendances :** Les Farlin privilégient les environnements naturels et humides, notamment les forêts, les marécages et les abords des ruisseaux. Ils peuvent vivre dans d’autres régions, mais fréquentent moins volontiers les milieux très secs, très froids ou durablement dépourvus de végétation."
+          },
+          {
+            "text": "Leur faible présence dans certaines communautés ne résulte pas uniquement de leurs préférences environnementales. Ils subissent encore des formes de rejet, de méfiance ou de mauvais traitements liés à leur apparence et à leur ancienne classification parmi les créatures."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Farlin mesurent généralement autour de **1 mètre** pour environ **30 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est petite, ramassée et solide."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc relativement large ;",
+              "des épaules étroites mais robustes ;",
+              "des membres courts ;",
+              "des avant-bras et des jambes épais ;",
+              "une musculature compacte ;",
+              "un centre de gravité bas ;",
+              "de grandes mains et de grands pieds par rapport à leur taille ;",
+              "des mouvements rapides et brusques."
+            ]
+          },
+          {
+            "text": "Leur petite stature ne les rend pas fragiles. Leur corps est adapté aux accélérations soudaines, aux changements rapides de direction et aux actions demandant une force concentrée."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau farlin se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le gris clair ;",
+              "le gris moyen ;",
+              "le gris verdâtre ;",
+              "certains gris plus sombres."
+            ]
+          },
+          {
+            "text": "Elle est généralement :"
+          },
+          {
+            "items": [
+              "épaisse ;",
+              "souple ;",
+              "naturellement moite ;",
+              "légèrement luisante ;",
+              "résistante aux frottements ordinaires."
+            ]
+          },
+          {
+            "text": "De nombreuses taches rose pâle sont réparties irrégulièrement sur le corps."
+          },
+          {
+            "text": "Elles peuvent apparaître notamment sur :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "le cou ;",
+              "les épaules ;",
+              "le torse ;",
+              "le dos ;",
+              "les bras ;",
+              "les jambes."
+            ]
+          },
+          {
+            "text": "Leur forme, leur taille et leur densité varient selon les individus."
+          },
+          {
+            "text": "Les muqueuses, la langue, les gencives, les paumes des mains et certaines zones fines de la peau présentent généralement des nuances rose pâle."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage farlin est large et fortement marqué."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front large ;",
+              "des arcades visibles ;",
+              "de grands yeux sombres ;",
+              "un nez large, pointu et retombant ;",
+              "une bouche très large ;",
+              "une mâchoire robuste ;",
+              "des dents nombreuses et pointues ;",
+              "de grandes oreilles dirigées vers le haut et l’arrière."
+            ]
+          },
+          {
+            "text": "Le nez se projette vers l’avant avant de descendre au-dessus de la bouche. Sa pointe reste souple et ne constitue pas une structure osseuse rigide."
+          },
+          {
+            "text": "La largeur de la bouche et la dentition acérée donnent facilement aux Farlin une expression menaçante, même lorsqu’ils sont calmes. Leur visage reste toutefois mobile et capable d’expressions souriantes, amusées ou chaleureuses."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Farlin possèdent de grands yeux sombres."
+          },
+          {
+            "text": "Ils sont généralement :"
+          },
+          {
+            "items": [
+              "larges ;",
+              "légèrement arrondis ;",
+              "bien ouverts ;",
+              "implantés de manière modérément espacée."
+            ]
+          },
+          {
+            "text": "La pupille est noire, large et occupe une part importante de l’œil."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le gris sombre ;",
+              "le gris verdâtre ;",
+              "le vert profond."
+            ]
+          },
+          {
+            "text": "Le contraste entre l’iris et la pupille est souvent faible, donnant à l’ensemble de l’œil une apparence très sombre."
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux farlin sont généralement noirs."
+          },
+          {
+            "text": "Ils sont fréquemment :"
+          },
+          {
+            "items": [
+              "très épais ;",
+              "composés de mèches larges ;",
+              "raides ou légèrement ondulés ;",
+              "lourds ;",
+              "naturellement luisants ou humides."
+            ]
+          },
+          {
+            "text": "Les mèches peuvent se regrouper en bandes épaisses sous l’effet de l’humidité naturelle de la peau."
+          },
+          {
+            "text": "La pilosité corporelle suit les mêmes caractéristiques. Elle est généralement :"
+          },
+          {
+            "items": [
+              "noire ;",
+              "épaisse ;",
+              "grossière ;",
+              "plus dense sur les avant-bras, les jambes, le dos et les épaules."
+            ]
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité blanchissent progressivement."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Farlin possèdent **quatre doigts** à chaque main et **quatre orteils** à chaque pied."
+          },
+          {
+            "text": "Leurs mains et leurs pieds sont :"
+          },
+          {
+            "items": [
+              "larges ;",
+              "épais ;",
+              "robustes ;",
+              "dotés de doigts relativement courts ;",
+              "adaptés aux prises fermes."
+            ]
+          },
+          {
+            "text": "Leurs coudes et leurs genoux présentent des extrémités osseuses particulièrement saillantes, donnant aux articulations une forme pointue."
+          },
+          {
+            "text": "Leurs oreilles sont grandes, larges à la base et terminées par une pointe."
+          },
+          {
+            "text": "Elles sont généralement orientées :"
+          },
+          {
+            "items": [
+              "vers le haut ;",
+              "vers l’arrière ;",
+              "ou dans une direction intermédiaire."
+            ]
+          },
+          {
+            "text": "Les Farlin possèdent :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "quatre doigts à chaque main ;",
+              "quatre orteils à chaque pied ;",
+              "aucune corne ;",
+              "aucune queue ;",
+              "aucun appendice externe supplémentaire."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La peau farlin conserve naturellement une fine couche d’humidité à sa surface."
+          },
+          {
+            "text": "Cette humidité :"
+          },
+          {
+            "items": [
+              "donne à la peau son aspect luisant ;",
+              "maintient sa souplesse ;",
+              "limite les irritations provoquées par les milieux humides ;",
+              "ne constitue pas une sécrétion toxique ou magique."
+            ]
+          },
+          {
+            "text": "Les articulations saillantes des coudes et des genoux sont protégées par une peau plus épaisse que sur le reste des membres."
+          },
+          {
+            "text": "Leurs quatre doigts conservent une bonne mobilité. La largeur de leurs mains leur permet d’exercer une prise puissante malgré leur nombre réduit de doigts."
+          },
+          {
+            "text": "Le développement farlin est relativement rapide durant l’enfance. Les premiers mots apparaissent fréquemment autour d’un an, tandis que la marche autonome se développe généralement autour de deux ans."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la taille peut légèrement diminuer ;",
+              "la peau devient plus claire ;",
+              "les taches roses deviennent plus nombreuses et plus larges ;",
+              "les rides deviennent particulièrement marquées ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "la force et la rapidité diminuent progressivement."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Farlin sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des insectes ;",
+              "des herbes ;",
+              "des racines."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement les préparations composées d’herbes, de racines ou d’insectes."
+          },
+          {
+            "text": "Leur dentition permet aussi bien de déchirer des aliments résistants que de broyer des matières végétales."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Farlin possèdent une espérance de vie moyenne d’environ **75 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **105 ans**."
+          },
+          {
+            "text": "Leur organisme est adapté aux mouvements brefs et intenses. Ils sont particulièrement efficaces lorsqu’il faut :"
+          },
+          {
+            "items": [
+              "réagir immédiatement ;",
+              "bondir ou changer brusquement de direction ;",
+              "mobiliser rapidement leur force ;",
+              "intervenir dans un espace encombré ;",
+              "saisir une occasion très courte."
+            ]
+          },
+          {
+            "text": "Leur petite taille et leur morphologie compacte facilitent également les déplacements dans les sous-bois, les racines, les passages étroits et les terrains irréguliers."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "Les Farlin possèdent une acuité olfactive développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les traces faibles ;",
+              "les odeurs transportées par l’humidité ;",
+              "les substances végétales ;",
+              "les champignons ;",
+              "les insectes ;",
+              "les changements dans l’eau ou la terre humide ;",
+              "plusieurs odeurs proches au sein d’un même environnement."
+            ]
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Vision**"
+          },
+          {
+            "text": "L’acuité visuelle farlin est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer les détails éloignés ;",
+              "repérer un petit mouvement à grande distance ;",
+              "lire des formes fines ;",
+              "identifier précisément une silhouette éloignée ;",
+              "maintenir une observation visuelle prolongée."
+            ]
+          },
+          {
+            "text": "Leurs grands yeux leur permettent de détecter rapidement une présence ou un mouvement proche, mais leur vision manque de précision à longue distance."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie farlin repose principalement sur la réaction immédiate, l’instinct et l’engagement physique."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "une activation rapide ;",
+              "une réponse à une occasion soudaine ;",
+              "un renforcement bref du corps ;",
+              "une intervention auprès d’un allié ;",
+              "une manifestation déclenchée pendant un mouvement ;",
+              "une exploitation immédiate d’une ouverture."
+            ]
+          },
+          {
+            "text": "Ils sont moins naturellement à l’aise avec les pratiques reposant sur de longues constructions théoriques, des formules complexes ou une préparation intellectuelle prolongée."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Lumière**"
+          },
+          {
+            "text": "La Lumière constitue l’affinité élémentaire recommandée pour les Farlin."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie farlin se manifeste fréquemment sous des formes brèves, soudaines et très contrastées."
+          },
+          {
+            "text": "Lorsqu’elle utilise la Lumière, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’éclats rapides ;",
+              "de lignes lumineuses suivant un mouvement ;",
+              "de flashes dirigés ;",
+              "de marques lumineuses temporaires ;",
+              "de reflets projetés sur une arme ou un outil ;",
+              "d’un halo bref autour d’un allié ;",
+              "d’une lumière concentrée sur une ouverture ou une faiblesse."
+            ]
+          },
+          {
+            "text": "Les manifestations farlin privilégient généralement l’instant décisif plutôt qu’un rayonnement continu."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La magie farlin se combine facilement avec une action physique."
+          },
+          {
+            "text": "Elle peut notamment accompagner :"
+          },
+          {
+            "items": [
+              "un déplacement soudain ;",
+              "une attaque d’opportunité ;",
+              "une intervention défensive ;",
+              "le relèvement d’un allié ;",
+              "une prise rapide ;",
+              "une action effectuée avant qu’un adversaire puisse réagir."
+            ]
+          },
+          {
+            "text": "Les taches roses de leur peau ne sont pas lumineuses et ne réagissent pas automatiquement à l’utilisation de la magie."
+          },
+          {
+            "text": "L’affinité recommandée à la Lumière n’accorde aucune amélioration automatique de la Chance ou de l’adaptation aux forêts."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage farlin :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "REACT +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "FOR +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "INT −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Lumière"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. La Lumière constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Main Forte",
+                  "C"
+                ],
+                [
+                  "Coup d’Opportunité",
+                  "A"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Main Forte",
+            "headingLevel": 5,
+            "anchor": "main-forte",
+            "text": "Cette formation développe la capacité à intervenir rapidement auprès d’un allié, à le relever et à l’aider à reprendre position."
+          },
+          {
+            "title": "Coup d’Opportunité",
+            "headingLevel": 5,
+            "anchor": "coup-dopportunite",
+            "text": "Cette formation développe la capacité à exploiter immédiatement une ouverture laissée par un adversaire."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Main Forte ;",
+              "Coup d’Opportunité."
+            ]
+          },
+          {
+            "title": "Adaptation environnementale — Forêts",
+            "headingLevel": 5,
+            "anchor": "adaptation-environnementale-forets",
+            "text": "Vous obtenez la compétence **Environnement — Forêts N1**, selon les règles générales d’Adaptation environnementale."
+          },
+          {
+            "title": "Chance accrue",
+            "headingLevel": 5,
+            "anchor": "chance-accrue",
+            "text": "Votre Chance de base et votre Chance maximale augmentent chacune de **+5**."
+          },
+          {
+            "title": "Sens aiguisé — Odorat",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-odorat",
+            "text": "Vous obtenez **+5 en Odorat**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité olfactive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Farlin.md",
+    "sourceSha256": "08c2d86af28a9e7e81ed7190a3300999c9d5e345893f58fef8d4e6063c7c7c59"
+  }
+}

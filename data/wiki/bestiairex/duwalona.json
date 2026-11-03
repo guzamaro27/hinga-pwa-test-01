@@ -1,0 +1,35 @@
+{
+  "id": "duwalona",
+  "type": "creature-public",
+  "identity": {
+    "name": "Duwalona",
+    "subtitle": "Le Basilic des Marais",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "aquatique",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Duwalona vit principalement dans les marais, les mangroves et les rivières forestières. Il fréquente les eaux peu profondes, les rives marécageuses et les branches basses au-dessus de l’eau, où il observe les mouvements sous la surface avant de frapper. Carnivore, il capture surtout des proies aquatiques ou de petites créatures proches des berges grâce à son long bec effilé et à son cou extrêmement flexible."
+          },
+          {
+            "text": "Le Duwalona est une créature aviaire aquatique à la silhouette élégante et serpentiforme. Son corps long et élancé se prolonge par un cou extrêmement flexible, capable de se détendre à grande vitesse pour frapper une proie. Sa tête fine est prolongée par un bec très long et pointu, adapté à la capture rapide de petites créatures aquatiques. Ses yeux dorés brillants lui donnent un regard perçant et vigilant. Une longue crête de plumes rouges et orange s’étend vers l’arrière de son crâne et le long de sa ligne dorsale. Son plumage rouge profond et orange brûlé contraste avec un ventre beige plus clair. Ses longues pattes lui permettent de marcher dans l’eau ou de rester au-dessus des zones marécageuses sans immerger son corps."
+          },
+          {
+            "text": "Le Duwalona vit seul ou en couple territorial. Les nids sont construits dans les roseaux ou sur des branches basses au-dessus de l’eau, afin de garder les œufs proches des zones de chasse tout en limitant les approches terrestres."
+          }
+        ]
+      }
+    ]
+  }
+}

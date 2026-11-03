@@ -1,0 +1,238 @@
+{
+  "id": "materials.cuir-tanne",
+  "type": "material",
+  "identity": {
+    "name": "Cuir tanné",
+    "subtitle": "Cuirs · Animal",
+    "icon": "◆",
+    "tags": [
+      "cuir-tanne",
+      "Cuir tanné",
+      "leather",
+      "Cuirs",
+      "animal",
+      "Animal",
+      "Peau animale traitée",
+      "Brun moyen à foncé",
+      "Cuir épaissi, plus rigide et plus durable.",
+      "Neutre",
+      "physical",
+      "Physique",
+      "Normal",
+      "Boucliers",
+      "sangles",
+      "armures",
+      "harnais",
+      "tanneur",
+      "armurier",
+      "caisse",
+      "marchand"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Cuirs",
+    "rarity": 3
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "cuir-tanne",
+    "family": "leather",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Cuirs"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Animal"
+      },
+      {
+        "label": "Rareté",
+        "value": 3
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Peau animale traitée"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Brun moyen à foncé"
+          },
+          {
+            "title": "Description",
+            "text": "Cuir épaissi, plus rigide et plus durable."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "3"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Modéré (2)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "2"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Neutre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Bonne tenue aux chocs et à l’abrasion."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "S’alourdit lorsqu’il est saturé d’eau."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Boucliers",
+              "sangles",
+              "armures",
+              "harnais"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "tanneur",
+              "armurier",
+              "caisse",
+              "marchand"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Peau tannée de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1.5"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "15"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.9"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "60"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid/eau"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_eau_engourdi_t1"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

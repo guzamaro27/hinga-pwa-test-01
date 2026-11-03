@@ -1,0 +1,179 @@
+{
+  "id": "zektos",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Zektos",
+    "subtitle": "Le Masque Secret",
+    "tags": [
+      "Zektos",
+      "Le Masque Secret",
+      "esprit majeur",
+      "Secret",
+      "Manipulation",
+      "Trahison",
+      "Mensonge",
+      "Ruse",
+      "Vengeance",
+      "Voix Trompeuse",
+      "Avantage aux mensonges"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#3E2C4A",
+    "visualNote": "Secret • Manipulation • Trahison • Mensonge • Ruse • Vengeance"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "zektos",
+    "name": "Zektos",
+    "title": "Le Masque Secret",
+    "type": "esprit_majeur",
+    "domains": [
+      "Secret",
+      "Manipulation",
+      "Trahison",
+      "Mensonge",
+      "Ruse",
+      "Vengeance"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "twilight",
+      "label": "À chaque crépuscule"
+    },
+    "cult": {
+      "short": "Mentir à quelqu'un",
+      "ritual": "Mentir à quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La ruse de Zektos est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "voix_trompeuse": {
+        "key": "voix_trompeuse",
+        "name": "Voix Trompeuse",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Avantage aux mensonges",
+        "fullDescription": "Accorde un avantage sur les jets de mensonge.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#3E2C4A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "tovar"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Secret",
+              "Manipulation",
+              "Trahison",
+              "Mensonge",
+              "Ruse",
+              "Vengeance"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Mentir à quelqu'un"
+          },
+          {
+            "title": "Rituel",
+            "text": "Mentir à quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque crépuscule"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "twilight"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Voix Trompeuse (commune, passif)",
+              "Effet court : Avantage aux mensonges",
+              "Description : Accorde un avantage sur les jets de mensonge.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La ruse de Zektos est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "tovar"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "zektos"
+  }
+}

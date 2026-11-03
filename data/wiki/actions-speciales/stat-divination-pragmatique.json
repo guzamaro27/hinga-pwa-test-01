@@ -1,0 +1,75 @@
+{
+  "id": "stat-divination-pragmatique",
+  "type": "codex",
+  "identity": {
+    "name": "Divination Pragmatique",
+    "subtitle": "Action spéciale de REACT",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur REACT.",
+              "Nécessite la compétence active Divination Pragmatique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Jet : REACT AV1.",
+              "Action générique de stat spéciale."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Carte d'annonce.",
+              "Carte de jet.",
+              "Total courant : 2 cartes."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Aucun état automatique détecté.",
+              "Le résultat sert à interpréter une intuition utile et immediate."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Coût d’action",
+        "blocks": [
+          {
+            "text": "En combat : un tour entier, soit 3 unités normales disponibles. Une réussite critique réduit l’analyse immédiate à une mineure ; elle n’accélère pas les préparations matérielles."
+          }
+        ]
+      }
+    ]
+  }
+}

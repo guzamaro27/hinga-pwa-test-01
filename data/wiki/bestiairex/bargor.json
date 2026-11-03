@@ -1,0 +1,33 @@
+{
+  "id": "bargor",
+  "type": "creature-public",
+  "identity": {
+    "name": "Bargor",
+    "subtitle": "Le Dévoreur de Portes",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Bargor occupe principalement les donjons, forteresses et structures fermées, surtout les couloirs munis de portes et les halls éclairés. Il se cache fréquemment derrière les portes et attaque les organismes qui passent à proximité immédiate. Très lent, il se déplace peu et préfère rester dans une zone favorable, utilisant ses tentacules pour saisir ou frapper ce qui franchit son seuil."
+          },
+          {
+            "text": "Le Bargor est une créature large et massive, dominée par un énorme ventre qui semble constituer l’essentiel de son volume. Son visage est composé d’un seul œil central à pupille en croix, capable de percevoir les côtés sans tourner la tête. Sa bouche immense est garnie de nombreuses dents acérées dépassant largement des lèvres, lui donnant un aspect permanent de dévoration imminente. Il ne possède aucun cou et ne peut orienter sa tête. Deux gros tentacules émergent du haut de son dos et se meuvent lentement autour de lui, servant à attraper, palper et attaquer. Certains spécimens, notamment les plus grands, présentent des cornes épaisses et des griffes disséminées sur le corps."
+          },
+          {
+            "text": "Le Bargor vit seul et défend généralement un emplacement précis, souvent associé à une porte ou à un passage fréquenté. Les plus grands individus semblent liés à des accès plus vastes, comme si la taille de leur refuge influençait leur croissance ou leur installation."
+          }
+        ]
+      }
+    ]
+  }
+}

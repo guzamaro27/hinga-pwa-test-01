@@ -1,0 +1,93 @@
+{
+  "id": "ferinas",
+  "type": "plant",
+  "identity": {
+    "name": "Ferinas",
+    "subtitle": "Palme verte des sols humides",
+    "unknownName": "Touffe à longues feuilles vertes",
+    "slug": "ferinas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Ferinas.png",
+    "visualNote": "Touffe dense de longues feuilles vertes arquées, à base racinaire épaisse, avec fleurs violettes et fruits verts bordés de violet.",
+    "tags": [
+      "sous-bois",
+      "feuilles-longues",
+      "humide"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "tropical humide chaud",
+      "marais tempéré humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "boue"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "toute l’année"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "60 cm à 1,8 m",
+    "width": "60 cm à 1,4 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "vert jaune, brun racinaire, violet discret",
+    "distinctiveSigns": [
+      "touffe centrale dense sans véritable tronc",
+      "longues feuilles lancéolées, arquées et nervurées",
+      "fin liseré violet sur certains bords de feuilles",
+      "base compacte de gaines foliaires serrées",
+      "racines épaisses brunes et ramifiées",
+      "fleur dressée à bractées vertes et reflets violets",
+      "fruit vert formé de loges arrondies"
+    ],
+    "descriptionShort": "Le Ferinas est une herbe vivace humide formant une touffe de longues feuilles vertes et souples.",
+    "descriptionFull": "Le Ferinas pousse dans les sous-bois humides et les terres fraîches où l'eau reste présente une grande partie de l'année. Ses feuilles partent directement d'une base serrée et se courbent sous leur poids. Les nervures claires et les reflets violets des bords permettent de la reconnaître. La plante produit une fleur dressée puis des fruits verts charnus contenant de petites graines brillantes."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "fourrage",
+      "semis"
+    ],
+    "notes": "Les feuilles longues servent surtout au tressage simple, à l'emballage végétal ou à la couverture légère dans les zones humides."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "pitifas",
+  "type": "plant",
+  "identity": {
+    "name": "Pitifas",
+    "subtitle": "Arbre rouge des terres rudes",
+    "unknownName": "Arbre à tronc rouge et feuillage sombre",
+    "slug": "pitifas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Pitifas.png",
+    "visualNote": "Arbre au tronc rouge sombre, tordu en faisceau, portant une couronne dense vert noir et des fruits violets hérissés.",
+    "tags": [
+      "tronc-rouge",
+      "fruit-herisse",
+      "seve-irritante"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud",
+      "taïga sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "rocaille",
+      "sol caillouteux"
+    ],
+    "season": [
+      "baisse des températures",
+      "saison sèche",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "surveillée"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "4 à 10 m",
+    "width": "4 à 9 m",
+    "colorMain": "rouge sombre",
+    "colorSecondary": "vert profond, violet, brun noir",
+    "distinctiveSigns": [
+      "tronc rouge sombre formé de plusieurs fûts tordus",
+      "écorce crevassée avec éclats brillants",
+      "branches rouges longues et torsadées",
+      "racines rouges et violettes très visibles",
+      "feuillage compact vert profond",
+      "feuilles larges aux nervures violettes discrètes",
+      "fruits violets hérissés",
+      "poches de sève rouge violacé dans les excroissances"
+    ],
+    "descriptionShort": "Le Pitifas est un arbre rouge et tortueux des milieux secs, aux fruits hérissés et à la sève irritante.",
+    "descriptionFull": "Le Pitifas s'ancre dans les falaises pauvres, les côtes sèches battues par le vent et certaines marges froides de taïga. Ses fûts rouges s'enroulent les uns autour des autres avant de porter une cime sombre et compacte. Les racines violacées, les fruits hérissés et les poches de sève rouge en font une plante reconnaissable, utile mais rarement manipulée sans précaution."
+  },
+  "danger": {
+    "severity": "modere",
+    "dangerType": [
+      "irritante",
+      "epineuse",
+      "toxique"
+    ],
+    "exposure": [
+      "contact",
+      "ingestion"
+    ],
+    "symptoms": [
+      "rougeurs",
+      "picotements",
+      "nausée",
+      "douleurs abdominales"
+    ],
+    "notes": "La sève fraîche irrite la peau et les fruits crus provoquent facilement un malaise digestif."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "todo-toxique-pitifas",
+      "quantity": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "notes": "Produit toxique placeholder à définir selon le futur système de poisons. // TODO_LINK: à lier plus tard avec l'objet ingrédient toxique todo-toxique-pitifas"
+  },
+  "uses": {
+    "knownUses": [
+      "poison",
+      "teinture",
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "La sève et les fruits servent surtout à des teintures sombres et à de futurs usages toxiques; le bois rouge reste utile pour de petites pièces solides."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

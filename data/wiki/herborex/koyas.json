@@ -1,0 +1,94 @@
+{
+  "id": "koyas",
+  "type": "plant",
+  "identity": {
+    "name": "Koyas",
+    "subtitle": "Grand fût des terres contraires",
+    "unknownName": "Grand arbre droit à tronc brun rouge",
+    "slug": "koyas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Koyas.png",
+    "visualNote": "Très grand arbre au tronc droit brun rouge, à cime sombre compacte, feuilles cordiformes et résine dorée visible dans l'écorce.",
+    "tags": [
+      "arbre-droit",
+      "bois",
+      "resine"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "taïga sèche froide",
+      "steppe sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre sèche",
+      "sol caillouteux"
+    ],
+    "season": [
+      "bourgeonnement",
+      "fructification",
+      "premiers froids"
+    ],
+    "growthCycle": "lente",
+    "light": "variable",
+    "humidity": "variable",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "12 à 35 m",
+    "width": "4 à 10 m",
+    "colorMain": "brun rouge",
+    "colorSecondary": "vert sombre, jaune doré, brun chaud",
+    "distinctiveSigns": [
+      "tronc très droit, haut et peu ramifié en partie basse",
+      "écorce brun rouge fissurée en lignes verticales",
+      "cime sombre compacte et arrondie",
+      "feuilles cordiformes vert sombre à nervures claires",
+      "fleurs pâles à longs filaments sombres",
+      "capsules ovoïdes dures contenant une graine brune",
+      "résine dorée visible dans les blessures de l'écorce"
+    ],
+    "descriptionShort": "Le Koyas est un grand arbre droit, reconnaissable à son tronc brun rouge et à sa résine dorée.",
+    "descriptionFull": "Le Koyas développe un fût haut et régulier, presque nu sur sa partie basse, puis une cime sombre et compacte. Ses racines profondes lui permettent de tenir dans des milieux contrastés, tant que le sol conserve des poches d'humidité. L'écorce brun rouge laisse parfois paraître une résine dorée, et ses capsules dures protègent une graine épaisse."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "medicinale",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le bois droit sert aux hampes, manches et pièces longues; la résine reste une ressource simple pour liants, protection légère du bois ou baumes à définir."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

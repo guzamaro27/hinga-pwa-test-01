@@ -1,0 +1,100 @@
+{
+  "id": "daspra",
+  "type": "plant",
+  "identity": {
+    "name": "Daspra",
+    "subtitle": "Conifère à résine claire",
+    "unknownName": "Grand conifère aux veines dorées",
+    "slug": "daspra",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Daspra.png",
+    "visualNote": "Grand conifère à silhouette triangulaire, aiguilles vert sombre, cônes bruns épais et résine dorée dans les fissures du tronc.",
+    "tags": [
+      "conifere",
+      "taiga"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "conifere",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "taïga sèche froide",
+      "montagne sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre pauvre",
+      "sol caillouteux",
+      "rocaille",
+      "neige"
+    ],
+    "season": [
+      "premiers froids",
+      "grand froid",
+      "dégel"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "8 à 22 m",
+    "width": "3 à 8 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun orangé, doré résineux, gris écorce",
+    "distinctiveSigns": [
+      "silhouette conique haute et régulière",
+      "branches étagées couvertes d'aiguilles denses",
+      "aiguilles longues vert sombre à pointe légèrement jaune",
+      "cônes épais et ovales aux écailles brunes serrées",
+      "écorce rugueuse et fissurée",
+      "résine claire à dorée dans les crevasses",
+      "racines profondes et radicelles sèches"
+    ],
+    "descriptionShort": "Le Daspra est un grand conifère des zones froides, reconnaissable à sa forme triangulaire et à sa résine dorée.",
+    "descriptionFull": "Le Daspra pousse dans les forêts froides et les sols pauvres. Son tronc droit porte une écorce rugueuse dont les fissures laissent parfois suinter une résine claire. Ses aiguilles serrées limitent la perte d'eau et protègent l'arbre du gel sec. Les cônes bruns gardent des graines ailées, dispersées par les vents froids."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "irritante"
+    ],
+    "exposure": [
+      "inhalation"
+    ],
+    "symptoms": [
+      "rougeurs",
+      "picotements",
+      "difficulté à respirer"
+    ],
+    "notes": "La fumée des aiguilles sèches devient irritante en espace fermé."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "construction",
+      "combustible",
+      "artisanat",
+      "semis"
+    ],
+    "notes": "Le bois du Daspra est léger et résineux, idéal pour la construction de structures légères et les feux de camp en milieu froid."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

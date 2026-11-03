@@ -1,0 +1,151 @@
+{
+  "id": "trap-action-search",
+  "type": "codex",
+  "identity": {
+    "name": "Chercher des pièges",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "chercher"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Chercher des pièges",
+            "text": "Chercher des pièges"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Chercher des pièges",
+            "text": "Chercher sert à trouver un piège proche. Analyser sert ensuite à le comprendre."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Chercher des pièges",
+            "text": "Cette action représente une recherche active autour du personnage. Elle peut repérer des mécanismes suspects, des anomalies de terrain, des runes ou des traces de danger selon le sens utilisé, la portée et le niveau de détection du piège."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Base",
+            "text": "Sans compétence adaptée, Chercher des pièges utilise PERC/2, ou le sens choisi par le menu de recherche si le système le propose."
+          }
+        ]
+      },
+      {
+        "label": "Table officielle sans compétence",
+        "blocks": [
+          {
+            "title": "Visible",
+            "text": "Réussite normale : Repéré. Réussite critique : Identifié. Réussite ultime : Identifié par défaut."
+          },
+          {
+            "title": "Discret",
+            "text": "Réussite normale : Repéré. Réussite critique : Identifié. Réussite ultime : Identifié par défaut."
+          },
+          {
+            "title": "Caché",
+            "text": "Réussite normale : non détecté. Réussite critique : Repéré. Réussite ultime : Identifié."
+          },
+          {
+            "title": "Invisible",
+            "text": "Non détectable sans sens spécial, compétence adaptée ou règle explicite."
+          }
+        ]
+      },
+      {
+        "label": "Knowledge obtenu par Chercher",
+        "blocks": [
+          {
+            "title": "Règle générale",
+            "text": "Une réussite normale de Chercher donne Repéré. Une réussite critique donne Identifié. Une réussite ultime donne Identifié par défaut."
+          },
+          {
+            "title": "Maîtrisé",
+            "text": "Le niveau Maîtrisé vient principalement d’une analyse réussie depuis Identifié, d’une analyse critique, du fait d’être le créateur du piège, du MJ, ou d’une règle explicite."
+          }
+        ]
+      },
+      {
+        "label": "Compétences et sens spéciaux",
+        "blocks": [
+          {
+            "title": "Profil extensible",
+            "text": "Une compétence ou un sens spécial peut rendre certains pièges cachés détectables sur une réussite normale, ou autoriser des cas invisibles. Sans règle explicite, ces avantages ne sont pas inventés."
+          },
+          {
+            "title": "Exemples",
+            "text": "Pisteur Attentif, Affinement Sensoriel, Perception Supérieure ou d’autres compétences peuvent modifier certains modes sensoriels selon leurs effets actifs."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Recherche",
+            "text": "Le joueur choisit un mode de recherche ou un sens si le menu est actif. Le système effectue le jet, puis ajoute uniquement les pièges réellement détectés au niveau de connaissance du personnage."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d’échec",
+        "blocks": [
+          {
+            "title": "Échec",
+            "text": "Aucun nouveau piège n’est ajouté à la connaissance du personnage. Un piège visible peut rester publiquement visible selon l’état de la scène, mais il n’est pas compris pour autant."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Secrets",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ, les détails exacts et le sabotage exact restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Rôles",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l’objet ou l’instance. Le poseur est celui qui l’a placé sur la scène. Ces rôles ne sont pas révélés aux joueurs par Chercher."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "MJ",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

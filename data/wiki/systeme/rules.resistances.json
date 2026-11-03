@@ -1,0 +1,86 @@
+{
+  "id": "rules.resistances",
+  "type": "codex",
+  "identity": {
+    "name": "Résistances",
+    "subtitle": "Réduire un type de dégâts",
+    "icon": "◆",
+    "tags": [
+      "Résistances",
+      "résistance",
+      "physique",
+      "magique",
+      "mental"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/documents/actor.mjs",
+    "module/helpers/magie.mjs"
+  ],
+  "mechanics": {
+    "families": [
+      "PHY",
+      "MAG",
+      "MENT"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "PHY",
+        "value": "Attaques physiques"
+      },
+      {
+        "label": "MAG",
+        "value": "Attaques magiques"
+      },
+      {
+        "label": "MENT",
+        "value": "Attaques mentales"
+      }
+    ],
+    "links": [
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      },
+      {
+        "label": "Armures",
+        "sectionId": "systeme",
+        "entryId": "rules.armures"
+      },
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Application",
+        "blocks": [
+          {
+            "text": "La résistance pertinente est choisie par le profil de l’attaque et réduit les dégâts au moment prévu par sa résolution. Les résistances élémentaires peuvent aussi modifier une contribution élémentaire."
+          }
+        ]
+      },
+      {
+        "label": "Origines",
+        "blocks": [
+          {
+            "text": "Peuple, équipement, état, compétence et effet peuvent modifier une résistance. Le détail affiché sur la fiche rassemble ces sources."
+          }
+        ]
+      }
+    ]
+  }
+}

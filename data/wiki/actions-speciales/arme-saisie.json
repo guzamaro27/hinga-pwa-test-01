@@ -1,0 +1,89 @@
+{
+  "id": "arme-saisie",
+  "type": "codex",
+  "identity": {
+    "name": "Saisie avec arme",
+    "subtitle": "Contrôle du corps, d’une arme ou d’un bouclier",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "arme",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur Attaque avec arme puis Saisie.",
+              "Une arme équipée est nécessaire pour ouvrir le menu arme.",
+              "Une seule cible doit être sélectionnée.",
+              "La saisie peut viser le corps, une arme ou un bouclier si l’objet existe."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ouverture",
+        "blocks": [
+          {
+            "title": "Jets",
+            "items": [
+              "Jet initial attaquant : FOR normal.",
+              "Si échec initial : la cible recoit une carte de réaction comme face à une attaque ratee.",
+              "Si succès initial : carte de choix de cible, puis choix défenseur."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Choix défenseur",
+        "blocks": [
+          {
+            "title": "Réactions",
+            "items": [
+              "Ceder : applique la saisie sans jet supplementaire.",
+              "Lutter : défenseur FOR normal ; succès rompt la saisie, échec applique la saisie.",
+              "Lacher : si arme ou bouclier vise, l’objet est deséquipé et la saisie s'annule.",
+              "Annuler : le lanceur peut annuler pendant le choix de cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Effets",
+            "items": [
+              "Saisie maintenue : AV1 à la prochaine attaque du lanceur.",
+              "Saisie maintenue : DV1 à la prochaine défense de la cible.",
+              "Si l'équipément vise est lache, l'état de saisie ne reste pas actif.",
+              "Si la saisie rate au depart, la contre-attaque de la cible peut être proposee si disponible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Carte 1 : jet FOR attaquant.",
+              "Carte 2 : choix de cible si succès.",
+              "Carte 3 : choix défenseur.",
+              "Carte 4 : jet défenseur si Lutter.",
+              "Carte 5 : résultat selon issue.",
+              "Total courant : 3 à 5 cartes selon choix."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

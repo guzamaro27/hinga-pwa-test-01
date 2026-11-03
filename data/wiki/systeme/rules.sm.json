@@ -1,0 +1,93 @@
+{
+  "id": "rules.sm",
+  "type": "codex",
+  "identity": {
+    "name": "Santé mentale (SM)",
+    "subtitle": "Équilibre psychique et fracture",
+    "icon": "◉",
+    "tags": [
+      "Santé mentale (SM)",
+      "SM",
+      "santé mentale",
+      "Fracturé"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/etatsPoints.mjs",
+    "module/helpers/sm.mjs",
+    "module/documents/actor.mjs"
+  ],
+  "mechanics": {
+    "formula": "floor((MENT + PSY) / 2)",
+    "statesConstant": "SM_STATE_RULES"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Maximum",
+        "value": "⌊(MENT + PSY) / 2⌋"
+      },
+      {
+        "label": "Défenses",
+        "value": "Encaisser, Ancrage ou Déni"
+      },
+      {
+        "label": "À zéro",
+        "value": "Dévasté"
+      }
+    ],
+    "links": [
+      {
+        "label": "Jauges et ressources",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.jauges-ressources"
+      },
+      {
+        "label": "Défenses mentales",
+        "sectionId": "systeme",
+        "entryId": "rules.defenses-mentales"
+      },
+      {
+        "label": "Fracture mentale",
+        "sectionId": "systeme",
+        "entryId": "rules.fracture-mentale"
+      },
+      {
+        "label": "Repos",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Règle",
+        "blocks": [
+          {
+            "text": "Le maximum est floor((MENT + PSY) / 2). Les bonus de peuple et autres modificateurs prévus par les règles s’appliquent ensuite."
+          }
+        ]
+      },
+      {
+        "label": "Paliers",
+        "blocks": [
+          {
+            "items": [
+              "Lucide : au-dessus de 2/3, aucun malus.",
+              "Ébranlé : jusqu’à 2/3, MENT −3.",
+              "Dérangé : jusqu’à 1/2, MENT −5 et désavantage aux jets de SM.",
+              "Fracturé : jusqu’à 1/4, MENT −10, désavantage SM et PSY inutilisable.",
+              "Dévasté : 0 SM, conserve les effets de Fracturé."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

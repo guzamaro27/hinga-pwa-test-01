@@ -1,0 +1,35 @@
+{
+  "id": "vozroth",
+  "type": "creature-public",
+  "identity": {
+    "name": "Vozroth",
+    "subtitle": "Le Seigneur des Égouts",
+    "tags": [
+      "souterrain",
+      "aquatique",
+      "amphibie",
+      "territorial",
+      "nocturne",
+      "magie-eau",
+      "egouts"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Vozroth vit dans les profondeurs des cités, les anciens réseaux d’évacuation abandonnés et les galeries souterraines humides. Il privilégie les zones où l’eau circule lentement, comme les canaux stagnants, les bassins sombres et les tunnels partiellement submergés. Prudente mais dangereuse, cette créature connaît parfaitement son territoire et exploite l’eau, la boue et l’obscurité pour se dissimuler ou tendre des embuscades."
+          },
+          {
+            "text": "Le Vozroth est une créature humanoïde inquiétante qui hante les profondeurs des égouts et des tunnels humides. Son corps élancé est recouvert d’une peau écailleuse brun doré, dont les plaques rigides forment une armure naturelle rugueuse. De nombreuses excroissances osseuses émergent de ses épaules et de ses membres, donnant à la créature une silhouette agressive. Sa tête est dominée par de longues cornes recourbées vers l’arrière, striées et solides. Son visage anguleux est marqué par des yeux jaunes brillants qui semblent luire dans l’obscurité des tunnels. Ses bras longs se terminent par des mains griffues capables de lacérer ou d’agripper leurs proies. Ses jambes puissantes et ses pieds larges lui permettent de se déplacer aisément dans la boue, l’eau stagnante ou les conduits étroits. Une longue queue musculeuse prolonge son corps et l’aide à garder son équilibre dans les galeries inondées."
+          },
+          {
+            "text": "Les Vozroths peuvent parfois cohabiter dans un même réseau souterrain, mais chaque individu conserve généralement un territoire précis autour d’un canal, d’un bassin ou d’une cavité humide. Ils communiquent par sons gutturaux et vibrations transmises dans l’eau."
+          }
+        ]
+      }
+    ]
+  }
+}

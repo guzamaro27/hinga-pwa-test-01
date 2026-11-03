@@ -1,0 +1,37 @@
+{
+  "id": "kofats",
+  "type": "creature-public",
+  "identity": {
+    "name": "Kofats",
+    "subtitle": "Le Serpent des Marais Profonds",
+    "tags": [
+      "sauvage",
+      "rare",
+      "aquatique",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "artisanat",
+      "alchimie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Kofats vit dans des environnements extrêmement humides et isolés, principalement les marais anciens, les grottes inondées, les cavernes envahies par les racines et les zones forestières tropicales noyées. Il passe la majorité de son temps immergé dans l’eau ou dissimulé sous la végétation. Son corps sombre, écailleux et humide lui permet de se fondre dans les eaux stagnantes, la vase et la boue, où il attend qu’une proie s’approche avant de frapper."
+          },
+          {
+            "text": "Le Kofats est une créature gigantesque qui incarne la brutalité des marais anciens. Son corps serpentiforme massif se dresse parfois hors de l’eau lorsque la créature attaque, révélant une tête triangulaire dominée par deux immenses cornes vertes recourbées. Sa peau sombre et écailleuse semble constamment humide, reflétant faiblement la lumière des clairières marécageuses. Le long de sa mâchoire pendent deux membranes fines semblables à des feuilles, qui oscillent lentement dans l’air ou dans l’eau. Lorsqu’il ouvre la gueule, il dévoile plusieurs rangées de dents longues et recourbées, parfaitement adaptées pour saisir une proie et l’empêcher de fuir. Ses yeux orange lumineux percent l’obscurité des marais avec un regard prédateur implacable. Dans son environnement naturel, seule la tête ou les cornes émergent parfois de l’eau, laissant deviner l’immense corps dissimulé sous la surface."
+          },
+          {
+            "text": "Le Kofats occupe généralement un territoire bien défini autour d’un point d’eau profond. Les œufs sont déposés dans des cavités humides, sous des racines immergées ou dans des grottes marécageuses, où l’humidité constante favorise l’incubation. Les jeunes deviennent rapidement autonomes et quittent leur zone de naissance après quelques mois."
+          }
+        ]
+      }
+    ]
+  }
+}

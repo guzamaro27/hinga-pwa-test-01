@@ -1,0 +1,34 @@
+{
+  "id": "waskro",
+  "type": "creature-public",
+  "identity": {
+    "name": "Waskro",
+    "subtitle": "Le fendeur des marées",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Waskro vit principalement dans les eaux salées proches du littoral, les zones peu profondes, les récifs et les plages rocheuses. Il chasse aussi bien sous l’eau qu’en surface ou près des rivages, où sa vitesse et sa puissance en font un prédateur redoutable. Très territorial, il réagit violemment aux intrusions dans sa zone de chasse et aux mouvements visibles à la surface."
+          },
+          {
+            "text": "Le Waskro possède un corps long et sinueux couvert d’écailles épaisses tirant vers le jaune acide, avec des reflets verdâtres. Sa mâchoire est démesurée, allongée et hérissée de dents fines et nombreuses, disposées en rangées serrées. Deux d’entre elles, plus longues, dépassent légèrement vers l’avant. Ses six pattes sont courtes mais robustes, chacune terminée par des griffes adaptées à la traction sur les rochers et le sable. Le long de sa colonne, plusieurs crêtes triangulaires rigides émergent, donnant à son profil une allure de scie vivante. Sous l’eau, sa nageoire en croissant assure une propulsion puissante. À la surface, cette nageoire peut s’écarter en deux segments, améliorant l’équilibre et la manœuvrabilité."
+          },
+          {
+            "text": "Le Waskro vit seul et occupe une zone de chasse qu’il défend activement. Sa présence est surtout signalée près des récifs, plages rocheuses et eaux peu profondes où il peut alterner entre nage, surface et déplacements terrestres courts."
+          }
+        ]
+      }
+    ]
+  }
+}

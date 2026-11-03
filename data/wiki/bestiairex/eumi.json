@@ -1,0 +1,32 @@
+{
+  "id": "eumi",
+  "type": "creature-public",
+  "identity": {
+    "name": "Eumi",
+    "subtitle": "La boule coureuse",
+    "tags": [
+      "domestique",
+      "elevage",
+      "alimentaire",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Eumi vit surtout dans les zones d’élevage, les campagnes et les plaines ouvertes. Il reste principalement au sol, dans les enclos, les prairies et les espaces dégagés où il peut courir et bondir rapidement. Son régime est omnivore : il consomme des graines, des insectes et de petits végétaux."
+          },
+          {
+            "text": "L’Eumi est une véritable boule de plumes, portée par deux pattes courtes et rapides. Son long cou, recouvert de poils clairs, contraste avec son corps au plumage dense brun foncé. Sa tête plate et légèrement allongée se termine par un bec pointu. Ses ailes sont petites et inutilisables pour le vol, mais elles lui servent à garder l’équilibre lors de ses bonds. Les plumes brun foncé se mêlent à des poils blanc-gris, notamment autour du cou et de la tête, donnant à l’ensemble un aspect hybride entre oiseau terrestre et petit mammifère."
+          },
+          {
+            "text": "L’Eumi vit généralement en troupeau, surtout dans les contextes d’élevage. Les petits montent naturellement sur le dos des adultes pour se déplacer, mais chutent fréquemment, ce qui explique une forte mortalité juvénile à l’état sauvage."
+          }
+        ]
+      }
+    ]
+  }
+}

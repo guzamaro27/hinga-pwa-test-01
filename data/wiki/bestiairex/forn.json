@@ -1,0 +1,33 @@
+{
+  "id": "forn",
+  "type": "creature-public",
+  "identity": {
+    "name": "Forn",
+    "subtitle": "Le double-bouc cuirassé",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Forn vit principalement dans les plaines, les prairies ouvertes et les champs cultivés, où il passe la majorité de son temps à paître. Sa taille, sa masse et son organisation en troupeau peuvent provoquer d’importants dégâts dans les zones agricoles, un groupe de Forn pouvant ravager un champ en très peu de temps."
+          },
+          {
+            "text": "Le Forn est une créature massive à deux têtes presque identiques. Chacune porte deux cornes accolées, la plus grande positionnée au-dessus de la seconde. Son dos est protégé par de larges plaques osseuses épaisses, formant des reliefs semblables à des piques émoussées qui s’étendent du cou jusqu’à la base de la queue. Chaque nuque est ornée d’une crinière longue, prolongée par une barbe épaisse sous le menton. Le reste du corps est couvert d’une peau épaisse grisâtre, parfois teintée de brun. La queue est courte et peu fonctionnelle."
+          },
+          {
+            "text": "Le Forn vit en troupeau et montre un fort instinct de protection envers les jeunes. Les cornes servent de moyen de communication entre congénères grâce à des signaux vibratoires discrets, ce qui permet au groupe de coordonner ses déplacements avec une étonnante discrétion malgré sa masse."
+          }
+        ]
+      }
+    ]
+  }
+}

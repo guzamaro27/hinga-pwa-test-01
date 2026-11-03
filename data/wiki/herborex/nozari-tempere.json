@@ -1,0 +1,92 @@
+{
+  "id": "nozari-tempere",
+  "type": "plant",
+  "identity": {
+    "name": "Nozari tempéré",
+    "subtitle": "Nozari rouge des zones tempérées",
+    "unknownName": "Arbre tempéré rouge à feuilles larges et tronc tressé",
+    "slug": "nozari-tempere",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Nozari 1 temp.png",
+    "visualNote": "Arbre à tronc brun torsadé, racines apparentes et large cime rouge rosé de grandes feuilles ondulées.",
+    "tags": [
+      "tempere",
+      "feuillage-rouge",
+      "bois-torsade"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "plaine tempérée humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre riche",
+      "terre humide",
+      "terre meuble"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "mi-ombre",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 à 16 m",
+    "width": "5 à 13 m",
+    "colorMain": "rouge rosé",
+    "colorSecondary": "brun sombre, violet, mauve",
+    "distinctiveSigns": [
+      "plusieurs fûts bruns torsadés ou soudés",
+      "racines apparentes entrelacées",
+      "écorce noueuse parcourue de veines violettes",
+      "cime large rouge rosé",
+      "grandes feuilles ondulées à nervures rose-violet",
+      "jeunes feuilles très rouges en bouquets",
+      "fruits ovoïdes rose à mauve"
+    ],
+    "descriptionShort": "Le Nozari tempéré est un arbre rouge rosé à tronc torsadé et racines apparentes.",
+    "descriptionFull": "Le Nozari tempéré pousse dans les forêts claires et les lisières humides où le sol reste profond. Plusieurs fûts bruns semblent s'enrouler avant de porter une cime large de feuilles rouges ondulées. Les nervures violettes, les racines tressées et les fruits rosés en font un arbre très visible dans les paysages tempérés."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles et fruits donnent un pigment rouge-rose, et le bois torsadé sert surtout à de petites pièces décoratives."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

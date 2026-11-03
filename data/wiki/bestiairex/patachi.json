@@ -1,0 +1,33 @@
+{
+  "id": "patachi",
+  "type": "creature-public",
+  "identity": {
+    "name": "Patachi",
+    "subtitle": "Le Diseur de Malheur",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "nuisible",
+      "medicinal",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Patachi vit principalement dans les donjons, les ruines, les cavernes infestées et les structures abandonnées riches en faune monstrueuse. Il privilégie les couloirs étroits, les salles abandonnées et les zones confinées où sa colonie peut défendre un passage ou un abri. Carnivore opportuniste, il profite des proies blessées, isolées ou déjà menacées par d’autres dangers du lieu."
+          },
+          {
+            "text": "Le Patachi possède un corps singulier composé de trois sphères distinctes. La plus petite constitue la tête, tandis que les deux autres, de taille similaire, forment le tronc et l’abdomen. L’ensemble lui donne une silhouette déséquilibrée, presque maladroite. Sa tête porte deux larges yeux à facettes d’un jaune foncé profond, toujours brillants dans la pénombre. De nombreuses antennes fines frémissent en permanence autour de ses mandibules, lui conférant une expression inquiétante. Les deux sphères postérieures sont recouvertes de petits poils jaune sombre parsemés de taches brunâtres. Quatre petites paires d’ailes translucides émergent de ces segments, deux sur chacun, vibrant rapidement mais avec une stabilité précaire. Sa queue flexible se termine par un dard empoisonné. Lorsqu’il ne l’utilise pas, il peut l’enrouler autour de lui-même, formant ainsi une quatrième boule apparente."
+          },
+          {
+            "text": "Les Patachi vivent en petites colonies compactes de dix à quinze spécimens. Le groupe réagit défensivement lorsque la colonie est perturbée, ce qui rend la capture d’un individu intact plus dangereuse qu’il n’y paraît."
+          }
+        ]
+      }
+    ]
+  }
+}

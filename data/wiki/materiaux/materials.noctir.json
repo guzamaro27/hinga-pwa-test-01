@@ -1,0 +1,239 @@
+{
+  "id": "materials.noctir",
+  "type": "material",
+  "identity": {
+    "name": "Noctir",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "noctir",
+      "Noctir",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation spatiale",
+      "Bleu nébuleux",
+      "Gemme accordée aux distances, seuils et déplacements.",
+      "Espace/Voyage",
+      "magical",
+      "Magique",
+      "Exceptionnel",
+      "Portails",
+      "balises",
+      "enchantements de mouvement",
+      "mage",
+      "voyage",
+      "trésor",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 8
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "noctir",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 4,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 8
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "4 — Exceptionnel"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation spatiale"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Bleu nébuleux"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme accordée aux distances, seuils et déplacements."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Espace/Voyage"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Stabilise portails et enchantements de déplacement."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Déphasage spatial possible en cas de fracture."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Portails",
+              "balises",
+              "enchantements de mouvement"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "4 — Exceptionnel"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mage",
+              "voyage",
+              "trésor",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "750"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.7"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "7"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "serimoth/espace"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_espace_dephasage_t1",
+              "etat_espace_dephasage",
+              "etat_espace_dephasage_t3",
+              "etat_espace_dephasage_t4"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

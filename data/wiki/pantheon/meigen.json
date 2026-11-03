@@ -1,0 +1,183 @@
+{
+  "id": "meigen",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Meigen",
+    "subtitle": "Le Vent de la Solitude",
+    "tags": [
+      "Meigen",
+      "Le Vent de la Solitude",
+      "esprit majeur",
+      "Froid",
+      "Hiver",
+      "Pluie",
+      "Vent",
+      "Mélancolie",
+      "Tristesse",
+      "Calme",
+      "Absence",
+      "Solitude",
+      "Mélancolie Apaisante",
+      "Récupération de SM en solitude"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#5C6F7A",
+    "visualNote": "Froid • Hiver • Pluie • Vent • Mélancolie • Tristesse • Calme • Absence • Solitude"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "meigen",
+    "name": "Meigen",
+    "title": "Le Vent de la Solitude",
+    "type": "esprit_majeur",
+    "domains": [
+      "Froid",
+      "Hiver",
+      "Pluie",
+      "Vent",
+      "Mélancolie",
+      "Tristesse",
+      "Calme",
+      "Absence",
+      "Solitude"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "rainy_day",
+      "label": "Chaque jour qu'il pleut"
+    },
+    "cult": {
+      "short": "S’isoler dans le vent ou la pluie",
+      "ritual": "S’isoler dans un lieu venteux ou pluvieux et laisser le vent souffler ou la pluie tomber, en silence."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le calme intérieur est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "melancolie_apaisante": {
+        "key": "melancolie_apaisante",
+        "name": "Mélancolie Apaisante",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Récupération de SM en solitude",
+        "fullDescription": "En restant immobile et seul pendant une minute, récupère 2d4 SM (3d4 SM s'il pleut).",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#5C6F7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Froid",
+              "Hiver",
+              "Pluie",
+              "Vent",
+              "Mélancolie",
+              "Tristesse",
+              "Calme",
+              "Absence",
+              "Solitude"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "S’isoler dans le vent ou la pluie"
+          },
+          {
+            "title": "Rituel",
+            "text": "S’isoler dans un lieu venteux ou pluvieux et laisser le vent souffler ou la pluie tomber, en silence."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Chaque jour qu'il pleut"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "rainy_day"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Mélancolie Apaisante (améliorée, actif)",
+              "Effet court : Récupération de SM en solitude",
+              "Description : En restant immobile et seul pendant une minute, récupère 2d4 SM (3d4 SM s'il pleut).",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le calme intérieur est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "meigen"
+  }
+}

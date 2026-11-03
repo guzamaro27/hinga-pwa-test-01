@@ -1,0 +1,227 @@
+{
+  "id": "materials.lani",
+  "type": "material",
+  "identity": {
+    "name": "Lani",
+    "subtitle": "Textiles · Végétal",
+    "icon": "◆",
+    "tags": [
+      "lani",
+      "Lani",
+      "textile",
+      "Textiles",
+      "vegetal",
+      "Végétal",
+      "Fibre végétale fine",
+      "Beige clair, souple",
+      "Tissu courant, doux et respirant.",
+      "Neutre",
+      "physical",
+      "Physique",
+      "Faible",
+      "Vêtements communs",
+      "draps",
+      "linge",
+      "tailleur",
+      "habitation",
+      "sac",
+      "caisse",
+      "marchand"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 2
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "lani",
+    "family": "textile",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Végétal"
+      },
+      {
+        "label": "Rareté",
+        "value": 2
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre végétale fine"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Beige clair, souple"
+          },
+          {
+            "title": "Description",
+            "text": "Tissu courant, doux et respirant."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "3"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Neutre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Confort quotidien et bonne polyvalence."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peu protecteur."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Vêtements communs",
+              "draps",
+              "linge"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "tailleur",
+              "habitation",
+              "sac",
+              "caisse",
+              "marchand"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "5"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.9"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Pauvre"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "80"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

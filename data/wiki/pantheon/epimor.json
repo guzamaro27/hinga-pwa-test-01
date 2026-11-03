@@ -1,0 +1,168 @@
+{
+  "id": "epimor",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Epimor",
+    "subtitle": "L’Inéluctable Épilogue",
+    "tags": [
+      "Epimor",
+      "L’Inéluctable Épilogue",
+      "esprit majeur",
+      "Fin",
+      "Acceptation",
+      "Mort",
+      "Décadence",
+      "Acceptation de la Fin",
+      "Immunité à la peur de la mort"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#4A4A4A",
+    "visualNote": "Fin • Acceptation • Mort • Décadence"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "epimor",
+    "name": "Epimor",
+    "title": "L’Inéluctable Épilogue",
+    "type": "esprit_majeur",
+    "domains": [
+      "Fin",
+      "Acceptation",
+      "Mort",
+      "Décadence"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "season_end_or_death",
+      "label": "Chaque fin de saison ou lors de la vue d’un décès"
+    },
+    "cult": {
+      "short": "Se recueillir sur une tombe",
+      "ritual": "Enterrer un cadavre, puis se recueillir sur sa tombe fraîche ou écrire une épitaphe sur une tombe."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’acceptation de la fin est plus sereine.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "acceptation_de_la_fin": {
+        "key": "acceptation_de_la_fin",
+        "name": "Acceptation de la Fin",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Immunité à la peur de la mort",
+        "fullDescription": "Rend immunisé aux effets de peur liés à la mort ou à la fin de vie.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#4A4A4A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Fin",
+              "Acceptation",
+              "Mort",
+              "Décadence"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Se recueillir sur une tombe"
+          },
+          {
+            "title": "Rituel",
+            "text": "Enterrer un cadavre, puis se recueillir sur sa tombe fraîche ou écrire une épitaphe sur une tombe."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Chaque fin de saison ou lors de la vue d’un décès"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "season_end_or_death"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Acceptation de la Fin (commune, passif)",
+              "Effet court : Immunité à la peur de la mort",
+              "Description : Rend immunisé aux effets de peur liés à la mort ou à la fin de vie.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’acceptation de la fin est plus sereine.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "epimor"
+  }
+}

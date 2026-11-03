@@ -494,5 +494,133 @@
   {
     "path": "data/wiki/materiaux/materials.sylthe.json",
     "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-repair.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-place.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-arm.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-trigger.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-disarm.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-disable.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-sabotage.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-add-sabotage.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-remove-sabotage.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-destroy.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-recover.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-transfer.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.trap-builder-guide.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.potion-builder-guide.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.poison-builder-guide.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.sort-builder-guide.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.mali.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.vinli.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.selia.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.darian.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.junli.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.telor.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.uldali.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.eolyn.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.umbrafil.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.archel.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.konir.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.tar.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.tanji.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.laniam.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.dalior.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.karlon.json",
+    "section": "materiaux"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "id": "arwopa",
+  "type": "creature-public",
+  "identity": {
+    "name": "Arwopa",
+    "subtitle": "Le Fouisseur Épineux",
+    "tags": [
+      "sauvage",
+      "proie",
+      "souterrain",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Arwopa vit principalement dans les sous-bois forestiers humides, les sols meubles, les zones couvertes de mousse et les réseaux de racines. Omnivore à dominante insectivore, il fouille la terre et la litière forestière à la recherche d’insectes, de larves, de racines et de petits fruits tombés au sol. Discret et prudent, il reste souvent proche d’un terrier ou d’une zone facile à creuser."
+          },
+          {
+            "text": "L’Arwopa est une petite créature trapue vivant au sol dans les sous-bois humides. Son dos est protégé par une carapace bombée composée de plaques épaisses imbriquées, donnant à l’ensemble une apparence cuirassée. Autour de sa tête se dresse une couronne de pointes triangulaires formant une crinière hérissée. Son museau allongé et légèrement relevé lui permet de détecter facilement les odeurs du sol, tandis que ses petits yeux noirs servent surtout à capter la lumière. Ses pattes courtes et puissantes sont équipées de griffes épaisses qui lui permettent de creuser rapidement des terriers dans la terre meuble."
+          },
+          {
+            "text": "L’Arwopa vit seul ou en petits groupes familiaux. Les abris et zones de reproduction sont creusés dans la terre meuble, souvent entre les racines ou sous une couche de mousse protectrice."
+          }
+        ]
+      }
+    ]
+  }
+}

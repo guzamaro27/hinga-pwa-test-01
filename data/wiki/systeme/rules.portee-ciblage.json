@@ -1,0 +1,88 @@
+{
+  "id": "rules.portee-ciblage",
+  "type": "codex",
+  "identity": {
+    "name": "Portée, cibles et distance",
+    "subtitle": "Vérifier qui peut être atteint",
+    "icon": "◎",
+    "tags": [
+      "Portée, cibles et distance",
+      "portée",
+      "cible",
+      "distance"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/portee.js",
+    "module/helpers/combat-flow.mjs",
+    "module/engine/context-builder.mjs",
+    "module/engine/attack-profile.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Portées",
+        "value": "Soi, contact, mètres, voix, vue ou portée d’attaque"
+      },
+      {
+        "label": "Validation",
+        "value": "La cible doit respecter le profil"
+      },
+      {
+        "label": "Multiples",
+        "value": "Uniquement si l’action le prévoit"
+      }
+    ],
+    "links": [
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Zones",
+        "sectionId": "systeme",
+        "entryId": "rules.attaques-zone"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Conventions",
+        "blocks": [
+          {
+            "text": "Une portée peut viser soi-même, le contact, une distance en mètres, l’écoute, le tir, la voix, la vue ou un rayon autour du lanceur. Les formules fondées sur PERC ou ARC sont évaluées quand l’action les emploie."
+          }
+        ]
+      },
+      {
+        "label": "Mêlée et armes",
+        "blocks": [
+          {
+            "text": "La portée de mêlée dépend du profil de l’arme. Lance et fouet peuvent porter plus loin lorsque leur définition le prévoit."
+          }
+        ]
+      },
+      {
+        "label": "Cibles",
+        "blocks": [
+          {
+            "text": "Une action précise si elle vise une cible unique, plusieurs cibles ou une zone. Chaque cible doit rester légale au moment de la résolution."
+          }
+        ]
+      }
+    ]
+  }
+}

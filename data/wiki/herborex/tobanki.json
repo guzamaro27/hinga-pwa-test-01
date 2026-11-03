@@ -1,0 +1,94 @@
+{
+  "id": "tobanki",
+  "type": "plant",
+  "identity": {
+    "name": "Tobanki",
+    "subtitle": "Grand tronc des forets chaudes",
+    "unknownName": "Arbre massif a feuillage tombant",
+    "slug": "tobanki",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tobanki.png",
+    "visualNote": "Tres grand arbre tropical au tronc massif beige-brun, veine de violet, portant une large couronne retombante jaune-vert.",
+    "tags": [
+      "arbre",
+      "tropical",
+      "tronc-massif",
+      "feuillage-retombant"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble",
+      "boue"
+    ],
+    "season": [
+      "fortes pluies",
+      "pic de chaleur",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "massive",
+    "height": "12 a 32 m",
+    "width": "8 a 20 m",
+    "colorMain": "beige brun",
+    "colorSecondary": "jaune vert, violet pale, brun chaud",
+    "distinctiveSigns": [
+      "tronc extremement massif et ventru",
+      "ecorce beige a brun clair veinee de violet",
+      "base large avec racines en contreforts courts",
+      "branches hautes epaisses et noueuses",
+      "couronne lourde jaune-vert retombante",
+      "feuilles larges decoupees",
+      "fruits ovoïdes clairs veines de violet",
+      "graines rondes jaune-brun"
+    ],
+    "descriptionShort": "Le Tobanki est un arbre tropical massif, a tronc ventru et feuillage jaune-vert retombant.",
+    "descriptionFull": "Le Tobanki pousse dans les forets chaudes ou le sol reste profond et humide. Son tronc large forme un pilier vivant, soutenu par des racines epaisses qui stabilisent les vallons et les pentes molles. Sa couronne retombe en masses jaune-vert, et ses fruits veines se forment dans les periodes de chaleur humide."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Tobanki donne un bois lourd et irregulier, utile aux grosses pieces rustiques, aux cales, aux bases massives et aux objets simples."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

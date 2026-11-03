@@ -1,0 +1,186 @@
+{
+  "id": "stat-chercher-pieges",
+  "type": "codex",
+  "identity": {
+    "name": "Chercher des pièges",
+    "subtitle": "Action spéciale de PERC",
+    "icon": "?"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "exploration",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Principe",
+        "blocks": [
+          {
+            "title": "Chercher des pièges",
+            "text": "Une action de perception permettant de repérer les pièges proches avant qu’ils ne se déclenchent."
+          },
+          {
+            "title": "Dangers",
+            "items": [
+              "Les pièges font partie des dangers les plus anciens rencontrés par les aventuriers.",
+              "On les trouve dans les ruines, les donjons, les tombeaux, les camps fortifiés, les repaires de bandits, les sanctuaires oubliés ou les laboratoires abandonnés.",
+              "Un piège n’est pas toujours fatal, mais il peut suffire à renverser une situation : ralentir un groupe, blesser un éclaireur, séparer des alliés, révéler une position ou déclencher un combat dans de mauvaises conditions."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Recherche sans compétence",
+        "blocks": [
+          {
+            "title": "Base",
+            "items": [
+              "Tout personnage peut chercher des pièges, même sans compétence spécialisée.",
+              "Un personnage non formé ne sait pas exactement quoi observer : il inspecte les lieux avec prudence, mais sans méthode précise.",
+              "Par défaut, chercher des pièges sans compétence se fait avec un jet de Perception en demi-stat : PERC / 2."
+            ]
+          },
+          {
+            "title": "Modes sensoriels",
+            "items": [
+              "VIS — vue.",
+              "AUD — ouïe.",
+              "OLF — odorat.",
+              "TAC — toucher / vibration.",
+              "ESO — perception ésotérique.",
+              "Une recherche générale représente une inspection globale des environs.",
+              "Une recherche par sens représente une approche plus ciblée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niveaux de détection",
+        "blocks": [
+          {
+            "title": "Visible",
+            "items": [
+              "Un piège visible n’est pas réellement caché. Il peut être dangereux, mais son existence est évidente pour quelqu’un qui prend le temps de regarder.",
+              "Exemples : une fosse ouverte, une hache suspendue, une rune lumineuse, une barrière de ronces, un gouffre visible.",
+              "Sans compétence, si le personnage cherche des pièges et que son résultat aurait été une réussite sur un jet normal, le piège visible est repéré.",
+              "Résultat : Knowledge 1 — Repéré."
+            ]
+          },
+          {
+            "title": "Discret",
+            "items": [
+              "Un piège discret est légèrement dissimulé. Il n’est pas parfaitement caché, mais il se fond dans le décor ou demande une observation attentive.",
+              "Exemples : un câble tendu dans l’ombre, une dalle légèrement différente, une rune peu visible, une odeur étrange de poudre, une trace de mécanisme.",
+              "Sans compétence, il faut réussir le jet de recherche en demi-stat pour le repérer.",
+              "Résultat : Knowledge 1 — Repéré. Sur critique : Knowledge 2 — Identifié."
+            ]
+          },
+          {
+            "title": "Caché",
+            "items": [
+              "Un piège caché est conçu pour être difficile à trouver. Il est camouflé, intégré au décor, couvert, dissimulé ou préparé avec soin.",
+              "Exemples : une fosse recouverte, un piège à ours sous des feuilles, une aiguille dissimulée, une rune masquée, un fil presque invisible.",
+              "Sans compétence, un piège caché peut être trouvé uniquement avec une réussite du jet de recherche en demi-stat.",
+              "Résultat : Knowledge 1 — Repéré. Sur critique : Knowledge 2 — Identifié."
+            ]
+          },
+          {
+            "title": "Invisible",
+            "items": [
+              "Un piège invisible ne peut pas être découvert par une recherche ordinaire.",
+              "Même un excellent jet ne suffit pas si le personnage ne possède pas la méthode ou la compétence adaptée.",
+              "Exemples : une rune invisible, un sceau ésotérique dissimulé, un piège magique sans trace matérielle, un mécanisme totalement intégré, un danger imperceptible sans expertise.",
+              "Sans compétence : impossible à détecter. Même un critique ne suffit pas."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niveaux de connaissance",
+        "blocks": [
+          {
+            "title": "Knowledge 0 — Soupçonné",
+            "items": [
+              "Le personnage remarque une anomalie, mais ne sait pas exactement ce que c’est.",
+              "Informations : nom inconnu uniquement, position approximative, ping temporaire.",
+              "Exemples : mécanisme suspect, sol anormal, trace étrange, rune indistincte, danger possible.",
+              "À ce niveau, aucun détail mécanique n’est révélé."
+            ]
+          },
+          {
+            "title": "Knowledge 1 — Repéré",
+            "items": [
+              "Le personnage sait qu’il y a un piège ou un danger, et comprend son type général.",
+              "Informations : type général, famille naturel / mécanique / magique, nature physique / magique / runique si applicable, taille physique approximative, dégâts oui/non, emplacement exact.",
+              "Visuel : Tile correcte."
+            ]
+          },
+          {
+            "title": "Knowledge 2 — Identifié",
+            "items": [
+              "Le personnage comprend le fonctionnement général du piège.",
+              "Informations : mode de déclenchement, zone de déclenchement, zone d’action, states oui/non, résistance oui/non, persistance oui/non, difficulté générale de désarmement / désactivation, récupérable oui/non.",
+              "Visuel : Drawing de zone."
+            ]
+          },
+          {
+            "title": "Knowledge 3 — Maîtrisé",
+            "items": [
+              "Le personnage connaît les détails précis du piège.",
+              "Informations : dégâts exacts, états exacts, tiers exacts, durées exactes, résistances exactes, règles de persistance, PV par tour, chances de déclenchement accidentel, destruction exacte, après usage exact.",
+              "Ce niveau est automatique pour le propriétaire du piège, le MJ, ou obtenu par analyse critique / compétence experte.",
+              "Les notes MJ ne sont jamais révélées aux joueurs."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Actions possibles",
+        "blocks": [
+          {
+            "title": "Révéler",
+            "items": [
+              "Rend le piège visible selon son niveau de connaissance.",
+              "Knowledge 0 : ping temporaire.",
+              "Knowledge 1 : Tile correcte.",
+              "Knowledge 2+ : Tile + zone d’effet."
+            ]
+          },
+          {
+            "title": "Analyser",
+            "items": [
+              "Permet de mieux comprendre un piège déjà repéré.",
+              "Réussite : augmente le knowledge d’un niveau, jusqu’à 2.",
+              "Critique : passe à Knowledge 3.",
+              "Échec : aucun progrès.",
+              "Stats recommandées : piège naturel PERC ou INT ; piège mécanique INT ; piège magique / runique ARC."
+            ]
+          },
+          {
+            "title": "Désarmer / Désactiver",
+            "items": [
+              "Désarmer concerne les pièges mécaniques.",
+              "Désactiver concerne les pièges magiques.",
+              "Les pièges naturels ne se désarment pas."
+            ]
+          },
+          {
+            "title": "Ranger",
+            "items": [
+              "Possible seulement si le piège est mécanique, récupérable, désarmé, proche, et si le personnage est propriétaire ou autorisé."
+            ]
+          },
+          {
+            "title": "Détruire",
+            "items": [
+              "Solution brutale ou prudente.",
+              "FOR : destruction brute, jet normal, mais risque d’activation.",
+              "DEX : démontage prudent, jet en demi-stat, mais pas de déclenchement en cas d’échec."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

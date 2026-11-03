@@ -1,0 +1,31 @@
+{
+  "id": "mephir",
+  "type": "creature-public",
+  "identity": {
+    "name": "Méphir",
+    "subtitle": "Le veilleur des rivières",
+    "tags": [
+      "sauvage",
+      "protege",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Méphir vit principalement en forêt, près des lisières humides, des rivières, des lacs et des points d’eau potable. Il reste lié aux milieux hydriques, car il nécessite un apport en eau important. Croiser un Méphir en forêt indique souvent qu’une source sûre se trouve à proximité."
+          },
+          {
+            "text": "Le Méphir est un petit mammifère forestier au pelage brun clair. Sa peau, légèrement rosée, apparaît au niveau de la trompe et de certaines zones plus fines. Sa longue trompe souple, fine et mobile, constitue son organe le plus distinctif. Ses bras longs et fins contrastent avec ses jambes plus courtes et larges, adaptées à l’agrippement. Ses yeux d’un bleu clair rappellent l’eau des rivières qu’il fréquente. Ses oreilles, généralement plaquées en arrière, se redressent au moindre bruit suspect. Sa queue courte s’agite presque en permanence."
+          },
+          {
+            "text": "Le Méphir vit en groupe familial restreint. Les membres d’une même famille communiquent par de faibles ondes inaudibles pour l’oreille humaine, perçues grâce à leurs oreilles sensibles."
+          }
+        ]
+      }
+    ]
+  }
+}

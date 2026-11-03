@@ -1,0 +1,92 @@
+{
+  "id": "savori",
+  "type": "plant",
+  "identity": {
+    "name": "Savori",
+    "subtitle": "Arbre-parasol des savanes sèches",
+    "unknownName": "Arbre plat de savane",
+    "slug": "savori",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Savori.png",
+    "visualNote": "Arbre de savane au tronc haut et torsadé, portant une large couronne horizontale en forme de parasol.",
+    "tags": [
+      "savane",
+      "parasol",
+      "ombre"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 à 12 m",
+    "width": "8 à 18 m",
+    "colorMain": "vert jaune",
+    "colorSecondary": "brun, vert pâle, jaune sec",
+    "distinctiveSigns": [
+      "tronc haut, fin et légèrement torsadé",
+      "couronne très large presque horizontale",
+      "branches fines montant puis s'étalant sous la cime",
+      "feuillage dense en plaques arrondies",
+      "feuilles ovales simples et légèrement épaisses",
+      "racines longues très étalées",
+      "petits fruits clairs sur rameaux secs"
+    ],
+    "descriptionShort": "Le Savori est un arbre de savane à couronne plate en parasol.",
+    "descriptionFull": "Le Savori pousse dans les plaines sèches et chaudes où l'ombre est rare. Son tronc s'élève avant de soutenir une couronne large et aplatie, visible de loin. Ses racines s'étendent profondément et latéralement, ce qui lui permet de stabiliser les sols des pistes et de survivre aux longues saisons sèches."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Savori sert surtout d'arbre d'ombre et de repère; son bois léger et ses fruits secs restent des ressources modestes de campement."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

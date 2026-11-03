@@ -1,0 +1,168 @@
+{
+  "id": "vipros",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Vipros",
+    "subtitle": "Le Donateur de Vie",
+    "tags": [
+      "Vipros",
+      "Le Donateur de Vie",
+      "esprit majeur",
+      "Création",
+      "Fécondité",
+      "Renaissance",
+      "Vie",
+      "Fontaine de Jouvence",
+      "+5 PV max"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#3F6A3F",
+    "visualNote": "Création • Fécondité • Renaissance • Vie"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "vipros",
+    "name": "Vipros",
+    "title": "Le Donateur de Vie",
+    "type": "esprit_majeur",
+    "domains": [
+      "Création",
+      "Fécondité",
+      "Renaissance",
+      "Vie"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "month_start_or_birth",
+      "label": "Au début du mois ou après chaque naissance observée"
+    },
+    "cult": {
+      "short": "Planter une graine en remerciement",
+      "ritual": "Planter une graine dans la terre en remerciant l’Esprit pour la vie."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La vitalité offerte par Vipros est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "fontaine_de_jouvence": {
+        "key": "fontaine_de_jouvence",
+        "name": "Fontaine de Jouvence",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "+5 PV max",
+        "fullDescription": "Augmente les points de vie maximum de +5 tant que la bénédiction est active.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#3F6A3F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Création",
+              "Fécondité",
+              "Renaissance",
+              "Vie"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Planter une graine en remerciement"
+          },
+          {
+            "title": "Rituel",
+            "text": "Planter une graine dans la terre en remerciant l’Esprit pour la vie."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Au début du mois ou après chaque naissance observée"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "month_start_or_birth"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Fontaine de Jouvence (améliorée, passif)",
+              "Effet court : +5 PV max",
+              "Description : Augmente les points de vie maximum de +5 tant que la bénédiction est active.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La vitalité offerte par Vipros est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "vipros"
+  }
+}

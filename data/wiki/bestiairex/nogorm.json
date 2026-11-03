@@ -1,0 +1,33 @@
+{
+  "id": "nogorm",
+  "type": "creature-public",
+  "identity": {
+    "name": "Nogorm",
+    "subtitle": "L'Accapareur des Ténèbres",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "souterrain",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Nogorm vit dans les donjons, les cavernes riches en minerais, les galeries métalliques et les salles où s’accumulent pièces, lingots et fragments de métal. Métallivore, il recherche activement les reliques et les métaux, en particulier les plus précieux, qu’il rassemble en tas au cœur de son territoire. Il est souvent découvert dissimulé dans une accumulation de pièces ou de débris métalliques."
+          },
+          {
+            "text": "Le Nogorm est une petite créature ne dépassant que rarement vingt centimètres de haut. Son corps est composé de deux parties distinctes : un abdomen large et aplati servant de base à seize pattes courbes, et une partie supérieure formant la tête. Ses pattes fines lui permettent des déplacements rapides et imprévisibles. Deux yeux noirs sans pupilles lui offrent une vision adaptée à l’obscurité, mais le rendent très sensible à la lumière vive. Sa large bouche aux dents ciselées reste constamment ouverte, prête à broyer tout métal à portée. Son corps verdâtre, mou et dépourvu d’ossature, reflète faiblement la lumière environnante."
+          },
+          {
+            "text": "Le Nogorm vit seul autour d’un territoire strictement défini par son tas de métaux. Sa reproduction reste inconnue, mais les individus observés semblent défendre leur accumulation avec une possessivité constante."
+          }
+        ]
+      }
+    ]
+  }
+}

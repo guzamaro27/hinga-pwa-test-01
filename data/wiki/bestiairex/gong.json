@@ -1,0 +1,31 @@
+{
+  "id": "gong",
+  "type": "creature-public",
+  "identity": {
+    "name": "Gong",
+    "subtitle": "Le cœur des montagnes",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Gong vit principalement dans les régions montagneuses, sur les falaises, les plateaux rocheux et les crêtes exposées. Solitaire et territorial, il occupe de vastes zones où sa présence sonore se remarque souvent avant sa silhouette. Son régime est omnivore : il consomme de la végétation montagnarde, de petits animaux et parfois des charognes."
+          },
+          {
+            "text": "Le Gong est une créature massive au torse démesurément développé, dont la surface présente une teinte dorée presque métallique. Le reste du corps est couvert d’un poil noir ou brun sombre. Ses jambes sont relativement courtes au regard de la puissance de son buste. Ses bras, dotés de deux articulations distinctes, sont d’une musculature exceptionnelle. Chaque membre antérieur est si dense qu’il peut représenter une part considérable de sa masse totale. Ses mains larges, à quatre doigts épais, se terminent par des griffes solides. L’ensemble lui donne une silhouette lourde mais stable, parfaitement adaptée au relief rocheux."
+          },
+          {
+            "text": "Le Gong vit seul sur son territoire. Sa longévité exceptionnelle et son comportement territorial en font une présence durable et redoutée dans les zones montagneuses qu’il occupe."
+          }
+        ]
+      }
+    ]
+  }
+}

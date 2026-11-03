@@ -1,0 +1,88 @@
+{
+  "id": "rules.munitions",
+  "type": "codex",
+  "identity": {
+    "name": "Munitions",
+    "subtitle": "Sélection, consommation et projectiles spéciaux",
+    "icon": "➶",
+    "tags": [
+      "Munitions",
+      "munition",
+      "flèche",
+      "carreau"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/ammunition/ammunition-service.mjs",
+    "module/engine/ammunition/ammunition-material-profiles.mjs",
+    "module/engine/ammunition/ammunition-hit-effects.mjs",
+    "module/engine/ammunition/ammunition-presets.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Armes",
+        "value": "Arc, arbalète et profils qui exigent une munition"
+      },
+      {
+        "label": "Consommation",
+        "value": "Une munition par tir résolu"
+      },
+      {
+        "label": "Stock vide",
+        "value": "Le tir exigeant ce stock est indisponible"
+      }
+    ],
+    "links": [
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      },
+      {
+        "label": "Revêtements",
+        "sectionId": "systeme",
+        "entryId": "rules.revetements-elementaires"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Sélection",
+        "blocks": [
+          {
+            "text": "Avant le tir, choisissez un stock compatible. La quantité est contrôlée puis la munition consommée lors de la résolution autorisée."
+          }
+        ]
+      },
+      {
+        "label": "Projectile",
+        "blocks": [
+          {
+            "text": "Le projectile peut être physique ou généré. Matériau, bonus de dégâts, pénétration d’armure ou de résistance et ajustement d’état viennent du profil de la munition."
+          }
+        ]
+      },
+      {
+        "label": "Cas spéciaux",
+        "blocks": [
+          {
+            "text": "Les munitions élémentaires ou invoquées n’ajoutent que les effets déclarés par leur profil. Un stock épuisé ne peut plus alimenter l’arme."
+          }
+        ]
+      }
+    ]
+  }
+}

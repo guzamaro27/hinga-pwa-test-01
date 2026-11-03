@@ -1,0 +1,238 @@
+{
+  "id": "materials.vornite",
+  "type": "material",
+  "identity": {
+    "name": "Vornite",
+    "subtitle": "Métaux · Spécial",
+    "icon": "◆",
+    "tags": [
+      "vornite",
+      "Vornite",
+      "metal",
+      "Métaux",
+      "special",
+      "Spécial",
+      "Métal natif ou origine à préciser",
+      "Gris sombre granuleux",
+      "Métal lourd, extrêmement dur et peu malléable.",
+      "Métal/Terre",
+      "physical",
+      "Physique",
+      "Normal",
+      "Boucliers",
+      "portes",
+      "fortifications",
+      "mineur",
+      "fortification",
+      "maître forgeron",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 8
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "vornite",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Spécial"
+      },
+      {
+        "label": "Rareté",
+        "value": 8
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif ou origine à préciser"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris sombre granuleux"
+          },
+          {
+            "title": "Description",
+            "text": "Métal lourd, extrêmement dur et peu malléable."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "10"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Très élevé (4)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "4"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Terre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Résistance maximale pour les structures statiques."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Très difficile à façonner",
+              "mobilité réduite si mal employé."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Boucliers",
+              "portes",
+              "fortifications"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "fortification",
+              "maître forgeron",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "1000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "7"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "entrave/terre"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_terre_alourdi_t1",
+              "etat_terre_alourdi"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

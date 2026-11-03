@@ -1,0 +1,1236 @@
+{
+  "source": "module/data/peuple-canon-v2.mjs",
+  "schemaVersion": 1,
+  "peoples": [
+    {
+      "id": "amdalar",
+      "label": "Amdalar",
+      "stats": {
+        "primary": {
+          "id": "demag",
+          "value": 10
+        },
+        "secondary": {
+          "id": "discr",
+          "value": 5
+        },
+        "penalty": {
+          "id": "charisme",
+          "value": -5
+        }
+      },
+      "affinity": "FEU",
+      "competenceIds": [
+        "rempart-de-flux",
+        "furtivite-urbaine"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "FEU"
+        },
+        {
+          "id": "chance-accrue",
+          "detail": null
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "anioma",
+      "label": "Anioma",
+      "stats": {
+        "primary": {
+          "id": "sm",
+          "value": 10
+        },
+        "secondary": {
+          "id": "vita",
+          "value": 5
+        },
+        "penalty": {
+          "id": "demag",
+          "value": -5
+        }
+      },
+      "affinity": "TERRE",
+      "competenceIds": [
+        "soin-mental",
+        "resilience-antitoxine"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "mentalite",
+          "detail": "folie"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "sm"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "arionar",
+      "label": "Arioñar",
+      "stats": {
+        "primary": {
+          "id": "dex",
+          "value": 10
+        },
+        "secondary": {
+          "id": "intell",
+          "value": 5
+        },
+        "penalty": {
+          "id": "perc",
+          "value": -5
+        }
+      },
+      "affinity": "METAL",
+      "competenceIds": [
+        "ingenierie-appliquee",
+        "antidote-basique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "sm"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "befoni",
+      "label": "Béfoni",
+      "stats": {
+        "primary": {
+          "id": "demag",
+          "value": 10
+        },
+        "secondary": {
+          "id": "constit",
+          "value": 5
+        },
+        "penalty": {
+          "id": "discr",
+          "value": -5
+        }
+      },
+      "affinity": "CORPS",
+      "competenceIds": [
+        "armure-magique",
+        "bouclier-solidaire"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "Befoni"
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "CORPS"
+        },
+        {
+          "id": "mentalite",
+          "detail": "serimoth"
+        }
+      ]
+    },
+    {
+      "id": "borors",
+      "label": "Borors",
+      "stats": {
+        "primary": {
+          "id": "vita",
+          "value": 10
+        },
+        "secondary": {
+          "id": "react",
+          "value": 5
+        },
+        "penalty": {
+          "id": "perc",
+          "value": -5
+        }
+      },
+      "affinity": "METAL",
+      "competenceIds": [
+        "metabolisme-tenace",
+        "riposte-tactique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pv"
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "METAL"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "epektrior",
+      "label": "Epektrior",
+      "stats": {
+        "primary": {
+          "id": "constit",
+          "value": 10
+        },
+        "secondary": {
+          "id": "react",
+          "value": 5
+        },
+        "penalty": {
+          "id": "arcane",
+          "value": -5
+        }
+      },
+      "affinity": "ELECTRICITE",
+      "competenceIds": [
+        "maitrise-du-bouclier",
+        "main-forte"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "ELECTRICITE"
+        },
+        {
+          "id": "mentalite",
+          "detail": "peur"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "erounmer",
+      "label": "Érounmer",
+      "stats": {
+        "primary": {
+          "id": "intell",
+          "value": 10
+        },
+        "secondary": {
+          "id": "arcane",
+          "value": 5
+        },
+        "penalty": {
+          "id": "force",
+          "value": -5
+        }
+      },
+      "affinity": "PLANTE",
+      "competenceIds": [
+        "infusion-alchimique",
+        "piegeage-arcanique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "forets-denses"
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "esia",
+      "label": "Ésia",
+      "stats": {
+        "primary": {
+          "id": "react",
+          "value": 10
+        },
+        "secondary": {
+          "id": "arcane",
+          "value": 5
+        },
+        "penalty": {
+          "id": "pv",
+          "value": -5
+        }
+      },
+      "affinity": "AIR",
+      "competenceIds": [
+        "anticipation-parfaite",
+        "rempart-de-la-foi"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "altitude"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pf"
+        },
+        {
+          "id": "chance-accrue",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "fahoma",
+      "label": "Fahoma",
+      "stats": {
+        "primary": {
+          "id": "charisme",
+          "value": 10
+        },
+        "secondary": {
+          "id": "perc",
+          "value": 5
+        },
+        "penalty": {
+          "id": "constit",
+          "value": -5
+        }
+      },
+      "affinity": "AIR",
+      "competenceIds": [
+        "eloquence-sacree",
+        "faille-decisive"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "mentalite",
+          "detail": "desespoir"
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "terrains-hostiles"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "farlin",
+      "label": "Farlin",
+      "stats": {
+        "primary": {
+          "id": "react",
+          "value": 10
+        },
+        "secondary": {
+          "id": "force",
+          "value": 5
+        },
+        "penalty": {
+          "id": "intell",
+          "value": -5
+        }
+      },
+      "affinity": "LUMIERE",
+      "competenceIds": [
+        "main-forte",
+        "coup-dopportunite"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "forets-denses"
+        },
+        {
+          "id": "chance-accrue",
+          "detail": null
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "filiaen",
+      "label": "Filiaen",
+      "stats": {
+        "primary": {
+          "id": "discr",
+          "value": 10
+        },
+        "secondary": {
+          "id": "psych",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vita",
+          "value": -5
+        }
+      },
+      "affinity": "PLANTE",
+      "competenceIds": [
+        "jugement-arme",
+        "soin-mental"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "forets-denses"
+        },
+        {
+          "id": "mentalite",
+          "detail": "panique"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "fona",
+      "label": "Foña",
+      "stats": {
+        "primary": {
+          "id": "vita",
+          "value": 10
+        },
+        "secondary": {
+          "id": "charisme",
+          "value": 5
+        },
+        "penalty": {
+          "id": "react",
+          "value": -5
+        }
+      },
+      "affinity": "SON",
+      "competenceIds": [
+        "endurance-guerriere",
+        "coordination-tactique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "mentalite",
+          "detail": "influence"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pv"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "houlvar",
+      "label": "Houlvar",
+      "stats": {
+        "primary": {
+          "id": "perc",
+          "value": 10
+        },
+        "secondary": {
+          "id": "dex",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vita",
+          "value": -5
+        }
+      },
+      "affinity": "SON",
+      "competenceIds": [
+        "pisteur-attentif",
+        "piegeur-ingenieux"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "mentalite",
+          "detail": "brouillage_sensoriel"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "iegoma",
+      "label": "Iégoma",
+      "stats": {
+        "primary": {
+          "id": "react",
+          "value": 10
+        },
+        "secondary": {
+          "id": "intell",
+          "value": 5
+        },
+        "penalty": {
+          "id": "force",
+          "value": -5
+        }
+      },
+      "affinity": "ELECTRICITE",
+      "competenceIds": [
+        "desarmement-strategique",
+        "acrobaties-urbaines"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "chance-accrue",
+          "detail": null
+        },
+        {
+          "id": "mentalite",
+          "detail": "confusion"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "jounaril",
+      "label": "Jounaril",
+      "stats": {
+        "primary": {
+          "id": "arcane",
+          "value": 10
+        },
+        "secondary": {
+          "id": "sm",
+          "value": 5
+        },
+        "penalty": {
+          "id": "dex",
+          "value": -5
+        }
+      },
+      "affinity": "TENEBRES",
+      "competenceIds": [
+        "horizon-expanse",
+        "toucher-purificateur"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "TENEBRES"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "sm"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "kai",
+      "label": "Kai",
+      "stats": {
+        "primary": {
+          "id": "psych",
+          "value": 10
+        },
+        "secondary": {
+          "id": "dex",
+          "value": 5
+        },
+        "penalty": {
+          "id": "demag",
+          "value": -5
+        }
+      },
+      "affinity": "EAU",
+      "competenceIds": [
+        "influence-psychique",
+        "ancrage-mental"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "aquatique"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "sm"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "kalmani",
+      "label": "Kal'mani",
+      "stats": {
+        "primary": {
+          "id": "perc",
+          "value": 10
+        },
+        "secondary": {
+          "id": "vita",
+          "value": 5
+        },
+        "penalty": {
+          "id": "intell",
+          "value": -5
+        }
+      },
+      "affinity": "TERRE",
+      "competenceIds": [
+        "perception-superieure",
+        "resistance-acharnee"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pf"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "Theriantropie"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "karzak",
+      "label": "Karzak",
+      "stats": {
+        "primary": {
+          "id": "force",
+          "value": 10
+        },
+        "secondary": {
+          "id": "constit",
+          "value": 5
+        },
+        "penalty": {
+          "id": "psych",
+          "value": -5
+        }
+      },
+      "affinity": "CORPS",
+      "competenceIds": [
+        "melee-implacable",
+        "barriere-intimidante"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pf"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "kifirt",
+      "label": "Kifirt",
+      "stats": {
+        "primary": {
+          "id": "force",
+          "value": 10
+        },
+        "secondary": {
+          "id": "charisme",
+          "value": 5
+        },
+        "penalty": {
+          "id": "discr",
+          "value": -5
+        }
+      },
+      "affinity": "AIR",
+      "competenceIds": [
+        "rage-de-la-nature",
+        "attirance-bestiale"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pv"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pf"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "demon/autre"
+        }
+      ]
+    },
+    {
+      "id": "kreun",
+      "label": "Kreun",
+      "stats": {
+        "primary": {
+          "id": "pv",
+          "value": 10
+        },
+        "secondary": {
+          "id": "constit",
+          "value": 5
+        },
+        "penalty": {
+          "id": "react",
+          "value": -5
+        }
+      },
+      "affinity": "LUMIERE",
+      "competenceIds": [
+        "recuperation-passive",
+        "bouclier-solidaire"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pv"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "Falstanie"
+        }
+      ]
+    },
+    {
+      "id": "latchari",
+      "label": "Latchari",
+      "stats": {
+        "primary": {
+          "id": "charisme",
+          "value": 10
+        },
+        "secondary": {
+          "id": "demag",
+          "value": 5
+        },
+        "penalty": {
+          "id": "dex",
+          "value": -5
+        }
+      },
+      "affinity": "METAL",
+      "competenceIds": [
+        "aura-dinspiration",
+        "aura-protectrice-couverture"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "METAL"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "sm"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "loenmer",
+      "label": "Loenmer",
+      "stats": {
+        "primary": {
+          "id": "discr",
+          "value": 10
+        },
+        "secondary": {
+          "id": "dex",
+          "value": 5
+        },
+        "penalty": {
+          "id": "charisme",
+          "value": -5
+        }
+      },
+      "affinity": "EAU",
+      "competenceIds": [
+        "main-de-l-ombre",
+        "tir-suppressif"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "chance-accrue",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "magoma",
+      "label": "Magoma",
+      "stats": {
+        "primary": {
+          "id": "intell",
+          "value": 10
+        },
+        "secondary": {
+          "id": "force",
+          "value": 5
+        },
+        "penalty": {
+          "id": "discr",
+          "value": -5
+        }
+      },
+      "affinity": "TERRE",
+      "competenceIds": [
+        "soin-naturel",
+        "portee-extravagante"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "zones-urbanisees"
+        },
+        {
+          "id": "mentalite",
+          "detail": "influence"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "marnasa",
+      "label": "Marnasa",
+      "stats": {
+        "primary": {
+          "id": "psych",
+          "value": 10
+        },
+        "secondary": {
+          "id": "discr",
+          "value": 5
+        },
+        "penalty": {
+          "id": "force",
+          "value": -5
+        }
+      },
+      "affinity": "LUMIERE",
+      "competenceIds": [
+        "semeur-d-esprits",
+        "furtivite-urbaine"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "sm"
+        },
+        {
+          "id": "mentalite",
+          "detail": "folie"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "nanjao",
+      "label": "Ñanjao",
+      "stats": {
+        "primary": {
+          "id": "dex",
+          "value": 10
+        },
+        "secondary": {
+          "id": "demag",
+          "value": 5
+        },
+        "penalty": {
+          "id": "charisme",
+          "value": -5
+        }
+      },
+      "affinity": "TENEBRES",
+      "competenceIds": [
+        "acrobaties-urbaines",
+        "desarmement-strategique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "TENEBRES"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pf"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "vampire"
+        }
+      ]
+    },
+    {
+      "id": "oni",
+      "label": "Oni",
+      "stats": {
+        "primary": {
+          "id": "arcane",
+          "value": 10
+        },
+        "secondary": {
+          "id": "demag",
+          "value": 5
+        },
+        "penalty": {
+          "id": "sm",
+          "value": -5
+        }
+      },
+      "affinity": "FEU",
+      "competenceIds": [
+        "confluence-arcanique",
+        "rempart-de-flux"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "FEU"
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pf"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "pashran",
+      "label": "Pashran",
+      "stats": {
+        "primary": {
+          "id": "arcane",
+          "value": 10
+        },
+        "secondary": {
+          "id": "psych",
+          "value": 5
+        },
+        "penalty": {
+          "id": "constit",
+          "value": -5
+        }
+      },
+      "affinity": "FEU",
+      "competenceIds": [
+        "ancrage-mental",
+        "influence-psychique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-elementaire",
+          "detail": "FEU"
+        },
+        {
+          "id": "mentalite",
+          "detail": "peur"
+        },
+        {
+          "id": "transformation-condition",
+          "detail": "demon"
+        }
+      ]
+    },
+    {
+      "id": "rogmandar",
+      "label": "Rogmandar",
+      "stats": {
+        "primary": {
+          "id": "constit",
+          "value": 10
+        },
+        "secondary": {
+          "id": "pv",
+          "value": 5
+        },
+        "penalty": {
+          "id": "arcane",
+          "value": -5
+        }
+      },
+      "affinity": "CORPS",
+      "competenceIds": [
+        "peau-impenetrable",
+        "renforcement-rythmique"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "resistance-poisons",
+          "detail": "poison_phy|poison_mag"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pv"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "satranvor",
+      "label": "Satranvor",
+      "stats": {
+        "primary": {
+          "id": "vita",
+          "value": 10
+        },
+        "secondary": {
+          "id": "perc",
+          "value": 5
+        },
+        "penalty": {
+          "id": "psych",
+          "value": -5
+        }
+      },
+      "affinity": "EAU",
+      "competenceIds": [
+        "mutation-elementaire",
+        "faille-decisive"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "reserve-naturelle",
+          "detail": "pv"
+        },
+        {
+          "id": "recuperation-amelioree",
+          "detail": "pf"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    },
+    {
+      "id": "wijilia",
+      "label": "Wijilia",
+      "stats": {
+        "primary": {
+          "id": "intell",
+          "value": 10
+        },
+        "secondary": {
+          "id": "psych",
+          "value": 5
+        },
+        "penalty": {
+          "id": "perc",
+          "value": -5
+        }
+      },
+      "affinity": "SON",
+      "competenceIds": [
+        "ingenierie-appliquee",
+        "telepathie-generale"
+      ],
+      "bonuses": [
+        {
+          "id": "double-heritage",
+          "detail": null
+        },
+        {
+          "id": "adaptation-environnementale",
+          "detail": "zones-urbanisees"
+        },
+        {
+          "id": "mentalite",
+          "detail": "desespoir"
+        },
+        {
+          "id": "sens-aiguise",
+          "detail": null
+        }
+      ]
+    }
+  ]
+}

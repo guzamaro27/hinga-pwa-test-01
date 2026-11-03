@@ -1,0 +1,690 @@
+{
+  "id": "latchari",
+  "type": "peuple",
+  "identity": {
+    "name": "Latchari",
+    "subtitle": "",
+    "slug": "latchari",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/latchari.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Latchari sont reconnaissables à leur grande stature, leur peau rouge très sombre, leurs longues oreilles pointues et l’imposante structure cornée qui recouvre leur front avant de se prolonger derrière le crâne."
+          },
+          {
+            "text": "Leur présence, leur assurance et leur aptitude à soutenir un groupe leur valent une réputation de chefs solides, inspirants et difficiles à déstabiliser."
+          },
+          {
+            "text": "Ils sont fréquemment associés :"
+          },
+          {
+            "items": [
+              "au commandement ;",
+              "à la protection collective ;",
+              "aux fonctions de représentation ;",
+              "à la direction de groupes importants ;",
+              "aux positions où l’autorité doit s’accompagner d’une réelle capacité physique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 6/10 — Bien représenté"
+          },
+          {
+            "text": "**Tendances :** Les Latchari vivent aussi bien dans les villes que dans les campagnes. Ils s’adaptent aux climats chauds comme aux régions froides et ne dépendent pas d’un environnement naturel particulier. On les rencontre aussi bien dans de grandes communautés que dans des domaines isolés, des villages ou des territoires ruraux."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Latchari mesurent généralement autour de **2 mètres** pour environ **90 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, large et solidement constituée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc long et robuste ;",
+              "des épaules larges ;",
+              "une cage thoracique développée ;",
+              "des bras puissants ;",
+              "des jambes solides ;",
+              "une ossature lourde ;",
+              "une musculature dense, mais modérément dessinée ;",
+              "une posture haute et assurée."
+            ]
+          },
+          {
+            "text": "Leur carrure donne une impression de puissance sans nécessairement correspondre à une musculature athlétique ou excessivement massive."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau latchari se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le rouge brun très sombre ;",
+              "le bordeaux profond ;",
+              "le rouge noir ;",
+              "le rouge terreux ;",
+              "certains tons presque bruns."
+            ]
+          },
+          {
+            "text": "Elle est généralement :"
+          },
+          {
+            "items": [
+              "très épaisse ;",
+              "mate ;",
+              "peu réfléchissante ;",
+              "relativement uniforme."
+            ]
+          },
+          {
+            "text": "Des marques plus claires peuvent apparaître sur le corps."
+          },
+          {
+            "text": "Elles se présentent notamment sous la forme :"
+          },
+          {
+            "items": [
+              "de petites taches dispersées ;",
+              "de taches de rousseur larges ;",
+              "de lignes épaisses ;",
+              "de bandes irrégulières suivant les membres ou le torse."
+            ]
+          },
+          {
+            "text": "Ces marques sont généralement rouge clair, orange sombre ou brun rougeâtre."
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont légèrement plus claires que le reste de la peau."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage latchari est généralement large et fortement structuré."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front entièrement dominé par la structure cornée ;",
+              "des pommettes larges ;",
+              "un nez pointu ;",
+              "une arête nasale marquée ;",
+              "une bouche de taille moyenne à large ;",
+              "un menton large ;",
+              "une mâchoire robuste ;",
+              "de grandes oreilles pointées vers l’arrière."
+            ]
+          },
+          {
+            "text": "Les traits restent généralement nets et puissants, sans être excessivement anguleux."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Latchari possèdent de grands yeux ovales, allongés et pointus à leurs extrémités."
+          },
+          {
+            "text": "La partie visible de l’œil est généralement jaune sombre ou jaune brun."
+          },
+          {
+            "text": "L’iris se distingue dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le rouge ;",
+              "le rouge orangé ;",
+              "l’orange sombre ;",
+              "l’ambre rougeâtre."
+            ]
+          },
+          {
+            "text": "Le contraste entre l’œil jaune et l’iris rouge orangé constitue l’un des caractères les plus visibles du visage latchari."
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux latchari se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun rouge ;",
+              "le rouge sombre ;",
+              "le rouge vif ;",
+              "l’orange sombre."
+            ]
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "raides ;",
+              "ondulés ;",
+              "bouclés ;",
+              "fins ou épais."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle et faciale suit généralement les mêmes gammes de couleurs."
+          },
+          {
+            "text": "L’implantation des cheveux commence derrière la structure cornée et s’adapte naturellement à son prolongement vers l’arrière du crâne."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Latchari possèdent deux cornes frontales dont les bases sont fusionnées."
+          },
+          {
+            "text": "Cette fusion forme une large plaque osseuse continue qui :"
+          },
+          {
+            "items": [
+              "recouvre la majeure partie du front ;",
+              "dépasse légèrement sur l’arête supérieure du nez ;",
+              "se prolonge de chaque côté du crâne ;",
+              "se termine en deux pointes dirigées vers l’arrière."
+            ]
+          },
+          {
+            "text": "La séparation entre les deux cornes devient plus visible à mesure qu’elles s’éloignent du front."
+          },
+          {
+            "text": "La structure est :"
+          },
+          {
+            "items": [
+              "sombre ;",
+              "extrêmement solide ;",
+              "directement liée aux os du crâne ;",
+              "marquée de rainures concentriques ;",
+              "parfois parcourue d’arêtes ou de reliefs pointus."
+            ]
+          },
+          {
+            "text": "Sa couleur se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun noir ;",
+              "le rouge noir ;",
+              "le gris anthracite."
+            ]
+          },
+          {
+            "text": "La structure ne repousse pas lorsqu’elle est cassée ou sectionnée."
+          },
+          {
+            "text": "Les Latchari possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La double corne frontale latchari constitue un prolongement direct du squelette crânien."
+          },
+          {
+            "text": "Sa partie fusionnée forme une plaque pleine et fortement intégrée au front."
+          },
+          {
+            "text": "Elle protège naturellement cette région contre les chocs ordinaires, mais n’accorde aucune résistance mécanique automatique lors de la création du personnage."
+          },
+          {
+            "text": "Les deux prolongements arrière restent attachés au crâne sur toute leur base."
+          },
+          {
+            "text": "La croissance de la structure accompagne celle du crâne durant l’enfance et l’adolescence. Elle ralentit fortement à l’âge adulte."
+          },
+          {
+            "text": "Une fissure superficielle peut se stabiliser progressivement, mais une partie entièrement brisée ou sectionnée ne repousse pas."
+          },
+          {
+            "text": "La perte d’une pointe produit donc une modification permanente de l’apparence."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "les rainures deviennent généralement plus marquées ;",
+              "les reliefs de la structure cornée restent visibles ;",
+              "les rides se multiplient ;",
+              "la force physique diminue ;",
+              "la stature peut légèrement se réduire."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Latchari sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des racines ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement :"
+          },
+          {
+            "items": [
+              "les plats servis chauds ;",
+              "les préparations longues ;",
+              "les aliments mijotés ;",
+              "les cuisines complexes ;",
+              "les repas composés de plusieurs saveurs et textures."
+            ]
+          },
+          {
+            "text": "Leur goût diminué ne les empêche pas d’apprécier la cuisine, mais réduit leur capacité à distinguer certaines nuances fines."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Latchari possèdent une espérance de vie moyenne d’environ **110 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **140 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Leur organisme supporte efficacement :"
+          },
+          {
+            "items": [
+              "les efforts prolongés ;",
+              "le port d’équipements lourds ;",
+              "les activités demandant une forte présence physique ;",
+              "les responsabilités maintenues sur une longue période ;",
+              "les changements de climat ;",
+              "les températures chaudes comme froides."
+            ]
+          },
+          {
+            "text": "Ils ne possèdent cependant aucune résistance élémentaire automatique au Métal."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Latchari possèdent une acuité auditive particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "les variations de voix ;",
+              "la direction d’une source sonore ;",
+              "plusieurs conversations proches ;",
+              "les changements de rythme ;",
+              "les bruits transmis à travers une structure ;",
+              "les ordres prononcés dans un environnement agité."
+            ]
+          },
+          {
+            "text": "Leurs longues oreilles permettent une orientation précise vers une source sonore."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Goût**"
+          },
+          {
+            "text": "Le goût latchari est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des saveurs très proches ;",
+              "identifier un ingrédient par son goût seul ;",
+              "isoler une épice dans un mélange complexe ;",
+              "reconnaître une variation légère dans une recette ;",
+              "percevoir certaines saveurs très délicates."
+            ]
+          },
+          {
+            "text": "Ils reconnaissent normalement les principales saveurs et peuvent apprécier une cuisine élaborée."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie latchari repose fréquemment sur le **Charisme**, la projection d’une volonté claire et la capacité à maintenir plusieurs alliés dans une même dynamique."
+          },
+          {
+            "text": "Leur bonne disposition à la **Démagie** facilite également :"
+          },
+          {
+            "items": [
+              "la création d’auras ;",
+              "la projection d’effets autour du corps ;",
+              "le maintien de protections collectives ;",
+              "la transmission d’un flux à plusieurs bénéficiaires ;",
+              "le renforcement d’un groupe ;",
+              "l’occupation magique d’un espace proche."
+            ]
+          },
+          {
+            "text": "Leur faible Dextérité les rend moins naturellement adaptés aux pratiques exigeant :"
+          },
+          {
+            "items": [
+              "des gestes très rapides ;",
+              "une grande précision corporelle ;",
+              "des changements constants de posture ;",
+              "une exécution acrobatique ;",
+              "de nombreuses manipulations fines successives."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Métal**"
+          },
+          {
+            "text": "Le Métal constitue l’affinité élémentaire recommandée pour les Latchari."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie latchari se manifeste fréquemment sous des formes larges, ordonnées et centrées sur un groupe."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Métal, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’anneaux métalliques concentriques ;",
+              "de plaques suspendues ;",
+              "de lignes rigides reliant plusieurs alliés ;",
+              "de reflets sombres autour de la structure cornée ;",
+              "de surfaces protectrices semi-transparentes ;",
+              "d’un réseau métallique déployé autour du lanceur ;",
+              "de pulsations se propageant à travers les armes et armures proches."
+            ]
+          },
+          {
+            "text": "Les manifestations latchari privilégient généralement :"
+          },
+          {
+            "items": [
+              "la cohésion ;",
+              "la protection ;",
+              "l’inspiration ;",
+              "le commandement ;",
+              "la stabilité ;",
+              "l’occupation d’une zone."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La structure cornée frontale peut servir de point de concentration lors du déploiement d’une aura."
+          },
+          {
+            "text": "Une manifestation magique importante peut notamment provoquer :"
+          },
+          {
+            "items": [
+              "un reflet parcourant les rainures ;",
+              "une ligne lumineuse suivant la séparation des deux cornes ;",
+              "une résonance métallique discrète ;",
+              "une accentuation temporaire de ses arêtes."
+            ]
+          },
+          {
+            "text": "La structure ne produit cependant aucune magie par elle-même."
+          },
+          {
+            "text": "L’affinité recommandée au Métal n’accorde automatiquement :"
+          },
+          {
+            "items": [
+              "ni résistance au Métal ;",
+              "ni réserve supplémentaire de SM ;",
+              "ni amélioration de l’audition."
+            ]
+          },
+          {
+            "text": "Ces capacités doivent être obtenues par une Voie d’héritage."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage latchari :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "CHAR +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DEM +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "DEX −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Métal"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Métal constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Aura d’Inspiration",
+                  "A"
+                ],
+                [
+                  "Aura Protectrice — Couverture",
+                  "D"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Aura d’Inspiration",
+            "headingLevel": 5,
+            "anchor": "aura-dinspiration",
+            "text": "Cette formation développe la capacité à galvaniser les alliés présents autour de soi."
+          },
+          {
+            "text": "Après son activation, elle améliore temporairement les actions offensives et défensives de ses bénéficiaires. Ses niveaux supérieurs renforcent également leur perception, leurs actions évasives et leur récupération de SM."
+          },
+          {
+            "text": "Les bénéficiaires sont déterminés au moment de l’activation et conservent l’effet pendant sa durée."
+          },
+          {
+            "title": "Aura Protectrice — Couverture",
+            "headingLevel": 5,
+            "anchor": "aura-protectrice-couverture",
+            "text": "Cette formation développe une aura défensive mobile qui suit son utilisateur."
+          },
+          {
+            "text": "Elle réduit les dégâts physiques subis par les alliés actuellement présents dans sa zone et peut couvrir leurs déplacements."
+          },
+          {
+            "text": "Tant que cette aura reste active, son utilisateur renonce aux actions offensives ordinaires et ne peut effectuer que les actions explicitement traitées comme des contre-attaques."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Aura d’Inspiration ;",
+              "Aura Protectrice — Couverture."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Métal",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-metal",
+            "text": "Vous obtenez **+10 % de résistance au Métal**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Réserve naturelle — SM",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-sm",
+            "text": "Votre maximum de **SM** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de SM augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Sens aiguisé — Audition",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-audition",
+            "text": "Vous obtenez **+5 en Audition**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité auditive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Latchari.md",
+    "sourceSha256": "12962fba0f92dd7b3335a4409fd3df76ab8a26888a8eee79cef1474db6470a1e"
+  }
+}

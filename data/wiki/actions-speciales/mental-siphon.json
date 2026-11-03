@@ -1,0 +1,46 @@
+{
+  "id": "mental-siphon",
+  "type": "codex",
+  "identity": {
+    "name": "Siphon",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "3 PF · Majeure · 12 m · Palier -1",
+              "Jet offensif : PSY / 2.",
+              "Seuil offensif PSY / 2, arrondi à l’entier inférieur.",
+              "Après application effective des dégâts, récupère la moitié de la SM réellement perdue par la cible, arrondie à l’inférieur. Les dégâts empêchés et le dépassement de la SM restante ne soignent pas. La récupération ne dépasse jamais la SM maximale du lanceur."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

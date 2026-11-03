@@ -1,0 +1,92 @@
+{
+  "id": "jaknal",
+  "type": "plant",
+  "identity": {
+    "name": "Jaknal",
+    "subtitle": "Arbre aux fruits pourpres des forêts chaudes",
+    "unknownName": "Arbre tropical roux à fruits violets pendants",
+    "slug": "jaknal",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Jaknal.png",
+    "visualNote": "Arbre tropical au tronc roux et noueux, portant une cime haute vert sombre et de nombreux fruits pourpres pendants le long des branches.",
+    "tags": [
+      "tropical",
+      "fruit-pourpre",
+      "tronc-roux"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre riche",
+      "terre humide",
+      "terre meuble"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "9 à 24 m",
+    "width": "5 à 14 m",
+    "colorMain": "roux",
+    "colorSecondary": "vert sombre, violet pourpre, rose brun",
+    "distinctiveSigns": [
+      "tronc roux haut, noueux et légèrement torsadé",
+      "écorce fissurée avec veines rosées à violettes",
+      "base robuste avec racines épaisses apparentes",
+      "cime large formant un parasol sombre",
+      "feuilles larges, vert sombre, à nervures jaunes",
+      "fleurs violettes pâles en coupe",
+      "fruits pourpres pendants en forme de goutte",
+      "pulpe claire divisée en loges avec graines"
+    ],
+    "descriptionShort": "Le Jaknal est un arbre tropical au tronc roux et aux fruits pourpres pendants.",
+    "descriptionFull": "Le Jaknal pousse dans les forêts tropicales humides, surtout en clairière et en lisière chaude. Son tronc roux porte une cime large et sombre qui donne beaucoup d'ombre. Des rameaux bas laissent pendre des fruits pourpres en forme de goutte, dont la couleur s'assombrit à maturité. Les fleurs violettes pâles et les racines apparentes rendent l'arbre facile à identifier."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "teinture",
+      "artisanat",
+      "semis"
+    ],
+    "notes": "Les fruits mûrs peuvent être préparés localement, et leur pulpe donne un pigment pourpre fragile."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

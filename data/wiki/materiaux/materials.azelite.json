@@ -1,0 +1,236 @@
+{
+  "id": "materials.azelite",
+  "type": "material",
+  "identity": {
+    "name": "Azelite",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "azelite",
+      "Azelite",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation psychique",
+      "Bleu nuit",
+      "Gemme sensible aux traces mentales et ésotériques.",
+      "Air/Esprit",
+      "magical",
+      "Magique",
+      "Bon",
+      "Diadèmes",
+      "lunettes rituelles",
+      "focus mentaux",
+      "mineur",
+      "joaillier",
+      "mage",
+      "besace"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 4
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "azelite",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 4
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation psychique"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Bleu nuit"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme sensible aux traces mentales et ésotériques."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Air/Esprit"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Aide à focaliser la perception ésotérique sur un objet fini."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut amplifier les parasites sensoriels."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Diadèmes",
+              "lunettes rituelles",
+              "focus mentaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "joaillier",
+              "mage",
+              "besace"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "38"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.7"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "45"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "perception"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_perception_eso_affaiblie"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

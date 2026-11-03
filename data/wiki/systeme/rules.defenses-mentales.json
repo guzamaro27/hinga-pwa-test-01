@@ -1,0 +1,97 @@
+{
+  "id": "rules.defenses-mentales",
+  "type": "codex",
+  "identity": {
+    "name": "Défenses mentales",
+    "subtitle": "Encaisser, Ancrage et Déni",
+    "icon": "◈",
+    "tags": [
+      "Défenses mentales",
+      "mental",
+      "SM",
+      "Ancrage",
+      "Déni"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/mental/normal-reactions.mjs",
+    "module/engine/attack-profile.mjs",
+    "module/helpers/pf.mjs"
+  ],
+  "mechanics": {
+    "reactions": {
+      "encaisser_mental": {
+        "stat": "PSY",
+        "pf": 1,
+        "advantage": 1,
+        "divisor": 1.5
+      },
+      "ancrage_mental": {
+        "stat": "CHAR",
+        "pf": 2,
+        "divisor": 2
+      },
+      "deni": {
+        "stat": "PSY",
+        "pf": 2,
+        "difficultyFactor": 2,
+        "divisor": "Infinity"
+      }
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Encaisser",
+        "value": "PSY, AV1, 1 PF : dégâts SM /1,5"
+      },
+      {
+        "label": "Ancrage",
+        "value": "CHAR, 2 PF : dégâts SM /2"
+      },
+      {
+        "label": "Déni",
+        "value": "PSY, difficulté ×2, 2 PF : annule sur réussite"
+      }
+    ],
+    "links": [
+      {
+        "label": "Santé mentale",
+        "sectionId": "systeme",
+        "entryId": "rules.sm"
+      },
+      {
+        "label": "Fracture mentale",
+        "sectionId": "systeme",
+        "entryId": "rules.fracture-mentale"
+      },
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Choisir une réaction",
+        "blocks": [
+          {
+            "items": [
+              "Encaisser : test de PSY avec AV1 contre la difficulté normale. Une réussite divise les dégâts SM par 1,5.",
+              "Ancrage : test de CHAR contre la difficulté normale. Une réussite divise les dégâts SM par 2.",
+              "Déni : test de PSY contre une difficulté doublée. Une réussite annule les dégâts SM et les états ou conditions portés par l’attaque.",
+              "Un échec d’Encaisser ou d’Ancrage laisse les dégâts SM normaux. Un échec de Déni multiplie les dégâts SM par 1,5."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

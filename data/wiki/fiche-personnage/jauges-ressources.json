@@ -1,0 +1,103 @@
+{
+  "id": "fiche-personnage.jauges-ressources",
+  "type": "codex",
+  "identity": {
+    "name": "Jauges et ressources",
+    "subtitle": "Fiche personnage / Suivre ses réserves",
+    "icon": "◒",
+    "tags": [
+      "PV",
+      "SM",
+      "PF",
+      "Chance",
+      "ressources",
+      "jauges"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "PV",
+        "value": "points de vie"
+      },
+      {
+        "label": "SM",
+        "value": "santé mentale"
+      },
+      {
+        "label": "PF",
+        "value": "points de fatigue"
+      },
+      {
+        "label": "Chance",
+        "value": "réserve de chance"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Points de vie",
+        "sectionId": "systeme",
+        "entryId": "rules.pv"
+      },
+      {
+        "label": "Santé mentale",
+        "sectionId": "systeme",
+        "entryId": "rules.sm"
+      },
+      {
+        "label": "Fatigue",
+        "sectionId": "systeme",
+        "entryId": "rules.pf"
+      },
+      {
+        "label": "Chance",
+        "sectionId": "systeme",
+        "entryId": "rules.chance"
+      },
+      {
+        "label": "Repos",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Les jauges suivent vos points actuels et maximaux pendant la partie."
+          }
+        ]
+      },
+      {
+        "label": "Utiliser les jauges",
+        "blocks": [
+          {
+            "items": [
+              "Lisez la valeur actuelle avant la valeur maximale.",
+              "Les boutons ? ouvrent la règle de la ressource.",
+              "Les coûts d’action ou de réaction sont prélevés par le système au moment de l’utilisation."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

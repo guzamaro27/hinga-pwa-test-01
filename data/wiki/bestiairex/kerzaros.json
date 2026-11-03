@@ -1,0 +1,38 @@
+{
+  "id": "kerzaros",
+  "type": "creature-public",
+  "identity": {
+    "name": "Kerzaros",
+    "subtitle": "Le Prédateur de Guerre",
+    "tags": [
+      "sauvage",
+      "domestique",
+      "inhabituelle",
+      "monture",
+      "guerre",
+      "predateur",
+      "territorial",
+      "dangereux",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Kerzaros vit principalement dans les plaines sauvages, les régions forestières ouvertes, les plateaux rocheux et les zones peu habitées. Carnivore opportuniste, il se nourrit de petites proies, de charognes, de proies blessées et parfois de végétaux ou de restes alimentaires. À l’état sauvage, il occupe un territoire large et défendu avec agressivité. En élevage spécialisé, il est recherché comme monture de guerre pour sa puissance, sa vitesse et son agressivité contrôlable."
+          },
+          {
+            "text": "Le Kerzaros est une créature massive et intimidante, combinant les qualités d’une monture puissante et d’un prédateur. Son corps musclé possède des épaules particulièrement développées, donnant l’impression constante d’être prêt à charger. Son pelage est court et dense, généralement sombre, allant du brun profond au noir. Certaines lignées présentent toutefois des couleurs plus claires comme le gris pâle ou le blanc cendré. Le haut du dos, les épaules et la base du cou sont recouverts de plaques écailleuses épaisses formant une protection naturelle. Sa tête large et anguleuse est dotée d’une mâchoire puissante et de crocs robustes. Ses yeux ambrés ou rouge sombre lui donnent un regard particulièrement intense. Le long du cou s’étend une crinière sauvage composée d’un mélange de poils, de plumes et de petites plaques osseuses. Sa longue queue lourde contribue à l’équilibre et peut également servir d’arme lorsqu’elle est utilisée pour frapper."
+          },
+          {
+            "text": "Le Kerzaros vit généralement seul à l’état sauvage. Sa reproduction est rare et souvent contrôlée dans des élevages spécialisés, où les lignées sont sélectionnées pour la force, la stabilité du tempérament, la résistance physique et l’aptitude au dressage de guerre."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "nuzrad",
+  "type": "plant",
+  "identity": {
+    "name": "Nuzrad",
+    "subtitle": "Arbre-étages des savanes tropicales",
+    "unknownName": "Arbre clair à plateaux verts des terres tropicales sèches",
+    "slug": "nuzrad",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Nuzrad.png",
+    "visualNote": "Grand arbre vertical au tronc jaune doré, portant plusieurs plateaux horizontaux de feuillage vert clair.",
+    "tags": [
+      "savane",
+      "arbre-etage",
+      "bois-leger"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical sec chaud",
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "terre meuble"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 à 14 m",
+    "width": "4 à 10 m",
+    "colorMain": "vert jaune lumineux",
+    "colorSecondary": "jaune doré, brun clair, vert tendre",
+    "distinctiveSigns": [
+      "tronc droit jaune doré à brun clair",
+      "feuillage organisé en plateaux horizontaux superposés",
+      "cime très découpée et régulière",
+      "feuilles vert clair nervurées de jaune pâle",
+      "racines fines apparentes à la base",
+      "capsules translucides contenant plusieurs graines vertes",
+      "bois clair à coeur jaune-vert"
+    ],
+    "descriptionShort": "Le Nuzrad est un arbre tropical sec à feuillage vert clair disposé en étages.",
+    "descriptionFull": "Le Nuzrad se reconnaît à sa silhouette en plateaux successifs autour d'un tronc vertical jaune doré. Cette architecture laisse passer le vent et la lumière dans les savanes chaudes. Ses racines fines s'étendent près de la surface pour capter les pluies courtes, tandis que ses feuilles claires et ses capsules vertes signalent les périodes de reprise après la saison sèche."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "infusion",
+      "teinture",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles servent à des infusions simples et à un pigment vert pâle; le bois léger convient aux petits objets."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

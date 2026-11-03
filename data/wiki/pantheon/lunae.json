@@ -1,0 +1,174 @@
+{
+  "id": "lunae",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Lunae",
+    "subtitle": "L'Énigme Sombre",
+    "tags": [
+      "Lunae",
+      "L'Énigme Sombre",
+      "esprit majeur",
+      "Obscurité",
+      "Mystère",
+      "Ombre",
+      "Reflet",
+      "Sang",
+      "Lune",
+      "Œil Obscur",
+      "Vision dans l’obscurité"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#3C3768",
+    "visualNote": "Obscurité • Mystère • Ombre • Reflet • Sang • Lune"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "lunae",
+    "name": "Lunae",
+    "title": "L'Énigme Sombre",
+    "type": "esprit_majeur",
+    "domains": [
+      "Obscurité",
+      "Mystère",
+      "Ombre",
+      "Reflet",
+      "Sang",
+      "Lune"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "visible_moon",
+      "label": "Chaque nuit où la lune est visible"
+    },
+    "cult": {
+      "short": "Observer la lune en silence",
+      "ritual": "Observer la lune et méditer dans un endroit sombre, en silence."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Les bénédictions de Lunae sont renforcées.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "oeil_obscur": {
+        "key": "oeil_obscur",
+        "name": "Œil Obscur",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Vision dans l’obscurité",
+        "fullDescription": "Permet de voir normalement dans l'obscurité.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#3C3768",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Obscurité",
+              "Mystère",
+              "Ombre",
+              "Reflet",
+              "Sang",
+              "Lune"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Observer la lune en silence"
+          },
+          {
+            "title": "Rituel",
+            "text": "Observer la lune et méditer dans un endroit sombre, en silence."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Chaque nuit où la lune est visible"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "visible_moon"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Œil Obscur (commune, passif)",
+              "Effet court : Vision dans l’obscurité",
+              "Description : Permet de voir normalement dans l'obscurité.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Les bénédictions de Lunae sont renforcées.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "lunae"
+  }
+}

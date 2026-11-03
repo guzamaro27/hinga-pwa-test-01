@@ -1,0 +1,83 @@
+{
+  "id": "fiche-personnage.effets-et-etats",
+  "type": "codex",
+  "identity": {
+    "name": "Effets et états",
+    "subtitle": "Fiche personnage / Comprendre ses modifications",
+    "icon": "◈",
+    "tags": [
+      "effets",
+      "états",
+      "bonus",
+      "malus",
+      "durée"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Actif",
+        "value": "effet en cours"
+      },
+      {
+        "label": "Durée",
+        "value": "jusqu’à expiration"
+      },
+      {
+        "label": "Impact",
+        "value": "jet ou action concerné"
+      }
+    ],
+    "links": [
+      {
+        "label": "Difficultés et divisions",
+        "sectionId": "systeme",
+        "entryId": "rules.difficultes"
+      },
+      {
+        "label": "AV / DV",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      },
+      {
+        "label": "États, Tiers et durées",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Les effets actifs expliquent les bonus, malus et restrictions qui concernent votre personnage."
+          }
+        ]
+      },
+      {
+        "label": "Lire un effet",
+        "blocks": [
+          {
+            "items": [
+              "Consultez son nom et sa durée.",
+              "Lisez l’action, la statistique ou la défense concernée.",
+              "Les états qui bloquent une action sont pris en compte lorsque le choix apparaît."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

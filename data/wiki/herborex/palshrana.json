@@ -1,0 +1,100 @@
+{
+  "id": "palshrana",
+  "type": "plant",
+  "identity": {
+    "name": "Palshrana",
+    "subtitle": "Palmier sec aux fruits pendants",
+    "unknownName": "Palmier côtier à nervures violettes",
+    "slug": "palshrana",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Palshrana.png",
+    "visualNote": "Palmier élancé au tronc brun segmenté, portant de longues palmes vertes soulignées de violet et une fleur à nectar violet.",
+    "tags": [
+      "palmier",
+      "cote-seche",
+      "fibres"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "palmier",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud",
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "terre sèche",
+      "terre pauvre"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "floraison"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "4 à 12 m",
+    "width": "3 à 7 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "brun doré, violet sombre, beige sec",
+    "distinctiveSigns": [
+      "tronc vertical ou légèrement courbé, segmenté en anneaux épais",
+      "base renforcée par des racines apparentes",
+      "couronne haute de longues palmes retombantes",
+      "palmes étroites aux nervures violettes",
+      "bords foliaires légèrement dentés",
+      "fleur claire à filaments violets et goutte de nectar",
+      "bois interne pâle entouré de fibres brunes"
+    ],
+    "descriptionShort": "Le Palshrana est un palmier sec des côtes chaudes, reconnaissable à ses palmes veinées de violet.",
+    "descriptionFull": "Le Palshrana pousse sur les bords de mer secs, les dunes stabilisées et les savanes chaudes exposées au vent. Son tronc segmenté se courbe parfois avec l'âge, tandis que ses racines retiennent le sable et cherchent l'humidité enfouie. Ses longues palmes vertes, nervurées de violet, fournissent une fibre utile aux villages côtiers."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les bords secs des palmes peuvent érafler la peau lors d'un contact direct."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les fruits et le nectar peuvent soutenir des usages locaux simples; les palmes et fibres servent surtout aux cordages, nattes et couvertures légères."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

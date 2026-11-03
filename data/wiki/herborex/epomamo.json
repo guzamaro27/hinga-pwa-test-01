@@ -1,0 +1,90 @@
+{
+  "id": "epomamo",
+  "type": "plant",
+  "identity": {
+    "name": "Epomamo",
+    "subtitle": "Lance-flamme du désert",
+    "unknownName": "Grande plante orangée à longues feuilles",
+    "slug": "epomamo",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Epomamo.png",
+    "visualNote": "Grande touffe désertique aux longues feuilles orange dressées, nervurées de jaune, avec fleur pâle et fruits ronds remplis de graines orangées.",
+    "tags": [
+      "desert",
+      "feuilles-orange",
+      "graines"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "terre sèche",
+      "rocaille"
+    ],
+    "season": [
+      "retour des pluies",
+      "floraison",
+      "pic de chaleur"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "80 cm à 1,7 m",
+    "width": "40 cm à 1 m",
+    "colorMain": "orange cuivré",
+    "colorSecondary": "jaune doré, violet fin",
+    "distinctiveSigns": [
+      "longues feuilles étroites dressées vers le ciel",
+      "nervure centrale jaune très visible",
+      "pointes et bords parfois violacés",
+      "fleur claire aux pétales orangés",
+      "fruit rond contenant de nombreuses graines orange",
+      "racines fines et fibreuses en touffe dense"
+    ],
+    "descriptionShort": "L'Epomamo est une plante désertique aux longues feuilles orange dressées et aux fruits ronds remplis de graines.",
+    "descriptionFull": "L'Epomamo pousse en touffes verticales dans les terres sèches. Ses feuilles longues et souples limitent la perte d'humidité tout en gardant une couleur chaude visible de loin. Sa fleur pâle apparaît brièvement après les rares pluies, avant de laisser place à un fruit rond rempli de petites graines orangées. Ses racines fibreuses retiennent un peu de sable autour de la base."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "infusion",
+      "artisanat",
+      "semis"
+    ],
+    "notes": "Les graines peuvent nourrir modestement les voyageurs après préparation, et les feuilles sèches servent parfois de fibres simples ou d'allume-feu léger."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

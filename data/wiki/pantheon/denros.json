@@ -1,0 +1,168 @@
+{
+  "id": "denros",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Denros",
+    "subtitle": "Le Chasseur Abondant",
+    "tags": [
+      "Denros",
+      "Le Chasseur Abondant",
+      "esprit majeur",
+      "Chasse",
+      "Pêche",
+      "Cueillette",
+      "Récolte",
+      "Corne d’Abondance",
+      "Nourriture sûre et équilibrée"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#7A5A2E",
+    "visualNote": "Chasse • Pêche • Cueillette • Récolte"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "denros",
+    "name": "Denros",
+    "title": "Le Chasseur Abondant",
+    "type": "esprit_majeur",
+    "domains": [
+      "Chasse",
+      "Pêche",
+      "Cueillette",
+      "Récolte"
+    ],
+    "cycle": {
+      "type": "ritual",
+      "refresh": "after_hunt",
+      "label": "Après chaque chasse ou repas obtenu par ces moyens"
+    },
+    "cult": {
+      "short": "Partager le fruit de la chasse",
+      "ritual": "Partager une partie de sa chasse, pêche ou cueillette avec les autres ou laisser une offrande aux animaux."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’abondance offerte par Denros est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "corne_d_abondance": {
+        "key": "corne_d_abondance",
+        "name": "Corne d’Abondance",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Nourriture sûre et équilibrée",
+        "fullDescription": "La nourriture obtenue via chasse, pêche, cueillette ou culture ne peut pas être empoisonnée et restaure autant de PV que de SM.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#7A5A2E",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Chasse",
+              "Pêche",
+              "Cueillette",
+              "Récolte"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Partager le fruit de la chasse"
+          },
+          {
+            "title": "Rituel",
+            "text": "Partager une partie de sa chasse, pêche ou cueillette avec les autres ou laisser une offrande aux animaux."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Après chaque chasse ou repas obtenu par ces moyens"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "rituel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "after_hunt"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Corne d’Abondance (améliorée, passif)",
+              "Effet court : Nourriture sûre et équilibrée",
+              "Description : La nourriture obtenue via chasse, pêche, cueillette ou culture ne peut pas être empoisonnée et restaure autant de PV que de SM.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’abondance offerte par Denros est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "denros"
+  }
+}

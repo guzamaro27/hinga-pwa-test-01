@@ -1,0 +1,96 @@
+{
+  "id": "tsolma",
+  "type": "plant",
+  "identity": {
+    "name": "Tsolma",
+    "subtitle": "Arbre sombre aux veines violettes",
+    "unknownName": "Arbre tropical a tronc noir et feuillage dense",
+    "slug": "tsolma",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tsolma.png",
+    "visualNote": "Grand arbre tropical au tronc tres sombre, presque noir, portant une large cime verte dense parcourue de nervures violettes.",
+    "tags": [
+      "arbre",
+      "tropical",
+      "tronc-sombre",
+      "veines-violettes"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble",
+      "boue"
+    ],
+    "season": [
+      "fortes pluies",
+      "pic de chaleur",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "9 a 24 m",
+    "width": "7 a 18 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "noir brun, violet, vert clair",
+    "distinctiveSigns": [
+      "tronc brun noir tres rugueux",
+      "racines apparentes et entremeles",
+      "veines violettes sur les racines et l'ecorce",
+      "branches sombres montant dans une cime compacte",
+      "couronne large vert profond",
+      "reseau violet visible dans le feuillage",
+      "feuilles larges et decoupees",
+      "fruits ovoïdes vert sombre",
+      "capsules contenant une pulpe verte et des graines rondes"
+    ],
+    "descriptionShort": "Le Tsolma est un arbre tropical sombre, au feuillage vert dense et aux veines violettes.",
+    "descriptionFull": "Le Tsolma pousse dans les forets tropicales humides, surtout sur les sols riches et sombres. Son tronc noir-brun se divise en branches puissantes sous une cime verte compacte, parcourue de nervures violettes. Ses racines apparentes forment une charpente sombre autour du pied et retiennent les sols mous de la foret chaude."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Tsolma est recherche pour son bois sombre et ses teintes vert-violet, surtout pour de petites pieces solides ou decoratives."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

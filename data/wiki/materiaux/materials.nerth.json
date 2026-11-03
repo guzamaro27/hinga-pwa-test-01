@@ -1,0 +1,238 @@
+{
+  "id": "materials.nerth",
+  "type": "material",
+  "identity": {
+    "name": "Nerth",
+    "subtitle": "Métaux · Spécial",
+    "icon": "◆",
+    "tags": [
+      "nerth",
+      "Nerth",
+      "metal",
+      "Métaux",
+      "special",
+      "Spécial",
+      "Métal natif ou origine à préciser",
+      "Cuivré sombre",
+      "Métal moyen, dur et excellent conducteur électrique.",
+      "Électricité",
+      "physical",
+      "Physique",
+      "Normal",
+      "Armes d’énergie",
+      "paratonnerres",
+      "circuits",
+      "mineur",
+      "forgeron",
+      "ingénieur",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 4
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "nerth",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Spécial"
+      },
+      {
+        "label": "Rareté",
+        "value": 4
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif ou origine à préciser"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Cuivré sombre"
+          },
+          {
+            "title": "Description",
+            "text": "Métal moyen, dur et excellent conducteur électrique."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "8"
+          },
+          {
+            "title": "Masse relative",
+            "text": "3"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Modéré (2)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "2"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Réfractaire (-1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "-1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Électricité"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Transmission électrique très efficace."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Accroît le danger d’électrocution sans isolation."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armes d’énergie",
+              "paratonnerres",
+              "circuits"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "forgeron",
+              "ingénieur",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "50"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "45"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "électrocution"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_choc_statique",
+              "etat_electrocution",
+              "etat_foudroiement"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

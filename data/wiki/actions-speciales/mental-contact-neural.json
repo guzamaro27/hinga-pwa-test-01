@@ -1,0 +1,45 @@
+{
+  "id": "mental-contact-neural",
+  "type": "codex",
+  "identity": {
+    "name": "Contact neural",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "2 PF · Majeure · Contact · Palier +1",
+              "Jet offensif : PSY.",
+              "Contact : adjacence selon la portée CàC normale (une case), sans nouvelle règle de distance."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

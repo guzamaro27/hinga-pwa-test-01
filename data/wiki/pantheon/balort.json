@@ -1,0 +1,183 @@
+{
+  "id": "balort",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Balort",
+    "subtitle": "Le Fardeau du Devoir",
+    "tags": [
+      "Balort",
+      "Le Fardeau du Devoir",
+      "esprit majeur",
+      "Autorité",
+      "Hiérarchie",
+      "Rigueur",
+      "Respect",
+      "Devoir",
+      "Punition",
+      "Récompense",
+      "Travail",
+      "Torture",
+      "Autorité Naturelle",
+      "Avantage aux ordres et intimidations"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#4E2F2F",
+    "visualNote": "Autorité • Hiérarchie • Rigueur • Respect • Devoir • Punition • Récompense • Travail • Torture"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "balort",
+    "name": "Balort",
+    "title": "Le Fardeau du Devoir",
+    "type": "esprit_majeur",
+    "domains": [
+      "Autorité",
+      "Hiérarchie",
+      "Rigueur",
+      "Respect",
+      "Devoir",
+      "Punition",
+      "Récompense",
+      "Travail",
+      "Torture"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "season_mid",
+      "label": "À chaque milieu de saison"
+    },
+    "cult": {
+      "short": "Rendre service à quelqu'un",
+      "ritual": "Rendre service à quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’autorité de Balort est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "autorite_naturelle": {
+        "key": "autorite_naturelle",
+        "name": "Autorité Naturelle",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Avantage aux ordres et intimidations",
+        "fullDescription": "Accorde un avantage sur les jets d’intimidation ou d’ordre.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#4E2F2F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Autorité",
+              "Hiérarchie",
+              "Rigueur",
+              "Respect",
+              "Devoir",
+              "Punition",
+              "Récompense",
+              "Travail",
+              "Torture"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Rendre service à quelqu'un"
+          },
+          {
+            "title": "Rituel",
+            "text": "Rendre service à quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque milieu de saison"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "season_mid"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Autorité Naturelle (commune, passif)",
+              "Effet court : Avantage aux ordres et intimidations",
+              "Description : Accorde un avantage sur les jets d’intimidation ou d’ordre.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’autorité de Balort est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "balort"
+  }
+}

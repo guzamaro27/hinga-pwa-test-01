@@ -1,0 +1,34 @@
+{
+  "id": "gartozor",
+  "type": "creature-public",
+  "identity": {
+    "name": "Gartozor",
+    "subtitle": "Le Serpent des Brumes",
+    "tags": [
+      "sauvage",
+      "aquatique",
+      "dangereux",
+      "predateur",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Gartozor vit principalement dans les rivières profondes, les marais forestiers, les bras morts de rivières et les zones brumeuses. Carnivore aquatique, il chasse les poissons, amphibiens, petites créatures tombées dans l’eau et proies imprudentes proches des berges. Il privilégie les eaux calmes et troubles où son long cou, son immobilité et son camouflage rendent ses attaques difficiles à anticiper."
+          },
+          {
+            "text": "Le Gartozor est une grande créature aquatique serpentiforme qui évolue dans les rivières profondes et les marais enveloppés de brume. Son corps long et fuselé ondule lentement dans l’eau sombre, ne laissant parfois dépasser que son long cou flexible et sa tête fine. Son bec crochu lui permet de saisir rapidement poissons et proies imprudentes. Une petite crête de plumes orange rouge se dresse sur son crâne, contrastant avec la couleur bleu gris de sa peau humide et légèrement écailleuse. Ses larges nageoires plumeuses stabilisent ses mouvements, tandis que sa queue musclée assure une propulsion silencieuse. Lorsqu’il chasse, il peut rester presque immobile avant de frapper d’un mouvement rapide de son cou serpentiforme."
+          },
+          {
+            "text": "Le Gartozor vit généralement seul. Les œufs sont pondus dans les berges humides ou sur des îlots végétaux, souvent dans des zones discrètes entourées d’eau calme et de végétation dense."
+          }
+        ]
+      }
+    ]
+  }
+}

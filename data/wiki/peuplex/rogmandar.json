@@ -1,0 +1,682 @@
+{
+  "id": "rogmandar",
+  "type": "peuple",
+  "identity": {
+    "name": "Rogmandar",
+    "subtitle": "",
+    "slug": "rogmandar",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/rogmandar.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Rogmandar sont reconnaissables à leur large silhouette, leur peau minérale, leurs yeux rouges, l’absence de cheveux et les nombreux pics rocheux qui peuvent émerger de leurs épaules, de leurs genoux ou de leur crâne."
+          },
+          {
+            "text": "Leur constitution exceptionnelle et leur capacité à supporter les chocs leur valent une réputation d’individus solides, patients et particulièrement difficiles à abattre."
+          },
+          {
+            "text": "Ils sont généralement moins à l’aise avec les technologies complexes, les mécanismes délicats et les dispositifs demandant de nombreuses manipulations rapides. Ils privilégient plus volontiers les outils robustes, simples à comprendre et faciles à entretenir."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 4/10 — Peu représenté"
+          },
+          {
+            "text": "**Tendances :** Les Rogmandar vivent davantage dans les campagnes que dans les villes."
+          },
+          {
+            "text": "Ils privilégient notamment :"
+          },
+          {
+            "items": [
+              "les plaines rocheuses ;",
+              "les régions montagneuses ;",
+              "les plateaux secs ;",
+              "les carrières et territoires minéraux ;",
+              "les campagnes peuplées proches de reliefs importants."
+            ]
+          },
+          {
+            "text": "Ils peuvent vivre dans les agglomérations, mais restent moins nombreux dans les grandes villes et les régions dominées par l’eau."
+          },
+          {
+            "text": "Les milieux très humides, les marais, les littoraux battus par les vagues et les séjours prolongés dans l’eau conviennent moins bien à leur enveloppe minérale. Cette préférence environnementale ne constitue pas, à elle seule, une vulnérabilité mécanique."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Rogmandar mesurent généralement autour de **1,80 mètre** pour environ **80 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, large et fortement charpentée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc épais ;",
+              "des épaules larges ;",
+              "une cage thoracique développée ;",
+              "des membres robustes ;",
+              "une ossature lourde ;",
+              "une musculature dense ;",
+              "une posture stable ;",
+              "des mouvements relativement mesurés."
+            ]
+          },
+          {
+            "text": "Leur apparence évoque un corps sculpté dans un bloc minéral sans perdre sa mobilité humanoïde."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau rogmandar est constituée d’un tissu minéral vivant."
+          },
+          {
+            "text": "Son apparence rappelle directement la roche :"
+          },
+          {
+            "items": [
+              "grain visible ;",
+              "surface mate ou légèrement cristalline ;",
+              "petites fissures superficielles ;",
+              "reliefs irréguliers ;",
+              "variations de densité."
+            ]
+          },
+          {
+            "text": "Sa coloration dépend fortement des lignées et rappelle fréquemment les roches présentes dans leurs régions d’origine."
+          },
+          {
+            "text": "Elle peut notamment présenter des nuances :"
+          },
+          {
+            "items": [
+              "grises ;",
+              "brunes ;",
+              "beiges ;",
+              "ocres ;",
+              "noires ;",
+              "rougeâtres ;",
+              "verdâtres."
+            ]
+          },
+          {
+            "text": "Des zones plus claires ou plus sombres apparaissent fréquemment sur le corps."
+          },
+          {
+            "text": "Les paumes des mains et les plantes des pieds sont généralement plus claires et moins irrégulières que le reste de la peau."
+          },
+          {
+            "text": "Malgré son apparence rocheuse, cette enveloppe conserve une certaine élasticité, particulièrement :"
+          },
+          {
+            "items": [
+              "autour des articulations ;",
+              "au niveau du cou ;",
+              "sur les doigts ;",
+              "sur les muscles en mouvement ;",
+              "autour de la bouche et des yeux."
+            ]
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage rogmandar est généralement large et arrondi, avec une partie inférieure plus allongée."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front large ;",
+              "des arcades marquées ;",
+              "des pommettes solides ;",
+              "un nez court et plat ;",
+              "une bouche large ;",
+              "une mâchoire épaisse ;",
+              "un menton allongé ;",
+              "des traits profondément dessinés dans la surface minérale."
+            ]
+          },
+          {
+            "text": "Les reliefs du visage peuvent sembler rigides au repos, mais restent suffisamment mobiles pour permettre des expressions ordinaires."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Rogmandar possèdent des yeux généralement ronds."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances rouges :"
+          },
+          {
+            "items": [
+              "rouge sombre ;",
+              "rouge brun ;",
+              "bordeaux ;",
+              "rouge noir ;",
+              "parfois rouge orangé."
+            ]
+          },
+          {
+            "text": "Le contraste entre les yeux rouges et la peau minérale rend leur regard particulièrement visible."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les Rogmandar ne possèdent ni cheveux, ni barbe, ni pilosité corporelle."
+          },
+          {
+            "text": "La partie supérieure du crâne peut être :"
+          },
+          {
+            "items": [
+              "lisse ;",
+              "légèrement irrégulière ;",
+              "parcourue de petites crêtes ;",
+              "surmontée de pics rocheux."
+            ]
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Rogmandar possèdent généralement des pics minéraux à la base large."
+          },
+          {
+            "text": "Ils apparaissent le plus fréquemment :"
+          },
+          {
+            "items": [
+              "sur les épaules ;",
+              "sur les genoux."
+            ]
+          },
+          {
+            "text": "Selon l’individu, d’autres pics peuvent se développer :"
+          },
+          {
+            "items": [
+              "sur les coudes ;",
+              "sur le front ;",
+              "sur le sommet du crâne ;",
+              "sur les hanches ;",
+              "le long de certaines parties du dos."
+            ]
+          },
+          {
+            "text": "Leur nombre, leur longueur et leur orientation varient fortement."
+          },
+          {
+            "text": "Ces formations ressemblent davantage à des excroissances rocheuses ou à des cornes minérales qu’à de fines épines."
+          },
+          {
+            "text": "Les Rogmandar ne possèdent pas de pavillon externe aux oreilles. Leur audition passe par deux orifices situés sur les côtés du crâne."
+          },
+          {
+            "text": "Ils possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "quatre doigts à chaque main ;",
+              "quatre orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "L’enveloppe rocheuse des Rogmandar demeure vivante et accompagne les mouvements du corps."
+          },
+          {
+            "text": "Les zones articulées sont plus fines et plus souples, tandis que les surfaces exposées aux impacts sont généralement plus épaisses."
+          },
+          {
+            "text": "Les petites marques et fissures superficielles peuvent progressivement se refermer. Les dommages profonds restent cependant de véritables blessures et ne doivent pas être confondus avec de simples éclats de pierre."
+          },
+          {
+            "text": "Les pics minéraux font partie du corps. Une cassure importante peut être douloureuse et laisser une forme irrégulière après cicatrisation."
+          },
+          {
+            "text": "La peau rogmandar supporte naturellement bien :"
+          },
+          {
+            "items": [
+              "les climats secs ;",
+              "les écarts ordinaires de température ;",
+              "les poussières ;",
+              "les terrains rocheux ;",
+              "les frottements répétés."
+            ]
+          },
+          {
+            "text": "L’exposition durable à l’humidité et à l’érosion est moins confortable et peut fragiliser superficiellement certaines zones de la peau."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Rogmandar sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des insectes ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des herbes ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient fréquemment les aliments contenant naturellement des sels et des dépôts minéraux."
+          },
+          {
+            "text": "Malgré leur apparence, ils ne peuvent pas digérer directement :"
+          },
+          {
+            "items": [
+              "les pierres ;",
+              "les minerais ;",
+              "les métaux ;",
+              "les cristaux."
+            ]
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Rogmandar possèdent une grande longévité."
+          },
+          {
+            "text": "Leur espérance de vie moyenne se situe autour de **170 ans**, tandis que les individus les plus âgés peuvent atteindre environ **250 ans**."
+          },
+          {
+            "text": "Leur développement est relativement lent. La marche autonome apparaît généralement autour de trois ans."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "leur stature peut légèrement diminuer ;",
+              "leurs mouvements deviennent plus lents ;",
+              "leur surface minérale devient plus irrégulière ;",
+              "certaines fissures restent durablement visibles ;",
+              "une mousse verdâtre ou jaunâtre peut se développer sur différentes parties du corps ;",
+              "leur force et leur résistance diminuent progressivement."
+            ]
+          },
+          {
+            "text": "Ils ne possèdent aucune résistance automatique aux poisons. Celle-ci appartient uniquement aux personnages ayant choisi la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Toucher**"
+          },
+          {
+            "text": "Les Rogmandar possèdent une perception tactile particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les vibrations transmises par une surface ;",
+              "les différences de pression ;",
+              "les aspérités d’un matériau ;",
+              "les fissures ;",
+              "les variations de densité ;",
+              "les mouvements produits contre le sol ou une paroi ;",
+              "la stabilité d’une prise ou d’un appui."
+            ]
+          },
+          {
+            "text": "Cette acuité est particulièrement efficace lorsqu’ils touchent directement une matière avec les mains, les pieds ou une large partie du corps."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "La perception ésotérique rogmandar est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "détecter une aura faible ;",
+              "distinguer plusieurs flux proches ;",
+              "percevoir une magie dormante ;",
+              "suivre une trace ésotérique ténue ;",
+              "identifier spontanément une perturbation magique ;",
+              "reconnaître la nature d’un phénomène surnaturel par la perception seule."
+            ]
+          },
+          {
+            "text": "Cette faiblesse ne les empêche pas d’apprendre ou d’utiliser la magie."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie rogmandar est généralement moins intuitive que leur maîtrise du corps et de la résistance physique."
+          },
+          {
+            "text": "Leur faible Arcane les rend moins naturellement adaptés :"
+          },
+          {
+            "items": [
+              "à l’analyse de structures magiques complexes ;",
+              "aux incantations très techniques ;",
+              "à la manipulation simultanée de plusieurs flux ;",
+              "aux pratiques demandant une grande finesse arcanique."
+            ]
+          },
+          {
+            "text": "Ils se montrent davantage à l’aise avec les manifestations directement liées :"
+          },
+          {
+            "items": [
+              "au corps ;",
+              "à l’endurance ;",
+              "à la peau ;",
+              "à la protection ;",
+              "au maintien d’un effort ;",
+              "à la récupération physique."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Corps**"
+          },
+          {
+            "text": "Le Corps constitue l’affinité élémentaire recommandée pour les Rogmandar."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie rogmandar se manifeste fréquemment à travers leur enveloppe corporelle."
+          },
+          {
+            "text": "Elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une peau qui se densifie ;",
+              "de fissures qui se referment ;",
+              "de plaques minérales qui s’épaississent ;",
+              "d’une pulsation traversant le corps ;",
+              "de reliefs qui deviennent plus marqués ;",
+              "d’un rythme régulier accompagnant un effort ou un soin."
+            ]
+          },
+          {
+            "text": "Leurs manifestations privilégient généralement :"
+          },
+          {
+            "items": [
+              "la résistance ;",
+              "la durée ;",
+              "la protection ;",
+              "la récupération ;",
+              "le renforcement progressif."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "L’apparence rocheuse des Rogmandar est une caractéristique physiologique et non une manifestation magique permanente."
+          },
+          {
+            "text": "Un Rogmandar conserve donc sa peau minérale quel que soit l’élément choisi à la création."
+          },
+          {
+            "text": "L’affinité recommandée au Corps n’accorde automatiquement :"
+          },
+          {
+            "items": [
+              "ni réduction de dégâts ;",
+              "ni résistance aux poisons ;",
+              "ni récupération améliorée de PV."
+            ]
+          },
+          {
+            "text": "Ces capacités doivent être obtenues par une compétence ou une Voie d’héritage."
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage rogmandar :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "CONST +10"
+                ],
+                [
+                  "Ressource secondaire",
+                  "PV +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "ARC −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Corps"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Corps constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Peau Impénétrable",
+                  "A"
+                ],
+                [
+                  "Renforcement Rythmique",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Peau Impénétrable",
+            "headingLevel": 5,
+            "anchor": "peau-impenetrable",
+            "text": "Cette formation permet de renforcer volontairement la résistance du corps."
+          },
+          {
+            "text": "Après une réussite de CONST, la protection reste active jusqu’à sa désactivation."
+          },
+          {
+            "text": "Selon son niveau, elle peut notamment :"
+          },
+          {
+            "items": [
+              "réduire les dégâts physiques ;",
+              "réduire les dégâts magiques ;",
+              "diminuer les dégâts des poisons administrés par contact ;",
+              "immuniser contre les poisons de contact au N3 ;",
+              "réduire certains dégâts environnementaux de chute ou d’impact au N3."
+            ]
+          },
+          {
+            "text": "La simple possession de la compétence n’accorde aucune réduction : elle doit être activée avec succès."
+          },
+          {
+            "title": "Renforcement Rythmique",
+            "headingLevel": 5,
+            "anchor": "renforcement-rythmique",
+            "text": "Cette formation améliore progressivement les soins actifs maintenus sur plusieurs tours consécutifs."
+          },
+          {
+            "text": "Le rythme appartient au soigneur et peut continuer même s’il change :"
+          },
+          {
+            "items": [
+              "de cible ;",
+              "de profil de soin ;",
+              "de PV vers SM ;",
+              "de SM vers PV."
+            ]
+          },
+          {
+            "text": "Le bonus augmente avec la durée de la séquence et le niveau de la compétence."
+          },
+          {
+            "text": "Le rythme est notamment rompu par :"
+          },
+          {
+            "items": [
+              "une action offensive ;",
+              "un tour sans soin admissible ;",
+              "une interruption du soin ;",
+              "un déplacement interrompant la séquence ;",
+              "l’incapacité de poursuivre."
+            ]
+          },
+          {
+            "text": "Les soins passifs, les potions, les restaurations de PF et les soins instantanés ne font pas progresser ce rythme."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Peau Impénétrable ;",
+              "Renforcement Rythmique."
+            ]
+          },
+          {
+            "title": "Résistance aux poisons",
+            "headingLevel": 5,
+            "anchor": "resistance-aux-poisons",
+            "text": "Vous obtenez la résistance aux poisons définie par les règles générales des peuples."
+          },
+          {
+            "title": "Récupération améliorée — PV",
+            "headingLevel": 5,
+            "anchor": "recuperation-amelioree-pv",
+            "text": "Votre récupération de PV est améliorée selon les règles générales de Récupération améliorée."
+          },
+          {
+            "title": "Sens aiguisé — Toucher",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-toucher",
+            "text": "Vous obtenez **+5 en Toucher**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la perception tactile."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Rogmandar.md",
+    "sourceSha256": "f56e07b66b1125a77238a539f70bcf1c103bf6ddae72f81842c797e171d8776d"
+  }
+}

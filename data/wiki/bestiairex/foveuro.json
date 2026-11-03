@@ -1,0 +1,34 @@
+{
+  "id": "foveuro",
+  "type": "creature-public",
+  "identity": {
+    "name": "Foveuro",
+    "subtitle": "Le Chasseur Ailé des Forêts",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Foveuro vit principalement dans les forêts denses, les forêts tempérées et les grandes clairières boisées. Il fréquente les sous-bois, les sentiers forestiers et les zones de chasse ouvertes entre les arbres, où il peut combiner course rapide, bonds planés et attaques aériennes courtes. Carnivore territorial, il chasse en meute structurée et coordonne ses attaques pour encercler ses proies."
+          },
+          {
+            "text": "Le Foveuro est une créature majestueuse à l’allure de prédateur ailé. Son corps élancé repose sur quatre pattes puissantes capables de courir rapidement à travers les forêts denses. Sa tête allongée possède un long museau pointu et des yeux ambre brillants qui lui donnent une expression vive et prédatrice. Deux oreilles triangulaires dressées émergent au sommet de sa tête. Autour de son cou se déploie une grande crinière de plumes épaisses et effilées, accentuant son apparence noble et sauvage. Son plumage brun, beige et crème recouvre la majorité de son corps en couches denses. Deux grandes ailes puissantes se replient le long de ses flancs. Ses griffes longues et recourbées ainsi que ses crocs visibles témoignent de sa nature de chasseur redoutable."
+          },
+          {
+            "text": "Le Foveuro vit en meute structurée, généralement menée par un couple dominant accompagné de jeunes chasseurs. Les portées sont protégées dans des nids terrestres, des abris rocheux ou des zones couvertes difficiles à atteindre."
+          }
+        ]
+      }
+    ]
+  }
+}

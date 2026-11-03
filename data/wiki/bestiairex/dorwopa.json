@@ -1,0 +1,34 @@
+{
+  "id": "dorwopa",
+  "type": "creature-public",
+  "identity": {
+    "name": "Dorwopa",
+    "subtitle": "Le Fouisseur cuirassé",
+    "tags": [
+      "sauvage",
+      "proie",
+      "fouisseur",
+      "cuirasse",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Dorwopa vit principalement dans les sols fermes, les zones rocheuses, les sous-bois secs et les terrains riches en racines profondes. Il creuse lentement mais avec une grande puissance, utilisant ses griffes épaisses et son museau osseux pour déplacer la terre compacte, retourner les pierres ou ouvrir des passages sous les racines. Omnivore à dominante fouisseuse, il consomme des racines, des insectes, de petits organismes enfouis et parfois des restes organiques trouvés dans les galeries naturelles. Sa carapace épaisse et sa queue massive le rendent difficile à déplacer une fois qu’il s’ancre au sol."
+          },
+          {
+            "text": "Le Dorwopa est une créature basse, lourde et solidement cuirassée. Son corps massif est recouvert d’écailles brun doré, ocre et terre sombre, surmontées d’une carapace composée de larges plaques imbriquées. Certaines plaques portent des nodules verdâtres à l’aspect minéral, surtout sur les épaules et le dos. Sa tête large se termine par un bec osseux dur, utilisé pour fouiller le sol, briser les racines et repousser les menaces proches. Sa gueule, plus profonde qu’elle ne le paraît au repos, contient des dents courtes mais solides. Ses quatre pattes sont courtes, épaisses et armées de longues griffes adaptées au grattage et au creusement. Sa queue massive, écailleuse et lourde, sert d’appui lorsqu’il s’ancre au sol ou pivote pour se défendre."
+          },
+          {
+            "text": "Le Dorwopa vit généralement seul ou en petits groupes familiaux. Les abris sont creusés dans des sols compacts ou installés dans des cavités rocheuses basses. Sa proximité morphologique avec l’Arwopa laisse penser à une espèce cousine, adaptée à des terrains plus durs et à une défense plus lourde."
+          }
+        ]
+      }
+    ]
+  }
+}

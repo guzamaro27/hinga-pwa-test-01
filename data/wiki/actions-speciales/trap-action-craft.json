@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-craft",
+  "type": "codex",
+  "identity": {
+    "name": "Fabriquer",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "fabriquer"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Fabriquer"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Créer un nouveau piège."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Fabriquer représente la création d'un piège via builder ou méthode de création dédiée. Sans compétence, cette action doit rester limitée aux formes les plus rudimentaires ou instables selon les règles du système."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Possible mais très limité selon les règles de base."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "À confirmer selon le type de piège et la méthode de fabrication."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Ouvre normalement la Fabrique à Pièges ou l'interface de création correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Oui, builder de piège."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Disponible depuis le bouton de création de piège ou un outil MJ."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Refus si l'utilisateur ne peut pas créer d'objet de piège ou si le builder est indisponible."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Piègeur Ingénieux modifie la fabrication mécanique. Piégeage Arcanique modifie la fabrication magique ou runique."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Un piège d'inventaire peut être crée ou préparé."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Aucun piège utilisable n'est crée, sauf règle active contraire."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Le créateur reel est une information MJ/système et ne doit pas être révélée automatiquement aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Fabriquer",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

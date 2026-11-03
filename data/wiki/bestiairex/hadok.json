@@ -1,0 +1,34 @@
+{
+  "id": "hadok",
+  "type": "creature-public",
+  "identity": {
+    "name": "Hadok",
+    "subtitle": "Gardien des Eaux Calmes",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial",
+      "aquatique",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Hadok vit principalement dans les zones aquatiques tropicales, notamment les rivières larges, les marais et les lacs peu profonds. Il occupe les zones calmes où il peut rester partiellement immergé, surveiller son domaine et se déplacer avec puissance sur les fonds vaseux ou boueux. Omnivore opportuniste, il consomme des plantes aquatiques, des poissons et de petits animaux."
+          },
+          {
+            "text": "Le Hadok est une créature aquatique massive au corps extrêmement large et compact, porté par quatre pattes puissantes adaptées à la marche dans l’eau peu profonde. Sa tête est large, avec un museau allongé terminé par un bec osseux épais et dur capable de repousser ou de frapper un adversaire. Ses yeux, petits et placés haut sur le crâne, lui permettent d’observer la surface de l’eau tout en gardant la majorité de son corps immergée. Son dos est recouvert de plaques écailleuses épaisses formant une carapace hérissée qui protège efficacement ses flancs. Sa peau gris sombre et bleutée lui donne une apparence rocheuse lorsqu’il reste immobile dans l’eau ou la vase. L’ensemble de son corps donne l’impression d’une masse vivante presque impossible à déplacer."
+          },
+          {
+            "text": "Le Hadok vit généralement seul et défend un territoire aquatique précis. Les zones de nidification sont creusées ou aménagées dans les berges boueuses, à proximité directe de l’eau."
+          }
+        ]
+      }
+    ]
+  }
+}

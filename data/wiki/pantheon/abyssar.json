@@ -1,0 +1,173 @@
+{
+  "id": "abyssar",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Abyssar",
+    "subtitle": "Le Dévoreur de l’Inconnu",
+    "tags": [
+      "Abyssar",
+      "Le Dévoreur de l’Inconnu",
+      "esprit majeur",
+      "Abîmes",
+      "Profondeurs",
+      "Peur",
+      "Inconnu",
+      "Instinct Phobique",
+      "Inverse peur et malus"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#0F1A24",
+    "visualNote": "Abîmes • Profondeurs • Peur • Inconnu"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "abyssar",
+    "name": "Abyssar",
+    "title": "Le Dévoreur de l’Inconnu",
+    "type": "esprit_majeur",
+    "domains": [
+      "Abîmes",
+      "Profondeurs",
+      "Peur",
+      "Inconnu"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "new_moon",
+      "label": "À chaque nouvelle lune"
+    },
+    "cult": {
+      "short": "Se suspendre au-dessus du vide",
+      "ritual": "Se suspendre au-dessus du vide."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le sang-froid face à l’inconnu est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "instinct_phobique": {
+        "key": "instinct_phobique",
+        "name": "Instinct Phobique",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Inverse peur et malus",
+        "fullDescription": "Lorsqu’affecté par la peur, change tous les malus en bonus et les désavantages en avantages pour lui-même.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#0F1A24",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "atetis"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Abîmes",
+              "Profondeurs",
+              "Peur",
+              "Inconnu"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Se suspendre au-dessus du vide"
+          },
+          {
+            "title": "Rituel",
+            "text": "Se suspendre au-dessus du vide."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque nouvelle lune"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "new_moon"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Instinct Phobique (améliorée, passif)",
+              "Effet court : Inverse peur et malus",
+              "Description : Lorsqu’affecté par la peur, change tous les malus en bonus et les désavantages en avantages pour lui-même.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le sang-froid face à l’inconnu est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "atetis"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "abyssar"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "evotar",
+  "type": "creature-public",
+  "identity": {
+    "name": "Evotar",
+    "subtitle": "L’Oiseau des Cauchemars",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "nocturne-remarquable",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Evotar vit principalement dans les forêts sombres et les jungles profondes. Il occupe les hautes branches, les clairières forestières et les territoires ombragés, où son plumage noir et vert profond lui permet de se fondre dans l’obscurité. Carnivore, il chasse les petites créatures terrestres ou arboricoles, les autres proies aviaires et les charognes, avec un comportement prédateur particulièrement cruel."
+          },
+          {
+            "text": "L’Evotar est une grande créature aviaire prédatrice à l’apparence inquiétante. Son plumage sombre, dominé par le noir et le vert profond, lui permet de se fondre dans les ombres de la forêt. Sa tête large est marquée par deux petites cornes frontales et de grands yeux rouges capables de briller dans l’obscurité. Son bec recourbé renferme une rangée de petites dents pointues, une particularité rare chez les créatures aviaires. De chaque côté de la tête, des appendices membranaires évoquant des ailes fines remplacent les oreilles visibles. Ses ailes puissantes et ses griffes acérées en font un prédateur redoutable capable de fondre sur ses proies avec une grande violence."
+          },
+          {
+            "text": "L’Evotar vit seul ou en couple territorial. Les nids sont volumineux et construits dans les arbres élevés, au sein de zones ombragées difficiles à atteindre. Les adultes défendent violemment leur territoire et les abords du nid."
+          }
+        ]
+      }
+    ]
+  }
+}

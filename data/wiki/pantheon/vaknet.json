@@ -1,0 +1,174 @@
+{
+  "id": "vaknet",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Vaknet",
+    "subtitle": "Le Purificateur Putride",
+    "tags": [
+      "Vaknet",
+      "Le Purificateur Putride",
+      "esprit majeur",
+      "Maladies",
+      "Pestilence",
+      "Purge",
+      "Soin",
+      "Santé",
+      "Régénération",
+      "Immunité Adaptative",
+      "Résistance aux poisons et maladies"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#556B2F",
+    "visualNote": "Maladies • Pestilence • Purge • Soin • Santé • Régénération"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "vaknet",
+    "name": "Vaknet",
+    "title": "Le Purificateur Putride",
+    "type": "esprit_majeur",
+    "domains": [
+      "Maladies",
+      "Pestilence",
+      "Purge",
+      "Soin",
+      "Santé",
+      "Régénération"
+    ],
+    "cycle": {
+      "type": "ritual",
+      "refresh": "belledere_bloom",
+      "label": "À chaque floraison de la Bellederé"
+    },
+    "cult": {
+      "short": "Verser son sang sur un os",
+      "ritual": "Faire couler son sang sur un os ou un coquillage."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La résistance aux maladies est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "immunite_adaptative": {
+        "key": "immunite_adaptative",
+        "name": "Immunité Adaptative",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Résistance aux poisons et maladies",
+        "fullDescription": "Réduit de 50% les dégâts et effets des poisons et maladies.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#556B2F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Maladies",
+              "Pestilence",
+              "Purge",
+              "Soin",
+              "Santé",
+              "Régénération"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Verser son sang sur un os"
+          },
+          {
+            "title": "Rituel",
+            "text": "Faire couler son sang sur un os ou un coquillage."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque floraison de la Bellederé"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "rituel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "belledere_bloom"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Immunité Adaptative (améliorée, passif)",
+              "Effet court : Résistance aux poisons et maladies",
+              "Description : Réduit de 50% les dégâts et effets des poisons et maladies.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La résistance aux maladies est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "vaknet"
+  }
+}

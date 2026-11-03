@@ -1,0 +1,93 @@
+{
+  "id": "hiltid",
+  "type": "plant",
+  "identity": {
+    "name": "Hiltid",
+    "subtitle": "Grand arbre des marais",
+    "unknownName": "Arbre marécageux à troncs multiples et cime lourde",
+    "slug": "hiltid",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Hiltid.png",
+    "visualNote": "Très large arbre de marais, formé de troncs serrés et de racines apparentes, portant une cime lourde vert olive avec de longues retombées végétales.",
+    "tags": [
+      "marais",
+      "racines-apparentes",
+      "tronc-multiple"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "marais tempéré humide",
+      "marais tropical humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "boue",
+      "eau douce",
+      "terre humide"
+    ],
+    "season": [
+      "fortes pluies",
+      "après crue",
+      "toute l’année"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "très forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "gigantesque",
+    "height": "10 à 28 m",
+    "width": "8 à 20 m",
+    "colorMain": "vert olive",
+    "colorSecondary": "brun humide, jaune mousse, beige",
+    "distinctiveSigns": [
+      "base extrêmement large formée de plusieurs troncs serrés",
+      "écorce brun-gris humide et striée",
+      "racines apparentes épaisses et partiellement immergées",
+      "couronne très dense, lourde et retombante",
+      "longues retombées végétales depuis la cime",
+      "feuilles palmées aux folioles étroites",
+      "fleurs fines en ombelles",
+      "fruits ovoïdes à enveloppe épaisse brun-vert"
+    ],
+    "descriptionShort": "Le Hiltid est un immense arbre de marais aux troncs fusionnés, aux racines apparentes et à la cime lourde.",
+    "descriptionFull": "Le Hiltid pousse dans les marais et les forêts inondées où peu d'arbres supportent une humidité constante. Sa base large mêle troncs serrés, contreforts et racines qui plongent dans la vase. Sa cime vert olive forme un toit lourd, souvent chargé de retombées végétales. Les feuilles palmées captent la lumière filtrée, tandis que les fruits épais apparaissent durant les périodes humides."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif ; les risques viennent surtout du terrain marécageux autour de lui."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "construction",
+      "artisanat",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le bois du Hiltid est lourd et long à sécher ; il sert surtout à des cales, pièces rustiques ou travaux locaux en milieu humide."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "rules.groupes-vocationnels",
+  "type": "codex",
+  "identity": {
+    "name": "Groupes vocationnels",
+    "subtitle": "Accès mécanique aux familles de compétences",
+    "icon": "◆",
+    "tags": [
+      "Groupes vocationnels",
+      "GV",
+      "groupe vocationnel",
+      "compétence"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/competences/skill-vocational-groups.mjs",
+    "module/engine/competences/skill-progression.mjs"
+  ],
+  "mechanics": {
+    "universal": "generales",
+    "initialSpecializedCost": 0,
+    "secondSpecializedCost": 2,
+    "laterCostFormula": "rank * 2"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Générales",
+        "value": "Universel, non acheté"
+      },
+      {
+        "label": "Premier GV spécialisé",
+        "value": "Gratuit"
+      },
+      {
+        "label": "Suivants",
+        "value": "2e : 2 · 3e : 6 · 4e : 8"
+      }
+    ],
+    "links": [
+      {
+        "label": "Progression",
+        "sectionId": "systeme",
+        "entryId": "rules.progression-competences"
+      },
+      {
+        "label": "Création de personnage",
+        "sectionId": "systeme",
+        "entryId": "guide.creation-personnage"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Groupes",
+        "blocks": [
+          {
+            "items": [
+              "Combattant Émérite",
+              "Corps Militaire",
+              "Garde Protecteur",
+              "Gardien de la Nature",
+              "Générales",
+              "Mage Sage",
+              "Négociateur Diplomatique",
+              "Ombre Rebelle",
+              "Pérégrin Mystique",
+              "Scientifique Savant"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Coûts",
+        "blocks": [
+          {
+            "text": "Le premier groupe spécialisé est gratuit. Le deuxième coûte 2 points. À partir du troisième, le coût vaut le rang × 2 : 3e = 6, 4e = 8, 5e = 10."
+          }
+        ]
+      },
+      {
+        "label": "Portée",
+        "blocks": [
+          {
+            "text": "Un groupe vocationnel ouvre l’accès à des familles de compétences. Il ne décrit ni le métier ni la place sociale du personnage."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "saktel",
+  "type": "plant",
+  "identity": {
+    "name": "Saktel",
+    "subtitle": "Arbre blanc aux frondes tombantes",
+    "unknownName": "Arbre pâle à feuillage retombant",
+    "slug": "saktel",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Saktel.png",
+    "visualNote": "Arbre au tronc ivoire, portant une couronne de feuillage vert olive retombant en longues frondes.",
+    "tags": [
+      "savane",
+      "tronc-blanc",
+      "frondes"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "4 à 11 m",
+    "width": "3 à 8 m",
+    "colorMain": "ivoire pâle",
+    "colorSecondary": "vert olive, beige, violet très clair",
+    "distinctiveSigns": [
+      "tronc droit, lisse et très pâle",
+      "écorce claire à fines veines mauves",
+      "branches courtes et espacées",
+      "couronne haute de longues frondes retombantes",
+      "feuillage vert olive en rideau",
+      "racines pâles très ramifiées",
+      "capsules pâles contenant des graines vert olive"
+    ],
+    "descriptionShort": "Le Saktel est un arbre de savane au tronc blanc et aux frondes retombantes.",
+    "descriptionFull": "Le Saktel pousse dans les savanes sèches et chaudes, où son tronc clair réfléchit la lumière. Ses branches espacées portent des frondes retombantes qui protègent le coeur de l'arbre et créent une ombre légère. Les racines pâles s'étendent sous la surface pour profiter des pluies brèves."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les frondes sèches servent à l'ombrage temporaire et au tressage grossier; le bois pâle reste utile pour de petits piquets."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

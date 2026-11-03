@@ -1,0 +1,32 @@
+{
+  "id": "goya",
+  "type": "creature-public",
+  "identity": {
+    "name": "Goya",
+    "subtitle": "Les trois regards",
+    "tags": [
+      "domestique",
+      "elevage",
+      "alimentaire",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Goya est principalement présent dans les zones d’élevage, les campagnes, les collines et les pâturages. Il vit au sol, dans les prairies et les espaces ouverts où il peut paître facilement. Herbivore, il constitue une ressource alimentaire stable et peu exigeante pour de nombreuses communautés."
+          },
+          {
+            "text": "Le Goya est un petit ongulé au pelage jaune pâle uniforme. Sa particularité la plus visible est la présence d’un troisième œil central, placé légèrement au-dessus des deux autres. Ses deux queues fines s’agitent presque continuellement. Ses cornes sont courtes et peu imposantes. Sa silhouette reste compacte, robuste et adaptée aux terrains accidentés."
+          },
+          {
+            "text": "Le Goya vit généralement en troupeau domestique. Son troisième œil lui offrirait un champ de vision légèrement élargi, ce qui réduit les attaques de prédateurs dans les troupeaux. Facile à élever et peu exigeant, il est apprécié pour sa stabilité, sa docilité et son intérêt alimentaire."
+          }
+        ]
+      }
+    ]
+  }
+}

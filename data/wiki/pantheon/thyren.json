@@ -1,0 +1,182 @@
+{
+  "id": "thyren",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Thyren",
+    "subtitle": "Le Conquérant Stratège",
+    "tags": [
+      "Thyren",
+      "Le Conquérant Stratège",
+      "esprit majeur",
+      "Guerre",
+      "Conquête",
+      "Stratégie",
+      "Tactique",
+      "Discipline",
+      "Violence",
+      "Sacrifice",
+      "Domination Martiale",
+      "Avantage INT en combat"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#5A3A3A",
+    "visualNote": "Guerre • Conquête • Stratégie • Tactique • Discipline • Violence • Sacrifice"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "thyren",
+    "name": "Thyren",
+    "title": "Le Conquérant Stratège",
+    "type": "esprit_majeur",
+    "domains": [
+      "Guerre",
+      "Conquête",
+      "Stratégie",
+      "Tactique",
+      "Discipline",
+      "Violence",
+      "Sacrifice"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "week_end",
+      "label": "À chaque fin de semaine"
+    },
+    "cult": {
+      "short": "Échanger des coups d’armes",
+      "ritual": "Échanger des coups d'armes avec quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La discipline guerrière est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "domination_martiale": {
+        "key": "domination_martiale",
+        "name": "Domination Martiale",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Avantage INT en combat",
+        "fullDescription": "Accorde un avantage sur les jets d’INT en combat.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "incompatibilities": [
+      "mirus"
+    ],
+    "ui": {
+      "color": "#5A3A3A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Guerre",
+              "Conquête",
+              "Stratégie",
+              "Tactique",
+              "Discipline",
+              "Violence",
+              "Sacrifice"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Échanger des coups d’armes"
+          },
+          {
+            "title": "Rituel",
+            "text": "Échanger des coups d'armes avec quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque fin de semaine"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "week_end"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Domination Martiale (améliorée, passif)",
+              "Effet court : Avantage INT en combat",
+              "Description : Accorde un avantage sur les jets d’INT en combat.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La discipline guerrière est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "mirus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "thyren"
+  }
+}

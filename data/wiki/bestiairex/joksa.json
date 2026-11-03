@@ -1,0 +1,33 @@
+{
+  "id": "joksa",
+  "type": "creature-public",
+  "identity": {
+    "name": "Joksa",
+    "subtitle": "Le Veilleur Silencieux",
+    "tags": [
+      "sauvage",
+      "charognard",
+      "arboricole",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Joksa vit principalement dans les forêts profondes et les régions isolées. Il fréquente les grandes branches, les clairières forestières et les falaises boisées, où il observe longuement son environnement avant de se déplacer. Charognard opportuniste, il se nourrit surtout de carcasses, de petites proies, d’insectes et de restes abandonnés par d’autres prédateurs."
+          },
+          {
+            "text": "Le Joksa est une grande créature aviaire sombre au plumage brun noir épais. Son corps large et légèrement voûté lui donne une silhouette imposante, accentuée par son long bec recourbé de couleur ivoire. Autour de son cou se déploie une collerette de plumes plus longues et plus épaisses qui lui donne une apparence sauvage et impressionnante. Ses yeux ambrés brillants, très expressifs, contrastent avec son plumage sombre et lui donnent un regard étonnamment curieux. Malgré son allure menaçante de charognard forestier, il dégage souvent une impression de calme et d’observation attentive."
+          },
+          {
+            "text": "Le Joksa vit seul ou en petits groupes dispersés. Les nids sont construits dans les grands arbres ou sur des falaises forestières, dans des zones calmes offrant une vue dégagée sur les alentours."
+          }
+        ]
+      }
+    ]
+  }
+}

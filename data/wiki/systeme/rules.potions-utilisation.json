@@ -1,0 +1,87 @@
+{
+  "id": "rules.potions-utilisation",
+  "type": "codex",
+  "identity": {
+    "name": "Utiliser une potion",
+    "subtitle": "Dose, cible et résolution en jeu",
+    "icon": "⚗",
+    "tags": [
+      "Utiliser une potion",
+      "potion",
+      "dose",
+      "soin"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/potions/potion-runtime.mjs",
+    "module/helpers/substance-defaults.mjs",
+    "module/helpers/substance-knowledge.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Préparer",
+        "value": "Choisir dose, cible et voie d’entrée"
+      },
+      {
+        "label": "Effets",
+        "value": "PV, SM, PF, états et durée"
+      },
+      {
+        "label": "Consommation",
+        "value": "La dose appliquée est retirée"
+      }
+    ],
+    "links": [
+      {
+        "label": "Connaissance des substances",
+        "sectionId": "systeme",
+        "entryId": "rules.connaissance-substances"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      },
+      {
+        "label": "Récupération",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "text": "La potion doit posséder une dose disponible et une voie d’entrée compatible avec la cible. La résolution applique les soins, états, durées et risques déclarés."
+          }
+        ]
+      },
+      {
+        "label": "Connaissance",
+        "blocks": [
+          {
+            "text": "Une potion inconnue ne révèle que les informations acquises. L’avoir créée soi-même peut fournir le niveau de connaissance prévu."
+          }
+        ]
+      },
+      {
+        "label": "Résistance",
+        "blocks": [
+          {
+            "text": "Un contre ou une résistance n’est demandé que si la potion le prévoit. La dose est consommée selon le résultat enregistré."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "satapi",
+  "type": "creature-public",
+  "identity": {
+    "name": "Satapi",
+    "subtitle": "Le Gardien des Rivières",
+    "tags": [
+      "sauvage",
+      "aquatique",
+      "protege",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Satapi vit dans les rivières lentes, les marais, les petites rivières forestières et les zones humides aux berges végétalisées. Herbivore, il se nourrit de plantes aquatiques, de racines, d’algues et de jeunes pousses de berges. Sa présence est souvent associée à des eaux calmes et saines, ce qui lui donne une réputation de gardien naturel des rivières."
+          },
+          {
+            "text": "Le Satapi est une créature massive vivant dans les rivières calmes et les zones marécageuses. Son corps cylindrique et lourd est recouvert d’une peau épaisse parsemée de petites plaques dures donnant une texture semi-écailleuse. Sa tête large et arrondie possède un museau court entouré de longues moustaches sensibles utilisées pour percevoir les mouvements dans l’eau. Derrière son crâne pousse une courte crinière de poils bruns, contrastant avec la peau gris sombre du reste du corps. Ses pattes courtes et puissantes lui permettent de se déplacer lentement dans l’eau peu profonde et sur les berges. Sa silhouette lourde et stable le rend difficile à déplacer, même pour de grands prédateurs."
+          },
+          {
+            "text": "Le Satapi vit seul ou en petits groupes familiaux. Il construit des terriers et des abris dans les berges avec des branches et du bois, souvent dans des zones où l’eau reste calme et peu profonde."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "marog",
+  "type": "creature-public",
+  "identity": {
+    "name": "Marog",
+    "subtitle": "Le rase-sol nocturne",
+    "tags": [
+      "sauvage",
+      "nuisible",
+      "proie",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Marog vit principalement dans les plaines, où il se dissimule sous les buissons, dans les herbes basses et dans des terriers peu visibles. Strictement nocturne, il sort uniquement la nuit pour chercher racines, graines et petits insectes. Son corps arrondi et sa fourrure très épaisse lui permettent de se fondre dans les touffes d’herbe, les amas de feuilles et les recoins sombres proches du sol. Dans certaines zones agricoles, il est considéré comme nuisible lorsqu’il consomme graines et jeunes pousses."
+          },
+          {
+            "text": "Le Marog est une petite créature arrondie, couverte d’un pelage brun clair à foncé, très dense et touffu, marqué de rayures noires droites le long du dos. À l’arrêt, il ressemble souvent à une simple boule de poils, car ses membres disparaissent presque entièrement sous sa fourrure. Il possède seulement trois pattes : deux pattes avant courtes et larges, et une unique patte arrière centrale, plus musclée, plus solide et spécialisée dans la propulsion. Son déplacement se fait par poussées obliques, produisant une trajectoire en zigzag caractéristique. Son museau court, rond et rose rappelle davantage celui d’un cochon que celui d’une taupe, avec de petites moustaches fines au bout. Ses yeux minuscules, gris clair, restent généralement cachés sous les mèches de fourrure qui tombent autour de son visage."
+          },
+          {
+            "text": "Le Marog vit en petits groupes ou en petites colonies installées dans des terriers dissimulés sous les buissons ou dans les herbes épaisses. Sa structure sociale reste simple et centrée sur la proximité du terrier. Les individus immobiles sont parfois difficiles à distinguer les uns des autres, car leur fourrure touffue leur donne l’apparence de petites boules sombres tassées au sol."
+          }
+        ]
+      }
+    ]
+  }
+}

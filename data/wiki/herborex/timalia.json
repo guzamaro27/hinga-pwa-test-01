@@ -1,0 +1,96 @@
+{
+  "id": "timalia",
+  "type": "plant",
+  "identity": {
+    "name": "Timalia",
+    "subtitle": "Herbe bleue aromatique",
+    "unknownName": "Herbe seche a feuilles bleues et fleurs jaunes",
+    "slug": "timalia",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Timalia.png",
+    "visualNote": "Herbe aromatique a nombreuses tiges fines brunes, petites feuilles bleues opposees et fleurs jaunes bordees de bleu.",
+    "tags": [
+      "herbe",
+      "aromatique",
+      "feuilles-bleues",
+      "fleurs-jaunes"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "aromatique",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "plaine temperee seche",
+      "steppe seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "montee des chaleurs",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "25 cm a 90 cm",
+    "width": "20 cm a 70 cm",
+    "colorMain": "bleu profond",
+    "colorSecondary": "jaune dore, brun sec, creme",
+    "distinctiveSigns": [
+      "touffe dense partant d'une base racinaire fibreuse",
+      "nombreuses tiges fines brunes et dressees",
+      "petites feuilles bleues opposees par paires",
+      "feuilles courtes et legerement recourbees",
+      "fleurs terminales jaunes a lobes bleus",
+      "coeur floral jaune dore",
+      "capsules bleues veinees de jaune",
+      "petites graines jaunes et bleues"
+    ],
+    "descriptionShort": "La Timalia est une herbe aromatique seche a feuilles bleues et fleurs jaunes.",
+    "descriptionFull": "La Timalia pousse dans les prairies seches, les talus ensoleilles et les bords de chemin. Elle forme des touffes de tiges fines portant des feuilles bleues opposees, dont l'odeur devient nette quand on les froisse. Les fleurs jaunes et bleues apparaissent pendant la saison chaude, puis laissent place a de petites capsules veinees."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Herbe inoffensive pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "timalia",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "// TODO_LINK: a lier plus tard avec l'objet ingredient timalia. Cette plante pourrait devenir la source de l'ingredient Timalia; la partie recoltee serait plutot les feuilles et sommites fleuries."
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "infusion",
+      "parfum",
+      "fumigation",
+      "semis"
+    ],
+    "notes": "Les feuilles et sommites fleuries de Timalia donnent une herbe aromatique seche, utile aux infusions et aux assaisonnements simples."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "belzika",
+  "type": "plant",
+  "identity": {
+    "name": "Belzika",
+    "subtitle": "Feuille claire des jardins humides",
+    "unknownName": "Herbe aromatique aux feuilles translucides",
+    "slug": "belzika",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Belzika.png",
+    "visualNote": "Herbe fine à feuilles vert pâle translucides, nervures bleutées, petites fleurs claires et capsules remplies de graines pâles.",
+    "tags": [
+      "aromatique",
+      "jardin",
+      "feuille"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "aromatique",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "jardin cultivé",
+      "plaine tempérée humide",
+      "ruines humides"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre humide",
+      "terre riche"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "toute l’année"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "25 à 80 cm",
+    "width": "20 à 50 cm",
+    "colorMain": "vert pâle",
+    "colorSecondary": "bleu clair, blanc translucide",
+    "distinctiveSigns": [
+      "tige fine et souple",
+      "feuilles arrondies presque translucides",
+      "nervures bleutées lumineuses",
+      "petites fleurs claires à étamines pâles",
+      "capsules vertes remplies de graines blanches",
+      "racines fines portant des gouttelettes claires"
+    ],
+    "descriptionShort": "La Belzika est une herbe aromatique douce aux feuilles pâles et translucides, marquées de nervures bleutées.",
+    "descriptionFull": "La Belzika pousse dans les sols frais et lumineux, souvent près des jardins, des berges ou des ruines humides. Ses tiges fines portent des feuilles arrondies, souples et presque transparentes, dont les nervures bleues ressortent après la pluie. Ses fleurs claires donnent ensuite de petites capsules de graines pâles. Froissées, les feuilles dégagent une odeur fraîche et douce."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": ""
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "feuille-belzika",
+      "quantity": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "notes": "Les feuilles se coupent avant floraison et sèchent mieux à l'ombre. // TODO_LINK: à lier plus tard avec l'objet ingrédient feuille-belzika"
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "infusion",
+      "parfum",
+      "semis"
+    ],
+    "notes": "La Belzika est appréciée pour son parfum frais et doux, qui se libère en froissant les feuilles. En cuisine, elle relève les plats légers et les desserts, tandis qu'en infusion, elle offre une boisson rafraîchissante. Ses graines peuvent être semées pour faire pousser de nouvelles plantes."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

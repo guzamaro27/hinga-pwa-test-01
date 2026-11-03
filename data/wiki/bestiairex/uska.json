@@ -1,0 +1,30 @@
+{
+  "id": "uska",
+  "type": "creature-public",
+  "identity": {
+    "name": "Uska",
+    "subtitle": "Le sauteur des plaines",
+    "tags": [
+      "sauvage",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Uska vit principalement dans les plaines, les prairies basses et les herbes hautes. Il évolue en familles regroupées en troupeaux lâches, où sa survie dépend surtout de la fuite rapide par bonds successifs et d’une reproduction fréquente. Son régime est frugivore."
+          },
+          {
+            "text": "L’Uska ressemble à une petite boule de poils montée sur deux pattes courtes dissimulées sous le corps. Sa tête est légèrement allongée par rapport au tronc et ses oreilles sont tombantes. Son ventre forme un cercle rose pâle bien visible sur son pelage blanc. Il se déplace exclusivement en sautant, souvent au sein de familles regroupées en troupeaux lâches."
+          },
+          {
+            "text": "Les Uska vivent en familles regroupées en troupeaux lâches. Chaque portée comprend deux à trois petits. À environ un an, les jeunes quittent la famille pour en fonder une autre un peu plus loin. Une femelle peut avoir trois à quatre portées au cours de sa vie."
+          }
+        ]
+      }
+    ]
+  }
+}

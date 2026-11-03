@@ -1,0 +1,88 @@
+{
+  "id": "rules.pf",
+  "type": "codex",
+  "identity": {
+    "name": "Points de fatigue (PF)",
+    "subtitle": "Effort, actions et épuisement",
+    "icon": "⚡",
+    "tags": [
+      "Points de fatigue (PF)",
+      "PF",
+      "fatigue",
+      "Cendre"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/etatsPoints.mjs",
+    "module/helpers/pf.mjs",
+    "module/documents/actor.mjs"
+  ],
+  "mechanics": {
+    "formula": "VITA + PHY",
+    "statesConstant": "PF_STATE_RULES"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Maximum",
+        "value": "VITA + PHY"
+      },
+      {
+        "label": "Dépense",
+        "value": "Actions, réactions et aptitudes"
+      },
+      {
+        "label": "À zéro",
+        "value": "Cendre"
+      }
+    ],
+    "links": [
+      {
+        "label": "Jauges et ressources",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.jauges-ressources"
+      },
+      {
+        "label": "Repos et récupération",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      },
+      {
+        "label": "États et paliers",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Règle",
+        "blocks": [
+          {
+            "text": "Le maximum est VITA + PHY. Les bonus de peuple et autres modificateurs prévus par les règles s’appliquent ensuite."
+          }
+        ]
+      },
+      {
+        "label": "Paliers",
+        "blocks": [
+          {
+            "items": [
+              "Infatigable : au-dessus de 2/3, aucun malus.",
+              "Éprouvé : jusqu’à 2/3, PHY −3.",
+              "Harassé : jusqu’à 1/2, PHY −6 et MAG −3.",
+              "Brisé : jusqu’à 1/3, PHY −10, MAG −6, MENT −3, MOB −3.",
+              "Cendre : 0 PF, PHY −30, MAG −20, MENT −20, MOB −15."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

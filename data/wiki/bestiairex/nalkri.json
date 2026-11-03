@@ -1,0 +1,38 @@
+{
+  "id": "nalkri",
+  "type": "creature-public",
+  "identity": {
+    "name": "Nalkri",
+    "subtitle": "La Gargouille Vivante",
+    "tags": [
+      "sauvage",
+      "rare",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "ruines",
+      "nocturne-remarquable",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Nalkri vit principalement dans les ruines anciennes, les cavernes profondes, les temples abandonnés, les citadelles en ruine et les donjons. Il occupe des zones isolées, sombres et peu fréquentées, où son apparence pierreuse lui permet de se confondre avec les statues, reliefs ou structures anciennes. Carnivore territorial, il attaque les intrus, les animaux de passage et les voyageurs imprudents qui s’approchent trop près de son domaine."
+          },
+          {
+            "text": "Le Nalkri est une créature massive rappelant une gargouille vivante. Son corps puissant est recouvert d’une peau grise épaisse et fissurée qui lui donne l’apparence d’une statue de pierre. Ses ailes membraneuses sombres se replient souvent le long de son dos, renforçant sa silhouette monstrueuse. Sa tête large porte deux cornes courtes et une gueule remplie de crocs acérés. Ses yeux rouges incandescents brillent dans l’obscurité, révélant sa présence dans les ruines et les cavernes où il se tapit. Lorsqu’il est immobile, il peut facilement être confondu avec une sculpture ancienne."
+          },
+          {
+            "text": "Le Nalkri vit seul et défend un territoire fixe. Sa reproduction reste très rare et mal connue ; les rares hypothèses la situent dans des cavernes profondes ou des zones de ruines difficiles d’accès."
+          }
+        ]
+      }
+    ]
+  }
+}

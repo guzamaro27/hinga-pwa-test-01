@@ -1,0 +1,92 @@
+{
+  "id": "nozari-steppe",
+  "type": "plant",
+  "identity": {
+    "name": "Nozari des steppes",
+    "subtitle": "Nozari doré des plaines sèches",
+    "unknownName": "Arbre doré noueux des steppes sèches",
+    "slug": "nozari-steppe",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Nozari 2 stepp.png",
+    "visualNote": "Arbre trapu à troncs torsadés, feuillage doré-orange dense, racines épaisses apparentes et capsules ambrées.",
+    "tags": [
+      "steppe",
+      "feuillage-dore",
+      "bois-noueux"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe sèche chaude",
+      "plaine tempérée sèche"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 à 12 m",
+    "width": "6 à 15 m",
+    "colorMain": "doré ambré",
+    "colorSecondary": "ocre, brun chaud, violet discret",
+    "distinctiveSigns": [
+      "tronc multiple, torsadé et noueux",
+      "base très large avec racines apparentes",
+      "écorce brun miel veiné de violet",
+      "port trapu et très ancré",
+      "cime dense jaune doré à orange clair",
+      "feuilles arrondies aux nervures violettes",
+      "capsules épaisses jaune orangé"
+    ],
+    "descriptionShort": "Le Nozari des steppes est un arbre doré, noueux et très ancré dans les plaines sèches.",
+    "descriptionFull": "Le Nozari des steppes survit dans les plaines ouvertes grâce à une base massive, des troncs torsadés et un réseau de racines puissantes. Son feuillage doré se voit de loin et forme une ombre rare dans les paysages secs. Les capsules ambrées, les feuilles lumineuses et le bois noueux lui donnent une valeur artisanale locale sans en faire une plante précieuse."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le bois noueux convient aux petites pièces décoratives, et les feuilles ou capsules donnent des pigments dorés."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

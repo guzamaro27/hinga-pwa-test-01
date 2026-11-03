@@ -1,0 +1,81 @@
+{
+  "id": "cac-bousculade",
+  "type": "codex",
+  "identity": {
+    "name": "Bousculade",
+    "subtitle": "Action spéciale CàC",
+    "icon": "C"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "cac",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur CàC puis Bousculade.",
+              "Une seule cible doit être sélectionnée.",
+              "Action resolue contre un acteur cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Attaquant : FOR normal.",
+              "Défenseur : son sélecteur CàC actuel (FOR ou DEX), jet normal.",
+              "Résolution : opposition, le plus petit jet réussi gagne ; égalité favorable au défenseur via la logique d’opposition."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Une VS Card affiche les deux jets, le départage et la conséquence.",
+              "Les outils historiques de jet restent accessibles à la demande ; ils ne rejouent pas les conséquences."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Victoire attaquant : la cible est repoussée de 2 mêtres.",
+              "La sortie indique qu'une attaque d’opportunité peut se déclencher si applicable.",
+              "Victoire défenseur ou échec attaquant : aucun état applique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modificateurs",
+        "blocks": [
+          {
+            "title": "Compétences",
+            "items": [
+              "Maîtrise du Corps à Corps peut modifier les options de jets d’actions spéciales CàC selon son niveau.",
+              "Bastion Inebranlable peut ignorer certains effets de repoussément si l'état correspondant est actif."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

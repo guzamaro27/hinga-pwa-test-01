@@ -1,0 +1,33 @@
+{
+  "id": "shivaen",
+  "type": "creature-public",
+  "identity": {
+    "name": "Shivaen",
+    "subtitle": "Le cerf des tempêtes",
+    "tags": [
+      "sauvage",
+      "protege",
+      "sacre",
+      "magique",
+      "trophee"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Shivaen vit dans les forêts denses et profondes, mais n’apparaît généralement que lors de fortes pluies, comme s’il accompagnait ou annonçait les tempêtes. En période sèche, il disparaît et hiberne dans des grottes ou des cavités profondes, loin de toute trace de vie. Sa présence est rare, brève et difficile à anticiper."
+          },
+          {
+            "text": "Le Shivaen est un grand ongulé au pelage bleu, blanc ou gris, selon les régions. Ses bois, larges de plus d’un mètre, peuvent peser jusqu’à vingt kilogrammes. Ils s’étendent parfois en arrière, longeant la ligne de sa colonne. Son corps est élancé mais puissant, doté de longues pattes robustes lui permettant de courir avec une grande agilité. Une légère crinière borde son cou."
+          },
+          {
+            "text": "Le Shivaen vit seul et évite presque toujours les rencontres. Sa reproduction est peu observée en raison de sa rareté et de ses apparitions liées aux fortes pluies."
+          }
+        ]
+      }
+    ]
+  }
+}

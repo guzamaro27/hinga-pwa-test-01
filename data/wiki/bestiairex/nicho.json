@@ -1,0 +1,34 @@
+{
+  "id": "nicho",
+  "type": "creature-public",
+  "identity": {
+    "name": "Nichô",
+    "subtitle": "Le chasseur aux quatre ailes",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "chasse",
+      "artisanat",
+      "alimentaire"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Nichô vit principalement dans les plaines ouvertes, où il utilise le ciel dégagé, les falaises basses et les arbres isolés comme postes d’observation, d’envol ou de repos. Nocturne, il chasse souvent depuis les hauteurs et fond sur ses proies avec une grande vitesse. Son régime est omnivore, mais nettement orienté vers la prédation."
+          },
+          {
+            "text": "Le Nichô est un grand chasseur nocturne blanc et rouge, dont les pointes de plumes sont teintées de rouge vif. Il possède quatre ailes : deux grandes ailes principales et deux plus petites situées en arrière, qui stabilisent ses manœuvres. Ses longues pattes lui permettent d’atterrir avec précision. Sa queue large et évasée facilite les virages brusques. Une corne frontale courte mais solide dépasse de son front. Il l’utilise pour briser des coquilles dures ou frapper ses adversaires. Les mâles sont généralement plus blancs que les femelles, dont le rouge domine davantage."
+          },
+          {
+            "text": "Le Nichô mène une existence solitaire jusqu’à maturité. Une fois en couple, il partage et défend un territoire avec son partenaire. Les jeunes quittent le territoire dès qu’ils maîtrisent le vol."
+          }
+        ]
+      }
+    ]
+  }
+}

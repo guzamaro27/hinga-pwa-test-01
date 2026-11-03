@@ -1,0 +1,34 @@
+{
+  "id": "brathur",
+  "type": "creature-public",
+  "identity": {
+    "name": "Brathur",
+    "subtitle": "Le Gardien des Rivières",
+    "tags": [
+      "sauvage",
+      "semi-aquatique",
+      "territorial",
+      "omnivore",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Brathur vit principalement dans les forêts humides, les vallées fluviales, les berges de rivières, les clairières forestières et les zones marécageuses. Omnivore opportuniste, il fouille les sols forestiers et les berges à la recherche de racines, fruits, insectes, poissons et petites proies. Sa fourrure dense le protège de l’humidité, tandis que sa force lui permet de retourner pierres, troncs et terre meuble pour atteindre sa nourriture."
+          },
+          {
+            "text": "Le Brathur est un grand mammifère forestier au corps massif et impressionnant. Sa silhouette lourde repose sur un torse large et des membres courts mais extrêmement puissants. Sa posture donne une impression de force tranquille, bien que l’animal puisse devenir redoutable lorsqu’il se sent menacé. Sa fourrure épaisse et légèrement hirsute varie entre des teintes brun chaud et brun doré, avec des zones plus sombres sur les membres. Sa tête large est dominée par un museau court et puissant, doté d’un odorat très développé. Ses petits yeux sombres et brillants lui donnent une expression attentive et curieuse. Ses pattes larges sont armées de longues griffes recourbées capables de creuser le sol, retourner des troncs ou déchirer une proie."
+          },
+          {
+            "text": "Le Brathur vit seul ou en petits groupes familiaux. Les petits naissent dans des tanières creusées dans les berges ou sous de grands troncs, généralement dans des zones proches de l’eau et faciles à défendre."
+          }
+        ]
+      }
+    ]
+  }
+}

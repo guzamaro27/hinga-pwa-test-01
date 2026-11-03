@@ -1,0 +1,72 @@
+{
+  "id": "arme-repoussement-baton",
+  "type": "codex",
+  "identity": {
+    "name": "Repoussement au bâton",
+    "subtitle": "Suite de Maîtrise du Bâton",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "arme-baton",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Déclenché après une attaque au bâton si la Maîtrise du Bâton applicable le permet.",
+              "Ce n’est pas un bouton toujours visible : c'est une carte de suivi.",
+              "La cible concernee est celle touchee par l’attaque."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Réaction cible",
+        "blocks": [
+          {
+            "title": "Choix",
+            "items": [
+              "Ignorer : aucun test, aucun repoussément volontairement traite comme ignore.",
+              "Tenter : jet FOR normal de résistance.",
+              "Succès : aucun repoussément.",
+              "Échec : repoussément de 1 m.",
+              "Bastion Inebranlable peut ignorer le repoussément."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Carte de choix Maîtrise du Bâton.",
+              "Si Tenter : carte de jet défenseur.",
+              "Carte de résultat mise à jour.",
+              "Total courant : 1 à 3 cartes après le flux d’attaque normal."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modificateurs",
+        "blocks": [
+          {
+            "title": "Compétences",
+            "items": [
+              "Maîtrise du Bâton peut aussi modifier parade, blocage arme et désarmement.",
+              "Bastion Inebranlable annule le déplacement force si applicable."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

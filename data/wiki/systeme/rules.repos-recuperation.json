@@ -1,0 +1,132 @@
+{
+  "id": "rules.repos-recuperation",
+  "type": "codex",
+  "identity": {
+    "name": "Repos et récupération",
+    "subtitle": "Récupérer PV, SM, PF et Chance",
+    "icon": "☾",
+    "tags": [
+      "Repos et récupération",
+      "repos",
+      "sieste",
+      "coma",
+      "récupération"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/rest.mjs"
+  ],
+  "mechanics": {
+    "presets": {
+      "court": {
+        "pfPercent": 0.25,
+        "pvPercent": 0.05,
+        "smFlat": 1,
+        "chanceFlat": 0
+      },
+      "nuit": {
+        "pfPercent": 0.6,
+        "pvPercent": 0.1,
+        "smFormula": "1d4x4",
+        "chanceFlat": 1
+      },
+      "prolongé": {
+        "base": "nuit",
+        "multiplier": 3
+      },
+      "long": {
+        "pfFull": true,
+        "pvFull": true,
+        "smFormula": "-1d4x4",
+        "chanceFlat": -5
+      }
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Sieste",
+        "value": "PF +25 %, PV +5 %, SM +1"
+      },
+      {
+        "label": "Nuit",
+        "value": "PF +60 %, PV +10 %, SM +1d4 explosif, Chance +1"
+      },
+      {
+        "label": "Coma",
+        "value": "PV/PF au maximum, SM −1d4 explosif, Chance −5"
+      }
+    ],
+    "links": [
+      {
+        "label": "PV",
+        "sectionId": "systeme",
+        "entryId": "rules.pv"
+      },
+      {
+        "label": "SM",
+        "sectionId": "systeme",
+        "entryId": "rules.sm"
+      },
+      {
+        "label": "PF",
+        "sectionId": "systeme",
+        "entryId": "rules.pf"
+      },
+      {
+        "label": "Chance",
+        "sectionId": "systeme",
+        "entryId": "rules.chance"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Sieste",
+        "blocks": [
+          {
+            "text": "PF : 25 % du maximum arrondi à l’inférieur ; PV : 5 % arrondi au supérieur ; SM : +1 ; Chance : aucun gain."
+          }
+        ]
+      },
+      {
+        "label": "Repos complet",
+        "blocks": [
+          {
+            "text": "PF : 60 % du maximum arrondi à l’inférieur ; PV : 10 % arrondi au supérieur ; SM : +1d4 explosif ; Chance : +1. Les ressources sont plafonnées à leur maximum."
+          }
+        ]
+      },
+      {
+        "label": "Repos prolongé",
+        "blocks": [
+          {
+            "text": "Deux nuits appliquent trois fois la récupération d’un repos complet, puis respectent les limites prévues par chaque ressource."
+          }
+        ]
+      },
+      {
+        "label": "Coma",
+        "blocks": [
+          {
+            "text": "Appliqué par le MJ, hors combat, quand PV, SM ou PF est à 0 : PF et PV reviennent au maximum, SM perd 1d4 explosif et Chance perd 5 sans descendre sous 0. C’est le seul repos autorisé à relever depuis 0 PV ; Sieste, Nuit et Prolongé conservent les PV à 0."
+          }
+        ]
+      },
+      {
+        "label": "Réinitialisations",
+        "blocks": [
+          {
+            "text": "Les utilisations quotidiennes sont réinitialisées par un Repos complet (ou un repos supérieur qualifiant : repos prolongé ou coma) ou par un reset MJ. Le passage du temps ou le changement de date ne les réinitialise pas automatiquement. La Sieste ne réinitialise pas ces utilisations. Les bonus de peuple modifient ensuite la récupération concernée."
+          }
+        ]
+      }
+    ]
+  }
+}

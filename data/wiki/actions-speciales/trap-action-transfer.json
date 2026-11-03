@@ -1,0 +1,74 @@
+{
+  "id": "trap-action-transfer",
+  "type": "codex",
+  "identity": {
+    "name": "Transférer",
+    "subtitle": "Récupérer le piège / Inventaire",
+    "icon": "↪",
+    "tags": [
+      "pièges",
+      "inventaire",
+      "transfert"
+    ]
+  },
+  "classification": {
+    "category": "Récupérer le piège / Inventaire",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Rôle",
+        "blocks": [
+          {
+            "title": "Action",
+            "text": "Donner ou transférer une unité de piège du sac vers l'acteur ciblé."
+          },
+          {
+            "title": "Condition",
+            "text": "Aucune compétence n'est requise. L'action est possible si l'acteur possède au moins une unité du piège et si la cible sélectionnée peut recevoir l'objet."
+          },
+          {
+            "title": "Jet",
+            "text": "Aucun jet n'est effectué."
+          }
+        ]
+      },
+      {
+        "label": "Flux",
+        "blocks": [
+          {
+            "title": "Transfert",
+            "text": "Une seule unité est retirée du sac de l'acteur source et ajoutée au sac de l'acteur cible."
+          },
+          {
+            "title": "Propriétaire",
+            "text": "Le destinataire devient le propriétaire de l'unité transférée. Le créateur d'origine reste conservé dans les métadonnées."
+          },
+          {
+            "title": "Poseur",
+            "text": "Tant que le piège est dans le sac, le poseur reste vide ou nul."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Créateur / propriétaire / poseur",
+            "text": "Transférer change le propriétaire, ne change pas le créateur et ne renseigne pas de poseur."
+          },
+          {
+            "title": "Information cachée",
+            "text": "Le nom du créateur ne doit pas être révélé par cette action."
+          },
+          {
+            "title": "Compétences",
+            "text": "Non."
+          }
+        ]
+      }
+    ]
+  }
+}

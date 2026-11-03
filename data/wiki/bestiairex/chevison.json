@@ -1,0 +1,33 @@
+{
+  "id": "chevison",
+  "type": "creature-public",
+  "identity": {
+    "name": "Chevison",
+    "subtitle": "La monture du Soleil",
+    "tags": [
+      "domestique",
+      "elevage",
+      "monture",
+      "transport",
+      "traction"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Chevison vit surtout dans les plaines lumineuses, les terres ouvertes et les zones d’élevage du Soleil Ennyô. Il se déplace au sol, dans les prairies et les chemins dégagés, où son endurance et sa stabilité en font une monture et une bête de trait particulièrement appréciée. Son régime est omnivore à dominante végétale, même si l’élevage privilégie surtout son usage utilitaire plutôt que son exploitation alimentaire."
+          },
+          {
+            "text": "Le Chevison possède un corps élancé, robuste sans être massif. Son dos, naturellement plat et large, le rend particulièrement adapté à la monte et au port de charges. Sa tête est volumineuse, surmontée de deux cornes épaisses et torsadées qui se recourbent légèrement vers l’extérieur. Ses longues jambes puissantes lui permettent de parcourir de grandes distances sans fatigue apparente. Le pelage varie selon les races : brun, sable, gris ou tacheté. Certaines lignées sont sélectionnées pour la traction, d’autres pour la cavalerie, d’autres encore pour l’endurance pure."
+          },
+          {
+            "text": "Le Chevison vit et se conduit principalement en troupeau. Dans les élevages, il est sélectionné selon les lignées : certaines sont favorisées pour la traction, d’autres pour la cavalerie ou l’endurance longue distance. À l’état sauvage, les troupeaux restent méfiants mais rarement agressifs."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "terozoll",
+  "type": "creature-public",
+  "identity": {
+    "name": "Terozoll",
+    "subtitle": "Le Gardien des Forêts Anciennes",
+    "tags": [
+      "sauvage",
+      "proie",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Terozoll vit principalement dans les forêts anciennes, les jungles, les sous-bois denses et les clairières forestières. Herbivore, il se nourrit de feuilles épaisses, de fougères, de jeunes pousses et de plantes forestières. Sa grande masse, sa peau cuirassée et son comportement territorial en font une présence imposante dans les zones boisées anciennes."
+          },
+          {
+            "text": "Le Terozoll est une grande créature herbivore massive vivant dans les forêts anciennes. Son corps trapu est couvert d’une peau épaisse et écailleuse de couleur beige gris, lui donnant l’apparence d’une créature cuirassée. Sa tête courte porte plusieurs cornes solides courbées vers l’avant, renforçant son allure imposante. Le trait le plus remarquable reste sa large collerette dorsale composée de plaques rigides ressemblant à de grandes feuilles colorées. Ces plaques rouges, orangées et rosées s’étendent autour du cou et le long du dos, créant une silhouette spectaculaire lorsqu’il se dresse ou menace un adversaire. Ses pattes robustes soutiennent sa masse avec une stabilité remarquable, tandis que sa queue épaisse équilibre son corps lourd."
+          },
+          {
+            "text": "Le Terozoll vit en petits groupes familiaux. Les petits naissent dans des zones protégées de la forêt, souvent à l’écart des grands passages et des clairières trop ouvertes. Les adultes défendent activement le groupe lorsqu’une menace s’approche trop près."
+          }
+        ]
+      }
+    ]
+  }
+}

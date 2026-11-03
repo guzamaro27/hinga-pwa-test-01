@@ -1,0 +1,101 @@
+{
+  "id": "jarashi",
+  "type": "plant",
+  "identity": {
+    "name": "Jarashi",
+    "subtitle": "Herbe rousse aux épis barbelés",
+    "unknownName": "Herbe sèche à épis orange hérissés",
+    "slug": "jarashi",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Jarashi.png",
+    "visualNote": "Herbe de savane en touffe sèche, portant de longues feuilles rigides brun-vert et de hauts épis roux couverts de fines soies.",
+    "tags": [
+      "savane",
+      "epis-roux",
+      "soies"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "graminee",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude",
+      "steppe sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "fructification",
+      "retour des pluies"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "45 cm à 1,7 m",
+    "width": "30 cm à 80 cm",
+    "colorMain": "orange roux",
+    "colorSecondary": "brun sec, vert olive, ambre",
+    "distinctiveSigns": [
+      "touffe dense de feuilles longues et rigides",
+      "hampes fines presque nues",
+      "épis allongés orange roux à brun doré",
+      "épis couverts de fines soies sensibles au vent",
+      "poussière orange libérée par les épis trop secs",
+      "graines ambrées logées dans des capsules internes",
+      "racines sèches nombreuses"
+    ],
+    "descriptionShort": "Le Jarashi est une herbe sèche à longues hampes et épis roux hérissés.",
+    "descriptionFull": "Le Jarashi pousse dans les savanes sèches et les terres exposées où la végétation reste basse. Sa base forme une touffe de feuilles rigides, tandis que de longues hampes portent les épis au-dessus du sol. Les soies orange protègent les graines et se dispersent facilement lorsque l'air devient sec. La plante sert souvent de repère de terrain pauvre et chaud."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "irritante"
+    ],
+    "exposure": [
+      "contact",
+      "inhalation"
+    ],
+    "symptoms": [
+      "démangeaisons",
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les épis mûrs peuvent irriter la peau, les yeux ou la gorge lorsque le vent soulève leurs soies."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "teinture",
+      "semis"
+    ],
+    "notes": "Les épis secs prennent bien la flamme, et leur poussière orange donne une marque colorée fragile."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

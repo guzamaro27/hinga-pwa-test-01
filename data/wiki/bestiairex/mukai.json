@@ -1,0 +1,33 @@
+{
+  "id": "mukai",
+  "type": "creature-public",
+  "identity": {
+    "name": "Mukaï",
+    "subtitle": "L’animal étoile",
+    "tags": [
+      "sauvage",
+      "proie",
+      "migrateur",
+      "artisanat",
+      "rituel"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Mukaï vit principalement au-dessus des forêts, dans la canopée et les hauteurs dégagées. Il se déplace en troupeaux aériens, volant lentement et silencieusement, parfois au-dessus des montagnes ou des villes sans jamais se poser au sol. Il chasse les insectes dans la canopée et se replie en boule pour dormir au sommet des arbres."
+          },
+          {
+            "text": "Le Mukaï est une petite créature entièrement blanche, semblable à une masse de plumes flottantes. Ses plumes longues et fines ondulent en permanence, comme des filaments portés par le vent. Aucun œil ni membre distinct n’est visible. Seul un petit orifice discret, situé à l’avant ou sur la face ventrale du corps, lui sert de bouche. Son aspect éthéré et sa capacité à voler en silence renforcent l’impression qu’il ne fait que passer, comme une poussière lumineuse dans le ciel."
+          },
+          {
+            "text": "Le Mukaï se déplace en troupeaux aériens. Au crépuscule, certains groupes migrent vers d’autres zones forestières. Lors de la ponte, les œufs brillent doucement à la lumière du soir et leur chute depuis les hauteurs donne l’impression d’une pluie d’étoiles."
+          }
+        ]
+      }
+    ]
+  }
+}

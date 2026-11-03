@@ -1,0 +1,93 @@
+{
+  "id": "raldo",
+  "type": "plant",
+  "identity": {
+    "name": "Raldo",
+    "subtitle": "Arbre à étages violets",
+    "unknownName": "Arbre droit à feuilles plates étagées",
+    "slug": "raldo",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Raldo.png",
+    "visualNote": "Arbre très droit, au tronc brun veiné de violet, portant de larges feuilles horizontales disposées en étages.",
+    "tags": [
+      "feuillage-etage",
+      "nervures-violettes",
+      "arbre-repere"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre humide",
+      "sable"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 à 13 m",
+    "width": "2 à 6 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "brun, violet, vert clair",
+    "distinctiveSigns": [
+      "tronc très droit et peu ramifié",
+      "écorce brune à veines violettes verticales",
+      "grandes feuilles plates disposées par étages",
+      "feuillage horizontal en plateformes végétales",
+      "nervures violettes visibles sous les feuilles",
+      "sommet terminé par une pointe étroite",
+      "petites baies violettes sur rameaux fins"
+    ],
+    "descriptionShort": "Le Raldo est un arbre droit aux grandes feuilles horizontales disposées en étages.",
+    "descriptionFull": "Le Raldo pousse dans des sols assez profonds, en forêt tempérée humide ou sur certains talus côtiers secs. Son tronc vertical porte à intervalles réguliers de larges feuilles plates qui forment des plateformes vertes. Les veines violettes du tronc, des feuilles et des racines donnent à l'arbre sa signature visuelle et en font un repère facile dans les paysages ouverts."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les grandes feuilles peuvent servir d'abri ou de surface de séchage temporaire, et les baies donnent un pigment violet faible."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

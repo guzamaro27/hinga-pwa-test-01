@@ -1,0 +1,92 @@
+{
+  "id": "akatran",
+  "type": "plant",
+  "identity": {
+    "name": "Akatran",
+    "subtitle": "Bois-tordu des côtes chaudes",
+    "unknownName": "Arbre sec au tronc torsadé",
+    "slug": "akatran",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Akatran.png",
+    "visualNote": "Arbre au tronc ocre très tordu, portant des houppes compactes de petites feuilles vertes et des fruits épais remplis de graines orangées.",
+    "tags": [
+      "tronc-torsade",
+      "bois-dur"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude",
+      "bord de mer sec chaud",
+      "tropical sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "rocaille",
+      "sable"
+    ],
+    "season": [
+      "retour des pluies",
+      "fructification",
+      "saison sèche"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "3 à 8 m",
+    "width": "3 à 7 m",
+    "colorMain": "ocre doré",
+    "colorSecondary": "vert sombre, orange graine",
+    "distinctiveSigns": [
+      "tronc épais fortement vrillé",
+      "grosses branches noueuses formant des courbes ouvertes",
+      "houppes de feuillage compact aux extrémités",
+      "feuilles palmées claires visibles sur les rameaux",
+      "fruits verts à coque épaisse et graines orangées",
+      "racines apparentes et noueuses"
+    ],
+    "descriptionShort": "L'Akatran est un arbre sec et noueux, reconnaissable à son tronc vrillé et à ses masses de feuilles compactes.",
+    "descriptionFull": "L'Akatran pousse dans les terres chaudes où le sol reste dur longtemps après les pluies. Son tronc ocre se tord avec l'âge et forme des bras épais qui portent le feuillage en paquets serrés. Les feuilles sont petites ou palmées selon l'âge des rameaux. Les fruits à coque verte protègent des graines orangées, tandis que le bois clair et dense donne à l'arbre une silhouette solide malgré ses formes sinueuses."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": ""
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

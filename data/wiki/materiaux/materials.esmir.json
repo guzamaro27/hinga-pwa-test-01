@@ -1,0 +1,229 @@
+{
+  "id": "materials.esmir",
+  "type": "material",
+  "identity": {
+    "name": "Esmir",
+    "subtitle": "Métaux · Spécial",
+    "icon": "◆",
+    "tags": [
+      "esmir",
+      "Esmir",
+      "metal",
+      "Métaux",
+      "special",
+      "Spécial",
+      "Métal natif ou origine à préciser",
+      "Argent bleuté",
+      "Métal léger dont la structure résiste aux altérations perceptives.",
+      "Esprit/Illusion",
+      "magical",
+      "Magique",
+      "Bon",
+      "Objets magiques défensifs",
+      "casques",
+      "sceaux",
+      "mineur",
+      "mage",
+      "forgeron",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 5
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "esmir",
+    "family": "metal",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Spécial"
+      },
+      {
+        "label": "Rareté",
+        "value": 5
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif ou origine à préciser"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Argent bleuté"
+          },
+          {
+            "title": "Description",
+            "text": "Métal léger dont la structure résiste aux altérations perceptives."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Esprit/Illusion"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Stabilité contre les enchantements d’illusion et d’altération."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Origine géologique non définie."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Objets magiques défensifs",
+              "casques",
+              "sceaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "mage",
+              "forgeron",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "100"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.6"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "30"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "confusion"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

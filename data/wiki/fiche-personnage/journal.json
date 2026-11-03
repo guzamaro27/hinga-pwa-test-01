@@ -1,0 +1,67 @@
+{
+  "id": "fiche-personnage.journal",
+  "type": "codex",
+  "identity": {
+    "name": "Journal",
+    "subtitle": "Fiche personnage / Notes et informations",
+    "icon": "J",
+    "tags": [
+      "fiche personnage",
+      "journal",
+      "notes",
+      "personnage"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Notes",
+        "value": "contenu personnel"
+      },
+      {
+        "label": "Pages",
+        "value": "plusieurs entrées"
+      },
+      {
+        "label": "Accès",
+        "value": "depuis la fiche"
+      }
+    ],
+    "links": [
+      {
+        "label": "Guide rapide",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.guide-rapide"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Le journal conserve vos notes et les informations reçues pendant la partie."
+          }
+        ]
+      },
+      {
+        "label": "Écrire",
+        "blocks": [
+          {
+            "items": [
+              "Utilisez la page personnelle pour vos notes.",
+              "Créez et parcourez plusieurs pages si nécessaire.",
+              "Les informations reçues et vos notes restent distinctes dans l’interface."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

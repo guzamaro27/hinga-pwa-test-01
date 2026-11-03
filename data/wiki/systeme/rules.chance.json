@@ -1,0 +1,92 @@
+{
+  "id": "rules.chance",
+  "type": "codex",
+  "identity": {
+    "name": "Chance",
+    "subtitle": "Réserve pour transformer certains échecs",
+    "icon": "♣",
+    "tags": [
+      "Chance",
+      "création",
+      "relance"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/character-creation-service.mjs",
+    "module/helpers/chanceburnmachine.mjs",
+    "module/helpers/etatsPoints.mjs"
+  ],
+  "mechanics": {
+    "creationFormula": "40 + 1d20",
+    "manualRange": [
+      41,
+      60
+    ],
+    "creationRerolls": 2,
+    "statesConstant": "CH_STATE_RULES"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Création",
+        "value": "40 + 1d20"
+      },
+      {
+        "label": "Relances de création",
+        "value": "2 au maximum"
+      },
+      {
+        "label": "Saisie MJ",
+        "value": "41 à 60"
+      }
+    ],
+    "links": [
+      {
+        "label": "Jauges et ressources",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.jauges-ressources"
+      },
+      {
+        "label": "Création de personnage",
+        "sectionId": "systeme",
+        "entryId": "guide.creation-personnage"
+      },
+      {
+        "label": "Repos",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Règle",
+        "blocks": [
+          {
+            "text": "À la création, lancez 1d20 et ajoutez 40. Vous pouvez abandonner le résultat et relancer deux fois au maximum ; seul le dernier résultat est conservé. Le MJ peut saisir directement une valeur de 41 à 60. En jeu, une dépense proposée transforme certains échecs en réussite en payant l’écart affiché, si la réserve suffit."
+          }
+        ]
+      },
+      {
+        "label": "Paliers",
+        "blocks": [
+          {
+            "items": [
+              "Chanceux : au-dessus de 3/4.",
+              "Protégé : jusqu’à 3/4.",
+              "Hasardeux : jusqu’à 1/2.",
+              "Guignard : jusqu’à 1/4.",
+              "Abandonné : 0 Chance. Ces paliers n’appliquent aucun malus direct."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,963 @@
+{
+  "id": "kai",
+  "type": "peuple",
+  "identity": {
+    "name": "Kai",
+    "subtitle": "",
+    "slug": "kai",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/kai.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Kai sont reconnaissables à leur peau aux couleurs aquatiques, leurs doigts palmés, leurs branchies et les deux nageoires auriculaires qui s’étendent depuis les côtés de leur crâne."
+          },
+          {
+            "text": "Ils regroupent de nombreuses lignées dont l’apparence peut varier fortement."
+          },
+          {
+            "text": "Selon les familles, les Kai peuvent différer par :"
+          },
+          {
+            "items": [
+              "la couleur de leur peau ;",
+              "la présence et la répartition des écailles ;",
+              "la forme de leurs nageoires ;",
+              "la position de leurs branchies ;",
+              "leurs marques corporelles ;",
+              "la couleur de leurs cheveux ;",
+              "la finesse ou la largeur de leur silhouette."
+            ]
+          },
+          {
+            "text": "Malgré cette diversité, leurs nageoires auriculaires latérales constituent le caractère anatomique le plus constant et le plus immédiatement reconnaissable du peuple."
+          },
+          {
+            "text": "Leur aisance aquatique, leur mobilité et leur forte maîtrise psychique leur valent une réputation d’individus rapides, difficiles à désorienter et particulièrement à l’aise dans les environnements marins."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 3/10 — Rare"
+          },
+          {
+            "text": "**Tendances :** Les Kai sont peu répandus à l’échelle d’Arolnia."
+          },
+          {
+            "text": "Ils vivent principalement :"
+          },
+          {
+            "items": [
+              "près des mers ;",
+              "sur les littoraux ;",
+              "autour des grands lacs ;",
+              "dans les archipels ;",
+              "à proximité des fleuves importants ;",
+              "dans les agglomérations disposant de quartiers aquatiques ou portuaires."
+            ]
+          },
+          {
+            "text": "Ils privilégient généralement les eaux peu profondes ou modérément profondes, où la lumière demeure présente."
+          },
+          {
+            "text": "On les rencontre plus rarement :"
+          },
+          {
+            "items": [
+              "au cœur des régions arides ;",
+              "dans les territoires durablement éloignés de l’eau ;",
+              "dans les zones souterraines sèches ;",
+              "dans les régions dépourvues d’accès régulier à une étendue aquatique."
+            ]
+          },
+          {
+            "text": "Les Kai peuvent néanmoins vivre durablement sur la terre ferme et ne sont pas limités aux communautés entièrement immergées."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Kai mesurent généralement autour de **1,80 mètre** pour environ **70 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est de taille et de constitution moyennes."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc proportionné ;",
+              "des épaules de largeur moyenne ;",
+              "des membres relativement longs ;",
+              "une ossature légère à modérée ;",
+              "une musculature souple ;",
+              "une posture droite ;",
+              "des mouvements fluides ;",
+              "des articulations mobiles."
+            ]
+          },
+          {
+            "text": "Leur morphologie facilite :"
+          },
+          {
+            "items": [
+              "la nage ;",
+              "les changements rapides de direction ;",
+              "les mouvements amples des bras et des jambes ;",
+              "les déplacements sur terre ;",
+              "les actions demandant coordination et souplesse."
+            ]
+          },
+          {
+            "text": "Le gabarit varie cependant entre les lignées."
+          },
+          {
+            "text": "Certains Kai sont :"
+          },
+          {
+            "items": [
+              "plus fins ;",
+              "plus larges ;",
+              "plus allongés ;",
+              "dotés d’une musculature plus dense ;",
+              "adaptés à des eaux plus calmes ou plus agitées."
+            ]
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau kai se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le bleu clair ;",
+              "le bleu gris ;",
+              "le bleu profond ;",
+              "le bleu vert ;",
+              "le gris ;",
+              "le gris argenté ;",
+              "certains tons dorés ou beige doré."
+            ]
+          },
+          {
+            "text": "Les teintes bleues restent les plus fréquentes, mais ne constituent pas l’unique coloration possible."
+          },
+          {
+            "text": "La peau est généralement :"
+          },
+          {
+            "items": [
+              "fine ;",
+              "souple ;",
+              "lisse ;",
+              "légèrement satinée ;",
+              "adaptée aux déplacements dans l’eau."
+            ]
+          },
+          {
+            "text": "Des écailles peuvent apparaître sur une partie ou sur une grande proportion du corps."
+          },
+          {
+            "text": "Elles se trouvent fréquemment :"
+          },
+          {
+            "items": [
+              "sur les épaules ;",
+              "le dos ;",
+              "les avant-bras ;",
+              "les flancs ;",
+              "les jambes ;",
+              "autour des branchies ;",
+              "à la base des nageoires."
+            ]
+          },
+          {
+            "text": "Selon la lignée, les écailles peuvent être :"
+          },
+          {
+            "items": [
+              "très discrètes ;",
+              "petites et rapprochées ;",
+              "limitées à quelques zones ;",
+              "présentes sur presque tout le corps."
+            ]
+          },
+          {
+            "text": "Elles restent intégrées à la peau et ne forment pas une armure rigide."
+          },
+          {
+            "text": "Des marques pigmentaires peuvent également apparaître."
+          },
+          {
+            "text": "Elles peuvent être :"
+          },
+          {
+            "items": [
+              "plus sombres que la peau ;",
+              "presque blanches ;",
+              "arrondies ;",
+              "allongées ;",
+              "irrégulières ;",
+              "regroupées autour des nageoires ou du dos."
+            ]
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont généralement légèrement plus foncées que le reste de la peau."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage kai est généralement fin et légèrement pointu."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front lisse ;",
+              "des pommettes peu saillantes ;",
+              "des joues aux contours doux ;",
+              "une mâchoire fine ;",
+              "un menton pointu ;",
+              "un nez étroit ;",
+              "des traits relativement lisses ;",
+              "deux nageoires auriculaires latérales."
+            ]
+          },
+          {
+            "text": "Le visage reste humanoïde malgré les particularités aquatiques."
+          },
+          {
+            "text": "Sa forme exacte varie selon les lignées, certaines présentant :"
+          },
+          {
+            "items": [
+              "un visage plus rond ;",
+              "un nez plus court ;",
+              "des pommettes plus marquées ;",
+              "une mâchoire plus large ;",
+              "des nageoires faciales supplémentaires discrètes."
+            ]
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Kai possèdent généralement de petits yeux ronds ou légèrement ovales."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances froides et sombres comprenant :"
+          },
+          {
+            "items": [
+              "le bleu sombre ;",
+              "le bleu gris ;",
+              "le vert sombre ;",
+              "le gris ;",
+              "le violet profond ;",
+              "le noir."
+            ]
+          },
+          {
+            "text": "Les yeux restent adaptés à une vision sous l’eau comme dans l’air."
+          },
+          {
+            "text": "Ils ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux kai se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le bleu noir ;",
+              "le bleu sombre ;",
+              "le vert sombre ;",
+              "le vert bleu ;",
+              "certains tons gris froids."
+            ]
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "lisses ;",
+              "ondulés ;",
+              "bouclés ;",
+              "fins ;",
+              "épais."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle reste généralement faible."
+          },
+          {
+            "text": "Lorsqu’elle est présente, elle suit souvent la même palette que les cheveux."
+          },
+          {
+            "text": "Certaines lignées possèdent très peu de cheveux, tandis que d’autres développent une chevelure dense."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Kai possèdent :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Les doigts et les orteils sont reliés par des membranes souples."
+          },
+          {
+            "text": "Ces membranes sont généralement :"
+          },
+          {
+            "items": [
+              "fines ;",
+              "résistantes ;",
+              "capables de se replier partiellement ;",
+              "suffisamment souples pour ne pas empêcher la manipulation d’objets."
+            ]
+          },
+          {
+            "title": "Nageoires auriculaires",
+            "headingLevel": 5,
+            "anchor": "nageoires-auriculaires",
+            "text": "Les Kai possèdent exactement deux nageoires auriculaires latérales."
+          },
+          {
+            "text": "Chacune prend naissance sur le côté du crâne, autour de l’orifice auditif."
+          },
+          {
+            "text": "Elle constitue à la fois :"
+          },
+          {
+            "items": [
+              "le pavillon auditif externe ;",
+              "une nageoire latérale ;",
+              "un caractère anatomique propre au peuple."
+            ]
+          },
+          {
+            "text": "La nageoire auriculaire est généralement :"
+          },
+          {
+            "items": [
+              "évasée ;",
+              "relativement fine ;",
+              "plus large à sa base ;",
+              "progressivement effilée ;",
+              "souple mais structurée ;",
+              "orientée vers l’extérieur ou légèrement vers l’arrière."
+            ]
+          },
+          {
+            "text": "Sa forme varie selon les lignées."
+          },
+          {
+            "text": "Elle peut être :"
+          },
+          {
+            "items": [
+              "arrondie ;",
+              "triangulaire ;",
+              "allongée ;",
+              "divisée en plusieurs lobes ;",
+              "parcourue de rayons internes ;",
+              "bordée d’une membrane plus claire ou plus sombre."
+            ]
+          },
+          {
+            "text": "L’orifice auditif se situe directement à sa base."
+          },
+          {
+            "text": "Il n’existe aucun autre pavillon auriculaire distinct."
+          },
+          {
+            "title": "Branchies",
+            "headingLevel": 5,
+            "anchor": "branchies",
+            "text": "Les Kai possèdent des branchies leur permettant de respirer sous l’eau."
+          },
+          {
+            "text": "Elles sont le plus souvent placées :"
+          },
+          {
+            "items": [
+              "sur les côtés du cou ;",
+              "derrière la mâchoire ;",
+              "sous les oreilles ;",
+              "plus rarement sur le haut du torse ou les flancs."
+            ]
+          },
+          {
+            "text": "Les branchies peuvent prendre la forme :"
+          },
+          {
+            "items": [
+              "de plusieurs fentes parallèles ;",
+              "de replis souples ;",
+              "de membranes fines ;",
+              "de petites structures frangées."
+            ]
+          },
+          {
+            "text": "Leur position et leur apparence varient selon les lignées."
+          },
+          {
+            "title": "Nageoires corporelles",
+            "headingLevel": 5,
+            "anchor": "nageoires-corporelles",
+            "text": "Des nageoires supplémentaires peuvent apparaître sur différentes parties du corps."
+          },
+          {
+            "text": "Elles peuvent notamment se trouver :"
+          },
+          {
+            "items": [
+              "sur les avant-bras ;",
+              "le long des jambes ;",
+              "sur les mollets ;",
+              "sur le haut ou le bas du dos ;",
+              "autour des hanches ;",
+              "sur les épaules ;",
+              "le long de la colonne."
+            ]
+          },
+          {
+            "text": "Leur nombre et leur taille varient fortement."
+          },
+          {
+            "text": "Certains Kai possèdent plusieurs nageoires corporelles très visibles, tandis que d’autres n’en présentent presque aucune en dehors des nageoires auriculaires."
+          },
+          {
+            "text": "Ces nageoires restent généralement :"
+          },
+          {
+            "items": [
+              "souples ;",
+              "adaptées au déplacement dans l’eau ;",
+              "repliables contre le corps ;",
+              "suffisamment courtes pour ne pas entraver la marche."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les Kai peuvent respirer dans l’air comme sous l’eau."
+          },
+          {
+            "text": "Sous l’eau, leurs branchies assurent les échanges respiratoires nécessaires."
+          },
+          {
+            "text": "Sur terre, leur respiration s’effectue normalement par les voies aériennes."
+          },
+          {
+            "text": "Le passage d’un milieu à l’autre ne demande pas de transformation volontaire."
+          },
+          {
+            "text": "Les membranes palmées des mains et des pieds augmentent la surface déplacée pendant la nage."
+          },
+          {
+            "text": "Elles facilitent notamment :"
+          },
+          {
+            "items": [
+              "la propulsion ;",
+              "les changements de direction ;",
+              "le maintien dans un courant ;",
+              "la stabilisation du corps."
+            ]
+          },
+          {
+            "text": "Les nageoires corporelles participent principalement :"
+          },
+          {
+            "items": [
+              "à l’équilibre ;",
+              "à la direction ;",
+              "au freinage ;",
+              "aux changements rapides de position."
+            ]
+          },
+          {
+            "text": "Les nageoires auriculaires contribuent également à la perception des mouvements de l’eau autour de la tête, tout en assurant leur fonction auditive."
+          },
+          {
+            "text": "Sur terre, elles restent fonctionnelles mais se maintiennent généralement plus près du crâne."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Kai sont omnivores à forte préférence végétale."
+          },
+          {
+            "text": "Leur alimentation comprend fréquemment :"
+          },
+          {
+            "items": [
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des algues ;",
+              "des herbes aquatiques ;",
+              "des champignons ;",
+              "des racines ;",
+              "des produits issus des eaux peu profondes."
+            ]
+          },
+          {
+            "text": "Ils peuvent consommer de la viande ou du poisson, mais ces aliments ne dominent pas nécessairement leur alimentation habituelle."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Kai possèdent une espérance de vie moyenne d’environ **90 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **130 ans**."
+          },
+          {
+            "text": "Leur développement aquatique commence très tôt."
+          },
+          {
+            "text": "Les jeunes Kai peuvent généralement nager dès leurs premières semaines."
+          },
+          {
+            "text": "La marche autonome apparaît plus tard, fréquemment autour de deux ans, tandis que les premiers mots se développent vers un an et demi."
+          },
+          {
+            "text": "Leur organisme est particulièrement adapté :"
+          },
+          {
+            "items": [
+              "à la nage prolongée ;",
+              "aux changements rapides de direction ;",
+              "à la vie dans des eaux éclairées ;",
+              "aux passages réguliers entre l’eau et la terre ;",
+              "aux activités demandant coordination et souplesse."
+            ]
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "la peau devient progressivement plus claire ;",
+              "les cheveux blanchissent ;",
+              "les nageoires peuvent perdre une partie de leur souplesse ;",
+              "les membranes palmées deviennent plus fines ;",
+              "la force et la résistance physiques diminuent."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "Les Kai possèdent une perception ésotérique particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "une présence magique ;",
+              "une aura active ;",
+              "une perturbation psychique ;",
+              "un flux circulant dans l’eau ;",
+              "une magie dormante ;",
+              "les traces laissées par un effet ;",
+              "une modification surnaturelle de leur environnement ;",
+              "les variations d’intensité d’une manifestation."
+            ]
+          },
+          {
+            "text": "L’eau peut faciliter la propagation de certaines sensations ésotériques, mais ne leur révèle pas automatiquement la nature ou l’origine d’un effet."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "L’odorat kai est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "suivre une trace olfactive faible dans l’air ;",
+              "distinguer plusieurs odeurs proches ;",
+              "localiser précisément une senteur ;",
+              "identifier une substance par son odeur seule ;",
+              "percevoir une variation olfactive discrète ;",
+              "isoler une odeur dans un environnement chargé."
+            ]
+          },
+          {
+            "text": "Leur odorat reste fonctionnel pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La pratique magique kai repose fréquemment sur la maîtrise psychique, la fluidité et l’adaptation rapide à une situation."
+          },
+          {
+            "text": "Leur Psyché développée favorise notamment :"
+          },
+          {
+            "items": [
+              "l’influence mentale ;",
+              "la résistance psychique ;",
+              "la concentration ;",
+              "les communications mentales ;",
+              "la stabilisation de l’esprit ;",
+              "l’application d’effets surnaturels reposant sur la volonté."
+            ]
+          },
+          {
+            "text": "Leur Dextérité facilite l’intégration de la magie :"
+          },
+          {
+            "items": [
+              "aux déplacements ;",
+              "à la nage ;",
+              "aux changements rapides de position ;",
+              "aux gestes précis ;",
+              "aux pratiques réalisées en mouvement."
+            ]
+          },
+          {
+            "text": "Leur Démagie diminuée les rend moins naturellement adaptés aux manifestations élémentaires reposant principalement sur une projection brutale de puissance."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Eau**"
+          },
+          {
+            "text": "L’Eau constitue l’affinité élémentaire recommandée pour les Kai."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie kai se manifeste fréquemment sous des formes fluides et continues."
+          },
+          {
+            "text": "Lorsqu’elle utilise l’Eau, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de courants fins ;",
+              "de sphères liquides ;",
+              "de surfaces ondulantes ;",
+              "de filaments d’eau ;",
+              "de pressions sous-marines ;",
+              "de mouvements circulaires ;",
+              "de vagues brèves ;",
+              "de membranes liquides."
+            ]
+          },
+          {
+            "text": "Les manifestations kai privilégient généralement :"
+          },
+          {
+            "items": [
+              "la fluidité ;",
+              "le contrôle ;",
+              "la mobilité ;",
+              "la continuité ;",
+              "l’adaptation ;",
+              "l’influence progressive."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les branchies, les membranes palmées et les nageoires kai sont des caractéristiques physiologiques naturelles."
+          },
+          {
+            "text": "Elles ne dépendent pas de l’affinité choisie."
+          },
+          {
+            "text": "Un Kai lié au Feu, au Son ou à un autre élément conserve donc pleinement son anatomie aquatique."
+          },
+          {
+            "text": "L’affinité recommandée à l’Eau n’accorde automatiquement :"
+          },
+          {
+            "items": [
+              "ni Réserve naturelle de SM ;",
+              "ni Adaptation environnementale aux Mers ;",
+              "ni Transformation particulière."
+            ]
+          },
+          {
+            "text": "Ces capacités doivent être obtenues par une Voie d’héritage."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage kai :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "PSY +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DEX +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "DEM −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Eau"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. L’Eau constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Influence Psychique",
+                  "B"
+                ],
+                [
+                  "Ancrage Mental",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Influence Psychique",
+            "headingLevel": 5,
+            "anchor": "influence-psychique",
+            "text": "Cette formation développe la capacité à intensifier temporairement sa présence psychique."
+          },
+          {
+            "text": "Au N1, elle permet notamment d’améliorer d’un niveau les actions psychiques compatibles utilisant :"
+          },
+          {
+            "items": [
+              "Intimider ;",
+              "Charmer ;",
+              "Commander."
+            ]
+          },
+          {
+            "text": "Le bonus ne s’applique qu’aux utilisations réellement surnaturelles de ces actions."
+          },
+          {
+            "text": "Aux niveaux supérieurs, la compétence peut :"
+          },
+          {
+            "items": [
+              "désigner une cible précise à proximité ;",
+              "imposer un désavantage à certaines résistances de PSY ;",
+              "forcer la relance d’une résistance réussie ;",
+              "attacher une suggestion psychique à une action compatible ;",
+              "appliquer temporairement Influencé T1."
+            ]
+          },
+          {
+            "title": "Ancrage Mental",
+            "headingLevel": 5,
+            "anchor": "ancrage-mental",
+            "text": "Cette formation développe la capacité à stabiliser temporairement l’esprit contre de nouvelles pénalités mentales."
+          },
+          {
+            "text": "Au N1, le personnage protège sa propre PSY contre les nouveaux malus numériques et désavantages qui lui sont directement appliqués."
+          },
+          {
+            "text": "Aux niveaux supérieurs, la protection peut :"
+          },
+          {
+            "items": [
+              "cibler un allié ;",
+              "protéger également le CHAR ;",
+              "protéger l’INT et le MENT ;",
+              "affecter plusieurs alliés ;",
+              "renforcer la défense mentale."
+            ]
+          },
+          {
+            "text": "Ancrage Mental ne supprime pas les états ou malus déjà présents avant son activation."
+          },
+          {
+            "text": "Il ne bloque pas non plus :"
+          },
+          {
+            "items": [
+              "les pertes de SM ;",
+              "les restrictions d’action ;",
+              "les contrôles mentaux ;",
+              "les obligations de comportement ;",
+              "les autres conséquences non statistiques."
+            ]
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Influence Psychique ;",
+              "Ancrage Mental."
+            ]
+          },
+          {
+            "title": "Adaptation environnementale — Mers",
+            "headingLevel": 5,
+            "anchor": "adaptation-environnementale-mers",
+            "text": "Vous obtenez la compétence d’environnement associée aux **Mers** au N1, selon les règles générales d’Adaptation environnementale."
+          },
+          {
+            "title": "Réserve naturelle — SM",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-sm",
+            "text": "Votre maximum de **SM** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de SM augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Transformation et Condition",
+            "headingLevel": 5,
+            "anchor": "transformation-et-condition",
+            "text": "Vous êtes porteur d’une **Condition latente** et de la transformation qui lui est associée."
+          },
+          {
+            "text": "Lorsqu’elle se manifeste conformément aux règles générales des Conditions, elle peut provoquer une altération temporaire de votre organisme."
+          },
+          {
+            "text": "La nature exacte de la Condition détermine :"
+          },
+          {
+            "items": [
+              "les signes annonçant sa manifestation ;",
+              "l’apparence de la transformation ;",
+              "ses effets ;",
+              "ses limites ;",
+              "les circonstances dans lesquelles elle peut apparaître."
+            ]
+          },
+          {
+            "text": "Cette transformation appartient uniquement aux personnages ayant choisi cette Voie d’héritage."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Kai.md",
+    "sourceSha256": "c008cb32bf134bab17b55edc0f91f93401673980f6aae2ffdfe53a90ef34e647"
+  }
+}

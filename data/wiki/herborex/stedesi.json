@@ -1,0 +1,95 @@
+{
+  "id": "stedesi",
+  "type": "plant",
+  "identity": {
+    "name": "Stedesi",
+    "subtitle": "Herbe jaune aux tiges violettes",
+    "unknownName": "Plante fine a longues tiges violettes",
+    "slug": "stedesi",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Stedesi.png",
+    "visualNote": "Plante basse a rhizome brun, portant de longues tiges violettes arquees et des feuilles jaunes ondulees.",
+    "tags": [
+      "herbe",
+      "steppe",
+      "toundra",
+      "tiges-violettes"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "graminee",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe seche chaude",
+      "toundra seche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "terre pauvre",
+      "sol caillouteux",
+      "rocaille"
+    ],
+    "season": [
+      "retour des pluies",
+      "degel",
+      "saison seche",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "30 cm a 1,4 m",
+    "width": "30 cm a 1 m",
+    "colorMain": "jaune pale",
+    "colorSecondary": "violet, brun racinaire, dore clair",
+    "distinctiveSigns": [
+      "rhizome brun horizontal et noueux",
+      "nombreuses racines fines violettes",
+      "tiges tres longues, fines et violettes",
+      "tiges arquees sous le vent",
+      "feuilles terminales jaunes, etroites et ondulees",
+      "nervure centrale violette visible",
+      "capsules allongees a grains violets",
+      "graines rondes violettes"
+    ],
+    "descriptionShort": "Le Stedesi est une herbe fine a rhizome brun, tiges violettes et feuilles jaunes ondulees.",
+    "descriptionFull": "Le Stedesi survit dans des milieux secs tres differents grace a son rhizome noueux. De cette base partent de longues tiges violettes qui se courbent sans rompre, terminees par des feuilles jaunes translucides et ondulees. Dans les zones chaudes, la plante devient plus doree et cassante; dans les zones froides, elle reste plus pale durant sa courte saison visible."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les longues tiges du Stedesi peuvent servir a de petits liens souples, a un tressage leger ou a des marques decoratives seches."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "materials.cryth",
+  "type": "material",
+  "identity": {
+    "name": "Cryth",
+    "subtitle": "Métaux · Spécial",
+    "icon": "◆",
+    "tags": [
+      "cryth",
+      "Cryth",
+      "metal",
+      "Métaux",
+      "special",
+      "Spécial",
+      "Métal natif ou origine extraplanaire à préciser",
+      "Noir violacé",
+      "Métal lourd, presque inaltérable, réactif aux flux sombres.",
+      "Ténèbres/Démoniaque",
+      "hybrid",
+      "Hybride",
+      "Bon",
+      "Armes démoniaques",
+      "sceaux",
+      "artefacts interdits",
+      "démon",
+      "contrebande",
+      "trésor majeur",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 10
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "cryth",
+    "family": "metal",
+    "weaponProfile": "hybrid",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Spécial"
+      },
+      {
+        "label": "Rareté",
+        "value": 10
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif ou origine extraplanaire à préciser"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir violacé"
+          },
+          {
+            "title": "Description",
+            "text": "Métal lourd, presque inaltérable, réactif aux flux sombres."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "10"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Exceptionnel (5)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "5"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Exceptionnelle (5)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "5"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Ténèbres/Démoniaque"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Résonance puissante avec la magie noire et les sceaux interdits."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Risque de corruption, traçabilité et possession illégale."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armes démoniaques",
+              "sceaux",
+              "artefacts interdits"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "démon",
+              "contrebande",
+              "trésor majeur",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "10000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.55"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Trésor majeur"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "1"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "dégradation/folie"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_necrose",
+              "folie_t1",
+              "folie_t2"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

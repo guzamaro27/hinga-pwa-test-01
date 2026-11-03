@@ -1,0 +1,237 @@
+{
+  "id": "materials.dalior",
+  "type": "material",
+  "identity": {
+    "name": "Dalior",
+    "subtitle": "Métaux · Base",
+    "icon": "◆",
+    "tags": [
+      "dalior",
+      "Dalior",
+      "metal",
+      "Métaux",
+      "base",
+      "Base",
+      "Métal natif",
+      "Gris clair",
+      "Métal léger, stable à chaud mais vulnérable à l’eau.",
+      "Métal/Feu",
+      "physical",
+      "Physique",
+      "Faible",
+      "Outils",
+      "pièces mécaniques",
+      "foyers",
+      "mineur",
+      "forgeron",
+      "mécanicien",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 3
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "dalior",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Base"
+      },
+      {
+        "label": "Rareté",
+        "value": 3
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris clair"
+          },
+          {
+            "title": "Description",
+            "text": "Métal léger, stable à chaud mais vulnérable à l’eau."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "4"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Feu"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Conserve ses propriétés à haute température."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Corrosion accélérée au contact prolongé de l’eau."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Outils",
+              "pièces mécaniques",
+              "foyers"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "forgeron",
+              "mécanicien",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "24"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.85"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "60"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "chaleur/dégradation"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_chaud",
+              "etat_metal_marque_t1"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

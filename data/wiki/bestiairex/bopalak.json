@@ -1,0 +1,35 @@
+{
+  "id": "bopalak",
+  "type": "creature-public",
+  "identity": {
+    "name": "Bopalak",
+    "subtitle": "Le Chasseur des Marais",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "aquatique",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Bopalak vit principalement dans les zones marécageuses tropicales, les rivières lentes, les marais et les étangs. Il privilégie les eaux peu profondes et les terres humides où il peut rester immobile avant de bondir sur de petites proies aquatiques. Carnivore, il chasse surtout les poissons, amphibiens et petits animaux des milieux d’eau douce."
+          },
+          {
+            "text": "Le Bopalak est une créature semi-aquatique élancée au corps long et flexible. Sa tête fine est prolongée par un long bec plat lui permettant de capturer rapidement de petites proies dans l’eau. Sa peau écailleuse aux teintes vert sombre, brunes et ocre lui permet de se camoufler efficacement dans les marais. Sur son torse et le long de la ligne de son dos poussent des plumes colorées particulièrement prisées pour leur beauté et leur rareté. Ses quatre pattes fines terminées par des pieds palmés lui permettent de se déplacer efficacement dans l’eau peu profonde comme sur la terre humide. Sa longue queue aplatie latéralement lui sert de gouvernail lors de la nage."
+          },
+          {
+            "text": "Le Bopalak vit seul ou en petits groupes dispersés. Les nids sont installés dans la végétation proche de l’eau, généralement dans des zones difficiles d’accès pour les prédateurs terrestres."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "grerma",
+  "type": "plant",
+  "identity": {
+    "name": "Grerma",
+    "subtitle": "Lame verte des toundras sèches",
+    "unknownName": "Plante froide à longues feuilles sombres",
+    "slug": "grerma",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Grerma.png",
+    "visualNote": "Plante de toundra en touffe dense, composée de longues feuilles vert sombre luisantes, bordées de clair, avec racines brunes et violettes.",
+    "tags": [
+      "toundra",
+      "feuilles-rigides",
+      "racines-violettes"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "toundra sèche froide",
+      "steppe sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre pauvre",
+      "sol caillouteux",
+      "rocaille",
+      "neige"
+    ],
+    "season": [
+      "dégel",
+      "nuit longue",
+      "premiers froids"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "35 cm à 1,2 m",
+    "width": "35 cm à 90 cm",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun racinaire, violet, blanc crème",
+    "distinctiveSigns": [
+      "touffe dense de longues feuilles dressées en éventail",
+      "feuilles étroites, rigides, pointues et légèrement arquées",
+      "surface sombre, luisante et cireuse",
+      "bords clairs parfois blanchâtres",
+      "racines épaisses brunes avec radicelles violettes",
+      "fleur pâle à pointes violettes",
+      "capsule ovoïde contenant de petites graines vert-brun"
+    ],
+    "descriptionShort": "Le Grerma est une herbe froide aux longues feuilles sombres, rigides et luisantes.",
+    "descriptionFull": "Le Grerma pousse dans les toundras sèches et les sols pauvres qui dégèlent peu profondément. Sa touffe serrée protège la base du vent, tandis que ses feuilles épaisses captent la lumière basse des saisons courtes. Sous terre, un réseau de racines brunes et violettes l'accroche aux fissures rocheuses. La floraison donne une hampe pâle, puis des capsules à petites graines."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les feuilles rigides peuvent érafler les mains ou le museau des animaux."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "semis",
+      "ornementale"
+    ],
+    "notes": "Les feuilles sèches donnent une fibre courte et rigide, utile pour des ligatures grossières ou des petits tressages de voyage."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

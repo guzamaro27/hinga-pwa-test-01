@@ -1,0 +1,238 @@
+{
+  "id": "materials.vyris",
+  "type": "material",
+  "identity": {
+    "name": "Vyris",
+    "subtitle": "Bois · Magique",
+    "icon": "◆",
+    "tags": [
+      "vyris",
+      "Vyris",
+      "wood",
+      "Bois",
+      "magique",
+      "Magique",
+      "Essence rare du Nord",
+      "Noir mat",
+      "Bois dense et stable face au froid et à l’humidité.",
+      "Froid/Eau",
+      "hybrid",
+      "Hybride",
+      "Normal",
+      "Armes spéciales",
+      "coques",
+      "reliques du Nord",
+      "nord",
+      "forestier",
+      "maître artisan",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Bois",
+    "rarity": 7
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "vyris",
+    "family": "wood",
+    "weaponProfile": "hybrid",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Bois"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Magique"
+      },
+      {
+        "label": "Rareté",
+        "value": 7
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Essence rare du Nord"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir mat"
+          },
+          {
+            "title": "Description",
+            "text": "Bois dense et stable face au froid et à l’humidité."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "9"
+          },
+          {
+            "title": "Masse relative",
+            "text": "4"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Élevé (3)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "3"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Froid/Eau"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Résistance environnementale supérieure."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Rare, difficile à sécher et à sculpter."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armes spéciales",
+              "coques",
+              "reliques du Nord"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "nord",
+              "forestier",
+              "maître artisan",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Planche de 1 m (≈3 kg)"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "3"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "188"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.8"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "12"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_refroidi",
+              "etat_gele",
+              "etat_eau_engourdi"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

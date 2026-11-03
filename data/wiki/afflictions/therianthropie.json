@@ -1,0 +1,110 @@
+{
+  "id": "therianthropie",
+  "type": "affliction",
+  "identity": { "name": "Thérianthropie", "subtitle": "Transformation animale · Cinq Voies exclusives · Bestia", "slug": "therianthropie", "tags": ["affliction", "transformation animale", "Bestia", "Instinct Bestial"] },
+  "classification": { "category": "Affliction", "rarity": "Rare", "family": "Transformation animale" },
+  "codex": { "sections": [
+    { "label": "Présentation", "anchor": "presentation", "blocks": [
+      { "text": "La Thérianthropie est une Affliction rare de transformation animale, historiquement liée aux Kalmani. Son origine demeure mystérieuse et ses rituels d’éveil ou de transmission varient selon les groupes et les espèces." },
+      { "text": "La progression suit Forme animale → Bestia Fera → Bestia Imania → Bestia Magna → Bestia Numina. Une seule des cinq Voies — Bec, Croc, Griffe, Crinière ou Galop — peut être acquise." }
+    ] },
+    { "label": "Transformation et Forme native", "anchor": "transformation", "blocks": [
+      { "title": "Forme native", "anchor": "forme-native", "headingLevel": 4, "text": "La Forme native est l’apparence normale du personnage correspondant à son peuple. L’Affliction est inactive et n’applique aucun modificateur." },
+      { "title": "Transformation volontaire", "anchor": "transformation-volontaire", "headingLevel": 4, "text": "Depuis la Forme native, choisir une forme débloquée, engager une action majeure et payer 2 PF. La transformation est appliquée avant un test de PSY effective transformée. Une réussite conserve le contrôle ; un échec active Instinct Bestial. Aucun coût de maintien." },
+      { "title": "Retour natif", "anchor": "retour-natif", "headingLevel": 4, "text": "Revenir volontairement en Forme native coûte une action mineure et 2 PF, sans jet. Ce retour est impossible sous Instinct Bestial. Aucun changement direct de Bestia n’est possible en restant transformé." },
+      { "title": "Transformation involontaire", "anchor": "transformation-involontaire", "headingLevel": 4, "text": "Aucune action ; Forme animale ; Instinct Bestial immédiat. Elle coûte jusqu’à 4 PF : si moins de 4 PF restent, tous les PF restants sont dépensés et la transformation réussit quand même." },
+      { "items": ["Franchissement réel de 25 % de PV vers une valeur strictement inférieure.", "Application ou aggravation d’un state canonique peur/panique de Tier 3 ou plus.", "Ordre narratif explicite du MJ.", "Aucun redéclenchement si le personnage est déjà transformé."] }
+    ] },
+    { "label": "Instinct Bestial", "anchor": "instinct-bestial", "blocks": [
+      { "text": "Sous Instinct Bestial, le personnage demeure transformé et ne peut pas revenir volontairement en Forme native. Le joueur conserve son token. Les actions complexes incompatibles avec les instincts immédiats restent soumises à l’arbitrage du MJ ; la magie n’est pas arbitrairement interdite." },
+      { "text": "Au début de chaque tour personnel, un seul test de PSY effective transformée est effectué. Une réussite met fin à l’Instinct sans mettre fin à la transformation ; un échec le maintient. Aucun PF ni action." }
+    ] },
+    { "label": "Forme animale et attaque naturelle", "anchor": "forme-animale", "blocks": [
+      { "table": { "headers": ["Stat", "Modification"], "rows": [["FOR", "+5"], ["CONST", "+5"], ["REACT", "+5"], ["DEX", "+5"], ["PSY", "−10"], ["INT", "−10"], ["CHAR", "±0"]] } },
+      { "title": "Attaque naturelle", "anchor": "attaque-naturelle", "headingLevel": 4, "text": "Nom choisi par le MJ : morsure, griffes, serres, cornes, sabots ou autre. Action majeure, exactement 1 PF, FOR, profil cac, physique/naturelle/contact. Dégâts : cacDamageFormula(FOR effective) + 1d4. Critiques et défenses standards." }
+    ] },
+    { "label": "Progression Bestia", "anchor": "progression", "blocks": [
+      { "title": "Bestia Fera", "anchor": "bestia-fera", "headingLevel": 4, "text": "Débloquée par le premier palier de la Voie exclusive." },
+      { "title": "Bestia Imania", "anchor": "bestia-imania", "headingLevel": 4, "text": "Débloquée par le deuxième palier de la Voie." },
+      { "title": "Bestia Magna", "anchor": "bestia-magna", "headingLevel": 4, "text": "Débloquée par le troisième palier de la Voie." },
+      { "title": "Bestia Numina", "anchor": "bestia-numina", "headingLevel": 4, "text": "Débloquée par l’Apex de la Voie. Les formes inférieures restent accessibles." }
+    ] },
+    { "label": "Voie du Bec", "anchor": "voie-bec", "blocks": [
+      { "table": { "headers": ["Forme", "Ajout cumulatif", "Total"], "rows": [
+        ["Fera — Voie du Bec", "REACT +10, FOR −5", "FOR 0 · CONST 5 · REACT 15 · DEX 5"],
+        { "anchor": "condor", "cells": ["Imania — Condor", "REACT +10, FOR −5", "FOR −5 · REACT 25"] },
+        { "anchor": "rapace", "cells": ["Magna — Rapace", "DEX +20, CONST −10", "FOR −5 · CONST −5 · REACT 25 · DEX 25"] },
+        { "anchor": "apex-bec", "cells": ["Numina — Apex Bec", "REACT +15, DEX +15, DISCR +5, PERC +5, FOR −10, CONST −10, CHAR +10", "FOR −15 · CONST −15 · REACT 40 · DEX 40 · DISCR 5 · PERC 5 · CHAR 10"] }
+      ] } },
+      { "text": "Condor (Imania+) : vraie Esquive, +1 cran d’aisance pour +2 PF, sans seconde réaction. Rapace réduit le surcoût à +1 PF. Numina : après une Esquive Condor réussie, déplacement gratuit jusqu’à 3 m sans attaque d’opportunité." }
+    ] },
+    { "label": "Voie du Croc", "anchor": "voie-croc", "blocks": [
+      { "table": { "headers": ["Forme", "Ajout cumulatif", "Total"], "rows": [
+        ["Fera — Voie du Croc", "FOR +10, DEX −5", "FOR 15 · CONST 5 · REACT 5 · DEX 0"],
+        { "anchor": "carnivore", "cells": ["Imania — Carnivore", "FOR +10, DEX −5", "FOR 25 · DEX −5"] },
+        { "anchor": "predateur", "cells": ["Magna — Prédateur", "VITA +20, CONST −10", "FOR 25 · VITA 20 · CONST −5 · DEX −5"] },
+        { "anchor": "apex-croc", "cells": ["Numina — Apex Croc", "FOR +15, VITA +20, PERC +5, DEX −10, CONST −10, CHAR +10", "FOR 40 · VITA 40 · CONST −15 · DEX −15 · PERC 5 · CHAR 10"] }
+      ] } },
+      { "text": "Carnivore (Imania+) : morsure, action majeure, 2 PF total, FOR, cac physique naturelle contact, cacDamageFormula(FOR)+1d8. Si au moins 1 PV est perdu : Saignement léger en réussite, Hémorragie en critique, Exsanguination en ultime." },
+      { "text": "Prédateur : +5 au seuil des attaques physiques CàC contre une cible qui saigne. Numina remplace ce bonus par 5 × le plus haut Tier de Saignement actif (+5 à +20), sans cumul." }
+    ] },
+    { "label": "Voie de la Griffe", "anchor": "voie-griffe", "blocks": [
+      { "table": { "headers": ["Forme", "Ajout cumulatif", "Total"], "rows": [
+        ["Fera — Voie de la Griffe", "CONST +10, REACT −5", "FOR 5 · CONST 15 · REACT 0 · DEX 5"],
+        { "anchor": "bete", "cells": ["Imania — Bête", "CONST +10, REACT −5", "CONST 25 · REACT −5 · RES PHY +2"] },
+        { "anchor": "monstre", "cells": ["Magna — Monstre", "FOR +20, DEX −10", "FOR 25 · CONST 25 · REACT −5 · DEX −5 · RES PHY +4"] },
+        { "anchor": "apex-griffe", "cells": ["Numina — Apex Griffe", "CONST +15, FOR +15, DEM +10, REACT −10, DEX −10, CHAR +10", "FOR 40 · CONST 40 · REACT −15 · DEX −15 · DEM 10 · CHAR 10 · RES PHY +5"] }
+      ] } },
+      { "text": "Bête améliore d’un cran les vraies résistances/sorties contre les states canoniques négatifs d’axe physique. Monstre peut ensuite réduire une fois par round un tel state d’un Tier après la résistance (T1 annulé). Apex porte cette limite à deux fois par round." }
+    ] },
+    { "label": "Voie de la Crinière", "anchor": "voie-criniere", "blocks": [
+      { "table": { "headers": ["Forme", "Ajout cumulatif", "Total"], "rows": [
+        ["Fera — Voie de la Crinière", "DEX +10, VITA −5", "DEX 15 · VITA −5"],
+        { "anchor": "fauve", "cells": ["Imania — Fauve", "DEX +10, VITA −5", "DEX 25 · VITA −10"] },
+        { "anchor": "roi", "cells": ["Magna — Roi", "REACT +20, CONST −10", "CONST −5 · REACT 25 · DEX 25"] },
+        { "anchor": "apex-criniere", "cells": ["Numina — Apex Crinière", "DEX +15, REACT +15, DISCR +10, VITA −10, CONST −10, CHAR +10", "CONST −15 · REACT 40 · DEX 40 · VITA −20 · DISCR 10 · CHAR 10"] }
+      ] } },
+      { "text": "Fauve ignore terrain_difficile uniquement en mouvement volontaire. Roi l’ignore globalement et accorde +5 au seuil d’Esquive. Numina ignore en plus les restrictions de mouvement de terrain_dangereux sans supprimer son danger intrinsèque ; le mouvement volontaire à travers ces terrains ne provoque pas d’attaque d’opportunité." }
+    ] },
+    { "label": "Voie du Galop", "anchor": "voie-galop", "blocks": [
+      { "table": { "headers": ["Forme", "Ajout cumulatif", "Total"], "rows": [
+        ["Fera — Voie du Galop", "VITA +10, CONST −5", "CONST 0 · VITA 10"],
+        { "anchor": "meute", "cells": ["Imania — Meute", "VITA +10, CONST −5", "CONST −5 · VITA 20"] },
+        { "anchor": "alpha", "cells": ["Magna — Alpha", "DEX +20, FOR −10", "FOR −5 · CONST −5 · DEX 25 · VITA 20"] },
+        { "anchor": "apex-galop", "cells": ["Numina — Apex Galop", "VITA +20, DEX +15, PERC +5, CONST −10, FOR −10, CHAR +10", "FOR −15 · CONST −15 · REACT 5 · DEX 40 · VITA 40 · PERC 5 · CHAR 10"] }
+      ] } },
+      { "text": "Meute double uniquement le déplacement volontaire maximal. Alpha choisit au départ jusqu’à deux alliés conscients et mobiles à 3 m : le Sillage de l’Alpha, valable jusqu’au début de son prochain tour, donne à leur prochain mouvement volontaire cohérent +2 m puis +5 au seuil de leur prochaine attaque admissible, consommé même sur échec." },
+      { "text": "En Numina, le bonus offensif devient +10 et l’allié ayant suivi double sa RES MENT effective jusqu’au début du prochain tour de l’Alpha, sans minimum. Plusieurs Sillages ne se cumulent pas : garder le meilleur." }
+    ] },
+    { "label": "Apprivoisé", "anchor": "apprivoise", "blocks": [
+      { "text": "Aptitude satellite passive, sans prérequis de Voie. Elle donne +20 au seuil — jamais +20 PSY — uniquement aux jets de PSY qui contrôlent la propre Thérianthropie : transformation volontaire avec PSY effective transformée, déclencheur involontaire avec PSY native, et sortie d’Instinct Bestial avec PSY effective transformée." },
+      { "text": "Sur un déclencheur involontaire réussi, le joueur choisit de résister entièrement sans coût, ou de canaliser la transformation vers une forme réellement débloquée. La transformation canalisée coûte jusqu’à 4 PF et reste contrôlée. Sur un échec, aucun choix : Forme animale, jusqu’à 4 PF dépensés et Instinct Bestial actif, même si Bestia Numina est débloquée." },
+      { "text": "Apprivoisé ne donne aucun bonus permanent de PSY, CHAR ou RES MENT et n’améliore aucun autre jet mental." }
+    ] },
+    { "label": "Intimidation Bestiale", "anchor": "intimidation-bestiale", "blocks": [
+      { "text": "Une seule Aptitude active à trois niveaux, utilisable dans toute forme transformée sans prérequis de Voie. Action majeure, 1 PF total, portée 5 m et jet offensif de CHAR contre des cibles capables de percevoir la menace. Une réussite ouvre pour chaque cible le counter canonique de etat_intimide ; un échec de ce counter applique Intimidé T2 selon sa durée et son empilement officiels." },
+      { "table": { "headers": ["Niveau", "Nom", "Bonus au seuil CHAR", "Cibles choisies"], "rows": [
+        { "anchor": "intimidation", "cells": ["N1", "Intimidation", "+5", "1"] },
+        { "anchor": "cri-deffroi", "cells": ["N2", "Cri d’effroi", "+10", "1"] },
+        { "anchor": "aura-terrifiante", "cells": ["N3", "Aura Terrifiante", "+15", "1 à 3"] }
+      ] } },
+      { "text": "Aura Terrifiante effectue un seul jet offensif source et coûte toujours 1 PF total ; chaque cible résiste indépendamment. Réussite, critique et ultime ouvrent le même counter sans aggravation. Aucun effet de Peur, Panique, perte de SM, fuite, évanouissement ou mort n’est ajouté." }
+    ] },
+    { "label": "Résumé et limites", "anchor": "resume", "blocks": [
+      { "items": ["Toutes les formes : PSY −10 et INT −10 ; seul Apex ajoute CHAR +10.", "Les formes inférieures restent accessibles.", "Les jauges suivent le helper proportionnel lors des changements de maxima.", "Le registre comprend vingt Aptitudes de Voies et deux satellites : apprivoise et intimidationBestiale.", "Cri d’effroi et Aura Terrifiante sont des niveaux narratifs, pas des IDs runtime.", "Le Vol ne fait pas partie de ces règles et aucun coût d’acquisition n’est associé ici aux Aptitudes."] }
+    ] }
+  ] },
+  "documentation": {
+    "summary": "Règles canoniques de la Thérianthropie, de ses cinq Voies exclusives, des formes Bestia et de ses Aptitudes satellites.",
+    "sourceMarkdown": "docs/afflictions/therianthropie.md",
+    "categories": ["bec", "croc", "griffe", "criniere", "galop", "satellites"],
+    "aptitudes": [
+      { "aptitudeId": "voieBec", "anchor": "voie-bec" }, { "aptitudeId": "condor", "anchor": "condor" }, { "aptitudeId": "rapace", "anchor": "rapace" }, { "aptitudeId": "apexBec", "anchor": "apex-bec" },
+      { "aptitudeId": "voieCroc", "anchor": "voie-croc" }, { "aptitudeId": "carnivore", "anchor": "carnivore" }, { "aptitudeId": "predateur", "anchor": "predateur" }, { "aptitudeId": "apexCroc", "anchor": "apex-croc" },
+      { "aptitudeId": "voieGriffe", "anchor": "voie-griffe" }, { "aptitudeId": "bete", "anchor": "bete" }, { "aptitudeId": "monstre", "anchor": "monstre" }, { "aptitudeId": "apexGriffe", "anchor": "apex-griffe" },
+      { "aptitudeId": "voieCriniere", "anchor": "voie-criniere" }, { "aptitudeId": "fauve", "anchor": "fauve" }, { "aptitudeId": "roi", "anchor": "roi" }, { "aptitudeId": "apexCriniere", "anchor": "apex-criniere" },
+      { "aptitudeId": "voieGalop", "anchor": "voie-galop" }, { "aptitudeId": "meute", "anchor": "meute" }, { "aptitudeId": "alpha", "anchor": "alpha" }, { "aptitudeId": "apexGalop", "anchor": "apex-galop" },
+      { "aptitudeId": "apprivoise", "anchor": "apprivoise" }, { "aptitudeId": "intimidationBestiale", "anchor": "intimidation-bestiale" }
+    ]
+  }
+}

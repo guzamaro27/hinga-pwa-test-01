@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-edit",
+  "type": "codex",
+  "identity": {
+    "name": "Modifier",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "modifier"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Modifier"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Modifier profondément un piège via builder."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Modifier permet de changer les données profondes d'un piège : type, zones, effets, déclenchement ou fonctionnement. Une vraie modification crée une nouvelle version du piège."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Possible seulement si le personnage est le créateur de cette version du piège."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Aucun jet si l'utilisateur a les droits de modification."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Si l'utilisateur a les droits, ouvre le builder ou l'éditeur du piège. Sinon, l'action est refusée."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Oui, builder ou fiche item."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Disponible sur les pièges de sac ou outils autorisés."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Refus si l'utilisateur n'est ni créateur ni autorisé, ou si le piège n'est pas modifiable."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Un personnage non-créateur peut modifier un piège seulement avec une compétence adaptée et Knowledge 3 : Maîtrise."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "La version du piège est modifiee selon les champs sauvegardés."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Aucune modification n'est enregistrée."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Modifier via builder transforme le modifieur en nouveau créateur de cette version. Posséder un piège ne suffit pas à pouvoir le modifier."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Modifier",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

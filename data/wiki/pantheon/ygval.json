@@ -1,0 +1,179 @@
+{
+  "id": "ygval",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Ygval",
+    "subtitle": "Le Maelström Infini",
+    "tags": [
+      "Ygval",
+      "Le Maelström Infini",
+      "esprit majeur",
+      "Océan",
+      "Marées",
+      "Tempêtes",
+      "Infini",
+      "Navigation",
+      "Orientation",
+      "Flot Intarissable",
+      "Respiration et navigation aquatique"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#1F4A63",
+    "visualNote": "Océan • Marées • Tempêtes • Infini • Navigation • Orientation"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "ygval",
+    "name": "Ygval",
+    "title": "Le Maelström Infini",
+    "type": "esprit_majeur",
+    "domains": [
+      "Océan",
+      "Marées",
+      "Tempêtes",
+      "Infini",
+      "Navigation",
+      "Orientation"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "high_tide",
+      "label": "À chaque marée haute"
+    },
+    "cult": {
+      "short": "S’immerger totalement dans l’eau",
+      "ritual": "S'immerger totalement dans l'eau pendant une minute, les yeux et la bouche grand ouverts."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La maîtrise des flots est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "flot_intarissable": {
+        "key": "flot_intarissable",
+        "name": "Flot Intarissable",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Respiration et navigation aquatique",
+        "fullDescription": "Permet de retenir sa respiration plus longtemps sous l’eau et protège du mal de mer.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#1F4A63",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "moross"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Océan",
+              "Marées",
+              "Tempêtes",
+              "Infini",
+              "Navigation",
+              "Orientation"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "S’immerger totalement dans l’eau"
+          },
+          {
+            "title": "Rituel",
+            "text": "S'immerger totalement dans l'eau pendant une minute, les yeux et la bouche grand ouverts."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque marée haute"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "high_tide"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Flot Intarissable (commune, passif)",
+              "Effet court : Respiration et navigation aquatique",
+              "Description : Permet de retenir sa respiration plus longtemps sous l’eau et protège du mal de mer.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La maîtrise des flots est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "moross"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "ygval"
+  }
+}

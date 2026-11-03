@@ -1,0 +1,99 @@
+{
+  "id": "palsan",
+  "type": "plant",
+  "identity": {
+    "name": "Palsan",
+    "subtitle": "Palmier à fruits jaunes des forêts chaudes",
+    "unknownName": "Palmier tropical à tronc annelé, longues palmes vertes et fruits jaunes pendants",
+    "slug": "palsan",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Palsan.png",
+    "visualNote": "Palmier tropical au tronc brun annelé et épineux, portant de longues palmes vert sombre et des fruits jaunes en forme de poire.",
+    "tags": [
+      "palmier",
+      "tropical",
+      "fruit-jaune"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "palmier",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "4 à 11 m",
+    "width": "3 à 8 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun, violet, jaune ocre",
+    "distinctiveSigns": [
+      "tronc unique brun, épais et fortement annelé",
+      "petites épines sombres autour des anneaux",
+      "liserés violets sur certaines fissures",
+      "couronne de longues palmes arquées",
+      "palmes vert sombre à nervure violette",
+      "fruits jaunes pendants en forme de poire",
+      "graine dure brune dans une chair jaune pâle"
+    ],
+    "descriptionShort": "Le Palsan est un palmier tropical à tronc annelé, palmes sombres et fruits jaunes pendants.",
+    "descriptionFull": "Le Palsan pousse dans les forêts tropicales humides, surtout en sous-bois lumineux et en lisière chaude. Son tronc annelé porte de petites épines sombres et une couronne de longues palmes vert sombre. Sous la couronne, les fruits jaunes mûrissent en grappes lâches et prennent une forme de poire bosselée."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs",
+      "saignements"
+    ],
+    "notes": "Le danger vient surtout des petites épines du tronc lors d'un contact direct."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "fruit-palsan",
+      "quantity": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "notes": "// TODO_LINK: à lier plus tard avec l'objet ingrédient fruit-palsan"
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "artisanat",
+      "construction",
+      "semis"
+    ],
+    "notes": "Les fruits jaunes se préparent comme nourriture de voyage, tandis que les palmes et fibres servent aux nattes, paniers et abris simples."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

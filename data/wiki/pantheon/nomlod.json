@@ -1,0 +1,180 @@
+{
+  "id": "nomlod",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Nomlod",
+    "subtitle": "Le Refuge Serein",
+    "tags": [
+      "Nomlod",
+      "Le Refuge Serein",
+      "esprit majeur",
+      "Hospitalité",
+      "Sérénité",
+      "Bienveillance",
+      "Nourriture",
+      "Alcool",
+      "Confort",
+      "Repos",
+      "Détente",
+      "Nid Douillet",
+      "Repos doublé"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#8C6A4A",
+    "visualNote": "Hospitalité • Sérénité • Bienveillance • Nourriture • Alcool • Confort • Repos • Détente"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "nomlod",
+    "name": "Nomlod",
+    "title": "Le Refuge Serein",
+    "type": "esprit_majeur",
+    "domains": [
+      "Hospitalité",
+      "Sérénité",
+      "Bienveillance",
+      "Nourriture",
+      "Alcool",
+      "Confort",
+      "Repos",
+      "Détente"
+    ],
+    "cycle": {
+      "type": "ritual",
+      "refresh": "each_meal",
+      "label": "À chaque repas"
+    },
+    "cult": {
+      "short": "Finir son assiette",
+      "ritual": "Finir son assiette."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le repos accordé par Nomlod est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "nid_douillet": {
+        "key": "nid_douillet",
+        "name": "Nid Douillet",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Repos doublé",
+        "fullDescription": "Les repos font récupérer le double de PF.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#8C6A4A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Hospitalité",
+              "Sérénité",
+              "Bienveillance",
+              "Nourriture",
+              "Alcool",
+              "Confort",
+              "Repos",
+              "Détente"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Finir son assiette"
+          },
+          {
+            "title": "Rituel",
+            "text": "Finir son assiette."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque repas"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "rituel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "each_meal"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Nid Douillet (améliorée, passif)",
+              "Effet court : Repos doublé",
+              "Description : Les repos font récupérer le double de PF.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le repos accordé par Nomlod est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "nomlod"
+  }
+}

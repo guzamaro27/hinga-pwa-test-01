@@ -1,0 +1,168 @@
+{
+  "id": "auranis",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Auranis",
+    "subtitle": "La Mémoire Éternelle",
+    "tags": [
+      "Auranis",
+      "La Mémoire Éternelle",
+      "esprit majeur",
+      "Transmission",
+      "Héritage",
+      "Âme",
+      "Mémoire",
+      "Pierre Philosophale",
+      "+4 SM max"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#8A7C5F",
+    "visualNote": "Transmission • Héritage • Âme • Mémoire"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "auranis",
+    "name": "Auranis",
+    "title": "La Mémoire Éternelle",
+    "type": "esprit_majeur",
+    "domains": [
+      "Transmission",
+      "Héritage",
+      "Âme",
+      "Mémoire"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "week_end_or_event",
+      "label": "Chaque fin de semaine ou après un événement marquant"
+    },
+    "cult": {
+      "short": "Raconter ou écrire un souvenir",
+      "ritual": "Raconter une histoire ou écrire un souvenir important pour ne pas l’oublier."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La clarté d’esprit offerte par Auranis est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "pierre_philosophale": {
+        "key": "pierre_philosophale",
+        "name": "Pierre Philosophale",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "+4 SM max",
+        "fullDescription": "Augmente la réserve de SM maximale de +4 tant que la bénédiction est active.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#8A7C5F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Transmission",
+              "Héritage",
+              "Âme",
+              "Mémoire"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Raconter ou écrire un souvenir"
+          },
+          {
+            "title": "Rituel",
+            "text": "Raconter une histoire ou écrire un souvenir important pour ne pas l’oublier."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "Chaque fin de semaine ou après un événement marquant"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "week_end_or_event"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Pierre Philosophale (améliorée, passif)",
+              "Effet court : +4 SM max",
+              "Description : Augmente la réserve de SM maximale de +4 tant que la bénédiction est active.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La clarté d’esprit offerte par Auranis est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "auranis"
+  }
+}

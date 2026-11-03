@@ -1,0 +1,79 @@
+{
+  "id": "fiche-personnage.combat-actions-rapides",
+  "type": "codex",
+  "identity": {
+    "name": "Combat et actions rapides",
+    "subtitle": "Fiche personnage / Agir en combat",
+    "icon": "⚔",
+    "tags": [
+      "combat",
+      "attaque",
+      "action",
+      "réaction",
+      "tour"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Attaque",
+        "value": "bouton de l’arme"
+      },
+      {
+        "label": "Défense",
+        "value": "carte de réaction"
+      },
+      {
+        "label": "Aide",
+        "value": "bouton ? ou clic droit"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tour de combat",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "La zone de combat rassemble les actions que vous utilisez le plus souvent."
+          }
+        ]
+      },
+      {
+        "label": "Pendant votre tour",
+        "blocks": [
+          {
+            "items": [
+              "Choisissez une action dans la zone correspondante.",
+              "Surveillez le budget d’actions restant.",
+              "Après une attaque, la cible reçoit les choix de défense proposés.",
+              "Le clic sur une réaction choisit cette réaction ; le clic droit ouvre sa règle."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

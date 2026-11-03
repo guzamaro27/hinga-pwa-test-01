@@ -1,0 +1,33 @@
+{
+  "id": "onomo",
+  "type": "creature-public",
+  "identity": {
+    "name": "Onomo",
+    "subtitle": "Le semeur silencieux",
+    "tags": [
+      "sauvage",
+      "protege",
+      "magique",
+      "medicinal",
+      "rituel"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Onomo vit dans les forêts profondes, les sous-bois anciens et les clairières isolées. Il ne dort jamais et se déplace lentement dans son territoire, participant à la fertilisation naturelle des sols forestiers grâce aux particules produites par l’arbre vivant qui pousse sur son dos. Il est rare d’en trouver plus de deux dans une même forêt."
+          },
+          {
+            "text": "L’Onomo possède un corps massif à la peau brun foncé, presque noire, couvert de poils courts et denses. Son museau est allongé et ses pattes courtes et puissantes. Sur son dos pousse un arbre pleinement développé, dont le tronc émerge directement de sa colonne. L’écorce et la peau semblent fusionnées, l’une devenant l’autre sans démarcation nette. Ses deux défenses épaisses lui servent à retourner la terre. Malgré son poids, sa posture reste stable, comme enracinée au sol."
+          },
+          {
+            "text": "L’Onomo vit généralement seul. Ses œufs, durs comme la roche, restent enfouis plus de deux ans avant que l’arbre en croissance à l’intérieur ne fissure la coquille. On trouve rarement plus de deux individus dans une même forêt."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "vazrak",
+  "type": "creature-public",
+  "identity": {
+    "name": "vazrak",
+    "subtitle": "Le Roi des Profondeurs",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "aquatique",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le vazrak vit dans les océans ouverts, les grandes profondeurs et les zones côtières riches en proies. Carnivore strict, il chasse les poissons et les grands animaux marins en surgissant souvent des profondeurs à grande vitesse. Sa puissance, sa vitesse et sa domination territoriale en font l’un des prédateurs marins les plus redoutés."
+          },
+          {
+            "text": "Le vazrak est un immense prédateur marin au corps serpentiforme extrêmement puissant. Sa tête massive est prolongée par un museau fuselé et armée d’une mâchoire gigantesque remplie de dents longues et serrées capables de déchiqueter les plus grandes proies marines. Deux cornes épaisses orientées vers l’arrière émergent du sommet de son crâne, renforçant son apparence redoutable. Son corps est recouvert d’écailles épaisses aux teintes gris bleu avec des reflets argentés. Le long de son dos s’étend une rangée de crêtes translucides qui émettent une lumière bleutée, donnant à la créature une apparence presque surnaturelle lorsqu’elle nage dans les profondeurs. Ses grandes nageoires pectorales et sa puissante queue lui permettent d’atteindre des vitesses impressionnantes dans l’eau."
+          },
+          {
+            "text": "Le vazrak vit seul et occupe de vastes territoires marins. Sa reproduction reste mal connue, mais les rares indices suggèrent des zones profondes difficiles d’accès et peu observées."
+          }
+        ]
+      }
+    ]
+  }
+}

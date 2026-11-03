@@ -1,0 +1,239 @@
+{
+  "id": "materials.ydral",
+  "type": "material",
+  "identity": {
+    "name": "Ydral",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "ydral",
+      "Ydral",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation d’ombre",
+      "Noir brillant à reflets violets",
+      "Gemme d’ancrage mental associée aux ténèbres.",
+      "Ombre/Ténèbres",
+      "magical",
+      "Magique",
+      "Bon",
+      "Amulettes",
+      "protections mentales",
+      "sceaux",
+      "mineur",
+      "joaillier",
+      "mage",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 5
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "ydral",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 5
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation d’ombre"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir brillant à reflets violets"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme d’ancrage mental associée aux ténèbres."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Ombre/Ténèbres"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Potentiel défensif contre la peur et la confusion."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut émousser les émotions si mal réglée."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Amulettes",
+              "protections mentales",
+              "sceaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "joaillier",
+              "mage",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "75"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.7"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "30"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "peur/confusion"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "peur_t1",
+              "peur_t2",
+              "etat_esprit_confusion_t1",
+              "etat_esprit_confusion"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

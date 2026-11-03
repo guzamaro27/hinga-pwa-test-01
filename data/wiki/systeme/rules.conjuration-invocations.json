@@ -1,0 +1,96 @@
+{
+  "id": "rules.conjuration-invocations",
+  "type": "codex",
+  "identity": {
+    "name": "Conjuration et Invocations",
+    "subtitle": "Créer, lier et dissiper une invocation",
+    "icon": "✧",
+    "tags": [
+      "Conjuration et Invocations",
+      "conjuration",
+      "invocation",
+      "objet invoqué"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/conjuration.mjs",
+    "module/helpers/conjuration-item.mjs",
+    "module/helpers/conjuration-dispel.mjs",
+    "module/data/invocation-presets.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Puissance minimale",
+        "value": "N1"
+      },
+      {
+        "label": "N0",
+        "value": "Invocation impossible"
+      },
+      {
+        "label": "Formes",
+        "value": "Créature, objet ou terrain selon le sort"
+      }
+    ],
+    "links": [
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Création",
+        "blocks": [
+          {
+            "text": "Une conjuration exige au moins une puissance N1. Le sort fixe l’apparition, la durée, les statistiques, les ressources et le lien au lanceur."
+          }
+        ]
+      },
+      {
+        "label": "Créature invoquée",
+        "blocks": [
+          {
+            "text": "Une créature invoquée possède sa fiche, son initiative et les limites indiquées par le sort. Le nombre maximal d’invocations actives dépend du profil de conjuration."
+          }
+        ]
+      },
+      {
+        "label": "Objet invoqué",
+        "blocks": [
+          {
+            "text": "Un objet invoqué peut rester dormant ou devenir actif selon sa définition. Il disparaît à la fin de sa durée ou lors d’une dissipation valide."
+          }
+        ]
+      },
+      {
+        "label": "Fin",
+        "blocks": [
+          {
+            "text": "Expiration, dissipation, rupture du lien ou condition du sort retirent l’invocation et ses éléments associés."
+          }
+        ]
+      }
+    ]
+  }
+}

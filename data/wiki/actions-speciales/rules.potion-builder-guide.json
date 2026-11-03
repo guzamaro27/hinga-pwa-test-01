@@ -1,0 +1,542 @@
+{
+  "id": "rules.potion-builder-guide",
+  "type": "codex",
+  "identity": {
+    "name": "Guide de l’Infuseur de Potion",
+    "subtitle": "Règles / Potion / Builder",
+    "icon": "P",
+    "tags": [
+      "règles",
+      "guide",
+      "potion",
+      "builder",
+      "infuseur"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "potion",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation générale",
+        "blocks": [
+          {
+            "title": "Rôle de l’Infuseur",
+            "items": [
+              "L’Infuseur de Potion sert à préparer une substance bénéfique, instable ou ambiguë : identité, apparence, voie d’entrée, famille, puissance, restauration, effets, risques et notes.",
+              "Une potion peut soigner, protéger, transformer, stabiliser un état, bloquer une altération ou provoquer un effet plus étrange.",
+              "Le builder décrit la préparation. L’usage réel dépend ensuite de l’objet, de la cible, du contexte et des règles de potion."
+            ]
+          },
+          {
+            "title": "Sommaire",
+            "items": [
+              "Identité, nom réel, nom inconnu, quantité, image et description.",
+              "Type, support, mode d’utilisation, voie d’entrée, cible, portée, ressource ciblée et puissance.",
+              "Soin PV, SM, PF, dégâts éventuels, états, durée, persistance, résistance, réussite, échec, conditions, risques, apparence, origine, notes et notes MJ.",
+              "Les options vides, Aucun, Stat ou -- Choix -- sont des placeholders : elles signalent qu’une décision reste à prendre."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Identité de la potion",
+        "blocks": [
+          {
+            "title": "Nom réel",
+            "items": [
+              "Nom réel de la potion une fois identifiée.",
+              "Il peut rester caché tant que la préparation n’a pas été analysée."
+            ]
+          },
+          {
+            "title": "Nom inconnu",
+            "items": [
+              "Nom affiché avant identification.",
+              "Il doit rester vague : fiole trouble, liquide doré, élixir inconnu, préparation parfumée."
+            ]
+          },
+          {
+            "title": "Quantité",
+            "items": [
+              "Nombre de doses disponibles.",
+              "Une utilisation consomme normalement une dose."
+            ]
+          },
+          {
+            "title": "Image",
+            "items": [
+              "Image utilisée dans l’inventaire, le builder et les cartes de chat.",
+              "Si aucune image n’est choisie, l’icône de potion par défaut est utilisée."
+            ]
+          },
+          {
+            "title": "Description",
+            "text": "La description générale raconte l’apparence, l’odeur, l’origine, l’usage, la réputation ou le danger de la potion."
+          }
+        ]
+      },
+      {
+        "label": "Type de potion",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "Le type de potion indique l’intention principale de la préparation : soigner, renforcer, protéger, altérer ou produire un effet particulier."
+          },
+          {
+            "title": "Types courants",
+            "items": [
+              "Soin : restaure une ressource comme PV, SM, PF ou une jauge équivalente.",
+              "Renforcement : améliore temporairement une capacité, une stat ou une résistance.",
+              "Protection : réduit un danger, une altération, un état ou un type de dégâts.",
+              "Altération : transforme temporairement le corps, les sens, l’esprit ou la magie.",
+              "Utilitaire : résout une situation, comme respirer, voir, grimper, résister à un climat ou flotter.",
+              "Offensive : blesse, brûle, aveugle, ralentit ou provoque un effet négatif.",
+              "Mystique : agit par magie, perception ésotérique, rituel ou effet surnaturel."
+            ]
+          },
+          {
+            "title": "Dans l’Infuseur actuel",
+            "text": "Le type est surtout exprimé par la famille principale, la voie d’entrée, les restaurations, les effets et les risques."
+          }
+        ]
+      },
+      {
+        "label": "Support / forme",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "Le support décrit la forme physique de la potion et la manière dont elle existe avant usage."
+          },
+          {
+            "title": "Formes possibles",
+            "items": [
+              "Liquide : forme classique, bue ou versée.",
+              "Fiole : dose prête à l’emploi, facile à transporter.",
+              "Huile : préparation appliquée sur une peau, une arme, une armure ou un objet.",
+              "Onguent : préparation épaisse appliquée sur le corps ou une blessure.",
+              "Poudre : préparation sèche, mélangée, inhalée, jetée ou diluée.",
+              "Vapeur / brume : préparation volatile agissant dans une zone ou par respiration.",
+              "Cristal / essence : support condensé ou magique, souvent plus rare."
+            ]
+          },
+          {
+            "title": "État physique",
+            "items": [
+              "Liquide : substance fluide.",
+              "Gazeux : vapeur, fumée, brume ou souffle.",
+              "Solide : poudre, cristal, dépôt, résidu ou pâte sèche."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Mode d’utilisation",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "Le mode d’utilisation indique comment la potion est employée."
+          },
+          {
+            "title": "Modes courants",
+            "items": [
+              "Boire : la cible consomme la potion.",
+              "Appliquer : la potion est posée sur une peau, une blessure, une arme, une armure ou un objet.",
+              "Lancer : la potion est jetée pour produire un impact ou une zone.",
+              "Respirer : la potion agit par inhalation, vapeur ou fumée.",
+              "Infuser : la potion agit par préparation lente, bain, rituel ou traitement.",
+              "Contact : la potion agit lorsqu’elle touche une cible ou une surface."
+            ]
+          },
+          {
+            "title": "Voie d’entrée",
+            "text": "Dans l’Infuseur actuel, le mode d’utilisation est principalement représenté par la voie d’entrée."
+          }
+        ]
+      },
+      {
+        "label": "Cible",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "La cible indique qui ou quoi reçoit l’effet."
+          },
+          {
+            "title": "Cibles possibles",
+            "items": [
+              "Soi-même : la potion agit sur son utilisateur.",
+              "Une cible : la potion affecte une cible désignée.",
+              "Zone : la potion affecte plusieurs cibles dans une zone.",
+              "Objet : la potion affecte une arme, une armure, un objet ou une surface."
+            ]
+          },
+          {
+            "title": "Ressource ciblée",
+            "text": "Le champ MJ Ressource ciblée précise le domaine principal touché : PV, SM, PF, stat, résistance, état, poison, mixte ou autre."
+          }
+        ]
+      },
+      {
+        "label": "Portée",
+        "blocks": [
+          {
+            "title": "Portée",
+            "items": [
+              "La portée indique la distance maximale d’utilisation ou d’application.",
+              "Aucune portée signifie que la potion agit seulement sur celui qui l’utilise ou sur ce qu’elle touche directement."
+            ]
+          },
+          {
+            "title": "Rayon",
+            "text": "Le rayon décrit la taille d’une zone si la potion agit en zone. Si aucun champ de rayon n’est affiché, la zone doit être précisée dans les notes."
+          }
+        ]
+      },
+      {
+        "label": "Niveau / puissance",
+        "blocks": [
+          {
+            "title": "Puissance",
+            "items": [
+              "La puissance indique la qualité et l’intensité générale de la potion.",
+              "Plus elle est élevée, plus l’effet peut être fort, stable, durable ou risqué."
+            ]
+          },
+          {
+            "title": "Options de l’Infuseur",
+            "items": [
+              "Faible : effet léger, remède courant ou restauration prudente.",
+              "Modérée : effet fiable et marqué, adapté à la plupart des potions de terrain.",
+              "Forte : effet important, durée plus utile, formules plus hautes ou risque plus présent.",
+              "Exceptionnelle : préparation rare et puissante, réservée aux effets décisifs."
+            ]
+          },
+          {
+            "title": "Équivalence naturelle",
+            "items": [
+              "Instable : préparation imparfaite, fragile ou imprévisible.",
+              "Simple : potion basique mais fiable.",
+              "Complexe : potion plus travaillée, précise ou durable.",
+              "Avancé : préparation experte, rare ou puissante."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Effet principal",
+        "blocks": [
+          {
+            "title": "Effet 1",
+            "items": [
+              "L’effet principal est l’effet central de la potion.",
+              "Il peut retirer un état, le bloquer, ou agir comme anti-état pendant la durée."
+            ]
+          },
+          {
+            "title": "Modes d’effet",
+            "items": [
+              "Retirer : soigne un état déjà présent.",
+              "Bloquer : protège contre une nouvelle application.",
+              "Anti : retire et protège pendant la durée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Effet secondaire",
+        "blocks": [
+          {
+            "title": "Effets 2 et 3",
+            "items": [
+              "Les effets secondaires ajoutent des états à retirer, bloquer ou prévenir.",
+              "Ils conviennent aux potions plus puissantes, spécialisées ou rares."
+            ]
+          },
+          {
+            "title": "Aucun",
+            "text": "Aucun signifie que cet emplacement d’effet n’est pas utilisé."
+          }
+        ]
+      },
+      {
+        "label": "Soin PV / SM / PF",
+        "blocks": [
+          {
+            "title": "Soin",
+            "items": [
+              "Le soin indique si la potion restaure une ressource.",
+              "PV restaure la santé physique.",
+              "SM restaure ou stabilise la santé mentale.",
+              "PF réduit la fatigue ou restaure l’endurance."
+            ]
+          },
+          {
+            "title": "Formule de soin",
+            "items": [
+              "La formule indique la quantité restaurée.",
+              "Sans rotation, le soin est immédiat.",
+              "Avec rotation, il se répète au début du tour de la cible."
+            ]
+          },
+          {
+            "title": "Aucun",
+            "text": "Aucun signifie que la potion ne soigne pas directement cette ressource."
+          }
+        ]
+      },
+      {
+        "label": "Dégâts éventuels",
+        "blocks": [
+          {
+            "title": "Dégâts",
+            "items": [
+              "Certaines potions peuvent blesser, brûler, corroder ou produire un effet offensif.",
+              "La formule indique la valeur des dégâts.",
+              "Les dégâts immédiats s’appliquent dès l’effet, tandis que les dégâts par tour se répètent tant que l’effet persiste."
+            ]
+          },
+          {
+            "title": "Dans l’Infuseur actuel",
+            "text": "Les dégâts offensifs directs ne sont pas au cœur du formulaire visible. Ils peuvent être notés dans les risques, les notes gameplay ou une règle d’effet spécifique."
+          }
+        ]
+      },
+      {
+        "label": "States / états appliqués",
+        "blocks": [
+          {
+            "title": "State",
+            "items": [
+              "Un state est un état ciblé par la potion : peur, confusion, saignement, poison, silence arcanique ou autre altération.",
+              "L’Infuseur utilise surtout les états pour retirer, bloquer ou prévenir une condition."
+            ]
+          },
+          {
+            "title": "Suggestions d’états",
+            "items": [
+              "Les suggestions suivent la famille principale.",
+              "Cliquer une puce remplit le premier emplacement libre d’effet."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Durée",
+        "blocks": [
+          {
+            "title": "Durée",
+            "items": [
+              "La durée indique combien de tours l’effet reste actif.",
+              "Elle est importante pour les restaurations périodiques, les protections et les anti-états."
+            ]
+          },
+          {
+            "title": "Formule",
+            "text": "La durée utilise une formule en d4 et un bonus."
+          }
+        ]
+      },
+      {
+        "label": "Persistance",
+        "blocks": [
+          {
+            "title": "Persistant",
+            "items": [
+              "Un effet persistant continue jusqu’à sa fin naturelle, son retrait ou une condition spéciale.",
+              "Une restauration par tour est une forme simple de persistance."
+            ]
+          },
+          {
+            "title": "Retrait / dissipation",
+            "text": "Si un effet doit être arrêté avant sa fin, la méthode de retrait ou de dissipation doit être décrite dans les notes."
+          }
+        ]
+      },
+      {
+        "label": "Résistance",
+        "blocks": [
+          {
+            "title": "Jet de contre",
+            "items": [
+              "La résistance indique si la cible peut tenter de résister à l’effet.",
+              "Elle est surtout utile si la potion est imposée, instable, intrusive ou offensive.",
+              "Une potion bénéfique consentie n’a généralement pas besoin de jet de contre."
+            ]
+          },
+          {
+            "title": "Stats possibles",
+            "items": [
+              "VITA ou CONST : résister à une altération physique ou biologique.",
+              "PSY : résister à un effet mental.",
+              "DEM : résister à un effet magique.",
+              "ARC : comprendre ou contrer une altération magique complexe."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Réussite",
+            "items": [
+              "Une réussite au jet de contre peut annuler l’effet, le réduire, réduire les dégâts ou diminuer un état.",
+              "Si la potion demande une règle particulière, décrivez le résultat dans les notes gameplay."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d’échec",
+        "blocks": [
+          {
+            "title": "Échec",
+            "items": [
+              "Un échec signifie généralement que l’effet prévu s’applique pleinement.",
+              "Pour une potion risquée, l’échec peut aussi déclencher un contrecoup."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Coût / rareté / prix",
+        "blocks": [
+          {
+            "title": "Rareté et valeur",
+            "items": [
+              "La rareté indique la fréquence ou la difficulté d’obtention.",
+              "La valeur ou le prix indique l’estimation économique de la potion.",
+              "La légalité peut préciser si la potion est libre, contrôlée, interdite, sacrée ou réservée."
+            ]
+          },
+          {
+            "title": "Dans l’Infuseur actuel",
+            "text": "Si ces champs ne sont pas affichés, indiquez le coût, la rareté ou la légalité dans les notes ou sur la fiche item."
+          }
+        ]
+      },
+      {
+        "label": "Apparence / couleur / odeur / texture",
+        "blocks": [
+          {
+            "title": "Couleur",
+            "text": "La couleur donne la teinte dominante de la potion."
+          },
+          {
+            "title": "Odeur",
+            "text": "L’odeur aide à reconnaître ou décrire la préparation."
+          },
+          {
+            "title": "Goût",
+            "text": "Le goût décrit une potion bue ou goûtée."
+          },
+          {
+            "title": "Texture",
+            "text": "La texture indique si la potion est claire, visqueuse, mousseuse, cristalline, huileuse, poudreuse ou étrange."
+          },
+          {
+            "title": "Note visible",
+            "text": "La note visible décrit ce qu’un observateur peut percevoir avant identification."
+          }
+        ]
+      },
+      {
+        "label": "Ingrédients / origine",
+        "blocks": [
+          {
+            "title": "Origine",
+            "items": [
+              "L’origine décrit la source ou tradition de la potion : plante, alchimie, magie, créature, minéral, recette ancienne ou préparation du personnage.",
+              "Si la potion est faite par le créateur, cette information peut guider ce qu’il connaît déjà."
+            ]
+          },
+          {
+            "title": "Ingrédients",
+            "text": "Les ingrédients listent les composants utilisés. Si aucun champ dédié n’existe, indiquez-les dans la description ou les notes."
+          }
+        ]
+      },
+      {
+        "label": "Description RP",
+        "blocks": [
+          {
+            "title": "Description",
+            "text": "La description RP sert à raconter la potion en jeu : odeur, bulles, couleur, tradition, sensation à l’usage, réputation ou mise en garde."
+          }
+        ]
+      },
+      {
+        "label": "Notes",
+        "blocks": [
+          {
+            "title": "Notes gameplay",
+            "items": [
+              "Les notes conservent les informations utiles à l’application en jeu.",
+              "Elles peuvent préciser une condition, un délai, une cible, une exception ou un usage particulier."
+            ]
+          },
+          {
+            "title": "Risques",
+            "items": [
+              "Les risques décrivent les contrecoups : malaise, surcharge magique, fatigue, dépendance ou instabilité.",
+              "Les risques 1, 2 et 3 peuvent associer des états négatifs à la préparation."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Réservé au MJ",
+            "items": [
+              "Les notes MJ contiennent les informations secrètes.",
+              "Elles ne doivent jamais être révélées automatiquement aux joueurs."
+            ]
+          },
+          {
+            "title": "Identifiant substance",
+            "text": "L’identifiant substance est un repère technique ou de suivi. Il sert surtout à retrouver une préparation précise."
+          }
+        ]
+      },
+      {
+        "label": "Placeholder / -- Choix --",
+        "blocks": [
+          {
+            "title": "Valeurs d’attente",
+            "items": [
+              "Aucun, Stat, vide ou -- Choix -- indiquent qu’aucune option définitive n’a encore été choisie.",
+              "Remplacez ces valeurs avant de sauvegarder une potion complète.",
+              "Un placeholder peut rester volontairement si le MJ veut une préparation mystérieuse ou incomplète."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Conseils de création rapide",
+        "blocks": [
+          {
+            "title": "Méthode simple",
+            "items": [
+              "Choisir la voie d’entrée.",
+              "Choisir la famille principale.",
+              "Choisir la puissance.",
+              "Ajouter une restauration ou un effet principal.",
+              "Définir la durée si l’effet n’est pas instantané.",
+              "Ajouter les risques seulement si la préparation est instable ou très forte.",
+              "Garder les notes MJ séparées des informations visibles."
+            ]
+          },
+          {
+            "title": "Bon réflexe",
+            "text": "Une potion claire est plus facile à jouer : une intention, une ressource ou un état, une durée et un risque éventuel suffisent souvent."
+          }
+        ]
+      }
+    ]
+  }
+}

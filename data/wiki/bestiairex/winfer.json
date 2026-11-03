@@ -1,0 +1,38 @@
+{
+  "id": "winfer",
+  "type": "creature-public",
+  "identity": {
+    "name": "Winfer",
+    "subtitle": "Le Cœur Infernal",
+    "tags": [
+      "sauvage",
+      "rare",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "magique",
+      "nocturne-remarquable",
+      "chasse",
+      "trophee",
+      "alchimie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Winfer vit dans les zones corrompues et les lieux chargés d’énergie infernale, notamment les temples anciens, les donjons profonds et les citadelles abandonnées. Carnivore territorial, il attaque les intrus et les créatures vivantes qui pénètrent dans son domaine. Certains récits indiquent qu’il peut également se nourrir d’énergie magique corrompue, ce qui expliquerait sa présence dans les sites fortement altérés."
+          },
+          {
+            "text": "Le Winfer est une créature imposante à la silhouette humanoïde. Son corps musclé est recouvert d’une peau sombre écailleuse formant une sorte d’armure naturelle. Deux grandes cornes courbées dominent sa tête étroite et anguleuse, tandis que ses yeux rouges incandescents brillent d’une lueur hostile. Ses grandes ailes membraneuses rouge sombre se déploient largement derrière lui, lui permettant de se déplacer dans les airs avec puissance. Au centre de sa poitrine brille un noyau incandescent qui semble pulser d’énergie et illumine faiblement les fissures de sa peau. Sa longue queue et ses griffes acérées complètent l’apparence d’un prédateur infernal."
+          },
+          {
+            "text": "Le Winfer vit seul et semble lié aux lieux corrompus ou saturés d’énergie infernale. Sa reproduction est inconnue et pourrait dépendre de rituels, de phénomènes magiques ou d’une concentration anormale d’énergie démoniaque."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ernastas",
+  "type": "plant",
+  "identity": {
+    "name": "Ernastas",
+    "subtitle": "Herbe bleue à peignes secs",
+    "unknownName": "Touffe à tiges bleues et épis pâles",
+    "slug": "ernastas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Ernastas.png",
+    "visualNote": "Touffe basse de feuilles vertes, d'où montent de longues tiges bleu profond portant des épis pâles en forme de peignes.",
+    "tags": [
+      "steppe",
+      "tiges-bleues",
+      "epis"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "graminee",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe sèche chaude",
+      "plaine tempérée sèche"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "sable",
+      "sol caillouteux"
+    ],
+    "season": [
+      "retour des pluies",
+      "saison sèche",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "40 cm à 1,4 m",
+    "width": "30 cm à 80 cm",
+    "colorMain": "bleu profond",
+    "colorSecondary": "vert olive, ivoire sec",
+    "distinctiveSigns": [
+      "touffe de feuilles longues et rigides",
+      "tiges hautes bleu foncé à reflets violets",
+      "sommets de tiges légèrement renflés",
+      "épis pâles fixés latéralement",
+      "barbes fines serrées comme des dents de peigne",
+      "racines brunes ramifiées avec reflets bleutés"
+    ],
+    "descriptionShort": "L'Ernastas est une herbe de steppe aux tiges bleu profond et aux épis pâles en forme de peigne.",
+    "descriptionFull": "L'Ernastas pousse en touffes serrées sur les sols secs, pauvres et exposés. Sa base verte conserve un peu d'humidité, tandis que ses tiges bleues montent au-dessus des herbes basses. Les épis pâles, disposés sur le côté, forment des peignes secs qui se voient bien au vent. Ses racines larges stabilisent la touffe dans les terres dures."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "irritante"
+    ],
+    "exposure": [
+      "contact",
+      "inhalation"
+    ],
+    "symptoms": [
+      "démangeaisons",
+      "picotements"
+    ],
+    "notes": "Les épis très secs peuvent irriter la peau ou la gorge lorsqu'ils sont battus par le vent."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Les tiges bleues donnent des fibres fines et une teinte pâle, tandis que les épis secs peuvent servir de petites brosses rustiques ou d'allume-feu."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "chostas",
+  "type": "plant",
+  "identity": {
+    "name": "Chostas",
+    "subtitle": "Arbre aux racines claires",
+    "unknownName": "Arbre robuste à racines exposées",
+    "slug": "chostas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Chostas.png",
+    "visualNote": "Arbre dense à couronne ovale vert sombre, tronc brun veiné de clair, racines exposées et fruit épineux à grosse graine brillante.",
+    "tags": [
+      "racines-exposees",
+      "fruit-epineux"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud",
+      "montagne sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre pauvre",
+      "rocaille",
+      "sol caillouteux"
+    ],
+    "season": [
+      "floraison",
+      "fructification",
+      "saison sèche"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 à 12 m",
+    "width": "3 à 8 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun chaud, doré clair, violet pâle",
+    "distinctiveSigns": [
+      "couronne ovale très dense",
+      "petites feuilles nombreuses",
+      "tronc brun noueux veiné de clair",
+      "racines massives exposées autour de la base",
+      "fleur claire à longs filaments terminés d'or",
+      "fruit épineux contenant une grosse graine brune",
+      "sève claire à dorée"
+    ],
+    "descriptionShort": "Le Chostas est un arbre robuste des terres pauvres, reconnaissable à sa couronne compacte et à ses racines claires très exposées.",
+    "descriptionFull": "Le Chostas s'installe là où le vent, le sel, le froid ou la sécheresse rendent les arbres rares. Sa couronne serrée limite l'évaporation, tandis que ses racines s'étalent au-dessus du sol avant de s'accrocher aux pierres. Son tronc brun laisse voir des veines claires, parfois dorées. La floraison donne une fleur pâle et filamenteuse, suivie d'un fruit épineux renfermant une graine dure."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le bois du Chostas est dur et résistant, idéal pour la construction et l'artisanat. "
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "derabik",
+  "type": "creature-public",
+  "identity": {
+    "name": "Derabik",
+    "subtitle": "L’Ongulé des Hautes-Pattes",
+    "tags": [
+      "sauvage",
+      "proie",
+      "territorial",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Derabik vit principalement dans les forêts anciennes humides, les sous-bois hauts, les clairières forestières et les zones riches en végétation basse. Malgré son aspect inquiétant, il reste essentiellement herbivore et se nourrit de jeunes pousses, de feuilles tendres, de bourgeons et de plantes forestières. Son corps demeure relativement petit, mais ses pattes s’allongent toute sa vie, ce qui lui permet de franchir racines, ronces et irrégularités du terrain avec une aisance étrange. Les individus les plus âgés dominent souvent visuellement le troupeau, dressés très haut au-dessus des plus jeunes."
+          },
+          {
+            "text": "Le Derabik possède un corps étonnamment petit par rapport à sa hauteur totale. Le tronc est compact, léger, couvert d’un pelage brun fauve moucheté de crème, avec une gorge et un ventre plus pâles. Sa tête reste fine, presque délicate, mais son regard est dérangeant : chaque œil porte une pupille horizontale rectangulaire, noire, large et très nette, qui semble découper l’iris en une ligne froide. Son crâne porte des cornes qui montent et vrillent vers le haut, tandis que de petites cornes osseuses apparaissent aussi sur le dessus du dos. La silhouette entière devient réellement inquiétante à cause des pattes. Un Derabik ne possède pas toujours le même nombre de membres ; certains en ont six, d’autres huit, parfois jusqu’à dix. Ces pattes sont longues, segmentées, anguleuses, et se terminent toutes par de petits sabots vrillés. Chez les jeunes, elles restent courtes et donnent une allure nerveuse et rapide. Chez les adultes, elles allongent l’animal jusqu’à le porter au-dessus des fourrés. Chez les plus âgés, elles deviennent si hautes que le petit corps semble suspendu au sommet d’un réseau d’échasses vivantes. L’espèce ne taille jamais ces membres : leur longueur, comme celle des cornes, sert à lire l’âge, le prestige et la place de l’individu dans le troupeau."
+          },
+          {
+            "text": "Les Derabiks vivent en troupeaux structurés où la hauteur des pattes et l’ampleur des cornes déterminent fortement la valeur sociale d’un individu. Les membres ne sont jamais taillés volontairement : plus un Derabik vieillit, plus ses pattes et ses excroissances cornées s’allongent, et plus son rang tend à s’élever. Les jeunes restent près du sol, protégés au centre du troupeau, tandis que les anciens dominants avancent au-dessus du groupe comme de hautes silhouettes noueuses. Le nombre de pattes varie selon les individus, généralement entre six et dix, sans que cette variation soit considérée comme anormale au sein de l’espèce."
+          }
+        ]
+      }
+    ]
+  }
+}

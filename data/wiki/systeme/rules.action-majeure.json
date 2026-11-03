@@ -1,0 +1,95 @@
+{
+  "id": "rules.action-majeure",
+  "type": "codex",
+  "identity": {
+    "name": "Action majeure",
+    "subtitle": "Dépenser deux unités d’action",
+    "icon": "◆",
+    "tags": [
+      "action majeure",
+      "budget",
+      "2 unités"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/action-budget.mjs"
+  ],
+  "mechanics": {
+    "actionType": "major",
+    "cost": 2,
+    "budgetPerTurn": 3
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Coût",
+        "value": "2 unités"
+      },
+      {
+        "label": "Budget",
+        "value": "budget commun du tour"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Une action indiquée comme majeure"
+      ],
+      "blocked": [
+        "Budget inférieur à 2",
+        "Majeure normale déjà utilisée, sans majeure supplémentaire explicite"
+      ]
+    },
+    "roll": {
+      "formula": "L’action est engagée si deux unités sont disponibles."
+    },
+    "modifiers": {
+      "text": "Une règle spéciale peut changer la catégorie ou le coût."
+    },
+    "outcomes": {
+      "success": "Les deux unités sont dépensées.",
+      "failure": "Rien n’est dépensé si le budget est insuffisant."
+    },
+    "example": "Au début d’un tour avec 3 unités, une majeure laisse une mineure.",
+    "modifiedBy": [
+      "Tour de combat",
+      "Effets qui rendent une action mineure"
+    ],
+    "links": [
+      {
+        "label": "Tour de combat",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      },
+      {
+        "label": "Action mineure",
+        "sectionId": "systeme",
+        "entryId": "rules.action-mineure"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Coût : 2 unités · Budget : budget commun du tour"
+          }
+        ]
+      },
+      {
+        "label": "À retenir",
+        "blocks": [
+          {
+            "text": "Une majeure coûte deux unités sur les trois du tour et laisse normalement une mineure."
+          }
+        ]
+      }
+    ]
+  }
+}

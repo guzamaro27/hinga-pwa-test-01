@@ -1,0 +1,144 @@
+{
+  "id": "rules.critiques",
+  "type": "codex",
+  "identity": {
+    "name": "Critiques et échecs critiques",
+    "subtitle": "Les bandes spéciales du d100",
+    "icon": "✦",
+    "tags": [
+      "critique",
+      "réussite critique",
+      "échec critique",
+      "fumble",
+      "ultime"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/rolls.mjs",
+    "module/engine/critique-manager.mjs",
+    "module/helpers/combat-crit.js"
+  ],
+  "mechanics": {
+    "criticalBands": {
+      "ultimateSuccess": [
+        1
+      ],
+      "success": [
+        2,
+        5
+      ],
+      "failure": [
+        96,
+        99
+      ],
+      "ultimateFailure": [
+        100
+      ]
+    },
+    "successCondition": "résultat <= seuil",
+    "failureCondition": "résultat > seuil",
+    "attackDamageMultipliers": {
+      "critical": 1.25,
+      "ultimateCritical": 1.5
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "1",
+        "value": "réussite critique ultime"
+      },
+      {
+        "label": "2–5",
+        "value": "réussite critique"
+      },
+      {
+        "label": "96–99",
+        "value": "échec critique"
+      },
+      {
+        "label": "100",
+        "value": "échec critique ultime"
+      },
+      {
+        "label": "Attaque critique",
+        "value": "dégâts ×1,25 ; ultime ×1,5"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Les tests utilisant les bandes critiques du d100"
+      ],
+      "blocked": []
+    },
+    "roll": {
+      "formula": "Le résultat est d’abord comparé au seuil ; les bandes spéciales ajoutent leurs conséquences."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Certains jets ou effets peuvent ajuster les bornes critiques."
+    },
+    "outcomes": {
+      "criticalSuccess": "Une réussite critique reste une réussite et déclenche les effets prévus.",
+      "criticalFailure": "Un échec critique reste un échec et peut aggraver ses conséquences.",
+      "ultimateFailure": "L’échec critique ultime applique la conséquence la plus forte prévue."
+    },
+    "example": "Avec un seuil de 60, un 4 est critique ; un 97 est un échec critique.",
+    "modifiedBy": [
+      "Le seuil du test",
+      "AV/DV",
+      "Les effets critiques de l’action ou de la compétence"
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "1 : réussite critique ultime · 2–5 : réussite critique · 96–99 : échec critique · 100 : échec critique ultime"
+          }
+        ]
+      },
+      {
+        "label": "À retenir",
+        "blocks": [
+          {
+            "text": "Un résultat critique ne remplace pas la réussite ou l’échec du test : il ajoute une conséquence spéciale."
+          }
+        ]
+      },
+      {
+        "label": "Dégâts d’attaque",
+        "blocks": [
+          {
+            "text": "Sur une véritable attaque avec dégâts, une réussite critique applique ×1,25 et une réussite critique ultime ×1,5. Les échecs critiques défensifs suivent la conséquence du contexte qui les a produits."
+          }
+        ]
+      }
+    ]
+  }
+}

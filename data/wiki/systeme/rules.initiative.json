@@ -1,0 +1,102 @@
+{
+  "id": "rules.initiative",
+  "type": "codex",
+  "identity": {
+    "name": "Initiative",
+    "subtitle": "Déterminer l’ordre des combattants",
+    "icon": "⚡",
+    "tags": [
+      "initiative",
+      "ordre",
+      "réactivité",
+      "mobilité",
+      "début du combat"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/initiative.mjs",
+    "module/helpers/rolls.mjs"
+  ],
+  "mechanics": {
+    "characterStat": "react",
+    "creatureStat": "mobilite",
+    "sort": "successes first, then kept result ascending",
+    "failedOffset": 200
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Personnage",
+        "value": "REACT"
+      },
+      {
+        "label": "Créature",
+        "value": "MOB"
+      },
+      {
+        "label": "Ordre",
+        "value": "réussites puis échecs"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Au début du combat"
+      ],
+      "blocked": []
+    },
+    "roll": {
+      "formula": "Lancez le test d’initiative avec la statistique adaptée."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les bonus et AV/DV d’initiative applicables sont pris en compte."
+    },
+    "outcomes": {
+      "success": "Les réussites jouent avant les échecs.",
+      "failure": "Les échecs sont placés après les réussites."
+    },
+    "example": "Deux réussites sont classées selon leur résultat conservé croissant.",
+    "modifiedBy": [
+      "Bonus d’initiative",
+      "Compétences et effets qui améliorent l’initiative"
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Tour de combat",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Personnage : REACT · Créature : MOB · Ordre : réussites puis échecs"
+          }
+        ]
+      },
+      {
+        "label": "Comment l’ordre est-il établi ?",
+        "blocks": [
+          {
+            "text": "Les réussites passent avant les échecs. À catégorie égale, le résultat conservé le plus bas joue en premier."
+          }
+        ]
+      }
+    ]
+  }
+}

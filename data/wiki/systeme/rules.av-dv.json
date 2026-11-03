@@ -1,0 +1,113 @@
+{
+  "id": "rules.av-dv",
+  "type": "codex",
+  "identity": {
+    "name": "Avantages et Désavantages — AV / DV",
+    "subtitle": "Lancer plusieurs dés et garder le meilleur ou le pire",
+    "icon": "±",
+    "tags": [
+      "avantage",
+      "désavantage",
+      "AV",
+      "DV",
+      "meilleur dé",
+      "pire dé"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/rolls.mjs",
+    "module/sheets/actor-sheet.mjs"
+  ],
+  "mechanics": {
+    "net": "avantage - désavantage",
+    "positive": "one extra d100 per net level, keep minimum",
+    "negative": "one extra d100 per net level, keep maximum",
+    "cancellation": true
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "AV",
+        "value": "garder le plus bas"
+      },
+      {
+        "label": "DV",
+        "value": "garder le plus haut"
+      },
+      {
+        "label": "Calcul",
+        "value": "AV − DV"
+      },
+      {
+        "label": "Cumul",
+        "value": "les niveaux opposés s’annulent"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Quand une compétence, un effet, une réserve ou le contexte donne AV ou DV"
+      ],
+      "blocked": []
+    },
+    "roll": {
+      "formula": "Lancez un d100 supplémentaire par niveau net, puis gardez le minimum avec AV ou le maximum avec DV."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": false,
+      "text": "AV/DV modifient le résultat conservé, pas la valeur du seuil."
+    },
+    "outcomes": {
+      "success": "Comparez le résultat conservé au seuil habituel.",
+      "failure": "Le résultat conservé reste soumis au seuil et aux critiques."
+    },
+    "example": "2 AV et 1 DV donnent 1 AV net : lancez deux d100 et gardez le plus bas.",
+    "modifiedBy": [
+      "Réserves AV/DV de la fiche",
+      "Effets actifs",
+      "Certaines réussites et certains échecs critiques"
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "AV : garder le plus bas · DV : garder le plus haut · Calcul : AV − DV · Cumul : les niveaux opposés s’annulent"
+          }
+        ]
+      },
+      {
+        "label": "Comment lire AV / DV ?",
+        "blocks": [
+          {
+            "items": [
+              "Additionnez les niveaux d’AV.",
+              "Soustrayez les niveaux de DV.",
+              "Lancez les dés supplémentaires correspondant au résultat net.",
+              "Gardez le plus bas avec AV, le plus haut avec DV."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

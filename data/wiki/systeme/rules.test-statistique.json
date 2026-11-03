@@ -1,0 +1,113 @@
+{
+  "id": "rules.test-statistique",
+  "type": "codex",
+  "identity": {
+    "name": "Tests de statistique",
+    "subtitle": "Résoudre un test sur 1d100",
+    "icon": "d100",
+    "tags": [
+      "test",
+      "statistique",
+      "jet",
+      "1d100",
+      "seuil"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/rolls.mjs"
+  ],
+  "mechanics": {
+    "formula": "1d100",
+    "success": "résultat conservé <= seuil",
+    "rounding": "Math.floor for divided thresholds"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Jet",
+        "value": "1d100"
+      },
+      {
+        "label": "Réussite",
+        "value": "résultat conservé ≤ seuil"
+      },
+      {
+        "label": "Échec",
+        "value": "résultat conservé > seuil"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Toute action qui demande un test"
+      ],
+      "blocked": [
+        "Un test peut être refusé si une ressource ou une condition manque"
+      ]
+    },
+    "roll": {
+      "formula": "Lancez 1d100 et comparez le résultat conservé au seuil effectif."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les difficultés, bonus, malus, AV et DV s’appliquent selon l’action."
+    },
+    "outcomes": {
+      "success": "Le test réussit si le résultat conservé est inférieur ou égal au seuil.",
+      "failure": "Le test échoue s’il dépasse le seuil."
+    },
+    "example": "Avec un seuil de 42, 37 réussit et 43 échoue.",
+    "modifiedBy": [
+      "Difficultés et divisions",
+      "AV / DV",
+      "Compétences et effets de l’action"
+    ],
+    "links": [
+      {
+        "label": "Difficultés et divisions",
+        "sectionId": "systeme",
+        "entryId": "rules.difficultes"
+      },
+      {
+        "label": "AV / DV",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Jet : 1d100 · Réussite : résultat conservé ≤ seuil · Échec : résultat conservé > seuil"
+          }
+        ]
+      },
+      {
+        "label": "Comment faire ?",
+        "blocks": [
+          {
+            "items": [
+              "Repérez la statistique demandée.",
+              "Appliquez le seuil et ses modificateurs.",
+              "Lancez le d100 ; le jeu conserve le résultat prévu.",
+              "Comparez-le au seuil effectif."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

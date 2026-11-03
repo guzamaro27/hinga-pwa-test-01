@@ -1,0 +1,130 @@
+{
+  "id": "rules.attaquer",
+  "type": "codex",
+  "identity": {
+    "name": "Attaquer",
+    "subtitle": "Résoudre une attaque",
+    "icon": "systems/hinga/assets/ui/weapons/weapon-type-sword.webp",
+    "tags": [
+      "attaque",
+      "arme",
+      "magie",
+      "cible",
+      "dégâts",
+      "portée"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/rolls.mjs",
+    "module/helpers/pf.mjs"
+  ],
+  "mechanics": {
+    "actionCosts": {
+      "arme_melee": 1,
+      "arme_distance": 1,
+      "cac": 1,
+      "bouclier_off": 1,
+      "magie_off": 2,
+      "mental": 1
+    },
+    "usesAttackProfile": true
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Jet",
+        "value": "stat d’attaque de l’arme ou de l’action"
+      },
+      {
+        "label": "Coût",
+        "value": "1 PF arme / CàC ; 2 PF magie"
+      },
+      {
+        "label": "Cible",
+        "value": "selon portée et zone"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Arme, attaque CàC, magie ou bouclier offensif utilisable"
+      ],
+      "blocked": [
+        "Arme non équipée, cible hors portée ou ressource insuffisante"
+      ]
+    },
+    "roll": {
+      "formula": "Lancez le test d’attaque prévu par l’arme ou l’action."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "L’équipement, la portée, les effets et les compétences peuvent modifier le jet."
+    },
+    "outcomes": {
+      "success": "L’attaque produit ses dégâts et effets.",
+      "failure": "L’attaque échoue selon la règle de l’action.",
+      "criticalFailure": "Les conséquences de l’échec critique s’appliquent."
+    },
+    "example": "Le bouton d’une arme utilise le coût et la stat propres à cette arme.",
+    "modifiedBy": [
+      "AV / DV",
+      "Portée et zone",
+      "Arme, compétence et effets actifs"
+    ],
+    "links": [
+      {"label": "Défense, Solidité et Usure des armes", "sectionId": "systeme", "entryId": "rules.weapon-defense"},
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      },
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Jet : stat d’attaque de l’arme ou de l’action · Coût : 1 PF arme / CàC ; 2 PF magie · Cible : selon portée et zone"
+          }
+        ]
+      },
+      {
+        "label": "Attaque mentale",
+        "blocks": [
+          {
+            "text": "L’attaque mentale offensive utilise PSY effective et une action majeure normale, à 24 m pour 1 PF. Son maximum naturel suit la courbe CàC décalée d’un palier vers le bas : cacDamageFormula(max(0, PSY - 10)). Le mode AUTO / MAX, activé par défaut, suit la PSY actuelle. Vous pouvez mémoriser un palier inférieur ; si la PSY baisse, la puissance utilisée est limitée au nouveau maximum. Les bonus de dégâts mentaux s’appliquent dans le calcul habituel. Cette attaque de base ne porte aucun état joint."
+          },
+          {
+            "text": "Sur la fiche, un clic gauche lance directement le profil courant contre les cibles sélectionnées. Le clic droit ouvre le menu de puissance et son accès à l’aide. La section Actions spéciales, repliée par défaut, propose quatorze variantes offensives avec leur fiche HingaDex. Effets joints reste vide. Aucune de ces actions n’ajoute automatiquement un état."
+          }
+        ]
+      },
+      {
+        "label": "Après votre jet",
+        "blocks": [
+          {
+            "text": "Une cible peut recevoir une carte de réaction. Sa défense peut annuler, réduire ou laisser passer les dégâts."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "rules.tour-combat",
+  "type": "codex",
+  "identity": {
+    "name": "Tour de combat",
+    "subtitle": "Gérer les unités d’action du tour",
+    "icon": "⏱",
+    "tags": [
+      "tour",
+      "combat",
+      "action",
+      "budget",
+      "réaction"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/action-budget.mjs",
+    "module/helpers/pf.mjs",
+    "module/helpers/combat-flow.mjs"
+  ],
+  "mechanics": {
+    "actionUnitsPerTurn": 3,
+    "majorCost": 2,
+    "minorCost": 1,
+    "reactionSystem": "reactions and PF",
+    "fullTurnCost": 3,
+    "normalMajorLimit": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Budget",
+        "value": "3 unités par tour"
+      },
+      {
+        "label": "Majeure",
+        "value": "2 unités"
+      },
+      {
+        "label": "Mineure",
+        "value": "1 unité"
+      },
+      {
+        "label": "Réactions",
+        "value": "coût en PF séparé"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Actions classées majeure ou mineure pendant votre tour"
+      ],
+      "blocked": [
+        "Une action est refusée si le budget restant est insuffisant"
+      ]
+    },
+    "roll": {
+      "formula": "Vérifiez le budget, puis dépensez le coût de l’action acceptée."
+    },
+    "modifiers": {
+      "text": "Certaines règles rendent une action gratuite ou changent sa catégorie."
+    },
+    "outcomes": {
+      "success": "Le budget restant est mis à jour.",
+      "failure": "Aucune unité n’est dépensée si l’action est refusée."
+    },
+    "example": "Une majeure et une mineure, dans l’ordre de votre choix, ou trois mineures. Une mineure bonus ne permet pas une deuxième majeure.",
+    "modifiedBy": [
+      "Action majeure",
+      "Action mineure",
+      "Compétences qui changent le coût ou la catégorie"
+    ],
+    "links": [
+      {
+        "label": "Action majeure",
+        "sectionId": "systeme",
+        "entryId": "rules.action-majeure"
+      },
+      {
+        "label": "Action mineure",
+        "sectionId": "systeme",
+        "entryId": "rules.action-mineure"
+      },
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Budget du tour",
+        "blocks": [
+          {
+            "text": "À votre tour, vous disposez d’une majeure et d’une mineure. Vous pouvez remplacer la majeure par deux mineures. Un tour entier mobilise les trois unités normales. Les réactions ont un coût séparé."
+          }
+        ]
+      },
+      {
+        "label": "Déplacement standard",
+        "blocks": [
+          {
+            "text": "Une mineure permet jusqu’à 3 m ; deux, jusqu’à 6 m ; trois, jusqu’à 9 m. Déplacement de 3 m et attaque majeure sont possibles dans les deux ordres. Les bonus, états, terrains et déplacements spéciaux conservent leurs règles."
+          }
+        ]
+      },
+      {
+        "label": "Pertes et gains",
+        "blocks": [
+          {
+            "text": "Perdre une mineure laisse une majeure, convertible en deux mineures. Perdre la majeure laisse une mineure. Une majeure supplémentaire exige une autorisation explicite."
+          }
+        ]
+      }
+    ]
+  }
+}

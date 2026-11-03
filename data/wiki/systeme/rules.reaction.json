@@ -1,0 +1,188 @@
+{
+  "id": "rules.reaction",
+  "type": "codex",
+  "identity": {
+    "name": "Réaction",
+    "subtitle": "Choisir une réponse à une action adverse",
+    "icon": "↪",
+    "tags": [
+      "réaction",
+      "défense",
+      "riposte",
+      "PF",
+      "choix défensif"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/attack-profile.mjs",
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/pf.mjs",
+    "module/helpers/reaction-usage.mjs"
+  ],
+  "mechanics": {
+    "generalRoundLimit": false,
+    "specializedRoundUsage": true
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Déclenchement",
+        "value": "quand l’attaque propose un choix"
+      },
+      {
+        "label": "Coût",
+        "value": "selon la réaction"
+      },
+      {
+        "label": "Choix",
+        "value": "dépend de l’attaque et de votre situation"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Encaisser : 1 PF",
+        "Esquiver : 2 PF",
+        "Parade : 2 PF",
+        "Bouclier : 2 PF",
+        "Garde : 1 PF",
+        "Contre, Riposte ou Contre-attaque : 3 PF pour le retour"
+      ],
+      "blocked": [
+        "Les choix non compatibles avec l’attaque, l’équipement ou vos états n’apparaissent pas",
+        "Les défenses mentales sont proposées contre les dégâts mentaux"
+      ]
+    },
+    "roll": {
+      "formula": "Choisissez une réaction proposée ; son jet et son coût sont indiqués par sa fiche."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les ajustements de coût et de jet sont appliqués selon la réaction choisie."
+    },
+    "outcomes": {
+      "success": "La conséquence de la réaction choisie s’applique.",
+      "failure": "L’attaque suit la conséquence d’échec de cette réaction."
+    },
+    "example": "Une attaque physique normale peut proposer Encaisser, Esquiver, Parade ou Bouclier selon votre équipement.",
+    "modifiedBy": [
+      "Type et portée de l’attaque",
+      "Équipement",
+      "États et compétences"
+    ],
+    "links": [
+      {
+        "label": "Défense, Solidité et Usure des armes",
+        "sectionId": "systeme",
+        "entryId": "rules.weapon-defense"
+      },
+      {
+        "label": "Encaisser",
+        "sectionId": "systeme",
+        "entryId": "rules.encaisser"
+      },
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      },
+      {
+        "label": "Parade",
+        "sectionId": "systeme",
+        "entryId": "rules.parade"
+      },
+      {
+        "label": "Bouclier",
+        "sectionId": "systeme",
+        "entryId": "rules.bouclier"
+      },
+      {
+        "label": "Contre, Riposte et Contre-attaque",
+        "sectionId": "systeme",
+        "entryId": "rules.contre-attaque"
+      }
+    ],
+    "table": {
+      "headers": [
+        "Réaction",
+        "Coût",
+        "Stat / seuil",
+        "Quand ?",
+        "Résultat"
+      ],
+      "rows": [
+        [
+          "Encaisser",
+          "1 PF",
+          "CON",
+          "attaque compatible",
+          "réduit les dégâts"
+        ],
+        [
+          "Esquiver",
+          "2 PF",
+          "REACT / 2",
+          "physique ou magique normale",
+          "0 dégât si réussite"
+        ],
+        [
+          "Parade",
+          "2 PF",
+          "stat d’attaque / 2",
+          "mêlée compatible",
+          "compare les résultats"
+        ],
+        [
+          "Bouclier",
+          "2 PF",
+          "FOR",
+          "bouclier équipé",
+          "réduit après BCL"
+        ],
+        [
+          "Garde",
+          "1 PF",
+          "CON",
+          "contexte compatible",
+          "selon la garde"
+        ],
+        [
+          "Contre-attaque",
+          "3 PF",
+          "Contre : ATK entière du profil ; Riposte : profil/2 ; Contre-attaque : profil entier",
+          "ouverture proposée",
+          "attaque en retour"
+        ]
+      ]
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Déclenchement : quand l’attaque propose un choix · Coût : selon la réaction · Choix : dépend de l’attaque et de votre situation"
+          }
+        ]
+      },
+      {
+        "label": "Comment choisir ?",
+        "blocks": [
+          {
+            "items": [
+              "Lisez les réactions proposées par l’attaque.",
+              "Vérifiez le coût et l’équipement requis.",
+              "Ouvrez la fiche de la réaction pour son seuil et son risque."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

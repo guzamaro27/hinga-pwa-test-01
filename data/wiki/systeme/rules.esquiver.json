@@ -1,0 +1,186 @@
+{
+  "id": "rules.esquiver",
+  "type": "codex",
+  "identity": {
+    "name": "Esquiver",
+    "subtitle": "Éviter les dégâts d’une attaque",
+    "icon": "↝",
+    "tags": [
+      "esquive",
+      "esquiver",
+      "dodge",
+      "éviter les dégâts",
+      "défense évasive",
+      "réaction",
+      "REACT"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/attack-profile.mjs",
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/rolls.mjs",
+    "module/helpers/pf.mjs",
+    "module/helpers/focus.mjs"
+  ],
+  "mechanics": {
+    "stat": "react",
+    "creatureStat": "mobilite",
+    "normalDivisor": 2,
+    "surpriseDivisor": 4,
+    "counterDivisor": 4,
+    "cost": 2,
+    "successDamage": 0,
+    "fumbleMultipliers": {
+      "fumble": 1.5,
+      "fumble_ult": 2
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Type",
+        "value": "Réaction défensive"
+      },
+      {
+        "label": "Stat",
+        "value": "REACT"
+      },
+      {
+        "label": "Seuil normal",
+        "value": "REACT / 2 (arrondi inférieur)"
+      },
+      {
+        "label": "Coût",
+        "value": "2 PF de base"
+      },
+      {
+        "label": "Réussite",
+        "value": "0 dégât"
+      },
+      {
+        "label": "Échec",
+        "value": "dégâts après protections"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Attaque physique ou magique normale, en mêlée ou à distance",
+        "Attaque surprise : seuil au quart",
+        "Contre-attaque ou riposte : seuil au quart"
+      ],
+      "blocked": [
+        "Attaque d’opportunité standard : Esquiver n’est pas proposée",
+        "Dégâts mentaux : utilisez les défenses mentales dédiées"
+      ]
+    },
+    "roll": {
+      "character": "1d100 ≤ floor(REACT / 2)",
+      "surprise": "1d100 ≤ floor(REACT / 4)",
+      "counter": "1d100 ≤ floor(REACT / 4)",
+      "creatureInvocation": "Les créatures et invocations utilisent MOB selon leur défense."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les bonus, malus, AV et DV applicables à votre défense modifient le jet."
+    },
+    "blockers": [
+      "Certaines saisies ou positions au sol retirent l’Esquive.",
+      "Une saisie peut aussi imposer le seuil au quart."
+    ],
+    "outcomes": {
+      "success": "L’attaque inflige 0 dégât sur l’Esquive standard.",
+      "failure": "Les dégâts nets après armure, bouclier et résistances s’appliquent.",
+      "criticalFailure": "Un échec critique peut multiplier les dégâts par 1,5.",
+      "ultimateFailure": "Un échec critique ultime peut multiplier les dégâts par 2."
+    },
+    "example": "Avec REACT 51, le seuil normal est floor(51 / 2) = 25. Surprise ou riposte : floor(51 / 4) = 12. Un 22 réussit normalement ; un 49 échoue.",
+    "modifiedBy": [
+      "Aura d’Inspiration N3 : +5 aux actions évasives de ses bénéficiaires pendant sa durée.",
+      "Rivière N2 : seuil normal pour les esquives de mêlée concernées.",
+      "Rivière N3 : +1 AV aux esquives de mêlée concernées.",
+      "Focalisation maintenue : MOB et désavantage configuré.",
+      "Manœuvre Anti-Riposte N3 : −10 au seuil contre une contre-offensive admissible.",
+      "Acrobaties Urbaines : esquives spécialisées de zone ou de piège détaillées dans sa fiche."
+    ],
+    "links": [
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "AV / DV",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Type : Réaction défensive · Stat : REACT · Seuil normal : REACT / 2 (arrondi inférieur) · Coût : 2 PF de base · Réussite : 0 dégât · Échec : dégâts après protections"
+          }
+        ]
+      },
+      {
+        "label": "Quand puis-je l’utiliser ?",
+        "blocks": [
+          {
+            "text": "Vous pouvez Esquiver une attaque physique ou magique normale, en mêlée comme à distance. Le choix apparaît seulement lorsque l’attaque l’autorise."
+          }
+        ]
+      },
+      {
+        "label": "Comment ça marche ?",
+        "blocks": [
+          {
+            "text": "Lancez 1d100 sous floor(REACT / 2). Une attaque surprise ou une contre-offensive utilise floor(REACT / 4)."
+          }
+        ]
+      },
+      {
+        "label": "Ce qui peut me bloquer",
+        "blocks": [
+          {
+            "text": "Esquiver n’est pas proposé contre une opportunité standard. Les défenses mentales utilisent un autre système."
+          }
+        ]
+      },
+      {
+        "label": "Si je réussis",
+        "blocks": [
+          {
+            "text": "L’Esquive standard inflige 0 dégât."
+          }
+        ]
+      },
+      {
+        "label": "Si j’échoue",
+        "blocks": [
+          {
+            "text": "Les dégâts nets après protections s’appliquent ; un échec critique peut les multiplier par 1,5 ou 2."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "rules.encaisser",
+  "type": "codex",
+  "identity": {
+    "name": "Encaisser",
+    "subtitle": "Réduire les dégâts reçus",
+    "icon": "🛡",
+    "tags": [
+      "encaisser",
+      "défense",
+      "armure",
+      "dégâts",
+      "résistance",
+      "réaction"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/rolls.mjs",
+    "module/helpers/resistances.mjs",
+    "module/helpers/defense-values.mjs",
+    "module/helpers/pf.mjs"
+  ],
+  "mechanics": {
+    "stat": "constit",
+    "baseSuccessDivisor": 1.5,
+    "criticalDivisors": {
+      "crit": 3,
+      "crit_ult": 4
+    },
+    "fumbleMultipliers": {
+      "fumble": 1.5,
+      "fumble_ult": 2
+    },
+    "cost": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Type",
+        "value": "Réaction défensive"
+      },
+      {
+        "label": "Stat",
+        "value": "CON"
+      },
+      {
+        "label": "Réussite",
+        "value": "dégâts nets / 1,5"
+      },
+      {
+        "label": "Coût",
+        "value": "1 PF de base"
+      },
+      {
+        "label": "Échec",
+        "value": "dégâts nets complets"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Attaques dont le contexte propose Encaisser"
+      ],
+      "blocked": [
+        "Certaines attaques, situations et défenses mentales utilisent un autre choix"
+      ]
+    },
+    "roll": {
+      "character": "1d100 ≤ CON",
+      "creatureInvocation": "PHY, MAG ou stat mentale selon l’attaque",
+      "damage": "dégâts après protections, puis /1,5 sur réussite"
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les AV/DV et bonus/malus applicables modifient le jet."
+    },
+    "outcomes": {
+      "success": "Les dégâts nets sont divisés par 1,5.",
+      "failure": "Les dégâts nets complets après protections s’appliquent.",
+      "criticalSuccess": "Une réussite critique utilise /3 ou /4.",
+      "criticalFailure": "Un échec critique peut multiplier les dégâts par 1,5 ou 2."
+    },
+    "example": "25 dégâts nets deviennent floor(25 / 1,5) = 16 sur une réussite normale.",
+    "modifiedBy": [
+      "Armure et résistances",
+      "Type d’attaque",
+      "Compétences et maîtrises de défense"
+    ],
+    "links": [
+      {"label": "Défense, Solidité et Usure des armes", "sectionId": "systeme", "entryId": "rules.weapon-defense"},
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Bouclier",
+        "sectionId": "systeme",
+        "entryId": "rules.bouclier"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Type : Réaction défensive · Stat : CON · Réussite : dégâts nets / 1,5 · Coût : 1 PF de base · Échec : dégâts nets complets"
+          }
+        ]
+      },
+      {
+        "label": "Comment ça marche ?",
+        "blocks": [
+          {
+            "text": "Les protections sont retirées avant la réduction. Une réussite critique améliore la division ; un échec critique peut aggraver les dégâts."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "rules.difficultes",
+  "type": "codex",
+  "identity": {
+    "name": "Difficultés et divisions",
+    "subtitle": "Modifier le seuil d’un test",
+    "icon": "÷",
+    "tags": [
+      "difficulté",
+      "division",
+      "moitié",
+      "quart",
+      "dixième",
+      "/2",
+      "/4",
+      "/10"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/rolls.mjs"
+  ],
+  "mechanics": {
+    "recognizedDivisors": [
+      2,
+      4,
+      10
+    ],
+    "rounding": "Math.floor"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Normal",
+        "value": "valeur complète"
+      },
+      {
+        "label": "Demi",
+        "value": "/2"
+      },
+      {
+        "label": "Quart",
+        "value": "/4"
+      },
+      {
+        "label": "Dixième",
+        "value": "/10"
+      },
+      {
+        "label": "Arrondi",
+        "value": "vers le bas"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Quand la règle, l’attaque ou l’effet indique une difficulté"
+      ],
+      "blocked": [
+        "Ne divisez pas un seuil sans indication du contexte"
+      ]
+    },
+    "roll": {
+      "formula": "Divisez le seuil demandé, arrondissez vers le bas, puis lancez le test."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "La division du seuil reste distincte des AV/DV et des bonus/malus."
+    },
+    "example": "Une statistique à 41 devient 20 avec /2, 10 avec /4 et 4 avec /10.",
+    "modifiedBy": [
+      "Esquive surprise : /4",
+      "Esquive normale : /2",
+      "Parade : /2"
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Normal : valeur complète · Demi : /2 · Quart : /4 · Dixième : /10 · Arrondi : vers le bas"
+          }
+        ]
+      },
+      {
+        "label": "Ordre de calcul",
+        "blocks": [
+          {
+            "items": [
+              "Partez de la statistique ou du seuil fourni.",
+              "Appliquez la division indiquée.",
+              "Arrondissez vers le bas.",
+              "Ajoutez ensuite les bonus et malus prévus."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

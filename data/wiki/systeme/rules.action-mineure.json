@@ -1,0 +1,94 @@
+{
+  "id": "rules.action-mineure",
+  "type": "codex",
+  "identity": {
+    "name": "Action mineure",
+    "subtitle": "Dépenser une unité d’action",
+    "icon": "◇",
+    "tags": [
+      "action mineure",
+      "budget",
+      "1 unité"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/action-budget.mjs"
+  ],
+  "mechanics": {
+    "actionType": "minor",
+    "cost": 1,
+    "budgetPerTurn": 3
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Coût",
+        "value": "1 unité"
+      },
+      {
+        "label": "Budget",
+        "value": "budget commun du tour"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Une action indiquée comme mineure"
+      ],
+      "blocked": [
+        "Budget à 0"
+      ]
+    },
+    "roll": {
+      "formula": "L’action est engagée si au moins une unité est disponible."
+    },
+    "modifiers": {
+      "text": "Une règle spéciale peut changer la catégorie ou le coût."
+    },
+    "outcomes": {
+      "success": "Une unité est dépensée.",
+      "failure": "Rien n’est dépensé si le budget est vide."
+    },
+    "example": "Une mineure laisse deux unités : une majeure ou deux autres mineures.",
+    "modifiedBy": [
+      "Tour de combat",
+      "Effets qui changent le coût"
+    ],
+    "links": [
+      {
+        "label": "Tour de combat",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      },
+      {
+        "label": "Action majeure",
+        "sectionId": "systeme",
+        "entryId": "rules.action-majeure"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Coût : 1 unité · Budget : budget commun du tour"
+          }
+        ]
+      },
+      {
+        "label": "À retenir",
+        "blocks": [
+          {
+            "text": "Une action mineure utilise une unité du budget commun."
+          }
+        ]
+      }
+    ]
+  }
+}

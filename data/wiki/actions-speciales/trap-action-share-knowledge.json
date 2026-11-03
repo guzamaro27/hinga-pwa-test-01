@@ -1,0 +1,73 @@
+{
+  "id": "trap-action-share-knowledge",
+  "type": "codex",
+  "identity": {
+    "name": "Partager la connaissance",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "partage",
+      "connaissance"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Partager",
+            "text": "Transmettre à un autre acteur le niveau de connaissance déjà possédé sur un piège de scène."
+          }
+        ]
+      },
+      {
+        "label": "Effet",
+        "blocks": [
+          {
+            "title": "Connaissance",
+            "text": "Le destinataire reçoit le meilleur niveau entre sa connaissance actuelle et celle de la source. La source ne perd rien."
+          },
+          {
+            "title": "Données du piège",
+            "text": "Le partage ne modifie pas le vrai nom, le créateur, le propriétaire, le poseur, la visibilité, l'état ou les mécaniques du piège."
+          }
+        ]
+      },
+      {
+        "label": "Cible",
+        "blocks": [
+          {
+            "title": "Choix",
+            "text": "Si une cible valide est verrouillée, elle est utilisée. Sinon, un dialogue propose les acteurs pouvant recevoir l'explication."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Aucun jet",
+            "text": "Partager la connaissance ne demande pas de jet."
+          }
+        ]
+      },
+      {
+        "label": "Confidentialité",
+        "blocks": [
+          {
+            "title": "Message de chat",
+            "text": "Le retour de partage est envoyé en message discret aux personnes concernées et au MJ, sans annonce publique."
+          }
+        ]
+      }
+    ]
+  }
+}

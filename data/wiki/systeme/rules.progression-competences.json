@@ -1,0 +1,129 @@
+{
+  "id": "rules.progression-competences",
+  "type": "codex",
+  "identity": {
+    "name": "Acquisition et progression des compétences",
+    "subtitle": "Dépenser ses points de compétence",
+    "icon": "▲",
+    "tags": [
+      "Acquisition et progression des compétences",
+      "compétence",
+      "progression",
+      "points"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/competences/skill-progression.mjs",
+    "module/engine/competences/skill-tier.mjs",
+    "module/engine/competences/skill-levels.mjs"
+  ],
+  "mechanics": {
+    "basePoints": 12,
+    "tierCosts": {
+      "D": 1,
+      "C": 2,
+      "B": 3,
+      "A": 4,
+      "S": 5
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Base",
+        "value": "12 points sur un nouveau personnage"
+      },
+      {
+        "label": "Coût par niveau",
+        "value": "D 1 · C 2 · B 3 · A 4 · S 5"
+      },
+      {
+        "label": "Ordre",
+        "value": "Acheter N1 avant N2, puis N2 avant N3"
+      }
+    ],
+    "links": [
+      {
+        "label": "Groupes vocationnels",
+        "sectionId": "systeme",
+        "entryId": "rules.groupes-vocationnels"
+      },
+      {
+        "label": "Création",
+        "sectionId": "systeme",
+        "entryId": "guide.creation-personnage"
+      },
+      {
+        "label": "Tests",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Réserve",
+        "blocks": [
+          {
+            "text": "Un nouveau personnage reçoit 12 points. Les gains et ajustements du MJ modifient la réserve ; les achats diminuent les points disponibles."
+          }
+        ]
+      },
+      {
+        "label": "Coût",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Tier",
+                "Coût par niveau",
+                "Exemple pour 3 niveaux"
+              ],
+              "rows": [
+                [
+                  "D",
+                  1,
+                  3
+                ],
+                [
+                  "C",
+                  2,
+                  6
+                ],
+                [
+                  "B",
+                  3,
+                  9
+                ],
+                [
+                  "A",
+                  4,
+                  12
+                ],
+                [
+                  "S",
+                  5,
+                  15
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Ordre et limite",
+        "blocks": [
+          {
+            "text": "Les niveaux s’achètent dans l’ordre. Le nombre maximal vient de la définition de la compétence : toutes n’ont pas nécessairement trois niveaux. Les achats ne sont possibles que lorsque la fenêtre de progression est ouverte."
+          }
+        ]
+      }
+    ]
+  }
+}

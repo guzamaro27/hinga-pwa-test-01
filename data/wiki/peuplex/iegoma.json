@@ -1,0 +1,636 @@
+{
+  "id": "iegoma",
+  "type": "peuple",
+  "identity": {
+    "name": "Iégoma",
+    "subtitle": "",
+    "slug": "iegoma",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/iegoma.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Iégoma sont reconnaissables à leur silhouette légère, leur peau beige très claire, leurs traits fins et la longue queue préhensile qui prolonge leur colonne vertébrale."
+          },
+          {
+            "text": "Leur réactivité, leur intelligence pratique et leur grande maîtrise du mouvement leur valent une réputation d’individus agiles, méthodiques et particulièrement efficaces lorsqu’ils agissent en groupe."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 6/10 — Bien représenté"
+          },
+          {
+            "text": "**Tendances :** Les Iégoma vivent aussi bien dans les villes que dans les campagnes, avec une présence légèrement plus importante dans les milieux urbains. Ils apprécient particulièrement les régions montagneuses, les villes construites sur plusieurs niveaux et les territoires aux reliefs importants, sans dépendre de ces environnements pour vivre."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Iégoma mesurent généralement autour de **1,70 mètre** pour environ **65 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est légère et relativement fine."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc étroit ;",
+              "des épaules de largeur modérée ;",
+              "des membres fins ;",
+              "une ossature légère ;",
+              "une musculature discrète ;",
+              "une posture souple ;",
+              "des mouvements rapides et coordonnés."
+            ]
+          },
+          {
+            "text": "Leur corps est davantage adapté à l’agilité, à l’équilibre et aux changements brusques de position qu’aux efforts reposant sur la force brute."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau iégoma se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le beige très clair ;",
+              "l’ivoire chaud ;",
+              "le beige légèrement ocre ;",
+              "certains tons presque blancs."
+            ]
+          },
+          {
+            "text": "Elle possède généralement une coloration uniforme."
+          },
+          {
+            "text": "Les muqueuses sont plus rosées que le reste de la peau."
+          },
+          {
+            "text": "Les paumes des mains et les plantes des pieds peuvent présenter une teinte légèrement plus rose ou plus claire."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage iégoma est généralement fin et légèrement allongé verticalement."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front modérément haut ;",
+              "des pommettes saillantes ;",
+              "des joues légèrement creusées ;",
+              "un menton fin et pointu ;",
+              "un nez étroit à modéré ;",
+              "de petits yeux en amande ;",
+              "des sourcils épais et foncés ;",
+              "des oreilles arrondies et légèrement décollées."
+            ]
+          },
+          {
+            "text": "Les traits restent précis et nettement dessinés, sans paraître excessivement anguleux."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Iégoma possèdent de petits yeux en amande."
+          },
+          {
+            "text": "Les iris sont généralement sombres et se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le brun foncé ;",
+              "le brun presque noir ;",
+              "certains tons noirs légèrement colorés."
+            ]
+          },
+          {
+            "text": "Le contraste entre l’iris et la pupille peut être faible."
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux iégoma se déclinent principalement dans des tons comprenant :"
+          },
+          {
+            "items": [
+              "le châtain ;",
+              "le châtain foncé ;",
+              "le brun ;",
+              "le brun presque noir."
+            ]
+          },
+          {
+            "text": "Ils sont généralement :"
+          },
+          {
+            "items": [
+              "fins ou de densité moyenne ;",
+              "lisses ;",
+              "parfois légèrement ondulés."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle suit les mêmes gammes de couleurs et reste généralement discrète."
+          },
+          {
+            "text": "Les sourcils sont souvent épais et légèrement plus sombres que les cheveux."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Iégoma possèdent une queue préhensile dépourvue de poils."
+          },
+          {
+            "text": "Elle prend naissance dans le prolongement de la colonne vertébrale et possède une musculature suffisamment développée pour être contrôlée avec précision."
+          },
+          {
+            "text": "La queue est généralement :"
+          },
+          {
+            "items": [
+              "longue ;",
+              "souple ;",
+              "mobile sur toute sa longueur ;",
+              "recouverte de la même peau claire que le reste du corps ;",
+              "plus fine à son extrémité."
+            ]
+          },
+          {
+            "text": "Elle peut :"
+          },
+          {
+            "items": [
+              "s’enrouler autour d’un support ;",
+              "saisir ou maintenir un objet léger ;",
+              "accompagner un mouvement ;",
+              "aider à stabiliser le corps ;",
+              "participer aux changements rapides de direction."
+            ]
+          },
+          {
+            "text": "Elle ne possède ni main, ni doigt, ni extrémité spécialisée."
+          },
+          {
+            "text": "Les Iégoma possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La queue iégoma est reliée à la colonne vertébrale et contrôlée par un ensemble de muscles fins."
+          },
+          {
+            "text": "Elle participe naturellement :"
+          },
+          {
+            "items": [
+              "à l’équilibre ;",
+              "à la stabilisation du bassin ;",
+              "à la correction d’un mouvement en cours ;",
+              "au maintien d’une posture instable ;",
+              "aux déplacements sur des surfaces étroites ;",
+              "aux mouvements acrobatiques."
+            ]
+          },
+          {
+            "text": "Lorsqu’elle s’enroule autour d’un support, elle peut fournir un point d’appui supplémentaire. Elle ne remplace cependant pas complètement une main pour les manipulations complexes."
+          },
+          {
+            "text": "La queue possède une sensibilité tactile normale et permet de percevoir la pression, les vibrations et la texture d’un objet avec lequel elle entre en contact."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la souplesse générale diminue ;",
+              "les mouvements de la queue deviennent moins rapides ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "la peau s’éclaircit légèrement ;",
+              "la force et la coordination diminuent progressivement."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Iégoma sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils consomment fréquemment des produits issus de la mer, notamment :"
+          },
+          {
+            "items": [
+              "des poissons ;",
+              "des coquillages ;",
+              "des crustacés ;",
+              "des algues."
+            ]
+          },
+          {
+            "text": "Ils apprécient également les aliments séchés ou conservés, faciles à stocker et à transporter."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Iégoma possèdent une espérance de vie moyenne d’environ **70 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **100 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Leur organisme est particulièrement adapté :"
+          },
+          {
+            "items": [
+              "aux mouvements rapides ;",
+              "aux changements brusques d’appui ;",
+              "aux déplacements sur plusieurs niveaux ;",
+              "aux environnements encombrés ;",
+              "aux efforts demandant coordination et précision."
+            ]
+          },
+          {
+            "text": "Leur faible disposition à la Force ne les empêche pas d’accomplir les activités physiques ordinaires, mais les rend moins naturellement adaptés aux efforts fondés sur la puissance brute."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Toucher**"
+          },
+          {
+            "text": "Les Iégoma possèdent une sensibilité tactile particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les faibles variations de texture ;",
+              "les changements de pression ;",
+              "les vibrations transmises par une surface ;",
+              "les légers déplacements d’un objet tenu ;",
+              "les différences fines de température ;",
+              "le contact précis entre leur corps et un point d’appui."
+            ]
+          },
+          {
+            "text": "Cette sensibilité s’étend également à leur queue préhensile."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Audition**"
+          },
+          {
+            "text": "L’acuité auditive iégoma est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer plusieurs sons proches ;",
+              "déterminer précisément la direction d’un bruit faible ;",
+              "isoler une voix dans un environnement bruyant ;",
+              "reconnaître de faibles variations de tonalité ;",
+              "entendre une source située derrière un obstacle."
+            ]
+          },
+          {
+            "text": "Leur audition reste pleinement fonctionnelle pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie iégoma repose fréquemment sur la rapidité d’analyse, le contrôle du mouvement et l’exploitation du moment approprié."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "une activation rapide ;",
+              "une modification précise d’une trajectoire ;",
+              "une réaction immédiate ;",
+              "une interruption du mouvement adverse ;",
+              "un déplacement coordonné ;",
+              "une manipulation technique ;",
+              "une compréhension rapide d’un mécanisme ou d’une situation."
+            ]
+          },
+          {
+            "text": "Leur faible disposition à la Force les rend moins naturellement adaptés aux manifestations reposant sur une projection physique brutale ou sur la confrontation directe."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Électricité**"
+          },
+          {
+            "text": "L’Électricité constitue l’affinité élémentaire recommandée pour les Iégoma."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie iégoma se manifeste fréquemment sous des formes rapides, fines et nettement dirigées."
+          },
+          {
+            "text": "Lorsqu’elle utilise l’Électricité, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’arcs courts ;",
+              "de lignes électriques suivant les mouvements du corps ;",
+              "d’impulsions localisées ;",
+              "de décharges brèves autour des mains ;",
+              "de courants circulant le long d’une arme ;",
+              "de tensions magiques destinées à interrompre une prise ;",
+              "d’éclairs se propageant entre plusieurs points proches."
+            ]
+          },
+          {
+            "text": "Les manifestations iégoma privilégient généralement la précision, l’interruption et le contrôle du rythme plutôt que la puissance destructrice prolongée."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La queue préhensile peut accompagner les mouvements magiques de l’Iégoma et participer à son équilibre pendant une incantation, mais elle ne constitue pas une source de magie indépendante."
+          },
+          {
+            "text": "Les flux iégoma peuvent être utilisés pour :"
+          },
+          {
+            "items": [
+              "perturber momentanément une prise ;",
+              "détourner une arme ;",
+              "créer une ouverture ;",
+              "accompagner un déplacement acrobatique ;",
+              "coordonner rapidement une action collective."
+            ]
+          },
+          {
+            "text": "L’affinité recommandée à l’Électricité n’accorde aucune amélioration automatique de la Chance ou de la résistance aux états de Confusion."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage iégoma :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "REACT +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "INT +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "FOR −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Électricité"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. L’Électricité constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Désarmement Stratégique",
+                  "B"
+                ],
+                [
+                  "Acrobaties Urbaines",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Désarmement Stratégique",
+            "headingLevel": 5,
+            "anchor": "desarmement-strategique",
+            "text": "Cette formation développe la capacité à observer la prise et la posture d’un adversaire afin de lui faire perdre le contrôle de son arme au moment opportun."
+          },
+          {
+            "title": "Acrobaties Urbaines",
+            "headingLevel": 5,
+            "anchor": "acrobaties-urbaines",
+            "text": "Cette formation développe les déplacements rapides, l’équilibre et l’utilisation des constructions, obstacles et différences de hauteur dans les milieux habités."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Désarmement Stratégique ;",
+              "Acrobaties Urbaines."
+            ]
+          },
+          {
+            "title": "Chance accrue",
+            "headingLevel": 5,
+            "anchor": "chance-accrue",
+            "text": "Votre Chance de base et votre Chance maximale augmentent chacune de **+5**."
+          },
+          {
+            "title": "Mentalité — Confusion",
+            "headingLevel": 5,
+            "anchor": "mentalite-confusion",
+            "text": "Vous êtes immunisé contre les états T1 appartenant à la famille **Confusion** :"
+          },
+          {
+            "items": [
+              "**Confusion mentale T1** ;",
+              "**Hésitation**."
+            ]
+          },
+          {
+            "text": "Vous êtes avantagé d’un niveau lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "text": "**Tier 2 :**"
+          },
+          {
+            "items": [
+              "Confusion mentale T2 ;",
+              "Désorientation."
+            ]
+          },
+          {
+            "text": "**Tier 3 :**"
+          },
+          {
+            "items": [
+              "Confusion mentale T3 ;",
+              "Déroutement."
+            ]
+          },
+          {
+            "text": "**Tier 4 :**"
+          },
+          {
+            "items": [
+              "Confusion mentale T4 ;",
+              "Déphasage."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états appartenant explicitement à la famille canonique **Confusion**."
+          },
+          {
+            "text": "Elle ne s’applique pas :"
+          },
+          {
+            "items": [
+              "aux états élémentaires ;",
+              "aux états de Folie ;",
+              "aux états de Brouillage sensoriel ;",
+              "aux effets décrivant une confusion sans appliquer un état de la famille Confusion."
+            ]
+          },
+          {
+            "title": "Sens aiguisé — Toucher",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-toucher",
+            "text": "Vous obtenez **+5 en Toucher**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la sensibilité tactile."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Iégoma.md",
+    "sourceSha256": "f5dcb1ff99007bc829736c263a908bbf3262fde56a41e091ee8af33175f75989"
+  }
+}

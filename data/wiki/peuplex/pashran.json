@@ -1,0 +1,762 @@
+{
+  "id": "pashran",
+  "type": "peuple",
+  "identity": {
+    "name": "Pashran",
+    "subtitle": "",
+    "slug": "pashran",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/pashran.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Pashran sont reconnaissables à leur silhouette élancée, leur peau rouge, leurs yeux aux couleurs chaudes et leurs cornes recouvertes de peau qui se prolongent vers l’arrière du crâne."
+          },
+          {
+            "text": "Leur maintien assuré, leur maîtrise des pratiques arcaniques et mentales ainsi que leur goût prononcé pour la présentation leur valent une réputation de peuple fier, raffiné et parfois difficile à impressionner."
+          },
+          {
+            "text": "Ils comptent parmi les peuples les plus répandus d’Arolnia et sont généralement considérés comme le second peuple le plus fréquent après les Magoma."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 8/10 — Très commun"
+          },
+          {
+            "text": "**Tendances :** Les Pashran sont présents dans presque toutes les grandes régions habitées d’Arolnia."
+          },
+          {
+            "text": "Ils vivent principalement :"
+          },
+          {
+            "items": [
+              "dans les villes ;",
+              "dans les grandes agglomérations ;",
+              "dans les centres commerciaux ;",
+              "dans les régions chaudes ;",
+              "sur les plateaux ensoleillés ;",
+              "dans les territoires où les échanges sont nombreux."
+            ]
+          },
+          {
+            "text": "Leur forte population les rend également de plus en plus visibles dans les campagnes, les petites villes et les communautés rurales."
+          },
+          {
+            "text": "Ils restent toutefois beaucoup moins nombreux dans les régions froides du Nord, auxquelles ils s’adaptent moins volontiers."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Pashran mesurent généralement autour de **1,80 mètre** pour environ **60 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, fine et relativement légère."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc étroit ;",
+              "des épaules modérément larges ;",
+              "des membres longs ;",
+              "une ossature fine ;",
+              "une musculature discrète ;",
+              "une posture droite ;",
+              "des mouvements mesurés ;",
+              "une apparence générale élégante."
+            ]
+          },
+          {
+            "text": "Leur faible masse corporelle leur donne une allure élancée plutôt que fragile."
+          },
+          {
+            "text": "Leur constitution reste moins adaptée aux efforts physiques très prolongés, au port de charges importantes et aux conditions demandant une forte endurance corporelle."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau pashran se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le rouge clair ;",
+              "le rouge chaud ;",
+              "le rouge orangé ;",
+              "le rose rougeâtre ;",
+              "certains tons corail."
+            ]
+          },
+          {
+            "text": "De petites marques noires peuvent apparaître sur différentes parties du corps."
+          },
+          {
+            "text": "Elles se présentent généralement sous la forme :"
+          },
+          {
+            "items": [
+              "de petites taches ;",
+              "de points dispersés ;",
+              "de groupes irréguliers ;",
+              "de marques légèrement plus concentrées sur les épaules, le torse et le visage."
+            ]
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont généralement plus claires que le reste de la peau."
+          },
+          {
+            "text": "Elles prennent fréquemment des teintes :"
+          },
+          {
+            "items": [
+              "rose clair ;",
+              "rose chaud ;",
+              "rouge très pâle."
+            ]
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage pashran est généralement rond dans sa partie supérieure et plus fin dans sa partie inférieure."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front arrondi ;",
+              "des pommettes peu saillantes ;",
+              "des joues lisses ;",
+              "une mâchoire fine ;",
+              "un menton pointu ;",
+              "un nez court et étroit ;",
+              "une bouche de taille moyenne ;",
+              "de petites oreilles discrètes."
+            ]
+          },
+          {
+            "text": "Les traits sont généralement réguliers et peu anguleux."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Pashran possèdent des yeux en amande."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des gammes chaudes comprenant :"
+          },
+          {
+            "items": [
+              "le jaune ;",
+              "le jaune doré ;",
+              "l’orange ;",
+              "le rouge orangé ;",
+              "le rouge ;",
+              "le brun chaud ;",
+              "plus rarement, le violet."
+            ]
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux pashran sont le plus souvent noirs."
+          },
+          {
+            "text": "Certaines familles présentent toutefois des couleurs plus claires transmises sur plusieurs générations."
+          },
+          {
+            "text": "La palette peut ainsi comprendre :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun noir ;",
+              "le brun rouge ;",
+              "le rouge sombre ;",
+              "certains tons cuivrés ou clairs."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle et faciale est généralement :"
+          },
+          {
+            "items": [
+              "noire ;",
+              "épaisse ;",
+              "de densité moyenne à importante."
+            ]
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité blanchissent progressivement."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Pashran possèdent des cornes prenant naissance sur la partie supérieure du front et poussant vers l’arrière."
+          },
+          {
+            "text": "Elles sont recouvertes de peau sur toute leur surface."
+          },
+          {
+            "text": "Leur forme varie fortement selon les familles."
+          },
+          {
+            "text": "Elles peuvent être :"
+          },
+          {
+            "items": [
+              "droites ;",
+              "courbées ;",
+              "proches du crâne ;",
+              "légèrement relevées ;",
+              "inclinées vers l’extérieur ;",
+              "fines ou épaisses."
+            ]
+          },
+          {
+            "text": "Leur longueur peut atteindre environ **30 centimètres** chez certains individus."
+          },
+          {
+            "text": "La forme, la taille et l’orientation des cornes sont principalement héréditaires."
+          },
+          {
+            "text": "Les Pashran possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Leurs oreilles sont généralement petites, discrètes et légèrement pointées vers le haut."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les cornes pashran se développent progressivement pendant l’enfance et l’adolescence."
+          },
+          {
+            "text": "Elles sont reliées au crâne, mais leur enveloppe externe reste constituée de peau vivante."
+          },
+          {
+            "text": "Cette peau possède :"
+          },
+          {
+            "items": [
+              "une sensibilité modérée ;",
+              "une température proche de celle du reste du corps ;",
+              "une pigmentation semblable à celle du front."
+            ]
+          },
+          {
+            "text": "Les extrémités les plus éloignées sont généralement moins sensibles que leur base."
+          },
+          {
+            "text": "L’orientation arrière des cornes limite leur utilisation comme arme frontale."
+          },
+          {
+            "text": "Elles influencent surtout :"
+          },
+          {
+            "items": [
+              "les coiffures ;",
+              "les couvre-chefs ;",
+              "la manière de dormir ;",
+              "le passage dans les espaces étroits ;",
+              "certains mouvements de tête."
+            ]
+          },
+          {
+            "text": "Les différences entre les formes de cornes n’accordent aucun avantage mécanique automatique."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Pashran sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des racines ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement :"
+          },
+          {
+            "items": [
+              "les plats épicés ;",
+              "les sauces complexes ;",
+              "les préparations rôties ;",
+              "les mets associant plusieurs textures ;",
+              "les repas soigneusement présentés."
+            ]
+          },
+          {
+            "text": "Les Pashran sont fréquemment réputés pour leur intérêt envers la cuisine et pour la précision de leurs préparations."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Pashran possèdent une espérance de vie moyenne d’environ **95 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **125 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "la peau devient progressivement plus claire ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "les rides deviennent plus visibles ;",
+              "la force et la résistance physiques diminuent."
+            ]
+          },
+          {
+            "text": "Les Pashran supportent généralement mieux les climats chauds que les froids, mais cette préférence ne constitue pas une Adaptation environnementale mécanique."
+          },
+          {
+            "text": "Ils ne possèdent aucune résistance automatique au Feu sans sélection de la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "Les Pashran possèdent une perception ésotérique particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "une présence magique ;",
+              "une aura active ;",
+              "un flux arcanique ;",
+              "une perturbation mentale surnaturelle ;",
+              "une magie dormante ;",
+              "la trace laissée par une incantation ;",
+              "les variations d’intensité d’un effet ;",
+              "certaines tensions présentes entre plusieurs flux."
+            ]
+          },
+          {
+            "text": "Cette sensibilité ne révèle pas automatiquement l’origine, les règles ou les effets complets d’une magie inconnue."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Toucher**"
+          },
+          {
+            "text": "La perception tactile pashran est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des textures très proches ;",
+              "percevoir une pression extrêmement légère ;",
+              "reconnaître un petit objet par le toucher seul ;",
+              "détecter une variation subtile de température ;",
+              "évaluer précisément une surface sans la regarder ;",
+              "sentir un contact discret à travers un vêtement épais."
+            ]
+          },
+          {
+            "text": "Leur toucher reste pleinement fonctionnel pour les activités ordinaires et la manipulation d’objets."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie pashran repose principalement sur la maîtrise de l’Arcane, la stabilité de l’esprit et l’influence psychique."
+          },
+          {
+            "text": "Leur Arcane développée favorise notamment :"
+          },
+          {
+            "items": [
+              "les structures magiques précises ;",
+              "les manifestations durables ;",
+              "la protection mentale ;",
+              "l’organisation de plusieurs flux ;",
+              "les pratiques demandant une forte concentration ;",
+              "la compréhension des effets surnaturels."
+            ]
+          },
+          {
+            "text": "Leur Psyché élevée facilite :"
+          },
+          {
+            "items": [
+              "les actions mentales ;",
+              "l’influence surnaturelle ;",
+              "la résistance aux pressions psychiques ;",
+              "l’application d’états mentaux ;",
+              "la stabilisation de leur propre esprit ;",
+              "l’affrontement direct de la volonté d’une cible."
+            ]
+          },
+          {
+            "text": "Leur Constitution diminuée les rend moins naturellement adaptés :"
+          },
+          {
+            "items": [
+              "aux efforts physiques prolongés ;",
+              "aux canalisations reposant fortement sur l’endurance corporelle ;",
+              "aux environnements très éprouvants ;",
+              "aux pratiques demandant de supporter durablement une forte contrainte physique."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Feu**"
+          },
+          {
+            "text": "Le Feu constitue l’affinité élémentaire recommandée pour les Pashran."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie pashran se manifeste fréquemment sous des formes lumineuses, contrôlées et fortement structurées."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Feu, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de flammes fines ;",
+              "de halos rouge orangé ;",
+              "de lignes ardentes ;",
+              "de braises suspendues ;",
+              "de cercles incandescents ;",
+              "de formes rappelant des couronnes ou des parures ;",
+              "d’une chaleur concentrée autour du regard et des tempes ;",
+              "de filaments de feu reliant le lanceur à une cible mentale."
+            ]
+          },
+          {
+            "text": "Les manifestations pashran privilégient généralement :"
+          },
+          {
+            "items": [
+              "le contrôle ;",
+              "la précision ;",
+              "la présence ;",
+              "l’influence ;",
+              "la stabilité ;",
+              "l’intensité contenue."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les cornes pashran peuvent réagir visuellement à une forte activité magique."
+          },
+          {
+            "text": "Cette réaction peut prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une chaleur perceptible près de leur base ;",
+              "d’une coloration plus vive de la peau qui les recouvre ;",
+              "d’une ligne lumineuse suivant leur courbure ;",
+              "de petites braises apparaissant brièvement autour de leur extrémité."
+            ]
+          },
+          {
+            "text": "Elles ne constituent toutefois pas des organes magiques autonomes."
+          },
+          {
+            "text": "L’affinité recommandée au Feu n’accorde automatiquement :"
+          },
+          {
+            "items": [
+              "ni résistance au Feu ;",
+              "ni protection contre la Peur ;",
+              "ni transformation particulière."
+            ]
+          },
+          {
+            "text": "Ces capacités doivent être obtenues par une Voie d’héritage."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage pashran :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "ARC +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "PSY +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "CONST −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Feu"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Feu constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Ancrage Mental",
+                  "B"
+                ],
+                [
+                  "Influence Psychique",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Ancrage Mental",
+            "headingLevel": 5,
+            "anchor": "ancrage-mental",
+            "text": "Cette formation développe la capacité à stabiliser temporairement l’esprit contre de nouvelles pénalités mentales."
+          },
+          {
+            "text": "Au N1, le personnage protège sa propre PSY contre les nouveaux malus numériques et désavantages qui lui sont directement appliqués."
+          },
+          {
+            "text": "Aux niveaux supérieurs, cette protection peut :"
+          },
+          {
+            "items": [
+              "concerner un allié ;",
+              "protéger également le CHAR et l’INT ;",
+              "bénéficier à plusieurs alliés ;",
+              "renforcer la défense mentale."
+            ]
+          },
+          {
+            "text": "Ancrage Mental ne supprime pas les pénalités déjà présentes avant son activation."
+          },
+          {
+            "title": "Influence Psychique",
+            "headingLevel": 5,
+            "anchor": "influence-psychique",
+            "text": "Cette formation développe un mode d’influence surnaturelle reposant sur la PSY."
+          },
+          {
+            "text": "Pendant sa durée, elle peut améliorer les actions psychiques suivantes :"
+          },
+          {
+            "items": [
+              "Intimider ;",
+              "Charmer ;",
+              "Commander."
+            ]
+          },
+          {
+            "text": "La compétence doit être choisie explicitement lors de l’action et ne renforce pas automatiquement les utilisations ordinaires de ces savoir-faire."
+          },
+          {
+            "text": "Aux niveaux supérieurs, elle peut également :"
+          },
+          {
+            "items": [
+              "fragiliser les résistances psychiques d’une cible proche ;",
+              "forcer une nouvelle résistance ;",
+              "appliquer temporairement Influencé ;",
+              "réduire la PSY effective de la cible."
+            ]
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Ancrage Mental ;",
+              "Influence Psychique."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Feu",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-feu",
+            "text": "Vous obtenez **+10 % de résistance au Feu**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Mentalité — Peur",
+            "headingLevel": 5,
+            "anchor": "mentalite-peur",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Inquiétude**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Crainte** — T2 ;",
+              "**Terreur** — T3 ;",
+              "**Effroi** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états canoniques de la famille **Peur**."
+          },
+          {
+            "text": "Elle ne s’applique pas automatiquement :"
+          },
+          {
+            "items": [
+              "aux états élémentaires ;",
+              "aux états d’une autre famille ;",
+              "aux simples malus narrativement décrits comme de la peur ;",
+              "aux effets n’appliquant pas l’un de ces états exacts."
+            ]
+          },
+          {
+            "title": "Transformation et Condition — Démon",
+            "headingLevel": 5,
+            "anchor": "transformation-et-condition-demon",
+            "text": "Vous êtes porteur de la **Condition Démon** et de la transformation qui lui est associée."
+          },
+          {
+            "text": "Ses manifestations suivent les règles générales de Transformation et Condition."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Pashran.md",
+    "sourceSha256": "1922e53726bbb9ceeefbf0e3929d62dfb42c384c6b56eb32cd489b6c25ea0ffb"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "keralom",
+  "type": "creature-public",
+  "identity": {
+    "name": "Keralom",
+    "subtitle": "Le Hurleur Sournois",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "souterrain",
+      "chasse",
+      "artisanat",
+      "rituel"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Keralom vit dans les donjons, structures souterraines, salles obscures et cavités rocheuses. Il privilégie les plafonds de couloirs et les zones confinées où son corps mimétique se confond avec la roche environnante. Carnivore, il attend qu’un intrus entre dans sa zone acoustique avant de signaler sa présence à ses congénères et de déclencher une attaque coordonnée."
+          },
+          {
+            "text": "Le Keralom est une créature petite et large, accrochée au plafond comme un bloc de pierre mal dégrossi. Son corps imite parfaitement la roche environnante, adoptant des teintes sombres et irrégulières. Sa gueule béante constitue l’essentiel de son anatomie. L’intérieur de sa bouche est totalement noir, absorbant la lumière, tandis que deux yeux blancs presque luminescents émergent de cette obscurité. Sa langue noire, longue et fine, se termine en pointe et peut s’enrouler rapidement autour d’une victime pour la maintenir en place. Ses deux pattes sont petites et fines, mais robustes et crochues, lui permettant de rester solidement accroché aux plafonds des galeries."
+          },
+          {
+            "text": "Le Keralom peut vivre seul, mais devient beaucoup plus dangereux lorsqu’il agit en petit groupe coordonné. Son cri sert d’alerte à ses congénères, qui peuvent alors se laisser tomber ensemble depuis les plafonds sur les intrus."
+          }
+        ]
+      }
+    ]
+  }
+}

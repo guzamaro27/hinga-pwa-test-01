@@ -1,0 +1,229 @@
+{
+  "id": "materials.peau-ecaille",
+  "type": "material",
+  "identity": {
+    "name": "Peau d’Écaille",
+    "subtitle": "Cuirs · Reptilien",
+    "icon": "◆",
+    "tags": [
+      "peau-ecaille",
+      "Peau d’Écaille",
+      "leather",
+      "Cuirs",
+      "reptilien",
+      "Reptilien",
+      "Créature reptilienne",
+      "Écailles variables, semi-rigides",
+      "Peau exotique offrant une bonne barrière physique et élémentaire.",
+      "Variable/Élémentaire",
+      "physical",
+      "Physique",
+      "Normal",
+      "Armures exotiques",
+      "capes",
+      "boucliers souples",
+      "chasseur",
+      "tanneur",
+      "armurier",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Cuirs",
+    "rarity": 5
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "peau-ecaille",
+    "family": "leather",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Cuirs"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Reptilien"
+      },
+      {
+        "label": "Rareté",
+        "value": 5
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Créature reptilienne"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Écailles variables, semi-rigides"
+          },
+          {
+            "title": "Description",
+            "text": "Peau exotique offrant une bonne barrière physique et élémentaire."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "8"
+          },
+          {
+            "title": "Masse relative",
+            "text": "4"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Modéré (2)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "2"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Variable/Élémentaire"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Support de résistances élémentaires selon l’espèce d’origine."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Effet impossible à fixer sans identifier la créature."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armures exotiques",
+              "capes",
+              "boucliers souples"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "chasseur",
+              "tanneur",
+              "armurier",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Peau tannée de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1.5"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "63"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.65"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "30"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "variable"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

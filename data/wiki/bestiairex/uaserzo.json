@@ -1,0 +1,33 @@
+{
+  "id": "uaserzo",
+  "type": "creature-public",
+  "identity": {
+    "name": "Uaserzo",
+    "subtitle": "Le Fouisseur Venimeux",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Uaserzo vit principalement dans les lisières forestières, les zones sableuses, les sols meubles, les chemins forestiers et les plaines herbeuses. Il chasse surtout au sol, mais utilise aussi des vols très bas et rapides pour surprendre ses proies. Ses terriers peu profonds lui servent de refuge, de zone de repos et de nid."
+          },
+          {
+            "text": "L’Uaserzo est une petite créature aviaire étrange dont la tête diffère fortement des formes classiques. Son museau souple remplace le bec rigide et révèle une bouche large garnie de nombreuses dents triangulaires visibles même lorsqu’elle est fermée. Ses yeux rouge orangé très larges lui donnent une expression intense et attentive. Son plumage est majoritairement blanc et gris clair avec des motifs noirs écailleux sur le dos. Autour du cou apparaît un motif noir circulaire distinctif. Ses ailes compactes et sa longue queue étroite lui permettent d’effectuer des vols rapides très près du sol. Ses pattes fines aux griffes courbées lui servent autant à courir qu’à creuser des terriers dans les sols meubles."
+          },
+          {
+            "text": "L’Uaserzo vit seul ou en petits groupes territoriaux. Les nids sont creusés dans des terriers peu profonds, généralement dans des sols meubles faciles à aménager et à défendre."
+          }
+        ]
+      }
+    ]
+  }
+}

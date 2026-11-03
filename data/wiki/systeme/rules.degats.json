@@ -1,0 +1,115 @@
+{
+  "id": "rules.degats",
+  "type": "codex",
+  "identity": {
+    "name": "Dégâts",
+    "subtitle": "De l’impact à la perte de ressource",
+    "icon": "✹",
+    "tags": [
+      "Dégâts",
+      "dégâts",
+      "armure",
+      "résistance"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/combat-crit.js",
+    "module/helpers/resource-delta.mjs",
+    "module/engine/environmental-damage.mjs"
+  ],
+  "mechanics": {
+    "criticalMultipliers": {
+      "crit": 1.25,
+      "crit_ult": 1.5
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Ordre",
+        "value": "Jet, critique, protections, perte"
+      },
+      {
+        "label": "Critique",
+        "value": "×1,25 ou ×1,5"
+      },
+      {
+        "label": "Ressource",
+        "value": "PV, SM ou autre selon l’attaque"
+      }
+    ],
+    "links": [
+      {
+        "label": "Armures",
+        "sectionId": "systeme",
+        "entryId": "rules.armures"
+      },
+      {
+        "label": "Résistances",
+        "sectionId": "systeme",
+        "entryId": "rules.resistances"
+      },
+      {
+        "label": "Critiques",
+        "sectionId": "systeme",
+        "entryId": "rules.critiques"
+      },
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "text": "Une attaque réussie produit ses dégâts, applique le multiplicateur critique éventuel, puis laisse agir les protections prévues par son profil. Le montant restant réduit la ressource visée."
+          }
+        ]
+      },
+      {
+        "label": "Protections",
+        "blocks": [
+          {
+            "items": [
+              "L’armure réduit les dégâts couverts par sa défense.",
+              "Les résistances réduisent le type correspondant.",
+              "Un Blocage réussi peut encore réduire les dégâts avec la DEF de l’arme.",
+              "Les états et dégâts périodiques suivent leur propre résolution lorsqu’ils ne sont pas un paquet d’attaque."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dégâts hors combat / incidents environnementaux",
+        "blocks": [
+          {
+            "text": "Le MJ déclenche l’incident depuis le Hub MJ. Chaque cible choisit ensuite sa réaction avant qu’un unique jet de dégâts commun soit lancé et réparti selon les résultats individuels."
+          },
+          {
+            "items": [
+              "Rien / Subir : aucun jet, dégâts complets.",
+              "Esquiver / se rattraper : jet de REACT ; une réussite évite complètement les dégâts.",
+              "Amortir : jet de DEX ; une réussite divise les dégâts par deux, arrondis à l’inférieur.",
+              "Encaisser : jet de CONST ; une réussite divise les dégâts par deux, arrondis à l’inférieur.",
+              "Autre : le joueur décrit sa réaction, puis le MJ choisit la statistique, la difficulté et l’effet d’une réussite.",
+              "Ces réactions environnementales ne coûtent ni PF, ni action, ni réaction de combat.",
+              "Le jet de dégâts commun n’a lieu qu’après la résolution de toutes les réactions.",
+              "Pièges, terrains, poisons et dégâts périodiques utilisent leurs propres moteurs."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

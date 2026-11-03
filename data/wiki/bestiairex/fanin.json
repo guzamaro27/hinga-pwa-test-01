@@ -1,0 +1,32 @@
+{
+  "id": "fanin",
+  "type": "creature-public",
+  "identity": {
+    "name": "Fanin",
+    "subtitle": "Le sauteur des lagunes",
+    "tags": [
+      "sauvage",
+      "proie",
+      "migrateur",
+      "aquatique"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Fanin vit principalement dans les eaux salées peu profondes, les lagunes et les zones côtières claires. Migrateur, il privilégie les eaux calmes où il peut se déplacer en banc compact et coordonné. Son régime est omnivore : il consomme de petits organismes marins, des insectes et des fruits tombés à l’eau."
+          },
+          {
+            "text": "Le Fanin est un petit mammifère marin au corps léger et hydrodynamique. Son pelage varie du bleu ciel au blanc, avec des écailles rosées et bleutées disséminées sur les flancs. Une collerette de poils plus foncés entoure la tête. Ses grandes oreilles, étonnamment développées pour un animal aquatique, captent les vibrations et les changements de pression. Ses nageoires arrière jumelées lui permettent des accélérations fulgurantes, tandis que son aileron stabilise sa trajectoire."
+          },
+          {
+            "text": "Les Fanin vivent en bancs compacts de plusieurs dizaines d’individus. Le groupe se déplace de manière coordonnée et réagit collectivement au danger, notamment par des bonds synchronisés parfois hors de l’eau."
+          }
+        ]
+      }
+    ]
+  }
+}

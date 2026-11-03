@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-recondition",
+  "type": "codex",
+  "identity": {
+    "name": "Reconditionner",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "reconditionner"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Reconditionner"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Ajuster le niveau ou la stabilité d'un piège mécanique."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Reconditionner modifie l'état technique d'un piège mécanique existant pour le rendre réutilisable, plus stable ou adapté à un nouveau contexte."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Impossible ou très limité sans compétence adaptée."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Jet d'Ingénierie Appliquée ou stat prévue par la compétence."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Le système vérifie la compétence, la proximité et l'état du piège, puis applique le reconditionnement si le jet réussit."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Possible, selon options disponibles."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Piège mécanique reconditionnable, non détruit ou dans un état compatible."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Refus si le piège n'est pas mécanique, trop éloigné, non reconditionnable ou déjà incompatible."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Ingénierie Appliquée modifie cette action selon son niveau actif."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Le piège change d'état, de stabilité ou de niveau selon la règle active."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Aucun reconditionnement n'est appliqué."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Reconditionner",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

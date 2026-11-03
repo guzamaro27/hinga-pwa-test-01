@@ -1,0 +1,227 @@
+{
+  "id": "materials.mali",
+  "type": "material",
+  "identity": {
+    "name": "Mali",
+    "subtitle": "Textiles · Animal",
+    "icon": "◆",
+    "tags": [
+      "mali",
+      "Mali",
+      "textile",
+      "Textiles",
+      "animal",
+      "Animal",
+      "Poil animal commun",
+      "Blanc cassé, feutré",
+      "Laine standard, chaude et disponible.",
+      "Neutre",
+      "physical",
+      "Physique",
+      "Faible",
+      "Feutre",
+      "vêtements ruraux",
+      "couvertures",
+      "tailleur",
+      "berger",
+      "village",
+      "sac",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 2
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "mali",
+    "family": "textile",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Animal"
+      },
+      {
+        "label": "Rareté",
+        "value": 2
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Poil animal commun"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Blanc cassé, feutré"
+          },
+          {
+            "title": "Description",
+            "text": "Laine standard, chaude et disponible."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "4"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Neutre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Isolation ordinaire et fabrication simple."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Retient l’humidité."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Feutre",
+              "vêtements ruraux",
+              "couvertures"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "tailleur",
+              "berger",
+              "village",
+              "sac",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "5"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.9"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Pauvre"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "80"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

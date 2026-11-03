@@ -1,0 +1,79 @@
+{
+  "id": "rules.armes-cac",
+  "type": "codex",
+  "identity": {
+    "name": "Armes de corps à corps",
+    "subtitle": "Catégorie, mains, dégâts et portée",
+    "icon": "⚔",
+    "tags": [
+      "Armes de corps à corps",
+      "arme",
+      "mêlée",
+      "dégâts"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/weapon-damage.mjs",
+    "module/helpers/combat-flow.mjs",
+    "module/data/weapon-defense.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Attaque",
+        "value": "Jet de la statistique portée par l’arme"
+      },
+      {
+        "label": "Dégâts",
+        "value": "Catégorie, taille et modificateurs"
+      },
+      {
+        "label": "Défense",
+        "value": "Parade ou Blocage si permis"
+      }
+    ],
+    "links": [
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "DEF et solidité",
+        "sectionId": "systeme",
+        "entryId": "rules.weapon-defense"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Lire une arme",
+        "blocks": [
+          {
+            "text": "La fiche de l’arme fournit sa catégorie, son nombre de mains, sa portée, son profil de dégâts et son matériau. Ces données déterminent les options proposées lors d’une attaque et d’une défense."
+          }
+        ]
+      },
+      {
+        "label": "Catégories",
+        "blocks": [
+          {
+            "text": "Dague, épée, hache, masse, lance, fouet, bâton et arme improvisée possèdent chacune leur profil. Les maîtrises et états peuvent ensuite le modifier."
+          }
+        ]
+      }
+    ]
+  }
+}

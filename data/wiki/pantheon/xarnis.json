@@ -1,0 +1,194 @@
+{
+  "id": "xarnis",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Xarnis",
+    "subtitle": "L’Incarnation des Péchés",
+    "tags": [
+      "Xarnis",
+      "L’Incarnation des Péchés",
+      "esprit majeur",
+      "Vice",
+      "Corruption",
+      "Manipulation",
+      "Désir",
+      "Tentation",
+      "Orgueil",
+      "Colère",
+      "Envie",
+      "Paresse",
+      "Avarice",
+      "Gourmandise",
+      "Offre Dangereuse",
+      "Transfert d’avantage"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#4A1F2F",
+    "visualNote": "Vice • Corruption • Manipulation • Désir • Tentation • Orgueil • Colère • Envie • Paresse • Avarice • Gourmandise"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "xarnis",
+    "name": "Xarnis",
+    "title": "L’Incarnation des Péchés",
+    "type": "esprit_majeur",
+    "domains": [
+      "Vice",
+      "Corruption",
+      "Manipulation",
+      "Désir",
+      "Tentation",
+      "Orgueil",
+      "Colère",
+      "Envie",
+      "Paresse",
+      "Avarice",
+      "Gourmandise"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunset",
+      "label": "À chaque coucher du soleil"
+    },
+    "cult": {
+      "short": "Résister à un vice",
+      "ritual": "Résister à un vice."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La tentation de Xarnis est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "offre_dangereuse": {
+        "key": "offre_dangereuse",
+        "name": "Offre Dangereuse",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Transfert d’avantage",
+        "fullDescription": "Une fois par cycle de dévotion, peut sacrifier un avantage sur un de ses jets pour donner un désavantage sur un jet d'une autre personne.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#4A1F2F",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "heter"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Vice",
+              "Corruption",
+              "Manipulation",
+              "Désir",
+              "Tentation",
+              "Orgueil",
+              "Colère",
+              "Envie",
+              "Paresse",
+              "Avarice",
+              "Gourmandise"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Résister à un vice"
+          },
+          {
+            "title": "Rituel",
+            "text": "Résister à un vice."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque coucher du soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunset"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Offre Dangereuse (améliorée, actif)",
+              "Effet court : Transfert d’avantage",
+              "Description : Une fois par cycle de dévotion, peut sacrifier un avantage sur un de ses jets pour donner un désavantage sur un jet d'une autre personne.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La tentation de Xarnis est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "heter"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "xarnis"
+  }
+}

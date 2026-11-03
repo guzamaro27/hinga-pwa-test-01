@@ -1,0 +1,93 @@
+{
+  "id": "selmol-tempere",
+  "type": "plant",
+  "identity": {
+    "name": "Selmol des brumes",
+    "subtitle": "Variante des forets temperees",
+    "unknownName": "Arbre clair a franges pales",
+    "slug": "selmol-tempere",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Selmol 1 temp.png",
+    "visualNote": "Arbre clair au tronc torsade, portant une couronne creme d'ou descendent de longues franges fines.",
+    "tags": [
+      "arbre",
+      "selmol",
+      "foret-temperee",
+      "franges"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "foret temperee humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "redoux",
+      "fortes pluies",
+      "baisse des temperatures"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 a 14 m",
+    "width": "7 a 16 m",
+    "colorMain": "creme pale",
+    "colorSecondary": "beige, violet discret, brun clair",
+    "distinctiveSigns": [
+      "tronc clair et torsade",
+      "racines apparentes en patte large",
+      "couronne creme dense et arrondie",
+      "longues franges fines sous la cime",
+      "feuilles pales a nervures violettes",
+      "rameaux souples retombants",
+      "fruits secs ovales clairs",
+      "bois pale aux cernes visibles"
+    ],
+    "descriptionShort": "Le Selmol des brumes est un arbre tempere a cime claire et rideaux de franges pales.",
+    "descriptionFull": "Le Selmol des brumes pousse dans les forets humides ou les clairieres fraiches. Son tronc clair se tord legerement avant de soutenir une couronne dense, presque laiteuse, dont les franges descendent en longs rideaux. Les racines larges ancrent l'arbre dans les sols meubles, et ses feuilles pales donnent a ses bosquets une lumiere douce sous la pluie."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le Selmol des brumes est apprecie pour l'ombre, les haies naturelles et le petit bois clair recolte sur les branches tombees."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

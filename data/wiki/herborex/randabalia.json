@@ -1,0 +1,93 @@
+{
+  "id": "randabalia",
+  "type": "plant",
+  "identity": {
+    "name": "Randabalia",
+    "subtitle": "Grande-feuille perle d'eau",
+    "unknownName": "Large plante pâle à nervures violettes",
+    "slug": "randabalia",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Randabalia.png",
+    "visualNote": "Plante à très grandes feuilles vert pâle, arrondies et épaisses, parcourues de nervures violettes.",
+    "tags": [
+      "berge",
+      "grande-feuille",
+      "medicinale"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "medicinale",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "marais tempéré humide",
+      "rivière tempérée",
+      "forêt tempérée humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "boue",
+      "eau douce"
+    ],
+    "season": [
+      "fortes pluies",
+      "après crue",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "40 cm à 1,2 m",
+    "width": "60 cm à 1,4 m",
+    "colorMain": "vert pâle",
+    "colorSecondary": "violet, vert d'eau, crème",
+    "distinctiveSigns": [
+      "très grandes feuilles arrondies et épaisses",
+      "surface foliaire légèrement cireuse",
+      "nervures violettes ramifiées",
+      "liseré violet fin au bord des feuilles",
+      "tiges pâles souples depuis une base commune",
+      "petites baies rondes vert pâle tachetées de violet",
+      "racines fines teintées de violet"
+    ],
+    "descriptionShort": "Le Randabalia est une herbe humide à grandes feuilles pâles nervurées de violet.",
+    "descriptionFull": "Le Randabalia pousse dans les sols frais et gorgés d'eau, près des berges, marais peu profonds et sous-bois humides. Ses feuilles épaisses retiennent l'humidité sans pourrir rapidement et forment de larges surfaces souples. Les nervures violettes, les baies pâles et les racines fines indiquent souvent une eau douce proche de la surface."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "todo-medicinal-randabalia",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "Produit médicinal placeholder à définir selon le futur système de soins. // TODO_LINK: à lier plus tard avec l'objet ingrédient médicinal todo-medicinal-randabalia"
+  },
+  "uses": {
+    "knownUses": [
+      "medicinale",
+      "artisanat",
+      "teinture",
+      "semis"
+    ],
+    "notes": "Les grandes feuilles fraîches peuvent servir de compresse ou d'enveloppe végétale humide; les baies donnent un pigment violet très doux."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

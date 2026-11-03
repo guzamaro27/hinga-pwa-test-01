@@ -1,0 +1,35 @@
+{
+  "id": "zarkosho",
+  "type": "creature-public",
+  "identity": {
+    "name": "Zarkosho",
+    "subtitle": "Le Crustacé Rouge des Récifs",
+    "tags": [
+      "sauvage",
+      "aquatique",
+      "predateur",
+      "territorial",
+      "alimentaire",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Zarkosho vit principalement dans les récifs coralliens, les eaux tropicales peu profondes, les fonds marins sableux, les zones rocheuses et les coraux. Carnivore opportuniste, il se nourrit de petites proies aquatiques, de mollusques, d’autres créatures à carapace et de carcasses marines. Il défend son espace immédiat et devient dangereux lorsqu’une présence s’approche trop près ou lorsqu’une ressource alimentaire est disputée."
+          },
+          {
+            "text": "Le Zarkosho est une créature aquatique prédatrice à la carapace rouge brillante, vivant dans les récifs coralliens et les eaux tropicales peu profondes. Son corps allongé est composé de segments rigides formant une armure naturelle solide. Sa tête aplatie possède une bouche large remplie de nombreuses dents triangulaires. Deux grandes pinces puissantes lui servent à saisir, maintenir et déchiqueter ses proies. Le long de son dos se dressent de petites épines rigides qui renforcent son apparence agressive. Sa longue queue segmentée lui permet d’effectuer de courts déplacements rapides dans l’eau lorsqu’il est menacé."
+          },
+          {
+            "text": "Le Zarkosho vit généralement seul. Les œufs sont déposés dans des cavités rocheuses ou sous les coraux, dans des zones protégées des courants et difficiles à atteindre pour les prédateurs."
+          }
+        ]
+      }
+    ]
+  }
+}

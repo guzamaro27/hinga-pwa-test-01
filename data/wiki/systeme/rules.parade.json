@@ -1,0 +1,140 @@
+{
+  "id": "rules.parade",
+  "type": "codex",
+  "identity": {
+    "name": "Parade",
+    "subtitle": "Détourner une attaque avec son arme",
+    "icon": "systems/hinga/assets/ui/weapons/weapon-type-sword.webp",
+    "tags": [
+      "parade",
+      "parer",
+      "défense",
+      "réaction",
+      "arme"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/engine/attack-profile.mjs",
+    "module/helpers/rolls.mjs",
+    "module/helpers/pf.mjs"
+  ],
+  "mechanics": {
+    "stat": "parryWeaponAttackStatOrActorAttackStat",
+    "baseDivisor": 2,
+    "cost": 2,
+    "comparison": "défenseur réussi et résultat défense <= résultat attaque"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Type",
+        "value": "Réaction défensive opposée"
+      },
+      {
+        "label": "Stat",
+        "value": "attaque de l’arme de parade"
+      },
+      {
+        "label": "Seuil",
+        "value": "stat de parade / 2"
+      },
+      {
+        "label": "Coût",
+        "value": "2 PF de base"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Attaque de mêlée compatible",
+        "Arme de parade équipée"
+      ],
+      "blocked": [
+        "Certaines saisies ou positions retirent la Parade",
+        "Sans arme de parade valide, le choix peut ne pas apparaître"
+      ]
+    },
+    "roll": {
+      "character": "1d100 ≤ floor(stat d’attaque de parade / 2)",
+      "comparison": "Le jet doit réussir et le résultat défensif doit être ≤ au résultat offensif."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les AV/DV et bonus de maîtrise applicables au jet s’appliquent."
+    },
+    "blockers": [
+      "La cible doit disposer d’une arme utilisable pour parer."
+    ],
+    "outcomes": {
+      "success": "Si la comparaison est gagnée, l’attaque est parée.",
+      "failure": "Si le jet échoue ou si l’attaquant conserve un meilleur résultat, l’attaque n’est pas arrêtée.",
+      "criticalFailure": "Les conséquences critiques prévues par le jet s’appliquent."
+    },
+    "example": "Avec une stat d’attaque de parade à 51, le seuil est floor(51 / 2) = 25.",
+    "modifiedBy": [
+      "Arme utilisée pour parer",
+      "Maîtrises d’arme",
+      "Une Parade réussie, avec opposition gagnée si requise, ouvre une Riposte"
+    ],
+    "links": [
+      {"label": "Défense, Solidité et Usure des armes", "sectionId": "systeme", "entryId": "rules.weapon-defense"},
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Contre, Riposte et Contre-attaque",
+        "sectionId": "systeme",
+        "entryId": "rules.contre-attaque"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Type : Réaction défensive opposée · Stat : attaque de l’arme de parade · Seuil : stat de parade / 2 · Coût : 2 PF de base"
+          }
+        ]
+      },
+      {
+        "label": "Quand puis-je l’utiliser ?",
+        "blocks": [
+          {
+            "text": "Le choix apparaît contre une attaque de mêlée compatible lorsque vous avez une arme de parade valide."
+          }
+        ]
+      },
+      {
+        "label": "Comment ça marche ?",
+        "blocks": [
+          {
+            "text": "Lancez sous la moitié de la stat d’attaque de votre arme de parade, puis comparez les résultats."
+          }
+        ]
+      },
+      {
+        "label": "Si je réussis",
+        "blocks": [
+          {
+            "text": "Votre Parade arrête l’attaque si votre résultat ne dépasse pas celui de l’attaque."
+          }
+        ]
+      }
+    ]
+  }
+}

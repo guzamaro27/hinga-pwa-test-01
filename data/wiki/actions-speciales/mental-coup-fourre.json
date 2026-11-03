@@ -1,0 +1,46 @@
+{
+  "id": "mental-coup-fourre",
+  "type": "codex",
+  "identity": {
+    "name": "Coup fourré",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "1 PF · Majeure · 24 m · Palier -1",
+              "Jet offensif : PSY.",
+              "Chaque réaction mentale choisie reçoit AV2 pour cette attaque.",
+              "Sans réaction ou si elle réussit : dégâts au palier actif -1 puis conséquence normale. Si elle échoue : remplacez la base par le palier actif +3, puis appliquez la conséquence normale d’échec (dont ×1,5 pour Déni)."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

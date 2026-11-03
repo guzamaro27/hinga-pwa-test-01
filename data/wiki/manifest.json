@@ -1,1 +1,106 @@
-[{"path":"data/wiki/systeme/rules.test-statistique.json","section":"systeme"},{"path":"data/wiki/systeme/rules.difficultes.json","section":"systeme"},{"path":"data/wiki/systeme/rules.av-dv.json","section":"systeme"},{"path":"data/wiki/systeme/rules.critiques.json","section":"systeme"},{"path":"data/wiki/systeme/rules.initiative.json","section":"systeme"},{"path":"data/wiki/systeme/rules.tour-combat.json","section":"systeme"},{"path":"data/wiki/systeme/rules.action-majeure.json","section":"systeme"},{"path":"data/wiki/systeme/rules.action-mineure.json","section":"systeme"},{"path":"data/wiki/systeme/rules.reaction.json","section":"systeme"},{"path":"data/wiki/systeme/rules.attaquer.json","section":"systeme"},{"path":"data/wiki/systeme/rules.encaisser.json","section":"systeme"},{"path":"data/wiki/systeme/rules.esquiver.json","section":"systeme"}]
+[
+  {
+    "path": "data/wiki/systeme/rules.test-statistique.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.difficultes.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.av-dv.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.critiques.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.initiative.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.tour-combat.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.action-majeure.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.action-mineure.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.reaction.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.attaquer.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.encaisser.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.esquiver.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.parade.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.bouclier.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.contre-attaque.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.sm.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.pf.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.chance.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.weapon-defense.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.degats.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.armes-cac.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.armures.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.resistances.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/guide-rapide.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/statistiques.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/jauges-ressources.json",
+    "section": "fiche-personnage"
+  }
+]

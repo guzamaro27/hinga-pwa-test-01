@@ -1,0 +1,233 @@
+{
+  "id": "materials.tar",
+  "type": "material",
+  "identity": {
+    "name": "Tar",
+    "subtitle": "Métaux · Base",
+    "icon": "◆",
+    "tags": [
+      "tar",
+      "Tar",
+      "metal",
+      "Métaux",
+      "base",
+      "Base",
+      "Métal natif",
+      "Gris brillant",
+      "Métal lourd et robuste, peu compatible avec les traitements magiques.",
+      "Métal",
+      "physical",
+      "Physique",
+      "Réfractaire",
+      "Armes et armures de base",
+      "mineur",
+      "forgeron",
+      "armurerie",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 2
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "tar",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 0,
+    "coatingCapacity": 0,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Base"
+      },
+      {
+        "label": "Rareté",
+        "value": 2
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "0 — Réfractaire"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "À confirmer"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris brillant"
+          },
+          {
+            "title": "Description",
+            "text": "Métal lourd et robuste, peu compatible avec les traitements magiques."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "4"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Réfractaire (-1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "-1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Bonne robustesse pour l’équipement ordinaire."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Sensible aux altérations magiques."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armes et armures de base"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "0 — Réfractaire"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "0"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "forgeron",
+              "armurerie",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "10"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.45"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "low"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Pauvre"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "80"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "dégradation/métal"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_metal_marque_t1",
+              "etat_metal_marque"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

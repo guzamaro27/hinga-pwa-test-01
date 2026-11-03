@@ -1,0 +1,105 @@
+{
+  "id": "rules.traces-pistage",
+  "type": "codex",
+  "identity": {
+    "name": "Traces et pistage",
+    "subtitle": "Canaux, masquage et fausses pistes",
+    "icon": "⌁",
+    "tags": [
+      "Traces et pistage",
+      "trace",
+      "pistage",
+      "traque"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/trace-profile.mjs",
+    "module/hingadex/actions-speciales/data/stat-pister.json",
+    "module/hingadex/actions-speciales/data/stat-traquer.json"
+  ],
+  "mechanics": {
+    "channels": [
+      "visual",
+      "physical",
+      "odor",
+      "sound",
+      "vibration",
+      "magical",
+      "chemical",
+      "biological"
+    ],
+    "modes": [
+      "normal",
+      "reduced",
+      "hidden",
+      "none",
+      "falseTrail"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Canaux",
+        "value": "Visuel, physique, odeur, son, vibration, magie, chimie, biologie"
+      },
+      {
+        "label": "Modes",
+        "value": "Normal, réduit, caché, absent ou fausse piste"
+      },
+      {
+        "label": "Milieu",
+        "value": "Urbain, naturel, aquatique, souterrain, hostile ou altitude"
+      }
+    ],
+    "links": [
+      {
+        "label": "Perception",
+        "sectionId": "systeme",
+        "entryId": "rules.perception-detection"
+      },
+      {
+        "label": "Terrains",
+        "sectionId": "systeme",
+        "entryId": "rules.environnements-terrains"
+      },
+      {
+        "label": "Tests",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Lire une trace",
+        "blocks": [
+          {
+            "text": "Chaque canal possède un mode. Réduit rend la piste plus difficile, caché exige une recherche adaptée, absent ne laisse rien, et fausse piste peut conduire vers une information trompeuse."
+          }
+        ]
+      },
+      {
+        "label": "Sens",
+        "blocks": [
+          {
+            "text": "VIS lit les indices visuels, AUD le son, OLF l’odeur, TAC les vibrations et contacts, GUS les traces chimiques ou gustatives, ESO les traces magiques. PERC soutient la recherche générale."
+          }
+        ]
+      },
+      {
+        "label": "Environnement",
+        "blocks": [
+          {
+            "text": "Le profil du milieu décide quels canaux restent pertinents et quelles compétences peuvent atténuer les pénalités."
+          }
+        ]
+      }
+    ]
+  }
+}

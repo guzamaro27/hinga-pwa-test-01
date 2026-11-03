@@ -1,0 +1,157 @@
+{
+  "id": "fiche-personnage.commerce-marchands",
+  "type": "codex",
+  "identity": {
+    "name": "Commerce et marchands",
+    "subtitle": "Fiche personnage / Acheter et vendre",
+    "icon": "⚖️",
+    "tags": [
+      "marchand",
+      "commerce",
+      "acheter",
+      "vendre",
+      "panier",
+      "prix",
+      "inventaire"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      { "label": "Préparer", "value": "ajouter achats et ventes au panier" },
+      { "label": "Vérifier", "value": "contrôler le solde avant confirmation" },
+      { "label": "Échanger", "value": "une seule transaction après confirmation" }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utiliser un marchand",
+        "anchor": "utiliser-un-marchand",
+        "blocks": [
+          { "text": "Le stock est à gauche, votre inventaire à droite et le panier au centre. Toutes les actions préparent le panier ; elles ne transfèrent rien avant Confirmer l’échange." }
+        ]
+      },
+      {
+        "label": "Stock du marchand",
+        "anchor": "stock-du-marchand",
+        "blocks": [
+          { "text": "Chaque ligne indique le prix unitaire et la quantité disponible. Le stock réel peut changer si un autre joueur échange au même moment." }
+        ]
+      },
+      {
+        "label": "Inventaire du joueur",
+        "anchor": "inventaire-du-joueur",
+        "blocks": [
+          { "text": "Seuls les objets pouvant participer au commerce sont présentés. Les monnaies, objets non transférables et équipements temporaires créés par invocation ne peuvent être ni achetés ni vendus." }
+        ]
+      },
+      {
+        "label": "Prix et fonds",
+        "anchor": "prix-et-fonds",
+        "blocks": [
+          { "text": "Le prix marchand et le prix de rachat peuvent être différents. La fortune est convertie automatiquement entre Konirs, Arans et Oris lors de l’échange." },
+          { "title": "Fonds insuffisants", "anchor": "fonds-insuffisants", "text": "Un panier peut dépasser votre fortune, mais sa confirmation échouera sans modifier vos objets, votre monnaie ou le stock." }
+        ]
+      },
+      {
+        "label": "Acheter un objet",
+        "anchor": "acheter-un-objet",
+        "blocks": [
+          { "text": "Utilisez + et − pour préparer la quantité achetée. L’objet reste dans le stock tant que l’échange n’est pas confirmé." }
+        ]
+      },
+      {
+        "label": "Vendre un objet",
+        "anchor": "vendre-un-objet",
+        "blocks": [
+          { "text": "Utilisez + et − pour préparer une vente. Après confirmation, la quantité quitte votre inventaire et devient un objet persistant du stock marchand." }
+        ]
+      },
+      {
+        "label": "Quantités",
+        "anchor": "quantites",
+        "blocks": [
+          { "text": "Les boutons − et +, ainsi que le champ numérique, changent uniquement le panier et ne dépassent jamais la quantité disponible." },
+          { "title": "Quantité maximale d’une ligne", "anchor": "quantite-maximale-dune-ligne", "text": "Dans le stock, MAX choisit la quantité actuellement abordable en tenant compte de votre fortune, des autres achats et des ventes du panier. Le clic droit permet toujours d’ajouter tout le stock de cette ligne, même si son prix dépasse vos fonds. Dans votre inventaire, MAX sélectionne toute la quantité légalement vendable." }
+        ]
+      },
+      {
+        "label": "Actions de masse",
+        "anchor": "actions-de-masse",
+        "blocks": [
+          { "text": "Ces actions remplissent plusieurs lignes du panier sans effectuer l’échange. Vous pouvez viser tout le panneau ou seulement les résultats visibles." },
+          { "title": "Actions par type ou catégorie", "anchor": "actions-par-type-ou-categorie", "text": "Les choix sont produits à partir des objets réellement présents. Le nombre affiché correspond à la quantité totale concernée." },
+          { "title": "Résultats visibles", "anchor": "resultats-visibles", "text": "Cette action porte uniquement sur les lignes correspondant à la recherche et au filtre actuels. Les lignes déjà au panier mais masquées restent sélectionnées." }
+        ]
+      },
+      {
+        "label": "Recherche",
+        "anchor": "recherche",
+        "blocks": [
+          { "text": "La recherche est locale et reconnaît le nom, le type et la catégorie. Elle ne change ni le stock, ni l’inventaire, ni le panier." }
+        ]
+      },
+      {
+        "label": "Filtres",
+        "anchor": "filtres",
+        "blocks": [
+          { "text": "Le filtre propose uniquement les types et catégories réellement présents. Réinitialiser restaure tous les objets sans vider le panier." }
+        ]
+      },
+      {
+        "label": "Tri",
+        "anchor": "tri",
+        "blocks": [
+          { "text": "Le menu Options regroupe le tri, les filtres et les actions de masse. Le tri change seulement l’ordre d’affichage : nom, prix, quantité ou groupe. Un badge signale les options actives." }
+        ]
+      },
+      {
+        "label": "Panier",
+        "anchor": "panier",
+        "blocks": [
+          { "text": "Achats et ventes restent séparés dans le résumé. Fermer la fenêtre vide ce panier temporaire, sans effectuer d’échange." }
+        ]
+      },
+      {
+        "label": "Solde",
+        "anchor": "solde",
+        "blocks": [
+          { "text": "Achats moins ventes donne le solde. Un solde positif est à payer ; un solde négatif est reçu ; zéro produit un échange neutre." }
+        ]
+      },
+      {
+        "label": "Objets refusés",
+        "anchor": "objets-refuses",
+        "blocks": [
+          { "text": "Un objet refusé reste visible avec une explication mais ne peut pas être ajouté au panier, seul ou par une action de masse." }
+        ]
+      },
+      {
+        "label": "Objets équipés",
+        "anchor": "objets-equipes",
+        "blocks": [
+          { "text": "Ils sont masqués par défaut. Les afficher autorise leur sélection ; la confirmation finale signale clairement leur retrait de l’équipement." }
+        ]
+      },
+      {
+        "label": "Confirmation de l’échange",
+        "anchor": "confirmation-de-lechange",
+        "blocks": [
+          { "text": "Le dialogue final récapitule achats, ventes et solde. Annuler ne modifie rien ; confirmer envoie la transaction aux validations du MJ." }
+        ]
+      },
+      {
+        "label": "Stock modifié et concurrence",
+        "anchor": "stock-modifie-et-concurrence",
+        "blocks": [
+          { "text": "Si le stock change pendant la préparation, le panier devient obsolète. Vérifiez les lignes recalculées : le MJ reste l’autorité et refuse toute ancienne révision." }
+        ]
+      }
+    ]
+  }
+}

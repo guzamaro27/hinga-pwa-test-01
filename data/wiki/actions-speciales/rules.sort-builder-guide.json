@@ -1,0 +1,465 @@
+{
+  "id": "rules.sort-builder-guide",
+  "type": "codex",
+  "identity": {
+    "name": "Guide du Créateur de Sort",
+    "subtitle": "Règles / Magie / Créateur de Sort",
+    "icon": "S",
+    "tags": [
+      "règles",
+      "guide",
+      "magie",
+      "sort",
+      "créateur",
+      "invocation",
+      "objet lié"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "magie",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation générale",
+        "anchor": "presentation",
+        "blocks": [
+          {
+            "title": "Rôle du Créateur de Sort",
+            "items": [
+              "Le Créateur de Sort compose un sort directement depuis la fiche de l’acteur.",
+              "Il enregistre le nom, l’élément, la puissance, le type, le sous-type, la portée, la durée, les dégâts et les effets choisis.",
+              "Il prépare le sort ; le combat, les états et les équipements utilisent ensuite les moteurs habituels de Hinga."
+            ]
+          },
+          {
+            "title": "Création et activation",
+            "items": [
+              "Enregistrer un sort crée sa définition sur la fiche de l’acteur.",
+              "Utiliser le sort déclenche son effet en jeu.",
+              "Une Invocation liée n’est pas recréée intégralement à chaque lancement.",
+              "Le sort conserve son lien vers la créature ou l’Objet lié configuré."
+            ]
+          },
+          {
+            "title": "Sommaire",
+            "items": [
+              "Identité : le nom du sort.",
+              "Nature magique : l’élément et la puissance.",
+              "Type d’action : la catégorie et le sous-type.",
+              "Portée et résolution : la portée, la zone, la durée et les dégâts.",
+              "Conjuration : les Invocations de créature et d’objet.",
+              "États : les états des sorts et les États sur touche.",
+              "Enregistrement : la création et la suppression du sort."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Identité et nature magique",
+        "blocks": [
+          {
+            "title": "Nom du sort",
+            "items": [
+              "Le nom identifie le sort dans la fiche, les listes et les cartes de chat.",
+              "Un nom clair permet de distinguer facilement plusieurs variantes proches."
+            ]
+          },
+          {
+            "title": "Élément",
+            "items": [
+              "L’élément définit la nature magique du sort.",
+              "Les éléments déjà maîtrisés par l’acteur apparaissent en premier.",
+              "L’élément sert aussi aux dégâts élémentaires, aux suggestions d’états et aux objets invoqués."
+            ]
+          },
+          {
+            "title": "Puissance",
+            "items": [
+              "La puissance va de N0 à N4.",
+              "Elle reste limitée par la maîtrise élémentaire de l’acteur.",
+              "Elle contrôle les valeurs disponibles dans le Créateur de Sort.",
+              "Elle fixe également la Rareté maximale d’un objet invoqué."
+            ]
+          },
+          {
+            "title": "Invocation et puissance N0",
+            "items": [
+              "Les sorts non invocatoires peuvent être créés au N0.",
+              "Une Invocation de créature ou une Invocation d’objet nécessite au minimum N1.",
+              "Au N0, le Créateur de Sort refuse l’enregistrement d’une Invocation."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Type d’action",
+        "blocks": [
+          {
+            "title": "Type",
+            "items": [
+              "Le type décrit l’usage principal du sort.",
+              "Les catégories disponibles sont Offense, Altération, Conjuration, Défense, Divination et Illusion."
+            ]
+          },
+          {
+            "title": "Sous-type",
+            "items": [
+              "Le sous-type précise le comportement du sort.",
+              "Il détermine les champs, les formules et les recommandations disponibles.",
+              "Une flèche de glace créée puis immédiatement lancée est un sort offensif de projectile.",
+              "Un arc de glace utilisé pendant plusieurs tours est une Invocation d’objet."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Portée, durée et dégâts",
+        "blocks": [
+          {
+            "title": "Portée",
+            "items": [
+              "La portée indique la distance maximale ou la formule utilisée pour atteindre une cible ou un point.",
+              "Un sort de zone précise également sa forme et ses dimensions.",
+              "L’origine et les couleurs de la zone règlent son placement et sa lecture sur la scène."
+            ]
+          },
+          {
+            "title": "Durée",
+            "items": [
+              "La durée indique combien de temps un effet ou une Invocation reste Actif.",
+              "Pour une Invocation d’objet, elle détermine combien de temps l’Objet lié reste matérialisé et équipé.",
+              "À expiration, l’Objet lié redevient Dormant."
+            ]
+          },
+          {
+            "title": "Dégâts",
+            "items": [
+              "Les sorts offensifs utilisent les recommandations de leur sous-type et de leur puissance.",
+              "Les armes invoquées utilisent les règles normales de leur catégorie et de leur Rareté.",
+              "Une formule recommandée est proposée.",
+              "Une autre formule autorisée peut être choisie comme remplacement.",
+              "Les maîtrises d’armes restent applicables."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Conjuration",
+        "blocks": [
+          {
+            "title": "Principe général",
+            "items": [
+              "Une Conjuration manifeste quelque chose qui persiste pendant une durée.",
+              "Toute Invocation nécessite au minimum une puissance N1.",
+              "Le Créateur de Sort distingue l’Invocation de créature de l’Invocation d’objet."
+            ]
+          },
+          {
+            "title": "Invocation de créature",
+            "items": [
+              "Une fiche d’Invocation est liée au sort.",
+              "L’activation fait apparaître l’Invocation en jeu.",
+              "La durée et les limites d’Invocations restent gérées par les règles normales de Conjuration.",
+              "Les presets permettent d’utiliser des créatures préparées lorsqu’ils sont disponibles."
+            ]
+          },
+          {
+            "title": "Invocation d’objet",
+            "items": [
+              "Le sort possède un Objet lié permanent sur la fiche de l’acteur.",
+              "L’Objet lié est créé une seule fois lors de l’enregistrement du sort.",
+              "Tant qu’il n’est pas invoqué, il reste Dormant.",
+              "Utiliser le sort le rend Actif et l’équipe.",
+              "À expiration, il se déséquipe et redevient Dormant.",
+              "Il n’est ni créé ni supprimé à chaque utilisation."
+            ]
+          },
+          {
+            "title": "Presets d’objet",
+            "items": [
+              "Les presets permettront de choisir un objet préconfiguré.",
+              "Leur disponibilité dépend du contenu installé.",
+              "Si aucun preset n’existe, le joueur peut créer un nouvel Objet lié."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Rareté des objets invoqués",
+        "blocks": [
+          {
+            "title": "Raretés accessibles",
+            "items": [
+              "N0 : Invocation impossible.",
+              "N1 : Commune.",
+              "N2 : Commune ou Noble.",
+              "N3 : Commune ou Noble.",
+              "N4 : Commune, Noble ou Rare.",
+              "Artefact et Cadeau ne sont pas disponibles par une Invocation d’objet normale.",
+              "Une puissance supérieure peut améliorer d’autres paramètres sans débloquer une nouvelle Rareté.",
+              "Le palier N3 identique au N2 est volontaire."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Arme invoquée",
+        "blocks": [
+          {
+            "title": "Configuration",
+            "anchor": "arme-invoquee-configuration",
+            "items": [
+              "Le joueur choisit le type d’arme, la Rareté et les dégâts proposés ou une formule autorisée.",
+              "Il peut également configurer un État sur touche facultatif.",
+              "Le type d’arme détermine automatiquement le nombre de mains.",
+              "Les choix comprennent notamment Épée — 1 main, Épée — 2 mains et Arc à deux mains."
+            ]
+          },
+          {
+            "title": "Utilisation",
+            "items": [
+              "L’arme invoquée reste une véritable arme Hinga.",
+              "Elle utilise sa statistique martiale normale et bénéficie des maîtrises d’armes correspondantes.",
+              "Ses dégâts sont magiques et portent l’élément du sort.",
+              "Un arc invoqué génère ses propres projectiles élémentaires."
+            ]
+          },
+          {
+            "title": "État sur touche",
+            "anchor": "arme-invoquee-etat-sur-touche",
+            "items": [
+              "L’État sur touche est facultatif.",
+              "Il s’applique uniquement après une attaque réussie avec l’arme.",
+              "Il ne s’applique ni à l’activation du sort ni à l’équipement.",
+              "Une attaque manquée ne déclenche aucun état.",
+              "Un seul État sur touche peut actuellement être configuré."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Bouclier invoqué",
+        "blocks": [
+          {
+            "title": "Configuration",
+            "anchor": "bouclier-invoque-configuration",
+            "items": [
+              "Le joueur choisit la catégorie, la Rareté et les dégâts offensifs du bouclier.",
+              "Il peut également configurer un État sur touche facultatif.",
+              "Les catégories disponibles sont Bouclier léger, Bouclier moyen, Bouclier lourd et Bouclier géant."
+            ]
+          },
+          {
+            "title": "Emplacement",
+            "anchor": "bouclier-invoque-emplacement",
+            "items": [
+              "Le bouclier utilise l’emplacement dédié Bouclier.",
+              "Il ne remplace pas une main d’arme dans l’inventaire.",
+              "Les réactions et les compétences le reconnaissent comme un bouclier équipé."
+            ]
+          },
+          {
+            "title": "Défense et maîtrise",
+            "items": [
+              "Le bouclier invoqué reste un véritable bouclier Hinga.",
+              "Maîtrise du Bouclier s’applique normalement.",
+              "Il peut servir aux réactions défensives habituelles.",
+              "Ses attaques offensives infligent des dégâts magiques de l’élément du sort."
+            ]
+          },
+          {
+            "title": "État sur touche du bouclier",
+            "items": [
+              "L’État sur touche se déclenche uniquement après une attaque offensive réussie avec le bouclier.",
+              "Il ne se déclenche ni lors d’un blocage ni lors d’une parade.",
+              "Il ne se déclenche pas à l’équipement."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Armure invoquée",
+        "blocks": [
+          {
+            "title": "Configuration",
+            "anchor": "armure-invoquee-configuration",
+            "items": [
+              "Le joueur choisit une Armure légère, moyenne ou lourde.",
+              "Il choisit également un emplacement et une Rareté.",
+              "Les emplacements disponibles sont Tête, Torse, Bras et Jambes."
+            ]
+          },
+          {
+            "title": "Une pièce par sort",
+            "items": [
+              "Une armure invoquée représente une seule pièce.",
+              "Elle n’équipe pas automatiquement tout le corps.",
+              "Plusieurs pièces invoquées peuvent coexister lorsqu’elles utilisent des emplacements différents."
+            ]
+          },
+          {
+            "title": "Défense et contraintes",
+            "items": [
+              "L’armure invoquée reste une véritable armure Hinga.",
+              "Maîtrise de l’Armure s’applique normalement.",
+              "Les éventuels malus de catégorie restent applicables pendant son équipement.",
+              "Ces malus sont retirés lorsque l’armure se déséquipe.",
+              "Une armure invoquée ne possède pas d’État sur touche."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Matériau et défense élémentaires",
+        "blocks": [
+          {
+            "title": "Matériau élémentaire",
+            "items": [
+              "Une arme, un bouclier ou une armure invoqué est constitué de l’élément du sort.",
+              "L’affichage emploie la forme « Élémentaire — élément », par exemple « Élémentaire — Eau ».",
+              "Aucun cuir, tissu, bois, métal ou autre matériau physique n’est ajouté.",
+              "Aucun bonus de matériau physique ne se cumule avec l’objet invoqué."
+            ]
+          },
+          {
+            "title": "Défense principalement magique",
+            "items": [
+              "En Rareté Commune, toute la défense est magique.",
+              "En Rareté Noble, environ un quart de la défense devient physique.",
+              "En Rareté Rare, environ un tiers de la défense devient physique.",
+              "Le reste de la défense demeure magique.",
+              "La défense totale reste déterminée par la catégorie et la Rareté.",
+              "Les boucliers et armures invoqués sont donc principalement adaptés à la protection magique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Équipement, conflits et dormance",
+        "blocks": [
+          {
+            "title": "Objet dormant",
+            "items": [
+              "Un Objet lié Dormant reste visible, mais il est inutilisable.",
+              "Il ne peut être équipé ou transféré comme un objet ordinaire.",
+              "Son sort doit être utilisé pour le rendre Actif."
+            ]
+          },
+          {
+            "title": "Conflit d’équipement",
+            "items": [
+              "Si l’emplacement nécessaire est déjà occupé, le système demande confirmation.",
+              "Annuler conserve l’équipement actuel.",
+              "Confirmer déséquipe l’objet incompatible avant d’activer l’objet invoqué.",
+              "L’objet remplacé n’est pas supprimé."
+            ]
+          },
+          {
+            "title": "Fin de l’Invocation",
+            "items": [
+              "À expiration, l’objet invoqué est déséquipé et redevient Dormant.",
+              "L’ancien équipement n’est pas automatiquement rééquipé.",
+              "Le joueur peut ensuite le rééquiper manuellement."
+            ]
+          },
+          {
+            "title": "Plusieurs objets invoqués",
+            "items": [
+              "Plusieurs objets invoqués peuvent être Actifs simultanément si leurs emplacements sont compatibles.",
+              "Une épée et un bouclier, une arme et une armure ou plusieurs pièces d’armure distinctes peuvent ainsi coexister.",
+              "Deux objets incompatibles ne peuvent pas occuper le même emplacement."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "États du sort",
+        "blocks": [
+          {
+            "title": "État d’un sort normal",
+            "items": [
+              "Les états d’un sort normal sont enregistrés avec le sort.",
+              "Ils s’appliquent selon le type et la résolution du sort."
+            ]
+          },
+          {
+            "title": "État sur touche d’un objet invoqué",
+            "items": [
+              "L’État sur touche est enregistré sur l’arme ou le bouclier lié.",
+              "Il se déclenche uniquement après une attaque réussie avec cet objet.",
+              "Il ne se déclenche pas au lancement du sort."
+            ]
+          },
+          {
+            "title": "Élément, tier et suggestion",
+            "items": [
+              "L’élément du sort sert de suggestion pour l’état.",
+              "Le tier indique la force de l’état.",
+              "La liste propose les états officiels disponibles.",
+              "La suggestion automatique favorise un état cohérent avec l’élément choisi.",
+              "Le tier doit rester cohérent avec la puissance du sort et la validation du MJ."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Enregistrement",
+        "blocks": [
+          {
+            "title": "Enregistrer le sort",
+            "anchor": "creer-le-sort",
+            "items": [
+              "Le Créateur de Sort vérifie les champs requis.",
+              "Le sort est ensuite créé sur l’acteur.",
+              "Pour une Invocation d’objet, l’Objet lié est créé au même moment.",
+              "Le sort et l’Objet lié restent associés.",
+              "Annuler le Créateur de Sort ne crée rien."
+            ]
+          },
+          {
+            "title": "Suppression",
+            "items": [
+              "Supprimer un sort d’Invocation d’objet supprime également son Objet lié.",
+              "Les autres objets de l’acteur ne sont pas affectés."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Exemples",
+        "blocks": [
+          {
+            "title": "Exemple : Arc cristallin",
+            "items": [
+              "Élément : Eau ; puissance : N2 ; type : Conjuration ; sous-type : Invocation d’objet.",
+              "Objet : Arme ; type : Arc ; Rareté : Noble ; dégâts recommandés : 2d4.",
+              "État sur touche possible : Refroidi.",
+              "L’arc est créé une seule fois, devient Actif pendant la durée, utilise les règles d’arc puis redevient Dormant."
+            ]
+          },
+          {
+            "title": "Exemple : Égide de flammes",
+            "items": [
+              "Élément : Feu ; puissance : N2 ; objet : Bouclier.",
+              "Catégorie : Bouclier moyen ; Rareté : Noble ; matériau : Élémentaire — Feu.",
+              "Sa défense est principalement magique.",
+              "Un État sur touche peut être déclenché par une attaque offensive réussie avec le bouclier."
+            ]
+          },
+          {
+            "title": "Exemple : Cuirasse de roche",
+            "items": [
+              "Élément : Terre ; puissance : N4 ; objet : Armure.",
+              "Catégorie : Armure lourde ; emplacement : Torse ; Rareté : Rare.",
+              "Matériau : Élémentaire — Terre ; défense majoritairement magique avec une part physique.",
+              "Cette armure ne possède aucun État sur touche."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

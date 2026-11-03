@@ -1,0 +1,240 @@
+{
+  "id": "materials.surin",
+  "type": "material",
+  "identity": {
+    "name": "Surin",
+    "subtitle": "Métaux · Base",
+    "icon": "◆",
+    "tags": [
+      "surin",
+      "Surin",
+      "metal",
+      "Métaux",
+      "base",
+      "Base",
+      "Métal natif",
+      "Argenté miroitant",
+      "Métal léger qui amplifie les phénomènes magiques.",
+      "Métal/Arcane",
+      "magical",
+      "Magique",
+      "Bon",
+      "Catalyseurs",
+      "instruments",
+      "composants d’enchantement",
+      "mineur",
+      "mage",
+      "forgeron",
+      "cache",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 7
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "surin",
+    "family": "metal",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Base"
+      },
+      {
+        "label": "Rareté",
+        "value": 7
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Argenté miroitant"
+          },
+          {
+            "title": "Description",
+            "text": "Métal léger qui amplifie les phénomènes magiques."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Arcane"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Amplification et transmission des flux."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Légèrement toxique",
+              "réactions incontrôlées possibles."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Catalyseurs",
+              "instruments",
+              "composants d’enchantement"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "mage",
+              "forgeron",
+              "cache",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "500"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "12"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "kaerion"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_resonance_arcane",
+              "etat_deferlement_ka"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

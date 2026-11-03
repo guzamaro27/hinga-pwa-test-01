@@ -1,0 +1,34 @@
+{
+  "id": "marluda",
+  "type": "creature-public",
+  "identity": {
+    "name": "Marluda",
+    "subtitle": "La Pleureuse Sanguinolente",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "magique",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "La Marluda vit principalement dans les donjons obscurs, les cavernes profondes et les ruines souterraines. Elle privilégie les salles sombres, les recoins isolés et les galeries peu éclairées, où elle peut isoler ses proies après les avoir attirées par sa beauté et ses magies de charme. Carnivore, elle devient particulièrement dangereuse lorsque sa victime se trouve assez proche ou tente de fuir."
+          },
+          {
+            "text": "La Marluda possède un buste élancé à la beauté troublante, prolongé par une longue queue écailleuse puissante. Son visage présente trois yeux : deux alignés en haut avec des pupilles fendues verticalement, et un troisième plus bas à pupille horizontale. Elle ne possède pas de nez visible, seulement deux fines fentes respiratoires sous l’œil inférieur. Sa bouche, petite et discrète, aux lèvres rouge foncé pulpeuses, dissimule une mâchoire capable de s’ouvrir démesurément. Lorsqu’elle active son pouvoir, sa bouche devient gigantesque et révèle de longues dents pointues capables d’arracher une tête d’un seul mouvement. Ses cheveux lisses se hérissent brutalement, ses bras se déforment pour devenir quatre grandes pattes osseuses, et une large collerette membraneuse et cartilagineuse entoure sa nuque avant de s’étendre partiellement dans son dos."
+          },
+          {
+            "text": "La Marluda est généralement observée seule, mais de petits groupes discrets peuvent exister dans certaines zones souterraines. Sa reproduction reste inconnue, et les rencontres documentées concernent surtout des individus adultes."
+          }
+        ]
+      }
+    ]
+  }
+}

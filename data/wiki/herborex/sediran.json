@@ -1,0 +1,93 @@
+{
+  "id": "sediran",
+  "type": "plant",
+  "identity": {
+    "name": "Sediran",
+    "subtitle": "Arbre turquoise des falaises chaudes",
+    "unknownName": "Arbre bleu de bord de mer",
+    "slug": "sediran",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Sediran.png",
+    "visualNote": "Grand arbre au tronc pale et noueux, portant une large couronne turquoise tres dense.",
+    "tags": [
+      "arbre",
+      "bord-de-mer",
+      "feuillage-turquoise",
+      "racines-exposees"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "rare"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "sable",
+      "rocaille",
+      "sol caillouteux"
+    ],
+    "season": [
+      "montee des chaleurs",
+      "saison seche",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "controlee"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 a 16 m",
+    "width": "8 a 18 m",
+    "colorMain": "turquoise",
+    "colorSecondary": "ivoire, vert d'eau, brun clair",
+    "distinctiveSigns": [
+      "couronne large et arrondie bleu turquoise",
+      "tronc pale, epais et noueux",
+      "racines massives apparentes",
+      "feuilles dentees bleutees",
+      "rameaux fins sous une cime tres dense",
+      "capsules translucides bleu pale",
+      "bois clair avec un coeur turquoise diffus"
+    ],
+    "descriptionShort": "Le Sediran est un arbre cotier rare a feuillage turquoise et a racines puissantes.",
+    "descriptionFull": "Le Sediran s'accroche aux falaises basses, aux talus secs et aux sols exposes au vent marin. Sa couronne turquoise, large et compacte, contraste avec son tronc ivoire noueux et ses racines apparentes qui retiennent la terre autour de lui. Les feuilles semblent cireuses et les capsules bleues donnent a l'arbre une allure tres reconnaissable sans en faire une plante directement magique."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "difficile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Sediran n'a pas d'utilisations connues."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

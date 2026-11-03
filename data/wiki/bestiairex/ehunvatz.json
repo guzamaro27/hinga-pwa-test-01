@@ -1,0 +1,34 @@
+{
+  "id": "ehunvatz",
+  "type": "creature-public",
+  "identity": {
+    "name": "Ehunvatz",
+    "subtitle": "Le Voyeur Évanescent",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "magique",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Ehunvatz occupe principalement les ruines, les cavernes et les structures abandonnées, où il se déplace sur les murs verticaux, les plafonds, les couloirs confinés et les galeries étroites. Carnivore opportuniste, il observe longuement les intrus avant d’attaquer, profitant de son silence, de son adhérence et de sa réfraction partielle de la lumière pour tendre des embuscades."
+          },
+          {
+            "text": "L’Ehunvatz possède un corps long, filiforme et souple, aux teintes sombres oscillant entre brun profond et vert mousse. Sa surface luit faiblement, comme humidifiée par une fine pellicule organique translucide. Des dizaines d’yeux rouges, béants et brillants, sont répartis de manière apparemment aléatoire sur toute sa longueur. Sa tête est plus large que le reste du corps et présente une asymétrie marquée. Sur l’un de ses côtés s’ouvre une bouche démesurée, large et incurvée, laissant dépasser des dents longues et pointues. Les deux extrémités du corps se terminent par des pointes rigides, presque minérales. Il rampe sur le flanc, ondulant contre les surfaces, et évolue sans difficulté sur les murs et plafonds grâce à son adhérence visqueuse."
+          },
+          {
+            "text": "Aucun spécimen juvénile n’a été clairement identifié. L’Ehunvatz semble vivre seul sur un territoire qu’il observe et défend avec patience, en particulier dans les galeries et passages qu’il fréquente régulièrement."
+          }
+        ]
+      }
+    ]
+  }
+}

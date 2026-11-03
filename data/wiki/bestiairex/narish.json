@@ -1,0 +1,35 @@
+{
+  "id": "narish",
+  "type": "creature-public",
+  "identity": {
+    "name": "Narish",
+    "subtitle": "La Corne des Abysses",
+    "tags": [
+      "aquatique",
+      "abyssal",
+      "solitaire",
+      "majestueux",
+      "nocturne",
+      "semi-legendaire",
+      "chasse"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Narish habite les grandes profondeurs océaniques, en particulier les fosses abyssales, les plateaux océaniques profonds et les zones de courants riches en vie. Solitaire et discret, il évolue dans l’obscurité des abysses où sa grande taille, sa nage puissante et ses organes sensoriels spécialisés lui permettent de localiser ses proies. Il ne remonte que rarement vers la surface, généralement durant la nuit."
+          },
+          {
+            "text": "Le Narish est une immense créature marine au corps allongé et massif. Sa tête large est dominée par une longue corne spiralée qui émerge du front et lui donne une silhouette immédiatement reconnaissable. Autour de sa bouche se déploie une couronne de barbillons sensoriels qui flottent lentement dans l’eau et lui permettent de percevoir les vibrations de l’océan. Son corps bleu pâle est parcouru de zones rouge-orangé sur les flancs, tandis qu’une grande crête dorsale colorée traverse son dos. Lorsqu’il émerge à la surface, sa taille et la puissance de ses mouvements peuvent soulever de fortes vagues."
+          },
+          {
+            "text": "La reproduction du Narish est très mal connue. Certaines légendes marines évoquent de rares migrations vers des abysses plus chauds, mais aucun cycle précis n’est confirmé."
+          }
+        ]
+      }
+    ]
+  }
+}

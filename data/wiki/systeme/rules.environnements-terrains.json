@@ -1,0 +1,103 @@
+{
+  "id": "rules.environnements-terrains",
+  "type": "codex",
+  "identity": {
+    "name": "Environnements, terrains et mouvement",
+    "subtitle": "Conditions réellement appliquées",
+    "icon": "⌂",
+    "tags": [
+      "Environnements, terrains et mouvement",
+      "terrain",
+      "environnement",
+      "mouvement"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/effets/terrain-effects.mjs",
+    "module/engine/movement/terrain-movement.mjs",
+    "module/engine/movement/urban-movement.mjs",
+    "module/engine/competences/environnement-utils.mjs"
+  ],
+  "mechanics": {
+    "environments": [
+      "ALTITUDE",
+      "AQUATIQUE",
+      "FORÊT",
+      "SOUTERRAINS",
+      "HOSTILE",
+      "URBAIN"
+    ],
+    "profiles": [
+      "urban",
+      "forest",
+      "marsh",
+      "mountain"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Environnements",
+        "value": "Altitude, aquatique, forêt, souterrains, hostile, urbain"
+      },
+      {
+        "label": "Niveaux",
+        "value": "T1 et T2"
+      },
+      {
+        "label": "Terrain",
+        "value": "Peut modifier mouvement, perception ou magie"
+      }
+    ],
+    "links": [
+      {
+        "label": "Perception",
+        "sectionId": "systeme",
+        "entryId": "rules.perception-detection"
+      },
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Effets actifs",
+        "blocks": [
+          {
+            "text": "Un environnement ou terrain n’applique que les modificateurs consommés par l’action en cours : statistique, surcoût PF, mouvement, perte périodique, magie ou perception."
+          }
+        ]
+      },
+      {
+        "label": "Conditions transversales",
+        "blocks": [
+          {
+            "text": "Terrain difficile, dangereux, dégradé, sans magie, anti-élément, brume, froid, chaleur, pluie, neige ou électrification sont lus par les moteurs qui les prennent en charge."
+          }
+        ]
+      },
+      {
+        "label": "Mitigation",
+        "blocks": [
+          {
+            "text": "Une compétence environnementale peut réduire un malus ou un coût lorsqu’elle déclare cette interaction. Les profils génériques non branchés à l’action ne produisent pas d’effet supplémentaire."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "id": "epektrior",
+  "type": "peuple",
+  "identity": {
+    "name": "Epektrior",
+    "subtitle": "",
+    "slug": "epektrior",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/epektrior.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Epektrior sont reconnaissables à leur très grande stature, leur carrure puissante, leur peau grise à brune et l’imposante structure osseuse en forme de T qui compose leur front et leur nez."
+          },
+          {
+            "text": "Leur largeur corporelle ne provient pas d’une forte masse graisseuse. Leur poids repose principalement sur une ossature exceptionnellement dense, une cage thoracique développée et une musculature profonde."
+          },
+          {
+            "text": "Ils donnent une impression de force et de stabilité sans être nécessairement lents ou maladroits. Leur capacité à réagir rapidement lorsqu’une menace apparaît contraste souvent avec leur apparence calme et solidement ancrée."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 4/10 — Peu représenté"
+          },
+          {
+            "text": "**Tendances :** Les Epektrior vivent aussi bien dans les villes que dans les campagnes. Ils fréquentent peu les déserts, les régions très chaudes et les territoires durablement privés d’eau."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Epektrior mesurent généralement autour de **2,10 mètres** pour environ **120 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, large et puissamment charpentée, mais reste plus élancée que ne le laisse supposer leur poids."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "des épaules larges ;",
+              "une cage thoracique profonde ;",
+              "un torse légèrement resserré à la taille ;",
+              "des membres longs et robustes ;",
+              "une ossature particulièrement dense ;",
+              "une musculature profonde et visible ;",
+              "des avant-bras et des jambes fortement développés ;",
+              "une posture droite et stable."
+            ]
+          },
+          {
+            "text": "Leur masse corporelle provient principalement :"
+          },
+          {
+            "items": [
+              "du poids de leur squelette ;",
+              "de la densité de leurs muscles ;",
+              "de l’épaisseur de leur peau ;",
+              "de la structure osseuse du visage et des oreilles."
+            ]
+          },
+          {
+            "text": "Ils ne possèdent généralement pas une silhouette ronde ou molle. Même les individus les plus larges conservent des lignes corporelles solides, tendues et nettement structurées."
+          },
+          {
+            "text": "Leurs muscles ne sont pas nécessairement extrêmement découpés. Ils apparaissent plutôt comme de grandes masses fonctionnelles, particulièrement visibles :"
+          },
+          {
+            "items": [
+              "dans les épaules ;",
+              "le dos ;",
+              "les cuisses ;",
+              "les bras ;",
+              "le cou."
+            ]
+          },
+          {
+            "text": "Le dimorphisme corporel reste modéré."
+          },
+          {
+            "text": "Les hommes présentent généralement :"
+          },
+          {
+            "items": [
+              "des épaules plus larges ;",
+              "un torse plus rectangulaire ;",
+              "un cou plus épais ;",
+              "une mâchoire plus développée."
+            ]
+          },
+          {
+            "text": "Les femmes présentent généralement :"
+          },
+          {
+            "items": [
+              "des épaules légèrement moins larges ;",
+              "une taille plus marquée ;",
+              "un bassin et des hanches plus larges ;",
+              "des membres légèrement plus fins ;",
+              "une musculature moins anguleuse ;",
+              "une silhouette plus courbe sans perdre sa puissance."
+            ]
+          },
+          {
+            "text": "Les femmes restent grandes, robustes et solidement charpentées. Elles ne constituent pas une variante petite ou fragile du peuple."
+          },
+          {
+            "text": "Ces différences n’imposent aucun bonus ou malus mécanique supplémentaire."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau epektrior se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le gris clair ;",
+              "le gris brun ;",
+              "le brun cendré ;",
+              "le brun sombre ;",
+              "certains tons terreux légèrement jaunes."
+            ]
+          },
+          {
+            "text": "Elle est épaisse et présente naturellement un aspect légèrement luisant, semblable à une peau humide."
+          },
+          {
+            "text": "Sa coloration forme fréquemment un patchwork naturel composé :"
+          },
+          {
+            "items": [
+              "de zones plus claires ;",
+              "de zones plus foncées ;",
+              "de taches irrégulières ;",
+              "de motifs circulaires ou concentriques."
+            ]
+          },
+          {
+            "text": "Les motifs concentriques apparaissent principalement sur :"
+          },
+          {
+            "items": [
+              "la barre frontale ;",
+              "les pommettes ;",
+              "les tempes ;",
+              "les épaules ;",
+              "le haut du dos ;",
+              "certaines parties du torse."
+            ]
+          },
+          {
+            "text": "Ils suivent les volumes du corps sans former des symboles réguliers ou une écriture."
+          },
+          {
+            "text": "Les paumes des mains et les plantes des pieds sont généralement légèrement plus claires que le reste de la peau."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage epektrior est dominé par une structure osseuse en forme de **T**, nettement visible sous la peau."
+          },
+          {
+            "text": "La barre horizontale :"
+          },
+          {
+            "items": [
+              "traverse le front ;",
+              "forme une arcade continue au-dessus des deux yeux ;",
+              "remplace visuellement les sourcils ;",
+              "s’étend latéralement vers les attaches des oreilles."
+            ]
+          },
+          {
+            "text": "La barre verticale :"
+          },
+          {
+            "items": [
+              "prend naissance au centre de la barre frontale ;",
+              "descend entre les yeux ;",
+              "constitue entièrement le nez ;",
+              "se termine au-dessus de la bouche."
+            ]
+          },
+          {
+            "text": "Le front, les arcades et le nez ne forment donc pas trois structures séparées, mais un seul ensemble osseux continu."
+          },
+          {
+            "text": "Cette structure produit généralement :"
+          },
+          {
+            "items": [
+              "un front large et protubérant ;",
+              "une arcade horizontale épaisse ;",
+              "de petits yeux placés sous cette arcade ;",
+              "un nez osseux, large et rigide ;",
+              "une partie supérieure du visage fortement structurée ;",
+              "une bouche large ;",
+              "une mâchoire robuste."
+            ]
+          },
+          {
+            "text": "Le nez ne possède pas de cartilage externe souple."
+          },
+          {
+            "text": "La bouche est placée sous l’extrémité inférieure de la barre verticale. Les lèvres sont très fines et peu visibles."
+          },
+          {
+            "text": "Chez les femmes, la structure en T reste tout aussi présente, mais elle peut être :"
+          },
+          {
+            "items": [
+              "légèrement plus étroite ;",
+              "moins épaisse sur les côtés ;",
+              "accompagnée d’une mâchoire plus fine ;",
+              "associée à un menton plus étroit ;",
+              "intégrée à des pommettes plus visibles."
+            ]
+          },
+          {
+            "text": "Ces variations conservent pleinement l’identité epektrior et ne rapprochent pas leur visage de celui d’un autre peuple."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Epektrior possèdent deux petits yeux ronds, profondément enchâssés sous la barre horizontale du T facial."
+          },
+          {
+            "text": "Ils sont généralement :"
+          },
+          {
+            "items": [
+              "sombres ;",
+              "relativement espacés ;",
+              "protégés par l’os frontal ;",
+              "peu saillants."
+            ]
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le bleu très sombre ;",
+              "le bleu gris presque noir ;",
+              "plus rarement, le bordeaux profond."
+            ]
+          },
+          {
+            "text": "Leur petite taille contraste fortement avec la largeur du front et la profondeur de la structure osseuse."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux epektrior se déclinent principalement dans des tons comprenant :"
+          },
+          {
+            "items": [
+              "le blanc cassé ;",
+              "le gris clair ;",
+              "le gris cendré ;",
+              "le gris sombre ;",
+              "plus rarement, le noir délavé."
+            ]
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "fins ou épais ;",
+              "raides ;",
+              "légèrement ondulés ;",
+              "courts ou longs."
+            ]
+          },
+          {
+            "text": "Leur implantation commence derrière la barre osseuse frontale et ne recouvre jamais le T facial."
+          },
+          {
+            "text": "La pilosité corporelle reste généralement discrète. Lorsqu’elle est présente, elle suit les mêmes nuances blanches, grises ou noires que les cheveux."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Epektrior possèdent **quatre doigts** à chaque main et **quatre orteils** à chaque pied."
+          },
+          {
+            "text": "Leurs doigts sont généralement :"
+          },
+          {
+            "items": [
+              "longs ;",
+              "larges à leur base ;",
+              "robustes ;",
+              "dotés d’articulations épaisses ;",
+              "adaptés aux prises puissantes."
+            ]
+          },
+          {
+            "text": "Leurs mains ne sont pas nécessairement courtes ou grossières. Elles peuvent conserver une bonne précision malgré leur largeur."
+          },
+          {
+            "text": "Leurs oreilles sont larges, triangulaires et soutenues par une structure osseuse."
+          },
+          {
+            "text": "Elles prennent naissance aux extrémités latérales de la barre horizontale du T facial et semblent prolonger cette structure."
+          },
+          {
+            "text": "Leur pointe peut être orientée :"
+          },
+          {
+            "items": [
+              "vers le haut ;",
+              "vers le haut et l’extérieur ;",
+              "presque horizontalement vers l’extérieur."
+            ]
+          },
+          {
+            "text": "Les oreilles sont plus rigides que celles constituées principalement de cartilage et possèdent une mobilité limitée."
+          },
+          {
+            "text": "La structure frontale, le nez et les attaches des oreilles forment ainsi un seul ensemble osseux continu."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La structure osseuse en T protège une grande partie du front et encadre les yeux."
+          },
+          {
+            "text": "Elle rend le nez :"
+          },
+          {
+            "items": [
+              "rigide ;",
+              "peu déformable ;",
+              "résistant aux chocs ;",
+              "incapable des mouvements permis par un nez cartilagineux."
+            ]
+          },
+          {
+            "text": "Les oreilles osseuses possèdent une mobilité réduite, mais leur large pavillon permet de capter efficacement les sons."
+          },
+          {
+            "text": "L’ossature epektrior est particulièrement dense."
+          },
+          {
+            "text": "Cette densité explique :"
+          },
+          {
+            "items": [
+              "leur poids élevé ;",
+              "leur stabilité ;",
+              "leur résistance aux impacts ;",
+              "la puissance de leurs appuis ;",
+              "la difficulté à les déplacer contre leur volonté."
+            ]
+          },
+          {
+            "text": "Leur musculature se développe autour de cette ossature lourde. Elle reste généralement compacte et fonctionnelle plutôt que volumineuse sans utilité."
+          },
+          {
+            "text": "La peau épaisse protège le corps contre les frottements et les contacts ordinaires. Elle réduit cependant la finesse des sensations tactiles superficielles."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la peau peut prendre une teinte légèrement plus jaune ;",
+              "les zones claires et sombres deviennent plus étendues ;",
+              "les motifs concentriques peuvent devenir plus visibles ;",
+              "les reliefs du T facial paraissent davantage marqués ;",
+              "la musculature perd progressivement en densité ;",
+              "les épaules s’affaissent légèrement ;",
+              "la force et la résistance diminuent."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Epektrior sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des insectes ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des herbes préparées ;",
+              "des céréales."
+            ]
+          },
+          {
+            "text": "Ils ne présentent aucune restriction alimentaire propre à leur peuple."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Epektrior possèdent une constitution particulièrement robuste."
+          },
+          {
+            "text": "Leur masse, leur ossature et leur peau épaisse leur permettent de supporter efficacement :"
+          },
+          {
+            "items": [
+              "les impacts ;",
+              "les efforts prolongés ;",
+              "le port d’équipements lourds ;",
+              "les pressions physiques soutenues ;",
+              "les positions défensives maintenues."
+            ]
+          },
+          {
+            "text": "Leur largeur ne les rend pas automatiquement lents."
+          },
+          {
+            "text": "Leurs muscles puissants et leurs réactions rapides leur permettent notamment :"
+          },
+          {
+            "items": [
+              "de redresser brusquement leur posture ;",
+              "d’intercepter une attaque ;",
+              "de lever un bouclier ;",
+              "de saisir ou relever un allié ;",
+              "de changer rapidement l’orientation de leur défense."
+            ]
+          },
+          {
+            "text": "Leur sensibilité tactile réduite ne diminue pas leur capacité à saisir, porter ou manipuler normalement des objets."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Epektrior possèdent une acuité auditive développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "la direction d’une source sonore ;",
+              "les bruits produits derrière un obstacle ;",
+              "les variations de rythme ;",
+              "plusieurs sons proches produits simultanément."
+            ]
+          },
+          {
+            "text": "La rigidité de leurs oreilles limite leurs mouvements, mais pas leur efficacité auditive."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Toucher**"
+          },
+          {
+            "text": "La peau épaisse des Epektrior réduit leur sensibilité tactile superficielle."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "percevoir une pression très légère ;",
+              "distinguer de petites variations de texture ;",
+              "sentir un contact discret ;",
+              "effectuer certaines manipulations reposant uniquement sur la finesse tactile."
+            ]
+          },
+          {
+            "text": "Leur toucher reste pleinement fonctionnel pour les manipulations ordinaires et les prises puissantes."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie epektrior repose principalement sur l’endurance, l’ancrage et la réaction immédiate."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets :"
+          },
+          {
+            "items": [
+              "défensifs ;",
+              "directement liés au corps ;",
+              "activés en réponse à une menace ;",
+              "maintenus par la Constitution ;",
+              "associés à une armure ou à un bouclier ;",
+              "destinés à protéger une position ou un allié."
+            ]
+          },
+          {
+            "text": "Les manipulations demandant une grande finesse arcanique ou une modification complexe des flux leur sont généralement moins naturelles."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Électricité**"
+          },
+          {
+            "text": "L’Électricité constitue l’affinité élémentaire recommandée pour les Epektrior."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie epektrior se manifeste fréquemment sous forme de décharges courtes, épaisses et contenues."
+          },
+          {
+            "text": "Lorsqu’elle utilise l’Électricité, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’arcs brefs parcourant la surface du corps ;",
+              "de lignes électriques suivant le T facial ;",
+              "de décharges concentrées autour des bras ;",
+              "d’une tension accumulée dans un bouclier ;",
+              "d’un courant circulant à travers une armure ;",
+              "d’une impulsion libérée au moment d’un impact."
+            ]
+          },
+          {
+            "text": "Les manifestations epektrior privilégient la réaction, l’interception et la décharge immédiate plutôt que les phénomènes électriques prolongés ou diffus."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La structure osseuse en T peut canaliser visuellement certaines manifestations électriques le long du front et du nez, sans devenir lumineuse ou conductrice en permanence."
+          },
+          {
+            "text": "L’affinité recommandée à l’Électricité n’accorde aucune résistance automatique. La résistance à l’Électricité constitue une Voie d’héritage distincte."
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage epektrior :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "CONST +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "REACT +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "ARC −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Électricité"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. L’Électricité constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "text": "Le sexe du personnage ne modifie pas ces valeurs."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Maîtrise du Bouclier",
+                  "B"
+                ],
+                [
+                  "Main Forte",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Maîtrise du Bouclier",
+            "headingLevel": 5,
+            "anchor": "maitrise-du-bouclier",
+            "text": "Cette formation développe l’usage défensif et offensif des boucliers, ainsi que la capacité à absorber ou détourner les attaques."
+          },
+          {
+            "title": "Main Forte",
+            "headingLevel": 5,
+            "anchor": "main-forte",
+            "text": "Cette formation développe la capacité à intervenir rapidement auprès d’un allié, à le relever et à l’aider à reprendre position."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Maîtrise du Bouclier ;",
+              "Main Forte."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Électricité",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-electricite",
+            "text": "Vous obtenez **+10 % de résistance à l’Électricité**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Mentalité — Peur",
+            "headingLevel": 5,
+            "anchor": "mentalite-peur",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Inquiétude**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Crainte** — T2 ;",
+              "**Terreur** — T3 ;",
+              "**Effroi** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états appartenant explicitement à la famille canonique **Peur**."
+          },
+          {
+            "text": "Elle ne s’applique pas :"
+          },
+          {
+            "items": [
+              "aux états de la famille Panique ;",
+              "aux états élémentaires ;",
+              "aux états d’Électrocution ;",
+              "aux effets produisant une réaction de peur sans appartenir explicitement à la famille Peur."
+            ]
+          },
+          {
+            "title": "Sens aiguisé — Audition",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-audition",
+            "text": "Vous obtenez **+5 en Audition**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité auditive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Epektrior.md",
+    "sourceSha256": "614b09885609627eea86f1e05fe85d5f3ec255743fa4128fec37612d6e9f3be2"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "sendash-jaune",
+  "type": "plant",
+  "identity": {
+    "name": "Sendash jaune",
+    "subtitle": "Variante des steppes seches",
+    "unknownName": "Arbre jaune a tronc epineux",
+    "slug": "sendash-jaune",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Sendash 3 Steppe.png",
+    "visualNote": "Grand arbre de steppe au tronc jaune-brun, droit et epineux, portant une cime ronde vert jaune.",
+    "tags": [
+      "arbre",
+      "sendash",
+      "steppe",
+      "epines"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe seche chaude",
+      "savane seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "terre pauvre",
+      "sol caillouteux",
+      "rocaille"
+    ],
+    "season": [
+      "saison seche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 a 17 m",
+    "width": "5 a 13 m",
+    "colorMain": "jaune vert",
+    "colorSecondary": "brun dore, vert olive, jaune boise",
+    "distinctiveSigns": [
+      "tronc haut et droit jaune-brun",
+      "pointes dures autour de la partie haute du tronc",
+      "couronne ronde vert jaune",
+      "feuilles larges et decoupees",
+      "ecorce interne vert jaune",
+      "racines dorees apparentes",
+      "capsules allongees legerement herissees",
+      "petites graines vert olive"
+    ],
+    "descriptionShort": "Le Sendash jaune est un arbre de steppe a tronc dore epineux et cime vert jaune.",
+    "descriptionFull": "Le Sendash jaune pousse dans les steppes chaudes et les terres pauvres ou sa cime compacte donne une ombre rare. Son tronc droit porte des pointes dures, surtout pres des anciennes branches, et sa couronne claire reste dense malgre la secheresse. Les capsules herissees et les petites graines olive se forment apres les pluies courtes."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les pointes du tronc peuvent blesser en cas de contact direct."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Sendash jaune fournit un bois sec et robuste pour de petits piquets, des manches simples et des usages de campement."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

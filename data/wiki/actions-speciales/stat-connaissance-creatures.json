@@ -1,0 +1,75 @@
+{
+  "id": "stat-connaissance-creatures",
+  "type": "codex",
+  "identity": {
+    "name": "Étudier une créature",
+    "subtitle": "Action universelle d’INT liée au Bestiairex",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Faites un clic droit sur INT puis choisissez Étudier une créature.",
+              "Aucune compétence n’est nécessaire.",
+              "Sélectionnez une seule créature visible sur la scène active.",
+              "En combat, cette étude représente une action mineure."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jet",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Effectuez un jet normal d’INT, sans avantage ni désavantage automatique.",
+              "Une réussite normale ou critique augmente la connaissance d’exactement un niveau.",
+              "Un échec, même critique, ne modifie jamais la connaissance.",
+              "Une réussite critique peut seulement permettre au MJ d’ajouter un détail contextuel."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Progression",
+        "blocks": [
+          {
+            "title": "Connaissance Bestiairex",
+            "items": [
+              "Une première réussite fait passer la connaissance du niveau 0 Inconnu au niveau 1 Vu.",
+              "Une nouvelle réussite sur un autre spécimen fait passer la connaissance du niveau 1 Vu au niveau 2 Connu.",
+              "Le plafond naturel de cette action est le niveau 2 Connu.",
+              "Le niveau 3 Étudié reste réservé aux capacités spécialisées.",
+              "Chaque personnage ne dispose que d’une tentative de progression par spécimen, identifié par le token ciblé."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Liaison",
+        "blocks": [
+          {
+            "title": "Entrée de la créature",
+            "items": [
+              "La créature doit être liée explicitement à son entrée Bestiairex par flags.hinga.bestiairex.entryId.",
+              "Les anciens liens explicites restent lisibles pour leur migration ; une correspondance par nom ne permet aucune progression.",
+              "Chaque token reçoit une identité stable de spécimen dans flags.hinga.bestiairex.specimenId.",
+              "La carte privée ne révèle que les informations autorisées par le niveau de connaissance atteint."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

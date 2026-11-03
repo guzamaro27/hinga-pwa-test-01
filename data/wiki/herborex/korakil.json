@@ -1,0 +1,91 @@
+{
+  "id": "korakil",
+  "type": "plant",
+  "identity": {
+    "name": "Korakil",
+    "subtitle": "Corail orange des savanes sèches",
+    "unknownName": "Plante orange ramifiée à tiges charnues",
+    "slug": "korakil",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Korakil.png",
+    "visualNote": "Succulente orange aux tiges charnues dressées et ramifiées, avec base racinaire dense et petites capsules ambrées.",
+    "tags": [
+      "savane",
+      "succulente",
+      "seve-orange"
+    ]
+  },
+  "classification": {
+    "category": "cactus",
+    "family": "succulente",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude",
+      "steppe sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "50 cm à 1,8 m",
+    "width": "40 cm à 1,2 m",
+    "colorMain": "orange vif",
+    "colorSecondary": "ambre, jaune doré, brun racinaire",
+    "distinctiveSigns": [
+      "tiges charnues orange, lisses et brillantes",
+      "ramifications courbes sans feuilles visibles",
+      "base épaisse partiellement enfouie",
+      "racines nombreuses et profondes",
+      "petites capsules ambrées aux extrémités mûres",
+      "chair interne alvéolée jaune-orange"
+    ],
+    "descriptionShort": "Le Korakil est une succulente de savane sèche aux tiges orange ramifiées.",
+    "descriptionFull": "Le Korakil forme une touffe dressée de tiges orange, charnues et luisantes, capables de stocker l'humidité après les pluies brèves. Ses ramifications arrondies lui donnent une silhouette très reconnaissable dans les herbes sèches. La base, plus sombre, s'ancre dans un réseau de racines profondes, tandis que les extrémités mûres portent parfois de petites capsules ambrées."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "La sève orange peut servir de liant faible ou de base de pigment, surtout pour des travaux locaux peu durables."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

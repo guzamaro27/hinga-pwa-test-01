@@ -1,0 +1,236 @@
+{
+  "id": "materials.vinli",
+  "type": "material",
+  "identity": {
+    "name": "Vinli",
+    "subtitle": "Textiles · Animal",
+    "icon": "◆",
+    "tags": [
+      "vinli",
+      "Vinli",
+      "textile",
+      "Textiles",
+      "animal",
+      "Animal",
+      "Poil fin et long",
+      "Gris clair, doux",
+      "Fibre isolante de qualité citadine.",
+      "Froid",
+      "physical",
+      "Physique",
+      "Faible",
+      "Vêtements citadins",
+      "doublures",
+      "manteaux",
+      "tailleur",
+      "ville",
+      "marchand",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 4
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "vinli",
+    "family": "textile",
+    "weaponProfile": "physical",
+    "weaponTier": 1,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 0
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Animal"
+      },
+      {
+        "label": "Rareté",
+        "value": 4
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "1 — Faible"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Poil fin et long"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris clair, doux"
+          },
+          {
+            "title": "Description",
+            "text": "Fibre isolante de qualité citadine."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "5"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Froid"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Bon rapport chaleur, poids et confort."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Demande un entretien régulier."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Vêtements citadins",
+              "doublures",
+              "manteaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "1 — Faible"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "0"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "tailleur",
+              "ville",
+              "marchand",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "25"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.85"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "45"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_refroidi"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

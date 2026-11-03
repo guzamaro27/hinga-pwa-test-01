@@ -1,0 +1,34 @@
+{
+  "id": "jaskor",
+  "type": "creature-public",
+  "identity": {
+    "name": "Jaskor",
+    "subtitle": "Le Cuirassé des Berges",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial",
+      "semi-aquatique",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Jaskor vit principalement dans les berges marécageuses, les zones humides pierreuses, les bras calmes de rivière et les cavités proches de l’eau. Il passe une partie de son temps sur la terre ferme, où son corps lourd et bas reste bien stable, mais il se déplace aussi efficacement dans l’eau grâce à sa queue puissante bordée d’une nageoire épineuse. Carnivore opportuniste, il se nourrit de proies de taille moyenne, de charognes fraîches et de petites créatures capturées près des rives ou dans les eaux peu profondes."
+          },
+          {
+            "text": "Le Jaskor présente une silhouette lourde, basse et puissante, conçue pour avancer aussi bien sur des sols humides que dans des eaux peu profondes. Sa peau est couverte d’écailles épaisses aux teintes gris sombre, brun pierre et vert gris, surmontées de plaques dorsales irrégulières qui forment une véritable cuirasse. Sa tête, large et allongée, se termine par un museau osseux et une gueule profonde remplie de dents robustes. Ses pattes sont courtes mais massives, armées de longues griffes capables de s’ancrer dans la vase, la terre ou les roches humides. Le long de son dos et de sa queue, de petites pointes renforcent sa silhouette. Sa longue queue musclée se termine par une nageoire épineuse brun rouge qui améliore sa poussée dans l’eau. Des lignes claires, semblables à des veinures ou à des fissures minérales, parcourent certaines plaques et convergent vers une glande bleutée visible dans l’étude anatomique."
+          },
+          {
+            "text": "Les nids semblent être aménagés dans des cavités de berge ou des replis de terrain humide, souvent à proximité immédiate d’une zone d’eau calme."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "rules.focalisation-concentration",
+  "type": "codex",
+  "identity": {
+    "name": "Focalisation et concentration",
+    "subtitle": "Maintenir une action magique",
+    "icon": "◐",
+    "tags": [
+      "Focalisation et concentration",
+      "focalisation",
+      "concentration",
+      "maintien"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/focus.mjs",
+    "module/helpers/magie.mjs",
+    "module/helpers/combat-flow.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Création",
+        "value": "Par un sort ou effet qui demande un maintien"
+      },
+      {
+        "label": "Sous attaque",
+        "value": "Choisir entre maintenir et se défendre"
+      },
+      {
+        "label": "Fin",
+        "value": "Volontaire, interruption ou échec de maintien"
+      }
+    ],
+    "links": [
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      },
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Maintenir",
+        "blocks": [
+          {
+            "text": "Une focalisation naît lorsqu’un sort ou effet le demande. Elle reste active tant que ses conditions de maintien sont respectées."
+          }
+        ]
+      },
+      {
+        "label": "Être attaqué",
+        "blocks": [
+          {
+            "text": "Quand une attaque reçue ouvre le choix, conserver la focalisation peut limiter la défense ; choisir l’Esquive ou échouer au maintien peut y mettre fin. Les coûts, la statistique et les AV/DV affichés proviennent de l’effet maintenu."
+          }
+        ]
+      },
+      {
+        "label": "Fin",
+        "blocks": [
+          {
+            "text": "Le lanceur peut mettre fin volontairement à la focalisation. Une interruption, une incapacité ou une condition propre au sort peut aussi la rompre."
+          }
+        ]
+      }
+    ]
+  }
+}

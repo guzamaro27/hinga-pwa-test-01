@@ -1,0 +1,93 @@
+{
+  "id": "mintrim",
+  "type": "plant",
+  "identity": {
+    "name": "Mintrim",
+    "subtitle": "Arbre doré des lisières sèches",
+    "unknownName": "Arbre à feuillage jaune doré et racines violettes",
+    "slug": "mintrim",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Mintrim.png",
+    "visualNote": "Arbre élancé au tronc brun sinueux, large cime jaune doré, nervures violettes et capsules pendantes à poudre sombre.",
+    "tags": [
+      "lisiere-seche",
+      "feuillage-dore",
+      "pigment"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe sèche chaude",
+      "forêt tempérée sèche"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sol caillouteux"
+    ],
+    "season": [
+      "saison sèche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "8 à 22 m",
+    "width": "5 à 14 m",
+    "colorMain": "jaune doré",
+    "colorSecondary": "brun, violet, ocre",
+    "distinctiveSigns": [
+      "tronc brun haut et légèrement sinueux",
+      "cime large, dense et jaune doré",
+      "branches secondaires fines brun-violet",
+      "feuilles jaunes ovales nervurées de violet",
+      "racines apparentes avec radicelles violettes",
+      "capsules pendantes jaunes à brunes",
+      "poudre ou graines violettes dans les capsules mûres"
+    ],
+    "descriptionShort": "Le Mintrim est un arbre de terrain sec à cime jaune doré et nervures violettes.",
+    "descriptionFull": "Le Mintrim pousse dans les lisières sèches, les steppes chaudes et les forêts claires aux sols bien drainés. Son tronc brun se divise en branches hautes qui portent une cime lumineuse jaune doré. Les feuilles montrent des nervures violettes nettes, et les capsules pendantes libèrent à maturité une poudre sombre qui marque facilement les doigts et le sol."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le bois clair sert aux petits ouvrages, et les feuilles ou capsules donnent des pigments jaunes et violets peu durables."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

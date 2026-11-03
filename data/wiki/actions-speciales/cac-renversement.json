@@ -1,0 +1,82 @@
+{
+  "id": "cac-renversement",
+  "type": "codex",
+  "identity": {
+    "name": "Renversement",
+    "subtitle": "Action spéciale CàC",
+    "icon": "C"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "cac",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur CàC puis Renversement.",
+              "Une seule cible doit être sélectionnée.",
+              "Chaque participant utilise son propre sélecteur CàC actuel, sans dialogue FOR/DEX."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Attaquant : son sélecteur CàC actuel (FOR ou DEX), jet normal.",
+              "Défenseur : son sélecteur CàC actuel (FOR ou DEX), jet normal.",
+              "Résolution : opposition."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Une VS Card affiche les deux jets, le départage et la conséquence.",
+              "Les outils historiques de jet restent accessibles à la demande ; ils ne rejouent pas les conséquences."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Victoire attaquant : applique À terre.",
+              "La cible perd 1 action majeure pour se relever.",
+              "La cible ne peut pas utiliser Esquive tant qu'elle est au sol.",
+              "Victoire défenseur : aucun état applique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modificateurs",
+        "blocks": [
+          {
+            "title": "Compétences et états",
+            "items": [
+              "Maîtrise du Corps à Corps peut bonifier le lanceur.",
+              "Bastion Inebranlable N3 peut ignorer le renversement via l'état ignore_renversement."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

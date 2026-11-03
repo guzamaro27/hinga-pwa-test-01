@@ -1,0 +1,227 @@
+{
+  "id": "materials.auralite",
+  "type": "material",
+  "identity": {
+    "name": "Auralite",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "auralite",
+      "Auralite",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation animique",
+      "Orangé-rosé pulsant",
+      "Gemme accordée à l’âme et à la vitalité profonde.",
+      "Âme/Vie",
+      "magical",
+      "Magique",
+      "Exceptionnel",
+      "Rituels de résurrection",
+      "reliques vitales",
+      "temple",
+      "guérisseur",
+      "trésor majeur",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 9
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "auralite",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 4,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 9
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "4 — Exceptionnel"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation animique"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Orangé-rosé pulsant"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme accordée à l’âme et à la vitalité profonde."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Très forte (4)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "4"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Âme/Vie"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Support de restauration vitale et de rituels de résurrection."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut attirer ou retenir des traces d’âme."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Rituels de résurrection",
+              "reliques vitales"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "4 — Exceptionnel"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "temple",
+              "guérisseur",
+              "trésor majeur",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "2250"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.55"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Fabuleux"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "3"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "choc mental/dégradation"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

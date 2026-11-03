@@ -1,0 +1,256 @@
+{
+  "id": "rules.fabrication-pieges",
+  "type": "codex",
+  "identity": {
+    "name": "Fabriquer des pièges",
+    "subtitle": "Règle d’exploration / Pièges",
+    "icon": "P",
+    "tags": [
+      "règles",
+      "actions spéciales",
+      "exploration",
+      "pièges",
+      "fabrication"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "pieges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Principe",
+        "blocks": [
+          {
+            "title": "Fabriquer des pièges",
+            "text": "Une règle expliquant ce qu’un personnage peut fabriquer sans compétence, et comment les compétences améliorent la qualité des pièges."
+          },
+          {
+            "title": "Préparer un danger",
+            "items": [
+              "Fabriquer un piège consiste à préparer un danger avant qu’une cible ne le déclenche.",
+              "Le piège peut être un trou grossier, un câble tendu, un mécanisme de lames, une rune instable, une fiole prête à éclater, une barrière naturelle ou un dispositif plus complexe.",
+              "Dans HINGA, tout le monde peut tenter de bricoler un piège rudimentaire.",
+              "Sans connaissance spécialisée, le personnage manque de méthode, de précision et de sécurité.",
+              "Ses pièges sont donc limités, fragiles, dangereux à manipuler et rarement fiables."
+            ]
+          },
+          {
+            "title": "Notions utilisées",
+            "items": [
+              "La famille du piège : naturel, mécanique ou magique.",
+              "Sa nature : physique, magique, runique, selon le système.",
+              "Son niveau : instable, simple, complexe ou avancé.",
+              "Sa taille physique.",
+              "Sa zone d’action.",
+              "Son mode de déclenchement.",
+              "Ses dégâts ou états appliqués.",
+              "Sa stabilité."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Sans compétence",
+        "blocks": [
+          {
+            "title": "Limites générales",
+            "items": [
+              "Un personnage sans compétence spécialisée peut fabriquer uniquement des pièges rudimentaires.",
+              "Il peut improviser un danger avec ce qu’il a sous la main, creuser ou préparer un obstacle simple, tendre un câble grossier, ou tenter une rune instable."
+            ]
+          },
+          {
+            "title": "Pièges mécaniques",
+            "items": [
+              "Instable : autorisé.",
+              "Simple : non.",
+              "Complexe : non.",
+              "Avancé : non.",
+              "Les pièges mécaniques demandent plus de précision. Sans compétence, un personnage peut seulement bricoler un piège instable."
+            ]
+          },
+          {
+            "title": "Pièges magiques ou runiques",
+            "items": [
+              "Instable : autorisé.",
+              "Simple : non.",
+              "Complexe : non.",
+              "Avancé : non.",
+              "Les pièges magiques et runiques sont possibles sans compétence, car dans HINGA, la magie est naturelle et accessible à tous.",
+              "Créer une petite rune instable ou un effet magique improvisé est donc possible.",
+              "Créer un piège magique fiable, stable ou complexe demande une vraie maîtrise."
+            ]
+          },
+          {
+            "title": "Pièges naturels",
+            "items": [
+              "Instable : possible, mais rarement utilisé.",
+              "Simple : autorisé.",
+              "Complexe : non.",
+              "Avancé : non.",
+              "Les pièges naturels sont souvent les plus accessibles : creuser un trou, déplacer des pierres, préparer une barrière, disposer des ronces ou fragiliser un passage ne demande pas forcément un savoir technique avancé.",
+              "Les pièges naturels complexes ou avancés demandent des outils, du temps, des connaissances de terrain ou une vraie préparation."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Tableau des limites",
+        "blocks": [
+          {
+            "title": "Sans compétence",
+            "items": [
+              "Naturel — Instable : possible ; Simple : autorisé ; Complexe : non ; Avancé : non.",
+              "Mécanique — Instable : autorisé ; Simple : non ; Complexe : non ; Avancé : non.",
+              "Magique / runique — Instable : autorisé ; Simple : non ; Complexe : non ; Avancé : non."
+            ]
+          },
+          {
+            "title": "Notes",
+            "items": [
+              "Possible signifie que le système le permet, mais que ce cas peut rester rare ou dépendre du contexte.",
+              "Autorisé signifie que le personnage peut le tenter sans compétence.",
+              "Non signifie qu’une compétence ou une autorisation MJ est nécessaire."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Limites des pièges improvisés",
+        "blocks": [
+          {
+            "title": "Puissance et fiabilité",
+            "items": [
+              "Sans compétence, un piège est limité dans sa puissance et sa fiabilité.",
+              "Un piège fabriqué sans compétence ne peut généralement avoir que des dégâts ou un seul état, mais pas les deux, sauf accord du MJ ou cas particulier."
+            ]
+          },
+          {
+            "title": "Limites recommandées",
+            "items": [
+              "Niveau maximal mécanique : instable.",
+              "Niveau maximal magique/runique : instable.",
+              "Niveau maximal naturel : simple.",
+              "Un seul état maximum.",
+              "Pas d’effet tertiaire.",
+              "Pas de persistance complexe.",
+              "Pas de déclenchement avancé.",
+              "Pas de combinaison d’effets multiples.",
+              "Pas de piège complexe ou avancé."
+            ]
+          },
+          {
+            "title": "Exemples accessibles",
+            "items": [
+              "Trou grossier.",
+              "Petite fosse simple.",
+              "Barrière de fortune.",
+              "Ronces disposées dans un passage.",
+              "Câble tendu rudimentaire.",
+              "Filet improvisé.",
+              "Rune instable.",
+              "Petit effet magique piégé.",
+              "Mécanisme grossier."
+            ]
+          },
+          {
+            "title": "Exemples non accessibles",
+            "items": [
+              "Piège à ours fiable.",
+              "Mécanisme de lames.",
+              "Arbalète murale.",
+              "Bombe fiable.",
+              "Rune complexe.",
+              "Sceau mental.",
+              "Piège magique persistant.",
+              "Piège à double effet.",
+              "Piège avancé avec zone et état combinés."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Pièges instables",
+        "blocks": [
+          {
+            "title": "Définition",
+            "items": [
+              "Un piège instable est un piège imparfait.",
+              "Il peut fonctionner, mais il peut aussi échouer, se briser, s’activer trop tôt ou produire un effet réduit.",
+              "Les pièges instables existent pour représenter les bricolages, les improvisations et les tentatives maladroites."
+            ]
+          },
+          {
+            "title": "Règles futures possibles",
+            "items": [
+              "Chance que le piège ne fonctionne pas.",
+              "Chance qu’il se déclenche pendant la pose.",
+              "Chance qu’il se détruise après déclenchement.",
+              "Chance que son effet soit réduit.",
+              "Chance qu’il s’active contre le poseur.",
+              "Ces règles peuvent être précisées plus tard dans le moteur.",
+              "Pour l’instant, le niveau instable indique surtout que le piège est rudimentaire, peu fiable et limité."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Magie improvisée",
+        "blocks": [
+          {
+            "title": "Sixième sens",
+            "items": [
+              "Dans HINGA, la magie est un sixième sens universel.",
+              "Tout le monde peut la percevoir et tenter de l’utiliser, même maladroitement.",
+              "Il est donc possible pour un personnage non spécialisé de créer un piège magique ou runique instable."
+            ]
+          },
+          {
+            "title": "Limites",
+            "items": [
+              "Un piège magique ou runique sans compétence doit rester instable.",
+              "Il ne peut pas être complexe ou avancé.",
+              "Il ne peut pas combiner plusieurs effets.",
+              "Il ne peut pas être très fiable.",
+              "Il peut être sujet à des ratés ou contre-effets selon le MJ ou les futures règles du moteur.",
+              "La compétence Piégeage Arcanique permet de créer des pièges magiques ou runiques simples, complexes ou avancés selon son niveau."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Progression",
+        "blocks": [
+          {
+            "title": "Avec compétence",
+            "items": [
+              "Les compétences de pièges servent à dépasser les limites de l’improvisation.",
+              "Progression générale proposée : sans compétence, instable ; compétence N1, simple ; compétence N2, complexe ; compétence N3, avancé.",
+              "Cette progression pourra varier selon les compétences.",
+              "Une compétence mécanique améliorera les pièges mécaniques.",
+              "Une compétence runique améliorera les pièges magiques et runiques.",
+              "Une compétence de détection ou d’analyse pourra aider à comprendre ou désamorcer les pièges sans forcément permettre d’en fabriquer.",
+              "Cette entrée décrit uniquement la fabrication sans compétence. Les compétences spécialisées seront détaillées dans leurs propres entrées."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Lien futur",
+        "blocks": [
+          {
+            "title": "Trap Builder",
+            "items": [
+              "Identifiant stable : rules.fabrication-pieges.",
+              "Cette entrée est prête à être liée plus tard à un bouton d’aide de la Fabrique à Pièges.",
+              "Aucune mécanique de fabrication n’est modifiée par cette entrée."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

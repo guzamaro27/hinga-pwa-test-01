@@ -1,0 +1,92 @@
+{
+  "id": "rules.pv",
+  "type": "codex",
+  "identity": {
+    "name": "Points de vie (PV)",
+    "subtitle": "Santé physique et blessures",
+    "icon": "❤",
+    "tags": [
+      "Points de vie (PV)",
+      "PV",
+      "blessure",
+      "Extinction"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/etatsPoints.mjs",
+    "module/helpers/pv.mjs",
+    "module/documents/actor.mjs"
+  ],
+  "mechanics": {
+    "formula": "floor((PHY + VITA) / 2)",
+    "statesConstant": "PV_STATE_RULES"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Maximum",
+        "value": "⌊(PHY + VITA) / 2⌋"
+      },
+      {
+        "label": "À zéro",
+        "value": "Extinction"
+      },
+      {
+        "label": "Récupération",
+        "value": "À 0 : Renaissance Spirituelle, override explicite MJ ou Coma uniquement"
+      }
+    ],
+    "links": [
+      {
+        "label": "Jauges et ressources",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.jauges-ressources"
+      },
+      {
+        "label": "Repos et récupération",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      },
+      {
+        "label": "États et paliers",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Règle",
+        "blocks": [
+          {
+            "text": "Le maximum est floor((PHY + VITA) / 2). Les bonus de peuple et autres modificateurs prévus par les règles s’appliquent ensuite."
+          }
+        ]
+      },
+      {
+        "label": "Paliers",
+        "blocks": [
+          {
+            "items": [
+              "Vigoureux : au-dessus de 2/3, aucun malus.",
+              "Entamé : jusqu’à 2/3, MOB −3.",
+              "Meurtri : jusqu’à 1/2, MOB −6, PERC −3, PSY −3.",
+              "Agonisant : jusqu’à 1/4, MOB −10, PERC −6, PSY −6.",
+              "Extinction : 0 PV, hors d’état, incapable d’agir ; MOB −10, PERC −6, PSY −6 restent actifs."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Extinction — 0 PV",
+        "blocks": [{ "text": "Le personnage est hors d’état et ne peut plus agir. Aucun soin, régénération ou récupération ordinaire ne fait remonter les PV depuis 0. Seuls Renaissance Spirituelle, un override explicite du MJ ou le repos Coma peuvent le relever. 0 PV ne signifie pas automatiquement la mort : le décès est déclaré explicitement par le MJ." }]
+      }
+    ]
+  }
+}

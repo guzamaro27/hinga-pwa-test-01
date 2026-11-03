@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "source": "module/data/character-build-presets.mjs",
+  "presets": [
+    {
+      "id": "guerrier",
+      "label": "Guerrier",
+      "summary": "Combattant physique agressif, solide au corps à corps.",
+      "stats": {
+        "force": 62,
+        "constit": 52,
+        "vita": 48,
+        "psych": 35,
+        "intell": 28,
+        "charisme": 32,
+        "demag": 30,
+        "arcane": 25,
+        "perc": 35,
+        "dex": 52,
+        "react": 48,
+        "discr": 33
+      },
+      "groups": [
+        "combattant-emerite"
+      ]
+    },
+    {
+      "id": "chevalier",
+      "label": "Chevalier",
+      "summary": "Combattant discipliné, défensif, stable et protecteur.",
+      "stats": {
+        "force": 55,
+        "constit": 58,
+        "vita": 45,
+        "psych": 48,
+        "intell": 35,
+        "charisme": 45,
+        "demag": 32,
+        "arcane": 25,
+        "perc": 32,
+        "dex": 40,
+        "react": 45,
+        "discr": 20
+      },
+      "groups": [
+        "corps-militaire",
+        "garde-protecteur"
+      ]
+    },
+    {
+      "id": "mage",
+      "label": "Mage",
+      "summary": "Spécialiste de la magie, intelligent et puissant en ARC.",
+      "stats": {
+        "force": 25,
+        "constit": 32,
+        "vita": 32,
+        "psych": 42,
+        "intell": 55,
+        "charisme": 35,
+        "demag": 55,
+        "arcane": 62,
+        "perc": 48,
+        "dex": 32,
+        "react": 35,
+        "discr": 27
+      },
+      "groups": [
+        "mage-sage"
+      ]
+    },
+    {
+      "id": "eclaireur",
+      "label": "Éclaireur",
+      "summary": "Explorateur mobile, attentif, rapide et difficile à surprendre.",
+      "stats": {
+        "force": 35,
+        "constit": 38,
+        "vita": 45,
+        "psych": 35,
+        "intell": 40,
+        "charisme": 30,
+        "demag": 28,
+        "arcane": 25,
+        "perc": 60,
+        "dex": 55,
+        "react": 62,
+        "discr": 27
+      },
+      "groups": [
+        "gardien-de-la-nature"
+      ]
+    },
+    {
+      "id": "assassin",
+      "label": "Assassin",
+      "summary": "Spécialiste de la précision, de l'initiative et des actions discrètes.",
+      "stats": {
+        "force": 32,
+        "constit": 32,
+        "vita": 38,
+        "psych": 38,
+        "intell": 45,
+        "charisme": 30,
+        "demag": 25,
+        "arcane": 25,
+        "perc": 48,
+        "dex": 68,
+        "react": 60,
+        "discr": 39
+      },
+      "groups": [
+        "ombre-rebelle"
+      ]
+    },
+    {
+      "id": "chaman",
+      "label": "Chaman",
+      "summary": "Guide mystique équilibré entre perception, volonté et magie.",
+      "stats": {
+        "force": 28,
+        "constit": 40,
+        "vita": 42,
+        "psych": 55,
+        "intell": 40,
+        "charisme": 42,
+        "demag": 50,
+        "arcane": 50,
+        "perc": 55,
+        "dex": 25,
+        "react": 33,
+        "discr": 20
+      },
+      "groups": [
+        "peregrin-mystique",
+        "gardien-de-la-nature"
+      ]
+    },
+    {
+      "id": "artisan",
+      "label": "Artisan",
+      "summary": "Créateur habile, très intelligent et précis dans ses gestes.",
+      "stats": {
+        "force": 35,
+        "constit": 38,
+        "vita": 40,
+        "psych": 40,
+        "intell": 65,
+        "charisme": 38,
+        "demag": 32,
+        "arcane": 30,
+        "perc": 45,
+        "dex": 55,
+        "react": 35,
+        "discr": 27
+      },
+      "groups": [
+        "scientifique-savant"
+      ]
+    },
+    {
+      "id": "diplomate",
+      "label": "Diplomate",
+      "summary": "Personnage social, réfléchi et fort en négociation.",
+      "stats": {
+        "force": 25,
+        "constit": 32,
+        "vita": 35,
+        "psych": 52,
+        "intell": 50,
+        "charisme": 68,
+        "demag": 35,
+        "arcane": 25,
+        "perc": 48,
+        "dex": 30,
+        "react": 35,
+        "discr": 45
+      },
+      "groups": [
+        "negociateur-diplomatique"
+      ]
+    },
+    {
+      "id": "gardien",
+      "label": "Gardien",
+      "summary": "Protecteur robuste, très résistant physiquement et mentalement.",
+      "stats": {
+        "force": 45,
+        "constit": 65,
+        "vita": 50,
+        "psych": 52,
+        "intell": 30,
+        "charisme": 32,
+        "demag": 42,
+        "arcane": 25,
+        "perc": 33,
+        "dex": 30,
+        "react": 46,
+        "discr": 30
+      },
+      "groups": [
+        "garde-protecteur"
+      ]
+    },
+    {
+      "id": "voyageur",
+      "label": "Voyageur",
+      "summary": "Personnage endurant, mobile, adapté aux longs trajets et aux dangers.",
+      "stats": {
+        "force": 33,
+        "constit": 42,
+        "vita": 62,
+        "psych": 36,
+        "intell": 38,
+        "charisme": 36,
+        "demag": 28,
+        "arcane": 25,
+        "perc": 50,
+        "dex": 42,
+        "react": 55,
+        "discr": 33
+      },
+      "groups": [
+        "gardien-de-la-nature",
+        "peregrin-mystique"
+      ]
+    },
+    {
+      "id": "archer",
+      "label": "Archer",
+      "summary": "Combattant à distance basé sur précision, réaction et perception.",
+      "stats": {
+        "force": 35,
+        "constit": 35,
+        "vita": 42,
+        "psych": 35,
+        "intell": 38,
+        "charisme": 30,
+        "demag": 25,
+        "arcane": 25,
+        "perc": 55,
+        "dex": 68,
+        "react": 62,
+        "discr": 30
+      },
+      "groups": [
+        "combattant-emerite",
+        "corps-militaire"
+      ]
+    },
+    {
+      "id": "berserker",
+      "label": "Berserker",
+      "summary": "Combattant brutal, très fort et endurant, mais peu subtil.",
+      "stats": {
+        "force": 70,
+        "constit": 50,
+        "vita": 60,
+        "psych": 32,
+        "intell": 20,
+        "charisme": 25,
+        "demag": 25,
+        "arcane": 20,
+        "perc": 28,
+        "dex": 50,
+        "react": 55,
+        "discr": 45
+      },
+      "groups": [
+        "combattant-emerite"
+      ]
+    },
+    {
+      "id": "paladin",
+      "label": "Paladin",
+      "summary": "Protecteur charismatique et volontaire, solide au combat.",
+      "stats": {
+        "force": 50,
+        "constit": 58,
+        "vita": 46,
+        "psych": 55,
+        "intell": 33,
+        "charisme": 46,
+        "demag": 42,
+        "arcane": 28,
+        "perc": 30,
+        "dex": 30,
+        "react": 42,
+        "discr": 20
+      },
+      "groups": [
+        "garde-protecteur",
+        "corps-militaire"
+      ]
+    },
+    {
+      "id": "moine",
+      "label": "Moine",
+      "summary": "Combattant discipliné, mobile, résistant et centré sur la volonté.",
+      "stats": {
+        "force": 42,
+        "constit": 42,
+        "vita": 52,
+        "psych": 52,
+        "intell": 33,
+        "charisme": 28,
+        "demag": 42,
+        "arcane": 25,
+        "perc": 40,
+        "dex": 48,
+        "react": 54,
+        "discr": 22
+      },
+      "groups": [
+        "peregrin-mystique",
+        "combattant-emerite"
+      ]
+    },
+    {
+      "id": "sorcier_combat",
+      "label": "Sorcier de combat",
+      "summary": "Mage offensif capable de tenir sous pression et d'agir vite.",
+      "stats": {
+        "force": 33,
+        "constit": 38,
+        "vita": 33,
+        "psych": 38,
+        "intell": 45,
+        "charisme": 28,
+        "demag": 45,
+        "arcane": 62,
+        "perc": 45,
+        "dex": 40,
+        "react": 45,
+        "discr": 28
+      },
+      "groups": [
+        "mage-sage"
+      ]
+    },
+    {
+      "id": "espion",
+      "label": "Espion",
+      "summary": "Agent discret, social et intelligent, bon en infiltration.",
+      "stats": {
+        "force": 25,
+        "constit": 30,
+        "vita": 35,
+        "psych": 45,
+        "intell": 52,
+        "charisme": 52,
+        "demag": 28,
+        "arcane": 25,
+        "perc": 50,
+        "dex": 55,
+        "react": 55,
+        "discr": 28
+      },
+      "groups": [
+        "ombre-rebelle"
+      ]
+    },
+    {
+      "id": "commandant",
+      "label": "Commandant",
+      "summary": "Leader stratégique, charismatique et mentalement solide.",
+      "stats": {
+        "force": 42,
+        "constit": 48,
+        "vita": 40,
+        "psych": 52,
+        "intell": 50,
+        "charisme": 58,
+        "demag": 30,
+        "arcane": 25,
+        "perc": 33,
+        "dex": 30,
+        "react": 42,
+        "discr": 30
+      },
+      "groups": [
+        "corps-militaire"
+      ]
+    },
+    {
+      "id": "invocateur",
+      "label": "Invocateur",
+      "summary": "Mage orienté invocation, ancrage magique et contrôle.",
+      "stats": {
+        "force": 25,
+        "constit": 35,
+        "vita": 35,
+        "psych": 50,
+        "intell": 52,
+        "charisme": 35,
+        "demag": 58,
+        "arcane": 60,
+        "perc": 45,
+        "dex": 30,
+        "react": 35,
+        "discr": 20
+      },
+      "groups": [
+        "mage-sage"
+      ]
+    },
+    {
+      "id": "alchimiste",
+      "label": "Alchimiste",
+      "summary": "Savant précis, observateur, spécialisé en préparation et substances.",
+      "stats": {
+        "force": 25,
+        "constit": 35,
+        "vita": 38,
+        "psych": 42,
+        "intell": 68,
+        "charisme": 35,
+        "demag": 35,
+        "arcane": 30,
+        "perc": 50,
+        "dex": 52,
+        "react": 35,
+        "discr": 35
+      },
+      "groups": [
+        "scientifique-savant"
+      ]
+    },
+    {
+      "id": "survivant",
+      "label": "Survivant",
+      "summary": "Endurant, réactif et perceptif, fait pour durer en milieu hostile.",
+      "stats": {
+        "force": 38,
+        "constit": 48,
+        "vita": 62,
+        "psych": 45,
+        "intell": 33,
+        "charisme": 28,
+        "demag": 33,
+        "arcane": 25,
+        "perc": 53,
+        "dex": 33,
+        "react": 57,
+        "discr": 25
+      },
+      "groups": [
+        "gardien-de-la-nature"
+      ]
+    }
+  ]
+}

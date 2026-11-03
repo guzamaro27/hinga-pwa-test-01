@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-disable",
+  "type": "codex",
+  "identity": {
+    "name": "Désactiver",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "désactivér"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Désactiver"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Neutraliser un piège magique ou runique."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Désactiver cherche à rompre ou stabiliser le flux d'un piège magique, runique, glyphe, sceau ou effet enchanté. Ce n'est pas un désarmement mécanique."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Possible selon difficulté du piège."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "La difficulté de base est celle enregistrée par le piège. Chaque niveau d’aisance retire d’abord un DV, puis améliore successivement ARC/4 vers ARC/2, ARC/2 vers ARC normal, puis ARC normal vers AV1."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le système lance un jet d'ARC. En cas de réussite, le piège magique ou runique devient désactivé."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Non, sauf si l'interface actuelle en ouvre un."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Piège magique ou runique, proche, actif, visible ou suffisamment connu."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Refus si le piège est naturel, mécanique, détruit, trop éloigné, trop avancé sans règle adaptée ou déjà neutralisé."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Analyse Arcanique et Piégeage Arcanique peuvent chacun accorder une fois 1 niveau d’aisance lorsqu’ils couvrent le piège. Leurs apports sont indépendants et s’appliquent à la difficulté de base sans la redéfinir."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le piège devient désactivé."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le piège reste actif. Un retour de flux depend des règles actives."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Piégeage Arcanique n’ajoute aucun effet critique propre. Un échec critique conserve les conséquences générales du piège."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Désactiver",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

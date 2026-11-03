@@ -1,0 +1,561 @@
+{
+  "id": "borors",
+  "type": "peuple",
+  "identity": {
+    "name": "Borors",
+    "subtitle": "",
+    "slug": "borors",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/borors.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Borors sont reconnaissables à leur très grande taille, leur silhouette élancée, leur peau vert pâle, leur pilosité sombre, leurs oreilles pointues et leurs petites défenses visibles."
+          },
+          {
+            "text": "Leur apparence imposante leur vaut parfois une réputation de brutalité. Ils sont pourtant généralement associés à l’endurance, à l’intelligence pratique, à la réactivité et à un fort attachement au groupe."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 5/10 — Présence moyenne"
+          },
+          {
+            "text": "**Tendances :** Les Borors préfèrent généralement les campagnes, les forêts et les petites communautés. Certains vivent entièrement à l’écart des villes, tandis que d’autres s’intègrent sans difficulté aux agglomérations et aux populations mixtes."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Borors mesurent généralement autour de **2,00 mètres** pour environ **80 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est très grande et relativement fine. Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc long ;",
+              "des épaules modérément larges ;",
+              "des bras et des jambes allongés ;",
+              "une ossature solide ;",
+              "une musculature ferme mais peu volumineuse ;",
+              "une posture haute et stable ;",
+              "des mains et des pieds larges."
+            ]
+          },
+          {
+            "text": "Leur faible masse par rapport à leur taille leur donne un aspect élancé, sans les faire paraître fragiles."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau borors se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le vert très pâle ;",
+              "le vert clair ;",
+              "le vert grisâtre ;",
+              "certains tons légèrement jaunis."
+            ]
+          },
+          {
+            "text": "Elle est particulièrement épaisse."
+          },
+          {
+            "text": "Des taches brunes peuvent apparaître sur différentes parties du corps. Elles peuvent être :"
+          },
+          {
+            "items": [
+              "petites et dispersées ;",
+              "larges et irrégulières ;",
+              "plus nombreuses sur les épaules, le dos ou les membres ;",
+              "presque absentes chez certains individus."
+            ]
+          },
+          {
+            "text": "Les muqueuses sont généralement plus foncées que la peau."
+          },
+          {
+            "text": "Avec l’âge, la peau pâlit progressivement tandis que les taches brunes deviennent souvent plus nombreuses et plus étendues."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage borors est généralement large, avec une structure se resserrant légèrement vers le menton."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front marqué ;",
+              "des arcades sourcilières visibles ;",
+              "des pommettes prononcées ;",
+              "des joues creusées ou fortement dessinées ;",
+              "un nez large ;",
+              "une bouche large ;",
+              "une mâchoire robuste ;",
+              "de grandes oreilles."
+            ]
+          },
+          {
+            "text": "Leurs traits sont puissants et nettement dessinés, mais conservent une mobilité suffisante pour exprimer une large gamme d’émotions."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les yeux borors sont généralement de taille moyenne et profondément enchâssés sous des arcades sourcilières marquées."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le vert clair ;",
+              "le vert gris ;",
+              "le vert olive ;",
+              "le vert sombre."
+            ]
+          },
+          {
+            "text": "Le regard peut paraître sévère au repos en raison de la structure du front et des sourcils."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux borors se déclinent principalement dans des tons foncés comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun très sombre ;",
+              "le brun rouge ;",
+              "le roux sombre."
+            ]
+          },
+          {
+            "text": "Ils sont généralement épais et peuvent être :"
+          },
+          {
+            "items": [
+              "raides ;",
+              "ondulés ;",
+              "bouclés."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle est souvent abondante. Elle peut couvrir notamment :"
+          },
+          {
+            "items": [
+              "les avant-bras ;",
+              "les jambes ;",
+              "le torse ;",
+              "le ventre ;",
+              "le dos ;",
+              "les épaules."
+            ]
+          },
+          {
+            "text": "Elle est généralement sombre, épaisse et relativement grossière. Sa densité varie fortement selon les individus."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Borors possèdent **quatre doigts** à chaque main et **quatre orteils** à chaque pied."
+          },
+          {
+            "text": "Leurs doigts et leurs orteils sont généralement :"
+          },
+          {
+            "items": [
+              "larges ;",
+              "robustes ;",
+              "légèrement plus épais que ceux des peuples possédant cinq doigts."
+            ]
+          },
+          {
+            "text": "Leurs oreilles sont grandes et principalement pointées vers le haut."
+          },
+          {
+            "text": "Leur forme peut varier :"
+          },
+          {
+            "items": [
+              "pointe supérieure longue ou courte ;",
+              "pavillon large ;",
+              "oreille proche du crâne ou davantage décollée ;",
+              "partie inférieure arrondie ;",
+              "partie inférieure parfois légèrement effilée ou pointue."
+            ]
+          },
+          {
+            "text": "Les Borors possèdent une dentition large et solide."
+          },
+          {
+            "text": "Deux petites défenses issues de la mâchoire inférieure dépassent généralement de la bouche et se dirigent légèrement vers le haut."
+          },
+          {
+            "text": "Chez certains individus, de petites défenses supérieures peuvent également apparaître. Elles restent plus courtes et ne doivent pas dominer l’ensemble du visage."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La peau borors est épaisse et résiste efficacement aux frottements ordinaires."
+          },
+          {
+            "text": "Leur dentition robuste leur permet de broyer des aliments de textures très différentes."
+          },
+          {
+            "text": "Leurs quatre doigts restent suffisamment mobiles pour assurer une manipulation normale des objets. Leur prise repose cependant davantage sur la largeur et la puissance des doigts que sur leur nombre."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la peau pâlit ;",
+              "les taches brunes s’étendent ;",
+              "les rides deviennent plus nombreuses et plus profondes ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "les défenses et les autres dents s’émoussent ;",
+              "la force et la résistance physiques diminuent progressivement."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Borors sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des insectes ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons."
+            ]
+          },
+          {
+            "text": "Ils ne présentent aucune restriction alimentaire propre à leur peuple."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Borors possèdent une vitalité élevée."
+          },
+          {
+            "text": "Leur organisme supporte efficacement :"
+          },
+          {
+            "items": [
+              "les efforts prolongés ;",
+              "la fatigue physique ;",
+              "les blessures répétées ;",
+              "les périodes de récupération difficiles ;",
+              "les conditions de vie rustiques."
+            ]
+          },
+          {
+            "text": "Leur grande taille ne s’accompagne pas nécessairement d’une masse corporelle importante. Leur constitution reste généralement fine, durable et fonctionnelle."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Borors possèdent une acuité auditive développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "les variations de rythme ;",
+              "la direction d’une source sonore ;",
+              "les bruits produits derrière un obstacle ;",
+              "plusieurs sons proches produits simultanément."
+            ]
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "L’odorat borors est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des odeurs proches ;",
+              "suivre une trace olfactive faible ;",
+              "identifier une substance par son odeur seule ;",
+              "isoler une senteur au sein d’un mélange complexe."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie borors se prête particulièrement aux pratiques durables, réactives et liées à la préservation du corps."
+          },
+          {
+            "text": "Ils maintiennent efficacement les effets demandant :"
+          },
+          {
+            "items": [
+              "de la constance ;",
+              "une activation rapide ;",
+              "une réponse immédiate à une menace ;",
+              "une mobilisation prolongée des ressources physiques ;",
+              "un renforcement défensif."
+            ]
+          },
+          {
+            "text": "Leur perception moins développée les rend moins naturellement adaptés aux pratiques reposant sur l’observation fine ou l’identification distante d’un phénomène."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Métal**"
+          },
+          {
+            "text": "Le Métal constitue l’affinité élémentaire recommandée pour les Borors."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie borors se manifeste fréquemment sous des formes solides, compactes et réactives."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Métal, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de plaques épaisses ;",
+              "de bandes articulées ;",
+              "de renforts proches du corps ;",
+              "d’arêtes protectrices ;",
+              "de structures assemblées rapidement ;",
+              "de manifestations brèves déclenchées en réponse à une attaque."
+            ]
+          },
+          {
+            "text": "Les manifestations borors privilégient généralement la solidité, l’endurance et la réaction plutôt que la finesse ou la discrétion."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les flux borors tendent à se maintenir près du corps ou de l’équipement avant d’être mobilisés rapidement."
+          },
+          {
+            "text": "Ils se prêtent particulièrement :"
+          },
+          {
+            "items": [
+              "à la préservation des ressources physiques ;",
+              "aux protections persistantes ;",
+              "aux réactions défensives ;",
+              "aux ripostes déclenchées au moment opportun."
+            ]
+          },
+          {
+            "text": "Aucune manifestation métallique permanente n’apparaît naturellement sur leur corps."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage borors :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "VITA +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "REACT +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "PERC −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Métal"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Métal constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Métabolisme Tenace",
+                  "B"
+                ],
+                [
+                  "Riposte Tactique",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Métabolisme Tenace",
+            "headingLevel": 5,
+            "anchor": "metabolisme-tenace",
+            "text": "Cette formation développe la capacité à maintenir l’organisme fonctionnel malgré la fatigue, les blessures et les contraintes prolongées."
+          },
+          {
+            "title": "Riposte Tactique",
+            "headingLevel": 5,
+            "anchor": "riposte-tactique",
+            "text": "Cette formation développe la capacité à identifier une ouverture et à répondre rapidement à l’action d’un adversaire."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Métabolisme Tenace ;",
+              "Riposte Tactique."
+            ]
+          },
+          {
+            "title": "Réserve naturelle — PV",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-pv",
+            "text": "Votre maximum de **PV** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de PV augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Résistance élémentaire — Métal",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-metal",
+            "text": "Vous obtenez **+10 % de résistance au Métal**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Sens aiguisé — Audition",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-audition",
+            "text": "Vous obtenez **+5 en Audition**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité auditive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Borors.md",
+    "sourceSha256": "f074b409417a27fd2f9097a24530fcf8dff76ec958fc70a6b50722c94b171c54"
+  }
+}

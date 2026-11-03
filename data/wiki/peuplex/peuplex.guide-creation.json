@@ -1,0 +1,60 @@
+{
+  "id": "peuplex.guide-creation",
+  "type": "peuple",
+  "identity": {
+    "name": "Création, héritage et culture",
+    "subtitle": "Choisir un peuple dans le créateur",
+    "icon": "◇",
+    "tags": [
+      "peuple",
+      "création",
+      "héritage",
+      "culture"
+    ]
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "sources": [
+    "module/data/peuple.mjs",
+    "module/data/peuple-v2.mjs",
+    "module/data/peuple-canon-v2.mjs",
+    "module/engine/peuple-setup.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Objet",
+        "value": "Choisir un peuple dans le créateur"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Choix du peuple",
+        "blocks": [
+          {
+            "text": "Le peuple détermine les choix culturels, le don inné ou héritage, les bonus et ressources prévus par sa définition. Une variante est proposée seulement lorsque ce peuple en possède une."
+          }
+        ]
+      },
+      {
+        "label": "Affinité et culture",
+        "blocks": [
+          {
+            "text": "L’affinité élémentaire éventuelle et la compétence culturelle viennent de la définition du peuple. Le créateur montre les options compatibles."
+          }
+        ]
+      },
+      {
+        "label": "Validation",
+        "blocks": [
+          {
+            "text": "Après validation, les données mécaniques du peuple sont appliquées. Revenir sur ce choix invalide les étapes qui en dépendent avant la finalisation."
+          }
+        ]
+      }
+    ]
+  }
+}

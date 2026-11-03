@@ -1,0 +1,104 @@
+{
+  "id": "sendash-noir",
+  "type": "plant",
+  "identity": {
+    "name": "Sendash noir",
+    "subtitle": "Variante des hauteurs froides",
+    "unknownName": "Arbre sombre a veines violettes",
+    "slug": "sendash-noir",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Sendash 2 Mont.png",
+    "visualNote": "Arbre au tronc sombre et droit, teinte de violet a la base, avec une cime verte compacte et des fruits pourpres.",
+    "tags": [
+      "arbre",
+      "sendash",
+      "montagne",
+      "tronc-sombre"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne seche froide",
+      "steppe seche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "sol caillouteux",
+      "rocaille",
+      "terre pauvre"
+    ],
+    "season": [
+      "premiers froids",
+      "grand froid",
+      "degel",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 a 15 m",
+    "width": "5 a 12 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "brun noir, violet, rose pale",
+    "distinctiveSigns": [
+      "tronc sombre presque noir en hauteur",
+      "base teintee de violet",
+      "pointes dures sur la partie haute",
+      "couronne dense vert fonce",
+      "feuilles rondes a nervures rosees",
+      "ecorce interne violette lumineuse",
+      "racines sombres parcourues de veines claires",
+      "capsules pourpres legerement herissees"
+    ],
+    "descriptionShort": "Le Sendash noir est une variante froide au tronc sombre, veine de violet, et a la cime verte compacte.",
+    "descriptionFull": "Le Sendash noir pousse sur les pentes froides et les plateaux secs ou les vents marquent son tronc droit. Sa base violette et ses veines claires se voient surtout quand l'ecorce est humide ou fissuree. Les branches hautes forment des pointes dures, tandis que la couronne reste ronde et sombre, plus compacte que celle des autres Sendash."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les pointes du tronc peuvent blesser en cas de contact direct."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Sendash noir donne un bois sombre, dur et assez stable, recherche pour de petites pieces visibles ou des reparations solides."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

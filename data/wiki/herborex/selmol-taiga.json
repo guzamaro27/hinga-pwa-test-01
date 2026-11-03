@@ -1,0 +1,95 @@
+{
+  "id": "selmol-taiga",
+  "type": "plant",
+  "identity": {
+    "name": "Selmol blanc",
+    "subtitle": "Variante des forets froides",
+    "unknownName": "Arbre blanc a franges bleues",
+    "slug": "selmol-taiga",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Selmol 2 taiga.png",
+    "visualNote": "Arbre pale et noueux dont la cime bleu blanc retombe en rideaux de fines franges.",
+    "tags": [
+      "arbre",
+      "selmol",
+      "taiga",
+      "franges"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "taiga humide froide",
+      "montagne humide froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre pauvre",
+      "sol caillouteux",
+      "neige"
+    ],
+    "season": [
+      "premiers froids",
+      "grand froid",
+      "degel"
+    ],
+    "growthCycle": "lente",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 a 13 m",
+    "width": "6 a 15 m",
+    "colorMain": "bleu pale",
+    "colorSecondary": "blanc, gris clair, beige froid",
+    "distinctiveSigns": [
+      "tronc pale, epais et tordu",
+      "ecorce claire marquee de lichens bleutes",
+      "cime arrondie bleu blanc",
+      "franges longues et tres fines",
+      "feuilles allongees bleutees",
+      "racines noueuses apparentes",
+      "fruits clairs enveloppes dans une coque pale",
+      "bois clair a bord bleute"
+    ],
+    "descriptionShort": "Le Selmol blanc est une variante froide a franges bleu blanc et tronc pale noueux.",
+    "descriptionFull": "Le Selmol blanc pousse dans les zones froides et humides ou sa cime retombante prend une couleur de glace. Ses franges nombreuses forment une protection contre le vent et retiennent l'humidite autour des rameaux. Le tronc, torsade et pale, semble souvent charge de lichens bleutes, tandis que les racines s'accrochent dans les sols froids et pierreux."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le Selmol blanc est surtout utile comme repere forestier froid; son bois clair et ses franges seches servent a de petits usages locaux."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

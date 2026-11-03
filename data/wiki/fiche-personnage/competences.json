@@ -1,0 +1,82 @@
+{
+  "id": "fiche-personnage.competences",
+  "type": "codex",
+  "identity": {
+    "name": "Compétences",
+    "subtitle": "Fiche personnage / Lire et utiliser ses compétences",
+    "icon": "✦",
+    "tags": [
+      "compétences",
+      "maîtrises",
+      "effets",
+      "bonus"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Niveau",
+        "value": "rang acquis"
+      },
+      {
+        "label": "Usage",
+        "value": "condition de la fiche"
+      },
+      {
+        "label": "Effet",
+        "value": "bonus ou règle spéciale"
+      }
+    ],
+    "links": [
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      },
+      {
+        "label": "AV / DV",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Progression",
+        "sectionId": "systeme",
+        "entryId": "rules.progression-competences"
+      },
+      {
+        "label": "Groupes vocationnels",
+        "sectionId": "systeme",
+        "entryId": "rules.groupes-vocationnels"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Vos compétences indiquent leurs conditions, leurs niveaux et leurs effets actifs."
+          }
+        ]
+      },
+      {
+        "label": "Lire une compétence",
+        "blocks": [
+          {
+            "items": [
+              "Ouvrez la compétence pour lire ses conditions.",
+              "Les effets actifs sont appliqués par le système lorsqu’ils sont valides.",
+              "Consultez la règle Système liée pour comprendre un jet ou une défense modifiée."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

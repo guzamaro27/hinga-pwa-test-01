@@ -1,0 +1,168 @@
+{
+  "id": "belofan",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Belofan",
+    "subtitle": "L’Artisan du Commerce",
+    "tags": [
+      "Belofan",
+      "L’Artisan du Commerce",
+      "esprit majeur",
+      "Commerce",
+      "Artisanat",
+      "Échange",
+      "Travail Manuel",
+      "Œil du Négociant",
+      "Estimation de valeur"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#A0823A",
+    "visualNote": "Commerce • Artisanat • Échange • Travail Manuel"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "belofan",
+    "name": "Belofan",
+    "title": "L’Artisan du Commerce",
+    "type": "esprit_majeur",
+    "domains": [
+      "Commerce",
+      "Artisanat",
+      "Échange",
+      "Travail Manuel"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "low_tide",
+      "label": "À chaque marée basse"
+    },
+    "cult": {
+      "short": "Faire l’aumône",
+      "ritual": "Donner au mendiant."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le sens des affaires est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "oeil_du_negociant": {
+        "key": "oeil_du_negociant",
+        "name": "Œil du Négociant",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Estimation de valeur",
+        "fullDescription": "Permet de connaître la valeur marchande approximative de n'importe quel objet tenu en main.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#A0823A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Commerce",
+              "Artisanat",
+              "Échange",
+              "Travail Manuel"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Faire l’aumône"
+          },
+          {
+            "title": "Rituel",
+            "text": "Donner au mendiant."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque marée basse"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "low_tide"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Œil du Négociant (commune, passif)",
+              "Effet court : Estimation de valeur",
+              "Description : Permet de connaître la valeur marchande approximative de n'importe quel objet tenu en main.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le sens des affaires est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "belofan"
+  }
+}

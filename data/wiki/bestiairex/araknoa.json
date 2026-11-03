@@ -1,0 +1,31 @@
+{
+  "id": "araknoa",
+  "type": "creature-public",
+  "identity": {
+    "name": "Araknoa",
+    "subtitle": "Le Tourmenteur de la nuit",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "souterrain",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation",
+        "blocks": [
+          {
+            "text": "L’Araknoa vit dans les donjons, les cavernes profondes et les structures abandonnées, où elle exploite les murs, plafonds et galeries étroites pour surprendre ses proies. Carnivore, elle détecte les présences par vibrations et se déplace avec une grande rapidité dans les espaces confinés. Ses filaments gluants lui permettent de capturer ses cibles ou de se déplacer plus efficacement dans son environnement."
+          },
+          {
+            "text": "L’Araknoa possède huit pattes disposées symétriquement, quatre de chaque côté de son corps arrondi. Au-dessus de l’abdomen repose une tête plus petite et sphérique, couverte de nombreux yeux rouges pulsatiles qui scintillent faiblement dans l’obscurité. Deux fines cornes tordues émergent du sommet de la tête ; pointues et venimeuses, elles renforcent son aspect menaçant. Son corps est couvert de petites épines et de poils rigides, capables de lacérer la peau au moindre contact. Deux petites mandibules, situées à l’avant de la tête, sont bordées de micro-poils sensoriels constamment en mouvement."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "firmas",
+  "type": "plant",
+  "identity": {
+    "name": "Firmas",
+    "subtitle": "Large-feuille des sous-bois humides",
+    "unknownName": "Grande feuille dentée à racines épaisses",
+    "slug": "firmas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Firmas.png",
+    "visualNote": "Grande plante à feuilles larges bleu-vert, fortement nervurées et dentées, portée par une base racinaire dense.",
+    "tags": [
+      "sous-bois",
+      "feuilles-larges",
+      "feuilles-dentees"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "medicinale",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "ruines humides"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fortes pluies"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "50 cm à 1,5 m",
+    "width": "50 cm à 1,2 m",
+    "colorMain": "bleu-vert sombre",
+    "colorSecondary": "vert profond, brun racinaire, rose pâle",
+    "distinctiveSigns": [
+      "grandes feuilles dressées, larges et ovales",
+      "bords fortement dentés avec liseré brun orangé",
+      "nervures claires très visibles",
+      "surface foliaire légèrement cireuse",
+      "racines épaisses partiellement exposées",
+      "fleur étoilée rose pâle à cœur bleu-vert",
+      "fruit ovale contenant des graines rondes"
+    ],
+    "descriptionShort": "Le Firmas est une herbe de sous-bois humide aux grandes feuilles bleu-vert dentées.",
+    "descriptionFull": "Le Firmas pousse dans les terres fraîches des sous-bois tempérés. Ses larges feuilles dressées forment une touffe protectrice qui retient l'humidité autour de la base. Les bords dentés et la surface cireuse la rendent facile à reconnaître. En saison humide, la plante produit une fleur rose pâle, puis un fruit ovale rempli de graines rondes."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "todo-medicinal-firmas",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "Produit médicinal placeholder à définir selon le futur système de soins. // TODO_LINK: à lier plus tard avec l'objet ingrédient médicinal todo-medicinal-firmas"
+  },
+  "uses": {
+    "knownUses": [
+      "medicinale",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les grandes feuilles peuvent servir de compresse végétale temporaire, et les racines sèches donnent une fibre courte pour petits mélanges rustiques."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "yskaro",
+  "type": "creature-public",
+  "identity": {
+    "name": "Yskaro",
+    "subtitle": "Le Hérissé des Roches",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Cette espèce fréquente les terrains rocheux, les ruines sèches, les plateaux et les zones de sol dur où sa silhouette hérissée se confond avec les reliefs brisés. Carnivore, elle chasse les proies isolées en s’approchant lentement avant de bondir ou de charger sur une courte distance. Sa crinière de plaques souples et rigides sert autant à l’intimidation qu’à la protection du cou et du dos."
+          },
+          {
+            "text": "Cette créature possède une silhouette haute et nerveuse, construite pour les bonds courts et les attaques soudaines. Son corps est couvert d’écailles vert gris, beige osseux et brun sombre, plus claires sur la poitrine et plus sombres sur les flancs. Sa tête allongée, partiellement protégée par des plaques dures, s’ouvre sur une gueule garnie de nombreuses dents irrégulières. Autour du cou se déploie une crinière de longues plaques plumeuses brun orangé qui se prolonge sur le dos et la queue. Ses membres sont secs, puissants et terminés par de longues griffes courbes. La queue, épaisse et flexible, sert d’appui lors des bonds et porte elle aussi des extensions hérissées."
+          },
+          {
+            "text": "Les marques de griffes et les plaques dorsales perdues près des zones rocheuses peuvent signaler un territoire actif."
+          }
+        ]
+      }
+    ]
+  }
+}

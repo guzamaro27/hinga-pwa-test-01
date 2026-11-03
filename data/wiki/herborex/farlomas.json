@@ -1,0 +1,100 @@
+{
+  "id": "farlomas",
+  "type": "plant",
+  "identity": {
+    "name": "Farlomas",
+    "subtitle": "Rosace bleue des hauteurs froides",
+    "unknownName": "Grande plante bleue à feuilles dentées",
+    "slug": "farlomas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Farlomas.png",
+    "visualNote": "Grande rosette bleu-gris aux feuilles épaisses, dentées et cireuses, avec fleur pâle violette et fruit bleu-violet à graines noires.",
+    "tags": [
+      "montagne-froide",
+      "rosette",
+      "feuilles-dentees"
+    ]
+  },
+  "classification": {
+    "category": "cactus",
+    "family": "succulente",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne sèche froide",
+      "taïga sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "rocaille",
+      "sol caillouteux",
+      "terre pauvre",
+      "neige"
+    ],
+    "season": [
+      "dégel",
+      "floraison",
+      "baisse des températures"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "50 cm à 1,6 m",
+    "width": "60 cm à 1,5 m",
+    "colorMain": "bleu-gris",
+    "colorSecondary": "bleu sombre, violet pâle, beige racinaire",
+    "distinctiveSigns": [
+      "grande rosette de feuilles dressées",
+      "feuilles longues, épaisses et fortement dentées",
+      "surface cireuse bleu-gris",
+      "nervures claires visibles sur toute la feuille",
+      "fleur bleu pâle à violet",
+      "fruit ovale bleu-violet rempli de graines noires",
+      "racines nombreuses et fibreuses"
+    ],
+    "descriptionShort": "Le Farlomas est une rosette froide bleu-gris, reconnaissable à ses feuilles épaisses et dentées.",
+    "descriptionFull": "Le Farlomas pousse dans les montagnes sèches et froides, sur les sols maigres ou pierreux. Ses feuilles épaisses forment une rosette qui protège le cœur de la plante contre le vent et le gel. Leur surface cireuse retient l'humidité et donne la teinte bleu-gris visible de loin. À maturité, la plante produit une fleur pâle, puis un fruit violet sombre contenant des graines noires."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les bords dentés peuvent érafler les mains ou le museau des animaux qui cherchent à la brouter."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "medicinale",
+      "artisanat",
+      "teinture",
+      "semis"
+    ],
+    "notes": "La pulpe des feuilles sert de base fraîche dans des soins simples des régions froides, et le fruit donne parfois un pigment bleu sombre fragile."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -622,5 +622,169 @@
   {
     "path": "data/wiki/materiaux/materials.karlon.json",
     "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/herborex/abpest.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/akatran.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/bangab.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/banror.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/belzika.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/brumebois.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/bumdari.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/chostas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/daspra.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/denlin.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/epomamo.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/ernastas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/farlomas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/ferinas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/firmas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/forvali.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/grerma.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/grikna.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/hiltid.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/irielva.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/jaknal.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/jarashi.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/junamas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/katramo.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/katrus.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.aran.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.ori.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.surin.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.branas.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.brondal.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.danir.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.konjir.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.suriam.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.fabrication-pieges.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.statistiques.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.activation-competences.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/rules.vestiges.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-chercher-pieges.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-pister.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-traquer.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-analyse-arcanique.json",
+    "section": "actions-speciales"
   }
 ]

@@ -1,0 +1,502 @@
+{
+  "id": "falstanie",
+  "type": "affliction",
+  "identity": {
+    "name": "Falstanie",
+    "subtitle": "Affliction permanente · Plaques corporelles · Sakar ou Shuja",
+    "slug": "falstanie",
+    "tags": [
+      "affliction",
+      "maladie",
+      "plaques",
+      "Sakar",
+      "Shuja",
+      "Tension Falstane"
+    ]
+  },
+  "classification": {
+    "category": "Affliction",
+    "family": "Maladie progressive",
+    "availability": "Porteurs de la Falstanie"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation",
+        "anchor": "presentation",
+        "blocks": [
+          {
+            "text": "La **Falstanie** est une Affliction permanente et progressive provoquant le développement de plaques anormalement dures à l’intérieur et à la surface du corps."
+          },
+          {
+            "text": "Contrairement à une transformation temporaire, elle ne possède pas d’état normal distinct : le porteur, appelé **Falstan**, conserve toujours les effets fondamentaux de la maladie."
+          },
+          {
+            "text": "Avec le temps, la progression s’oriente vers deux voies exclusives : **Sakar**, tournée vers la résistance et l’absorption magique, ou **Shuja**, tournée vers la force et l’agressivité physique. Cette progression représente aussi une aggravation réelle de la maladie."
+          }
+        ]
+      },
+      {
+        "label": "Socle permanent",
+        "anchor": "socle",
+        "blocks": [
+          {
+            "text": "Falstanie n’a ni activation globale, ni maintien, ni durée maximale, ni seuil de rupture supprimant l’Affliction."
+          },
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Modification"
+              ],
+              "rows": [
+                [
+                  "CONST",
+                  "+5"
+                ],
+                [
+                  "FOR",
+                  "+5"
+                ],
+                [
+                  "DEX",
+                  "−5"
+                ],
+                [
+                  "REACT",
+                  "−5"
+                ],
+                [
+                  "RES PHY",
+                  "+2"
+                ],
+                [
+                  "RES MAG",
+                  "+2"
+                ],
+                [
+                  "RES MENT",
+                  "±0"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Tension Falstane",
+        "anchor": "tension-falstane",
+        "blocks": [
+          {
+            "text": "Pendant un combat actif, le premier événement admissible de chaque round fait perdre **1 SM** au Falstan. Maximum absolu : une Tension Falstane par round, tous déclencheurs confondus. La perte produite par la Tension ne se redéclenche jamais elle-même."
+          },
+          {
+            "items": [
+              "dégâts finaux reçus strictement supérieurs à 0, physiques, magiques ou mentaux ;",
+              "dégâts finaux infligés strictement supérieurs à 0, tous axes ;",
+              "activation réelle d’une Aptitude Falstanie active ;",
+              "échec d’un test Hinga de PSY, y compris fumble et 100 ;",
+              "perte ou gain réel de SM, quelle qu’en soit la source ;",
+              "hors combat, aucune Tension automatique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Progressions",
+        "anchor": "progressions",
+        "blocks": [
+          {
+            "text": "Sakar et Shuja possèdent chacune trois niveaux cumulatifs. Dans la progression normale, elles sont exclusives : un même Actor ne peut pas avoir simultanément un niveau Sakar et un niveau Shuja supérieur à 0."
+          },
+          {
+            "table": {
+              "headers": [
+                "Progression",
+                "Orientation"
+              ],
+              "rows": [
+                [
+                  "Sakar",
+                  "Résistance, absorption magique, Charges Falstanes et Rage Falstane"
+                ],
+                [
+                  "Shuja",
+                  "Force, dégâts physiques de CàC, Piques Falstanes et Folie Falstane"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Sakar",
+        "anchor": "sakar",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Niveau",
+                "Ajout",
+                "Total depuis le personnage normal"
+              ],
+              "rows": [
+                [
+                  "N1",
+                  "CONST +10 · FOR +5 · DEX −10 · CHAR −5",
+                  "CONST +15 · FOR +10 · DEX −15 · REACT −5 · CHAR −5"
+                ],
+                [
+                  "N2",
+                  "CONST +10 · CHAR −5",
+                  "CONST +25 · FOR +10 · DEX −15 · REACT −5 · CHAR −10"
+                ],
+                [
+                  "N3",
+                  "CONST +15 · CHAR −10 · DEX −5",
+                  "CONST +40 · FOR +10 · DEX −20 · REACT −5 · CHAR −20"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Les résistances permanentes restent RES PHY +2, RES MAG +2 et RES MENT ±0. Sakar N2 divise par 2 les dégâts magiques directs finaux. Sakar N3 remplace cette réduction par /4, jamais /8. La division intervient après les protections/réactions et ne modifie pas les effets secondaires. Elle est désactivée lorsqu’une faiblesse élémentaire canonique est exploitée."
+          },
+          {
+            "text": "À Sakar N3, tout paquet magique admissible d’au moins 1 dégât avant Sakar, sans faiblesse, accorde 1 Charge Falstane (maximum 3) et fait perdre **1d4 SM**, même déjà au maximum. Un paquet déjà à 0 ou exploitant une faiblesse n’accorde rien."
+          }
+        ]
+      },
+      {
+        "label": "Charges Falstanes et Rage Falstane",
+        "anchor": "charges-falstanes",
+        "blocks": [
+          {
+            "text": "Les Charges vont de 0 à 3, persistent dans le même combat et sont remises à 0 à la fin du combat, au retrait de Falstanie, à la perte de Sakar N3 ou après Rage."
+          },
+          {
+            "text": "**Rage Falstane** requiert Sakar N3 et au moins 1 charge. Action majeure, coût total fixe **5 PF**. Elle consomme toutes les charges, déclenche la Tension et produit une zone magique non élémentaire de 4 m touchant toutes les autres créatures, alliées, ennemies ou neutres.",
+            "title": "Rage Falstane",
+            "headingLevel": 4,
+            "anchor": "rage-falstane"
+          },
+          {
+            "table": {
+              "headers": [
+                "Charges",
+                "Dégâts magiques"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "2d6"
+                ],
+                [
+                  "2",
+                  "2d10"
+                ],
+                [
+                  "3",
+                  "3d10"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Après protections magiques normales, chaque cible teste FOR. Réussite : rien. Tout échec : repoussement 3 m et **À terre** (`etat_a_terre`). Ensuite le Falstan perd 1d4 SM, reçoit **Étourdi** (`etat_etourdi`) 1 round et Rage recharge pendant **2d4+2 tours personnels**."
+          }
+        ]
+      },
+      {
+        "label": "Shuja",
+        "anchor": "shuja",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Niveau",
+                "Ajout",
+                "Total depuis le personnage normal"
+              ],
+              "rows": [
+                [
+                  "N1",
+                  "FOR +10 · CONST +5 · DEM −10 · DEX −5",
+                  "FOR +15 · CONST +10 · DEM −10 · DEX −10 · REACT −5"
+                ],
+                [
+                  "N2",
+                  "FOR +10 · DEM −5 · +2 DEG physiques `cac`",
+                  "FOR +25 · CONST +10 · DEM −15 · DEX −10 · REACT −5"
+                ],
+                [
+                  "N3",
+                  "FOR +15 · DEM −10 · CHAR −5 · +2 DEG physiques `cac`",
+                  "FOR +40 · CONST +10 · DEM −25 · DEX −10 · REACT −5 · CHAR −5"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "À Shuja N3, le bonus total est **+4 dégâts** sur le paquet principal des attaques physiques de profil `cac`, une seule fois et avant le critique standard. Il ne s’applique pas à `arme_melee`."
+          }
+        ]
+      },
+      {
+        "label": "Piques Falstanes",
+        "anchor": "piques-falstanes",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Prérequis",
+                  "Shuja N3"
+                ],
+                [
+                  "Profil",
+                  "`cac` · physique · naturelle · contact"
+                ],
+                [
+                  "Statistique",
+                  "FOR effective"
+                ],
+                [
+                  "Action",
+                  "Majeure"
+                ],
+                [
+                  "Coût total",
+                  "2 PF"
+                ],
+                [
+                  "Dégâts",
+                  "`cacDamageFormula(FOR effective) + 1d6`"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Critiques et défenses CàC standards, Maîtrise du Corps à Corps via le profil, aucune protection ignorée et aucun state natif."
+          }
+        ]
+      },
+      {
+        "label": "Folie Falstane",
+        "anchor": "folie-falstane",
+        "blocks": [
+          {
+            "text": "Requiert Shuja N3. Action majeure, coût total **3 PF**, durée **1d4+1 tours personnels**, Tension. Durant la Folie : contrôle MJ des actions offensives, AV1 aux attaques et **+5 dégâts physiques `cac`** au paquet principal ; avec Shuja N3, total +9. Aucun malus de CONST."
+          },
+          {
+            "text": "Fin à l’expiration, à l’inconscience/incapacité, au retrait de Falstanie ou à la perte de Shuja N3. À la fin : contrôle rendu, bonus retirés, **Étourdi 1 round**, recharge **2d4+2 tours personnels**."
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes communes",
+        "anchor": "aptitudes-communes",
+        "blocks": [
+          {
+            "title": "Visage de Guerre",
+            "headingLevel": 4,
+            "anchor": "visage-de-guerre",
+            "text": "Passive N1, 0 PF. Les vrais jets du Savoir-faire **Intimider** utilisent un niveau effectif +1, maximum 5. Le niveau stocké reste inchangé. Aucun autre Savoir-faire et aucun jet brut de CHAR ne sont modifiés."
+          },
+          {
+            "title": "Concentration de Plaques",
+            "headingLevel": 4,
+            "anchor": "concentration-de-plaques",
+            "text": "Active préparatoire N1, **4 PF total**, aucune action, une fois/tour. Tension. Prochaine attaque physique `cac` avant fin du tour : **+1d10** au paquet principal, critique normalement. Dès activation, RES PHY −2 et RES MAG −2 jusqu’au prochain tour, même sur échec ou absence d’attaque. Aucun cumul/remboursement ; RES MENT inchangée."
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes Sakar",
+        "anchor": "aptitudes-sakar",
+        "blocks": [
+          {
+            "title": "Ancrage de Plaques",
+            "headingLevel": 4,
+            "anchor": "ancrage-de-plaques",
+            "text": "Sakar N1. Avant un déplacement forcé physique à source identifiable : **1 PF**, sans action/réaction, distance −2 m (min 0), dégâts/states inchangés. Tension."
+          },
+          {
+            "title": "Contre-Choc",
+            "headingLevel": 4,
+            "anchor": "contre-choc",
+            "text": "Sakar N1. Après Encaisser réussi contre physique `cac` contact : **+2 PF**, une fois/round, sans seconde réaction. VS canonique CONST contre FOR. Victoire : repoussement 2 m ; jet gagnant critique/ultime : ajoute Étourdi 1 tour. Aucun dégât. Tension."
+          },
+          {
+            "title": "Parade de Plaques",
+            "headingLevel": 4,
+            "anchor": "parade-de-plaques",
+            "text": "Sakar N1. Réaction, **4 PF total**, une fois/round, attaque physique directe de mêlée. Seuil `floor(CONST effective / 3)` opposé à l’attaque. Victoire : dégâts finaux /2 même sur critique, puis contre-attaque `cac` gratuite facultative avec son jet. Défaite : dégâts normaux. Tension."
+          },
+          {
+            "title": "Roulade de Carapace",
+            "headingLevel": 4,
+            "anchor": "roulade-de-carapace",
+            "text": "Sakar N1. Réaction, **2 PF total**, une fois/round, attaque physique directe à source identifiable, hors zone/environnement/périodique/poison/chute. Test REACT effective /2. Réussite : dégâts 0, déplacement forcé 3 m opposé sans opportunité, puis À terre. Échec : dégâts normaux mais À terre. Tension."
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes Shuja",
+        "anchor": "aptitudes-shuja",
+        "blocks": [
+          {
+            "title": "Coup de Plaque",
+            "headingLevel": 4,
+            "anchor": "coup-de-plaque",
+            "text": "Shuja N1. Attaque `cac` physique naturelle contact, FOR, majeure, **3 PF total**, dégâts `cacDamageFormula(FOR effective)`. Après réussite, même sans dégât : VS FOR contre CONST. Victoire normale : repoussement 2 m. Jet gagnant critique/ultime : choisir repoussement 3 m OU Étourdi 1 tour, jamais les deux. Défaite : contrôle nul, dégâts conservés. Tension."
+          },
+          {
+            "title": "Plaques de Percussion",
+            "headingLevel": 4,
+            "anchor": "plaques-de-percussion",
+            "text": "Shuja N1. Préparation, **1 PF**, aucune action, une fois/tour, après mouvement volontaire réel ≥2 m vers une cible hors contact initial. Pas de mouvement forcé/téléportation/autre tour. Tension. Prochaine physique `cac` contre cette cible avant fin du tour : +3 dégâts ; si elle repousse déjà, +1 m, sans créer de repoussement. Compatible avec Concentration, Coup et Piques."
+          },
+          {
+            "title": "Plaques Réactives",
+            "headingLevel": 4,
+            "anchor": "plaques-reactives",
+            "text": "Shuja N2. Réaction contextuelle **1 PF**, une fois/round, avant défense VS corporelle de Saisie/Prise/Projection. AV1. Si le Falstan gagne : attaquant subit 1d6 physique après protections, sans jet d’attaque/critique/state/repoussement. Tension."
+          },
+          {
+            "title": "Brise-Garde Falstan",
+            "headingLevel": 4,
+            "anchor": "brise-garde-falstan",
+            "text": "Shuja N2. Suivi facultatif **2 PF total**, une fois/round, après vraie physique `cac` défendue au contact par Parade, Bouclier ou Encaisser ; jamais Esquive, raté, distance ou magie. Après la défense initiale, ouvre le Brise-Garde CàC canonique avec bypass explicite du coût standard pour rester à 2 PF. Aucun effet rétroactif. Tension."
+          }
+        ]
+      },
+      {
+        "label": "Résumé",
+        "anchor": "resume",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Famille",
+                "Aptitudes"
+              ],
+              "rows": [
+                [
+                  "Progressions",
+                  "Sakar N1–N3 · Shuja N1–N3"
+                ],
+                [
+                  "Tronc principal",
+                  "Rage Falstane · Piques Falstanes · Folie Falstane"
+                ],
+                [
+                  "Communes",
+                  "Visage de Guerre · Concentration de Plaques"
+                ],
+                [
+                  "Sakar",
+                  "Ancrage de Plaques · Contre-Choc · Parade de Plaques · Roulade de Carapace"
+                ],
+                [
+                  "Shuja",
+                  "Coup de Plaque · Plaques de Percussion · Plaques Réactives · Brise-Garde Falstan"
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "documentation": {
+    "schemaVersion": 1,
+    "sourceMarkdown": "docs/afflictions/falstanie.md",
+    "summary": "Une maladie progressive qui transforme le corps en plaques défensives Sakar ou en arme offensive Shuja.",
+    "categories": [
+      {
+        "id": "progressions",
+        "label": "Progressions",
+        "anchor": "progressions"
+      },
+      {
+        "id": "sakar",
+        "label": "Sakar",
+        "anchor": "sakar"
+      },
+      {
+        "id": "shuja",
+        "label": "Shuja",
+        "anchor": "shuja"
+      },
+      {
+        "id": "communes",
+        "label": "Aptitudes communes",
+        "anchor": "aptitudes-communes"
+      }
+    ],
+    "aptitudes": [
+      {
+        "aptitudeId": "sakar",
+        "anchor": "sakar"
+      },
+      {
+        "aptitudeId": "shuja",
+        "anchor": "shuja"
+      },
+      {
+        "aptitudeId": "rageFalstane",
+        "anchor": "rage-falstane"
+      },
+      {
+        "aptitudeId": "folieFalstane",
+        "anchor": "folie-falstane"
+      },
+      {
+        "aptitudeId": "visageDeGuerre",
+        "anchor": "visage-de-guerre"
+      },
+      {
+        "aptitudeId": "concentrationDePlaques",
+        "anchor": "concentration-de-plaques"
+      },
+      {
+        "aptitudeId": "ancrageDePlaques",
+        "anchor": "ancrage-de-plaques"
+      },
+      {
+        "aptitudeId": "contreChoc",
+        "anchor": "contre-choc"
+      },
+      {
+        "aptitudeId": "paradeDePlaques",
+        "anchor": "parade-de-plaques"
+      },
+      {
+        "aptitudeId": "rouladeDeCarapace",
+        "anchor": "roulade-de-carapace"
+      },
+      {
+        "aptitudeId": "coupDePlaque",
+        "anchor": "coup-de-plaque"
+      },
+      {
+        "aptitudeId": "plaquesDePercussion",
+        "anchor": "plaques-de-percussion"
+      },
+      {
+        "aptitudeId": "plaquesReactives",
+        "anchor": "plaques-reactives"
+      },
+      {
+        "aptitudeId": "briseGardeFalstan",
+        "anchor": "brise-garde-falstan"
+      }
+    ],
+    "specialActions": []
+  }
+}

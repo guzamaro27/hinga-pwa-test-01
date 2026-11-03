@@ -1,0 +1,174 @@
+{
+  "id": "lakton",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Lakton",
+    "subtitle": "Le Joueur des Destins",
+    "tags": [
+      "Lakton",
+      "Le Joueur des Destins",
+      "esprit majeur",
+      "Destin",
+      "Hasard",
+      "Chance",
+      "Fortune",
+      "Bonheur",
+      "Opportunités",
+      "Main Chanceuse",
+      "Inverser les chiffres d’un jet"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#9C7A3B",
+    "visualNote": "Destin • Hasard • Chance • Fortune • Bonheur • Opportunités"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "lakton",
+    "name": "Lakton",
+    "title": "Le Joueur des Destins",
+    "type": "esprit_majeur",
+    "domains": [
+      "Destin",
+      "Hasard",
+      "Chance",
+      "Fortune",
+      "Bonheur",
+      "Opportunités"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "red_moon",
+      "label": "À chaque lune rouge"
+    },
+    "cult": {
+      "short": "Courir les yeux fermés",
+      "ritual": "Courir en ligne droite sur une trentaine de mètres, les yeux fermés."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La chance accordée par Lakton est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "main_chanceuse": {
+        "key": "main_chanceuse",
+        "name": "Main Chanceuse",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Inverser les chiffres d’un jet",
+        "fullDescription": "Une fois par cycle de dévotion, peut intervertir les chiffres d'un jet (84 devient 48 ; seul le 100 ne peut pas changer).",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#9C7A3B",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Destin",
+              "Hasard",
+              "Chance",
+              "Fortune",
+              "Bonheur",
+              "Opportunités"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Courir les yeux fermés"
+          },
+          {
+            "title": "Rituel",
+            "text": "Courir en ligne droite sur une trentaine de mètres, les yeux fermés."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lune rouge"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "red_moon"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Main Chanceuse (améliorée, actif)",
+              "Effet court : Inverser les chiffres d’un jet",
+              "Description : Une fois par cycle de dévotion, peut intervertir les chiffres d'un jet (84 devient 48 ; seul le 100 ne peut pas changer).",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La chance accordée par Lakton est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "lakton"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "assai",
+  "type": "creature-public",
+  "identity": {
+    "name": "Assaï",
+    "subtitle": "Le grimpeur à poigne",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Assaï vit principalement dans les forêts denses, où il occupe surtout la canopée, les troncs et les branches hautes. Il descend rarement au sol, sauf pour se déplacer brièvement, poursuivre une victime ou défendre son territoire. Son régime est principalement frugivore, mais il reste opportuniste lorsque l’occasion se présente."
+          },
+          {
+            "text": "L'Assaï présente une silhouette dérangeante : une tête expressive posée sur un torse compact, puis une masse ventrale arrondie, presque comme un ventre-bouclier. Sa fourrure est très claire, tandis que son visage, son ventre et ses mains tirent vers le rose ou le rouge. Ses bras sont disproportionnés, bien plus longs que le reste du corps, et se terminent par de larges mains aux doigts nombreux. Cette anatomie lui donne une préhension presque parfaite : prise à plat, en crochet, en pince ou en verrouillage. La queue est très courte, quasi vestigiale, sans rôle apparent."
+          },
+          {
+            "text": "Les Assaï vivent en meute arboricole et construisent dans les arbres des nids grossiers de paille, de feuilles et de branchages. La hiérarchie est brutale : le chef se désigne en tuant son prédécesseur. Les dominants goûtent parfois à la viande crue d'une victime fraîche, ce qui renforce leur statut au sein du groupe."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": "materials.karnyx",
+  "type": "material",
+  "identity": {
+    "name": "Karnyx",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "karnyx",
+      "Karnyx",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation métallifère",
+      "Gris sombre métallisé",
+      "Gemme dense qui renforce les structures serties.",
+      "Métal/Force",
+      "hybrid",
+      "Hybride",
+      "Normal",
+      "Armures",
+      "parures robustes",
+      "outils",
+      "mineur",
+      "joaillier",
+      "forgeron",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 3
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "karnyx",
+    "family": "gem",
+    "weaponProfile": "hybrid",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 3
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation métallifère"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris sombre métallisé"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme dense qui renforce les structures serties."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "8"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Modéré (2)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "2"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "0"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Force"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Rigidification des supports et armures enchantées."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Alourdit les montages si surdimensionnée."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armures",
+              "parures robustes",
+              "outils"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "joaillier",
+              "forgeron",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "18"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.8"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "60"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "dégradation/métal"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_metal_marque_t1"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

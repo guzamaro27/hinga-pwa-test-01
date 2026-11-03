@@ -1,0 +1,92 @@
+{
+  "id": "virken",
+  "type": "plant",
+  "identity": {
+    "name": "Virken",
+    "subtitle": "Le Lichen d’Encre Violette",
+    "unknownName": "Lichen violet à lobes froncés",
+    "slug": "virken",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Virken.png",
+    "visualNote": "Lichen violet profond formé de lobes froncés, de fines nervures mauves et de petites spores rondes.",
+    "tags": [
+      "encre",
+      "teinture",
+      "artisanat",
+      "lichen"
+    ]
+  },
+  "classification": {
+    "category": "mousse",
+    "family": "lichen",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "ruines humides",
+      "grotte humide",
+      "marais tempéré humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "rocaille",
+      "sol caillouteux",
+      "terre humide"
+    ],
+    "season": [
+      "toute l’année",
+      "fortes pluies"
+    ],
+    "growthCycle": "lente",
+    "light": "ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "5 à 25 cm",
+    "width": "20 à 60 cm",
+    "colorMain": "violet profond",
+    "colorSecondary": "mauve clair, lavande, prune sombre",
+    "distinctiveSigns": [
+      "lobes larges et froncés en rosette",
+      "bords ondulés plus clairs",
+      "nervures internes mauves visibles",
+      "frondes ramifiées plus fines au centre",
+      "petites spores rondes violettes",
+      "filaments d’accroche sombres sous la masse principale"
+    ],
+    "descriptionShort": "Le Virken est un lichen violet formant des rosettes épaisses sur les surfaces humides et anciennes.",
+    "descriptionFull": "Le Virken se développe en nappes compactes de lobes violets, froncés et légèrement translucides sur les pierres humides, les parois anciennes et les creux ombragés. Ses bords tirent vers le mauve clair, tandis que ses nervures internes forment un réseau fin, presque lumineux, sous la surface. Les spécimens mûrs produisent de petites spores rondes et sombres, ainsi qu’une pulpe colorante très recherchée pour la fabrication d’une encre violette stable."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": ""
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "encre-violette",
+      "quantity": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    "notes": "TODO_LINK: à lier plus tard avec l’objet ingrédient encre-violette."
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "commerce"
+    ],
+    "notes": "Le Virken est surtout connu pour produire une base d’encre violette très répandue dans les registres, lettres, contrats et ouvrages courants de Hinga."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

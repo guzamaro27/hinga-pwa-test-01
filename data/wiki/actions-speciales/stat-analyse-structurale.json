@@ -1,0 +1,72 @@
+{
+  "id": "stat-analyse-structurale",
+  "type": "codex",
+  "identity": {
+    "name": "Analyse Structurale",
+    "subtitle": "Marque de structure",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur INT.",
+              "Nécessite que le passif Analyse Structurale soit activé.",
+              "Nécessite exactement une cible sélectionnée.",
+              "La cible ne peut pas être le personnage qui réalise l’analyse.",
+              "La portée de vue et le temps d’observation sont appréciés par les joueurs et le MJ."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Le bouton ne demande aucun jet propre.",
+              "Il ne possède aucun effet critique.",
+              "Il applique directement une marque Analyse Structurale sur la cible.",
+              "Durée : N1 jusqu’à la prochaine action offensive compatible, au maximum 1 round ; N2 2 tours ; N3 4 tours."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Carte",
+        "blocks": [
+          {
+            "title": "Confirmation",
+            "items": [
+              "Une carte confirme l’analyse structurelle et la durée de la marque."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Effets",
+        "blocks": [
+          {
+            "title": "Marque personnelle",
+            "items": [
+              "La marque accorde au maximum AV1 au personnage qui a réalisé l’analyse.",
+              "N1 : la marque est consommée après la prochaine action offensive compatible contre la cible.",
+              "N2 et N3 : AV1 s’applique aux actions offensives compatibles pendant toute la durée de la marque.",
+              "Une nouvelle analyse du même personnage remplace et actualise sa marque ; les marques de plusieurs analystes restent indépendantes."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

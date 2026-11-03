@@ -1,0 +1,79 @@
+{
+  "id": "rules.attaques-zone",
+  "type": "codex",
+  "identity": {
+    "name": "Zones et attaques de zone",
+    "subtitle": "Origine, dimensions et résolution",
+    "icon": "◉",
+    "tags": [
+      "Zones et attaques de zone",
+      "zone",
+      "rayon",
+      "attaque de zone"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/magie.mjs",
+    "module/helpers/combat-flow.mjs",
+    "module/visuals/active-zone-visuals.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Origine",
+        "value": "Point, lanceur ou cible"
+      },
+      {
+        "label": "Mesure",
+        "value": "Rayon ou dimensions de l’action"
+      },
+      {
+        "label": "Défense",
+        "value": "Selon le profil de l’attaque"
+      }
+    ],
+    "links": [
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Placer la zone",
+        "blocks": [
+          {
+            "text": "La définition indique son origine et ses dimensions. Le placement détermine les cibles présentes au moment de la résolution."
+          }
+        ]
+      },
+      {
+        "label": "Résoudre",
+        "blocks": [
+          {
+            "text": "Chaque cible reçoit les défenses permises par le profil. Une zone persistante conserve sa durée et ses états propres. Le partage ou la répétition d’un jet de dégâts suit les données de l’action concernée."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "stat-traquer",
+  "type": "codex",
+  "identity": {
+    "name": "Traquer",
+    "subtitle": "Action spéciale de Pisteur Attentif",
+    "icon": "T"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "competence"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Nécessite le fournisseur actif de Pisteur Attentif.",
+              "Remplace l’action spéciale Pister dans le menu PERC.",
+              "Au lancement, choisissez exactement Pister ou Cible.",
+              "Traquer est une action d’exploration et utilise toujours PERC."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modes",
+        "blocks": [
+          {
+            "title": "Pister",
+            "items": [
+              "Lance un jet normal de PERC avec le sens choisi comme contexte.",
+              "Ne crée aucune cible système et ne reçoit aucun AV1 d’une marque.",
+              "À partir du N2, réutilise le même jet et le même sens pour chercher les pièges."
+            ]
+          },
+          {
+            "title": "Cible",
+            "items": [
+              "Exige une cible Actor ou Token concrète, qui peut être choisie secrètement par le MJ.",
+              "Sur réussite, crée ou actualise Traque — cible sans réarmer les bénéfices consommés.",
+              "À partir du N3, réutilise le même jet pour chercher uniquement les pièges liés à cette cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Effet cible",
+        "blocks": [
+          {
+            "title": "Progression",
+            "items": [
+              "N1 : AV1 aux futurs jets de traque explicitement liés à la même cible.",
+              "N2 : +10 au seuil d’initiative, une fois par Combat contenant une cible suivie.",
+              "N3 : AV1 à la première action offensive réellement dirigée contre la cible.",
+              "Le niveau du fournisseur actif est toujours consulté ; la marque ne fige aucun rang."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

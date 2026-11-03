@@ -1434,5 +1434,61 @@
   {
     "path": "data/wiki/afflictions/demon.json",
     "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/bestiairex/araknoa.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/arwopa.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/assai.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/bargor.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/bopalak.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/bragostone.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/brathur.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/chevison.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/crazkhor.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/darka.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/derabik.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/dorwopa.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/duwalona.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/ehunvatz.json",
+    "section": "bestiairex"
   }
 ]

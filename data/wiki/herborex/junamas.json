@@ -1,0 +1,95 @@
+{
+  "id": "junamas",
+  "type": "plant",
+  "identity": {
+    "name": "Junamas",
+    "subtitle": "Grande lame verte des terres contraires",
+    "unknownName": "Plante à longues feuilles sombres et graines violettes",
+    "slug": "junamas",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Junamas.png",
+    "visualNote": "Grande plante en touffe dense, composée de longues feuilles vert sombre bordées de violet, avec fleurs violettes, fruits verts et graines pourpres.",
+    "tags": [
+      "feuilles-lames",
+      "graines-pourpres",
+      "terrain-difficile"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud",
+      "bord de mer sec chaud",
+      "montagne sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "sable",
+      "rocaille",
+      "terre pauvre"
+    ],
+    "season": [
+      "fortes pluies",
+      "saison sèche",
+      "dégel"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "variable",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "60 cm à 2 m",
+    "width": "50 cm à 1,4 m",
+    "colorMain": "vert sombre",
+    "colorSecondary": "violet, vert clair, brun racinaire",
+    "distinctiveSigns": [
+      "touffe dense de longues feuilles dressées",
+      "feuilles épaisses et luisantes en forme de lames",
+      "liseré violet fin sur le bord des feuilles",
+      "nervure centrale claire",
+      "racines brunes avec radicelles violettes",
+      "fleurs vert sombre et violettes",
+      "fruits verts à enveloppe épaisse",
+      "capsules contenant des graines violettes serrées"
+    ],
+    "descriptionShort": "Le Junamas est une plante robuste à longues feuilles sombres bordées de violet.",
+    "descriptionFull": "Le Junamas garde la même silhouette dans des milieux très différents : une touffe serrée de feuilles dressées, sombres et bordées de violet. En zone humide, les feuilles sont plus larges et souples ; près de la mer, elles s'épaississent ; en montagne froide, la plante reste plus basse. Ses fleurs apparaissent au cœur de la touffe, puis produisent des fruits verts contenant des graines pourpres."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles donnent une fibre solide pour des liens courts, et les graines pourpres donnent un pigment faible."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

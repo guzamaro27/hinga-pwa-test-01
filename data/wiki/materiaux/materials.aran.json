@@ -1,0 +1,238 @@
+{
+  "id": "materials.aran",
+  "type": "material",
+  "identity": {
+    "name": "Aran",
+    "subtitle": "Métaux · Base",
+    "icon": "◆",
+    "tags": [
+      "aran",
+      "Aran",
+      "metal",
+      "Métaux",
+      "base",
+      "Base",
+      "Métal natif",
+      "Argenté brillant",
+      "Métal noble, lourd et froid au toucher.",
+      "Métal/Froid",
+      "hybrid",
+      "Hybride",
+      "Normal",
+      "Armures rares",
+      "objets nobles",
+      "monnaie d’Aran",
+      "mineur",
+      "noble",
+      "forgeron",
+      "trésor",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 6
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "aran",
+    "family": "metal",
+    "weaponProfile": "hybrid",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Base"
+      },
+      {
+        "label": "Rareté",
+        "value": 6
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Argenté brillant"
+          },
+          {
+            "title": "Description",
+            "text": "Métal noble, lourd et froid au toucher."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Froid"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Bonne stabilité et interaction magique soutenue."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Coûteux et convoité."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armures rares",
+              "objets nobles",
+              "monnaie d’Aran"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "noble",
+              "forgeron",
+              "trésor",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "200"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.85"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "20"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_refroidi"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

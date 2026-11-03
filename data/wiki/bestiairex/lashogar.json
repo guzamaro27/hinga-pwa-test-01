@@ -1,0 +1,33 @@
+{
+  "id": "lashogar",
+  "type": "creature-public",
+  "identity": {
+    "name": "Lashogar",
+    "subtitle": "Le Collecteur de Cadavre",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "souterrain",
+      "magique",
+      "medicinal"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Lashogar vit dans les régions froides, les donjons gelés, les cavernes enneigées, les salles glacées, les champs de bataille figés et les tunnels couverts de neige. Il recherche les corps gelés qu’il peut utiliser comme hôtes et se nourrit lentement de chair, de sang et de forces vitales. Opportuniste et silencieux, il devient particulièrement dangereux pour les organismes isolés ou affaiblis."
+          },
+          {
+            "text": "Le Lashogar se présente comme un long voile souple flottant légèrement au-dessus du sol. Sa surface semble constamment recouverte de neige ou de givre, même dans des environnements plus tempérés. Sous ce voile translucide se devinent deux grands yeux violet clair, brillants et fixes. Aucune bouche ni nez ne sont visibles, tandis que de minuscules orifices auditifs restent dissimulés sous la surface glacée. Lorsqu’il prend possession d’un cadavre gelé, il s’attache à son dos comme une cape vivante. Le corps ainsi contrôlé se met alors à bouger de manière raide et désarticulée."
+          },
+          {
+            "text": "Le Lashogar est observé seul. Sa reproduction et sa durée de vie restent inconnues, notamment parce qu’il utilise parfois des cadavres gelés comme enveloppes mobiles, ce qui rend difficile l’identification de son véritable cycle d’existence."
+          }
+        ]
+      }
+    ]
+  }
+}

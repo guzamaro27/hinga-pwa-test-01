@@ -1,0 +1,35 @@
+{
+  "id": "fagumor",
+  "type": "creature-public",
+  "identity": {
+    "name": "Fagumor",
+    "subtitle": "La Brume Acharnée",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "alimentaire",
+      "magique"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Fagumor vit dans les plaines brumeuses, les vallées froides et les zones humides, mais devient particulièrement dangereux dans les clairières fermées, cavités larges et pièces confinées. Carnivore territorial, il sature son environnement d’une brume dense qui réduit la visibilité et lui permet de traquer ses proies sans être localisé."
+          },
+          {
+            "text": "Le Fagumor est un prédateur au corps fuselé, conçu pour la traque. Son pelage blanc est parcouru de lueurs violettes subtiles, rappelant la brume mystique qui l’entoure constamment. Son museau est allongé, surmonté de deux cornes fines et pointues. Deux larges défenses émergent de sa mâchoire, accompagnées d’une multitude de dents tranchantes. Il ne possède aucun œil visible. À la place, deux antennes émergent du sommet de son crâne et vibrent légèrement pour capter les moindres mouvements de l’air. Ses quatre pattes robustes sont dotées de coussinets épais lui permettant de se déplacer sans produire de bruit. Deux longues queues touffues prolongent son corps avec équilibre et puissance."
+          },
+          {
+            "text": "Le Fagumor vit le plus souvent seul, mais peut parfois former de petits troupeaux. En groupe, plusieurs individus peuvent saturer un espace de brume, rendant leur approche ou leur chasse particulièrement dangereuse."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "cac-brise-garde",
+  "type": "codex",
+  "identity": {
+    "name": "Brise-Garde",
+    "subtitle": "Action spéciale CàC",
+    "icon": "C"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "cac",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur CàC puis Brise-Garde.",
+              "Une seule cible doit être sélectionnée.",
+              "L'action vise la réaction Garde future de la cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Attaquant : FOR normal.",
+              "Défenseur : CONST normal.",
+              "Résolution : opposition."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Une VS Card affiche les deux jets, le départage et la conséquence.",
+              "Les outils historiques de jet restent accessibles à la demande ; ils ne rejouent pas les conséquences."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Victoire attaquant : applique un état de brise-garde.",
+              "La cible ne peut pas utiliser Garde contre la prochaine attaque recue.",
+              "Victoire défenseur : aucun effet."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Réactions liées",
+        "blocks": [
+          {
+            "title": "Défense future",
+            "items": [
+              "Quand l'état est actif, le moteur retire Garde des réactions disponibles.",
+              "L'état est consomme au moment ou les options de défense sont construites."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

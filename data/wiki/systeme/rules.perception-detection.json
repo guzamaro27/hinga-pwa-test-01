@@ -1,0 +1,100 @@
+{
+  "id": "rules.perception-detection",
+  "type": "codex",
+  "identity": {
+    "name": "Perception et détection",
+    "subtitle": "Sens ordinaires, avancés ou bloqués",
+    "icon": "◉",
+    "tags": [
+      "Perception et détection",
+      "perception",
+      "détection",
+      "invisible"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/detection-profile.mjs",
+    "module/helpers/rolls.mjs",
+    "module/data/stats.mjs"
+  ],
+  "mechanics": {
+    "senses": [
+      "VIS",
+      "AUD",
+      "OLF",
+      "TAC",
+      "ESO"
+    ],
+    "modes": [
+      "normal",
+      "advancedOnly",
+      "blocked"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Sens",
+        "value": "VIS, AUD, OLF, TAC et ESO"
+      },
+      {
+        "label": "Général",
+        "value": "PERC"
+      },
+      {
+        "label": "Modes",
+        "value": "Normal, avancé uniquement, bloqué"
+      }
+    ],
+    "links": [
+      {
+        "label": "Traces et pistage",
+        "sectionId": "systeme",
+        "entryId": "rules.traces-pistage"
+      },
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "Terrains",
+        "sectionId": "systeme",
+        "entryId": "rules.environnements-terrains"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Détecter",
+        "blocks": [
+          {
+            "text": "Une cible fournit un profil par sens. Un canal normal autorise la détection ordinaire ; avancé uniquement exige une aptitude adaptée ; bloqué ne peut pas être utilisé."
+          }
+        ]
+      },
+      {
+        "label": "Profils courants",
+        "blocks": [
+          {
+            "text": "Invisibilité visuelle, silence, absence d’odeur, vol ou protection ésotérique modifient chacun les canaux concernés. Une aptitude peut rouvrir un canal avancé, sans annuler les autres obstacles."
+          }
+        ]
+      },
+      {
+        "label": "PERC",
+        "blocks": [
+          {
+            "text": "PERC sert de perception générale lorsque l’action le demande. Les sens spécialisés ne font pas partie du budget des douze statistiques de création."
+          }
+        ]
+      }
+    ]
+  }
+}

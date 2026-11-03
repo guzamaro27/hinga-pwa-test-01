@@ -1,0 +1,171 @@
+{
+  "id": "finiam",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Finiam",
+    "subtitle": "Le Voile de la Nuit",
+    "tags": [
+      "Finiam",
+      "Le Voile de la Nuit",
+      "esprit majeur",
+      "Nuit",
+      "Sommeil",
+      "Silence",
+      "Discrétion",
+      "Furtivité",
+      "Camouflage Nocturne",
+      "Avantage en discrétion la nuit"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#1A1F2E",
+    "visualNote": "Nuit • Sommeil • Silence • Discrétion • Furtivité"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "finiam",
+    "name": "Finiam",
+    "title": "Le Voile de la Nuit",
+    "type": "esprit_majeur",
+    "domains": [
+      "Nuit",
+      "Sommeil",
+      "Silence",
+      "Discrétion",
+      "Furtivité"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "night",
+      "label": "À chaque nuit"
+    },
+    "cult": {
+      "short": "Observer un silence volontaire",
+      "ritual": "Faire le silence pendant une dizaine de minutes volontairement (hors sommeil)."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La discrétion de Finiam est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "camouflage_nocturne": {
+        "key": "camouflage_nocturne",
+        "name": "Camouflage Nocturne",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Avantage en discrétion la nuit",
+        "fullDescription": "Accorde un avantage sur les jets de discrétion la nuit.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#1A1F2E",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Nuit",
+              "Sommeil",
+              "Silence",
+              "Discrétion",
+              "Furtivité"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Observer un silence volontaire"
+          },
+          {
+            "title": "Rituel",
+            "text": "Faire le silence pendant une dizaine de minutes volontairement (hors sommeil)."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque nuit"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "night"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Camouflage Nocturne (commune, passif)",
+              "Effet court : Avantage en discrétion la nuit",
+              "Description : Accorde un avantage sur les jets de discrétion la nuit.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La discrétion de Finiam est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "finiam"
+  }
+}

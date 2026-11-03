@@ -1,0 +1,720 @@
+{
+  "id": "nanjao",
+  "type": "peuple",
+  "identity": {
+    "name": "Ñanjao",
+    "subtitle": "",
+    "slug": "nanjao",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/nianjao.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Ñanjao sont reconnaissables à leur silhouette légère, leur peau extrêmement pâle, leurs cheveux gris ou bleutés et leurs cornes recouvertes de peau qui se prolongent vers l’arrière du crâne."
+          },
+          {
+            "text": "Leur agilité, leur aisance dans les environnements urbains et leur disposition à la magie leur valent une réputation de combattants mobiles, précis et difficiles à maintenir à portée."
+          },
+          {
+            "text": "Leur apparence présente une importante diversité dans la forme des cornes et la coloration des cheveux. Ces variations sont principalement héréditaires et peuvent différer fortement entre plusieurs familles ñanjao."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 6/10 — Bien représenté"
+          },
+          {
+            "text": "**Tendances :** Les Ñanjao sont présents dans une grande partie des territoires habités d’Arolnia."
+          },
+          {
+            "text": "Leur population se répartit approximativement ainsi :"
+          },
+          {
+            "items": [
+              "**60 % dans les villes et grandes agglomérations** ;",
+              "**40 % dans les campagnes et petites communautés**."
+            ]
+          },
+          {
+            "text": "Ils privilégient légèrement les régions fraîches, les quartiers ombragés et les territoires où l’exposition directe au soleil reste modérée."
+          },
+          {
+            "text": "Cette préférence n’est pas une nécessité physiologique stricte. Les Ñanjao peuvent vivre dans des environnements variés et s’adaptent généralement aux communautés dans lesquelles ils s’installent."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Ñanjao mesurent généralement autour de **1,70 mètre** pour environ **60 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est fine, légère et proportionnée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc étroit ;",
+              "des épaules modérément larges ;",
+              "des membres longs ;",
+              "une ossature relativement légère ;",
+              "une musculature fine ;",
+              "des articulations souples ;",
+              "une posture droite ;",
+              "des mouvements rapides et précis."
+            ]
+          },
+          {
+            "text": "Leur faible masse corporelle facilite :"
+          },
+          {
+            "items": [
+              "les accélérations ;",
+              "les changements d’appui ;",
+              "l’escalade ;",
+              "le franchissement d’obstacles ;",
+              "les mouvements acrobatiques ;",
+              "les actions demandant une grande précision corporelle."
+            ]
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau ñanjao se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le blanc ;",
+              "le blanc gris ;",
+              "le bleu extrêmement pâle ;",
+              "le gris bleuté clair ;",
+              "certains tons froids légèrement argentés."
+            ]
+          },
+          {
+            "text": "Elle est généralement uniforme et présente peu de marques pigmentaires naturelles."
+          },
+          {
+            "text": "Les taches de rousseur sont très rares. Des marques peuvent néanmoins apparaître à la suite :"
+          },
+          {
+            "items": [
+              "d’une maladie ;",
+              "d’une blessure ;",
+              "d’une cicatrice ;",
+              "d’une altération particulière."
+            ]
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont généralement de la même couleur que le reste de la peau ou légèrement plus foncées."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage ñanjao est généralement rond, avec une partie inférieure plus fine."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front arrondi ;",
+              "des pommettes peu saillantes ;",
+              "des joues lisses ;",
+              "une mâchoire fine ;",
+              "un menton pointu ;",
+              "un nez court et étroit ;",
+              "de petites oreilles discrètes."
+            ]
+          },
+          {
+            "text": "Les traits sont généralement réguliers et peu anguleux."
+          },
+          {
+            "text": "La finesse du menton et du nez contraste avec la rondeur de la partie supérieure du visage."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Ñanjao possèdent des yeux en amande."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances froides comprenant :"
+          },
+          {
+            "items": [
+              "le bleu ;",
+              "le bleu gris ;",
+              "le gris ;",
+              "le vert froid ;",
+              "le noir ;",
+              "plus rarement, le violet."
+            ]
+          },
+          {
+            "text": "Le blanc de l’œil reste visible et naturel."
+          },
+          {
+            "text": "Les yeux ne produisent aucun éclat surnaturel permanent."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux ñanjao se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le gris clair ;",
+              "le gris sombre ;",
+              "le bleu gris ;",
+              "le bleu pâle ;",
+              "le bleu profond."
+            ]
+          },
+          {
+            "text": "Certaines familles présentent néanmoins d’autres couleurs, héritées de leurs origines et de leur ascendance."
+          },
+          {
+            "text": "Les cheveux peuvent être :"
+          },
+          {
+            "items": [
+              "lisses ;",
+              "ondulés ;",
+              "légèrement bouclés ;",
+              "fins ou épais."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle est généralement blanche, claire et relativement épaisse."
+          },
+          {
+            "text": "Elle peut être visible sur :"
+          },
+          {
+            "items": [
+              "les bras ;",
+              "les jambes ;",
+              "le torse ;",
+              "le visage."
+            ]
+          },
+          {
+            "text": "Avec l’âge, les cheveux perdent progressivement leurs nuances bleues ou grises et deviennent entièrement blancs."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Ñanjao possèdent des cornes prenant naissance sur la partie supérieure du front et se développant vers l’arrière."
+          },
+          {
+            "text": "Elles sont entièrement recouvertes de peau."
+          },
+          {
+            "text": "Leur forme varie fortement selon les lignées. Elles peuvent être :"
+          },
+          {
+            "items": [
+              "droites ;",
+              "légèrement courbées ;",
+              "inclinées vers le haut ;",
+              "proches du crâne ;",
+              "largement écartées ;",
+              "fines ou épaisses."
+            ]
+          },
+          {
+            "text": "Leur longueur peut atteindre environ **30 centimètres** chez certains individus."
+          },
+          {
+            "text": "La taille, la courbure et l’orientation des cornes sont principalement déterminées par l’hérédité."
+          },
+          {
+            "text": "Les petites oreilles ñanjao sont généralement pointées vers le haut et restent proches du crâne."
+          },
+          {
+            "text": "Les Ñanjao possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les cornes ñanjao se développent progressivement pendant la croissance."
+          },
+          {
+            "text": "Leur peau possède la même sensibilité générale que celle du front, bien que les extrémités les plus éloignées soient généralement moins sensibles."
+          },
+          {
+            "text": "Leur orientation vers l’arrière limite leur utilisation directe comme arme frontale."
+          },
+          {
+            "text": "Elles influencent toutefois :"
+          },
+          {
+            "items": [
+              "la manière de s’allonger ;",
+              "le choix des coiffures ;",
+              "la forme des couvre-chefs ;",
+              "les mouvements effectués dans des passages étroits."
+            ]
+          },
+          {
+            "text": "Leur grande diversité n’entraîne aucune différence mécanique automatique entre les familles."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les rides deviennent plus visibles ;",
+              "les cheveux blanchissent ;",
+              "la musculature perd progressivement en densité ;",
+              "les mouvements deviennent moins rapides."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Ñanjao sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des racines ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient fréquemment :"
+          },
+          {
+            "items": [
+              "les soupes ;",
+              "les bouillons ;",
+              "les plats mijotés ;",
+              "les aliments servis chauds ;",
+              "les préparations combinant plusieurs ingrédients dans une base liquide."
+            ]
+          },
+          {
+            "text": "Cette préférence ne constitue pas une nécessité physiologique."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Ñanjao possèdent une espérance de vie moyenne d’environ **95 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **125 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Leur organisme se prête particulièrement :"
+          },
+          {
+            "items": [
+              "aux efforts rapides ;",
+              "aux mouvements précis ;",
+              "aux déplacements acrobatiques ;",
+              "aux changements fréquents de position ;",
+              "aux activités demandant souplesse et coordination."
+            ]
+          },
+          {
+            "text": "Ils ne possèdent aucune résistance automatique aux Ténèbres ni aucune récupération particulière de PF sans sélection de la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Vision**"
+          },
+          {
+            "text": "Les Ñanjao possèdent une acuité visuelle particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les détails éloignés ;",
+              "les petits mouvements ;",
+              "les changements de posture ;",
+              "les différences de relief ;",
+              "les obstacles présents sur une trajectoire ;",
+              "les prises et appuis utilisables ;",
+              "les ouvertures dans la défense d’un adversaire."
+            ]
+          },
+          {
+            "text": "Cette perception facilite notamment :"
+          },
+          {
+            "items": [
+              "les tirs à distance ;",
+              "les déplacements acrobatiques ;",
+              "l’escalade ;",
+              "le repérage d’un équipement exposé ;",
+              "l’observation d’un environnement urbain complexe."
+            ]
+          },
+          {
+            "text": "Elle ne permet pas de voir dans l’obscurité complète ni de détecter automatiquement un élément entièrement dissimulé."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "L’odorat ñanjao est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "suivre une trace olfactive faible ;",
+              "distinguer plusieurs odeurs proches ;",
+              "identifier une substance par son odeur seule ;",
+              "isoler une senteur dans un mélange complexe ;",
+              "remarquer une variation olfactive légère ;",
+              "déterminer précisément la direction d’une odeur."
+            ]
+          },
+          {
+            "text": "Leur odorat reste pleinement fonctionnel pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie ñanjao repose fréquemment sur la mobilité, la précision et la projection rapide d’un flux."
+          },
+          {
+            "text": "Leur Démagie développée favorise notamment :"
+          },
+          {
+            "items": [
+              "les manifestations élémentaires directes ;",
+              "les attaques magiques à distance ;",
+              "les effets accompagnant un projectile ;",
+              "les altérations rapides du terrain ;",
+              "les manifestations déclenchées pendant un mouvement ;",
+              "l’utilisation offensive d’un élément."
+            ]
+          },
+          {
+            "text": "Leur Dextérité élevée facilite l’intégration de la magie :"
+          },
+          {
+            "items": [
+              "aux armes à distance ;",
+              "aux gestes précis ;",
+              "aux mouvements acrobatiques ;",
+              "aux changements rapides de position ;",
+              "aux attaques exécutées depuis un point élevé ou instable."
+            ]
+          },
+          {
+            "text": "Leur Charisme diminué les rend moins naturellement adaptés aux pratiques reposant principalement sur :"
+          },
+          {
+            "items": [
+              "l’autorité ;",
+              "la présence sociale ;",
+              "le commandement d’un groupe ;",
+              "la persuasion magique ;",
+              "l’influence directe sur les émotions d’autrui."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Ténèbres**"
+          },
+          {
+            "text": "Les Ténèbres constituent l’affinité élémentaire recommandée pour les Ñanjao."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie ñanjao se manifeste fréquemment sous des formes fines, rapides et directionnelles."
+          },
+          {
+            "text": "Lorsqu’elle utilise les Ténèbres, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de traits obscurs ;",
+              "de projectiles entourés d’une ombre dense ;",
+              "de filaments noirs suivant un mouvement ;",
+              "de halos froids autour des mains ;",
+              "d’ombres étirées derrière le corps ;",
+              "de marques sombres apparaissant brièvement sur une cible ;",
+              "de zones obscurcies servant à masquer un déplacement."
+            ]
+          },
+          {
+            "text": "Les manifestations ñanjao privilégient généralement :"
+          },
+          {
+            "items": [
+              "la vitesse ;",
+              "la précision ;",
+              "la distance ;",
+              "la mobilité ;",
+              "le contrôle d’une trajectoire ;",
+              "l’exploitation d’une ouverture."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les cornes ñanjao peuvent réagir visuellement lors d’une forte manifestation magique."
+          },
+          {
+            "text": "Cette réaction peut prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une ombre suivant leur contour ;",
+              "d’une coloration temporairement plus sombre ;",
+              "d’un flux glissant de leur base vers leur extrémité ;",
+              "d’une légère vibration de la peau qui les recouvre."
+            ]
+          },
+          {
+            "text": "Elles ne constituent toutefois pas des organes magiques autonomes."
+          },
+          {
+            "text": "La peau pâle et les cheveux froids des Ñanjao ne sont pas causés par leur affinité recommandée aux Ténèbres."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage ñanjao :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "DEX +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DEM +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "CHAR −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Ténèbres"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Les Ténèbres constituent uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Acrobaties Urbaines",
+                  "C"
+                ],
+                [
+                  "Désarmement Stratégique",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Acrobaties Urbaines",
+            "headingLevel": 5,
+            "anchor": "acrobaties-urbaines",
+            "text": "Cette formation développe l’utilisation des escaliers, murs, rebords, toits et ruelles comme appuis de déplacement."
+          },
+          {
+            "text": "En environnement urbain, elle permet notamment :"
+          },
+          {
+            "items": [
+              "d’améliorer le savoir-faire Grimper ;",
+              "de franchir plus facilement les obstacles ;",
+              "d’ignorer certains malus de déplacement et de DEX causés par un terrain urbain difficile ;",
+              "d’exploiter progressivement les terrains dangereux ;",
+              "de tenter d’éviter certains pièges ou attaques de zone aux niveaux supérieurs."
+            ]
+          },
+          {
+            "text": "Elle ne supprime pas les dégâts, les pièges ou les autres conséquences du terrain."
+          },
+          {
+            "title": "Désarmement Stratégique",
+            "headingLevel": 5,
+            "anchor": "desarmement-strategique",
+            "text": "Cette formation développe la capacité à reconnaître le moment où la posture d’un adversaire expose son arme ou son bouclier."
+          },
+          {
+            "text": "Lorsque le passif est actif, il modifie l’action officielle **Désarmer** contre une cible physiquement vulnérable située au contact."
+          },
+          {
+            "text": "Une réussite permet de projeter l’arme ou le bouclier désarmé à une distance de `2d4` mètres."
+          },
+          {
+            "text": "La compétence ne crée aucune action distincte et n’accorde aucun avantage général aux autres attaques."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Acrobaties Urbaines ;",
+              "Désarmement Stratégique."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Ténèbres",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-tenebres",
+            "text": "Vous obtenez **+10 % de résistance aux Ténèbres**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Récupération améliorée — PF",
+            "headingLevel": 5,
+            "anchor": "recuperation-amelioree-pf",
+            "text": "Lorsque vous récupérez des PF grâce à un soin ou à un repos, le montant restauré augmente de **10 %**."
+          },
+          {
+            "text": "Ce bonus s’applique selon les règles générales de Récupération améliorée."
+          },
+          {
+            "title": "Transformation et Condition — Vampire",
+            "headingLevel": 5,
+            "anchor": "transformation-et-condition-vampire",
+            "text": "Vous êtes porteur de la **Condition Vampire** et de la transformation qui lui est associée."
+          },
+          {
+            "text": "Ses manifestations suivent les règles générales de Transformation et Condition."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Ñanjao.md",
+    "sourceSha256": "182bd03c816dd159b7c388e8526f5cf26df6a03232a728a0b7011af1d407e95b"
+  }
+}

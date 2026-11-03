@@ -374,5 +374,93 @@
   {
     "path": "data/wiki/peuplex/wijilia.json",
     "section": "peuplex"
+  },
+  {
+    "path": "data/wiki/actions-speciales/cac-bousculade.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/cac-renversement.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/cac-brise-garde.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/cac-saisie-cac.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-desarmement.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-saisie.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-saisie-fouet.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-lancer-hache.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-coup-hampe.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-repoussement-baton.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/arme-coup-bouclier.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/actions.pieges.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-search.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-reveal.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-hide.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-analyze.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-consult.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-share-knowledge.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-craft.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-edit.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-reproduce.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/trap-action-recondition.json",
+    "section": "actions-speciales"
   }
 ]

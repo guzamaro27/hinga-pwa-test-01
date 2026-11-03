@@ -1,0 +1,539 @@
+{
+  "id": "amdalar",
+  "type": "peuple",
+  "identity": {
+    "name": "Amdalar",
+    "subtitle": "",
+    "slug": "amdalar",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/amdalar.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Amdalar sont reconnaissables à leur petite stature, leur peau rouge, leurs oreilles pointues et leur paire de cornes frontales épaisses."
+          },
+          {
+            "text": "Ils ont la réputation d’être vifs, spontanés, parfois enfantins dans leurs réactions et prompts à prendre la mouche."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 5/10 : Présence moyenne"
+          },
+          {
+            "text": "**Tendances :** Les Amdalar sont principalement présents dans les villes et les grandes métropoles. Ils sont moins nombreux dans les campagnes isolées et fréquentent peu les régions froides."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Amdalar mesurent généralement autour de **1,60 mètre** pour environ **60 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est compacte. Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc relativement court ;",
+              "des membres robustes ;",
+              "des hanches marquées ;",
+              "une musculature naturellement dense, sans être massive ;",
+              "un centre de gravité légèrement plus bas que celui des peuples de grande taille."
+            ]
+          },
+          {
+            "text": "Leur corpulence reste équilibrée malgré leur petite stature."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau amdalar se décline dans des nuances chaudes comprenant notamment :"
+          },
+          {
+            "items": [
+              "le rose sombre ;",
+              "le rouge cuivré ;",
+              "le vermeil ;",
+              "le rouge brun ;",
+              "le bordeaux."
+            ]
+          },
+          {
+            "text": "Des zones naturellement plus rouges ou plus sombres apparaissent fréquemment autour :"
+          },
+          {
+            "items": [
+              "des yeux ;",
+              "du nez ;",
+              "des pommettes ;",
+              "des oreilles ;",
+              "de la naissance des cornes."
+            ]
+          },
+          {
+            "text": "De petites taches claires, semblables à des taches de rousseur blanchâtres, peuvent apparaître principalement sur :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "les épaules ;",
+              "le haut du torse."
+            ]
+          },
+          {
+            "text": "La paume des mains et la plante des pieds présentent généralement une teinte plus sombre que le reste de la peau."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage amdalar est généralement compact, avec des formes allant du rond à l’anguleux."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "des pommettes visibles ;",
+              "un nez court et légèrement retroussé ;",
+              "un cartilage nasal réduit, donnant au nez une certaine souplesse ;",
+              "des lèvres naturellement sombres ;",
+              "des canines légèrement pointues ;",
+              "des oreilles petites à moyennes, décollées du crâne et pointées vers le haut ou l’extérieur."
+            ]
+          },
+          {
+            "text": "Les canines restent discrètes et ne dépassent généralement pas lorsque la bouche est fermée."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les yeux amdalar peuvent être ronds ou légèrement étirés."
+          },
+          {
+            "text": "Les couleurs d’iris les plus fréquentes sont :"
+          },
+          {
+            "items": [
+              "le rouge sombre ;",
+              "l’orange ;",
+              "l’ambre ;",
+              "le jaune doré."
+            ]
+          },
+          {
+            "text": "Le contour des yeux est souvent naturellement plus sombre ou plus rouge que le reste du visage."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux et la pilosité amdalar se déclinent principalement dans une palette comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun rouge ;",
+              "le rouge sombre ;",
+              "le bordeaux ;",
+              "certains tons rosés."
+            ]
+          },
+          {
+            "text": "Les cheveux peuvent être :"
+          },
+          {
+            "items": [
+              "fins ou épais ;",
+              "raides ;",
+              "ondulés ;",
+              "bouclés."
+            ]
+          },
+          {
+            "text": "Leur implantation s’adapte naturellement à la présence des cornes frontales."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Amdalar possèdent deux cornes prenant naissance sur la partie supérieure du front."
+          },
+          {
+            "text": "Elles sont généralement :"
+          },
+          {
+            "items": [
+              "épaisses ;",
+              "striées ou annelées ;",
+              "légèrement torsadées ;",
+              "terminées par une pointe ;",
+              "de couleur gris brun, gris sombre ou noire."
+            ]
+          },
+          {
+            "text": "Leur diamètre moyen à la base est d’environ quatre centimètres."
+          },
+          {
+            "text": "Leur forme varie selon les individus. Elles peuvent :"
+          },
+          {
+            "items": [
+              "monter presque verticalement ;",
+              "s’écarter vers les côtés ;",
+              "se courber vers l’arrière ;",
+              "former une spirale partielle ;",
+              "présenter une légère dissymétrie."
+            ]
+          },
+          {
+            "text": "Les cornes amdalar ne sont pas ramifiées."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les cornes commencent à apparaître durant la petite enfance, généralement autour de l’âge de deux ans."
+          },
+          {
+            "text": "Elles poursuivent leur croissance pendant toute la vie. Leur croissance ralentit lorsque l’Amdalar est fortement affaibli, malade ou durablement privé de ressources."
+          },
+          {
+            "text": "Lorsqu’elles sont cassées ou endommagées, elles repoussent progressivement tant que leur base reste intacte et que l’individu est en bonne santé."
+          },
+          {
+            "text": "Les cornes peuvent être :"
+          },
+          {
+            "items": [
+              "taillées ;",
+              "raccourcies ;",
+              "polies ;",
+              "limées ;",
+              "progressivement orientées par un entretien régulier."
+            ]
+          },
+          {
+            "text": "Leur apparence dépend donc autant de leur croissance naturelle que des préférences personnelles de leur propriétaire."
+          },
+          {
+            "text": "Aucune forme de corne ne possède de valeur universelle de beauté, de prestige ou de rang parmi les Amdalar."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Amdalar sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des insectes préparés."
+            ]
+          },
+          {
+            "text": "Ils ne présentent aucune restriction alimentaire propre à leur peuple."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Sous la lumière de la Lune, la peau amdalar produit un léger scintillement, semblable à une multitude de très fines gouttelettes réfléchissant la lumière."
+          },
+          {
+            "text": "Cet éclat :"
+          },
+          {
+            "items": [
+              "reste discret ;",
+              "n’éclaire pas l’environnement ;",
+              "ne constitue pas une manifestation magique ;",
+              "provient naturellement de la surface de leur peau."
+            ]
+          },
+          {
+            "text": "Les taches cutanées claires restent visibles indépendamment de ce scintillement et ne doivent pas être confondues avec lui."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "les marques cutanées claires deviennent généralement moins nombreuses ;",
+              "les couleurs de la peau perdent progressivement de leur saturation ;",
+              "le scintillement lunaire devient plus faible ;",
+              "les cheveux et la pilosité blanchissent."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Amdalar possèdent une audition particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "les variations de ton ;",
+              "la direction d’une source sonore ;",
+              "plusieurs sons proches produits simultanément."
+            ]
+          },
+          {
+            "text": "Cette sensibilité peut rendre les environnements extrêmement bruyants plus inconfortables."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "L’odorat amdalar est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des odeurs très proches ;",
+              "identifier une substance par son odeur seule ;",
+              "suivre une trace olfactive faible ;",
+              "isoler une odeur précise au sein d’un mélange complexe."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "Les Amdalar possèdent une forte disposition à la **Démagie**."
+          },
+          {
+            "text": "Ils manipulent particulièrement bien les énergies magiques projetées hors du corps, notamment lorsqu’il faut :"
+          },
+          {
+            "items": [
+              "émettre rapidement un flux ;",
+              "lui donner une forme nette ;",
+              "le maintenir à distance ;",
+              "opposer un flux à une manifestation magique hostile ;",
+              "réagir rapidement à une perturbation extérieure."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Feu**"
+          },
+          {
+            "text": "Le Feu constitue l’affinité élémentaire recommandée pour les Amdalar."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie amdalar se déploie fréquemment sous forme de flux rapides, compacts et nettement délimités."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Feu, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’arcs lumineux ;",
+              "de nappes brèves ;",
+              "de foyers concentrés ;",
+              "d’écrans protecteurs ;",
+              "de remparts ;",
+              "de poussées soudaines."
+            ]
+          },
+          {
+            "text": "Les manifestations amdalar privilégient généralement l’émission rapide et le contrôle direct du flux plutôt qu’une diffusion lente et progressive."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Le scintillement lunaire de la peau amdalar n’est pas magique et ne réagit pas automatiquement à l’utilisation d’un sort."
+          },
+          {
+            "text": "L’affinité recommandée au Feu n’accorde aucune résistance automatique. La résistance au Feu constitue une Voie d’héritage distincte."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage amdalar :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "DEM +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DISCR +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "CHAR −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Feu"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Feu constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Rempart de Flux",
+                  "B"
+                ],
+                [
+                  "Furtivité Urbaine",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Rempart de Flux",
+            "headingLevel": 5,
+            "anchor": "rempart-de-flux",
+            "text": "Cette formation développe la capacité à opposer une structure magique stable aux flux hostiles ou incontrôlés."
+          },
+          {
+            "title": "Furtivité Urbaine",
+            "headingLevel": 5,
+            "anchor": "furtivite-urbaine",
+            "text": "Cette formation développe la discrétion, l’observation et les déplacements dissimulés dans les espaces habités."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Rempart de Flux ;",
+              "Furtivité Urbaine."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Feu",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-feu",
+            "text": "Vous obtenez **+10 % de résistance au Feu**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Chance accrue",
+            "headingLevel": 5,
+            "anchor": "chance-accrue",
+            "text": "Votre Chance de base et votre Chance maximale augmentent chacune de **+5**."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Amdalar.md",
+    "sourceSha256": "6d0ebf58bb55f50bb4628272c8490265c7b95adcf8cb12e866e50b526b76e1c1"
+  }
+}

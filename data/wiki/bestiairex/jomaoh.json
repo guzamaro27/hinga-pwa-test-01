@@ -1,0 +1,33 @@
+{
+  "id": "jomaoh",
+  "type": "creature-public",
+  "identity": {
+    "name": "Jomaoh",
+    "subtitle": "L’ombre porte-bonheur",
+    "tags": [
+      "sauvage",
+      "urbain",
+      "sacre",
+      "medicinal",
+      "rituel"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Jomaoh vit principalement dans les villes et leurs abords, où il occupe les toits, les ruelles, les greniers et les marchés nocturnes. Agile et discret, il se faufile dans les interstices urbains et profite des ressources humaines sans véritablement dépendre d’elles. Son régime est omnivore et opportuniste."
+          },
+          {
+            "text": "Le Jomaoh est une petite créature élancée, vive et souple. Son pelage associe noir profond et rouge sombre. Chez les femelles, la robe est majoritairement rouge marquée de taches noires ; chez les mâles, l’inverse domine. Sa tête fine porte des yeux jaune-or éclatants, visibles même dans la pénombre. Sa queue longue et souple l’aide à garder l’équilibre lorsqu’il bondit entre toits et balustrades."
+          },
+          {
+            "text": "Le Jomaoh vit généralement seul, sauf durant les périodes de reproduction. Il fréquente les zones habitées sans devenir réellement domestique, utilisant les structures urbaines comme abris, passages et terrains de chasse opportuniste."
+          }
+        ]
+      }
+    ]
+  }
+}

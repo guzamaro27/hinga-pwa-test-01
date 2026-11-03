@@ -1,0 +1,91 @@
+{
+  "id": "naptus",
+  "type": "plant",
+  "identity": {
+    "name": "Naptus",
+    "subtitle": "Arbre clair des marais chauds",
+    "unknownName": "Arbre humide à feuillage clair et racines fines",
+    "slug": "naptus",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Naptus.png",
+    "visualNote": "Arbre de marais au tronc fin, cime verte claire très aérée et longues racines superficielles adaptées aux sols détrempés.",
+    "tags": [
+      "marais",
+      "berge",
+      "racines-superficielles"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "marais tropical humide",
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "boue",
+      "terre riche"
+    ],
+    "season": [
+      "fortes pluies",
+      "après crue",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "très forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "7 à 20 m",
+    "width": "5 à 14 m",
+    "colorMain": "vert clair",
+    "colorSecondary": "brun gris, vert sombre, vert pâle",
+    "distinctiveSigns": [
+      "tronc fin brun gris, droit ou légèrement courbé",
+      "écorce rugueuse fissurée en plaques verticales",
+      "racines longues et superficielles autour de la base",
+      "cime aérée formée de bouquets séparés",
+      "feuilles larges dentées vert clair",
+      "bourgeons verts serrés sur les jeunes rameaux",
+      "bois clair à coeur verdâtre"
+    ],
+    "descriptionShort": "Le Naptus est un arbre de marais à cime claire et racines superficielles.",
+    "descriptionFull": "Le Naptus pousse dans les marais chauds, les berges molles et les clairières détrempées. Son tronc reste assez fin mais se stabilise grâce à de longues racines superficielles qui retiennent la terre humide. La cime, très aérée, laisse passer la lumière entre des bouquets de feuilles vert clair et dentées."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "semis"
+    ],
+    "notes": "Le bois léger sert à de petits ouvrages de berge, et les racines aident surtout à stabiliser les sols humides."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

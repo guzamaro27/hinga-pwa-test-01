@@ -1,0 +1,182 @@
+{
+  "id": "tovar",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Tovar",
+    "subtitle": "L’Honneur Incassable",
+    "tags": [
+      "Tovar",
+      "L’Honneur Incassable",
+      "esprit majeur",
+      "Honneur",
+      "Fierté",
+      "Courage",
+      "Protection",
+      "Résilience",
+      "Rivalité",
+      "Combat",
+      "Cri de guerre",
+      "+5 aux stats principales pendant 5 tours"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#6C6E7A",
+    "visualNote": "Honneur • Fierté • Courage • Protection • Résilience • Rivalité • Combat"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "tovar",
+    "name": "Tovar",
+    "title": "L’Honneur Incassable",
+    "type": "esprit_majeur",
+    "domains": [
+      "Honneur",
+      "Fierté",
+      "Courage",
+      "Protection",
+      "Résilience",
+      "Rivalité",
+      "Combat"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "week_start",
+      "label": "À chaque début de semaine"
+    },
+    "cult": {
+      "short": "Partager une boisson",
+      "ritual": "Partager une boisson avec quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Le courage de Tovar est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "cri_de_guerre": {
+        "key": "cri_de_guerre",
+        "name": "Cri de guerre",
+        "tier": "divine",
+        "type": "actif",
+        "shortEffect": "+5 aux stats principales pendant 5 tours",
+        "fullDescription": "Une fois par cycle de dévotion, peut pousser un cri de guerre motivant les alliés et soi-même, donnant un bonus de +5 sur toutes les STATS principales pendant 5 tours. Non cumulable.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#6C6E7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "zektos"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Honneur",
+              "Fierté",
+              "Courage",
+              "Protection",
+              "Résilience",
+              "Rivalité",
+              "Combat"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Partager une boisson"
+          },
+          {
+            "title": "Rituel",
+            "text": "Partager une boisson avec quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque début de semaine"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "week_start"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Cri de guerre (divine, actif)",
+              "Effet court : +5 aux stats principales pendant 5 tours",
+              "Description : Une fois par cycle de dévotion, peut pousser un cri de guerre motivant les alliés et soi-même, donnant un bonus de +5 sur toutes les STATS principales pendant 5 tours. Non cumulable.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Le courage de Tovar est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "zektos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "tovar"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "granoulvar",
+  "type": "creature-public",
+  "identity": {
+    "name": "Granoulvar",
+    "subtitle": "Le Pilleur de Gouffre",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Granoulvar occupe les gouffres, falaises, ruines verticales, puits naturels ou artificiels et crevasses profondes. Sa morphologie aplatie et ses queues préhensiles lui permettent de vivre presque exclusivement sur des surfaces verticales, où il se déplace par bonds puissants, traction et adhérence continue. Omnivore opportuniste, il consomme de petites créatures, des restes et divers objets organiques trouvés sur son territoire."
+          },
+          {
+            "text": "Le Granoulvar possède un corps entièrement aplati, comme une silhouette écrasée contre la roche. Sa morphologie semble conçue pour la verticalité : il adhère aux parois avec une facilité troublante, son corps épousant la surface comme une ombre vivante. Ses deux jambes musculeuses portent de longues griffes capables de s’ancrer dans la pierre et de lui offrir une propulsion remarquable. Ses bras, très longs et dépourvus d’articulations visibles, fonctionnent comme des leviers rigides terminés par des griffes recourbées. Deux longues queues préhensiles ondulent constamment derrière lui, stabilisant ses déplacements et s’enroulant autour des aspérités. Son visage incliné vers le haut présente trois yeux vert brillant, dont un au sommet du crâne. Sa langue longue et fine se déploie avec précision pour saisir, tester ou arracher ce qui se trouve à portée."
+          },
+          {
+            "text": "Le Granoulvar vit le plus souvent seul, mais certains individus peuvent former de petits groupes lâches sur des parois riches en abris et en passages. Les interactions semblent davantage liées au partage d’un territoire vertical qu’à une véritable structure sociale stable."
+          }
+        ]
+      }
+    ]
+  }
+}

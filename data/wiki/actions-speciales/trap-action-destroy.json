@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-destroy",
+  "type": "codex",
+  "identity": {
+    "name": "Détruire",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "détruire"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Détruire"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Briser ou neutraliser brutalement un piège."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Détruire vise à rendre un piège inutilisable au lieu de le désarmer proprement. C'est une approche plus directe, parfois plus risquée."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Possible selon les règles de destruction du piège."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "FOR, DEX ou autre stat selon la méthode de destruction."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Le système demande ou utilise une méthode de destruction. En cas de réussite, le piège devient détruit. Selon la méthode, un déclenchement accidentel peut se produire."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Oui, choix FOR ou DEX si le système l'utilise."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Piège destructible ou outil MJ de suppression disponible."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Refus si le piège n'est pas destructible, trop éloigné, déjà détruit ou si la scène ne peut pas être mise à jour."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Aucune compétence active pour l'instant."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Le piège devient détruit ou est supprimé par l'outil MJ."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Le piège reste en place. Un déclenchement accidentel depend des règles actives."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Détruire",
+            "text": "Dans le Trap Manager, Supprimer est un outil administratif de scène et ne représente pas forcément une destruction joueur."
+          }
+        ]
+      }
+    ]
+  }
+}

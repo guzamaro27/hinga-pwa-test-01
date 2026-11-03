@@ -1,0 +1,94 @@
+{
+  "id": "sekan",
+  "type": "plant",
+  "identity": {
+    "name": "Sekan",
+    "subtitle": "Arbre roux des vents tiedes",
+    "unknownName": "Arbre orange a tronc fourchu",
+    "slug": "sekan",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Sekan.png",
+    "visualNote": "Arbre au tronc brun et droit, divise en fourche haute sous une grande couronne orange vaporeuse.",
+    "tags": [
+      "arbre",
+      "feuillage-orange",
+      "lisiere",
+      "bois-roux"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer humide tempere",
+      "foret temperee humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre humide",
+      "terre riche",
+      "sol caillouteux"
+    ],
+    "season": [
+      "montee des chaleurs",
+      "baisse des temperatures",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 a 14 m",
+    "width": "5 a 12 m",
+    "colorMain": "orange roux",
+    "colorSecondary": "brun chaud, ambre, dore",
+    "distinctiveSigns": [
+      "couronne ronde et dense orange vif",
+      "tronc droit brun se divisant en fourche haute",
+      "feuillage vaporeux mais compact",
+      "feuilles decoupees aux nervures claires",
+      "racines longues visibles au pied",
+      "fruits secs allonges brun orange",
+      "section de bois a coeur orange rayonnant"
+    ],
+    "descriptionShort": "Le Sekan est un arbre roux a cime orange, visible de loin dans les lisieres et les bords de route.",
+    "descriptionFull": "Le Sekan aime les sols draines et lumineux des lisieres, des talus et des chemins temperes. Son tronc brun monte droit avant de soutenir une couronne orange tres dense, dont la couleur reste forte meme hors des periodes froides. Ses racines et ses fruits secs lui donnent une presence robuste, tandis que son bois roux reste surtout apprecie pour de petits usages locaux."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le Sekan sert de repere naturel; son bois roux et ses feuilles colorees sont surtout utiles aux petits travaux et a l'ornement."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

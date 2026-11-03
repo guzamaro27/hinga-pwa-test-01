@@ -1,0 +1,34 @@
+{
+  "id": "overgot",
+  "type": "creature-public",
+  "identity": {
+    "name": "Overgot",
+    "subtitle": "Le Charognard Rouge",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Overgot vit dans les forêts denses, les jungles humides et les zones rocheuses proches de l’eau. Il fréquente les sous-bois, les falaises et les lieux riches en pierres, coquillages et restes organiques. Charognard carnivore, il repère les cadavres et le sang à grande distance grâce à son odorat développé, mais peut aussi attaquer des proies blessées ou isolées."
+          },
+          {
+            "text": "L’Overgot est une créature bipède massive et trapue, couverte d’un plumage sombre très dense sur le dos, tandis que sa poitrine présente des plumes plus claires, beige et crème. Sa tête ronde possède un bec court et extrêmement robuste, capable de briser les os et même certains crânes. Ses grands yeux frontaux lui donnent une vision précise dans l’obscurité. Ses ailes compactes se replient le long du corps, mais des membranes lui permettent de planer brièvement entre les arbres ou les falaises. Son apparence devient plus inquiétante lorsque ses plumes se teintent de rouge après s’être couvertes du sang de ses victimes."
+          },
+          {
+            "text": "L’Overgot peut vivre seul ou en petits groupes opportunistes. Les individus dominants sont souvent reconnaissables à leur plumage teinté de rouge foncé, marque liée aux chasses, combats et repas sanglants. Les nids sont rudimentaires et installés au sol ou dans des cavités rocheuses."
+          }
+        ]
+      }
+    ]
+  }
+}

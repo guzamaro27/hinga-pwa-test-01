@@ -1,0 +1,136 @@
+{
+  "id": "rules.bouclier",
+  "type": "codex",
+  "identity": {
+    "name": "Bouclier",
+    "subtitle": "Réduire les dégâts avec un bouclier",
+    "icon": "🛡",
+    "tags": [
+      "bouclier",
+      "bloquer",
+      "défense",
+      "réaction",
+      "BCL"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/data/armure-bouclier-defense.js",
+    "module/helpers/defense-values.mjs",
+    "module/helpers/pf.mjs"
+  ],
+  "mechanics": {
+    "reactionKey": "encaisser_bouclier",
+    "stat": "force",
+    "creatureStat": "physique",
+    "baseSuccessDivisor": 2,
+    "criticalDivisors": {
+      "crit": 3,
+      "crit_ult": 4
+    },
+    "cost": 2,
+    "fumbleMultipliers": {
+      "fumble": 1.5,
+      "fumble_ult": 2
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Type",
+        "value": "Réaction défensive"
+      },
+      {
+        "label": "Stat",
+        "value": "FOR"
+      },
+      {
+        "label": "Protection",
+        "value": "armure + BCL + résistances"
+      },
+      {
+        "label": "Réussite",
+        "value": "dégâts restants / 2"
+      },
+      {
+        "label": "Coût",
+        "value": "2 PF de base"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Attaque compatible avec un bouclier équipé"
+      ],
+      "blocked": [
+        "Sans bouclier équipé, la réaction n’est pas proposée"
+      ]
+    },
+    "roll": {
+      "character": "1d100 ≤ FOR",
+      "creatureInvocation": "Les créatures et invocations utilisent PHY selon leur défense.",
+      "damage": "dégâts nets = dégâts − armure − BCL − résistances, puis /2 sur réussite"
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les AV/DV s’appliquent au jet ; une maîtrise de bouclier peut modifier la division."
+    },
+    "blockers": [
+      "Le bouclier doit être équipé et utilisable."
+    ],
+    "outcomes": {
+      "success": "Les dégâts nets sont divisés par 2.",
+      "failure": "Les dégâts nets après protections s’appliquent.",
+      "criticalSuccess": "Une réussite critique utilise /3 ou /4.",
+      "criticalFailure": "Un échec critique peut multiplier les dégâts par 1,5 ou 2."
+    },
+    "example": "25 dégâts nets deviennent floor(25 / 2) = 12 sur une réussite normale.",
+    "modifiedBy": [
+      "Valeur BCL du bouclier",
+      "Maîtrises de bouclier",
+      "Armure et résistances"
+    ],
+    "links": [
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Encaisser",
+        "sectionId": "systeme",
+        "entryId": "rules.encaisser"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Type : Réaction défensive · Stat : FOR · Protection : armure + BCL + résistances · Réussite : dégâts restants / 2 · Coût : 2 PF de base"
+          }
+        ]
+      },
+      {
+        "label": "Comment ça marche ?",
+        "blocks": [
+          {
+            "text": "Le jeu retire d’abord l’armure, la valeur BCL et les résistances, puis réduit les dégâts restants."
+          }
+        ]
+      }
+    ]
+  }
+}

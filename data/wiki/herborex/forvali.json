@@ -1,0 +1,100 @@
+{
+  "id": "forvali",
+  "type": "plant",
+  "identity": {
+    "name": "Forvali",
+    "subtitle": "Arbre blanc à branches crochues",
+    "unknownName": "Grand arbre pâle à feuillage dense",
+    "slug": "forvali",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Forvali.png",
+    "visualNote": "Grand arbre au tronc blanc et noueux, couvert de branches courtes et crochues, devant une masse dense de feuillage vert gris.",
+    "tags": [
+      "tronc-blanc",
+      "branches-crochues",
+      "foret-humide"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "etrange",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 à 14 m",
+    "width": "4 à 9 m",
+    "colorMain": "vert gris",
+    "colorSecondary": "ivoire, crème, brun clair, vert pâle",
+    "distinctiveSigns": [
+      "tronc épais presque blanc ivoire",
+      "écorce irrégulière et craquelée",
+      "nombreuses branches courtes et crochues sortant du tronc",
+      "feuillage très dense, arrondi, vert gris à vert olive",
+      "feuilles larges et ondulées aux bords irréguliers",
+      "fleur claire à pétales translucides et étamines rouges",
+      "fruits verts allongés contenant une chair rose pâle",
+      "racines épaisses et pâles visibles au pied"
+    ],
+    "descriptionShort": "Le Forvali est un grand arbre humide au tronc blanc, aux branches crochues et au feuillage vert gris très dense.",
+    "descriptionFull": "Le Forvali pousse dans les forêts humides où son tronc pâle tranche avec le sous-bois sombre. De nombreuses branches courtes sortent du tronc comme des crochets et portent des touffes de feuilles serrées, souvent chargées de mousse ou de petites plantes suspendues. En saison humide, il produit une fleur claire aux étamines rouges, puis des fruits verts allongés à chair pâle."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "rougeurs",
+      "picotements"
+    ],
+    "notes": "Les branches crochues peuvent griffer les animaux et voyageurs qui passent trop près du tronc."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Son bois pâle et ses branches naturellement courbées servent surtout à de petits crochets rustiques, manches courts ou pièces d'attache."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

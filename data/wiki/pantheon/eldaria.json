@@ -1,0 +1,171 @@
+{
+  "id": "eldaria",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Eldaria",
+    "subtitle": "L’Archiviste des Savoirs",
+    "tags": [
+      "Eldaria",
+      "L’Archiviste des Savoirs",
+      "esprit majeur",
+      "Connaissances",
+      "Savoir",
+      "Histoire",
+      "Traditions",
+      "Passé",
+      "Science Infuse",
+      "Information aléatoire sur une entité"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#6A4F3B",
+    "visualNote": "Connaissances • Savoir • Histoire • Traditions • Passé"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "eldaria",
+    "name": "Eldaria",
+    "title": "L’Archiviste des Savoirs",
+    "type": "esprit_majeur",
+    "domains": [
+      "Connaissances",
+      "Savoir",
+      "Histoire",
+      "Traditions",
+      "Passé"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "closest_moon_revolution",
+      "label": "À chaque révolution du plus proche des astres lunaires"
+    },
+    "cult": {
+      "short": "Marquer un point noir sur le front",
+      "ritual": "Se mettre un point noir sur le front."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La connaissance d’Eldaria est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "science_infuse": {
+        "key": "science_infuse",
+        "name": "Science Infuse",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Information aléatoire sur une entité",
+        "fullDescription": "Une fois par cycle de dévotion, peut obtenir une information aléatoire sur une entité visible.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#6A4F3B",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Connaissances",
+              "Savoir",
+              "Histoire",
+              "Traditions",
+              "Passé"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Marquer un point noir sur le front"
+          },
+          {
+            "title": "Rituel",
+            "text": "Se mettre un point noir sur le front."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque révolution du plus proche des astres lunaires"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "closest_moon_revolution"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Science Infuse (améliorée, actif)",
+              "Effet court : Information aléatoire sur une entité",
+              "Description : Une fois par cycle de dévotion, peut obtenir une information aléatoire sur une entité visible.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La connaissance d’Eldaria est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "eldaria"
+  }
+}

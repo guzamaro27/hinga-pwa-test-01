@@ -1,0 +1,171 @@
+{
+  "id": "onyros",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Onyros",
+    "subtitle": "Le Tisseur de Rêves",
+    "tags": [
+      "Onyros",
+      "Le Tisseur de Rêves",
+      "esprit majeur",
+      "Prophéties",
+      "Vision",
+      "Rêves",
+      "Illusions",
+      "Intuition",
+      "Avertissement Prophétique",
+      "Intuitions de danger"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#5E4F7A",
+    "visualNote": "Prophéties • Vision • Rêves • Illusions • Intuition"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "onyros",
+    "name": "Onyros",
+    "title": "Le Tisseur de Rêves",
+    "type": "esprit_majeur",
+    "domains": [
+      "Prophéties",
+      "Vision",
+      "Rêves",
+      "Illusions",
+      "Intuition"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "dawn",
+      "label": "À chaque aube"
+    },
+    "cult": {
+      "short": "Méditer sur ses rêves",
+      "ritual": "Méditer une dizaine de minutes sur ses rêves."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Les visions d’Onyros sont renforcées.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "avertissement_prophetique": {
+        "key": "avertissement_prophetique",
+        "name": "Avertissement Prophétique",
+        "tier": "amelioree",
+        "type": "passif",
+        "shortEffect": "Intuitions de danger",
+        "fullDescription": "Reçoit aléatoirement des intuitions l’avertissant d'un danger plus ou moins imminent.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#5E4F7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Prophéties",
+              "Vision",
+              "Rêves",
+              "Illusions",
+              "Intuition"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Méditer sur ses rêves"
+          },
+          {
+            "title": "Rituel",
+            "text": "Méditer une dizaine de minutes sur ses rêves."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque aube"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "dawn"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Avertissement Prophétique (améliorée, passif)",
+              "Effet court : Intuitions de danger",
+              "Description : Reçoit aléatoirement des intuitions l’avertissant d'un danger plus ou moins imminent.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Les visions d’Onyros sont renforcées.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "onyros"
+  }
+}

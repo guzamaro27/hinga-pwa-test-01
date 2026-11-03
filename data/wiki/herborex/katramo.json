@@ -1,0 +1,99 @@
+{
+  "id": "katramo",
+  "type": "plant",
+  "identity": {
+    "name": "Katramo",
+    "subtitle": "Coussin d'épines du désert",
+    "unknownName": "Plante grasse épineuse",
+    "slug": "katramo",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Katramo.png",
+    "visualNote": "Plante désertique à larges raquettes vert olive, couverte de petites épines et portant parfois une grande fleur jaune.",
+    "tags": [
+      "desert",
+      "cactus",
+      "raquette"
+    ]
+  },
+  "classification": {
+    "category": "cactus",
+    "family": "raquette",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "retour des pluies",
+      "floraison",
+      "pic de chaleur"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "70 cm à 1,8 m",
+    "width": "60 cm à 1,6 m",
+    "colorMain": "vert olive",
+    "colorSecondary": "violet pâle, jaune, rouge brun",
+    "distinctiveSigns": [
+      "larges raquettes charnues ovales",
+      "petites épines réparties en boutons clairs",
+      "fines marques violacées sur la peau",
+      "grande fleur jaune dense",
+      "fruit ovale rouge brun",
+      "chair interne humide et pâle",
+      "racines nombreuses et superficielles"
+    ],
+    "descriptionShort": "Le Katramo est un cactus à raquettes vert olive, couvert de petites épines.",
+    "descriptionFull": "Le Katramo pousse en amas de raquettes épaisses capables de retenir l'eau durant les longues sécheresses. Sa peau vert olive porte des veinures violacées et de petits points épineux. Après la pluie, il peut produire une grande fleur jaune, puis un fruit rouge brun à chair dense. Ses racines superficielles captent vite l'humidité rare."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs",
+      "démangeaisons"
+    ],
+    "notes": "Les épines fines piquent facilement les animaux et voyageurs qui frôlent la plante."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "todo-medicinal-katramo",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "Produit médicinal placeholder à définir selon le futur système de soins. // TODO_LINK: à lier plus tard avec l'objet ingrédient médicinal todo-medicinal-katramo"
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "medicinale",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "La chair humide et le fruit peuvent servir aux usages de survie après retrait des épines."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

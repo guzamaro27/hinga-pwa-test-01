@@ -1,0 +1,1418 @@
+{
+  "id": "befoni",
+  "type": "affliction",
+  "identity": {
+    "name": "Transformation Béfoni",
+    "subtitle": "Transformation physique · Puissance · Mobilité · Prise de risque",
+    "slug": "befoni",
+    "tags": [
+      "affliction",
+      "Béfoni",
+      "transformation",
+      "corps à corps",
+      "PF",
+      "SM",
+      "Massive",
+      "Rapide",
+      "Parfaite"
+    ]
+  },
+  "classification": {
+    "category": "Affliction",
+    "family": "Transformation physique",
+    "availability": "Béfoni uniquement"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation",
+        "anchor": "presentation",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Affliction",
+                  "Transformation Béfoni"
+                ],
+                [
+                  "ID canonique",
+                  "`befoni`"
+                ],
+                [
+                  "Disponibilité",
+                  "Béfoni uniquement"
+                ],
+                [
+                  "Type",
+                  "Affliction activable · Transformation physique"
+                ],
+                [
+                  "Ressources principales",
+                  "PF et SM"
+                ],
+                [
+                  "Orientation",
+                  "CàC · Puissance · Mobilité · Prise de risque"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La Transformation Béfoni est une Affliction physiologique propre au peuple Béfoni. Tous les Béfoni ne la possèdent pas, mais elle est suffisamment répandue pour être connue. Chez les combattants et aventuriers béfoni, elle constitue une capacité particulièrement recherchée : elle permet au corps de subir en quelques instants une mutation spectaculaire augmentant fortement ses capacités physiques."
+          },
+          {
+            "text": "La transformation est intimement liée aux émotions. Peur, colère, panique, excitation ou choc émotionnel peuvent provoquer les premières manifestations chez un individu qui ne maîtrise pas encore son Affliction. Les premières transformations sont donc souvent surveillées par d’autres Béfoni expérimentés et peuvent nécessiter un environnement sécurisé."
+          },
+          {
+            "text": "Avec l’expérience, l’individu apprend à provoquer volontairement sa transformation et à orienter son développement vers différentes formes."
+          },
+          {
+            "text": "La Transformation Béfoni demeure toutefois éprouvante. Le corps consomme rapidement ses réserves physiques et l’intensification prolongée de l’état transformé fragilise progressivement l’équilibre mental du porteur."
+          }
+        ]
+      },
+      {
+        "label": "Transformation",
+        "anchor": "transformation",
+        "blocks": [
+          {
+            "title": "État normal",
+            "headingLevel": 4,
+            "anchor": "etat-normal",
+            "text": "Lorsque la Transformation Béfoni est inactive :"
+          },
+          {
+            "items": [
+              "aucun bonus statistique de transformation n’est appliqué ;",
+              "aucune modification de résistance de transformation n’est appliquée ;",
+              "le bonus de dégâts physiques de CàC n’est pas appliqué ;",
+              "l’attaque naturelle **Cornes** n’est pas disponible ;",
+              "les Aptitudes explicitement réservées à une forme transformée sont indisponibles."
+            ]
+          },
+          {
+            "title": "Activation volontaire ou narrative",
+            "headingLevel": 4,
+            "anchor": "activation",
+            "text": "Le Béfoni peut volontairement déclencher sa transformation pour **5 PF**. Si les 5 PF ne peuvent pas être payés, la transformation ne commence pas. Le coût de maintien ne s’applique pas immédiatement lors de l’activation. À partir du tour personnel suivant, elle coûte **1 PF par tour** ; si ce coût ne peut plus être payé, elle prend immédiatement fin."
+          },
+          {
+            "text": "Le MJ peut également provoquer narrativement une transformation à la suite d’un choc, d’une émotion extrême ou d’un autre événement approprié. Une transformation ainsi provoquée utilise ensuite les mêmes règles."
+          },
+          {
+            "title": "Apparence commune",
+            "headingLevel": 4,
+            "anchor": "apparence",
+            "items": [
+              "la peau devient verte ;",
+              "la taille et la masse corporelle augmentent ;",
+              "la musculature se développe fortement ;",
+              "deux grandes cornes frontales apparaissent."
+            ]
+          },
+          {
+            "text": "L’intensité exacte de ces modifications varie selon l’individu."
+          },
+          {
+            "title": "Puissance physique",
+            "headingLevel": 4,
+            "anchor": "puissance-physique",
+            "text": "Tant que la transformation est active, **toutes les attaques physiques de CàC infligent +3 DEG**. Ce bonus ne s’applique qu’une seule fois par attaque."
+          },
+          {
+            "items": [
+              "Sont concernées : attaques naturelles, attaques à mains nues, armes physiques de mêlée et Cornes.",
+              "Ne sont pas concernées : attaques physiques à distance, attaques magiques et attaques mentales."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Statistiques et résistances",
+        "anchor": "statistiques-et-resistances",
+        "blocks": [
+          {
+            "title": "Transformation basique",
+            "headingLevel": 4,
+            "anchor": "forme-basique",
+            "table": {
+              "headers": [
+                "Élément",
+                "Modification"
+              ],
+              "rows": [
+                [
+                  "FOR",
+                  "+10"
+                ],
+                [
+                  "REACT",
+                  "+10"
+                ],
+                [
+                  "PSY",
+                  "−10"
+                ],
+                [
+                  "DISCR",
+                  "−10"
+                ],
+                [
+                  "RES PHY",
+                  "+2"
+                ],
+                [
+                  "RES MAG",
+                  "−2"
+                ],
+                [
+                  "RES MENT",
+                  "±0"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La Résistance Mentale n’est pas directement modifiée. La baisse de PSY représente l’intensification des émotions et la difficulté à conserver un contrôle parfaitement rationnel sous transformation."
+          },
+          {
+            "text": "La baisse de DISCR représente une morphologie devenue évidente : le Béfoni est plus grand, plus massif, coloré différemment et porte des cornes imposantes."
+          }
+        ]
+      },
+      {
+        "label": "PF et durée",
+        "anchor": "pf-et-duree",
+        "blocks": [
+          {
+            "title": "Coûts",
+            "headingLevel": 4,
+            "table": {
+              "headers": [
+                "Moment",
+                "Coût"
+              ],
+              "rows": [
+                [
+                  "Activation",
+                  "5 PF"
+                ],
+                [
+                  "Tour d’activation",
+                  "Aucun maintien supplémentaire"
+                ],
+                [
+                  "Chaque tour personnel suivant",
+                  "1 PF"
+                ],
+                [
+                  "PF insuffisants",
+                  "Fin immédiate de la transformation"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Durée maximale",
+            "headingLevel": 4,
+            "table": {
+              "headers": [
+                "Forme active",
+                "Durée maximale"
+              ],
+              "rows": [
+                [
+                  "Basique",
+                  "20 tours personnels"
+                ],
+                [
+                  "Massive",
+                  "25 tours personnels"
+                ],
+                [
+                  "Rapide",
+                  "25 tours personnels"
+                ],
+                [
+                  "Parfaite",
+                  "30 tours personnels"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La transformation peut prendre fin avant cette limite en cas de désactivation volontaire, manque de PF, seuil de rupture SM atteint, perte de conscience, incapacité à maintenir la transformation ou effet particulier imposant sa fin."
+          }
+        ]
+      },
+      {
+        "label": "Instabilité mentale",
+        "anchor": "instabilite-mentale",
+        "blocks": [
+          {
+            "title": "Test périodique",
+            "headingLevel": 4,
+            "text": "Après chaque intervalle de transformation, le Béfoni effectue un test de **PSY effective** : les malus de transformation sont donc appliqués. L’intervalle initial est de **4 tours personnels**."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Conséquence"
+              ],
+              "rows": [
+                [
+                  "Réussite",
+                  "Aucune"
+                ],
+                [
+                  "Réussite critique",
+                  "Aucune"
+                ],
+                [
+                  "Réussite ultime",
+                  "Aucune"
+                ],
+                [
+                  "Échec",
+                  "−1d4 SM"
+                ],
+                [
+                  "Échec critique",
+                  "−2d4 SM"
+                ],
+                [
+                  "100 / échec ultime",
+                  "−10 SM"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Seuil de rupture",
+            "headingLevel": 4,
+            "anchor": "seuil-de-rupture",
+            "text": "La transformation mémorise la SM du personnage au moment de son activation. Lorsque la perte nette de SM depuis cette activation atteint le seuil de rupture, la transformation prend immédiatement fin. Toutes les pertes de SM comptent, quelle que soit leur origine."
+          },
+          {
+            "text": "Le seuil initial vaut **25 % de la SM maximale**. Chaque niveau acquis en Forme Massive ou Forme Rapide ajoute **5 points de pourcentage** : `25 % + 5 % × (niveau Massive + niveau Rapide)`. La Forme Parfaite n’ajoute aucun seuil supplémentaire."
+          },
+          {
+            "table": {
+              "headers": [
+                "Maîtrise",
+                "Seuil"
+              ],
+              "rows": [
+                [
+                  "Aucune",
+                  "25 %"
+                ],
+                [
+                  "Massive N1",
+                  "30 %"
+                ],
+                [
+                  "Massive N2",
+                  "35 %"
+                ],
+                [
+                  "Massive N3",
+                  "40 %"
+                ],
+                [
+                  "Massive N3 + Rapide N1",
+                  "45 %"
+                ],
+                [
+                  "Massive N3 + Rapide N2",
+                  "50 %"
+                ],
+                [
+                  "Massive N3 + Rapide N3",
+                  "55 %"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Fréquence des tests",
+            "headingLevel": 4,
+            "anchor": "frequence-des-tests",
+            "text": "Massive N3 et Rapide N3 ajoutent chacun **+1 tour** à l’intervalle. Certaines Aptitudes peuvent encore l’améliorer."
+          },
+          {
+            "table": {
+              "headers": [
+                "Maîtrise",
+                "Intervalle"
+              ],
+              "rows": [
+                [
+                  "Aucun N3",
+                  "4 tours"
+                ],
+                [
+                  "Massive N3 ou Rapide N3",
+                  "5 tours"
+                ],
+                [
+                  "Massive N3 + Rapide N3",
+                  "6 tours"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Attaques naturelles",
+        "anchor": "attaques-naturelles",
+        "blocks": [
+          {
+            "title": "Cornes",
+            "headingLevel": 4,
+            "anchor": "cornes",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Type",
+                  "Attaque spéciale CàC · profil `cac` · physique, naturelle, contact"
+                ],
+                [
+                  "Statistique",
+                  "FOR effective"
+                ],
+                [
+                  "Action",
+                  "Majeure"
+                ],
+                [
+                  "Coût total",
+                  "4 PF ; aucun coût CàC standard supplémentaire"
+                ],
+                [
+                  "Prérequis",
+                  "Transformation Béfoni actuellement active"
+                ],
+                [
+                  "Cible",
+                  "Une cible valide au contact"
+                ],
+                [
+                  "Dégâts",
+                  "`cacDamageFormula(FOR effective) + 1d10`"
+                ],
+                [
+                  "Bonus de transformation",
+                  "+3 DEG physiques de CàC, appliqué une seule fois par le pipeline"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le d10 supplémentaire appartient au paquet principal de dégâts et suit les critiques offensifs standards Hinga. Cornes utilise les réactions, armures, boucliers et résistances ordinaires d’une attaque physique de CàC, sans pénétration ni state propre. Les mécaniques existantes compatibles avec le profil `cac`, dont Maîtrise du Corps à Corps, s’appliquent normalement. **Cornes Perforantes** peut appliquer Saignement léger et **Impact Cornu** peut provoquer une opposition de FOR, si ces Aptitudes sont acquises et payées."
+          }
+        ]
+      },
+      {
+        "label": "Forme Massive",
+        "anchor": "forme-massive",
+        "blocks": [
+          {
+            "text": "La Forme Massive oriente la transformation vers la puissance musculaire et la constitution. Le corps gagne en masse, particulièrement au niveau du torse, des épaules et des bras. Ses niveaux sont cumulatifs."
+          },
+          {
+            "table": {
+              "headers": [
+                "Niveau",
+                "Ajout du niveau",
+                "Total avec le socle"
+              ],
+              "rows": [
+                [
+                  "Massive N1",
+                  "FOR +5 · PSY −5",
+                  "FOR +15 · REACT +10 · PSY −15 · DISCR −10"
+                ],
+                [
+                  "Massive N2",
+                  "FOR +5 · CONST +5 · PSY −5",
+                  "FOR +20 · REACT +10 · CONST +5 · PSY −20 · DISCR −10"
+                ],
+                [
+                  "Massive N3",
+                  "FOR +5 · CONST +5 · aucun nouveau malus PSY",
+                  "FOR +25 · REACT +10 · CONST +10 · PSY −20 · DISCR −10 · RES PHY +2 · RES MAG −2"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Massive N3 n’applique aucun nouveau malus de PSY et augmente de **1 tour** l’intervalle des tests périodiques de PSY."
+          }
+        ]
+      },
+      {
+        "label": "Forme Rapide",
+        "anchor": "forme-rapide",
+        "blocks": [
+          {
+            "text": "La Forme Rapide oriente la transformation vers l’explosivité, les jambes, l’agilité et les réflexes. Le corps devient généralement plus fin que dans la Forme Massive, tandis que les membres inférieurs développent une musculature particulièrement puissante. Ses niveaux sont cumulatifs."
+          },
+          {
+            "table": {
+              "headers": [
+                "Niveau",
+                "Ajout du niveau",
+                "Total avec le socle"
+              ],
+              "rows": [
+                [
+                  "Rapide N1",
+                  "REACT +5 · PSY −5",
+                  "FOR +10 · REACT +15 · PSY −15 · DISCR −10"
+                ],
+                [
+                  "Rapide N2",
+                  "REACT +5 · DEX +5 · PSY −5",
+                  "FOR +10 · REACT +20 · DEX +5 · PSY −20 · DISCR −10"
+                ],
+                [
+                  "Rapide N3",
+                  "REACT +5 · DEX +5 · aucun nouveau malus PSY",
+                  "FOR +10 · REACT +25 · DEX +10 · PSY −20 · DISCR −10 · RES PHY +2 · RES MAG −2"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Rapide N3 n’applique aucun nouveau malus de PSY et augmente de **1 tour** l’intervalle des tests périodiques de PSY."
+          }
+        ]
+      },
+      {
+        "label": "Forme Parfaite",
+        "anchor": "forme-parfaite",
+        "blocks": [
+          {
+            "text": "La Forme Parfaite représente la maîtrise simultanée des développements Massive et Rapide. Elle constitue une forme distincte : le personnage ne maintient pas techniquement deux transformations simultanées."
+          },
+          {
+            "title": "Prérequis",
+            "headingLevel": 4,
+            "items": [
+              "Forme Massive N3 ;",
+              "Forme Rapide N3 ;",
+              "acquisition de la Forme Parfaite."
+            ]
+          },
+          {
+            "text": "Elle récupère tous les modificateurs cumulés des branches Massive et Rapide, puis ajoute **FOR +10, REACT +10, CONST +5 et DEX +5**. Elle n’ajoute aucun nouveau malus de PSY."
+          },
+          {
+            "table": {
+              "headers": [
+                "Stat",
+                "Modification totale"
+              ],
+              "rows": [
+                [
+                  "FOR",
+                  "+35"
+                ],
+                [
+                  "REACT",
+                  "+35"
+                ],
+                [
+                  "CONST",
+                  "+15"
+                ],
+                [
+                  "DEX",
+                  "+15"
+                ],
+                [
+                  "PSY",
+                  "−30"
+                ],
+                [
+                  "DISCR",
+                  "−10"
+                ],
+                [
+                  "RES PHY",
+                  "+2"
+                ],
+                [
+                  "RES MAG",
+                  "−2"
+                ],
+                [
+                  "RES MENT",
+                  "±0"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "La Forme Parfaite est considérée comme **Massive et Rapide** lorsqu’une Aptitude demande l’une de ces formes."
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes — Cornes",
+        "anchor": "aptitudes-cornes",
+        "blocks": [
+          {
+            "title": "Cornes Perforantes",
+            "headingLevel": 4,
+            "anchor": "cornes-perforantes",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Forme requise",
+                  "Toute Transformation Béfoni"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "1 PF"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Lorsqu’une attaque **Cornes** réussit et inflige effectivement au moins **1 PV de dégâts** à une cible ne portant aucune armure équipée appropriée, la cible reçoit **Saignement léger** (`etat_saignement_leger`). Les résistances seules ne comptent pas comme une armure."
+          },
+          {
+            "text": "Cornes Perforantes et Impact Cornu sont indépendantes et peuvent être acquises dans n’importe quel ordre. Elles peuvent être déclenchées sur une même attaque de Cornes ; chacune paie alors séparément son coût de **1 PF**."
+          },
+          {
+            "title": "Impact Cornu",
+            "headingLevel": 4,
+            "anchor": "impact-cornu",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Forme requise",
+                  "Toute Transformation Béfoni"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "1 PF"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Après une attaque Cornes réussie, le Béfoni peut provoquer une **opposition de FOR** contre la cible en utilisant le système d’opposition et la carte VS canoniques."
+          },
+          {
+            "items": [
+              "Victoire du Béfoni : la cible est repoussée de **2 mètres**.",
+              "Victoire de la cible ou absence de vainqueur selon les règles normales : aucun repoussement supplémentaire.",
+              "Impact Cornu ne modifie pas les dégâts de Cornes."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes — Rapide",
+        "anchor": "aptitudes-rapide",
+        "blocks": [
+          {
+            "title": "Détente Explosive — N1",
+            "headingLevel": 4,
+            "anchor": "detente-explosive",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux de l’Aptitude",
+                  "2"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Rapide N1 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Rapide ou Parfaite"
+                ],
+                [
+                  "Coût du bond",
+                  "1 PF"
+                ],
+                [
+                  "Fréquence",
+                  "Une fois pendant chacun de ses tours"
+                ],
+                [
+                  "Distance",
+                  "Jusqu’à 4 mètres"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le Béfoni effectue immédiatement un bond ne consommant aucune action mineure. Ce n’est pas une téléportation : le trajet doit être physiquement réalisable et ne peut franchir qu’un obstacle que la morphologie et la trajectoire permettent réellement de sauter. Le déplacement déclenche normalement les attaques d’opportunité auxquelles il expose le Béfoni."
+          },
+          {
+            "title": "Percée Fulgurante — N2",
+            "headingLevel": 4,
+            "anchor": "percee-fulgurante",
+            "text": "Le bond de Détente Explosive ne déclenche plus d’attaque d’opportunité. Si le Béfoni parcourt au moins **3 mètres** avec ce bond et atteint une cible qui n’était pas déjà à son contact au début du déplacement, sa première attaque physique de CàC contre cette cible avant la fin du tour peut être résolue comme une **attaque de surprise** selon les règles Hinga. Aucun PF supplémentaire n’est demandé pour N2 : il améliore le même bond payé au N1."
+          },
+          {
+            "title": "Rebond d’Esquive",
+            "headingLevel": 4,
+            "anchor": "rebond-desquive",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Rapide N1 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Rapide ou Parfaite"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "1 PF"
+                ],
+                [
+                  "Fréquence",
+                  "Une fois par round"
+                ],
+                [
+                  "Déclencheur",
+                  "Après une Esquive réussie"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le Béfoni bondit immédiatement jusqu’à **3 mètres en s’éloignant de la source de l’attaque**. Ce déplacement ne demande aucune nouvelle action, ne consomme aucune nouvelle réaction, ne provoque aucune attaque d’opportunité et doit suivre un trajet physiquement possible."
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes — Massive",
+        "anchor": "aptitudes-massive",
+        "blocks": [
+          {
+            "title": "Corps de Choc",
+            "headingLevel": 4,
+            "anchor": "corps-de-choc",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Massive N1 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Massive ou Parfaite"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "+1 PF"
+                ],
+                [
+                  "Déclencheur",
+                  "Encaisser contre une attaque physique de CàC"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Sur une réussite normale d’Encaisser, les dégâts nets sont divisés par **2** au lieu de **1,5**. Les réussites critiques conservent les meilleures réductions normales d’Encaisser : critique `/3`, ultime `/4`. Un échec conserve les conséquences normales d’Encaisser."
+          },
+          {
+            "text": "Corps de Choc ne s’applique pas aux attaques à distance, magiques ou mentales."
+          },
+          {
+            "title": "Contre-Impact",
+            "headingLevel": 4,
+            "anchor": "contre-impact",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Massive N2 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Massive ou Parfaite"
+                ],
+                [
+                  "Type",
+                  "Réaction défensive spéciale"
+                ],
+                [
+                  "Coût total",
+                  "2 PF"
+                ],
+                [
+                  "Cible de la réaction",
+                  "Attaque physique de CàC d’une cible au contact"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Contre-Impact consomme la réaction du Béfoni. Il oppose sa **FOR** au jet offensif déclencheur avec la résolution VS canonique."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Conséquence"
+              ],
+              "rows": [
+                [
+                  "Victoire du Béfoni",
+                  "Dégâts nets divisés par 2 · attaquant repoussé de 1 mètre"
+                ],
+                [
+                  "Victoire critique du Béfoni",
+                  "Dégâts nets divisés par 3 · attaquant repoussé de 2 mètres · **Étourdi 1 tour** (`etat_etourdi`)"
+                ],
+                [
+                  "Défaite du Béfoni",
+                  "Dégâts normaux · aucun repoussement"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Contre-Impact n’inflige pas de dégâts supplémentaires en retour : son avantage combine réduction des dégâts et contrôle de position."
+          },
+          {
+            "title": "Retour de Masse",
+            "headingLevel": 4,
+            "anchor": "retour-de-masse",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Massive N2 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Massive ou Parfaite"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "1 PF"
+                ],
+                [
+                  "Déclencheur",
+                  "Repoussement reçu d’une attaque physique de CàC à source identifiable"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le repoussement que le Béfoni aurait dû subir est annulé. Sa source est repoussée de **la moitié de la distance initialement prévue, arrondie au mètre supérieur, minimum 1 mètre**."
+          },
+          {
+            "table": {
+              "headers": [
+                "Repoussement initial",
+                "Repoussement de la source"
+              ],
+              "rows": [
+                [
+                  "1 m",
+                  "1 m"
+                ],
+                [
+                  "2 m",
+                  "1 m"
+                ],
+                [
+                  "3 m",
+                  "2 m"
+                ],
+                [
+                  "4 m",
+                  "2 m"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Retour de Masse ne fonctionne pas contre un déplacement provenant d’une zone, une explosion sans source corporelle au contact, un élément de terrain ou une source matériellement impossible à repousser selon le jugement du MJ."
+          },
+          {
+            "title": "Plaquage Massif",
+            "headingLevel": 4,
+            "anchor": "plaquage-massif",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Prérequis",
+                  "Forme Massive N2 minimum"
+                ],
+                [
+                  "Formes compatibles",
+                  "Massive ou Parfaite"
+                ],
+                [
+                  "Type",
+                  "Attaque spéciale physique de CàC"
+                ],
+                [
+                  "Coût d’utilisation",
+                  "1 PF"
+                ],
+                [
+                  "Action",
+                  "Majeure"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Plaquage Massif cible uniquement un adversaire portant actuellement **À terre** (`etat_a_terre`), situé à **1 mètre ou moins** du Béfoni et pouvant matériellement être saisi. Le Béfoni se jette sur la cible et effectue l’attaque physique de CàC selon les règles applicables."
+          },
+          {
+            "items": [
+              "Réussite : **+5 DEG physiques supplémentaires** ; le bonus général de +3 DEG reste applicable ; la cible reçoit immédiatement **Saisie (CàC)** (`etat_saisie_cac`) dont le Béfoni devient la source.",
+              "Les règles normales du state Saisie (CàC) s’appliquent ensuite.",
+              "Échec : aucun state Saisie n’est appliqué et les conséquences normales de l’attaque ratée s’appliquent.",
+              "Les critiques suivent les règles normales de l’attaque ; aucun effet critique supplémentaire n’est ajouté."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Aptitudes — Maîtrise générale",
+        "anchor": "aptitudes-maitrise-generale",
+        "blocks": [
+          {
+            "text": "Les Aptitudes d’Affliction ne sont pas des compétences classiques. Leurs coûts d’utilisation sont indiqués dans leurs règles ; une Aptitude strictement passive ne demande aucun PF."
+          },
+          {
+            "title": "Contrôle Mental N1",
+            "headingLevel": 4,
+            "anchor": "controle-mental",
+            "text": "Forme requise : toute Transformation Béfoni. Lorsqu’un test périodique de PSY propre à la transformation fait perdre de la SM, réduire cette perte de **2 points**, minimum **1 SM**. Cette réduction ne concerne que la perte produite par le test périodique. Le résultat **100 / échec ultime reste toujours à −10 SM** et n’est pas réduit."
+          },
+          {
+            "table": {
+              "headers": [
+                "Jet initial",
+                "Perte après Contrôle Mental N1"
+              ],
+              "rows": [
+                [
+                  "1d4 donnant 4",
+                  "2 SM"
+                ],
+                [
+                  "1d4 donnant 2",
+                  "1 SM"
+                ],
+                [
+                  "2d4 donnant 7",
+                  "5 SM"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Maîtrise Mentale — Contrôle Mental N2",
+            "headingLevel": 4,
+            "anchor": "maitrise-mentale",
+            "text": "L’intervalle entre deux tests périodiques de PSY augmente de **+2 tours**. Cet effet se cumule avec Massive N3 et Rapide N3."
+          },
+          {
+            "table": {
+              "headers": [
+                "Situation",
+                "Intervalle"
+              ],
+              "rows": [
+                [
+                  "Contrôle Mental N2 seul",
+                  "6 tours"
+                ],
+                [
+                  "Avec un N3 de forme",
+                  "7 tours"
+                ],
+                [
+                  "Avec Massive N3 et Rapide N3",
+                  "8 tours"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Rage Canalisée",
+            "headingLevel": 4,
+            "anchor": "rage-canalisee",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Forme requise",
+                  "Toute Transformation Béfoni"
+                ],
+                [
+                  "Coût",
+                  "1 PF"
+                ],
+                [
+                  "Action",
+                  "Aucune"
+                ],
+                [
+                  "Utilisation",
+                  "Une fois par round"
+                ],
+                [
+                  "Moment",
+                  "Avant une attaque physique de CàC"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Effectuer immédiatement un test de **PSY effective**. Le bonus obtenu concerne la prochaine attaque physique de CàC effectuée pendant ce tour."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Conséquence"
+              ],
+              "rows": [
+                [
+                  "Réussite",
+                  "+5 DEG"
+                ],
+                [
+                  "Réussite critique",
+                  "+8 DEG"
+                ],
+                [
+                  "Réussite ultime",
+                  "+10 DEG"
+                ],
+                [
+                  "Échec",
+                  "Aucun bonus · −1d4 SM · **Étourdi 1 tour** (`etat_etourdi`)"
+                ],
+                [
+                  "Échec critique",
+                  "Aucun bonus · −2d4 SM · **Étourdi 2 tours** (`etat_etourdi`)"
+                ],
+                [
+                  "100 / échec ultime",
+                  "Aucun bonus · −10 SM · **Étourdi 2 tours** (`etat_etourdi`)"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Toutes les pertes de SM de Rage Canalisée comptent normalement pour le seuil de rupture de la transformation."
+          },
+          {
+            "title": "Refus de Céder",
+            "headingLevel": 4,
+            "anchor": "refus-de-ceder",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Forme requise",
+                  "Toute Transformation Béfoni"
+                ],
+                [
+                  "Coût",
+                  "1 PF"
+                ],
+                [
+                  "Utilisation",
+                  "Une fois par transformation"
+                ],
+                [
+                  "Déclencheur",
+                  "Le seuil de rupture SM devrait terminer la transformation"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Refus de Céder est impossible si le personnage est inconscient, possède **0 SM**, ne peut pas payer son coût ou a déjà atteint la durée maximale absolue de sa forme. Effectuer un test de **PSY effective**."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Conséquence"
+              ],
+              "rows": [
+                [
+                  "Réussite",
+                  "Transformation maintenue 3 tours personnels supplémentaires"
+                ],
+                [
+                  "Réussite critique ou ultime",
+                  "Transformation maintenue 5 tours personnels supplémentaires"
+                ],
+                [
+                  "Échec, critique ou ultime",
+                  "La transformation prend fin normalement"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Pendant les tours supplémentaires, le seuil de rupture SM est ignoré, mais coûts PF et tests périodiques continuent. À leur terme, la transformation prend obligatoirement fin. Refus de Céder ne peut jamais être utilisé une seconde fois pendant la même transformation."
+          },
+          {
+            "title": "Second Souffle",
+            "headingLevel": 4,
+            "anchor": "second-souffle",
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Niveaux",
+                  "1"
+                ],
+                [
+                  "Forme requise",
+                  "Toute Transformation Béfoni"
+                ],
+                [
+                  "Coût",
+                  "1 PF"
+                ],
+                [
+                  "Action",
+                  "Mineure"
+                ],
+                [
+                  "Utilisation",
+                  "Une fois par transformation"
+                ],
+                [
+                  "Statistique",
+                  "VITA effective"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le Béfoni force son organisme à réorganiser momentanément ses réserves énergétiques et effectue un test de **VITA effective**."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Conséquence sur le maintien"
+              ],
+              "rows": [
+                [
+                  "Réussite",
+                  "0 PF pendant les 5 prochains tours personnels"
+                ],
+                [
+                  "Réussite critique",
+                  "0 PF pendant 8 tours"
+                ],
+                [
+                  "Réussite ultime",
+                  "0 PF pendant 10 tours"
+                ],
+                [
+                  "Échec",
+                  "2 PF par tour pendant les 3 prochains tours"
+                ],
+                [
+                  "Échec critique",
+                  "2 PF par tour pendant les 5 prochains tours"
+                ],
+                [
+                  "100 / échec ultime",
+                  "Perte immédiate de 5 PF supplémentaires, puis 2 PF par tour pendant 5 tours"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Si les PF nécessaires ne peuvent plus être payés, la transformation se termine normalement."
+          }
+        ]
+      },
+      {
+        "label": "Résumé",
+        "anchor": "resume",
+        "blocks": [
+          {
+            "title": "Compatibilité des formes",
+            "headingLevel": 4,
+            "table": {
+              "headers": [
+                "Forme",
+                "Aptitudes utilisables"
+              ],
+              "rows": [
+                [
+                  "Basique",
+                  "Cornes · Cornes Perforantes · Impact Cornu · Contrôle Mental · Rage Canalisée · Refus de Céder · Second Souffle"
+                ],
+                [
+                  "Massive",
+                  "Aptitudes basiques + Corps de Choc · Contre-Impact · Retour de Masse · Plaquage Massif"
+                ],
+                [
+                  "Rapide",
+                  "Aptitudes basiques + Détente Explosive · Percée Fulgurante · Rebond d’Esquive"
+                ],
+                [
+                  "Parfaite",
+                  "Toutes les Aptitudes Béfoni acquises ; considérée simultanément Massive et Rapide pour les prérequis"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Progression — Formes",
+            "headingLevel": 4,
+            "items": [
+              "Forme Massive N1, N2 et N3 ;",
+              "Forme Rapide N1, N2 et N3 ;",
+              "Forme Parfaite."
+            ]
+          },
+          {
+            "title": "Progression — Cornes",
+            "headingLevel": 4,
+            "items": [
+              "Cornes Perforantes ;",
+              "Impact Cornu."
+            ]
+          },
+          {
+            "title": "Progression — Rapide",
+            "headingLevel": 4,
+            "items": [
+              "Détente Explosive N1 ;",
+              "Détente Explosive N2 — Percée Fulgurante ;",
+              "Rebond d’Esquive."
+            ]
+          },
+          {
+            "title": "Progression — Massive",
+            "headingLevel": 4,
+            "items": [
+              "Corps de Choc ;",
+              "Contre-Impact ;",
+              "Retour de Masse ;",
+              "Plaquage Massif."
+            ]
+          },
+          {
+            "title": "Progression — Maîtrise générale",
+            "headingLevel": 4,
+            "items": [
+              "Contrôle Mental N1 ;",
+              "Contrôle Mental N2 — Maîtrise Mentale ;",
+              "Rage Canalisée ;",
+              "Refus de Céder ;",
+              "Second Souffle."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "documentation": {
+    "schemaVersion": 1,
+    "sourceMarkdown": "docs/afflictions/befoni.md",
+    "summary": "Une transformation physique puissante, soutenue par les PF et limitée par l’instabilité mentale.",
+    "categories": [
+      {
+        "id": "formes",
+        "label": "Formes",
+        "anchor": "forme-basique"
+      },
+      {
+        "id": "cornes",
+        "label": "Cornes",
+        "anchor": "cornes"
+      },
+      {
+        "id": "massive",
+        "label": "Forme Massive",
+        "anchor": "forme-massive"
+      },
+      {
+        "id": "rapide",
+        "label": "Forme Rapide",
+        "anchor": "forme-rapide"
+      },
+      {
+        "id": "maitrise",
+        "label": "Maîtrise générale",
+        "anchor": "controle-mental"
+      }
+    ],
+    "aptitudes": [
+      {
+        "aptitudeId": "massive",
+        "anchor": "forme-massive"
+      },
+      {
+        "aptitudeId": "rapide",
+        "anchor": "forme-rapide"
+      },
+      {
+        "aptitudeId": "parfaite",
+        "anchor": "forme-parfaite"
+      },
+      {
+        "aptitudeId": "cornesPerforantes",
+        "anchor": "cornes-perforantes"
+      },
+      {
+        "aptitudeId": "impactCornu",
+        "anchor": "impact-cornu"
+      },
+      {
+        "aptitudeId": "detenteExplosive",
+        "anchor": "detente-explosive"
+      },
+      {
+        "aptitudeId": "rebondEsquive",
+        "anchor": "rebond-desquive"
+      },
+      {
+        "aptitudeId": "corpsDeChoc",
+        "anchor": "corps-de-choc"
+      },
+      {
+        "aptitudeId": "contreImpact",
+        "anchor": "contre-impact"
+      },
+      {
+        "aptitudeId": "retourDeMasse",
+        "anchor": "retour-de-masse"
+      },
+      {
+        "aptitudeId": "plaquageMassif",
+        "anchor": "plaquage-massif"
+      },
+      {
+        "aptitudeId": "controleMental",
+        "anchor": "controle-mental"
+      },
+      {
+        "aptitudeId": "rageCanalisee",
+        "anchor": "rage-canalisee"
+      },
+      {
+        "aptitudeId": "refusDeCeder",
+        "anchor": "refus-de-ceder"
+      },
+      {
+        "aptitudeId": "secondSouffle",
+        "anchor": "second-souffle"
+      }
+    ],
+    "specialActions": []
+  }
+}

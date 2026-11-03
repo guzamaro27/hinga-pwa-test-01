@@ -1,0 +1,857 @@
+{
+  "id": "fona",
+  "type": "peuple",
+  "identity": {
+    "name": "Foña",
+    "subtitle": "",
+    "slug": "fona",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/fonia.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Foña sont reconnaissables à leur petite stature, leur peau beige clair recouverte d’un pelage doré à brun clair, leurs grands yeux sombres et leurs larges oreilles ouvertes sur les côtés du crâne."
+          },
+          {
+            "text": "Leur pelage forme une véritable fourrure légère. Il ne se limite pas à la chevelure ou à un simple duvet : il recouvre la majeure partie du corps, avec des poils plus ou moins longs selon les zones et les individus."
+          },
+          {
+            "text": "Ils ont la réputation d’être tenaces, fortement attachés à leur groupe et particulièrement difficiles à faire changer d’avis. Leur organisation collective favorise la coordination, la protection de la famille et l’exercice d’une autorité clairement établie."
+          },
+          {
+            "text": "Les communautés foña suivent traditionnellement une organisation matriarcale. Les femmes occupent l’essentiel de la vie publique et dirigent notamment :"
+          },
+          {
+            "items": [
+              "la politique ;",
+              "le commerce ;",
+              "les relations entre familles ;",
+              "l’administration des communautés ;",
+              "les négociations ;",
+              "les décisions collectives ;",
+              "la représentation extérieure."
+            ]
+          },
+          {
+            "text": "Les hommes ont une présence sociale plus discrète. Ils se consacrent principalement :"
+          },
+          {
+            "items": [
+              "aux travaux manuels ;",
+              "à l’entretien des foyers ;",
+              "à l’artisanat ;",
+              "aux tâches physiques ;",
+              "à l’éducation quotidienne des enfants ;",
+              "aux activités professionnelles ne demandant pas de représentation publique."
+            ]
+          },
+          {
+            "text": "Ils interviennent peu dans la politique, le commerce à grande échelle et la direction culturelle des communautés, généralement laissés aux femmes."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 4/10 — Peu représenté"
+          },
+          {
+            "text": "**Tendances :** Les Foña vivent principalement dans les villes et les agglomérations permettant la formation de grandes familles, de réseaux commerciaux et de communautés structurées."
+          },
+          {
+            "text": "Les femmes sont beaucoup plus visibles dans :"
+          },
+          {
+            "items": [
+              "les marchés ;",
+              "les administrations ;",
+              "les lieux de négociation ;",
+              "les institutions communautaires ;",
+              "les espaces publics."
+            ]
+          },
+          {
+            "text": "Les hommes travaillent plus fréquemment :"
+          },
+          {
+            "items": [
+              "dans les foyers ;",
+              "dans les ateliers ;",
+              "dans les activités manuelles ;",
+              "dans l’entretien des structures familiales."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Foña mesurent généralement autour de **1,60 mètre** pour environ **50 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est petite, légère et relativement fine."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc de largeur modérée ;",
+              "des épaules étroites à moyennes ;",
+              "des membres proportionnés ;",
+              "une ossature légère ;",
+              "une musculature discrète ;",
+              "une posture stable ;",
+              "des mouvements mesurés."
+            ]
+          },
+          {
+            "text": "Les Foña ne possèdent pas naturellement une carrure large ou massive. Leur constitution reste équilibrée et compacte sans paraître trapue."
+          },
+          {
+            "text": "Le dimorphisme corporel est modéré."
+          },
+          {
+            "text": "Les femmes possèdent généralement :"
+          },
+          {
+            "items": [
+              "des hanches plus larges ;",
+              "un bassin plus marqué ;",
+              "une silhouette légèrement plus courbe."
+            ]
+          },
+          {
+            "text": "Les hommes présentent généralement :"
+          },
+          {
+            "items": [
+              "un bassin plus étroit ;",
+              "une silhouette plus droite."
+            ]
+          },
+          {
+            "text": "Il n’existe pas de différence générale importante de taille, de poids, de force ou de robustesse entre les femmes et les hommes."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau foña est généralement **beige clair**."
+          },
+          {
+            "text": "Elle peut varier vers :"
+          },
+          {
+            "items": [
+              "l’ivoire chaud ;",
+              "le beige doré ;",
+              "le beige légèrement rosé ;",
+              "certains tons sable clair."
+            ]
+          },
+          {
+            "text": "Elle est visible principalement :"
+          },
+          {
+            "items": [
+              "sur les paumes des mains ;",
+              "sur les plantes des pieds ;",
+              "autour des yeux ;",
+              "autour des lèvres ;",
+              "sur certaines parties du nez ;",
+              "sur les muqueuses ;",
+              "dans les zones où le pelage est naturellement très court."
+            ]
+          },
+          {
+            "text": "Les lèvres, les paumes et les plantes des pieds peuvent être légèrement plus foncées que le reste de la peau."
+          },
+          {
+            "text": "La majeure partie du corps est cependant recouverte par le pelage, ce qui rend la couleur de la peau moins immédiatement visible."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage foña est généralement petit et arrondi."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front de largeur moyenne ;",
+              "des pommettes douces ;",
+              "des joues légèrement pleines ;",
+              "un menton discret ;",
+              "un nez court à modéré ;",
+              "de larges lèvres ;",
+              "de très grands yeux sombres ;",
+              "de grandes oreilles latérales."
+            ]
+          },
+          {
+            "text": "Le pelage du visage est plus court que celui du reste du corps."
+          },
+          {
+            "text": "Il laisse mieux apparaître :"
+          },
+          {
+            "items": [
+              "les contours des yeux ;",
+              "les lèvres ;",
+              "le nez ;",
+              "les expressions du visage."
+            ]
+          },
+          {
+            "text": "Des poils légèrement plus longs peuvent encadrer les joues, les tempes et la mâchoire sans former un véritable museau."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Foña possèdent de grands yeux, généralement ronds ou légèrement ovales."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances très sombres comprenant :"
+          },
+          {
+            "items": [
+              "le brun foncé ;",
+              "le brun noir ;",
+              "le brun rouge très sombre ;",
+              "le noir ;",
+              "certains tons ambrés profonds."
+            ]
+          },
+          {
+            "text": "La pupille et l’iris peuvent être peu contrastés à distance, donnant au regard une apparence particulièrement sombre."
+          },
+          {
+            "text": "Les grands yeux foña occupent une place importante dans les expressions du visage."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Chez les Foña, il n’existe pas de séparation nette entre les cheveux et le reste du pelage."
+          },
+          {
+            "text": "Les poils du sommet du crâne poussent simplement plus longtemps et peuvent former une chevelure pouvant être :"
+          },
+          {
+            "items": [
+              "coupée ;",
+              "coiffée ;",
+              "attachée ;",
+              "tressée ;",
+              "laissée libre."
+            ]
+          },
+          {
+            "text": "Le pelage se décline principalement dans des nuances proches de celles de certains chiens à robe claire :"
+          },
+          {
+            "items": [
+              "doré ;",
+              "miel ;",
+              "sable ;",
+              "caramel clair ;",
+              "brun doré ;",
+              "brun clair ;",
+              "crème légèrement fauve."
+            ]
+          },
+          {
+            "text": "Les couleurs très sombres, rouges vives ou noires ne sont pas dominantes dans la palette naturelle foña."
+          },
+          {
+            "text": "Le pelage recouvre la majeure partie du corps. Sa longueur varie selon les régions anatomiques."
+          },
+          {
+            "text": "Il est généralement plus long sur :"
+          },
+          {
+            "items": [
+              "le sommet et l’arrière du crâne ;",
+              "la nuque ;",
+              "les épaules ;",
+              "le haut du dos ;",
+              "les flancs ;",
+              "l’extérieur des bras ;",
+              "l’extérieur des cuisses."
+            ]
+          },
+          {
+            "text": "Il est généralement plus court sur :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "le ventre ;",
+              "l’intérieur des bras ;",
+              "l’intérieur des jambes ;",
+              "les doigts ;",
+              "les orteils ;",
+              "les articulations."
+            ]
+          },
+          {
+            "text": "Les paumes des mains et les plantes des pieds sont dépourvues de pelage."
+          },
+          {
+            "text": "Chez les femmes, le pelage est généralement :"
+          },
+          {
+            "items": [
+              "plus long ;",
+              "plus souple ;",
+              "plus fin ;",
+              "plus soyeux ;",
+              "légèrement plus abondant autour de la tête, de la nuque, des épaules et des hanches."
+            ]
+          },
+          {
+            "text": "Chez les hommes, il est généralement :"
+          },
+          {
+            "items": [
+              "plus court ;",
+              "plus droit ;",
+              "plus sec ;",
+              "légèrement plus rêche ;",
+              "moins mobile lorsqu’il est exposé au vent."
+            ]
+          },
+          {
+            "text": "Ces différences restent moyennes. Un homme peut posséder un pelage relativement long et une femme un pelage plus court."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Foña possèdent **quatre doigts** à chaque main et **quatre orteils** à chaque pied."
+          },
+          {
+            "text": "Leurs oreilles sont particulièrement grandes, larges et ouvertes."
+          },
+          {
+            "text": "Elles sont généralement :"
+          },
+          {
+            "items": [
+              "implantées sur les côtés du crâne ;",
+              "dirigées horizontalement ou légèrement vers le bas ;",
+              "largement écartées du visage ;",
+              "dotées d’un pavillon profond ;",
+              "très mobiles ;",
+              "couvertes d’un pelage court sur leur face externe."
+            ]
+          },
+          {
+            "text": "Elles ne sont pas dressées vers le haut."
+          },
+          {
+            "text": "Leur extrémité peut être :"
+          },
+          {
+            "items": [
+              "arrondie ;",
+              "légèrement effilée ;",
+              "discrètement pointue."
+            ]
+          },
+          {
+            "text": "Les femmes possèdent en moyenne des oreilles légèrement plus longues que les hommes."
+          },
+          {
+            "text": "Les Foña possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "quatre doigts à chaque main ;",
+              "quatre orteils à chaque pied ;",
+              "aucune corne ;",
+              "aucune queue ;",
+              "aucun appendice externe supplémentaire."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Le pelage foña forme une protection légère contre :"
+          },
+          {
+            "items": [
+              "les frottements ;",
+              "les variations ordinaires de température ;",
+              "les contacts répétés avec les vêtements ;",
+              "certaines petites irritations de surface."
+            ]
+          },
+          {
+            "text": "Il ne constitue pas une armure et n’accorde aucune résistance physique automatique."
+          },
+          {
+            "text": "Les poils les plus longs réagissent facilement :"
+          },
+          {
+            "items": [
+              "aux mouvements de l’air ;",
+              "aux vibrations proches ;",
+              "à l’humidité ;",
+              "aux mouvements brusques du corps."
+            ]
+          },
+          {
+            "text": "Ils peuvent se soulever ou frémir légèrement lorsqu’un courant d’air ou une vibration traverse l’environnement."
+          },
+          {
+            "text": "Cette sensibilité complète leur perception générale sans constituer un Sens aiguisé distinct."
+          },
+          {
+            "text": "Les grandes oreilles peuvent s’orienter latéralement vers une source sonore. Leur ouverture permet de recueillir efficacement les sons venant des côtés, de l’avant ou de l’arrière."
+          },
+          {
+            "text": "Les quatre doigts de leurs mains conservent une mobilité normale et permettent aussi bien :"
+          },
+          {
+            "items": [
+              "les manipulations fines ;",
+              "l’utilisation d’outils ;",
+              "les prises fermes ;",
+              "le maniement d’armes et d’équipements."
+            ]
+          },
+          {
+            "title": "Dimorphisme physiologique",
+            "headingLevel": 4,
+            "anchor": "dimorphisme-physiologique",
+            "text": "Le dimorphisme foña concerne principalement la forme du bassin et la nature du pelage."
+          },
+          {
+            "text": "Les femmes possèdent généralement :"
+          },
+          {
+            "items": [
+              "des hanches plus larges ;",
+              "un bassin plus marqué ;",
+              "un pelage plus long ;",
+              "un pelage plus souple et plus soyeux ;",
+              "des oreilles légèrement plus longues."
+            ]
+          },
+          {
+            "text": "Les hommes possèdent généralement :"
+          },
+          {
+            "items": [
+              "un bassin plus étroit ;",
+              "un pelage plus court ;",
+              "des poils plus secs ;",
+              "une fourrure légèrement plus rêche."
+            ]
+          },
+          {
+            "text": "Les femmes ne sont pas naturellement plus grandes, plus larges d’épaules, plus fortes ou plus robustes que les hommes."
+          },
+          {
+            "text": "Ces différences n’imposent aucun bonus ou malus mécanique supplémentaire lors de la création du personnage."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Foña sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des herbes ;",
+              "des insectes ;",
+              "des poissons ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement :"
+          },
+          {
+            "items": [
+              "les fruits frais ;",
+              "les plats à base d’herbes ;",
+              "les insectes préparés ;",
+              "les poissons ;",
+              "les plats faciles à partager au sein d’un groupe."
+            ]
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Foña possèdent une longévité importante."
+          },
+          {
+            "text": "Leur espérance de vie moyenne se situe autour de **120 ans**, tandis que les individus les plus âgés peuvent atteindre environ **140 ans**."
+          },
+          {
+            "text": "Leur organisme possède une bonne vitalité et supporte efficacement :"
+          },
+          {
+            "items": [
+              "les efforts prolongés ;",
+              "la fatigue accumulée ;",
+              "les périodes de travail régulier ;",
+              "les contraintes quotidiennes durables ;",
+              "les responsabilités maintenues sur une longue période."
+            ]
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "le pelage perd progressivement sa couleur dorée ;",
+              "les poils deviennent crème, gris clair ou blancs ;",
+              "le pelage devient moins dense ;",
+              "les poils les plus longs perdent une partie de leur souplesse ;",
+              "les oreilles peuvent perdre une partie de leur mobilité ;",
+              "la force et la résistance physiques diminuent progressivement."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Foña possèdent une acuité auditive particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "la direction d’une source sonore ;",
+              "les variations de voix ;",
+              "les changements de rythme ;",
+              "les vibrations produites à proximité ;",
+              "plusieurs conversations ou sons simultanés."
+            ]
+          },
+          {
+            "text": "Leurs grandes oreilles latérales et mobiles leur permettent d’isoler plus facilement une source au sein d’un environnement bruyant."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Vision**"
+          },
+          {
+            "text": "L’acuité visuelle foña est légèrement inférieure à celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer les détails très éloignés ;",
+              "identifier précisément une silhouette à distance ;",
+              "lire de petits caractères éloignés ;",
+              "repérer un mouvement discret dans une faible lumière ;",
+              "maintenir longtemps leur attention sur un élément lointain."
+            ]
+          },
+          {
+            "text": "Leur vision reste pleinement fonctionnelle pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie foña repose fréquemment sur la vitalité, la présence et la capacité à coordonner plusieurs individus."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "un maintien prolongé ;",
+              "une autorité clairement exprimée ;",
+              "une coordination collective ;",
+              "un renforcement du groupe ;",
+              "une transmission rapide d’informations ;",
+              "une action portée par la voix ;",
+              "une résistance durable à la fatigue."
+            ]
+          },
+          {
+            "text": "Leur faible Réactivité les rend moins naturellement adaptés aux manifestations demandant une activation instantanée ou une réponse improvisée à un événement soudain."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Son**"
+          },
+          {
+            "text": "Le Son constitue l’affinité élémentaire recommandée pour les Foña."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie foña se manifeste fréquemment sous forme de vibrations, de résonances et d’ondes dirigées."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Son, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une voix amplifiée ;",
+              "d’une pulsation régulière ;",
+              "d’un ordre porté à distance ;",
+              "d’une vibration traversant le sol ou les objets ;",
+              "d’une résonance protectrice autour d’un groupe ;",
+              "d’un rythme facilitant une action coordonnée ;",
+              "d’une onde brève destinée à interrompre ou repousser."
+            ]
+          },
+          {
+            "text": "Les manifestations foña privilégient généralement la cohésion, le maintien et la coordination plutôt que la discrétion."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les oreilles et le pelage foña peuvent réagir à une manifestation sonore importante."
+          },
+          {
+            "text": "Cette réaction peut prendre la forme :"
+          },
+          {
+            "items": [
+              "d’une orientation immédiate des oreilles ;",
+              "d’un redressement des poils ;",
+              "d’une ondulation du pelage le plus long ;",
+              "d’un frémissement parcourant la nuque ou les épaules ;",
+              "d’une vibration visible des poils soyeux."
+            ]
+          },
+          {
+            "text": "Ces réactions sont physiologiques et n’accordent pas automatiquement de protection contre les effets de Son."
+          },
+          {
+            "text": "L’affinité recommandée au Son n’accorde aucune réserve de PV supplémentaire sans sélection de la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage foña :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "VITA +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "CHAR +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "REACT −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Son"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Son constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "text": "Le sexe du personnage ne modifie pas ces valeurs."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Endurance Guerrière",
+                  "C"
+                ],
+                [
+                  "Coordination Tactique",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Endurance Guerrière",
+            "headingLevel": 5,
+            "anchor": "endurance-guerriere",
+            "text": "Cette formation développe la capacité à rester opérationnel malgré la fatigue, les efforts prolongés et les contraintes du combat."
+          },
+          {
+            "title": "Coordination Tactique",
+            "headingLevel": 5,
+            "anchor": "coordination-tactique",
+            "text": "Cette formation développe la capacité à organiser les actions d’un groupe et à faciliter les manœuvres coordonnées entre plusieurs alliés."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Endurance Guerrière ;",
+              "Coordination Tactique."
+            ]
+          },
+          {
+            "title": "Mentalité — Influence",
+            "headingLevel": 5,
+            "anchor": "mentalite-influence",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Influencé**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Charmé** — T2 ;",
+              "**Intimidé** — T2 ;",
+              "**Soumis** — T3 ;",
+              "**Contrôlé** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états canoniques appartenant à la famille **Influence**."
+          },
+          {
+            "text": "Elle ne s’applique pas :"
+          },
+          {
+            "items": [
+              "aux états élémentaires ;",
+              "aux effets sociaux ordinaires ;",
+              "aux tentatives de persuasion ne produisant aucun état ;",
+              "aux effets n’appliquant pas explicitement l’un de ces états."
+            ]
+          },
+          {
+            "title": "Réserve naturelle — PV",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-pv",
+            "text": "Votre maximum de **PV** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de PV augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Sens aiguisé — Audition",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-audition",
+            "text": "Vous obtenez **+5 en Audition**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité auditive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Foña.md",
+    "sourceSha256": "27743d6c453db1bbd94d6c3fb47a1633cc4c899337b64cbf4a74910c53d9e52e"
+  }
+}

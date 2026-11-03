@@ -1,0 +1,84 @@
+{
+  "id": "arme-coup-hampe",
+  "type": "codex",
+  "identity": {
+    "name": "Coup de hampe",
+    "subtitle": "Action spéciale de lance",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "arme-lance",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur Attaque avec arme, puis Coup de hampe.",
+              "L’arme active doit appartenir à la famille structurée Lance ; son nom seul ne suffit pas.",
+              "Une seule cible doit être sélectionnée.",
+              "L’attaque utilise la formule de dégâts de bâton correspondant au rang de la lance, avec 1d4 comme valeur de repli."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "title": "Attaque structurée",
+            "items": [
+              "Le coût, la portée, le profil de dégâts et les réactions normales de l’action restent inchangés.",
+              "Coup de hampe utilise le flux normal d’attaque, de défense et de dégâts.",
+              "Un échec offensif, une esquive réussie, une parade gagnante ou une annulation complète empêche les effets de suivi.",
+              "Maîtrise de la Lance N2 ajoute +2 au paquet physique principal avant critique lorsque le passif est actif."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Maîtrise N3",
+        "blocks": [
+          {
+            "title": "Ouverture de garde",
+            "items": [
+              "Après un impact réel, l’ouverture est créée sur l’attaquant avant le jet de repoussement.",
+              "La prochaine attaque ordinaire du même attaquant, avec une lance et contre la même cible, gagne +5 au seuil.",
+              "Avec le +5 permanent du N1, le bonus total de cette attaque de suivi atteint +10.",
+              "L’ouverture est consommée au lancement du jet, même en cas d’échec.",
+              "Une nouvelle ouverture pour la même paire actualise l’ancienne sans cumul et n’expire pas au prochain tour."
+            ]
+          },
+          {
+            "title": "Repoussement",
+            "items": [
+              "La cible peut effectuer un jet normal de FOR.",
+              "En réussite, elle reste en place ; en échec ou si elle ne résiste pas, elle est repoussée de 1 mètre.",
+              "Le déplacement utilise le moteur commun de mouvement forcé et respecte la grille, les collisions et les limites de scène.",
+              "Une immunité explicite au repoussement bloque seulement le déplacement et ne supprime pas l’ouverture.",
+              "Le résultat du jet de FOR ne modifie jamais l’ouverture déjà créée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Limites",
+        "blocks": [
+          {
+            "title": "Aucun effet implicite",
+            "items": [
+              "Coup de hampe n’augmente pas la portée de la lance et n’ignore aucune armure.",
+              "Maîtrise de la Lance ne modifie pas les critiques de l’action.",
+              "L’ouverture ne fonctionne ni contre une autre cible, ni avec une autre famille d’arme, ni sur une action sans véritable jet offensif."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

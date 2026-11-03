@@ -1,0 +1,32 @@
+{
+  "id": "lerbonn",
+  "type": "creature-public",
+  "identity": {
+    "name": "Lerbonn",
+    "subtitle": "Le Cornu des Sous-Bois",
+    "tags": [
+      "sauvage",
+      "territorial",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Lerbonn vit principalement dans les forêts tempérées, les zones boisées, les sous-bois, les collines forestières et certaines zones montagneuses. Omnivore, il fouille les sols forestiers à la recherche de racines, de fruits et de petites proies. Son corps compact, sa fourrure isolante et ses pattes robustes lui permettent d’évoluer dans les environnements froids, denses ou accidentés."
+          },
+          {
+            "text": "Le Lerbonn est une créature forestière au corps compact, recouvert d’une fourrure très dense aux teintes allant du blanc crème au doré clair. Sa tête courte est marquée par un museau large, un nez rosé et de longues vibrisses. Ses yeux brun doré possèdent des pupilles rectangulaires horizontales, qui lui offrent une vision panoramique efficace dans les sous-bois. Au sommet de son crâne poussent deux petites cornes légèrement courbées vers l’arrière, bien que certains individus puissent en posséder quatre. Son corps robuste repose sur quatre pattes courtes mais solides, adaptées aux déplacements dans la végétation dense. Sa fourrure épaisse lui permet de résister au froid et aux environnements difficiles."
+          },
+          {
+            "text": "Le Lerbonn vit seul ou en petits groupes familiaux. Les abris sont souvent installés dans des terriers, entre les racines ou dans des sols forestiers protégés. Les groupes familiaux restent limités et défendent leur zone immédiate."
+          }
+        ]
+      }
+    ]
+  }
+}

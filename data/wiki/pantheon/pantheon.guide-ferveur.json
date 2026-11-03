@@ -1,0 +1,58 @@
+{
+  "id": "pantheon.guide-ferveur",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Panthéon et Ferveur",
+    "subtitle": "Esprit primaire, secondaires et culte",
+    "icon": "◇",
+    "tags": [
+      "panthéon",
+      "ferveur",
+      "esprit",
+      "culte"
+    ]
+  },
+  "classification": {
+    "category": "pantheon-spirit"
+  },
+  "sources": [
+    "module/data/pantheon.json",
+    "module/engine/character-creation-service.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Objet",
+        "value": "Esprit primaire, secondaires et culte"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Liens spirituels",
+        "blocks": [
+          {
+            "text": "Le personnage peut définir un Esprit primaire, des Esprits secondaires et un Esprit honni lorsque sa configuration le permet."
+          }
+        ]
+      },
+      {
+        "label": "Culte et cycle",
+        "blocks": [
+          {
+            "text": "Chaque Esprit indique son rituel et son cycle de dévotion. Une bénédiction suit sa propre limite d’usage et son propre renouvellement."
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "text": "Faveur, neutralité ou courroux modifient uniquement les bénédictions qui déclarent cet effet. Les anciennes valeurs de seuil non présentes dans les règles actuelles ne s’appliquent pas."
+          }
+        ]
+      }
+    ]
+  }
+}

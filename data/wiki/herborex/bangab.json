@@ -1,0 +1,90 @@
+{
+  "id": "bangab",
+  "type": "plant",
+  "identity": {
+    "name": "Bangab",
+    "subtitle": "Ventre d'eau de la savane",
+    "unknownName": "Grand arbre ventru à feuillage rond",
+    "slug": "bangab",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Bangab.png",
+    "visualNote": "Arbre massif à tronc ocre très renflé, couronne verte portée par des branches hautes, fleurs pâles et fruits rugueux à grosse graine.",
+    "tags": [
+      "tronc-renfle",
+      "reserve-humidite"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "etrange",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane sèche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre sèche",
+      "terre pauvre",
+      "sable"
+    ],
+    "season": [
+      "retour des pluies",
+      "floraison",
+      "fructification",
+      "saison sèche"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "massive",
+    "height": "4 à 12 m",
+    "width": "3 à 9 m",
+    "colorMain": "ocre orangé",
+    "colorSecondary": "vert olive, doré",
+    "distinctiveSigns": [
+      "tronc énorme et ventru",
+      "écorce rugueuse avec petites excroissances",
+      "veines dorées visibles sur le bas du tronc",
+      "branches hautes formant plusieurs couronnes vertes",
+      "fleurs pâles à étamines dorées",
+      "fruits rugueux contenant une grosse graine brune",
+      "racines épaisses au pied du tronc"
+    ],
+    "descriptionShort": "Le Bangab est un arbre massif de savane sèche au tronc gonflé et à la couronne haute.",
+    "descriptionFull": "Le Bangab domine les plaines sèches par son tronc immense, arrondi comme une réserve vivante. Ses branches se développent au sommet et portent des couronnes de feuilles vert olive. Après les pluies, il produit des fleurs claires, puis des fruits bosselés qui protègent une graine dense. Ses racines épaisses stabilisent l'arbre dans les sols profonds et signalent souvent une humidité cachée."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "medicinale",
+      "ornementale",
+      "semis"
+    ],
+    "notes": ""
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

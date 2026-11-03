@@ -1,0 +1,177 @@
+{
+  "id": "naura",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Naûra",
+    "subtitle": "L’Amante Passionnée",
+    "tags": [
+      "Naûra",
+      "L’Amante Passionnée",
+      "esprit majeur",
+      "Amour",
+      "Passion",
+      "Famille",
+      "Partage",
+      "Attachement",
+      "Compassion",
+      "Amitié",
+      "Lien Inébranlable",
+      "Avantage offert à un allié"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#A35663",
+    "visualNote": "Amour • Passion • Famille • Partage • Attachement • Compassion • Amitié"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "naura",
+    "name": "Naûra",
+    "title": "L’Amante Passionnée",
+    "type": "esprit_majeur",
+    "domains": [
+      "Amour",
+      "Passion",
+      "Famille",
+      "Partage",
+      "Attachement",
+      "Compassion",
+      "Amitié"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunrise",
+      "label": "À chaque lever du soleil"
+    },
+    "cult": {
+      "short": "Embrasser quelqu’un",
+      "ritual": "Embrasser quelqu'un (bouche ou non)."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Les liens affectifs sont renforcés.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "lien_inebranlable": {
+        "key": "lien_inebranlable",
+        "name": "Lien Inébranlable",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Avantage offert à un allié",
+        "fullDescription": "Une fois par cycle de dévotion, peut donner un avantage sur un jet d’un allié proche.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#A35663",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Amour",
+              "Passion",
+              "Famille",
+              "Partage",
+              "Attachement",
+              "Compassion",
+              "Amitié"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Embrasser quelqu’un"
+          },
+          {
+            "title": "Rituel",
+            "text": "Embrasser quelqu'un (bouche ou non)."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lever du soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunrise"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Lien Inébranlable (améliorée, actif)",
+              "Effet court : Avantage offert à un allié",
+              "Description : Une fois par cycle de dévotion, peut donner un avantage sur un jet d’un allié proche.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Les liens affectifs sont renforcés.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "naura"
+  }
+}

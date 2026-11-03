@@ -1,0 +1,32 @@
+{
+  "id": "welemma",
+  "type": "creature-public",
+  "identity": {
+    "name": "Welemma",
+    "subtitle": "Le Brameur des Forêts",
+    "tags": [
+      "sauvage",
+      "proie",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Welemma vit principalement dans les forêts tropicales, les jungles humides, les clairières forestières, les lisières de rivières et les zones de végétation dense. Herbivore, il se nourrit de fruits, de feuilles tendres, de jeunes pousses et de plantes forestières. Sa grande taille et son brame grave en font une présence marquante dans les zones boisées humides."
+          },
+          {
+            "text": "Le Welemma est une grande créature herbivore à l’allure reptilienne. Son corps massif couvert d’écailles bleu turquoise est contrasté par un plumage flamboyant rouge, orange et rose qui court le long de son cou et de son dos. Une crête de plumes rigides orne le sommet de sa tête et se prolonge le long du cou. Son long museau arrondi et ses yeux ambrés lui donnent une apparence calme mais imposante. Ses pattes épaisses supportent son poids considérable et lui permettent de se déplacer lentement à travers la végétation dense."
+          },
+          {
+            "text": "Le Welemma vit en petits groupes familiaux. Les zones de repos ou de nidification sont dissimulées dans la végétation dense, souvent à proximité de clairières ou de points d’eau."
+          }
+        ]
+      }
+    ]
+  }
+}

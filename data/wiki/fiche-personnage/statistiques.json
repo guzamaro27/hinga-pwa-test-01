@@ -1,0 +1,78 @@
+{
+  "id": "fiche-personnage.statistiques",
+  "type": "codex",
+  "identity": {
+    "name": "Statistiques",
+    "subtitle": "Fiche personnage / Lire ses valeurs",
+    "icon": "Σ",
+    "tags": [
+      "statistiques",
+      "valeurs",
+      "REACT",
+      "FOR",
+      "DEX"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Valeur",
+        "value": "total actuel"
+      },
+      {
+        "label": "Jet",
+        "value": "cliquez sur le nom"
+      },
+      {
+        "label": "Aide",
+        "value": "bouton ?"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "AV / DV",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Création de personnage",
+        "sectionId": "systeme",
+        "entryId": "guide.creation-personnage"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Les statistiques affichées sur votre fiche servent de base à vos jets."
+          }
+        ]
+      },
+      {
+        "label": "Utiliser une statistique",
+        "blocks": [
+          {
+            "items": [
+              "Cliquez sur le nom d’une statistique pour lancer son jet.",
+              "Utilisez le bouton ? pour ouvrir l’explication générale.",
+              "Les bonus temporaires sont inclus dans les valeurs affichées par la fiche."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

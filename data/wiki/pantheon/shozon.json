@@ -1,0 +1,165 @@
+{
+  "id": "shozon",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Shozon",
+    "subtitle": "Le Sauvage Éternel",
+    "tags": [
+      "Shozon",
+      "Le Sauvage Éternel",
+      "esprit majeur",
+      "Nature",
+      "Plantes",
+      "Animaux",
+      "Survie Instinctive",
+      "Consommation sûre de nourriture non purifiée"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#2E4F36",
+    "visualNote": "Nature • Plantes • Animaux"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "shozon",
+    "name": "Shozon",
+    "title": "Le Sauvage Éternel",
+    "type": "esprit_majeur",
+    "domains": [
+      "Nature",
+      "Plantes",
+      "Animaux"
+    ],
+    "cycle": {
+      "type": "ritual",
+      "refresh": "forest_night",
+      "label": "À chaque nuit passée en forêt"
+    },
+    "cult": {
+      "short": "Manger une feuille ou des insectes",
+      "ritual": "Manger une feuille d’arbre ou des insectes."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’instinct de survie est renforcé.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "survie_instinctive": {
+        "key": "survie_instinctive",
+        "name": "Survie Instinctive",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Consommation sûre de nourriture non purifiée",
+        "fullDescription": "Permet de consommer nourriture et eau non purifiées sans effet négatif.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#2E4F36",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Nature",
+              "Plantes",
+              "Animaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Manger une feuille ou des insectes"
+          },
+          {
+            "title": "Rituel",
+            "text": "Manger une feuille d’arbre ou des insectes."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque nuit passée en forêt"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "rituel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "forest_night"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Survie Instinctive (commune, passif)",
+              "Effet court : Consommation sûre de nourriture non purifiée",
+              "Description : Permet de consommer nourriture et eau non purifiées sans effet négatif.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’instinct de survie est renforcé.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "shozon"
+  }
+}

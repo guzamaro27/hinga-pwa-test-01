@@ -1,0 +1,87 @@
+{
+  "id": "rules.etats",
+  "type": "codex",
+  "identity": {
+    "name": "États, Tiers, durées et contres",
+    "subtitle": "Lire et résoudre un état",
+    "icon": "◫",
+    "tags": [
+      "États, Tiers, durées et contres",
+      "état",
+      "Tier",
+      "durée",
+      "contre"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/states_data.mjs",
+    "module/engine/states/state-application-runtime.mjs",
+    "module/engine/states/state-tick-runtime.mjs",
+    "module/helpers/state-removal.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Tiers",
+        "value": "T1 à T4"
+      },
+      {
+        "label": "Durée",
+        "value": "Tours, rounds ou autre durée indiquée"
+      },
+      {
+        "label": "Catalogue",
+        "value": "La liste des états donne leurs effets"
+      }
+    ],
+    "links": [
+      {
+        "label": "PV",
+        "sectionId": "systeme",
+        "entryId": "rules.pv"
+      },
+      {
+        "label": "SM",
+        "sectionId": "systeme",
+        "entryId": "rules.sm"
+      },
+      {
+        "label": "États élémentaires",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Lire un état",
+        "blocks": [
+          {
+            "items": [
+              "La famille réunit les états d’une même nature.",
+              "Le Tier mesure l’intensité de T1 à T4.",
+              "La polarité indique si l’état aide ou gêne.",
+              "La durée et le tick indiquent quand il agit et quand il expire.",
+              "Le contre donne le test ou la condition qui permet de le retirer."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Évolution",
+        "blocks": [
+          {
+            "text": "Une nouvelle application peut remplacer un état, augmenter ou diminuer son Tier selon sa définition. Immunités, effets statistiques, AV/DV, divisions de statistique et blocages sont lus directement sur l’état canonique."
+          }
+        ]
+      }
+    ]
+  }
+}

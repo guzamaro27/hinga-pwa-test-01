@@ -1,0 +1,547 @@
+{
+  "id": "arionar",
+  "type": "peuple",
+  "identity": {
+    "name": "Arioñar",
+    "subtitle": "",
+    "slug": "arionar",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/arioniar.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Arioñar sont reconnaissables à leur petite taille, leur peau verte épaisse couverte de petites bosses osseuses, leurs mains à trois doigts et leur visage très atypique, marqué par l’absence de cartilage nasal et auriculaire."
+          },
+          {
+            "text": "Leur silhouette compacte, leurs traits singuliers et leur grande aisance avec les mécanismes complexes alimentent leur réputation de petits techniciens ingénieux, discrets et difficiles à impressionner."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 4/10 — Peu représenté"
+          },
+          {
+            "text": "**Tendances :** Les Arioñar vivent aussi bien en ville qu’en campagne, mais on les retrouve fréquemment dans des espaces souterrains, encaissés ou discrets. Leur apparence, jugée moins humanoïde que celle de nombreux autres peuples, les expose parfois à une forme de rejet ou de méfiance. Ils sont ainsi souvent associés, à tort ou à raison, aux milieux clandestins, aux réseaux souterrains ou à certaines images de mafia, même si cela relève largement de stéréotypes persistants plus que d’une réalité générale."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Arioñar mesurent généralement autour de **1,30 mètre** pour environ **60 kilogrammes**."
+          },
+          {
+            "text": "Leur corps est petit, dense et compact. On retrouve fréquemment chez eux :"
+          },
+          {
+            "items": [
+              "un tronc large ;",
+              "des membres relativement courts ;",
+              "une ossature épaisse ;",
+              "un centre de gravité bas ;",
+              "une impression générale de solidité."
+            ]
+          },
+          {
+            "text": "Malgré leur petite taille, ils ne paraissent pas frêles. Leur gabarit est ramassé, lourd pour leur stature et bien adapté aux tâches mécaniques ou aux environnements exigus."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau arioñar se décline principalement dans des nuances de vert comprenant :"
+          },
+          {
+            "items": [
+              "le vert clair ;",
+              "le vert moyen ;",
+              "le vert jaunâtre ;",
+              "certains tons presque jaunes."
+            ]
+          },
+          {
+            "text": "Elle est généralement :"
+          },
+          {
+            "items": [
+              "très épaisse ;",
+              "rugueuse ;",
+              "marquée de nombreuses petites bosses dures ;",
+              "ponctuée de taches plus foncées."
+            ]
+          },
+          {
+            "text": "Les bosses sont fréquemment jaunies et d’aspect osseux."
+          },
+          {
+            "text": "Les paumes des mains, certaines zones fines et les muqueuses présentent souvent des tons jaune foncé."
+          },
+          {
+            "text": "Avec l’âge, la peau peut tendre davantage vers des tons jaunâtres et plus ternes."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage arioñar est généralement ovale, avec une tête relativement grande en proportion du corps."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "de petits yeux sombres, rapprochés ;",
+              "une large pupille jaune sombre ;",
+              "un regard peu ouvert ;",
+              "l’absence de cartilage nasal visible, remplacé par de simples orifices ;",
+              "l’absence de cartilage externe aux oreilles, visibles sous forme d’orifices latéraux ;",
+              "une bouche très large ;",
+              "l’absence de lèvres ;",
+              "de nombreuses dents pointues."
+            ]
+          },
+          {
+            "text": "Malgré leur étrangeté morphologique, les visages arioñar restent expressifs et peuvent présenter des expressions chaleureuses ou souriantes."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les yeux arioñar sont petits, sombres et rapprochés."
+          },
+          {
+            "text": "Ils possèdent une large pupille jaune sombre, de forme naturelle mais étalée, souvent entre l’ovale large et le rectangle arrondi."
+          },
+          {
+            "text": "Ils ne disposent que d’une **paupière supérieure** visible."
+          },
+          {
+            "text": "Leur taille réduite et leur implantation serrée participent fortement à l’identité faciale du peuple."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les Arioñar possèdent peu de poils corporels."
+          },
+          {
+            "text": "Leur pilosité se présente principalement sous forme de quelques filaments épais, rigides et aplatis, comparables à de fines lanières végétales ou à des algues sèches."
+          },
+          {
+            "text": "Ces poils peuvent être :"
+          },
+          {
+            "items": [
+              "jaunes ;",
+              "bruns ;",
+              "brun sombre ;",
+              "noirs."
+            ]
+          },
+          {
+            "text": "Ils restent globalement peu nombreux."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Arioñar possèdent **trois doigts** à chaque main et **trois orteils** à chaque pied."
+          },
+          {
+            "text": "Leurs bosses corporelles sont :"
+          },
+          {
+            "items": [
+              "fortement durcies ;",
+              "jaunies ;",
+              "peu vascularisées ;",
+              "presque insensibles."
+            ]
+          },
+          {
+            "text": "Les muqueuses sont jaune foncé, comme la langue."
+          },
+          {
+            "text": "Les orifices nasaux et auriculaires sont généralement arrondis, avec parfois de petits replis ou lobes internes souples."
+          },
+          {
+            "text": "L’ensemble de leur anatomie générale reste humanoïde, avec :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "deux yeux ;",
+              "une bouche ;",
+              "trois doigts à chaque main ;",
+              "trois orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les bosses osseuses qui couvrent une partie du corps arioñar sont très peu irriguées."
+          },
+          {
+            "text": "Elles sont donc :"
+          },
+          {
+            "items": [
+              "plus dures que le reste de la peau ;",
+              "peu sensibles à la douleur ;",
+              "plus proches d’une structure protectrice que d’un tissu souple."
+            ]
+          },
+          {
+            "text": "Leur faible nombre de doigts limite la finesse gestuelle pure, ce qui explique leur affinité historique avec des mécanismes, outils et systèmes permettant d’amplifier ou de compenser leur dextérité manuelle."
+          },
+          {
+            "text": "Le développement arioñar est relativement rapide :"
+          },
+          {
+            "items": [
+              "la marche apparaît tôt ;",
+              "la parole se met en place rapidement ;",
+              "la maturité fonctionnelle arrive plus vite que chez de nombreux autres peuples."
+            ]
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la peau jaunit davantage ;",
+              "la force et la résistance diminuent progressivement ;",
+              "les dents s’émoussent et deviennent plus arrondies."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Arioñar sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des légumes ;",
+              "des fruits ;",
+              "des herbes préparées ;",
+              "de la viande crue ou peu transformée."
+            ]
+          },
+          {
+            "text": "Ils tolèrent bien les aliments puissants en goût ou en odeur."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Arioñar possèdent un organisme dense et robuste pour leur taille."
+          },
+          {
+            "text": "Leur morphologie compacte les rend particulièrement adaptés :"
+          },
+          {
+            "items": [
+              "aux espaces étroits ;",
+              "aux manipulations répétitives ;",
+              "aux tâches techniques demandant de la précision appuyée ;",
+              "à la vie dans des milieux clos ou peu confortables."
+            ]
+          },
+          {
+            "text": "Leur vision reste plus faible que celle de la plupart des autres peuples, tandis que leur odorat compense en partie cette faiblesse dans certaines situations."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "Les Arioñar possèdent une acuité olfactive particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les traces d’odeur faibles ;",
+              "les substances mélangées ;",
+              "les changements d’atmosphère ;",
+              "certaines présences organiques ou chimiques ;",
+              "les variations fines dans les senteurs proches."
+            ]
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Vision**"
+          },
+          {
+            "text": "L’acuité visuelle des Arioñar est réduite."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer les détails éloignés ;",
+              "lire des formes fines à distance ;",
+              "repérer rapidement un petit mouvement visuel ;",
+              "travailler efficacement sans proximité suffisante."
+            ]
+          },
+          {
+            "text": "Leur perception visuelle reste fonctionnelle, mais moins précise que celle de la plupart des autres peuples."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "Les Arioñar possèdent une bonne disposition à la **Dextérité** magique et à l’**Intelligence** appliquée."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement bien :"
+          },
+          {
+            "items": [
+              "aux manipulations précises ;",
+              "aux dispositifs techniques ;",
+              "aux systèmes articulés ;",
+              "aux constructions complexes ;",
+              "aux effets utilitaires ;",
+              "aux usages méthodiques de la magie dans des contextes matériels."
+            ]
+          },
+          {
+            "text": "Leur profil favorise moins l’observation large du monde environnant que l’action fine, locale et technique."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Métal**"
+          },
+          {
+            "text": "Le Métal constitue l’affinité élémentaire recommandée pour les Arioñar."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie arioñar se manifeste fréquemment sous des formes précises, structurées et mécaniques."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Métal, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de pièces articulées ;",
+              "de structures d’assemblage ;",
+              "d’éléments rigides ;",
+              "de mécanismes de précision ;",
+              "de surfaces dures ;",
+              "de mouvements fins et contrôlés."
+            ]
+          },
+          {
+            "text": "Les manifestations arioñar privilégient généralement la fonctionnalité, la précision et l’ingénierie plutôt qu’une projection brute ou expansive."
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La magie arioñar s’intègre volontiers à l’usage :"
+          },
+          {
+            "items": [
+              "d’objets ;",
+              "d’outils ;",
+              "de dispositifs ;",
+              "de systèmes construits."
+            ]
+          },
+          {
+            "text": "Cette disposition favorise particulièrement :"
+          },
+          {
+            "items": [
+              "l’ingénierie appliquée ;",
+              "les procédés techniques ;",
+              "les antidotes simples ;",
+              "les usages pragmatiques de la magie ;",
+              "les interactions entre matière, structure et fonction."
+            ]
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage arioñar :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "DEX +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "INT +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "PERC −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Métal"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Métal constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Ingénierie Appliquée",
+                  "B"
+                ],
+                [
+                  "Antidote Basique",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Ingénierie Appliquée",
+            "headingLevel": 5,
+            "anchor": "ingenierie-appliquee",
+            "text": "Cette formation développe la compréhension, la construction et l’usage de systèmes techniques, mécaniques et fonctionnels."
+          },
+          {
+            "title": "Antidote Basique",
+            "headingLevel": 5,
+            "anchor": "antidote-basique",
+            "text": "Cette formation développe la capacité à préparer ou utiliser des réponses simples face aux toxines et substances nocives les plus courantes."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Ingénierie Appliquée ;",
+              "Antidote Basique."
+            ]
+          },
+          {
+            "title": "Résistance aux poisons",
+            "headingLevel": 5,
+            "anchor": "resistance-aux-poisons",
+            "text": "Vous obtenez la résistance canonique aux poisons selon les règles générales des peuples."
+          },
+          {
+            "title": "Réserve naturelle — SM",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-sm",
+            "text": "Votre jauge de **SM** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "title": "Sens aiguisé — Odorat",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-odorat",
+            "text": "Vous obtenez **+5 en Odorat**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité olfactive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Arioñar.md",
+    "sourceSha256": "7030e72cfb94ac68c7fc308f61cfd9fa29f8c5e19cf8458744eb014643a0631c"
+  }
+}

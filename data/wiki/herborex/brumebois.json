@@ -1,0 +1,100 @@
+{
+  "id": "brumebois",
+  "type": "plant",
+  "identity": {
+    "name": "Brumebois",
+    "subtitle": "Arbre aux feuilles de fumée",
+    "unknownName": "Arbre pâle à cime brune",
+    "slug": "brumebois",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Brumebois.png",
+    "visualNote": "Arbre au tronc ivoire très pâle, divisé en fourche haute sous une cime brune diffuse, avec feuilles sèches ondulées et capsules de graines.",
+    "tags": [
+      "cime-brune",
+      "tronc-pale"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "montagne humide froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "sol caillouteux",
+      "terre pauvre"
+    ],
+    "season": [
+      "baisse des températures",
+      "premiers froids",
+      "nuit longue"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "3 à 7 m",
+    "width": "2 à 6 m",
+    "colorMain": "brun fumé",
+    "colorSecondary": "ivoire tacheté d'ocre",
+    "distinctiveSigns": [
+      "tronc pâle presque ivoire",
+      "écorce fine marquée de taches orange-brun",
+      "fourche haute divisant le tronc en deux grandes branches",
+      "cime brune et diffuse évoquant une masse de feuilles légères",
+      "feuilles sèches ondulées et nervurées",
+      "capsules pâles contenant des graines brun orangé",
+      "racines fines et superficielles"
+    ],
+    "descriptionShort": "Le Brumebois est un arbre pâle à fourche haute, couronné d'un feuillage brun diffus qui semble suspendu dans l'air humide.",
+    "descriptionFull": "Le Brumebois pousse dans les forêts fraîches, les vallées humides et certaines pentes froides. Son tronc clair monte droit avant de se diviser en deux branches qui soutiennent une cime brune, fine et nuageuse. Ses feuilles sèchent en prenant des teintes de beige et de rouille, puis tombent en poussière légère si elles sont trop manipulées. Ses capsules gardent de petites graines dures et orangées."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "irritante"
+    ],
+    "exposure": [
+      "inhalation",
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs",
+      "difficulté à respirer"
+    ],
+    "notes": "Les feuilles très sèches peuvent produire une poussière gênante si elles sont froissées brutalement."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "infusion",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles du Brumebois peuvent être utilisées pour faire une infusion au goût fumé, tandis que son bois léger est apprécié en artisanat."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

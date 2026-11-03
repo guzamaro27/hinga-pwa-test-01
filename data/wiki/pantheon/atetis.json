@@ -1,0 +1,179 @@
+{
+  "id": "atetis",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Atetis",
+    "subtitle": "Le Professeur Érudit",
+    "tags": [
+      "Atetis",
+      "Le Professeur Érudit",
+      "esprit majeur",
+      "Logique",
+      "Raison",
+      "Calcul",
+      "Intelligence",
+      "Recherche",
+      "Enseignement",
+      "Logique Parfaite",
+      "Relance d’un jet d’INT raté"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#2F4F6A",
+    "visualNote": "Logique • Raison • Calcul • Intelligence • Recherche • Enseignement"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "atetis",
+    "name": "Atetis",
+    "title": "Le Professeur Érudit",
+    "type": "esprit_majeur",
+    "domains": [
+      "Logique",
+      "Raison",
+      "Calcul",
+      "Intelligence",
+      "Recherche",
+      "Enseignement"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "distant_moon_revolution",
+      "label": "À chaque révolution du plus lointain des astres lunaires"
+    },
+    "cult": {
+      "short": "Lire un livre",
+      "ritual": "Lire un livre."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La logique d’Atetis est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "logique_parfaite": {
+        "key": "logique_parfaite",
+        "name": "Logique Parfaite",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Relance d’un jet d’INT raté",
+        "fullDescription": "Une fois par cycle de dévotion, peut relancer un jet d’INT raté.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#2F4F6A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "abyssar"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Logique",
+              "Raison",
+              "Calcul",
+              "Intelligence",
+              "Recherche",
+              "Enseignement"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Lire un livre"
+          },
+          {
+            "title": "Rituel",
+            "text": "Lire un livre."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque révolution du plus lointain des astres lunaires"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "distant_moon_revolution"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Logique Parfaite (améliorée, actif)",
+              "Effet court : Relance d’un jet d’INT raté",
+              "Description : Une fois par cycle de dévotion, peut relancer un jet d’INT raté.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La logique d’Atetis est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "abyssar"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "atetis"
+  }
+}

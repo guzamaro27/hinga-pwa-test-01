@@ -1,0 +1,96 @@
+{
+  "id": "bumdari",
+  "type": "plant",
+  "identity": {
+    "name": "Bumdari",
+    "subtitle": "Bambou bleu des pluies chaudes",
+    "unknownName": "Grande tige bleutée à feuilles larges",
+    "slug": "bumdari",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Bumdari.png",
+    "visualNote": "Touffe haute de tiges segmentées bleu-vert, coiffées d'un large feuillage plumeux, avec jeunes pousses étoilées et racines bleutées.",
+    "tags": [
+      "tige-segmentee",
+      "tropical-humide"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "graminee",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud",
+      "marais tropical humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "boue",
+      "eau douce"
+    ],
+    "season": [
+      "fortes pluies",
+      "toute l’année"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "4 à 9 m",
+    "width": "1 à 4 m par touffe",
+    "colorMain": "bleu-vert",
+    "colorSecondary": "turquoise clair, vert d'eau",
+    "distinctiveSigns": [
+      "nombreuses tiges droites en faisceau serré",
+      "tiges cylindriques segmentées avec nœuds sombres",
+      "large couronne de feuilles longues et déchirées",
+      "jeunes pousses étoilées sur les tiges et près du sol",
+      "racines denses avec nervures bleutées",
+      "section interne claire à cœur bleu pâle"
+    ],
+    "descriptionShort": "Le Bumdari forme de hautes touffes de tiges bleu-vert, creuses et segmentées, sous un feuillage large et souple.",
+    "descriptionFull": "Le Bumdari pousse en bosquets serrés dans les zones chaudes et humides. Ses tiges bleutées montent droites depuis un réseau de racines dense, marqué de fines lueurs turquoise. Les nœuds réguliers rendent les tiges faciles à couper. En hauteur, les feuilles forment une masse plumeuse qui garde l'air frais sous la touffe. De jeunes pousses étoilées apparaissent après les pluies."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les bords des feuilles sèches et les tiges fendues peuvent couper superficiellement."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "fourrage",
+      "ornementale"
+    ],
+    "notes": "Les tiges segmentées sont prisées pour la construction légère et les outils, tandis que les feuilles servent de fourrage ou de décoration."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-place",
+  "type": "codex",
+  "identity": {
+    "name": "Poser",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "poser"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Poser"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Placer un piège du sac sur la scène."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Poser place exactement un piège préparé de l’inventaire au point choisi, sans modifier sa zone de déclenchement, sa zone d’action ni son emprise. Le piège reste désarmé."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Possible si le piège peut être posé et si l'acteur a les permissions nécessaires."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Sans maîtrise adaptée, la pose utilise la difficulté générale. Piégeur Ingénieux utilise DEX normal pour les pièges mécaniques couverts ; son N3 accorde AV1 uniquement à la pose d’un piège simple. Piégeage Arcanique utilise ARC normal pour les pièges magiques ou runiques couverts ; son N3 accorde AV1 uniquement à la pose d’un piège simple."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Choisissez le piège puis son emplacement. La portée est mesurée depuis le token du poseur avant le jet et de nouveau validée côté MJ avant la consommation."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Oui, choix de placement ou confirmation selon l'interface."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Piège disponible dans le sac et scène active."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Refus si le token, la scène, les permissions, l’objet, le niveau de maîtrise ou la portée sont invalides, ou si aucun MJ ne peut valider une modification distante."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Piégeur Ingénieux couvre les pièges mécaniques : portée 1 / 6 / 10 mètres aux N1 / N2 / N3 ; piège simple en action majeure au N1 puis en action mineure aux N2–N3 ; pièges complexes et avancés en action majeure lorsqu’ils sont couverts. Piégeage Arcanique couvre les pièges magiques et runiques simples, complexes puis avancés, toujours en action majeure, avec 1 / 2 / 3 mètres de portée aux N1 / N2 / N3."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Un exemplaire préparé est consommé. Le piège apparaît au point choisi, désarmé, et doit être armé séparément."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Aucun piège n’est placé et l’exemplaire préparé n’est pas consommé. L’action engagée reste dépensée sous pression."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Piégeur Ingénieux et Piégeage Arcanique n’ajoutent aucun effet critique propre. Les règles critiques générales de pose restent applicables."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Le piège posé peut rester caché aux autres joueurs selon sa visibilité et ses permissions."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Poser",
+            "text": "Les opérations de scène doivent être exécutées avec permissions MJ quand un joueur pose le piège."
+          }
+        ]
+      }
+    ]
+  }
+}

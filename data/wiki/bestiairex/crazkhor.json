@@ -1,0 +1,36 @@
+{
+  "id": "crazkhor",
+  "type": "creature-public",
+  "identity": {
+    "name": "Crazkhor",
+    "subtitle": "Le Souffle du Cœur Ardent",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "magique",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Crazkhor vit principalement dans les zones rocheuses, les ruines sèches, les plateaux arides et les cavités chauffées par le soleil. Il occupe les passages élevés, les pentes pierreuses et les territoires où sa peau sombre et ses plaques ocre se confondent avec la roche. Carnivore, il chasse les proies de taille moyenne ou grande en utilisant sa puissance, ses griffes, sa mâchoire et ses charges courtes. Son organe incandescent interne lui permet de produire une chaleur intense et pourrait expliquer les veinures orange visibles entre certaines plaques."
+          },
+          {
+            "text": "Le Crazkhor possède une silhouette massive, puissante et nerveuse. Son corps est recouvert d’écailles sombres et de plaques ocre imbriquées qui forment une cuirasse naturelle sur le dos, les épaules et les flancs. Sa tête allongée porte plusieurs crêtes rigides orientées vers l’arrière, tandis que sa gueule profonde révèle de longues dents acérées. Ses yeux dorés à pupille verticale lui donnent un regard fixe et menaçant. Ses quatre membres sont robustes, armés de griffes noires capables de s’ancrer dans la roche ou de lacérer une proie. Une queue épaisse et recourbée prolonge son corps, renforçant son équilibre lors des charges. Dans sa poitrine, un organe incandescent orange semble pulser sous la peau, traversé par un réseau de veines lumineuses qui remontent vers le cou et les flancs."
+          },
+          {
+            "text": "Le Crazkhor vit généralement seul et défend un territoire rocheux étendu. Les traces de nidification sont rares, mais les cavités chaudes, les failles sèches et les ruines exposées semblent constituer ses abris privilégiés."
+          }
+        ]
+      }
+    ]
+  }
+}

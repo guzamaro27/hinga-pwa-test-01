@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-arm",
+  "type": "codex",
+  "identity": {
+    "name": "Armer / Réarmer",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "armer"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Armer / Réarmer"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Rendre actif un piège posé et désarmé."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Armer ou réarmer remet un piège posé dans un état actif, prêt à être déclenché par sa logique normale."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Possible si le piège est désarmé ou prêt à être armé."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le créateur arme ou réarme son propre piège automatiquement. Un autre personnage effectue le jet normal prévu si sa maîtrise couvre le piège ; sinon, il utilise la difficulté réduite de base."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le système met à jour l'état du piège vers armé et restaure son fonctionnement de déclenchement."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Non, sauf confirmation particulière."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Piège pose, non détruit, désarmé ou réarmable."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Refus si le piège est détruit, déjà armé, introuvable ou non réarmable."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Piégeur Ingénieux permet à un non-créateur d’armer ou de réarmer avec DEX normal un piège mécanique couvert. Piégeage Arcanique conserve la même fonction avec ARC normal pour les pièges magiques ou runiques couverts. La règle automatique du créateur reste inchangée."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le piège passe à l'état armé."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "L'état ne change pas."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Piégeur Ingénieux et Piégeage Arcanique n’ajoutent aucun effet critique propre. Les conséquences critiques générales de l’armement restent applicables."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Armer / Réarmer",
+            "text": "Le MJ peut forcer l'état via le Trap Manager si la logique d'action l'autorise."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "karmis",
+  "type": "creature-public",
+  "identity": {
+    "name": "Karmis",
+    "subtitle": "Le Serpent Stellaire",
+    "tags": [
+      "cosmique",
+      "spatial",
+      "serpentiforme",
+      "solaire",
+      "cristallin",
+      "rare",
+      "defensif"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Karmis vit dans le vide spatial et fréquente surtout les régions riches en rayonnement solaire, en particules énergétiques et en fragments minéraux. Il dérive lentement dans les champs d’astéroïdes ou les zones orbitales proches d’étoiles jeunes, absorbant l’énergie stellaire à travers ses écailles cristallines. Il n’est pas naturellement hostile, mais défend violemment son territoire lorsqu’un vaisseau ou une créature s’approche trop près."
+          },
+          {
+            "text": "Le Karmis est une créature cosmique serpentiforme qui dérive lentement dans le vide spatial. Son corps long est recouvert d’écailles violettes scintillantes dont la surface irisée capte la lumière des étoiles et la diffracte en reflets colorés. Lorsque la créature traverse un rayon stellaire, sa peau semble briller comme une constellation vivante. Sa tête large est protégée par un casque osseux massif formant une pointe frontale, utilisée comme éperon naturel pour percuter les objets qui menacent son territoire. Ses deux yeux globuleux blancs ne perçoivent pas la lumière visible de manière ordinaire, mais détectent les radiations énergétiques absorbées ou réfléchies par les corps environnants. L’extrémité de son corps se termine par une queue transparente et évasée composée d’une matière cristalline solide, utilisée comme stabilisateur et protection."
+          },
+          {
+            "text": "Les Karmis mènent une existence solitaire et ne se rencontrent que rarement. Ils déposent leurs œufs dans des cavités minérales d’astéroïdes riches en ressources, où les embryons se développent lentement en absorbant énergie stellaire et minéraux environnants."
+          }
+        ]
+      }
+    ]
+  }
+}

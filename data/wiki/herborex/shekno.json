@@ -1,0 +1,96 @@
+{
+  "id": "shekno",
+  "type": "plant",
+  "identity": {
+    "name": "Shekno",
+    "subtitle": "Arbre bleu des lisieres seches",
+    "unknownName": "Arbre pale a feuillage bleu",
+    "slug": "shekno",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Shekno.png",
+    "visualNote": "Arbre au tronc pale et veine, portant un feuillage bleu-vert dense avec capsules claires herissees.",
+    "tags": [
+      "arbre",
+      "lisiere",
+      "feuillage-bleu",
+      "transition"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "foret temperee humide",
+      "steppe seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre seche",
+      "terre humide",
+      "sol caillouteux"
+    ],
+    "season": [
+      "redoux",
+      "montee des chaleurs",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 a 16 m",
+    "width": "5 a 12 m",
+    "colorMain": "bleu vert pale",
+    "colorSecondary": "ivoire, brun clair, violet discret",
+    "distinctiveSigns": [
+      "tronc pale legerement torsade",
+      "ecorce claire marquee de veines bleutees",
+      "branches nues puis tres feuillues aux extremites",
+      "couronne bleu-vert dense et irreguliere",
+      "feuilles ovales epaisses et pales",
+      "rameaux fertiles couverts de petites perles bleues",
+      "racines claires avec radicelles bleutees",
+      "capsules claires legerement herissees",
+      "graines ovoïdes bleu pale mouchetees"
+    ],
+    "descriptionShort": "Le Shekno est un arbre de transition a feuillage bleu-vert et tronc clair veine.",
+    "descriptionFull": "Le Shekno pousse la ou les lisieres humides rencontrent des terres plus seches. Son tronc pale et legerement torsade porte des branches qui se couvrent d'un feuillage bleu-vert epais, adapte autant au soleil qu'aux pluies moderees. Les capsules claires et les petites graines bleutees renforcent son apparence froide, mais il reste une plante naturelle de bordure."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Shekno sert surtout d'indicateur de lisiere et de sol encore vivant; son bois clair convient aux petits objets et aux reparations legeres."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

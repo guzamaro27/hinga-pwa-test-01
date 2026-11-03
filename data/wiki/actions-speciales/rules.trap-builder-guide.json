@@ -1,0 +1,550 @@
+{
+  "id": "rules.trap-builder-guide",
+  "type": "codex",
+  "identity": {
+    "name": "Guide de la Fabrique à Pièges",
+    "subtitle": "Règles / Pièges / Builder",
+    "icon": "?",
+    "tags": [
+      "règles",
+      "guide",
+      "pièges",
+      "builder",
+      "fabrique"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "pieges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation générale",
+        "blocks": [
+          {
+            "title": "Rôle de la Fabrique",
+            "items": [
+              "La Fabrique à Pièges sert à créer un danger complet : identité, famille, niveau, zones, déclenchement, détection, effets, persistance, destruction, knowledge et animation.",
+              "Le piège créé peut rester dans le sac, être posé sur une scène, être révélé, analysé, désarmé, détruit, récupéré ou déclenché selon ses règles.",
+              "Le builder décrit le piège. La résolution réelle reste assurée par les règles de scène et les actions de piège."
+            ]
+          },
+          {
+            "title": "Sommaire",
+            "items": [
+              "Identité, famille, preset, nature, type, niveau et élément magique.",
+              "État, déclenchement manuel, proximité, timer, footprint et zone d’action.",
+              "Détection, knowledge, dégâts, states, résistance, persistance, désarmement, destruction, récupération, after use, apparence, animation et notes.",
+              "Les champs -- Choix -- ou vides sont des placeholders : ils indiquent qu’une décision reste à prendre."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Identité",
+        "blocks": [
+          {
+            "title": "Nom",
+            "items": [
+              "Nom réel du piège une fois identifié.",
+              "Ce nom peut rester caché tant que le piège n’est pas suffisamment compris."
+            ]
+          },
+          {
+            "title": "Nom inconnu",
+            "items": [
+              "Nom affiché lorsque le personnage soupçonne un danger sans l’avoir identifié.",
+              "Il doit rester vague : mécanisme suspect, sol anormal, rune indistincte, danger possible."
+            ]
+          },
+          {
+            "title": "Quantité",
+            "items": [
+              "Nombre d’exemplaires disponibles dans le sac.",
+              "La pose d’un piège consomme normalement une quantité."
+            ]
+          },
+          {
+            "title": "Image",
+            "items": [
+              "Image utilisée dans les fiches, l’inventaire et les cartes de chat.",
+              "Si aucune image n’est choisie, l’icône de piège HINGA par défaut est utilisée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Famille",
+        "blocks": [
+          {
+            "title": "Rôle",
+            "text": "La famille détermine la grande catégorie du piège et les actions possibles. Un danger naturel ne se désarme pas, un piège mécanique se démonte, un piège magique se désactive."
+          },
+          {
+            "title": "Options",
+            "items": [
+              "Naturel : danger de terrain ou obstacle, comme fosse, gouffre, ronces ou éboulement. Il peut être repéré ou analysé, mais pas rangé dans le sac.",
+              "Mécanique : dispositif physique, comme câble, lames, piège à ours, bombe ou projectile. Il peut souvent être désarmé, détruit ou récupéré.",
+              "Magique : rune, glyphe, sceau, cristal ou barrière arcanique. Il se désactive par magie plutôt que par démontage."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Preset",
+        "blocks": [
+          {
+            "title": "Preset",
+            "items": [
+              "Modèle de piège prérempli.",
+              "Il donne une base cohérente, mais tous les champs peuvent ensuite être ajustés.",
+              "Le choix Manuel indique qu’aucun preset précis n’est appliqué."
+            ]
+          },
+          {
+            "title": "Réappliquer le preset",
+            "items": [
+              "Réapplique les valeurs du preset selon le niveau actuel.",
+              "Cette action est utile après un changement de niveau, mais peut remplacer certaines modifications manuelles."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Nature",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "La nature indique le support principal de l’effet : physique, magique ou runique. Elle aide à déterminer les jets, résistances et explications."
+          },
+          {
+            "title": "Options",
+            "items": [
+              "Physique : matériel, mécanique ou naturel. Le piège agit par force, choc, lame, chute, câble ou obstacle.",
+              "Magique : objet ou dispositif imprégné de magie. L’objet existe physiquement, mais son effet dépend d’un flux magique.",
+              "Runique : marque, glyphe ou sceau magique. Le piège est principalement un signe ou une inscription arcanique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Type",
+        "blocks": [
+          {
+            "title": "Type concret",
+            "items": [
+              "Le type est la forme concrète du piège choisie par le preset : fosse, câble, piège à ours, rune explosive, bombe, filet, lances ou barrière.",
+              "Le type n’est pas modifié séparément si un preset est choisi, afin d’éviter un preset et un type contradictoires."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niveau",
+        "blocks": [
+          {
+            "title": "Qualité générale",
+            "text": "Le niveau indique la qualité générale du piège. Plus le niveau est élevé, plus le piège est fiable, dangereux et difficile à neutraliser."
+          },
+          {
+            "title": "Options",
+            "items": [
+              "Instable : bricolage dangereux ou magie maladroite. Le piège est limité et pourra recevoir des règles de raté ou d’auto-destruction.",
+              "Simple : piège basique mais utilisable, accessible avec une première maîtrise ou pour certains dangers naturels sans compétence.",
+              "Complexe : piège préparé avec méthode, capable d’effets plus dangereux ou plus fiables.",
+              "Avancé : dispositif expert, difficile à détecter et à neutraliser. Il peut combiner des effets puissants."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Élément magique",
+        "blocks": [
+          {
+            "title": "Élément",
+            "items": [
+              "Élément utilisé par un piège magique ou runique.",
+              "Il peut influencer les dégâts, les states recommandés et l’apparence.",
+              "-- Choix -- ou une valeur vide signifie qu’aucun élément précis n’est encore choisi. Remplacez ce placeholder si le piège dépend d’une magie précise."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "État actuel",
+        "blocks": [
+          {
+            "title": "État du piège",
+            "items": [
+              "Dans le sac : objet encore porté par le personnage, non posé sur la scène.",
+              "Posé : le piège existe sur la scène, mais son état exact dépend de ses données.",
+              "Armé : le piège peut se déclencher.",
+              "Désarmé : le piège est neutralisé et peut parfois être récupéré.",
+              "Déclenché : le piège a déjà produit son effet.",
+              "Détruit : le piège n’est plus utilisable. Il peut rester visible comme débris ou disparaître de l’interface joueur."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Déclenchement",
+        "blocks": [
+          {
+            "title": "Mode",
+            "items": [
+              "Manuel : le piège attend une activation volontaire du propriétaire ou du MJ selon ses règles.",
+              "Proximité : le piège s’active lorsqu’un token entre dans sa zone de déclenchement.",
+              "Timer : le piège attend un nombre de rounds avant de s’activer. Le moteur complet du timer peut être branché séparément."
+            ]
+          },
+          {
+            "title": "Qui peut activer",
+            "items": [
+              "Propriétaire : le poseur ou propriétaire peut activer le piège.",
+              "MJ uniquement : le piège est contrôlé narrativement ou réservé au MJ.",
+              "Élément / magie : le piège attend une réaction à un élément ou une magie. Cette donnée prépare un déclenchement spécialisé.",
+              "Note : champ libre pour garder une précision courte sur la condition ou l’intention."
+            ]
+          },
+          {
+            "title": "Zone de déclenchement",
+            "items": [
+              "Même que zone d’effet : le piège s’active quand on entre dans la zone qui sera touchée.",
+              "Même que taille physique : le piège s’active quand on touche ou traverse son emprise physique.",
+              "Personnalisée : permet de définir une zone spéciale de déclenchement : case, ligne, rectangle ou cercle.",
+              "La zone de déclenchement peut être différente de la zone d’action."
+            ]
+          },
+          {
+            "title": "Timer",
+            "items": [
+              "Après pose : le timer démarre dès que le piège est posé.",
+              "Après armement : le timer démarre quand le piège devient armé.",
+              "Après activation manuelle : une action manuelle lance le compte à rebours au lieu de déclencher immédiatement.",
+              "Rounds : nombre de rounds avant activation. Un round minimum est requis."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Footprint / taille physique",
+        "blocks": [
+          {
+            "title": "Rôle",
+            "text": "Le footprint est l’espace occupé par le piège lui-même sur la scène. La Tile représente cette taille physique."
+          },
+          {
+            "title": "Formes",
+            "items": [
+              "Case : le piège occupe une seule case.",
+              "Rectangle : le piège occupe une zone rectangulaire, comme une fosse, un gouffre, une barrière ou un grand mécanisme.",
+              "Ligne : le piège occupe une ligne, comme un câble, une barrière ou des ronces en bande."
+            ]
+          },
+          {
+            "title": "Dimensions et ancrage",
+            "items": [
+              "Largeur en cases : nombre de cases occupées horizontalement.",
+              "Hauteur en cases : nombre de cases occupées verticalement.",
+              "Longueur physique : nombre de cases occupées par une ligne.",
+              "Largeur physique : épaisseur d’une ligne en cases.",
+              "Direction physique : orientation de l’emprise en ligne.",
+              "Départ physique : la ligne commence au point de pose ou se centre sur lui.",
+              "Ancrage : indique où se trouve le point de pose dans la forme. Centre place le piège autour du poseur, un bord ou un coin étend la forme dans la direction opposée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Zone d’action",
+        "blocks": [
+          {
+            "title": "Rôle",
+            "text": "La zone d’action est la zone qui subit réellement les dégâts, states ou effets du piège. Elle peut être différente de la taille physique."
+          },
+          {
+            "title": "Formes",
+            "items": [
+              "Case : une seule case est affectée.",
+              "Cercle : une zone circulaire autour du point d’origine est affectée.",
+              "Rectangle : une zone rectangulaire est affectée.",
+              "Ligne : une ligne de cases est affectée, utile pour lances, projectiles, câbles et barrières."
+            ]
+          },
+          {
+            "title": "Paramètres",
+            "items": [
+              "Rayon : portée du cercle. Plus le rayon est grand, plus la zone touchée s’étend.",
+              "Largeur et hauteur : dimensions d’un rectangle.",
+              "Longueur : nombre de cases parcourues par une ligne.",
+              "Largeur de ligne : épaisseur de la ligne en cases.",
+              "Direction : orientation de la ligne, y compris les diagonales.",
+              "Point de départ : indique si la ligne commence au piège ou si elle est centrée sur lui."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Détection",
+        "blocks": [
+          {
+            "title": "Niveau de détection",
+            "items": [
+              "Visible : le piège n’est pas réellement caché.",
+              "Discret : le piège se fond dans le décor mais reste repérable.",
+              "Caché : le piège est camouflé et demande une vraie recherche.",
+              "Invisible : le piège ne peut pas être trouvé par une recherche ordinaire."
+            ]
+          },
+          {
+            "title": "Modes de détection",
+            "items": [
+              "VIS : la vue peut le remarquer, comme un câble, une rune visible, une dalle ou une fosse.",
+              "AUD : un bruit peut le trahir, comme un tic-tac, un mécanisme, un souffle ou une vibration audible.",
+              "OLF : une odeur peut le trahir, comme poudre, huile, poison, gaz ou magie odorante.",
+              "TAC : le toucher ou les vibrations peuvent le révéler, comme un sol creux, une dalle instable ou une tension.",
+              "ESO : la perception ésotérique peut le sentir, comme rune, sceau, flux magique ou anomalie."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Knowledge",
+        "blocks": [
+          {
+            "title": "Connaissance progressive",
+            "items": [
+              "Knowledge 0 - Soupçonné : anomalie vague, ping temporaire, aucun détail mécanique.",
+              "Knowledge 1 - Repéré : type général, famille, nature, taille physique approximative et Tile correcte.",
+              "Knowledge 2 - Identifié : fonctionnement général, déclenchement, zone d’action, résistance, persistance et Drawing.",
+              "Knowledge 3 - Maîtrisé : valeurs précises, dégâts, états, durées, chances, persistance, destruction et after use.",
+              "Les notes MJ ne sont jamais révélées aux joueurs par knowledge normal."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dégâts PV",
+        "blocks": [
+          {
+            "title": "Dégâts",
+            "items": [
+              "Dégâts PV indique si le piège inflige des dégâts immédiats.",
+              "Activer dégâts permet de lancer une formule à l’activation.",
+              "Formule : expression de dégâts utilisée, souvent adaptée par les presets au niveau du piège.",
+              "Profils possibles : aucun, faible, moyen ou fort."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Effets secondaires / states",
+        "blocks": [
+          {
+            "title": "States",
+            "items": [
+              "Effet secondaire : premier état appliqué par le piège.",
+              "Effet tertiaire : deuxième état éventuel, réservé aux pièges plus avancés ou dangereux.",
+              "State : état appliqué, comme entravé, saignement, étourdi, ralenti ou projeté.",
+              "Tier : puissance de l’état. Les presets peuvent réduire ou augmenter ce tier selon le niveau du piège.",
+              "Durée : durée de l’état en rounds, sauf effet persistant ou règle spéciale.",
+              "Aucun : le piège n’applique pas cet état."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résistance",
+        "blocks": [
+          {
+            "title": "Résister",
+            "items": [
+              "Résistance autorisée indique si la cible peut réduire ou éviter les effets du piège.",
+              "Stat de résistance : stat utilisée pour tenter de réduire ou éviter l’effet.",
+              "Si réussite : annule, dégâts moitié, state -1 tier ou aucun state selon le réglage.",
+              "Si échec : dégâts complets, state complet, dégâts et state, ou autre résultat prévu."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Persistance",
+        "blocks": [
+          {
+            "title": "Effet persistant",
+            "items": [
+              "La persistance indique si le piège ou son effet reste attaché à la cible après activation.",
+              "Durée X rounds : l’effet disparaît après un nombre de rounds.",
+              "Jusqu’à désarmement / retrait : l’effet reste tant qu’il n’est pas retiré ou neutralisé.",
+              "PV par tour : inflige des dégâts à chaque tour tant que l’effet persiste.",
+              "Méthode de retrait : stat ou action nécessaire pour retirer l’effet persistant.",
+              "Échec de retrait : rien ne change, les PV par tour continuent ou l’effet s’aggrave selon le réglage."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Désamorçage / Désactivation",
+        "blocks": [
+          {
+            "title": "Neutraliser",
+            "items": [
+              "Désarmement : action permettant de neutraliser un piège mécanique.",
+              "Désactivation : action permettant de neutraliser un piège magique ou runique.",
+              "Stat : stat utilisée pour neutraliser le piège.",
+              "Difficulté simple : manipulation accessible.",
+              "Difficulté complexe : demande une vraie précision.",
+              "Difficulté avancée : réservée aux experts ou aux jets difficiles.",
+              "Un piège naturel ne se désarme pas. Une fosse ou un gouffre ne sont pas des mécanismes."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Destruction",
+        "blocks": [
+          {
+            "title": "Briser un piège",
+            "items": [
+              "Destructible indique si le piège peut être détruit par une action de joueur.",
+              "FOR - Force brute : méthode rapide et violente. Jet normal, mais risque d’activer le piège.",
+              "DEX - Démontage prudent : méthode plus précise. Jet en demi-stat, mais l’échec ne déclenche généralement rien.",
+              "Chance d’activation : probabilité que le piège se déclenche pendant la destruction, en réussite ou en échec."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Récupération / Ranger dans le sac",
+        "blocks": [
+          {
+            "title": "Récupérable",
+            "items": [
+              "Récupérable indique si le piège peut être rangé dans le sac après neutralisation.",
+              "Ranger dans le sac est possible seulement pour certains pièges mécaniques récupérables, désarmés et proches.",
+              "Le personnage doit être propriétaire ou autorisé."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "After use / après usage",
+        "blocks": [
+          {
+            "title": "Après activation",
+            "items": [
+              "Détruit : le piège disparaît ou devient inutilisable.",
+              "Désarmé : le piège ne peut plus se déclencher, mais peut parfois être récupéré.",
+              "Reste armé : le piège peut continuer à fonctionner."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Apparence / Tile / Drawing",
+        "blocks": [
+          {
+            "title": "Visuel",
+            "items": [
+              "Image : image utilisée dans le builder, l’inventaire et les cartes chat.",
+              "Tile : image terrain du piège sur la scène. Elle représente le piège ou son footprint.",
+              "Drawing : zone dessinée sur la scène pour représenter l’effet ou l’action du piège.",
+              "Style de dessin : couleur et style de la zone.",
+              "Type visuel : catégorie visuelle du piège.",
+              "Si aucune image n’est choisie, le système utilise le logo de piège HINGA par défaut."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Animation",
+        "blocks": [
+          {
+            "title": "Effet visuel",
+            "items": [
+              "Animation : effet visuel joué quand le piège s’active.",
+              "Activer animation : active ou désactive l’animation.",
+              "Aucune : pas d’effet visuel.",
+              "Image pop : une image apparaît brièvement.",
+              "Pulse de zone : la zone d’effet pulse au déclenchement.",
+              "Lance / ligne : une ligne ou une lance animée montre la direction de l’attaque.",
+              "Asset : image utilisée pour l’animation si nécessaire.",
+              "Couleur : couleur principale de l’animation.",
+              "Durée : durée de l’animation en millisecondes."
+            ]
+          },
+          {
+            "title": "Couleur",
+            "items": [
+              "La couleur règle la teinte principale de l’animation du piège.",
+              "Elle aide à distinguer rapidement une rune, une bombe, une zone de danger ou un effet élémentaire.",
+              "Elle ne remplace pas l’élément magique : elle sert seulement à l’affichage."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Notes / Notes MJ",
+        "blocks": [
+          {
+            "title": "Textes",
+            "items": [
+              "Description : texte visible décrivant le piège.",
+              "Notes : notes générales utiles au joueur ou au MJ.",
+              "Notes MJ : information réservée au MJ. Elle ne doit jamais être révélée aux joueurs par knowledge normal."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Champs placeholder / -- Choix --",
+        "blocks": [
+          {
+            "title": "Valeurs d’attente",
+            "items": [
+              "-- Choix -- est une valeur d’attente.",
+              "Elle signifie qu’aucune option définitive n’a encore été choisie.",
+              "Remplacez-la avant de sauvegarder un piège complet lorsque le champ est important.",
+              "Une valeur vide peut être volontaire pour certains champs optionnels, comme notes, image ou asset d’animation."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Conseils de création rapide",
+        "blocks": [
+          {
+            "title": "Méthode simple",
+            "items": [
+              "Choisissez d’abord la famille, puis un preset.",
+              "Choisissez le niveau avant de réappliquer le preset.",
+              "Vérifiez que footprint et zone d’action sont cohérents.",
+              "Choisissez le mode de déclenchement seulement après avoir défini la zone d’action.",
+              "Ajoutez dégâts ou states, puis seulement ensuite résistance et persistance.",
+              "Gardez les pièges naturels simples : ils se révèlent et s’analysent, mais ne se désarment pas comme des mécanismes.",
+              "Pour une bombe ou une rune, gardez un footprint réduit et une zone d’action plus large.",
+              "Pour un câble ou une barrière, synchronisez footprint et zone d’action si l’objet physique est aussi la zone dangereuse."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Debug moteur",
+        "blocks": [
+          {
+            "title": "Identifiants",
+            "items": [
+              "Identifiant système : identifiant interne du piège.",
+              "Identifiant propriétaire : acteur ou document propriétaire.",
+              "Identifiant scène : scène associée au piège posé.",
+              "X et Y : coordonnées de placement.",
+              "Ces champs servent au diagnostic et ne doivent pas être modifiés sans raison précise."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

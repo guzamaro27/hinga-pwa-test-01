@@ -1,0 +1,33 @@
+{
+  "id": "hashalikan",
+  "type": "creature-public",
+  "identity": {
+    "name": "Hashalikan",
+    "subtitle": "L'Épine Fatale",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "nuisible",
+      "medicinal",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Hashalikan vit dans les environnements sombres et humides, notamment les donjons, caves, souterrains et structures abandonnées des régions tempérées. Sa petite taille et son vol silencieux le rendent difficile à repérer avant le contact. Il semble attaquer surtout par réaction défensive ou territoriale lorsqu'un organisme vivant s'approche trop près."
+          },
+          {
+            "text": "Le Hashalikan est une créature minuscule, pas plus grande qu'un doigt. Son corps allongé en fuseau est entièrement recouvert d'épines rouge sang, denses et rigides. La surface semble presque organique et cristalline à la fois. Deux ailes transparentes et délicates émergent de son thorax, avec des reflets iridescents bleutés lorsqu'elles captent la lumière. Au-dessus de sa tête se dressent deux longues antennes fines, également teintées de bleu. À l'arrière, une queue articulée peut se replier sur elle-même, formant une sphère compacte entièrement hérissée d'épines et transformant la créature en projectile vivant."
+          },
+          {
+            "text": "Les Hashalikan peuvent être observés en essaims discrets ou dispersés individuellement dans les zones sombres et humides. Leur reproduction reste inconnue, et leur espérance de vie est difficile à établir car l'injection de leur venin entraîne souvent la mort rapide de l'individu porteur."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "rules.contre-attaque",
+  "type": "codex",
+  "identity": {
+    "name": "Contre, Riposte et Contre-attaque",
+    "subtitle": "Trois ouvertures et trois jets distincts",
+    "icon": "↯",
+    "tags": [
+      "contre",
+      "contre-attaque",
+      "riposte",
+      "réaction",
+      "attaque en retour"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/pf.mjs",
+    "module/helpers/rolls.mjs",
+    "module/helpers/counter-identity.mjs"
+  ],
+  "mechanics": {
+    "reactionKeys": [
+      "contre",
+      "contre_attaque",
+      "contre_attaque_arme",
+      "contre_attaque_magie",
+      "contre_attaque_bouclier",
+      "contre_attaque_cac",
+      "contre_attaque_echec"
+    ],
+    "cost": 3,
+    "actions": {
+      "contre": {
+        "kind": "contre-offensif",
+        "trigger": "Attaque de mêlée réussie",
+        "stat": "profil offensif",
+        "damageDivisor": 2,
+        "incomingDamage": "normal après protections",
+        "thresholdDivisor": 1
+      },
+      "riposte": {
+        "kind": "riposte",
+        "trigger": "Parade réussie et opposition gagnée si requise",
+        "stat": "profil offensif",
+        "thresholdDivisor": 2,
+        "damageDivisor": 2
+      },
+      "contreAttaque": {
+        "kind": "contre-attaque",
+        "trigger": "Échec adverse confirmé",
+        "stat": "profil offensif",
+        "thresholdDivisor": 1,
+        "damageDivisor": 2
+      }
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Contre",
+        "value": "ATK entière du profil ; dégâts entrants normaux"
+      },
+      {
+        "label": "Riposte",
+        "value": "Après parade gagnée ; profil/2"
+      },
+      {
+        "label": "Contre-attaque",
+        "value": "Après échec confirmé ; profil entier"
+      },
+      {
+        "label": "Dégâts du retour",
+        "value": "/2 en réussite ; aucun en échec"
+      },
+      {
+        "label": "Coût",
+        "value": "3 PF pour le retour ; coût de la parade distinct"
+      }
+    ],
+    "availability": {
+      "allowed": [
+        "Contre : attaque de mêlée réussie, sans parade préalable",
+        "Riposte : parade réussie et opposition gagnée lorsqu’elle est requise",
+        "Contre-attaque : échec confirmé de l’attaque adverse",
+        "Ouvertures spéciales explicitement accordées par une compétence"
+      ],
+      "blocked": [
+        "Hors portée de mêlée ou sans cible admissible",
+        "Une esquive ordinaire n’ouvre pas de Riposte",
+        "Une attaque simplement réussie ne prouve pas une parade gagnée",
+        "Pas de Contre-attaque avant confirmation de l’échec adverse"
+      ]
+    },
+    "roll": {
+      "formula": "Contre : statistique entière du profil offensif. Riposte : floor(statistique du profil offensif/2). Contre-attaque : statistique entière du profil. Aucun jet préalable de REACT pour Contre."
+    },
+    "modifiers": {
+      "avDv": true,
+      "thresholdBonusMalus": true,
+      "text": "Les AV/DV et les bonus admissibles s’appliquent au jet de retour. Un bonus réservé à une parade ne s’applique pas au Contre ; un bonus après échec adverse ne s’applique pas à une Riposte. Les compétences peuvent prévoir des exceptions explicites."
+    },
+    "outcomes": {
+      "success": "Dégâts du retour divisés par 2, une seule fois, avant la défense adverse. Le Contre laisse les dégâts entrants normaux après protections ; la Riposte conserve la résolution de la parade.",
+      "failure": "Aucun dégât de retour. Une Riposte ratée après une parade gagnée accorde +1 Avantage à la prochaine attaque de l’adversaire.",
+      "criticalFailure": "Critiques et échecs critiques suivent le jet offensif. Les multiplicateurs de critique précèdent la division des dégâts du retour."
+    },
+    "example": "Avec DEX 40, FOR 60 et une arme utilisant FOR : Contre 20, Riposte 30, Contre-attaque 60. Avec Riposte Tactique N1 active et admissible : 25, 35 et 65 ; +2 dégâts après division.",
+    "modifiedBy": [
+      "Arme, bouclier, magie de contact ou CàC : la variante ne change pas l’origine du retour",
+      "Riposte Tactique : les trois retours physiques de mêlée admissibles",
+      "Maîtrises de l’Épée et de la Dague : leurs bonus après parade exigent une vraie parade gagnée",
+      "Coup d’Opportunité : Riposte et Contre-attaque, sans Contre implicite",
+      "Manœuvre Anti-Riposte : ses contre-offensives admissibles"
+    ],
+    "links": [
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Parade",
+        "sectionId": "systeme",
+        "entryId": "rules.parade"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Contre",
+        "blocks": [
+          {
+            "text": "Après une attaque de mêlée réussie, subissez normalement ses dégâts après protections puis effectuez votre retour sous ATK entière du profil. Aucune parade ni aucun jet de REACT préalable. En réussite : dégâts du retour /2 ; en échec : aucun dégât."
+          }
+        ]
+      },
+      {
+        "label": "Riposte",
+        "blocks": [
+          {
+            "text": "Après une parade réussie et une opposition gagnée si elle est requise, attaquez avec la statistique du profil choisi /2. Les dégâts du retour sont divisés par 2. La parade a déjà résolu l’attaque initiale."
+          }
+        ]
+      },
+      {
+        "label": "Contre-attaque",
+        "blocks": [
+          {
+            "text": "Après l’échec confirmé de l’attaque adverse, attaquez avec la statistique entière du profil choisi. Les dégâts du retour sont divisés par 2."
+          }
+        ]
+      },
+      {
+        "label": "Variantes et compétences",
+        "blocks": [
+          {
+            "text": "Une arme de mêlée, un bouclier, une magie de contact ou le CàC peuvent servir de variante admissible. CàC ne signifie pas uniquement mains nues. Les ouvertures spéciales de compétences restent distinctes des déclencheurs de base."
+          },
+          {
+            "text": "Avec DEX 40, FOR 60 et une arme utilisant FOR : Contre 20, Riposte 30, Contre-attaque 60. Avec Riposte Tactique N1 active et admissible : 25, 35 et 65 ; +2 dégâts après division."
+          }
+        ]
+      },
+      {
+        "label": "Coût et corrections",
+        "blocks": [
+          {
+            "text": "Le retour coûte 3 PF de base, sans repayer au choix de la variante ni lors d’une correction de jet. La parade a son propre coût. Les exceptions gratuites restent celles de leurs compétences. Relance, Défi et Chance restent rattachés au même retour ; les résultats déjà appliqués ou les contrôles périmés restent protégés."
+          }
+        ]
+      },
+      {
+        "label": "Échange simultané",
+        "blocks": [
+          {
+            "text": "Préparez le Contre et la défense adverse avant d’appliquer les PV. Les deux frappes engagées restent applicables, même si la première met son destinataire hors combat. Une arme équipée n’interdit pas le Contre : vérifiez la portée du profil choisi. Les variantes de bouclier et de magie de contact restent disponibles lorsqu’elles sont permises."
+          }
+        ]
+      }
+    ]
+  }
+}

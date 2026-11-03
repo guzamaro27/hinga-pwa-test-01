@@ -1,0 +1,92 @@
+{
+  "id": "denlin",
+  "type": "plant",
+  "identity": {
+    "name": "Denlin",
+    "subtitle": "Arbre à cœur blanc",
+    "unknownName": "Arbre clair à grande feuille verte",
+    "slug": "denlin",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Denlin.png",
+    "visualNote": "Arbre au tronc ivoire torsadé, dressé devant une grande masse foliaire vert jaune, avec fleurs claires et fruits ovoïdes à graines ambrées.",
+    "tags": [
+      "bois-clair",
+      "fruit-ambré"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "etrange",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "plaine tempérée humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "2 à 5 m",
+    "width": "2 à 4 m",
+    "colorMain": "vert jaune",
+    "colorSecondary": "ivoire, crème, doré pâle",
+    "distinctiveSigns": [
+      "tronc ivoire épais et torsadé",
+      "écorce claire parcourue de fines veines dorées",
+      "grande masse foliaire verte, épaisse et lobée",
+      "feuille simple large jaune-vert",
+      "racines pâles nombreuses et superficielles",
+      "fleur crème à cœur doré lumineux",
+      "fruit ovoïde vert-jaune à loges humides",
+      "graines ambrées luisantes"
+    ],
+    "descriptionShort": "Le Denlin est un arbre humide au tronc blanc et veinuré, porté devant une large masse verte épaisse.",
+    "descriptionFull": "Le Denlin pousse dans les sols frais des forêts tempérées, là où l'eau reste proche sans noyer les racines. Son tronc ivoire s'élève comme une racine agrandie, parcourue de veines pâles. Une grande partie foliaire vert jaune protège le tronc des pluies directes. Les fleurs claires donnent des fruits ovoïdes dont les loges humides contiennent des graines ambrées."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "medicinale",
+      "artisanat",
+      "semis",
+      "ornementale"
+    ],
+    "notes": "Le bois clair du Denlin est recherché pour la fabrication d'objets décoratifs et d'instruments de musique."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

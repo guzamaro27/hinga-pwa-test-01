@@ -1,0 +1,70 @@
+{
+  "id": "stat-main-ombre",
+  "type": "codex",
+  "identity": {
+    "name": "Main de l’Ombre",
+    "subtitle": "Passif lié à Vol à la tire",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Vol à la tire",
+            "items": [
+              "Main de l’Ombre s’utilise depuis le Savoir-faire Vol à la tire.",
+              "Aucun jet DEX séparé n’est créé.",
+              "Le passif doit être activé manuellement."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Conditions",
+        "blocks": [
+          {
+            "title": "Bonus conditionnel",
+            "items": [
+              "+1 niveau de Vol à la tire, sans AV1 supplémentaire.",
+              "La cible doit être au contact et ne pas regarder directement le geste.",
+              "L’objet doit être accessible à un Vol à la tire normal."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Progression",
+        "blocks": [
+          {
+            "title": "Niveaux",
+            "items": [
+              "N1 : cible immobile ou en déplacement normal ; Sens du poids grossier.",
+              "N2 : cible en déplacement rapide ; le lanceur conserve son propre déplacement.",
+              "N3 : toute vitesse ; réussite normale automatique sur une cible réellement endormie ; Sens du poids précis."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Limites",
+        "blocks": [
+          {
+            "title": "Objet et détection",
+            "items": [
+              "Vol à la tire conserve son coût et ses conséquences ordinaires.",
+              "La réussite automatique ne contourne aucune protection de l’objet.",
+              "Les témoins et observateurs extérieurs conservent leurs possibilités normales de détection."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

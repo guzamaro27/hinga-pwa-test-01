@@ -1,0 +1,265 @@
+{
+  "id": "yukmar",
+  "type": "plant",
+  "identity": {
+    "name": "Yukmar",
+    "subtitle": "Palmier-Racine des Terres Chaudes",
+    "unknownName": "Petit arbre à feuilles en étoile",
+    "slug": "yukmar",
+    "tags": [
+      "desert",
+      "mediterraneen",
+      "arbre",
+      "palmier",
+      "racine",
+      "feuille",
+      "tronc",
+      "sec",
+      "aride",
+      "ornemental",
+      "fibre",
+      "survie"
+    ]
+  },
+  "display": {
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Yukmar.png",
+    "icon": "🌴",
+    "color": "#c98632",
+    "visualNote": "Petit arbre des régions chaudes, au tronc orangé ramifié et aux couronnes de longues feuilles vert-jaune disposées en étoile."
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "palmier sec",
+    "rarity": "commune",
+    "origin": "naturelle",
+    "element": "terre",
+    "magicalNature": "aucune",
+    "toxicity": "aucune",
+    "legality": "libre"
+  },
+  "ecology": {
+    "biomes": [
+      "desert",
+      "littoral sec",
+      "garrigue",
+      "plaine sèche"
+    ],
+    "climates": [
+      "chaud aride",
+      "sec",
+      "mediterraneen",
+      "tempere sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sol sablonneux",
+      "terre sèche",
+      "pentes rocailleuses",
+      "abords de routes chaudes",
+      "collines sèches",
+      "terrasses cultivées"
+    ],
+    "season": [
+      "croissance en saison chaude",
+      "floraison discrète après les pluies",
+      "résistance en saison sèche"
+    ],
+    "abundance": "commune",
+    "growthCycle": "vivace lente",
+    "light": "plein soleil",
+    "humidity": "faible"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "160 à 420 cm",
+    "colorMain": "orange ocre",
+    "colorSecondary": "vert jaune",
+    "distinctiveSigns": [
+      "tronc orangé épais et légèrement annelé",
+      "ramification en plusieurs bras dressés",
+      "feuilles longues et étroites disposées en couronnes étoilées",
+      "base racinaire épaisse et apparente",
+      "racines nombreuses et profondes",
+      "intérieur du tronc clair à structure rayonnante",
+      "jeunes inflorescences fines et dressées"
+    ],
+    "descriptionShort": "Le Yukmar est un petit arbre des terres chaudes, reconnaissable à son tronc orangé ramifié et à ses longues feuilles en couronnes étoilées.",
+    "descriptionFull": "Le Yukmar pousse dans les régions sèches et chaudes, aussi bien dans les déserts tempérés que sur les terres méditerranéennes pauvres en eau. Son tronc ocre, épais et annelé, se divise en plusieurs bras portant chacun une couronne de longues feuilles vert-jaune. Sa base racinaire robuste lui permet de s’ancrer dans les sols secs, rocailleux ou sablonneux, tandis que ses racines profondes cherchent l’humidité en profondeur. Bien qu’il pousse lentement, il résiste très bien aux longues périodes de sécheresse."
+  },
+  "danger": {
+    "level": 0,
+    "labels": [
+      "inoffensif"
+    ],
+    "contactRisk": "aucun",
+    "ingestionRisk": "aucun",
+    "magicalRisk": "aucun",
+    "symptoms": []
+  },
+  "harvest": {
+    "difficulty": 40,
+    "stat": "perc",
+    "requiredTool": "couteau courbe, petite scie ou serpe",
+    "bestMethod": "Prélever les feuilles extérieures ou de petites sections de jeunes branches sans entailler le tronc principal.",
+    "failureEffect": "Les fibres se déchirent, deviennent cassantes ou la coupe affaiblit durablement la croissance de l’arbre.",
+    "yield": {
+      "min": 2,
+      "max": 6,
+      "unit": "parts"
+    },
+    "parts": [
+      {
+        "id": "leaf",
+        "name": "Feuille de Yukmar",
+        "difficultyModifier": 0,
+        "use": "fibre végétale, tressage, couverture légère"
+      },
+      {
+        "id": "youngshoot",
+        "name": "Jeune pousse de Yukmar",
+        "difficultyModifier": 10,
+        "use": "aliment pauvre, infusion végétale"
+      },
+      {
+        "id": "wood",
+        "name": "Bois clair de Yukmar",
+        "difficultyModifier": 15,
+        "use": "petit artisanat, manche léger, combustible"
+      },
+      {
+        "id": "root",
+        "name": "Racine de Yukmar",
+        "difficultyModifier": 20,
+        "use": "fibre résistante, lien grossier, extraction rare"
+      },
+      {
+        "id": "floweringstem",
+        "name": "Hampe fine de Yukmar",
+        "difficultyModifier": 5,
+        "use": "décoration sèche, semis, tressage fin"
+      }
+    ]
+  },
+  "uses": {
+    "medicinal": false,
+    "toxic": false,
+    "edible": true,
+    "ritual": false,
+    "magical": false,
+    "crafting": true,
+    "construction": true,
+    "ornamental": true,
+    "effects": [
+      {
+        "id": "fibre-de-yukmar",
+        "label": "Fibre de Yukmar",
+        "type": "crafting",
+        "description": "Les feuilles séchées donnent des fibres utiles pour de petits tressages, liens, nattes ou couvertures légères."
+      },
+      {
+        "id": "bois-leger-yukmar",
+        "label": "Bois léger",
+        "type": "material",
+        "description": "Le bois clair du Yukmar peut servir à fabriquer de petits objets simples, des manches courts ou des pièces décoratives."
+      },
+      {
+        "id": "jeune-pousse-comestible",
+        "label": "Jeune pousse comestible",
+        "type": "food",
+        "description": "Les jeunes pousses peuvent être consommées en petite quantité, mais elles restent peu nourrissantes et leur récolte affaiblit la plante."
+      },
+      {
+        "id": "ombrage-sec",
+        "label": "Ombrage sec",
+        "type": "support",
+        "description": "Un Yukmar adulte offre une ombre légère, utile dans les terres chaudes mais insuffisante contre les chaleurs extrêmes."
+      }
+    ]
+  },
+  "crafting": {
+    "ingredientTier": 1,
+    "preparations": [
+      "fibre sechee",
+      "tressage",
+      "bois travaille",
+      "infusion",
+      "poudre",
+      "combustible"
+    ],
+    "recipes": [
+      {
+        "id": "fibre-sechee-de-yukmar",
+        "name": "Fibre séchée de Yukmar",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "natte-de-yukmar",
+        "name": "Natte de Yukmar",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "bois-clair-de-yukmar",
+        "name": "Bois clair de Yukmar préparé",
+        "requiredKnowledge": 3
+      }
+    ],
+    "synergies": [
+      "résine de kleriar",
+      "fibre d’epomamo",
+      "huile claire",
+      "cendre fine",
+      "feuille de romaria"
+    ],
+    "incompatibilities": [
+      "humidité prolongée",
+      "séchage trop rapide",
+      "coupe du tronc principal",
+      "stockage dans un lieu fermé humide"
+    ]
+  },
+  "economy": {
+    "valueCategory": "faible",
+    "baseValue": {
+      "pk": 20,
+      "pa": 0,
+      "po": 0
+    },
+    "valueNotes": "Le Yukmar est peu précieux individuellement, mais ses feuilles et son bois léger sont appréciés dans les régions sèches pour l’artisanat simple, les tressages et les usages quotidiens.",
+    "tradeLegality": "legale",
+    "demand": "moyenne"
+  },
+  "gameplay": {
+    "discoverCheck": {
+      "stat": "perc",
+      "difficulty": 20
+    },
+    "identifyCheck": {
+      "stat": "intell",
+      "difficulty": 35
+    },
+    "studyCheck": {
+      "stat": "mental",
+      "difficulty": 45
+    },
+    "flags": [
+      "desert",
+      "mediterranean",
+      "tree",
+      "fiber",
+      "wood",
+      "edible-shoot",
+      "common",
+      "dryland"
+    ]
+  },
+  "gm": {
+    "publicNotes": "Le Yukmar est une plante utile des terres chaudes. Il n’est pas rare, mais sa présence indique souvent un sol stable et légèrement plus profond que le sable nu.",
+    "privateNotes": "Dans certaines zones méditerranéennes, des Yukmars sont plantés volontairement pour marquer les chemins, retenir la terre ou protéger de petites cultures contre les vents secs.",
+    "plotHooks": [
+      "Un village cherche à replanter des Yukmars pour stabiliser une route menacée par l’avancée du sable.",
+      "Un artisan demande des feuilles longues et intactes pour fabriquer des nattes cérémonielles.",
+      "Une ancienne piste commerciale est reconnaissable aux Yukmars alignés sur les collines sèches.",
+      "Un Yukmar isolé pousse au-dessus d’une petite citerne oubliée."
+    ]
+  }
+}

@@ -1,0 +1,1268 @@
+{
+  "id": "vampirisme",
+  "type": "affliction",
+  "identity": {
+    "name": "Vampirisme",
+    "subtitle": "Savoir répondre à l’appel de la nuit",
+    "slug": "vampirisme",
+    "tags": [
+      "affliction",
+      "sang",
+      "tabou",
+      "Atelis"
+    ]
+  },
+  "classification": {
+    "category": "Affliction",
+    "rarity": "Extrêmement rare",
+    "state": "Atelis"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation",
+        "anchor": "presentation",
+        "blocks": [
+          {
+            "text": "Le Vampirisme est une Affliction permanente qui altère profondément le corps, les sens et l’esprit de celui qui en est atteint. Il ne s’agit pas d’une transformation temporaire : un Vampire reste un Vampire, qu’il soit rassasié, affamé ou dissimulé dans l’ombre."
+          },
+          {
+            "text": "Il s’organise autour de trois voies cumulables : **Silence** pour la discrétion et la prédation nocturne, **Sang** pour la magie et la vitalité, **Âme** pour la volonté et l’influence. Leur accomplissement mène à **Leptos**, **Isiros** et **Mayevo**."
+          }
+        ]
+      },
+      {
+        "label": "Atelis",
+        "anchor": "atelis",
+        "blocks": [
+          {
+            "text": "Atelis est l’état vampirique de base. Il est permanent : aucune activation, forme sélectionnable, dépense PF de transformation ou maintenance ne s’applique."
+          },
+          {
+            "table": {
+              "headers": [
+                "Statistique",
+                "Contribution"
+              ],
+              "rows": [
+                [
+                  "DISCR",
+                  "+5"
+                ],
+                [
+                  "ARC",
+                  "+5"
+                ],
+                [
+                  "CHAR",
+                  "+5"
+                ],
+                [
+                  "VITA",
+                  "+5"
+                ],
+                [
+                  "FOR",
+                  "−10"
+                ],
+                [
+                  "CONST",
+                  "−10"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Affinités",
+        "anchor": "affinites",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Puissance"
+              ],
+              "rows": [
+                [
+                  "EAU",
+                  "+1 niveau"
+                ],
+                [
+                  "CORPS",
+                  "+1 niveau"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Ces affinités n’accordent ni sort gratuit, ni bonus ARC supplémentaire, ni bonus de dégâts distinct."
+          }
+        ]
+      },
+      {
+        "label": "Sens vampiriques",
+        "anchor": "sens-vampiriques",
+        "blocks": [
+          {
+            "text": "Passif permanent, portée 15 m, portée à 30 m dès l’acquisition d’au moins un Telios. L’obscurité naturelle est traitée comme lumière faible dans cette portée, en respectant murs et obstacles. L’obscurité magique totale reste bloquante. Ce passif n’accorde ni See Invisibility ni détection automatique des cibles invisibles. Avec une autre vision nocturne, conserver la plus grande portée, sans addition.",
+            "title": "Vision nocturne",
+            "headingLevel": 4,
+            "anchor": "vision-nocturne"
+          }
+        ]
+      },
+      {
+        "label": "Silence naturel",
+        "anchor": "silence-naturel",
+        "blocks": [
+          {
+            "text": "Les bruits corporels ordinaires d’un Atelis ne permettent qu’une détection auditive avancée (`AUD = advancedOnly`). Une écoute ordinaire ne suffit pas ; une Écholocation active compatible peut détecter l’Atelis. Les sons externes qu’il provoque existent normalement."
+          }
+        ]
+      },
+      {
+        "label": "Soleil, Ombre et Nuit",
+        "anchor": "soleil",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Exposition",
+                "Stats atomiques",
+                "PV/SM/PF max"
+              ],
+              "rows": [
+                [
+                  "Nuit",
+                  "±0",
+                  "×1"
+                ],
+                [
+                  "Ombre",
+                  "−10 à toutes",
+                  "×0,5"
+                ],
+                [
+                  "Soleil direct",
+                  "−20 à toutes",
+                  "×0,5"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Un override de terrain explicite prévaut sur le cycle Foundry. Tags : `terrain_vampirique_nuit`, `terrain_vampirique_ombre`, `terrain_vampirique_soleil`. La lumière artificielle ordinaire n’est pas du soleil. Il n’existe aucun dégât solaire périodique. Les familles dérivées sont recalculées depuis les stats atomiques, sans double malus."
+          }
+        ]
+      },
+      {
+        "label": "Jauge de Sang",
+        "anchor": "sang",
+        "blocks": [
+          {
+            "text": "La jauge de **Sang** est comprise entre **0 et 4**. Elle ne diminue pas automatiquement avec le temps : elle représente la réserve surnaturelle utilisée par la condition vampirique et par les Actions Sanguines."
+          },
+          {
+            "table": {
+              "headers": [
+                "Sang",
+                "État",
+                "Effets"
+              ],
+              "rows": [
+                [
+                  "4",
+                  "Rassasié",
+                  "VITA +5 supplémentaire ; PV max ×1,20"
+                ],
+                [
+                  "3",
+                  "Stable",
+                  "Aucun"
+                ],
+                [
+                  "2",
+                  "Affamé",
+                  "VITA −5"
+                ],
+                [
+                  "1",
+                  "Famine",
+                  "VITA −5 ; PSY −5"
+                ],
+                [
+                  "0",
+                  "Appel du Sang",
+                  "VITA −10 ; PSY −10"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Appel du Sang",
+        "anchor": "appel-du-sang",
+        "blocks": [
+          {
+            "text": "Lors d’une transition réelle de Sang >0 vers 0, l’Atelis effectue une fois un test de PSY effective, malus inclus. Un échec applique les dégâts SM canoniques de niveau `grand`. L’attribution initiale à 0 ne déclenche pas ce choc."
+          },
+          {
+            "text": "Tant que Sang vaut 0, chaque nouveau vrai jet Hinga de PSY échoué fait perdre 1 SM supplémentaire, une seule fois par jet. Le jet d’entrée est exclu et le mécanisme ne se déclenche pas récursivement. Morsure, Griffes et les passifs biologiques restent utilisables."
+          }
+        ]
+      },
+      {
+        "label": "Griffes",
+        "anchor": "griffes",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Profil",
+                  "`cac` · physique · naturelle · contact"
+                ],
+                [
+                  "Stat",
+                  "FOR effective"
+                ],
+                [
+                  "Action",
+                  "Majeure"
+                ],
+                [
+                  "Coût total",
+                  "1 PF"
+                ],
+                [
+                  "Dégâts",
+                  "`cacDamageFormula(FOR effective) + 1d6`"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Les Griffes emploient le pipeline CàC, les défenses et critiques standards. Elles n’appliquent aucun state et ne modifient pas Sang."
+          }
+        ]
+      },
+      {
+        "label": "Morsure",
+        "anchor": "morsure",
+        "blocks": [
+          {
+            "text": "Action spéciale majeure de contact, coût 0 PF, vrai test Hinga de DISCR effective. Ce n’est pas une attaque CàC et elle ne cause aucun dégât PV direct. Une seule cible vivante ; à Sang 4/4, l’action est refusée avant jet et sans consommation d’action."
+          },
+          {
+            "table": {
+              "headers": [
+                "Résultat",
+                "Absorption nominale"
+              ],
+              "rows": [
+                [
+                  "Réussite",
+                  "+1 Sang ; 10 % déplétion ; Torpeur 1 tour"
+                ],
+                [
+                  "Critique 2–5",
+                  "+2 ; 20 % ; 2 tours"
+                ],
+                [
+                  "Ultime 1",
+                  "+3 ; 30 % ; 3 tours"
+                ],
+                [
+                  "Échec",
+                  "Aucun effet ; tentative remarquée"
+                ],
+                [
+                  "96–99",
+                  "Aucun effet ; ouverture de Contre-attaque"
+                ],
+                [
+                  "100",
+                  "Même ouverture avec AV1 pour cette contre-attaque"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "L’absorption réelle est limitée par la place restante dans Sang et par les unités complètes de 10 % disponibles avant le plafond de 50 % de déplétion. Tous les effets utilisent cette quantité réelle."
+          },
+          {
+            "text": "Saisie (`etat_saisie_cac`), Prise (`etat_prise_cac`), Paralysée (`etat_paralyse`), Inconsciente (`etat_inconscient`), sommeil explicite approprié ou une décision MJ `automaticSuccess` garantissent au minimum la réussite. Le d100 est tout de même lancé : 1 ultime, 2–5 critique, toute autre valeur réussite normale, sans Contre-attaque."
+          },
+          {
+            "text": "Tout Telios ajoute une seule fois +5 au seuil de Morsure, quel que soit le nombre de Telios acquis. Ce bonus ne modifie pas DISCR. Un Mayevo mord également avec un succès minimum automatique une cible Soumise T3 ou Contrôlée T4 par lui-même ; Influencé, Charmé ou Intimidé ne suffisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Torpeur vampirique",
+        "anchor": "torpeur",
+        "blocks": [
+          {
+            "text": "`etat_torpeur_vampirique`, tier 1, axe physique : REACT −2. Pendant sa durée, les effets mécaniques des states de famille Douleur sont suspendus, sans retirer ces states ni interrompre leur durée. Ils reprennent dès la fin de la Torpeur."
+          }
+        ]
+      },
+      {
+        "label": "Déplétion sanguine",
+        "anchor": "depletion",
+        "blocks": [
+          {
+            "text": "La déplétion persistante va de 0 à 50 % et multiplie les PV max de la victime par `1 − déplétion/100`. Elle ne constitue pas un dégât ; la jauge courante conserve sa proportion lors des changements de maximum."
+          },
+          {
+            "table": {
+              "headers": [
+                "Repos",
+                "Récupération"
+              ],
+              "rows": [
+                [
+                  "Sieste / `court`",
+                  "3 points"
+                ],
+                [
+                  "Nuit / `nuit`",
+                  "15 points"
+                ],
+                [
+                  "Repos prolongé — 2 nuits / `prolongé`",
+                  "30 points"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Les Voies",
+        "anchor": "voies",
+        "blocks": [
+          {
+            "text": "Un Atelis peut progresser simultanément dans les Voies du Silence, du Sang et de l’Âme. Les branches d’une même Voie sont également cumulables."
+          },
+          {
+            "text": "Toutes les Aptitudes sont permanentes et ne demandent pas une transformation active. À Sang 0, les capacités actives vampiriques sont bloquées, mais leurs effets passifs restent appliqués."
+          }
+        ]
+      },
+      {
+        "label": "Voie du Silence",
+        "anchor": "voie-silence",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Aptitude",
+                "Prérequis",
+                "Effet"
+              ],
+              "rows": [
+                {
+                  "anchor": "voie-silence-aptitude",
+                  "cells": [
+                    "Voie du Silence",
+                    "Vampirisme",
+                    "DISCR +5, REACT +5, CONST −5"
+                  ]
+                },
+                {
+                  "anchor": "rapidite",
+                  "cells": [
+                    "Rapidité",
+                    "Voie du Silence",
+                    "REACT +5"
+                  ]
+                },
+                {
+                  "anchor": "furtivite",
+                  "cells": [
+                    "Furtivité",
+                    "Rapidité",
+                    "DISCR +5 ; en furtivité, masque uniquement les traces visuelles ordinaires"
+                  ]
+                },
+                {
+                  "anchor": "obscurite",
+                  "cells": [
+                    "Obscurité",
+                    "Furtivité",
+                    "DISCR +5 ; après une vraie dissimulation réussie dans l’ombre, VIS devient `advancedOnly`"
+                  ]
+                },
+                {
+                  "anchor": "agilite",
+                  "cells": [
+                    "Agilité",
+                    "Voie du Silence",
+                    "DEX +5"
+                  ]
+                },
+                {
+                  "anchor": "strategie-nocturne",
+                  "cells": [
+                    "Stratégie nocturne",
+                    "Agilité",
+                    "INT +5"
+                  ]
+                },
+                {
+                  "anchor": "griffes-aptitude",
+                  "cells": [
+                    "Griffes",
+                    "Stratégie nocturne",
+                    "+10 au seuil de l’attaque Griffes uniquement ; FOR et dégâts inchangés"
+                  ]
+                },
+                {
+                  "anchor": "pas-dombre",
+                  "cells": [
+                    "Pas d’Ombre",
+                    "Obscurité + Griffes",
+                    "Action mineure, 1 PF total, 1/round ; déplacement instantané jusqu’à 5 m entre deux zones d’ombre valides"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Obscurité ne masque ni OLF, ni TAC, ni ESO. Elle cesse en pleine lumière, lors d’une action offensive manifeste ou quand la dissimulation est brisée. Pas d’Ombre ne traverse ni mur, ni porte fermée, ni barrière opaque ; il ne provoque pas d’attaque d’opportunité et ne consomme pas le déplacement ordinaire. Il conserve un camouflage Obscurité déjà actif si la destination reste sombre, sans l’accorder gratuitement."
+          }
+        ]
+      },
+      {
+        "label": "Voie du Sang",
+        "anchor": "voie-sang",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Aptitude",
+                "Prérequis",
+                "Effet"
+              ],
+              "rows": [
+                {
+                  "anchor": "voie-sang-aptitude",
+                  "cells": [
+                    "Voie du Sang",
+                    "Vampirisme",
+                    "ARC +5, VITA +5, FOR −5"
+                  ]
+                },
+                {
+                  "anchor": "mirage",
+                  "cells": [
+                    "Mirage vampirique",
+                    "Voie du Sang",
+                    "ARC +5 ; action mineure, 2 PF, aucun jet, portée floor(ARC effective/10) m, durée 2 rounds"
+                  ]
+                },
+                {
+                  "anchor": "regeneration-sanguine",
+                  "cells": [
+                    "Régénération sanguine",
+                    "Mirage",
+                    "VITA +5 ; soins vampiriques explicitement sanguinaires reçus ×1,20"
+                  ]
+                },
+                {
+                  "anchor": "guerison",
+                  "cells": [
+                    "Guérison",
+                    "Régénération sanguine",
+                    "ARC +5 ; soin magique CORPS prodigué à une autre créature ×1,20"
+                  ]
+                },
+                {
+                  "anchor": "longevite",
+                  "cells": [
+                    "Longévité",
+                    "Guérison",
+                    "Vieillissement ralenti ; AV1 aux vraies résistances contre `poison_phy` et `poison_mag`"
+                  ]
+                },
+                {
+                  "anchor": "resistance-magique",
+                  "cells": [
+                    "Résistance magique",
+                    "Mirage",
+                    "DEM +5 ; RES MAG +2"
+                  ]
+                },
+                {
+                  "anchor": "septieme-sens",
+                  "cells": [
+                    "7e Sens",
+                    "Résistance magique",
+                    "PERC +5 ; action spéciale PERC mineure, 1 PF, radar vital directionnel privé à 5 m"
+                  ]
+                },
+                {
+                  "anchor": "puissance-magique",
+                  "cells": [
+                    "Puissance magique",
+                    "7e Sens",
+                    "ARC +5 ; +5 au seuil des attaques magiques offensives EAU ou CORPS possédant leur propre jet"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Le Mirage est une copie synthétique non liée, immobile et non matérielle du Token source. Il conserve les propriétés visuelles sûres, mais aucune lumière, vision, détection, ressource, Item ou effet mécanique exploitable. Un seul Mirage peut exister par Vampire ; le nouveau remplace l’ancien. Une attaque réussie le dissipe sans transmettre de dégâts. Hors combat, aucune minuterie réelle n’est inventée : sa disparition reste manuelle ou suit un autre événement normal de nettoyage."
+          },
+          {
+            "text": "Le 7e Sens effectue un vrai jet de PERC. Sur réussite, il détecte les présences vivantes dotées de sang malgré `advancedOnly`, jamais à travers un blocage `blocked` ou un obstacle solide. Il affiche seulement des flèches directionnelles transitoires sur le lanceur, privées au lanceur et aux MJ : aucun nom, UUID, image, distance, coordonnées exactes, ciblage automatique ou message de résultat supplémentaire."
+          }
+        ]
+      },
+      {
+        "label": "Voie de l’Âme",
+        "anchor": "voie-ame",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Aptitude",
+                "Prérequis",
+                "Effet"
+              ],
+              "rows": [
+                {
+                  "anchor": "voie-ame-aptitude",
+                  "cells": [
+                    "Voie de l’Âme",
+                    "Vampirisme",
+                    "PSY +5, CHAR +5, CONST −5"
+                  ]
+                },
+                {
+                  "anchor": "hypnose",
+                  "cells": [
+                    "Hypnose vampirique",
+                    "Voie de l’Âme",
+                    "PSY +5 ; action spéciale PSY majeure, 1 PF, 5 m, PSY normal puis résistance PSY/AV ; Influencé T1"
+                  ]
+                },
+                {
+                  "anchor": "seduction",
+                  "cells": [
+                    "Séduction",
+                    "Hypnose",
+                    "CHAR +5 ; T2 coûte 2 PF, base PSY DV1 améliorée d’un cran en PSY normal, puis résistance PSY ; Charmé T2"
+                  ]
+                },
+                {
+                  "anchor": "intimidation",
+                  "cells": [
+                    "Intimidation vampirique",
+                    "Séduction",
+                    "CHAR +5 ; action spéciale CHAR majeure, 2 PF, 5 m ; réussite CHAR puis résistance PSY ratée : Intimidé T2"
+                  ]
+                },
+                {
+                  "anchor": "soumission",
+                  "cells": [
+                    "Soumission",
+                    "Intimidation",
+                    "PSY +5 ; T3 coûte 3 PF, base PSY/2, puis résistance PSY/DV ; Soumis T3"
+                  ]
+                },
+                {
+                  "anchor": "resistance-mentale",
+                  "cells": [
+                    "Résistance mentale",
+                    "Hypnose",
+                    "RES MENT +3"
+                  ]
+                },
+                {
+                  "anchor": "esprit-de-fer",
+                  "cells": [
+                    "Esprit de Fer",
+                    "Résistance mentale",
+                    "PSY +5 ; AV1 uniquement au jet PSY initial d’entrée en Appel du Sang"
+                  ]
+                },
+                {
+                  "anchor": "esprit-inviolable",
+                  "cells": [
+                    "Esprit Inviolable",
+                    "Esprit de Fer",
+                    "AV1 aux vraies résistances contre les states de famille Influence"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "text": "Hypnose exige une cible consciente capable d’entendre clairement le Vampire, sans contact visuel ni langue commune obligatoires pour appliquer Influencé ou Charmé. Chaque palier commence par le jet offensif PSY ; la cible ne résiste que si ce jet réussit. Les critiques offensifs n’ajoutent aucun effet propre."
+          },
+          {
+            "text": "Soumission gagne exactement un cran d’aisance, de PSY/2 à PSY DV1, si la cible est déjà Charmée T2 ou Intimidée T2 par ce même Vampire. Les deux states ne cumulent pas ce bonus. La provenance d’un autre lanceur ne compte pas. Les durées viennent du profil canonique Influence : T1 2 rounds, T2 3 rounds, T3 4 rounds."
+          },
+          {
+            "text": "Intimidation demande que la cible perçoive clairement le Vampire, sans langue commune obligatoire. Elle n’ajoute ni Peur, ni Panique, ni fuite, ni dégâts SM, ni coût Sang."
+          }
+        ]
+      },
+      {
+        "label": "Telios",
+        "anchor": "telios",
+        "blocks": [
+          {
+            "text": "Telios est l’accomplissement permanent d’une Voie, sans activation ni transformation. Les trois Telios sont cumulables. Dès qu’au moins un Telios est acquis, la Vision nocturne passe à 30 m et Morsure gagne +5 au seuil ; ces deux bénéfices communs ne se cumulent jamais entre plusieurs Telios."
+          },
+          {
+            "table": {
+              "headers": [
+                "Telios",
+                "Prérequis",
+                "Stats",
+                "Accomplissement"
+              ],
+              "rows": [
+                [
+                  "Leptos",
+                  "Pas d’Ombre",
+                  "DISCR +10, REACT +5, CONST −5",
+                  "Obscurité parfaite ; Griffes DEX ; Pas d’Ombre 10 m ; Morsure de l’Ombre"
+                ],
+                [
+                  "Isiros",
+                  "Longévité + Puissance magique",
+                  "ARC +10, VITA +5, FOR −5",
+                  "Soins sanguinaires et CORPS ×1,50 ; EAU/CORPS +2 total ; Sens du Sang"
+                ],
+                [
+                  "Mayevo",
+                  "Soumission + Esprit Inviolable",
+                  "CHAR +10, PSY +5, VITA −5",
+                  "Regard Impérieux ; Contrôle T4 ; défense Influence supérieure ; Emprise"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Telios Leptos",
+        "anchor": "telios-leptos",
+        "blocks": [
+          {
+            "text": "Lorsque le camouflage d’Obscurité est réellement actif, sa contribution VIS devient `blocked`. Quitter l’ombre ou accomplir une action offensive la retire sans supprimer les contributions d’autres sources. Les Griffes utilisent alors DEX pour le jet offensif, mais leurs dégâts restent `cacDamageFormula(FOR effective) + 1d6` et leur bonus de seuil +10 demeure."
+          },
+          {
+            "text": "Pas d’Ombre atteint 10 m sans changer son coût, son action ou sa limite. Une Morsure engagée sous le camouflage actif d’Obscurité gagne +5 au seuil en plus du +5 commun Telios, puis brise le camouflage après le jet, même en cas d’échec."
+          }
+        ]
+      },
+      {
+        "label": "Telios Isiros",
+        "anchor": "telios-isiros",
+        "blocks": [
+          {
+            "text": "Régénération sanguine et Guérison remplacent leur multiplicateur ×1,20 par ×1,50 dans leurs seuls cas admissibles. Les affinités vampiriques EAU et CORPS valent chacune +2 au total. Le +5 au seuil des attaques magiques offensives EAU/CORPS de Puissance magique reste inchangé."
+          },
+          {
+            "text": "Sens du Sang est passif, gratuit et sans jet. À `floor(PERC effective / 2)` mètres, sur la même scène, Isiros perçoit la position exacte des porteurs d’un state canonique de Saignement. Ce sens ignore murs ordinaires, invisibilité, silence et profils VIS, sans révéler identité, nom, statistiques ou Token aux autres joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Telios Mayevo",
+        "anchor": "telios-mayevo",
+        "blocks": [
+          {
+            "text": "Regard Impérieux permet à un contact visuel réciproque valide de remplacer la voix pour Hypnose T1–T3 et Intimidation, sans augmenter portée, seuil ou compréhension linguistique. Le regard suffit pour appliquer l’influence, mais un ordre précis à une cible Soumise ou Contrôlée doit toujours lui être communiqué de manière compréhensible. Contrôle vampirique T4 est une action majeure à 4 PF, offensive PSY/2, disponible uniquement contre une cible déjà Soumise T3 par ce même Mayevo ; la cible utilise le contre canonique de `etat_controle`."
+          },
+          {
+            "text": "Esprit Inviolable supérieur rend immunisé aux Influences T1 et T2 et conserve AV1 total contre T3 et T4, sans protéger des autres familles mentales. Emprise garantit le succès minimum de Morsure contre une cible Soumise T3 ou Contrôlée T4 par ce même Mayevo, tout en conservant le jet pour déterminer les critiques."
+          }
+        ]
+      },
+      {
+        "label": "Actions Sanguines — 1 Sang",
+        "anchor": "actions-sanguines-1",
+        "blocks": [
+          {
+            "text": "Les Actions Sanguines forment un catalogue propre au Vampirisme. Elles ne sont ni des Compétences ni des Aptitudes, ne coûtent aucun PF et dépensent directement la jauge de Sang. Une activation refusée avant engagement ne dépense rien ; une action engagée paie son Sang même si son jet échoue. Si la dépense atteint 0 Sang, l’Appel du Sang attend la fin complète de l’action."
+          },
+          {
+            "table": {
+              "headers": [
+                "Action",
+                "Type",
+                "Portée",
+                "Règle"
+              ],
+              "rows": [
+                {
+                  "anchor": "surcharge-sanguine",
+                  "cells": [
+                    "Surcharge Sanguine",
+                    "Armement gratuit",
+                    "Soi",
+                    "La prochaine attaque physique de contact compatible paie 1 Sang : +5 seuil, +1d6 avant critique ; critique T1, ultime T2. Une attaque incompatible ou la fin du tour annule sans coût."
+                  ]
+                },
+                {
+                  "anchor": "aiguille-carmin",
+                  "cells": [
+                    "Aiguille Carmin",
+                    "Mineure · ARC",
+                    "10 m",
+                    "Projectile magique CORPS, 1d4 + floor(ARC/10). Réussite : Saignement léger T1 ; critique : Hémorragie T2 ; ultime : Exsanguination T3. Deux Aiguilles sont possibles dans le même tour si les actions mineures et le Sang le permettent."
+                  ]
+                },
+                {
+                  "anchor": "coagulation-forcee",
+                  "cells": [
+                    "Coagulation Forcée",
+                    "Mineure · ARC",
+                    "Contact",
+                    "Cible consentante : réussite −1 Tier, critique −2, ultime purge. Protège contre nouveau Saignement ou aggravation jusqu’au prochain tour du Vampire ; tout Saignement restant poursuit ses effets normaux."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Actions Sanguines — 2 Sang",
+        "anchor": "actions-sanguines-2",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Action",
+                "Type",
+                "Portée",
+                "Règle"
+              ],
+              "rows": [
+                {
+                  "anchor": "voile-de-sang",
+                  "cells": [
+                    "Voile de Sang",
+                    "Réaction",
+                    "Soi",
+                    "Après une attaque réussie et avant les dégâts finaux : attaque de contact /2 puis repositionnement gratuit possible de 3 m sans opportunité ; attaque à distance ou projectile /3 sans déplacement."
+                  ]
+                },
+                {
+                  "anchor": "dissipation-ecarlate",
+                  "cells": [
+                    "Dissipation Écarlate",
+                    "Réaction ou mineure",
+                    "Soi",
+                    "Esquive DEX/2 : sur réussite, annule l’attaque et déplace jusqu’à 5 m sans opportunité ; sur échec, attaque normale, Sang et réaction consommés. Libération DEX : retire Saisie, Prise, entrave matérielle ou immobilisation physique puis déplace jusqu’à 3 m ; jamais Paralysie, contrôle mental ou enfermement structurel."
+                  ]
+                },
+                {
+                  "anchor": "entraves-hematiques",
+                  "cells": [
+                    "Entraves Hématiques",
+                    "Majeure · ARC",
+                    "8 m",
+                    "Après réussite, résistance FOR/2 ; échec : `etat_immobilise` pendant exactement 2 rounds."
+                  ]
+                },
+                {
+                  "anchor": "pluie-carmin",
+                  "cells": [
+                    "Pluie Carmin",
+                    "Majeure · sans jet",
+                    "Rayon 8 m",
+                    "Jusqu’au prochain tour, indique en privé les positions exactes des créatures vivantes à circulation sanguine atteignables ; les obstacles pleins bloquent."
+                  ]
+                },
+                {
+                  "anchor": "rappel-carmin",
+                  "cells": [
+                    "Rappel Carmin",
+                    "Majeure · ARC",
+                    "10 m",
+                    "Exige un Saignement ; résistance FOR puis traction canonique jusqu’à 5 m vers le Vampire."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Actions Sanguines — 3 Sang",
+        "anchor": "actions-sanguines-3",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Action",
+                "Type",
+                "Portée",
+                "Règle"
+              ],
+              "rows": [
+                {
+                  "anchor": "lance-hemophage",
+                  "cells": [
+                    "Lance Hémophage",
+                    "Majeure · ARC",
+                    "15 m",
+                    "Attaque magique CORPS, 2d8 + floor(ARC/10). Après protections, soigne le Vampire de floor(PV réellement perdus / 2) comme soin sanguinaire, donc compatible avec Régénération sanguine ou Isiros ; ne restaure jamais du Sang."
+                  ]
+                },
+                {
+                  "anchor": "compression-sanguine",
+                  "cells": [
+                    "Compression Sanguine",
+                    "Majeure · ARC",
+                    "8 m",
+                    "Attaque interne CORPS, 2d8 + floor(ARC/10), armure externe ignorée, RES MAG contextuelle doublée ; T1/T2/T3 selon qualité."
+                  ]
+                },
+                {
+                  "anchor": "marionnette-de-sang",
+                  "cells": [
+                    "Marionnette de Sang",
+                    "Majeure · ARC",
+                    "10 m",
+                    "Résistance VITA/DV ; impose un déplacement de 5 m ou une action physique mineure simple, jamais attaque, sort ou action complexe."
+                  ]
+                },
+                {
+                  "anchor": "transfusion-profane",
+                  "cells": [
+                    "Transfusion Profane",
+                    "Majeure · sans jet",
+                    "Contact",
+                    "Autre cible vivante : vrai soin magique CORPS de 3d8 PV, puis Saignement réduit d’un Tier. Les bonus, malus et limitations des soins magiques s’appliquent normalement."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Actions Sanguines — 4 Sang",
+        "anchor": "actions-sanguines-4",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Action",
+                "Type",
+                "Portée",
+                "Règle"
+              ],
+              "rows": [
+                {
+                  "anchor": "deluge-ecarlate",
+                  "cells": [
+                    "Déluge Écarlate",
+                    "Majeure · ARC par cible",
+                    "Rayon 5 m",
+                    "Ennemis choisis, alliés perçus exclus : 3d8 + floor(ARC/10), T1/T2/T3. Appel du Sang après toute la zone."
+                  ]
+                },
+                {
+                  "anchor": "coeur-rouge",
+                  "cells": [
+                    "Cœur Rouge",
+                    "Réaction",
+                    "Soi",
+                    "Après des dégâts ramenant à 0 PV, revient à 50 % PV max sans soin ni purge, puis Appel du Sang."
+                  ]
+                },
+                {
+                  "anchor": "rupture-hematique",
+                  "cells": [
+                    "Rupture Hématique",
+                    "Majeure · ARC",
+                    "10 m",
+                    "Exige un Saignement : 2d8 + 1d8 par Tier + floor(ARC/10). Le Saignement est consommé seulement sur réussite."
+                  ]
+                },
+                {
+                  "anchor": "maree-ecarlate",
+                  "cells": [
+                    "Marée Écarlate",
+                    "Majeure · ARC",
+                    "Rayon 6 m",
+                    "Résistance FOR/DV par ennemi ; déplacement forcé choisi jusqu’à 5 m et `etat_entrave` T1 pendant 2 rounds."
+                  ]
+                },
+                {
+                  "anchor": "don-du-coeur",
+                  "cells": [
+                    "Don du Cœur",
+                    "Majeure",
+                    "Contact",
+                    "Autre cible vivante réanimable à 0 PV : revient à 15 % PV max effectifs (minimum 1), purge tous les Saignements, récupère 1d6+2 SM et reçoit Sang Vivifiant ×1,50 aux vrais soins de PV pendant 2 rounds. Le multiplicateur n’affecte ni les 15 % initiaux ni la SM ; aucune cible définitivement morte."
+                  ]
+                },
+                {
+                  "anchor": "bastion-carmin",
+                  "cells": [
+                    "Bastion Carmin",
+                    "Réaction",
+                    "Rayon 3 m",
+                    "Dôme statique jusqu’au prochain tour : dégâts finaux /2 si la cible protégée est dedans et la source de l’attaque dehors, y compris l’attaque déclencheuse. Ne réduit ni source intérieure, ni poison actif, ni Saignement existant, ni dégât périodique interne."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Satellites généraux",
+        "anchor": "resistance-soleil",
+        "blocks": [
+          {
+            "text": "Résistance au Soleil ne demande aucune Voie. Elle ne provoque toujours aucun dégât solaire périodique et conserve la composition proportionnelle des jauges avec Rassasié, la déplétion sanguine et les autres contributions valides."
+          },
+          {
+            "table": {
+              "headers": [
+                "Exposition",
+                "Stats atomiques",
+                "PV max",
+                "SM max",
+                "PF max"
+              ],
+              "rows": [
+                [
+                  "Nuit",
+                  "±0",
+                  "×1",
+                  "×1",
+                  "×1"
+                ],
+                [
+                  "Ombre",
+                  "−5",
+                  "×1",
+                  "×1",
+                  "×0,5"
+                ],
+                [
+                  "Soleil direct",
+                  "−10",
+                  "×0,5",
+                  "×0,5",
+                  "×0,5"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Résumé des Actions Sanguines",
+        "anchor": "resume-actions-sanguines",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Sang",
+                "Actions"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Surcharge Sanguine · Aiguille Carmin · Coagulation Forcée"
+                ],
+                [
+                  "2",
+                  "Voile de Sang · Dissipation Écarlate · Entraves Hématiques · Pluie Carmin · Rappel Carmin"
+                ],
+                [
+                  "3",
+                  "Lance Hémophage · Compression Sanguine · Marionnette de Sang · Transfusion Profane"
+                ],
+                [
+                  "4",
+                  "Déluge Écarlate · Cœur Rouge · Rupture Hématique · Marée Écarlate · Don du Cœur · Bastion Carmin"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Plusieurs Telios et résumé",
+        "anchor": "resume",
+        "blocks": [
+          {
+            "text": "Un Vampire peut posséder plusieurs Telios. Leurs effets propres se cumulent, mais leurs bénéfices communs ne se cumulent jamais : Vision nocturne 30 m et Morsure +5 au seuil."
+          },
+          {
+            "table": {
+              "headers": [
+                "Telios",
+                "Domaine",
+                "Signature"
+              ],
+              "rows": [
+                [
+                  "Leptos",
+                  "Ombre · Vitesse · Prédation",
+                  "Obscurité Bloquée · Griffes DEX · Pas d’Ombre 10 m · Morsure de l’Ombre"
+                ],
+                [
+                  "Isiros",
+                  "Sang · Vitalité · Magie",
+                  "Soins ×1,50 · EAU/CORPS +2 · Sens du Sang"
+                ],
+                [
+                  "Mayevo",
+                  "Influence · Volonté · Domination",
+                  "Regard Impérieux · Contrôle T4 · Défense mentale supérieure · Emprise sur la Proie"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Leptos choisit où il apparaît. Isiros décide combien de temps il reste debout. Mayevo préfère généralement convaincre les autres que le combat était leur idée."
+          }
+        ]
+      }
+    ]
+  },
+  "documentation": {
+    "schemaVersion": 1,
+    "sourceMarkdown": "docs/afflictions/vampirisme.md",
+    "summary": "Une Affliction permanente organisée autour du Sang, de trois Voies cumulables et de leurs accomplissements Telios.",
+    "categories": [
+      {
+        "id": "silence",
+        "label": "Voie du Silence",
+        "anchor": "voie-silence"
+      },
+      {
+        "id": "sang",
+        "label": "Voie du Sang",
+        "anchor": "voie-sang"
+      },
+      {
+        "id": "ame",
+        "label": "Voie de l’Âme",
+        "anchor": "voie-ame"
+      },
+      {
+        "id": "telios",
+        "label": "Telios",
+        "anchor": "telios"
+      },
+      {
+        "id": "satellites",
+        "label": "Satellites",
+        "anchor": "resistance-soleil"
+      }
+    ],
+    "aptitudes": [
+      {
+        "aptitudeId": "voieSilence",
+        "anchor": "voie-silence"
+      },
+      {
+        "aptitudeId": "rapidite",
+        "anchor": "rapidite"
+      },
+      {
+        "aptitudeId": "furtivite",
+        "anchor": "furtivite"
+      },
+      {
+        "aptitudeId": "obscurite",
+        "anchor": "obscurite"
+      },
+      {
+        "aptitudeId": "agilite",
+        "anchor": "agilite"
+      },
+      {
+        "aptitudeId": "strategieNocturne",
+        "anchor": "strategie-nocturne"
+      },
+      {
+        "aptitudeId": "griffes",
+        "anchor": "griffes-aptitude"
+      },
+      {
+        "aptitudeId": "pasDOmbre",
+        "anchor": "pas-dombre"
+      },
+      {
+        "aptitudeId": "voieSang",
+        "anchor": "voie-sang"
+      },
+      {
+        "aptitudeId": "mirage",
+        "anchor": "mirage"
+      },
+      {
+        "aptitudeId": "regenerationSanguine",
+        "anchor": "regeneration-sanguine"
+      },
+      {
+        "aptitudeId": "guerison",
+        "anchor": "guerison"
+      },
+      {
+        "aptitudeId": "longevite",
+        "anchor": "longevite"
+      },
+      {
+        "aptitudeId": "resistanceMagique",
+        "anchor": "resistance-magique"
+      },
+      {
+        "aptitudeId": "septiemeSens",
+        "anchor": "septieme-sens"
+      },
+      {
+        "aptitudeId": "puissanceMagique",
+        "anchor": "puissance-magique"
+      },
+      {
+        "aptitudeId": "voieAme",
+        "anchor": "voie-ame"
+      },
+      {
+        "aptitudeId": "hypnose",
+        "anchor": "hypnose"
+      },
+      {
+        "aptitudeId": "seduction",
+        "anchor": "seduction"
+      },
+      {
+        "aptitudeId": "intimidation",
+        "anchor": "intimidation"
+      },
+      {
+        "aptitudeId": "soumission",
+        "anchor": "soumission"
+      },
+      {
+        "aptitudeId": "resistanceMentale",
+        "anchor": "resistance-mentale"
+      },
+      {
+        "aptitudeId": "espritDeFer",
+        "anchor": "esprit-de-fer"
+      },
+      {
+        "aptitudeId": "espritInviolable",
+        "anchor": "esprit-inviolable"
+      },
+      {
+        "aptitudeId": "teliosLeptos",
+        "anchor": "telios-leptos"
+      },
+      {
+        "aptitudeId": "teliosIsiros",
+        "anchor": "telios-isiros"
+      },
+      {
+        "aptitudeId": "teliosMayevo",
+        "anchor": "telios-mayevo"
+      },
+      {
+        "aptitudeId": "resistanceSoleil",
+        "anchor": "resistance-soleil"
+      }
+    ],
+    "specialActions": [
+      {
+        "actionId": "surchargeSanguine",
+        "anchor": "surcharge-sanguine"
+      },
+      {
+        "actionId": "aiguilleCarmin",
+        "anchor": "aiguille-carmin"
+      },
+      {
+        "actionId": "coagulationForcee",
+        "anchor": "coagulation-forcee"
+      },
+      {
+        "actionId": "voileDeSang",
+        "anchor": "voile-de-sang"
+      },
+      {
+        "actionId": "dissipationEcarlate",
+        "anchor": "dissipation-ecarlate"
+      },
+      {
+        "actionId": "entravesHematiques",
+        "anchor": "entraves-hematiques"
+      },
+      {
+        "actionId": "pluieCarmin",
+        "anchor": "pluie-carmin"
+      },
+      {
+        "actionId": "rappelCarmin",
+        "anchor": "rappel-carmin"
+      },
+      {
+        "actionId": "lanceHemophage",
+        "anchor": "lance-hemophage"
+      },
+      {
+        "actionId": "compressionSanguine",
+        "anchor": "compression-sanguine"
+      },
+      {
+        "actionId": "marionnetteDeSang",
+        "anchor": "marionnette-de-sang"
+      },
+      {
+        "actionId": "transfusionProfane",
+        "anchor": "transfusion-profane"
+      },
+      {
+        "actionId": "delugeEcarlate",
+        "anchor": "deluge-ecarlate"
+      },
+      {
+        "actionId": "coeurRouge",
+        "anchor": "coeur-rouge"
+      },
+      {
+        "actionId": "ruptureHematique",
+        "anchor": "rupture-hematique"
+      },
+      {
+        "actionId": "mareeEcarlate",
+        "anchor": "maree-ecarlate"
+      },
+      {
+        "actionId": "donDuCoeur",
+        "anchor": "don-du-coeur"
+      },
+      {
+        "actionId": "bastionCarmin",
+        "anchor": "bastion-carmin"
+      }
+    ]
+  }
+}

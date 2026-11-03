@@ -1,0 +1,397 @@
+{
+  "id": "guide.cadran-tours",
+  "type": "codex",
+  "identity": {
+    "name": "Utiliser le Cadran",
+    "subtitle": "Cadran d'Exploration et de Bataille — aide pratique Foundry v13",
+    "icon": "◉",
+    "tags": [
+      "Cadran",
+      "tours",
+      "astrolabe",
+      "exploration",
+      "combat",
+      "initiative",
+      "round",
+      "guide",
+      "rencontres",
+      "MJ"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "docs/turn-carousel.md",
+    "docs/cadran-astrolabe-wip.md",
+    "templates/apps/turn-carousel.hbs",
+    "module/turn-carousel/turn-carousel-view.mjs",
+    "module/turn-carousel/turn-carousel-state.mjs",
+    "module/turn-carousel/turn-carousel-actions.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Portrait central",
+        "value": "participant courant"
+      },
+      {
+        "label": "→",
+        "value": "terminer le tour et avancer"
+      },
+      {
+        "label": "»",
+        "value": "cycle ou round suivant (MJ)"
+      },
+      {
+        "label": "Clic droit",
+        "value": "aide directe ou menu avec ?"
+      },
+      {
+        "label": "⋯",
+        "value": "gestion MJ"
+      }
+    ],
+    "links": [
+      {
+        "label": "Initiative et ordre de jeu",
+        "sectionId": "systeme",
+        "entryId": "rules.initiative"
+      },
+      {
+        "label": "Tour de combat et actions",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      },
+      {
+        "label": "Actions mineures",
+        "sectionId": "systeme",
+        "entryId": "rules.action-mineure"
+      },
+      {
+        "label": "Actions majeures",
+        "sectionId": "systeme",
+        "entryId": "rules.action-majeure"
+      },
+      {
+        "label": "Réactions en combat",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utiliser le Cadran",
+        "anchor": "utiliser-le-cadran",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Le portrait central est le tour courant ; les autres montrent qui vient de jouer et qui jouera ensuite. Utilisez → pour avancer et ? pour cette aide."
+          },
+          {
+            "title": "Explications",
+            "text": "Le Cadran affiche l’ordre des participants sur la scène. Exploration (tour libre), Préparation (combat non commencé) et Bataille (combat actif) utilisent le même affichage, mais pas les mêmes règles de progression. Le médaillon à gauche indique le mode et le cycle ou round. Les commandes restent au-dessus des portraits ; les entrées visibles et options dépendent de vos droits."
+          }
+        ]
+      },
+      {
+        "label": "Cadran d’Exploration",
+        "anchor": "exploration",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Hors combat, chacun intervient à tour de rôle. → termine le tour courant ; lorsque tous sont passés, un nouveau cycle commence."
+          },
+          {
+            "title": "Explications",
+            "text": "Le tour libre est lié à la scène et possède sa propre liste de participants. Le MJ peut y ajouter des Tokens, Actors ou participants manuels. Le cycle est une organisation narrative, pas un round de combat artificiel. Seule une vraie fin de tour fait avancer le compteur et déclenche les mécanismes HINGA liés au temps narratif. Changer manuellement le participant courant ou utiliser l’aperçu MJ ne consomme pas ce temps."
+          }
+        ]
+      },
+      {
+        "label": "Préparation du combat",
+        "anchor": "preparation",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Ajoutez les combattants au Combat Tracker, lancez les initiatives manquantes (🎲), puis démarrez avec ⚔."
+          },
+          {
+            "title": "Explications",
+            "text": "Dès qu’une rencontre pertinente contient des combattants sans avoir commencé, le Cadran affiche la préparation. L’ordre des initiatives disponibles est montré sans inventer de valeur pour celles qui manquent. Aucun tour de combat n’est consommé et la flèche d’avancement n’est pas proposée. Au démarrage, si certaines initiatives manquent, le MJ peut les lancer, commencer malgré tout ou annuler. Un clic distinct sur Commencer le combat valide le lancement après un éventuel jet des initiatives manquantes."
+          }
+        ]
+      },
+      {
+        "label": "Cadran de Bataille",
+        "anchor": "bataille",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Le portrait central joue maintenant ; → termine son tour. Le compteur affiche le round et les autres portraits suivent l’ordre d’initiative."
+          },
+          {
+            "title": "Explications",
+            "text": "Le combat actif suit les vrais Combatants Foundry. L’initiative établie et le changement de round restent du ressort du moteur de combat. Le Cadran sert à consulter, signaler une réaction et agir sur cet ordre sans créer de système de combat parallèle. Un changement de round restaure normalement l’ordre d’initiative après un réordonnancement temporaire."
+          }
+        ]
+      },
+      {
+        "label": "Portraits et ressources",
+        "anchor": "portraits",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Clic : signaler le Token sur la scène. Maj + clic : centrer la caméra. Double-clic : ouvrir la fiche autorisée. Survol : détails visibles."
+          },
+          {
+            "title": "Explications",
+            "text": "Le portrait central signale le participant courant ; les autres montrent les tours passés et à venir. Le MJ peut aussi utiliser Ctrl + clic pour sélectionner le Token. Les infobulles affichent les ressources et états selon les permissions : les données sensibles d’un autre personnage ne sont pas révélées. Les portraits vaincus, cachés, inactifs ou dont le Token a disparu disposent d’indications visuelles distinctes."
+          }
+        ]
+      },
+      {
+        "label": "Avancer ou revenir",
+        "anchor": "avancer",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "→ termine le tour courant et passe au suivant ; les boutons Précédent/Suivant du panneau MJ servent à naviguer dans la liste."
+          },
+          {
+            "title": "Explications",
+            "text": "La flèche principale est une action réelle : en exploration elle peut faire progresser le temps narratif et les durées liées aux tours ; en combat elle avance le véritable combat. Le panneau de gestion offre des déplacements manuels dans la liste, avec des contrôles distincts. N’utilisez pas les commandes de navigation MJ pour simuler une vraie fin de tour."
+          }
+        ]
+      },
+      {
+        "label": "Cycle ou round suivant",
+        "anchor": "cycle-round",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "» saute les tours restants et rejoint le cycle ou round suivant ; ce n’est pas la même action que →."
+          },
+          {
+            "title": "Explications",
+            "text": "Le MJ peut terminer les tours restants du cycle ou round et passer à sa frontière suivante avec la commande dédiée. En exploration, une vraie progression narrative peut déclencher les consommateurs de fin de tour. En bataille, la progression suit les rounds natifs Foundry. Cette commande peut donc avoir des conséquences sur les durées : utilisez-la volontairement."
+          }
+        ]
+      },
+      {
+        "label": "Rencontres et tour libre",
+        "anchor": "rencontres",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Le sélecteur indique la rencontre active. Clic gauche : basculer rapidement entre deux choix ; clic droit : choisir dans la liste."
+          },
+          {
+            "title": "Explications",
+            "text": "Le menu des rencontres permet de sélectionner le tour libre de la scène ou une rencontre Foundry pertinente. Le MJ peut y créer une rencontre vide ou supprimer la rencontre choisie ; ces commandes sont distinctes de l’ajout ou du retrait d’un participant. Changer de rencontre n’efface pas la liste du tour libre et ne fusionne pas les participants des deux sources."
+          }
+        ]
+      },
+      {
+        "label": "Lancer l’initiative",
+        "anchor": "initiatives",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "⚄ sur votre portrait : lancer votre initiative manquante. 🎲 : traiter les initiatives des PNJ ; clic droit sur 🎲 : ouvrir les options."
+          },
+          {
+            "title": "Explications",
+            "text": "Les initiatives sont lancées par le moteur natif HINGA via Combat.rollInitiative. En préparation, le MJ peut compléter les initiatives absentes avant de démarrer ; le joueur propriétaire peut lancer la sienne si elle manque. Le menu contextuel du dé propose des options pour les initiatives manquantes. La relance et la restauration d’ordre suivent les droits du MJ et les règles de combat existantes ; aucune initiative fictive n’est inventée par l’interface."
+          }
+        ]
+      },
+      {
+        "label": "Commencer et terminer un combat",
+        "anchor": "commencer-finir",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "⚔ démarre le combat ; ⚔ Fin le termine. Vérifiez les participants avant la fin."
+          },
+          {
+            "title": "Explications",
+            "text": "Commencer utilise la vraie rencontre Foundry, pas un changement de couleur artificiel. Lorsque des initiatives sont absentes, une confirmation adaptée est proposée. Terminer utilise l’opération native de fin de combat prévue dans HINGA ; la vue revient ensuite à l’exploration selon les documents réellement présents. Une rencontre terminée et supprimée n’est pas la même chose qu’un tour libre masqué."
+          }
+        ]
+      },
+      {
+        "label": "Gestion MJ (⋯)",
+        "anchor": "gestion-mj",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Cliquez sur ⋯ pour afficher les outils MJ : participants, navigation, initiatives, aperçu, réinitialisation ou masquage selon le mode."
+          },
+          {
+            "title": "Explications",
+            "text": "Le panneau rassemble les commandes secondaires que l’on ne souhaite pas laisser constamment dans la barre. Ses outils changent selon Exploration, Préparation et Bataille et selon les droits. Le MJ peut consulter la liste logique complète et utiliser le glisser-déposer pour réordonner lorsqu’il est permis. Fermer le panneau ne fait pas avancer le temps."
+          }
+        ]
+      },
+      {
+        "label": "Ajouter des participants",
+        "anchor": "ajouter-participants",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Dans ⋯, choisissez + Tokens sélectionnés, + Actor ou + manuel. Vous pouvez aussi glisser un Actor dans la liste en exploration."
+          },
+          {
+            "title": "Explications",
+            "text": "L’ajout d’un Token conserve son identité précise lorsqu’elle existe. Un Actor du monde peut être ajouté sans Token ; une entrée manuelle contient au moins un nom et peut avoir une image. Le système évite certains doublons d’identifiants exacts ; deux Tokens distincts du même Actor peuvent cependant rester deux participants distincts. Ces commandes concernent la liste d’exploration : en combat, les Combatants viennent du Combat Tracker Foundry."
+          }
+        ]
+      },
+      {
+        "label": "Ordre et réorganisation",
+        "anchor": "ordre-initiative",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "En exploration ou en bataille, déplacez une entrée dans le panneau MJ pour réordonner. En bataille, l’ordre temporaire revient normalement à l’initiative au round suivant."
+          },
+          {
+            "title": "Explications",
+            "text": "Le réordonnancement manuel ne doit pas remplacer l’initiative native. Un ordre de round temporaire est lié au round courant. Le MJ peut demander de restaurer l’ordre d’initiative sans attendre le round suivant. Une modification d’ordre ou de courant n’est pas une fin de tour et ne doit pas déclencher de nouveau décompte narratif."
+          }
+        ]
+      },
+      {
+        "label": "Aperçu MJ",
+        "anchor": "apercu",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Activez Aperçu MJ dans ⋯ pour parcourir les participants sans faire passer le temps."
+          },
+          {
+            "title": "Explications",
+            "text": "En exploration, l’aperçu change le sens du bouton Suivant dans la gestion, afin de visualiser l’ordre sans consommer une vraie fin de tour. Il ne modifie pas la signification de la flèche → sur le Cadran. Désactivez l’aperçu pour retrouver la navigation normale des commandes concernées."
+          }
+        ]
+      },
+      {
+        "label": "Réinitialiser ou vider",
+        "anchor": "reinitialiser",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Réinitialiser le cycle revient au premier participant ; Vider retire les participants du tour libre. Une confirmation est demandée."
+          },
+          {
+            "title": "Explications",
+            "text": "Ces actions sont disponibles au MJ dans la gestion de l’exploration. Réinitialiser ne remonte pas artificiellement le compteur monotone des fins de tour. Vider supprime les entrées de la liste libre ; cela ne doit pas être confondu avec la suppression d’une rencontre Foundry. Ces commandes ne sont pas de simples avances de temps."
+          }
+        ]
+      },
+      {
+        "label": "Masquer le Cadran",
+        "anchor": "masquer",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Dans ⋯, Masquer cache l’interface de cette scène. Vous pouvez la réafficher depuis les outils Tokens."
+          },
+          {
+            "title": "Explications",
+            "text": "Le masquage est indépendant des trois modes de tour : il ne supprime ni participant, ni Combatant, ni donnée de progression. Le MJ peut utiliser le contrôle de la barre d’outils Tokens ou l’API prévue par le système pour l’afficher de nouveau."
+          }
+        ]
+      },
+      {
+        "label": "Main levée, réaction, inactivité",
+        "anchor": "signaux",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Clic droit sur votre portrait : lever la main en exploration ou signaler une réaction en bataille. Le MJ peut acquitter ces signaux."
+          },
+          {
+            "title": "Explications",
+            "text": "Les actions proposées par le menu d’un participant dépendent du mode et de ses permissions. En exploration, lever la main ou marquer un participant inactif organise le cycle. En combat, signaler une réaction prévient le MJ ; ce signal ne lance pas directement une défense, une parade ni une contre-attaque. Marquer une entrée inactive peut la faire sauter pendant le cycle sans consommer une vraie fin de tour."
+          }
+        ]
+      },
+      {
+        "label": "Menu d’un participant",
+        "anchor": "menu-participant",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Clic droit sur un portrait, ou clic sur son nom dans la gestion : actions du participant. Le petit ? en bas de ce menu ouvre cette rubrique."
+          },
+          {
+            "title": "Explications",
+            "text": "Les choix peuvent inclure courant, déplacer prochain/dernier, main levée, inactivité, réaction, initiative, visibilité, retrait ou ouverture de fiche, selon le mode et les permissions. Seules les opérations affichées et autorisées sont exécutables. Le menu contextuel est distinct du clic simple sur un portrait, qui signale le Token sur la scène."
+          }
+        ]
+      },
+      {
+        "label": "Visibilité et confidentialité",
+        "anchor": "visibilite",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Le MJ peut cacher un participant aux joueurs sans l’effacer ; les ressources détaillées restent limitées aux utilisateurs autorisés."
+          },
+          {
+            "title": "Explications",
+            "text": "Un participant marqué comme caché disparaît de la vue joueur tout en restant gérable par le MJ. Un joueur propriétaire ne voit pas nécessairement les données complètes des autres : SM, PF, Chance, états et budget d’actions ne lui sont pas exposés comme ceux de son personnage. Le Cadran suit la visibilité et les permissions Foundry/HINGA."
+          }
+        ]
+      },
+      {
+        "label": "Retirer un participant",
+        "anchor": "retirer",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Le MJ peut retirer une entrée depuis son menu, avec confirmation. Clic molette sur un portrait : raccourci MJ de retrait."
+          },
+          {
+            "title": "Explications",
+            "text": "Retirer un participant de la liste ne signifie pas nécessairement supprimer son Actor du monde. Le comportement dépend de la source : en exploration, c’est l’entrée libre qui est retirée ; en combat, le Combat Tracker et ses Combatants sont la référence. Vérifiez la liste ou la rencontre choisie avant de retirer."
+          }
+        ]
+      },
+      {
+        "label": "Joueurs et permissions",
+        "anchor": "permissions",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Joueur : agir sur son participant autorisé. MJ : gérer tous les participants, rencontres et ordres."
+          },
+          {
+            "title": "Explications",
+            "text": "Le propriétaire peut terminer son tour lorsqu’il est courant, utiliser ses signaux et lancer une initiative autorisée. L’édition globale, le masquage, l’ajout et les suppressions appartiennent au MJ. Les informations des autres personnages ne doivent pas devenir accessibles par simple survol ou changement de mode."
+          }
+        ]
+      },
+      {
+        "label": "Cas particuliers et dépannage",
+        "anchor": "depannage",
+        "blocks": [
+          {
+            "title": "En bref — quoi faire ?",
+            "text": "Si un portrait ou une rencontre paraît incorrect, vérifiez la scène, le Combat Tracker et l’identité exacte du Token avant d’intervenir."
+          },
+          {
+            "title": "Explications",
+            "text": "Un Combat vide reste en exploration. En préparation, les initiatives manquantes ne sont pas remplacées par de faux nombres. Un Token supprimé peut laisser une entrée orpheline à gérer ; son nom et son portrait mémorisés ne lui donnent pas une nouvelle identité. Le changement de scène, de rencontre ou de mode peut modifier la liste affichée sans supprimer les données d’autres scènes."
+          }
+        ]
+      }
+    ]
+  }
+}

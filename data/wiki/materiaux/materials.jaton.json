@@ -1,0 +1,231 @@
+{
+  "id": "materials.jaton",
+  "type": "material",
+  "identity": {
+    "name": "Jaton",
+    "subtitle": "Textiles · Végétal",
+    "icon": "◆",
+    "tags": [
+      "jaton",
+      "Jaton",
+      "textile",
+      "Textiles",
+      "vegetal",
+      "Végétal",
+      "Fibre dure tressée",
+      "Marron foncé, rugueux",
+      "Toile dense, résistante à la traction mais abrasive.",
+      "Neutre",
+      "physical",
+      "Physique",
+      "Normal",
+      "Cordes",
+      "voiles",
+      "bâches",
+      "sacs renforcés",
+      "cordier",
+      "tailleur",
+      "port",
+      "caisse",
+      "marchand"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 3
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "jaton",
+    "family": "textile",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Végétal"
+      },
+      {
+        "label": "Rareté",
+        "value": 3
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre dure tressée"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Marron foncé, rugueux"
+          },
+          {
+            "title": "Description",
+            "text": "Toile dense, résistante à la traction mais abrasive."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "3"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Réfractaire (-1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "-1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Neutre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Excellente résistance mécanique",
+              "faible réceptivité magique."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Rêche",
+              "inconfortable sans doublure."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Cordes",
+              "voiles",
+              "bâches",
+              "sacs renforcés"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "cordier",
+              "tailleur",
+              "port",
+              "caisse",
+              "marchand"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "12"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.9"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Commun"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "60"
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

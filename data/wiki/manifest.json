@@ -1410,5 +1410,29 @@
   {
     "path": "data/wiki/pantheon/onyros.json",
     "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/afflictions/afflictions.guide-systeme.json",
+    "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/afflictions/befoni.json",
+    "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/afflictions/falstanie.json",
+    "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/afflictions/therianthropie.json",
+    "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/afflictions/vampirisme.json",
+    "section": "afflictions"
+  },
+  {
+    "path": "data/wiki/afflictions/demon.json",
+    "section": "afflictions"
   }
 ]

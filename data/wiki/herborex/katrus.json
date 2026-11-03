@@ -1,0 +1,102 @@
+{
+  "id": "katrus",
+  "type": "plant",
+  "identity": {
+    "name": "Katrus",
+    "subtitle": "Cierge rouge du désert",
+    "unknownName": "Plante rouge épineuse",
+    "slug": "katrus",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Katrus.png",
+    "visualNote": "Grande plante désertique rouge, dressée comme un cierge épineux, avec des branches recourbées et de grandes fleurs pâles.",
+    "tags": [
+      "desert",
+      "cactus",
+      "rouge"
+    ]
+  },
+  "classification": {
+    "category": "cactus",
+    "family": "colonne",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "pic de chaleur",
+      "floraison",
+      "retour des pluies"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "1,2 à 2,6 m",
+    "width": "70 cm à 2 m",
+    "colorMain": "rouge sombre",
+    "colorSecondary": "rose pâle, brun racinaire",
+    "distinctiveSigns": [
+      "tronc principal rouge et charnu",
+      "branches tubulaires recourbées comme des crochets",
+      "petites épines sombres sur toute la surface",
+      "grandes fleurs rose pâle à cœur plus foncé",
+      "gousses fibreuses contenant des graines rouges",
+      "chair interne rouge veinée",
+      "racines épaisses à la base"
+    ],
+    "descriptionShort": "Le Katrus est un cactus rouge dressé, hérissé d'épines et de branches recourbées.",
+    "descriptionFull": "Le Katrus se développe en un tronc charnu vertical d'où partent de longues branches tubulaires. Sa peau rouge sombre porte de petites épines et protège une chair humide mais âcre. Après certaines nuits chaudes ou une pluie rare, il produit de larges fleurs rose pâle, puis des gousses à graines rouges. Ses racines puissantes l'ancrent dans les sols instables du désert."
+  },
+  "danger": {
+    "severity": "modere",
+    "dangerType": [
+      "epineuse",
+      "irritante"
+    ],
+    "exposure": [
+      "contact",
+      "ingestion"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs",
+      "brûlure",
+      "nausée"
+    ],
+    "notes": "Les épines et la chair âcre rendent la plante réellement pénible pour les êtres vivants qui la touchent ou la broutent."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "todo-toxique-katrus",
+      "quantity": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "notes": "Produit toxique placeholder à définir selon le futur système de poisons ou irritants. // TODO_LINK: à lier plus tard avec l'objet ingrédient toxique todo-toxique-katrus"
+  },
+  "uses": {
+    "knownUses": [
+      "poison",
+      "medicinale",
+      "teinture",
+      "ornementale"
+    ],
+    "notes": "La plante est surtout connue pour ses usages irritants et sa teinte rouge, à manipuler avec soin."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

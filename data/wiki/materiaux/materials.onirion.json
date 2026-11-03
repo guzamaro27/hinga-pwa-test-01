@@ -1,0 +1,236 @@
+{
+  "id": "materials.onirion",
+  "type": "material",
+  "identity": {
+    "name": "Onirion",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "onirion",
+      "Onirion",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation du vide",
+      "Noir absorbant la lumière",
+      "Gemme qui annule ou absorbe temporairement certains flux.",
+      "Néant/Vide",
+      "magical",
+      "Magique",
+      "Exceptionnel",
+      "Artefacts d’élite",
+      "prisons magiques",
+      "sceaux",
+      "néant",
+      "mage",
+      "trésor majeur",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 10
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "onirion",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 4,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 10
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "4 — Exceptionnel"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation du vide"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir absorbant la lumière"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme qui annule ou absorbe temporairement certains flux."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "10"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Exceptionnelle (5)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "5"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Néant/Vide"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Support d’annulation magique à capacité strictement limitée."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut aussi neutraliser les enchantements alliés."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Artefacts d’élite",
+              "prisons magiques",
+              "sceaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "4 — Exceptionnel"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "néant",
+              "mage",
+              "trésor majeur",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "7500"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.55"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Trésor majeur"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "1"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "serimoth"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_silence_arcanique"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

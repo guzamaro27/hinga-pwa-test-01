@@ -786,5 +786,205 @@
   {
     "path": "data/wiki/actions-speciales/stat-analyse-arcanique.json",
     "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/herborex/klerirar.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/korakil.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/korlaz.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/koyas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/livarne.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/meplish.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/mintrim.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/nanrali.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/naptus.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/nozari-steppe.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/nozari-tempere.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/nuzrad.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/ormense.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/palimar.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/palsan.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/palshrana.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/pitifas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/raldo.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/randabalia.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/rodwak.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/roguina.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/romaria.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/saktel.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/saprus.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/savori.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/saxan.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/sediran.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/sekan.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/selmol-steppes.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/selmol-taiga.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/selmol-tempere.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/sendash-jaune.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/sendash-noir.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/sendash-vert.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/shekno.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/siplo.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/spanas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/spaso.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/stedesi.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tamelinas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tamtaras.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/timalia.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tirmana.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tobanki.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tsolma.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/tsugas.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/virken.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/yukmar.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/zakamo.json",
+    "section": "herborex"
+  },
+  {
+    "path": "data/wiki/herborex/zarapas.json",
+    "section": "herborex"
   }
 ]

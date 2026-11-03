@@ -1,0 +1,87 @@
+{
+  "id": "fiche-personnage.magie",
+  "type": "codex",
+  "identity": {
+    "name": "Magie",
+    "subtitle": "Fiche personnage / Préparer et lancer ses sorts",
+    "icon": "✧",
+    "tags": [
+      "magie",
+      "sort",
+      "incantation",
+      "mana"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Sort",
+        "value": "fiche du sort"
+      },
+      {
+        "label": "Lancer",
+        "value": "coût et cible"
+      },
+      {
+        "label": "Aide",
+        "value": "règle liée"
+      }
+    ],
+    "links": [
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Règles de magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      },
+      {
+        "label": "Flux magique",
+        "sectionId": "systeme",
+        "entryId": "rules.flux-magique"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "La zone Magie regroupe les sorts disponibles et leurs actions de lancement."
+          }
+        ]
+      },
+      {
+        "label": "Utiliser la magie",
+        "blocks": [
+          {
+            "items": [
+              "Ouvrez un sort pour lire sa portée, sa cible et ses conditions.",
+              "Le système vérifie les ressources et les restrictions au lancement.",
+              "Les règles d’attaque ou de défense restent accessibles dans Système."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

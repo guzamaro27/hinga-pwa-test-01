@@ -1,0 +1,34 @@
+{
+  "id": "darka",
+  "type": "creature-public",
+  "identity": {
+    "name": "Darka",
+    "subtitle": "La Monture Fidèle",
+    "tags": [
+      "domestique",
+      "monture",
+      "elevage",
+      "transport",
+      "docile",
+      "betail"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Darka vit principalement dans les plaines, les campagnes, les vallées habitées et les régions agricoles. Il fréquente les prairies ouvertes, les chemins ruraux et les zones d’élevage. Herbivore, il se nourrit d’herbes, de feuilles basses, de racines et de céréales cultivées. Sa docilité, son endurance et son dos large en font une monture courante et fiable pour les déplacements et le transport de charges."
+          },
+          {
+            "text": "Le Darka est un grand herbivore quadrupède au corps robuste et stable, très apprécié comme monture et animal de transport. Son dos large et relativement plat permet aux cavaliers de s’y installer facilement, tandis que ses quatre pattes solides terminées par de petits sabots sombres lui offrent une bonne stabilité sur différents terrains. Son pelage est constitué de poils courts et denses, généralement dans des teintes claires comme le jaune pâle, le beige ou parfois un léger rosé. Certaines lignées présentent toutefois des pelages plus foncés tirant vers le brun ou l’orangé. Le long de son cou pousse une crinière faite de grandes plumes épaisses aux couleurs variables. Ces plumes peuvent être multicolores, pastel ou présenter des teintes vives comme le turquoise ou le bleu clair. Sa queue fine se termine également par un bouquet de plumes semblables à celles de la crinière. La caractéristique la plus remarquable du Darka reste son œil unique situé au centre du front, dont la vision reste assez limitée."
+          },
+          {
+            "text": "Le Darka vit en troupeaux domestiques ou semi-sauvages. La mise bas est simple, après une gestation longue, et les petits sont généralement protégés par le troupeau. Les individus élevés auprès d’un maître ou d’un groupe développent une forte fidélité."
+          }
+        ]
+      }
+    ]
+  }
+}

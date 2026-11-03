@@ -1,0 +1,238 @@
+{
+  "id": "materials.orian",
+  "type": "material",
+  "identity": {
+    "name": "Orian",
+    "subtitle": "Métaux · Alliage",
+    "icon": "◆",
+    "tags": [
+      "orian",
+      "Orian",
+      "metal",
+      "Métaux",
+      "alliage",
+      "Alliage",
+      "Aran + Ori; proportions à définir",
+      "Doré brillant",
+      "Alliage royal lourd, stable et hautement conducteur.",
+      "Métal/Arcane",
+      "hybrid",
+      "Hybride",
+      "Bon",
+      "Artefacts royaux",
+      "insignes",
+      "reliques",
+      "royal",
+      "mage",
+      "maître forgeron",
+      "trésor majeur"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 9
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "orian",
+    "family": "metal",
+    "weaponProfile": "hybrid",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Alliage"
+      },
+      {
+        "label": "Rareté",
+        "value": 9
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Aran + Ori; proportions à définir"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Doré brillant"
+          },
+          {
+            "title": "Description",
+            "text": "Alliage royal lourd, stable et hautement conducteur."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Exceptionnelle (5)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "5"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Arcane"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Support d’artefacts à forte charge magique."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Coût extrême",
+              "fabrication contrôlée."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Artefacts royaux",
+              "insignes",
+              "reliques"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "royal",
+              "mage",
+              "maître forgeron",
+              "trésor majeur"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "3000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.6"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Fabuleux"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "3"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "kaerion"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_resonance_arcane",
+              "etat_deferlement_ka"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

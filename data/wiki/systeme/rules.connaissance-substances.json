@@ -1,0 +1,87 @@
+{
+  "id": "rules.connaissance-substances",
+  "type": "codex",
+  "identity": {
+    "name": "Connaissance des substances",
+    "subtitle": "Étudier potions et poisons",
+    "icon": "⌕",
+    "tags": [
+      "Connaissance des substances",
+      "substance",
+      "identification",
+      "étude"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/substance-knowledge.mjs",
+    "module/helpers/substance-truth.mjs",
+    "module/helpers/substance-incident-runtime.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Inconnue",
+        "value": "Informations limitées"
+      },
+      {
+        "label": "Étude",
+        "value": "Révèle progressivement des propriétés"
+      },
+      {
+        "label": "Vérité",
+        "value": "Le détail exact reste caché tant qu’il n’est pas acquis"
+      }
+    ],
+    "links": [
+      {
+        "label": "Potions",
+        "sectionId": "systeme",
+        "entryId": "rules.potions-utilisation"
+      },
+      {
+        "label": "Poisons",
+        "sectionId": "systeme",
+        "entryId": "rules.poisons-utilisation"
+      },
+      {
+        "label": "Repos",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Niveaux de connaissance",
+        "blocks": [
+          {
+            "text": "Une substance peut être inconnue, partiellement connue ou suffisamment étudiée. Chaque progrès révèle les informations autorisées : nature, usage, effets ou risques."
+          }
+        ]
+      },
+      {
+        "label": "Étude",
+        "blocks": [
+          {
+            "text": "Une étude valide fait progresser la connaissance et peut produire fatigue ou incident si la substance le prévoit. Les informations secrètes restent réservées au MJ."
+          }
+        ]
+      },
+      {
+        "label": "Création",
+        "blocks": [
+          {
+            "text": "Connaître une recette ou avoir créé une substance aide à l’identifier, sans révéler automatiquement les propriétés qui ne sont pas garanties par la fabrication."
+          }
+        ]
+      }
+    ]
+  }
+}

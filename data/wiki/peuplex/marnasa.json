@@ -1,0 +1,962 @@
+{
+  "id": "marnasa",
+  "type": "peuple",
+  "identity": {
+    "name": "Marnasa",
+    "subtitle": "",
+    "slug": "marnasa",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/marnasa.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Marnasa sont reconnaissables à leur silhouette élancée, leur peau bleu gris, leur petit nez noir et leurs très longs pavillons auditifs latéraux, étroits et profondément repliés, qui s’étendent depuis les côtés du crâne vers l’arrière."
+          },
+          {
+            "text": "Leur forme allongée et presque tubulaire constitue l’un des caractères anatomiques les plus distinctifs du peuple."
+          },
+          {
+            "text": "Leur calme, leur fierté et leur maîtrise d’eux-mêmes leur donnent une réputation de peuple noble dans son maintien, parfois perçu comme distant ou hautain."
+          },
+          {
+            "text": "Ils accordent généralement une grande importance à la maîtrise de l’esprit, à la retenue et à la manière dont une personne se présente aux autres."
+          },
+          {
+            "text": "Leur aisance dans les environnements urbains contraste avec leur faible attrait pour :"
+          },
+          {
+            "items": [
+              "les activités rurales salissantes ;",
+              "les travaux de terre ;",
+              "les tâches reposant principalement sur la force brute ;",
+              "les environnements demandant des efforts physiques lourds et prolongés."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 6/10 — Bien représenté"
+          },
+          {
+            "text": "**Tendances :** Les Marnasa sont principalement présents dans les villes et les agglomérations importantes."
+          },
+          {
+            "text": "Ils privilégient généralement :"
+          },
+          {
+            "items": [
+              "les quartiers résidentiels ;",
+              "les centres administratifs ;",
+              "les lieux d’étude ;",
+              "les zones commerçantes ;",
+              "les villes portuaires ;",
+              "les quartiers proches de canaux, de lacs ou de cours d’eau."
+            ]
+          },
+          {
+            "text": "Ils sont moins nombreux dans :"
+          },
+          {
+            "items": [
+              "les campagnes agricoles ;",
+              "les régions minières ;",
+              "les territoires très boueux ;",
+              "les communautés reposant principalement sur les travaux physiques lourds."
+            ]
+          },
+          {
+            "text": "Cette préférence ne constitue pas une incapacité à vivre hors des villes. Elle influence surtout leur répartition et les activités vers lesquelles ils se dirigent le plus volontiers."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Marnasa mesurent généralement autour de **1,80 mètre** pour environ **70 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, fine et relativement légère."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc étroit ;",
+              "des épaules modérément larges ;",
+              "des membres longs ;",
+              "une ossature fine ;",
+              "une musculature discrète ;",
+              "une taille naturellement marquée ;",
+              "une posture droite ;",
+              "des mouvements mesurés et précis."
+            ]
+          },
+          {
+            "text": "Leur corps donne davantage une impression d’élégance et de contrôle que de puissance physique."
+          },
+          {
+            "text": "Leur faible Force ne signifie pas qu’ils soient fragiles, mais leur morphologie se prête moins naturellement :"
+          },
+          {
+            "items": [
+              "au port de charges lourdes ;",
+              "aux efforts de traction ;",
+              "aux travaux physiques prolongés ;",
+              "aux affrontements reposant uniquement sur la puissance musculaire."
+            ]
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau marnasa se décline principalement dans des nuances de bleu modérément clair."
+          },
+          {
+            "text": "Les teintes les plus fréquentes comprennent :"
+          },
+          {
+            "items": [
+              "le bleu gris ;",
+              "le bleu ardoise clair ;",
+              "le bleu froid atténué ;",
+              "le bleu légèrement lavande ;",
+              "certains tons bleu turquoise très discrets."
+            ]
+          },
+          {
+            "text": "La peau ne doit pas être comprise comme presque blanche ou excessivement pâle."
+          },
+          {
+            "text": "Sa couleur reste clairement bleue, avec une saturation douce et naturelle."
+          },
+          {
+            "text": "Elle peut présenter des variations légèrement plus sombres autour :"
+          },
+          {
+            "items": [
+              "des yeux ;",
+              "des tempes ;",
+              "du nez ;",
+              "de la bouche ;",
+              "de la base des oreilles ;",
+              "des articulations."
+            ]
+          },
+          {
+            "text": "De petites marques plus claires sont réparties irrégulièrement sur le corps."
+          },
+          {
+            "text": "Elles peuvent apparaître sur :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "les épaules ;",
+              "les bras ;",
+              "le torse ;",
+              "le dos ;",
+              "les jambes."
+            ]
+          },
+          {
+            "text": "Elles se présentent sous la forme :"
+          },
+          {
+            "items": [
+              "de petits points ;",
+              "de taches arrondies ;",
+              "de groupes irréguliers ;",
+              "de zones légèrement décolorées."
+            ]
+          },
+          {
+            "text": "Elles restent modérées et ne couvrent pas uniformément le corps."
+          },
+          {
+            "text": "Leur nombre augmente généralement avec l’âge."
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds, les lèvres et les muqueuses sont plus foncées que le reste de la peau."
+          },
+          {
+            "text": "Elles prennent fréquemment des teintes :"
+          },
+          {
+            "items": [
+              "bleu sombre ;",
+              "bleu violet ;",
+              "violet ;",
+              "bleu gris profond."
+            ]
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage marnasa est généralement long, fin et anguleux."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front haut ;",
+              "des pommettes saillantes ;",
+              "des joues légèrement creusées ;",
+              "une mâchoire fine ;",
+              "un menton étroit ;",
+              "des traits réguliers ;",
+              "une expression naturellement calme."
+            ]
+          },
+          {
+            "text": "Le nez est court et se termine par une petite surface noire, lisse et arrondie."
+          },
+          {
+            "text": "Cette structure reste intégrée à un visage humanoïde et ne se prolonge pas en véritable museau."
+          },
+          {
+            "text": "La surface noire du nez reste :"
+          },
+          {
+            "items": [
+              "petite ;",
+              "arrondie ;",
+              "mate ou légèrement satinée ;",
+              "proportionnée à la largeur normale du nez."
+            ]
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Marnasa possèdent de petits yeux très sombres."
+          },
+          {
+            "text": "Ils sont généralement :"
+          },
+          {
+            "items": [
+              "légèrement allongés ;",
+              "profondément placés ;",
+              "peu saillants ;",
+              "partiellement protégés par les arcades ;",
+              "entourés de traits fins."
+            ]
+          },
+          {
+            "text": "La partie visible de l’œil peut apparaître :"
+          },
+          {
+            "items": [
+              "noire ;",
+              "brun noir ;",
+              "bleu noir ;",
+              "vert extrêmement sombre."
+            ]
+          },
+          {
+            "text": "Les iris produisent peu de contraste avec les pupilles, mais restent anatomiquement visibles lorsqu’ils reçoivent suffisamment de lumière."
+          },
+          {
+            "text": "Les yeux ne sont ni entièrement noirs ni lumineux."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux marnasa se déclinent dans une gamme allant du vert clair au noir."
+          },
+          {
+            "text": "Les couleurs les plus fréquentes comprennent :"
+          },
+          {
+            "items": [
+              "le vert pâle ;",
+              "le vert gris ;",
+              "le vert sombre ;",
+              "le vert noir ;",
+              "le noir."
+            ]
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "lisses ;",
+              "légèrement ondulés ;",
+              "bouclés."
+            ]
+          },
+          {
+            "text": "L’implantation des cheveux s’interrompt autour de la base des pavillons auditifs, laissant leur attache latérale et leur sillon longitudinal visibles."
+          },
+          {
+            "text": "Le duvet très clair qui recouvre les pavillons se distingue nettement de la chevelure."
+          },
+          {
+            "text": "La pilosité corporelle et faciale suit généralement les mêmes nuances."
+          },
+          {
+            "text": "Elle reste humanoïde et modérée."
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité perdent progressivement leur couleur et blanchissent."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Marnasa possèdent deux pavillons auditifs latéraux particulièrement développés."
+          },
+          {
+            "text": "Chacun prend naissance sur le côté du crâne, derrière l’articulation de la mâchoire et sous la région temporale. Sa base large entoure directement l’entrée du conduit auditif."
+          },
+          {
+            "text": "Depuis cette implantation, le pavillon se prolonge principalement vers l’arrière et légèrement vers le bas."
+          },
+          {
+            "text": "Il est :"
+          },
+          {
+            "items": [
+              "extrêmement long ;",
+              "très étroit ;",
+              "relativement rigide ;",
+              "légèrement effilé à son extrémité ;",
+              "mobile principalement à sa base ;",
+              "couvert d’un duvet fin et clair."
+            ]
+          },
+          {
+            "text": "Le pavillon est fortement replié sur lui-même dans le sens de la longueur."
+          },
+          {
+            "text": "Ses deux bords se rapprochent sur presque toute sa longueur et délimitent un profond sillon intérieur. Cette organisation lui donne une apparence presque tubulaire, tout en conservant une longue ouverture continue."
+          },
+          {
+            "text": "Sa structure comprend :"
+          },
+          {
+            "items": [
+              "une base auriculaire large ;",
+              "une ouverture longitudinale ;",
+              "deux bords rapprochés ;",
+              "un profond sillon interne ;",
+              "une extrémité étroite ;",
+              "une cavité conduisant les sons vers le conduit auditif."
+            ]
+          },
+          {
+            "text": "Au repos, les pavillons suivent les côtés de la tête avant de s’étendre derrière celle-ci. Leur extrémité se situe généralement à hauteur du cou ou des épaules selon leur longueur."
+          },
+          {
+            "text": "Les pavillons des femmes sont en moyenne légèrement plus longs et plus fins que ceux des hommes."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "leur rigidité diminue ;",
+              "leur courbure descendante devient plus marquée ;",
+              "leur extrémité s’abaisse légèrement ;",
+              "leur duvet blanchit ;",
+              "leur sillon longitudinal demeure visible."
+            ]
+          },
+          {
+            "text": "Les Marnasa possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "exactement quatre doigts à chaque main ;",
+              "exactement quatre orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Chaque main comprend :"
+          },
+          {
+            "items": [
+              "un pouce opposable ;",
+              "trois autres doigts ;",
+              "quatre doigts au total."
+            ]
+          },
+          {
+            "text": "Chaque pied comprend :"
+          },
+          {
+            "items": [
+              "un gros orteil ;",
+              "trois autres orteils ;",
+              "quatre orteils au total."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La forme allongée et repliée des oreilles marnasa facilite la collecte et la direction des sons."
+          },
+          {
+            "text": "Le son est guidé par :"
+          },
+          {
+            "items": [
+              "l’ouverture longitudinale ;",
+              "les deux bords repliés ;",
+              "le profond sillon intérieur ;",
+              "la base orientable."
+            ]
+          },
+          {
+            "text": "La base de l’oreille peut effectuer de légers mouvements afin de mieux diriger le sillon vers une source sonore."
+          },
+          {
+            "text": "La majeure partie de sa longueur reste cependant rigide."
+          },
+          {
+            "text": "Les oreilles ne se dressent pas depuis le sommet de la tête. Leur mouvement s’effectue depuis leur implantation latérale et modifie surtout leur orientation :"
+          },
+          {
+            "items": [
+              "vers l’avant ;",
+              "vers le côté ;",
+              "vers l’arrière ;",
+              "légèrement vers le haut ou le bas."
+            ]
+          },
+          {
+            "text": "Le duvet qui les recouvre protège leur surface contre :"
+          },
+          {
+            "items": [
+              "le vent ;",
+              "les poussières ;",
+              "les frottements légers ;",
+              "les variations ordinaires de température."
+            ]
+          },
+          {
+            "text": "Une blessure grave aux oreilles peut réduire l’acuité auditive."
+          },
+          {
+            "text": "Leurs quatre doigts restent précis et adaptés aux manipulations fines."
+          },
+          {
+            "text": "Le pouce opposable et les trois autres doigts permettent normalement :"
+          },
+          {
+            "items": [
+              "l’écriture ;",
+              "l’utilisation d’outils ;",
+              "le maniement d’armes ;",
+              "la manipulation d’objets de petite taille ;",
+              "les gestes demandant précision et coordination."
+            ]
+          },
+          {
+            "text": "Leurs quatre orteils assurent un appui plantigrade stable."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Marnasa sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des insectes ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement les produits aquatiques, notamment :"
+          },
+          {
+            "items": [
+              "les poissons ;",
+              "les coquillages ;",
+              "les crustacés ;",
+              "les algues ;",
+              "les fruits de mer."
+            ]
+          },
+          {
+            "text": "Cette préférence n’est pas une nécessité physiologique."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Marnasa possèdent une espérance de vie moyenne d’environ **120 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme relativement lent."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "les marques claires deviennent plus nombreuses ;",
+              "les oreilles perdent progressivement leur rigidité ;",
+              "leurs extrémités s’affaissent légèrement ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "la silhouette devient légèrement plus courbée ;",
+              "la force physique diminue."
+            ]
+          },
+          {
+            "text": "Leur apparence générale reste cependant relativement stable pendant une grande partie de leur vie adulte."
+          },
+          {
+            "text": "Ils ne possèdent aucune immunité naturelle à la Folie."
+          },
+          {
+            "text": "Cette protection appartient uniquement aux personnages ayant choisi la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Audition**"
+          },
+          {
+            "text": "Les Marnasa possèdent une acuité auditive particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les sons faibles ;",
+              "les variations de voix ;",
+              "les changements de rythme ;",
+              "les pas dans un environnement calme ;",
+              "la direction précise d’un bruit ;",
+              "plusieurs conversations proches ;",
+              "un son transmis à travers une paroi ;",
+              "une anomalie dans une ambiance sonore familière."
+            ]
+          },
+          {
+            "text": "La forme en pavillon replié de leurs oreilles permet de guider efficacement les sons le long du sillon interne."
+          },
+          {
+            "text": "Leur implantation latérale et leur base orientable facilitent la localisation d’une source sonore."
+          },
+          {
+            "text": "Cette acuité ne permet pas d’entendre à travers un obstacle entièrement isolant ni de détecter automatiquement une créature parfaitement silencieuse."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Toucher**"
+          },
+          {
+            "text": "La perception tactile marnasa est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des textures très proches ;",
+              "percevoir une pression extrêmement légère ;",
+              "reconnaître un petit objet par le toucher seul ;",
+              "remarquer une variation subtile de température ;",
+              "évaluer précisément une matière sans la regarder ;",
+              "sentir un contact discret à travers un vêtement épais."
+            ]
+          },
+          {
+            "text": "Leur toucher reste pleinement fonctionnel pour les activités ordinaires, la manipulation d’objets et l’utilisation d’équipements."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie marnasa repose principalement sur la maîtrise de l’esprit, la concentration et l’imposition d’une intention claire."
+          },
+          {
+            "text": "Leur Psyché développée favorise notamment :"
+          },
+          {
+            "items": [
+              "les actions mentales ;",
+              "la résistance psychique ;",
+              "l’application d’états mentaux ;",
+              "la concentration prolongée ;",
+              "la lecture des réactions d’un adversaire ;",
+              "les pratiques demandant une volonté stable."
+            ]
+          },
+          {
+            "text": "Leur Discrétion facilite également :"
+          },
+          {
+            "items": [
+              "les manifestations contenues ;",
+              "les effets difficiles à remarquer ;",
+              "l’approche silencieuse ;",
+              "l’utilisation de la magie dans un environnement urbain ;",
+              "les actions préparées sans attirer immédiatement l’attention."
+            ]
+          },
+          {
+            "text": "Leur faible Force les rend moins naturellement adaptés aux pratiques reposant sur :"
+          },
+          {
+            "items": [
+              "la puissance physique ;",
+              "la projection brutale du corps ;",
+              "le port de charges ;",
+              "les transformations demandant un effort musculaire important."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Lumière**"
+          },
+          {
+            "text": "La Lumière constitue l’affinité élémentaire recommandée pour les Marnasa."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie marnasa se manifeste fréquemment sous des formes fines, contrôlées et peu agressives en apparence."
+          },
+          {
+            "text": "Lorsqu’elle utilise la Lumière, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de halos pâles ;",
+              "de filaments lumineux ;",
+              "de petites particules suspendues ;",
+              "de lignes de lumière discrètes ;",
+              "de formes lumineuses brèves ;",
+              "d’une lueur entourant temporairement la cible d’un effet mental."
+            ]
+          },
+          {
+            "text": "Leurs manifestations privilégient généralement :"
+          },
+          {
+            "items": [
+              "la précision ;",
+              "la concentration ;",
+              "la subtilité ;",
+              "l’influence ;",
+              "le contrôle ;",
+              "la stabilité mentale."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les oreilles marnasa sont des organes auditifs naturels."
+          },
+          {
+            "text": "Elles ne sont pas des cornes, des antennes ni des canaux magiques autonomes."
+          },
+          {
+            "text": "Leur forme presque tubulaire est entièrement anatomique."
+          },
+          {
+            "text": "Une manifestation magique importante peut provoquer une réaction corporelle légère, comme une tension de la base ou un mouvement involontaire, mais les oreilles ne produisent pas elles-mêmes de lumière ou d’énergie."
+          },
+          {
+            "text": "Les états produits par **Semeur d’Esprits** ne sont pas de véritables esprits placés dans la cible."
+          },
+          {
+            "text": "Le nom désigne la capacité à provoquer un trouble mental après avoir réussi une action offensive contre un adversaire."
+          },
+          {
+            "text": "L’affinité recommandée à la Lumière n’accorde automatiquement :"
+          },
+          {
+            "items": [
+              "ni réserve supplémentaire de SM ;",
+              "ni protection contre la Folie ;",
+              "ni amélioration de l’audition."
+            ]
+          },
+          {
+            "text": "Ces capacités doivent être obtenues par une Voie d’héritage."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage marnasa :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "PSY +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DISCR +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "FOR −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Lumière"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. La Lumière constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "text": "Tout personnage marnasa possède naturellement :"
+          },
+          {
+            "items": [
+              "exactement deux oreilles latérales allongées et repliées ;",
+              "aucune oreille humanoïde supplémentaire ;",
+              "exactement quatre doigts à chaque main ;",
+              "exactement quatre orteils à chaque pied."
+            ]
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Semeur d’Esprits",
+                  "B"
+                ],
+                [
+                  "Furtivité Urbaine",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Semeur d’Esprits",
+            "headingLevel": 5,
+            "anchor": "semeur-desprits",
+            "text": "Cette formation développe la capacité à exploiter l’ouverture mentale créée par une action offensive réussie."
+          },
+          {
+            "text": "Après avoir réussi une attaque offensive, une opposition offensive ou une contre-réaction offensive contre un hostile, le personnage peut tenter de lui imposer un état mental disponible à son niveau."
+          },
+          {
+            "text": "La cible effectue le contre propre à l’état choisi."
+          },
+          {
+            "text": "Aucun second jet de PSY n’est demandé au Marnasa."
+          },
+          {
+            "text": "Au N1, les troubles disponibles comprennent notamment :"
+          },
+          {
+            "items": [
+              "Confusion mentale T1 ;",
+              "Hésitation ;",
+              "Inquiétude ;",
+              "Choc mental léger."
+            ]
+          },
+          {
+            "text": "Les états disponibles, leur portée et leur durée augmentent avec le niveau de la compétence."
+          },
+          {
+            "title": "Furtivité Urbaine",
+            "headingLevel": 5,
+            "anchor": "furtivite-urbaine",
+            "text": "Cette formation développe l’utilisation de l’architecture, des foules, des ombres et du désordre urbain pour dissimuler ses mouvements."
+          },
+          {
+            "text": "En environnement urbain, une réussite permet notamment :"
+          },
+          {
+            "items": [
+              "d’obtenir +1 niveau en Se cacher ;",
+              "de tenter de se dissimuler grâce à une couverture urbaine partielle ;",
+              "de rendre les traces visuelles ou physiques plus difficiles à suivre ;",
+              "d’exploiter progressivement les déplacements rapides et les refuges urbains."
+            ]
+          },
+          {
+            "text": "La compétence ne rend pas automatiquement caché et ne supprime pas :"
+          },
+          {
+            "items": [
+              "les sons ;",
+              "les odeurs ;",
+              "les traces magiques ;",
+              "les indices évidents."
+            ]
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Semeur d’Esprits ;",
+              "Furtivité Urbaine."
+            ]
+          },
+          {
+            "title": "Réserve naturelle — SM",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-sm",
+            "text": "Votre maximum de **SM** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de SM augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Mentalité — Folie",
+            "headingLevel": 5,
+            "anchor": "mentalite-folie",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Trouble**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Distorsion** — T2 ;",
+              "**Dissociation** — T3 ;",
+              "**Rupture** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états canoniques de la famille **Folie**. :contentReference[oaicite:1]{index=1}"
+          },
+          {
+            "text": "Elle ne s’applique pas automatiquement :"
+          },
+          {
+            "items": [
+              "aux états élémentaires ;",
+              "aux états d’une autre famille ;",
+              "aux effets portant un nom similaire ;",
+              "aux simples descriptions narratives de perte de raison."
+            ]
+          },
+          {
+            "title": "Sens aiguisé — Audition",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-audition",
+            "text": "Vous obtenez **+5 en Audition**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité auditive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Marnasa.md",
+    "sourceSha256": "39b4578c95dbaa53e1ec9abafaab69633940b3933256b523c4c646247935a1d7"
+  }
+}

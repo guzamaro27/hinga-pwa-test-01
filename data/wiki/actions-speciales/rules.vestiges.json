@@ -1,0 +1,956 @@
+{
+  "id": "rules.vestiges",
+  "type": "codex",
+  "identity": {
+    "name": "Les Vestiges",
+    "subtitle": "Règles générales de l’Extraction et de la Manifestation",
+    "icon": "V",
+    "tags": [
+      "règles",
+      "vestiges",
+      "extraction vestigiale",
+      "conjuration",
+      "manifestation",
+      "bestiairex"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "conjuration",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Principe général",
+        "blocks": [
+          {
+            "text": "Pour chaque espèce, un personnage peut accumuler jusqu’à **3 Vestiges**."
+          },
+          {
+            "text": "Chaque Vestige doit provenir d’un **spécimen distinct** de la même espèce."
+          },
+          {
+            "text": "Ainsi, pour obtenir trois Vestiges d’Araknoa, il faut réussir l’extraction sur trois Araknoa différents."
+          },
+          {
+            "text": "Le nombre de Vestiges possédés détermine la qualité de la manifestation :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Vestiges possédés",
+                "Complétude",
+                "Puissance"
+              ],
+              "rows": [
+                [
+                  "0 / 3",
+                  "Aucune",
+                  "Manifestation impossible"
+                ],
+                [
+                  "1 / 3",
+                  "Partielle",
+                  "50 %"
+                ],
+                [
+                  "2 / 3",
+                  "Stable",
+                  "75 %"
+                ],
+                [
+                  "3 / 3",
+                  "Complète",
+                  "100 %"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "**Un seul Vestige suffit donc pour commencer à manifester l’espèce.**"
+          },
+          {
+            "text": "Les deuxième et troisième Vestiges améliorent progressivement la reconstruction jusqu’à atteindre la pleine puissance de la créature."
+          },
+          {
+            "text": "Les Vestiges acquis sont permanents et ne sont pas consommés lors d’une manifestation."
+          }
+        ]
+      },
+      {
+        "label": "Extraction Vestigiale",
+        "blocks": [
+          {
+            "text": "L’extraction d’un Vestige nécessite l’accès à la capacité appropriée, normalement obtenue grâce à la compétence **Extraction Vestigiale**."
+          },
+          {
+            "text": "L’extraction utilise **ARC**."
+          },
+          {
+            "text": "Elle ne constitue pas une attaque et ne permet pas d’extraire un Vestige d’une créature encore capable de combattre normalement."
+          },
+          {
+            "text": "Pour être une cible valide, le spécimen doit :",
+            "title": "Conditions d’extraction"
+          },
+          {
+            "items": [
+              "être une **créature** ;",
+              "avoir été vaincu ;",
+              "être lié à une espèce identifiable dans le **Bestiairex** ;",
+              "se trouver à portée d’extraction ;",
+              "ne pas être lui-même une invocation ;",
+              "ne pas être une manifestation de Vestige ;",
+              "ne pas avoir déjà fait l’objet d’une tentative d’extraction."
+            ]
+          },
+          {
+            "text": "Certaines créatures particulières peuvent être déclarées incompatibles avec l’Extraction Vestigiale."
+          },
+          {
+            "text": "Dans ce cas, aucun jet n’est effectué."
+          }
+        ]
+      },
+      {
+        "label": "Portée et action",
+        "blocks": [
+          {
+            "text": "L’extraction s’effectue au **contact**, à une distance maximale de **1,5 mètre**."
+          },
+          {
+            "text": "En combat, tenter une extraction demande une **action majeure**."
+          },
+          {
+            "text": "Hors combat, aucune action de combat n’est comptabilisée."
+          },
+          {
+            "text": "L’extraction ne coûte pas de PF."
+          },
+          {
+            "text": "La véritable limite est la possibilité de n’effectuer qu’une seule tentative sur chaque spécimen."
+          }
+        ]
+      },
+      {
+        "label": "Une seule tentative par spécimen",
+        "blocks": [
+          {
+            "text": "Chaque créature vaincue ne peut permettre qu’**une seule tentative d’Extraction Vestigiale au total**."
+          },
+          {
+            "text": "Cette limite concerne le spécimen lui-même et non seulement le personnage effectuant la tentative."
+          },
+          {
+            "text": "Si plusieurs extracteurs sont présents, ils doivent donc choisir lequel d’entre eux tente l’extraction."
+          },
+          {
+            "text": "Dès que le véritable jet d’ARC est effectué, le spécimen est considéré comme utilisé."
+          },
+          {
+            "text": "Le personnage gagne :",
+            "title": "En cas de réussite"
+          },
+          {
+            "text": "**+1 Vestige de l’espèce concernée.**"
+          },
+          {
+            "text": "Le Vestige se dissipe.",
+            "title": "En cas d’échec"
+          },
+          {
+            "text": "Aucun personnage ne peut effectuer une nouvelle tentative sur ce même spécimen."
+          },
+          {
+            "text": "La réussite critique reste une réussite normale pour l’acquisition.",
+            "title": "En cas de réussite critique"
+          },
+          {
+            "text": "Un spécimen ne fournit jamais plus d’**un Vestige**."
+          },
+          {
+            "text": "Aucun jet n’est effectué.",
+            "title": "Si le personnage possède déjà 3 / 3 Vestiges"
+          },
+          {
+            "text": "Le spécimen n’est pas consommé par cette tentative impossible et peut encore être utilisé par un autre personnage capable d’en extraire un Vestige."
+          }
+        ]
+      },
+      {
+        "label": "Difficulté d’extraction",
+        "blocks": [
+          {
+            "text": "La difficulté dépend de deux facteurs :"
+          },
+          {
+            "items": [
+              "la puissance de la créature ;",
+              "la connaissance que l’extracteur possède de cette espèce."
+            ]
+          },
+          {
+            "text": "Une créature puissante laisse un Vestige plus difficile à fixer."
+          },
+          {
+            "text": "À l’inverse, comprendre précisément l’espèce facilite l’extraction."
+          },
+          {
+            "text": "Le niveau utilisé est le **niveau réel de la créature**, de 0 à 10.",
+            "title": "Niveau de la créature"
+          },
+          {
+            "table": {
+              "headers": [
+                "Niveau de créature",
+                "Modificateur d’extraction"
+              ],
+              "rows": [
+                [
+                  "0 à 2",
+                  "AV1"
+                ],
+                [
+                  "3 à 4",
+                  "normal"
+                ],
+                [
+                  "5 à 6",
+                  "DV1"
+                ],
+                [
+                  "7 à 8",
+                  "DV2"
+                ],
+                [
+                  "9 à 10",
+                  "DV3"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Connaissance Bestiairex",
+        "blocks": [
+          {
+            "text": "Le niveau de connaissance Bestiairex de l’extracteur modifie également le jet."
+          },
+          {
+            "table": {
+              "headers": [
+                "Connaissance",
+                "Modificateur"
+              ],
+              "rows": [
+                [
+                  "0 — Inconnu",
+                  "DV1"
+                ],
+                [
+                  "1 — Vu",
+                  "normal"
+                ],
+                [
+                  "2 — Connu",
+                  "AV1"
+                ],
+                [
+                  "3 — Étudié",
+                  "AV2"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Ces avantages et désavantages utilisent les règles normales d’AV et de DV de Hinga."
+          },
+          {
+            "text": "Ils se combinent donc entre eux ainsi qu’avec les autres modificateurs applicables au jet."
+          },
+          {
+            "text": "Une créature de niveau 8 impose **DV2**.",
+            "title": "Exemple"
+          },
+          {
+            "text": "Si le personnage possède une connaissance **Étudié**, il reçoit **AV2**."
+          },
+          {
+            "text": "Les deux se compensent et l’extraction est effectuée normalement."
+          },
+          {
+            "text": "Le Bestiairex devient ainsi un véritable outil de préparation pour un extracteur : **mieux connaître une espèce permet de mieux fixer son Vestige.**"
+          }
+        ]
+      },
+      {
+        "label": "Accumuler plusieurs Vestiges",
+        "blocks": [
+          {
+            "text": "Chaque réussite sur un nouveau spécimen de la même espèce augmente le compteur d’un point, jusqu’à un maximum de trois."
+          },
+          {
+            "text": "Exemple :"
+          },
+          {
+            "text": "**Premier Araknoa extrait**"
+          },
+          {
+            "text": "`1 / 3`"
+          },
+          {
+            "text": "La manifestation atteint 50 % de sa puissance."
+          },
+          {
+            "text": "**Deuxième Araknoa extrait**"
+          },
+          {
+            "text": "`2 / 3`"
+          },
+          {
+            "text": "La manifestation atteint 75 % de sa puissance."
+          },
+          {
+            "text": "**Troisième Araknoa extrait**"
+          },
+          {
+            "text": "`3 / 3`"
+          },
+          {
+            "text": "La manifestation atteint 100 % de sa puissance."
+          },
+          {
+            "text": "Une fois `3 / 3` atteint, le Vestige de cette espèce est considéré comme complet."
+          },
+          {
+            "text": "Aucune accumulation supérieure à trois n’est utilisée par les règles normales."
+          }
+        ]
+      },
+      {
+        "label": "Le Registre des Vestiges",
+        "blocks": [
+          {
+            "text": "Les espèces dont un personnage possède au moins un Vestige sont regroupées dans son **Registre des Vestiges**."
+          },
+          {
+            "text": "Ce registre est distinct de son niveau de connaissance Bestiairex."
+          },
+          {
+            "text": "Pour chaque espèce, il permet notamment de consulter :"
+          },
+          {
+            "items": [
+              "l’espèce concernée ;",
+              "le nombre de Vestiges possédés ;",
+              "la complétude actuelle ;",
+              "la puissance de manifestation ;",
+              "le niveau de connaissance Bestiairex ;",
+              "la possibilité actuelle de manifester la créature."
+            ]
+          },
+          {
+            "text": "Une connaissance élevée n’accorde pas automatiquement de Vestige."
+          },
+          {
+            "text": "Inversement, posséder trois Vestiges ne donne pas automatiquement le niveau **Étudié** dans le Bestiairex."
+          },
+          {
+            "text": "Les deux progressions sont indépendantes."
+          }
+        ]
+      },
+      {
+        "label": "Manifester un Vestige",
+        "blocks": [
+          {
+            "text": "À partir d’au moins **1 Vestige** d’une espèce, le personnage peut utiliser sa collection pour reconstruire temporairement cette créature sous forme d’invocation."
+          },
+          {
+            "text": "La manifestation porte toujours le nom :"
+          },
+          {
+            "text": "**Vestige de <créature>**"
+          },
+          {
+            "text": "Exemples :"
+          },
+          {
+            "items": [
+              "Vestige d’Araknoa ;",
+              "Vestige de Bargor ;",
+              "Vestige de Waskro."
+            ]
+          },
+          {
+            "text": "Ce nom ne change pas selon le nombre de Vestiges possédés."
+          },
+          {
+            "text": "Un Vestige d’Araknoa à `1 / 3` reste donc appelé **Vestige d’Araknoa**."
+          }
+        ]
+      },
+      {
+        "label": "Une manifestation n’est pas le spécimen original",
+        "blocks": [
+          {
+            "text": "Les différents Vestiges accumulés servent à reconstruire une structure commune suffisamment complète pour manifester la créature."
+          },
+          {
+            "text": "La manifestation n’est pas considérée comme l’un des spécimens vaincus revenu à la vie."
+          },
+          {
+            "text": "Elle n’hérite donc pas automatiquement :"
+          },
+          {
+            "items": [
+              "des souvenirs individuels du spécimen ;",
+              "de son histoire personnelle ;",
+              "de ses blessures anciennes ;",
+              "de sa personnalité propre ;",
+              "de relations qu’il aurait entretenues avant sa mort."
+            ]
+          },
+          {
+            "text": "Elle reproduit la créature nécessaire à la manifestation à partir des Vestiges accumulés."
+          }
+        ]
+      },
+      {
+        "label": "Puissance selon le nombre de Vestiges",
+        "blocks": [
+          {
+            "text": "La puissance intrinsèque de la manifestation dépend directement du compteur."
+          },
+          {
+            "text": "Avec `1 / 3`, la reconstruction est partielle.",
+            "title": "1 Vestige — 50 %"
+          },
+          {
+            "text": "Les valeurs concernées sont réduites à **50 %** de leur valeur normale."
+          },
+          {
+            "text": "Avec `2 / 3`, la reconstruction est suffisamment stable pour reproduire la majeure partie des capacités de la créature.",
+            "title": "2 Vestiges — 75 %"
+          },
+          {
+            "text": "Les valeurs concernées sont réduites à **75 %** de leur valeur normale."
+          },
+          {
+            "text": "Avec `3 / 3`, la reconstruction est complète.",
+            "title": "3 Vestiges — 100 %"
+          },
+          {
+            "text": "La manifestation utilise **100 %** des valeurs normales de la créature avant l’application des autres effets de Conjuration."
+          }
+        ]
+      },
+      {
+        "label": "Valeurs affectées par la complétude",
+        "blocks": [
+          {
+            "text": "Le multiplicateur de complétude s’applique à :"
+          },
+          {
+            "items": [
+              "PV ;",
+              "PF ;",
+              "PHY ;",
+              "MENT ;",
+              "MAG ;",
+              "MOB ;",
+              "dégâts directs propres à la manifestation."
+            ]
+          },
+          {
+            "text": "La complétude ne supprime pas l’identité tactique de la créature."
+          },
+          {
+            "text": "Elle ne réduit pas automatiquement :"
+          },
+          {
+            "items": [
+              "ses résistances ;",
+              "les capacités auxquelles elle a accès ;",
+              "les états qu’elle peut normalement provoquer ;",
+              "la portée de ses capacités ;",
+              "ses propriétés particulières ;",
+              "ses éléments ;",
+              "ses tags ;",
+              "ses immunités éventuelles."
+            ]
+          },
+          {
+            "text": "Une manifestation à 50 % possède donc toujours les particularités fondamentales de son espèce, mais dispose de valeurs brutes et de dégâts nettement inférieurs."
+          }
+        ]
+      },
+      {
+        "label": "Ordre des modifications",
+        "blocks": [
+          {
+            "text": "La complétude représente la qualité de la reconstruction elle-même."
+          },
+          {
+            "text": "Elle est donc appliquée aux valeurs de base du Vestige avant les améliorations apportées par le conjurateur."
+          },
+          {
+            "text": "Le principe général est :"
+          },
+          {
+            "text": "**valeur de base × complétude + bonus fixes de Conjuration**"
+          },
+          {
+            "text": "Les autres multiplicateurs applicables sont ensuite résolus selon leurs propres règles."
+          },
+          {
+            "text": "Une amélioration accordée par une compétence de Conjuration reste donc une véritable amélioration et n’est pas artificiellement réduite parce que le Vestige n’est pas encore complet."
+          }
+        ]
+      },
+      {
+        "label": "Niveau de la manifestation",
+        "blocks": [
+          {
+            "text": "Le niveau réel de la créature détermine la puissance de Conjuration nécessaire pour la manifester."
+          },
+          {
+            "table": {
+              "headers": [
+                "Niveau de créature",
+                "Puissance de manifestation"
+              ],
+              "rows": [
+                [
+                  "0 à 2",
+                  "N1"
+                ],
+                [
+                  "3 à 5",
+                  "N2"
+                ],
+                [
+                  "6 à 8",
+                  "N3"
+                ],
+                [
+                  "9 à 10",
+                  "N4"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Posséder un Vestige ne garantit donc pas automatiquement que le personnage est déjà assez puissant pour le manifester."
+          },
+          {
+            "text": "Il est parfaitement possible de réussir à extraire le Vestige d’une créature très puissante puis de devoir attendre avant de pouvoir réellement l’appeler."
+          },
+          {
+            "text": "Le Vestige reste acquis pendant ce temps."
+          },
+          {
+            "text": "Il n’est pas perdu."
+          }
+        ]
+      },
+      {
+        "label": "Coût de manifestation",
+        "blocks": [
+          {
+            "text": "Le coût dépend de la puissance nécessaire."
+          },
+          {
+            "table": {
+              "headers": [
+                "Puissance",
+                "Coût"
+              ],
+              "rows": [
+                [
+                  "N1",
+                  "1 PF"
+                ],
+                [
+                  "N2",
+                  "2 PF"
+                ],
+                [
+                  "N3",
+                  "3 PF"
+                ],
+                [
+                  "N4",
+                  "4 PF"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Ces PF sont dépensés lors de la manifestation."
+          },
+          {
+            "text": "Ils ne correspondent pas à une consommation du Vestige."
+          }
+        ]
+      },
+      {
+        "label": "Durée",
+        "blocks": [
+          {
+            "text": "Une manifestation de Vestige utilise les règles normales de durée d’une invocation de créature."
+          },
+          {
+            "text": "Sa durée de base est :"
+          },
+          {
+            "text": "**1d4 + 1 tours**"
+          },
+          {
+            "text": "Les bonus ou modifications de durée accordés par les compétences et effets de Conjuration s’appliquent normalement."
+          },
+          {
+            "text": "À la fin de la durée, la manifestation disparaît."
+          },
+          {
+            "text": "Le nombre de Vestiges possédés reste inchangé."
+          }
+        ]
+      },
+      {
+        "label": "Limite d’invocations",
+        "blocks": [
+          {
+            "text": "Un Vestige manifesté est une **invocation normale** pour toutes les règles concernant le nombre de créatures invoquées."
+          },
+          {
+            "text": "Par défaut, un personnage ne peut maintenir qu’**une seule invocation active**."
+          },
+          {
+            "text": "Cela signifie qu’il ne peut pas contourner cette limite en utilisant alternativement :"
+          },
+          {
+            "items": [
+              "une invocation créée par un sort ;",
+              "puis un Vestige ;",
+              "puis une autre forme d’invocation."
+            ]
+          },
+          {
+            "text": "Toutes utilisent la même limite."
+          },
+          {
+            "text": "Si la limite est atteinte, manifester une nouvelle invocation nécessite de remplacer une invocation existante selon les règles normales de Conjuration."
+          }
+        ]
+      },
+      {
+        "label": "Polyphonie Conjuratoire",
+        "blocks": [
+          {
+            "text": "**Polyphonie Conjuratoire** peut permettre de maintenir jusqu’à deux invocations selon les règles propres à cette compétence."
+          },
+          {
+            "text": "Les Vestiges utilisent normalement Polyphonie."
+          },
+          {
+            "text": "Il est donc possible, lorsque la compétence le permet, de maintenir par exemple :"
+          },
+          {
+            "items": [
+              "deux Vestiges ;",
+              "un Vestige et une invocation classique ;",
+              "deux invocations classiques."
+            ]
+          },
+          {
+            "text": "La limite reste commune à toutes ces créatures."
+          }
+        ]
+      },
+      {
+        "label": "Vestige incomplet et Polyphonie",
+        "blocks": [
+          {
+            "text": "La réduction provenant de la complétude du Vestige et celle provenant éventuellement de Polyphonie sont deux effets différents."
+          },
+          {
+            "text": "Elles peuvent donc se cumuler lorsqu’elles concernent le même paramètre."
+          },
+          {
+            "text": "Exemple :"
+          },
+          {
+            "text": "Un Vestige à `1 / 3` possède une complétude de **50 %**."
+          },
+          {
+            "text": "S’il devient également une invocation secondaire soumise à un multiplicateur de **50 %** de Polyphonie, un paramètre affecté par les deux effets est calculé à :"
+          },
+          {
+            "text": "**50 % × 50 % = 25 %**"
+          },
+          {
+            "text": "Cette réduction ne modifie pas le nombre de Vestiges réellement possédés."
+          }
+        ]
+      },
+      {
+        "label": "Interaction avec les compétences de Conjuration",
+        "blocks": [
+          {
+            "text": "Une manifestation de Vestige est considérée comme une véritable invocation appartenant à son lanceur."
+          },
+          {
+            "text": "Les compétences capables d’améliorer ou de modifier les invocations peuvent donc l’affecter normalement lorsqu’elle respecte leurs conditions."
+          },
+          {
+            "text": "Cela concerne notamment les mécaniques de Conjuration qui utilisent :"
+          },
+          {
+            "items": [
+              "le propriétaire de l’invocation ;",
+              "son nombre ;",
+              "sa durée ;",
+              "ses ressources ;",
+              "ses dégâts ;",
+              "ses résistances ;",
+              "sa position ;",
+              "son rôle d’invocation principale ou secondaire."
+            ]
+          },
+          {
+            "text": "Le fait qu’une invocation provienne d’un Vestige ne crée pas une catégorie indépendante échappant aux règles normales de Conjuration."
+          }
+        ]
+      },
+      {
+        "label": "Destruction d’une manifestation",
+        "blocks": [
+          {
+            "text": "Détruire un Vestige manifesté détruit uniquement **la manifestation actuelle**."
+          },
+          {
+            "text": "Cela ne détruit aucun des Vestiges conservés par le personnage."
+          },
+          {
+            "text": "Exemple :"
+          },
+          {
+            "text": "Un personnage possède :"
+          },
+          {
+            "text": "**Araknoa — 2 / 3 Vestiges**"
+          },
+          {
+            "text": "Il manifeste un Vestige d’Araknoa à 75 %."
+          },
+          {
+            "text": "Le Vestige d’Araknoa est détruit pendant le combat."
+          },
+          {
+            "text": "Après le combat, le personnage possède toujours :"
+          },
+          {
+            "text": "**Araknoa — 2 / 3 Vestiges**"
+          },
+          {
+            "text": "Il pourra de nouveau manifester un Vestige d’Araknoa ultérieurement."
+          }
+        ]
+      },
+      {
+        "label": "Dissipation, expiration et renvoi",
+        "blocks": [
+          {
+            "text": "Le même principe s’applique si la manifestation :"
+          },
+          {
+            "items": [
+              "arrive au terme de sa durée ;",
+              "est dissipée ;",
+              "est renvoyée volontairement ;",
+              "est remplacée par une autre invocation ;",
+              "disparaît à la suite d’un effet prévu par les règles de Conjuration."
+            ]
+          },
+          {
+            "text": "Dans tous ces cas :"
+          },
+          {
+            "text": "**la manifestation disparaît, mais les Vestiges restent acquis.**"
+          }
+        ]
+      },
+      {
+        "label": "Les Vestiges ne sont pas des consommables",
+        "blocks": [
+          {
+            "text": "Une fois acquis, un Vestige appartient durablement au registre du personnage."
+          },
+          {
+            "text": "Il ne doit pas être considéré comme :"
+          },
+          {
+            "items": [
+              "une charge ;",
+              "une munition ;",
+              "un composant à dépenser à chaque invocation ;",
+              "une ressource consommée après usage."
+            ]
+          },
+          {
+            "text": "Les coûts et limitations de la manifestation proviennent de la **Conjuration** :"
+          },
+          {
+            "items": [
+              "action ;",
+              "PF ;",
+              "durée ;",
+              "puissance maximale autorisée ;",
+              "nombre d’invocations actives."
+            ]
+          },
+          {
+            "text": "Le compteur de Vestiges représente uniquement la **complétude permanente** de la reconstruction."
+          }
+        ]
+      },
+      {
+        "label": "Knowledge et Vestiges",
+        "blocks": [
+          {
+            "text": "Le Knowledge du Bestiairex et le nombre de Vestiges répondent à deux questions différentes."
+          },
+          {
+            "text": "**À quel point connaissez-vous cette espèce ?**",
+            "title": "Knowledge"
+          },
+          {
+            "text": "Il facilite notamment l’extraction et détermine les informations auxquelles le personnage a accès."
+          },
+          {
+            "text": "**À quel point êtes-vous capable de reconstruire cette espèce ?**",
+            "title": "Vestiges"
+          },
+          {
+            "text": "Ils déterminent la puissance de sa manifestation."
+          },
+          {
+            "text": "Un personnage peut donc être :"
+          },
+          {
+            "items": [
+              "très savant sur une créature sans posséder aucun Vestige ;",
+              "peu informé mais posséder plusieurs Vestiges ;",
+              "expert et posséder un Vestige complet ;",
+              "ou n’avoir encore aucune relation avec cette espèce."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Exemple complet",
+        "blocks": [
+          {
+            "text": "Un personnage possédant Extraction Vestigiale rencontre pour la première fois un Araknoa."
+          },
+          {
+            "text": "Sa connaissance Bestiairex passe éventuellement au niveau :"
+          },
+          {
+            "text": "**Vu**"
+          },
+          {
+            "text": "L’Araknoa est vaincu."
+          },
+          {
+            "text": "Le personnage s’approche du corps et utilise une action majeure pour tenter **Extraire un Vestige**."
+          },
+          {
+            "text": "L’Araknoa possède un niveau suffisamment élevé pour appliquer un certain désavantage."
+          },
+          {
+            "text": "Le personnage ne connaît encore que peu cette espèce et ne reçoit donc pas encore les avantages d’une connaissance approfondie."
+          },
+          {
+            "text": "Il effectue son jet d’ARC."
+          },
+          {
+            "text": "Il gagne :",
+            "title": "Première réussite"
+          },
+          {
+            "text": "**Araknoa — 1 / 3 Vestige**"
+          },
+          {
+            "text": "Son Registre lui permet désormais de manifester :"
+          },
+          {
+            "text": "**Vestige d’Araknoa**"
+          },
+          {
+            "text": "à **50 %** de puissance."
+          },
+          {
+            "text": "Le Vestige n’est pas consommé après utilisation."
+          },
+          {
+            "text": "Plus tard, le groupe vainc un deuxième Araknoa."
+          },
+          {
+            "text": "Le premier spécimen ne pourrait de toute façon plus être exploité, mais ce nouvel individu constitue une nouvelle occasion."
+          },
+          {
+            "text": "Le personnage réussit une seconde extraction :"
+          },
+          {
+            "text": "**Araknoa — 2 / 3 Vestiges**"
+          },
+          {
+            "text": "Ses prochaines manifestations utilisent désormais **75 %** de la puissance normale."
+          },
+          {
+            "text": "Après une troisième extraction réussie sur un troisième Araknoa :"
+          },
+          {
+            "text": "**Araknoa — 3 / 3 Vestiges**"
+          },
+          {
+            "text": "Le Vestige d’Araknoa est désormais complet."
+          },
+          {
+            "text": "Il est manifesté à **100 %** de ses valeurs normales avant l’application des autres bonus et modifications de Conjuration."
+          }
+        ]
+      },
+      {
+        "label": "Résumé",
+        "blocks": [
+          {
+            "text": "Le système des Vestiges suit cinq principes fondamentaux :"
+          },
+          {
+            "items": [
+              "**Vaincre** une créature compatible.",
+              "**Extraire** son Vestige par un jet d’ARC.",
+              "**Accumuler** jusqu’à trois Vestiges de la même espèce.",
+              "**Manifester** cette espèce à 50 %, 75 % ou 100 % selon la complétude.",
+              "**Conserver** définitivement les Vestiges, quelle que soit l’issue des manifestations."
+            ]
+          },
+          {
+            "text": "En formule courte :"
+          },
+          {
+            "text": "**Créature vaincue → Extraction → Vestige acquis → Registre → Manifestation**"
+          },
+          {
+            "text": "Les Vestiges enrichissent ainsi la Conjuration sans la remplacer : ils donnent au personnage de nouvelles créatures à appeler, tandis que toutes les règles de contrôle, de durée, de coût et de nombre d’invocations restent celles du système normal de Conjuration."
+          }
+        ]
+      }
+    ]
+  }
+}

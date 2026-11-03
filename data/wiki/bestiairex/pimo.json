@@ -1,0 +1,31 @@
+{
+  "id": "pimo",
+  "type": "creature-public",
+  "identity": {
+    "name": "Pimo",
+    "subtitle": "La boule flottante",
+    "tags": [
+      "sauvage",
+      "proie",
+      "aquatique"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Pimo vit dans les eaux douces calmes, à la surface des lacs, des étangs et des rivières lentes. Il se rassemble en groupes compacts flottants et se déplace principalement par dérive lente, aidé par de petites nageoires latérales. Son régime est piscivore, composé de petits organismes aquatiques, notamment de jeunes poissons et de larves."
+          },
+          {
+            "text": "Le Pimo est une petite sphère jaune recouverte d’un duvet dense et court. Sa tête forme une seconde boule légèrement distincte, posée sur le corps principal. Son bec arrondi, rose pâle, dépasse à peine. De chaque côté du corps, deux petites nageoires discrètes émergent sous la surface de l’eau. Il flotte naturellement, comme si son corps était plus léger que l’eau."
+          },
+          {
+            "text": "Le Pimo vit en groupes compacts flottants à la surface des eaux calmes. Ces groupes restent généralement proches les uns des autres et se déplacent lentement au gré des courants."
+          }
+        ]
+      }
+    ]
+  }
+}

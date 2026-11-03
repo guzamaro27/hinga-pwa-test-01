@@ -1,0 +1,180 @@
+{
+  "id": "libri",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Libri",
+    "subtitle": "L’Éclaireur des Horizons",
+    "tags": [
+      "Libri",
+      "L’Éclaireur des Horizons",
+      "esprit majeur",
+      "Exploration",
+      "Aventure",
+      "Voyage",
+      "Horizon",
+      "Découverte",
+      "Nouveautés",
+      "Curiosité",
+      "Liberté",
+      "Infatigable Voyageur",
+      "Fatigue de voyage réduite"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#4A6A7A",
+    "visualNote": "Exploration • Aventure • Voyage • Horizon • Découverte • Nouveautés • Curiosité • Liberté"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "libri",
+    "name": "Libri",
+    "title": "L’Éclaireur des Horizons",
+    "type": "esprit_majeur",
+    "domains": [
+      "Exploration",
+      "Aventure",
+      "Voyage",
+      "Horizon",
+      "Découverte",
+      "Nouveautés",
+      "Curiosité",
+      "Liberté"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "full_moon",
+      "label": "À chaque pleine lune"
+    },
+    "cult": {
+      "short": "Se rendre à l’horizon",
+      "ritual": "Se rendre à l'horizon."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’endurance de voyage est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "infatigable_voyageur": {
+        "key": "infatigable_voyageur",
+        "name": "Infatigable Voyageur",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Fatigue de voyage réduite",
+        "fullDescription": "La fatigue liée aux voyages et déplacements est réduite de moitié.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#4A6A7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Exploration",
+              "Aventure",
+              "Voyage",
+              "Horizon",
+              "Découverte",
+              "Nouveautés",
+              "Curiosité",
+              "Liberté"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Se rendre à l’horizon"
+          },
+          {
+            "title": "Rituel",
+            "text": "Se rendre à l'horizon."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque pleine lune"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "full_moon"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Infatigable Voyageur (commune, passif)",
+              "Effet court : Fatigue de voyage réduite",
+              "Description : La fatigue liée aux voyages et déplacements est réduite de moitié.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’endurance de voyage est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "libri"
+  }
+}

@@ -60,6 +60,10 @@
     "section": "systeme"
   },
   {
+    "path": "data/wiki/systeme/rules.pv.json",
+    "section": "systeme"
+  },
+  {
     "path": "data/wiki/systeme/rules.sm.json",
     "section": "systeme"
   },
@@ -92,6 +96,114 @@
     "section": "systeme"
   },
   {
+    "path": "data/wiki/systeme/rules.garde.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.defenses-mentales.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.fracture-mentale.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.oppositions.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.surprise-opportunite.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.etats.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.repos-recuperation.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.magie.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.elements-affinites.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.portee-ciblage.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.attaques-zone.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.focalisation-concentration.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.flux-magique.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.conjuration-invocations.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.progression-competences.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.groupes-vocationnels.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/guide.creation-personnage.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.environnements-terrains.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.munitions.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.revetements-elementaires.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.potions-utilisation.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.poisons-utilisation.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.connaissance-substances.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.perception-detection.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.traces-pistage.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/rules.monnaies-prix.json",
+    "section": "systeme"
+  },
+  {
+    "path": "data/wiki/systeme/guide.cadran-tours.json",
+    "section": "systeme"
+  },
+  {
     "path": "data/wiki/fiche-personnage/guide-rapide.json",
     "section": "fiche-personnage"
   },
@@ -101,6 +213,42 @@
   },
   {
     "path": "data/wiki/fiche-personnage/jauges-ressources.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/combat-actions-rapides.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/inventaire-equipement.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/commerce-marchands.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/competences.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/magie.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/effets-et-etats.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/journal.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/creatures.json",
+    "section": "fiche-personnage"
+  },
+  {
+    "path": "data/wiki/fiche-personnage/invocations.json",
     "section": "fiche-personnage"
   }
 ]

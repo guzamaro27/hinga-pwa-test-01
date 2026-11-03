@@ -1,0 +1,241 @@
+{
+  "id": "materials.ivernal",
+  "type": "material",
+  "identity": {
+    "name": "Ivernal",
+    "subtitle": "Textiles · Végétal",
+    "icon": "◆",
+    "tags": [
+      "ivernal",
+      "Ivernal",
+      "textile",
+      "Textiles",
+      "vegetal",
+      "Végétal",
+      "Fibre givrée rare du Nord",
+      "Bleu pâle givré, froid au toucher",
+      "Fibre isolante capable de stabiliser la température d’un objet fini.",
+      "Froid",
+      "magical",
+      "Magique",
+      "Bon",
+      "Manteaux",
+      "doublures",
+      "équipements polaires",
+      "tailleur",
+      "mage",
+      "nord",
+      "cache",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 7
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "ivernal",
+    "family": "textile",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Végétal"
+      },
+      {
+        "label": "Rareté",
+        "value": 7
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre givrée rare du Nord"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Bleu pâle givré, froid au toucher"
+          },
+          {
+            "title": "Description",
+            "text": "Fibre isolante capable de stabiliser la température d’un objet fini."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "5"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Froid"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Potentiel thermorégulateur élevé."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Doit être doublé",
+              "froid au contact prolongé."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Manteaux",
+              "doublures",
+              "équipements polaires"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "tailleur",
+              "mage",
+              "nord",
+              "cache",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "250"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "12"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_refroidi",
+              "etat_gele",
+              "etat_congele"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

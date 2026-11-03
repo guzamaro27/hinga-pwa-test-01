@@ -1,0 +1,46 @@
+{
+  "id": "mental-ultimatum-absolu",
+  "type": "codex",
+  "identity": {
+    "name": "Ultimatum absolu",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "5 PF · Majeure · 24 m · Palier +0",
+              "Jet offensif : PSY.",
+              "Les dés de dégâts de base prennent leur maximum via le même mécanisme que la magie chargée. Les bonus fixes ne sont ajoutés qu’une fois.",
+              "Un échec offensif ou une annulation complète explicite (dont Déni réussi) fait perdre au lanceur la moitié de sa SM actuelle, arrondie au supérieur. Une simple réduction numérique à zéro ne déclenche pas ce contrecoup. Les coûts restent dépensés."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

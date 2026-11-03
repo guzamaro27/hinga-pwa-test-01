@@ -1,0 +1,173 @@
+{
+  "id": "rules.elements-affinites",
+  "type": "codex",
+  "identity": {
+    "name": "Éléments, forces et faiblesses",
+    "subtitle": "Les treize éléments canoniques",
+    "icon": "◌",
+    "tags": [
+      "Éléments, forces et faiblesses",
+      "élément",
+      "affinité",
+      "maîtrise"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/magie.mjs"
+  ],
+  "mechanics": {
+    "elementIds": [
+      "PLANTE",
+      "EAU",
+      "FEU",
+      "TERRE",
+      "METAL",
+      "ELECTRICITE",
+      "AIR",
+      "SON",
+      "CORPS",
+      "LUMIERE",
+      "TENEBRES",
+      "TEMPS",
+      "ESPACE"
+    ],
+    "masteryLevels": [
+      "N0 — Néophyte",
+      "N1 — Initié",
+      "N2 — Apprenti",
+      "N3 — Maître",
+      "N4 — Sage"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Éléments",
+        "value": "13"
+      },
+      {
+        "label": "Maîtrise",
+        "value": "N0 à N4"
+      },
+      {
+        "label": "Retirés",
+        "value": "Poison et Esprit ne sont pas des éléments"
+      }
+    ],
+    "links": [
+      {
+        "label": "Magie",
+        "sectionId": "systeme",
+        "entryId": "rules.magie"
+      },
+      {
+        "label": "Résistances",
+        "sectionId": "systeme",
+        "entryId": "rules.resistances"
+      },
+      {
+        "label": "Revêtements",
+        "sectionId": "systeme",
+        "entryId": "rules.revetements-elementaires"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Affinités",
+        "blocks": [
+          {
+            "table": {
+              "headers": [
+                "Élément",
+                "Fort contre",
+                "Faible contre"
+              ],
+              "rows": [
+                [
+                  "Plante",
+                  "Eau, Terre",
+                  "Feu, Air"
+                ],
+                [
+                  "Eau",
+                  "Feu, Métal",
+                  "Plante, Électricité"
+                ],
+                [
+                  "Feu",
+                  "Plante, Métal",
+                  "Eau, Ténèbres"
+                ],
+                [
+                  "Terre",
+                  "Air, Électricité",
+                  "Plante, Son"
+                ],
+                [
+                  "Métal",
+                  "Son, Lumière",
+                  "Feu, Eau"
+                ],
+                [
+                  "Électricité",
+                  "Eau, Corps",
+                  "Terre, Son"
+                ],
+                [
+                  "Air",
+                  "Plante, Son",
+                  "Terre, Métal"
+                ],
+                [
+                  "Son",
+                  "Électricité, Terre",
+                  "Air, Métal"
+                ],
+                [
+                  "Corps",
+                  "Air, Ténèbres",
+                  "Électricité, Lumière"
+                ],
+                [
+                  "Lumière",
+                  "Corps, Ténèbres",
+                  "Métal, Ténèbres"
+                ],
+                [
+                  "Ténèbres",
+                  "Feu, Lumière",
+                  "Corps, Lumière"
+                ],
+                [
+                  "Temps",
+                  "Espace",
+                  "Espace"
+                ],
+                [
+                  "Espace",
+                  "Temps",
+                  "Temps"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "label": "Maîtrise",
+        "blocks": [
+          {
+            "text": "La maîtrise élémentaire progresse de N0 Néophyte à N4 Sage. Une résistance ou une faiblesse élémentaire modifie la contribution correspondante lorsque la résolution l’emploie."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "rules.poisons-utilisation",
+  "type": "codex",
+  "identity": {
+    "name": "Utiliser un poison",
+    "subtitle": "Application, déclenchement et contre",
+    "icon": "☠",
+    "tags": [
+      "Utiliser un poison",
+      "poison",
+      "antidote",
+      "arme"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/poisons/poison-runtime.mjs",
+    "module/engine/poisons/poison-coating.mjs",
+    "module/data/poison-config.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Application",
+        "value": "Support et voie d’entrée compatibles"
+      },
+      {
+        "label": "Effets",
+        "value": "Dégâts, états, Tier et durée"
+      },
+      {
+        "label": "Contre",
+        "value": "Jet, antidote ou retrait si prévu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Connaissance des substances",
+        "sectionId": "systeme",
+        "entryId": "rules.connaissance-substances"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      },
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Préparer",
+        "blocks": [
+          {
+            "text": "Le poison précise sa famille, sa gravité, son support, sa voie d’entrée et sa persistance."
+          }
+        ]
+      },
+      {
+        "label": "Déclencher",
+        "blocks": [
+          {
+            "text": "Sur une arme, le poison se déclenche lors d’une touche qualifiée. La dose est consommée selon les règles du revêtement toxique."
+          }
+        ]
+      },
+      {
+        "label": "Résister",
+        "blocks": [
+          {
+            "text": "Le jet de contre, son moment et ses effets viennent du poison. Un antidote ou un retrait valide réduit ou supprime uniquement ce qu’il déclare."
+          }
+        ]
+      }
+    ]
+  }
+}

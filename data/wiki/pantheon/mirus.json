@@ -1,0 +1,182 @@
+{
+  "id": "mirus",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Mirus",
+    "subtitle": "L’Harmonie Paisible",
+    "tags": [
+      "Mirus",
+      "L’Harmonie Paisible",
+      "esprit majeur",
+      "Paix",
+      "Équilibre",
+      "Dualité",
+      "Sagesse",
+      "Serments",
+      "Loyauté",
+      "Fraternité",
+      "Esprit Calme",
+      "Immunité à la confusion et panique"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#7B8C7A",
+    "visualNote": "Paix • Équilibre • Dualité • Sagesse • Serments • Loyauté • Fraternité"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "mirus",
+    "name": "Mirus",
+    "title": "L’Harmonie Paisible",
+    "type": "esprit_majeur",
+    "domains": [
+      "Paix",
+      "Équilibre",
+      "Dualité",
+      "Sagesse",
+      "Serments",
+      "Loyauté",
+      "Fraternité"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "season_start",
+      "label": "À chaque début de saison"
+    },
+    "cult": {
+      "short": "Confesser ses transgressions",
+      "ritual": "Écrire ses transgressions des lois politiques, des esprits et personnelles ou les transmettre à l'oral à quelqu'un."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’harmonie intérieure est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "esprit_calme": {
+        "key": "esprit_calme",
+        "name": "Esprit Calme",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Immunité à la confusion et panique",
+        "fullDescription": "Rend immunisé aux effets de confusion et de panique.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "incompatibilities": [
+      "thyren"
+    ],
+    "ui": {
+      "color": "#7B8C7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Paix",
+              "Équilibre",
+              "Dualité",
+              "Sagesse",
+              "Serments",
+              "Loyauté",
+              "Fraternité"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Confesser ses transgressions"
+          },
+          {
+            "title": "Rituel",
+            "text": "Écrire ses transgressions des lois politiques, des esprits et personnelles ou les transmettre à l'oral à quelqu'un."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque début de saison"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "season_start"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Esprit Calme (commune, passif)",
+              "Effet court : Immunité à la confusion et panique",
+              "Description : Rend immunisé aux effets de confusion et de panique.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’harmonie intérieure est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "thyren"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "mirus"
+  }
+}

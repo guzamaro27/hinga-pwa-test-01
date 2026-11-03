@@ -1,0 +1,120 @@
+{
+  "id": "rules.magie",
+  "type": "codex",
+  "identity": {
+    "name": "Magie — règles générales",
+    "subtitle": "Lancer et résoudre un sort",
+    "icon": "✦",
+    "tags": [
+      "Magie — règles générales",
+      "magie",
+      "sort",
+      "ARC",
+      "DEM"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/magie.mjs",
+    "module/helpers/spell-resolution-events.mjs",
+    "module/engine/context-builder.mjs"
+  ],
+  "mechanics": {
+    "powerLevels": [
+      "N0 – Latent",
+      "N1 – Apprenti",
+      "N2 – Confirmé",
+      "N3 – Maître",
+      "N4 – Suprême"
+    ],
+    "categories": [
+      "Offense",
+      "Altération",
+      "Conjuration",
+      "Défense",
+      "Divination",
+      "Illusion"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Puissance",
+        "value": "N0 à N4"
+      },
+      {
+        "label": "Maîtrise élémentaire",
+        "value": "N0 à N4"
+      },
+      {
+        "label": "Catégories",
+        "value": "6 familles de sorts"
+      }
+    ],
+    "links": [
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      },
+      {
+        "label": "Portée",
+        "sectionId": "systeme",
+        "entryId": "rules.portee-ciblage"
+      },
+      {
+        "label": "Zones",
+        "sectionId": "systeme",
+        "entryId": "rules.attaques-zone"
+      },
+      {
+        "label": "Flux magique",
+        "sectionId": "systeme",
+        "entryId": "rules.flux-magique"
+      },
+      {
+        "label": "Conjuration",
+        "sectionId": "systeme",
+        "entryId": "rules.conjuration-invocations"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Composants",
+        "blocks": [
+          {
+            "text": "Un sort réunit une catégorie, un élément, une puissance, une portée, une durée et, selon son type, des dégâts, états, cibles, zones ou conjurations."
+          }
+        ]
+      },
+      {
+        "label": "Jets et coûts",
+        "blocks": [
+          {
+            "text": "ARC porte les actions magiques offensives et la maîtrise du sort. DEM intervient dans les défenses magiques lorsque leur profil le prévoit. Le coût PF est celui du sort ou de l’action affichée."
+          }
+        ]
+      },
+      {
+        "label": "Puissance",
+        "blocks": [
+          {
+            "items": [
+              "N0 – Latent",
+              "N1 – Apprenti",
+              "N2 – Confirmé",
+              "N3 – Maître",
+              "N4 – Suprême"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

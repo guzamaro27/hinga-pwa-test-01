@@ -1,0 +1,104 @@
+{
+  "id": "tamtaras",
+  "type": "plant",
+  "identity": {
+    "name": "Tamtaras",
+    "subtitle": "Hampe pale des plaines chaudes",
+    "unknownName": "Plante a longs fils et epis pales",
+    "slug": "tamtaras",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tamtaras.png",
+    "visualNote": "Plante basse a souche brune etoilee, d'ou montent de longues tiges fines portant des epis cylindriques pale et duveteux.",
+    "tags": [
+      "herbe",
+      "savane",
+      "steppe",
+      "epis-pales"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "graminee",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "savane seche chaude",
+      "steppe seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "terre pauvre",
+      "sol caillouteux",
+      "sable"
+    ],
+    "season": [
+      "retour des pluies",
+      "saison seche",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "40 cm a 1,8 m",
+    "width": "30 cm a 1 m",
+    "colorMain": "vert pale",
+    "colorSecondary": "brun racinaire, violet discret, creme",
+    "distinctiveSigns": [
+      "souche basse brune et noueuse",
+      "base etoilee avec petites pointes racinaires",
+      "longues hampes fines presque nues",
+      "epis cylindriques vert pale a creme",
+      "surface des epis couverte de soies fines",
+      "racines nombreuses brunes et violettes",
+      "capsules pale a nervures violettes",
+      "graines pale a violet dispersees par le vent"
+    ],
+    "descriptionShort": "Le Tamtaras est une herbe seche a longues hampes fines et epis pales duveteux.",
+    "descriptionFull": "Le Tamtaras forme des touffes basses dans les plaines chaudes et seches. Sa souche brune reste ancree dans le sol pauvre, tandis que de longues tiges fines portent des epis pale et soyeux. Ces epis protegent les graines du vent et deviennent tres visibles quand la savane jaunit."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "irritante"
+    ],
+    "exposure": [
+      "inhalation",
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "demangeaisons",
+      "difficulte a respirer"
+    ],
+    "notes": "La poussiere des epis secs peut irriter les yeux ou la gorge quand elle est secouee par le vent."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "combustible",
+      "fourrage",
+      "semis"
+    ],
+    "notes": "Les hampes seches servent a de petits liens, a du rembourrage grossier ou a allumer un feu quand elles sont bien seches."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

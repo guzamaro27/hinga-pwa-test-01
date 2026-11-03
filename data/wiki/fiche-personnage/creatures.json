@@ -1,0 +1,222 @@
+{
+  "id": "fiche-personnage.creatures",
+  "type": "codex",
+  "identity": {
+    "name": "Fiche Creature",
+    "subtitle": "Fiche / Comprendre et configurer une créature",
+    "icon": "🐾",
+    "tags": [
+      "Creature",
+      "Bestiairex",
+      "menace",
+      "statistiques",
+      "résistances",
+      "compétences"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Menace",
+        "value": "égale au niveau de la créature"
+      },
+      {
+        "label": "Budget",
+        "value": "somme des quatre bases"
+      },
+      {
+        "label": "Bestiairex",
+        "value": "référence documentaire et profil importable"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Avantages et désavantages",
+        "sectionId": "systeme",
+        "entryId": "rules.av-dv"
+      },
+      {
+        "label": "Points de vie",
+        "sectionId": "systeme",
+        "entryId": "rules.pv"
+      },
+      {
+        "label": "Points de fatigue",
+        "sectionId": "systeme",
+        "entryId": "rules.pf"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Résistances",
+        "sectionId": "systeme",
+        "entryId": "rules.resistances"
+      },
+      {
+        "label": "États",
+        "sectionId": "systeme",
+        "entryId": "rules.etats"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Portrait et identité",
+        "anchor": "portrait",
+        "blocks": [
+          {
+            "title": "Nom",
+            "anchor": "nom",
+            "text": "Le nom appartient à cet Actor. Le portrait est une image éditable indépendante de ses caractéristiques."
+          },
+          {
+            "title": "Référence Bestiairex",
+            "anchor": "reference-bestiairex",
+            "text": "La référence relie la fiche à une espèce documentée. Selon les droits existants, son changement peut importer le niveau, les statistiques et les ressources d’un profil de combat. Le bouton livre ouvre l’espèce sans modifier la fiche."
+          }
+        ]
+      },
+      {
+        "label": "Niveau et menace",
+        "anchor": "niveau",
+        "blocks": [
+          {
+            "title": "Menace affichée",
+            "anchor": "menace",
+            "text": "Les dix étoiles suivent directement system.details.level, normalisé entre 0 et 10. Il n’existe pas de surcharge de menace indépendante sur cette fiche."
+          },
+          {
+            "title": "Budget de statistiques",
+            "anchor": "budget-statistiques",
+            "text": "Le budget courant additionne les bases PHY, MENT, MAG et MOB. La référence vient de la table du niveau ; les modificateurs et totaux ne sont pas ajoutés au budget."
+          }
+        ]
+      },
+      {
+        "label": "Statistiques",
+        "anchor": "statistiques",
+        "blocks": [
+          {
+            "text": "PHY, MENT, MAG et MOB conservent une base éditable, des effets et un total effectif. Le libellé lance un jet ; le clic droit ouvre les options existantes."
+          }
+        ]
+      },
+      {
+        "label": "Ressources",
+        "anchor": "ressources",
+        "blocks": [
+          {
+            "text": "Les PV et PF affichent une valeur actuelle et un maximum. Sur Creature, le maximum de PV provient de PHY effectif et celui de PF du niveau ; les valeurs sont bornées par ces maxima."
+          },
+          {
+            "title": "Réserves AV et DV",
+            "anchor": "reserves-av-dv",
+            "text": "AV et DV sont des réserves distinctes. Le clic gère leur mise en attente et le clic droit conserve leur menu de gestion."
+          }
+        ]
+      },
+      {
+        "label": "Attaques rapides",
+        "anchor": "attaques-rapides",
+        "blocks": [
+          {
+            "text": "Les commandes physique, magique et mentale utilisent respectivement PHY, MAG et MENT. Les dégâts suivent le niveau sauf surcharge d’attaque explicite."
+          },
+          {
+            "title": "Favoris",
+            "anchor": "favoris",
+            "text": "Deux emplacements peuvent recevoir une compétence spéciale. Son bouton Action rapide agit comme un interrupteur : ajout lorsqu’elle est absente, retrait lorsqu’elle est déjà favorite."
+          }
+        ]
+      },
+      {
+        "label": "Informations",
+        "anchor": "informations",
+        "blocks": [
+          {
+            "text": "Le résumé privilégie la documentation Bestiairex. Propriétaire et Mémo restent deux textes narratifs ; Propriétaire ne change pas les permissions Foundry."
+          }
+        ]
+      },
+      {
+        "label": "Résistances",
+        "anchor": "resistances",
+        "blocks": [
+          {
+            "text": "Les six résistances générales affichent une base et un total après effets. Elles ne sont pas des pourcentages."
+          },
+          {
+            "title": "Résistances élémentaires",
+            "anchor": "resistances-elementaires",
+            "text": "Chaque élément conserve son total propre. Les valeurs proviennent des données de résistance et de leurs modificateurs."
+          },
+          {
+            "title": "Affinité élémentaire",
+            "anchor": "affinite-elementaire",
+            "text": "L’affinité et ses relations de force ou faiblesse viennent de la table magique utilisée par le moteur."
+          }
+        ]
+      },
+      {
+        "label": "Compétences spéciales",
+        "anchor": "competences-speciales",
+        "blocks": [
+          {
+            "title": "Nom",
+            "anchor": "competence-nom",
+            "text": "Identifie la compétence dans la liste et dans les favoris."
+          },
+          {
+            "title": "Type",
+            "anchor": "competence-type",
+            "text": "Choisit le profil physique, magique ou mental et donc la statistique de l’attaque."
+          },
+          {
+            "title": "Dégâts",
+            "anchor": "competence-degats",
+            "text": "Formule de dégâts propre à la compétence."
+          },
+          {
+            "title": "Coût en PF",
+            "anchor": "competence-cout-pf",
+            "text": "Coût en fatigue enregistré sur la compétence."
+          },
+          {
+            "title": "Portée",
+            "anchor": "competence-portee",
+            "text": "Distance enregistrée en mètres."
+          },
+          {
+            "title": "Description",
+            "anchor": "competence-description",
+            "text": "Texte explicatif sans effet mécanique implicite."
+          },
+          {
+            "title": "Effets",
+            "anchor": "competence-effets",
+            "text": "Configuration mécanique distincte de la description."
+          },
+          {
+            "title": "Commandes",
+            "anchor": "competence-actions",
+            "text": "Modifier et valider changent la ligne ; Action rapide bascule le favori ; supprimer retire la compétence."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "saprus",
+  "type": "plant",
+  "identity": {
+    "name": "Saprus",
+    "subtitle": "Conifère vert des hauts-secs",
+    "unknownName": "Grand conifère clair à résine verte",
+    "slug": "saprus",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Saprus.png",
+    "visualNote": "Grand conifère à feuillage vert clair en étages serrés, tronc brun massif et résine pâle tirant vers le vert.",
+    "tags": [
+      "conifere",
+      "montagne",
+      "taiga"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "conifere",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "montagne sèche froide",
+      "taïga sèche froide"
+    ],
+    "regions": [],
+    "terrain": [
+      "rocaille",
+      "sol caillouteux",
+      "terre pauvre"
+    ],
+    "season": [
+      "premiers froids",
+      "grand froid",
+      "dégel"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "10 à 28 m",
+    "width": "5 à 12 m",
+    "colorMain": "vert clair",
+    "colorSecondary": "brun, jaune résineux, vert pâle",
+    "distinctiveSigns": [
+      "silhouette conique large et régulière",
+      "branches horizontales en niveaux serrés",
+      "aiguilles courtes, souples et vert clair",
+      "cônes ovoïdes vert jaune à écailles épaisses",
+      "tronc brun massif sillonné verticalement",
+      "veines de résine vert pâle dans l'écorce",
+      "racines épaisses et profondes"
+    ],
+    "descriptionShort": "Le Saprus est un grand conifère froid à feuillage clair en étages réguliers.",
+    "descriptionFull": "Le Saprus pousse sur les pentes de montagne, les plateaux pierreux et les lisières de taïga sèche. Sa silhouette conique et ses branches étagées supportent bien le froid et les vents secs. Le tronc brun se fissure avec l'âge et laisse parfois apparaître de fines lignes de résine pâle."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "infusion",
+      "artisanat",
+      "construction",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le bois, les cônes et la résine naturelle soutiennent les usages de campement et d'atelier, sans nécessiter de produit dérivé dédié pour l'instant."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

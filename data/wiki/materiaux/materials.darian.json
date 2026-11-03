@@ -1,0 +1,239 @@
+{
+  "id": "materials.darian",
+  "type": "material",
+  "identity": {
+    "name": "Darian",
+    "subtitle": "Textiles · Animal",
+    "icon": "◆",
+    "tags": [
+      "darian",
+      "Darian",
+      "textile",
+      "Textiles",
+      "animal",
+      "Animal",
+      "Fibre d’animal marin",
+      "Satiné, glissant, bleu-gris",
+      "Fibre marine souple et naturellement imperméable.",
+      "Eau",
+      "hybrid",
+      "Hybride",
+      "Normal",
+      "Combinaisons",
+      "vêtements de marin",
+      "équipement d’aventurier",
+      "marin",
+      "tailleur",
+      "port",
+      "caisse",
+      "marchand"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 6
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "darian",
+    "family": "textile",
+    "weaponProfile": "hybrid",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Animal"
+      },
+      {
+        "label": "Rareté",
+        "value": 6
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre d’animal marin"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Satiné, glissant, bleu-gris"
+          },
+          {
+            "title": "Description",
+            "text": "Fibre marine souple et naturellement imperméable."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "2"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Eau"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Repousse l’eau sans perdre sa souplesse."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Glissant à travailler."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Combinaisons",
+              "vêtements de marin",
+              "équipement d’aventurier"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "marin",
+              "tailleur",
+              "port",
+              "caisse",
+              "marchand"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "100"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.85"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "20"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_eau_engourdi_t1",
+              "etat_eau_engourdi"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "stat-influence-psychique",
+  "type": "codex",
+  "identity": {
+    "name": "Influence Psychique",
+    "subtitle": "Action spéciale de CHAR",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Contexte psychique",
+            "items": [
+              "Clic droit sur CHAR, puis Influence Psychique.",
+              "Choisir Intimider, Charmer ou Commander.",
+              "Cette action marque explicitement le jet comme psychique ; les usages ordinaires ne gagnent aucun bonus."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niveaux",
+        "blocks": [
+          {
+            "title": "Effets",
+            "items": [
+              "N1 : +1 niveau au savoir-faire choisi.",
+              "N2 : la cible affectée résiste avec PSY DV1.",
+              "N3 : une suggestion réussie par activation peut appliquer etat_influence après un échec de résistance."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Etat",
+        "blocks": [
+          {
+            "title": "Influence",
+            "items": [
+              "Les immunités et blocages de la famille influence sont vérifiés avant le jet de résistance.",
+              "Le contre PSY/2 est stocké dans le même ActiveEffect que etat_influence.",
+              "La suppression ou la dissipation de l'état retire aussi son contre PSY/2."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

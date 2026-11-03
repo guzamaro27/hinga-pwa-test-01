@@ -1,0 +1,60 @@
+{
+  "id": "materiaux.guide-systeme",
+  "type": "material",
+  "identity": {
+    "name": "Système des matériaux",
+    "subtitle": "Lire le catalogue et ses usages mécaniques",
+    "icon": "◇",
+    "tags": [
+      "matériau",
+      "durabilité",
+      "revêtement",
+      "arme",
+      "armure"
+    ]
+  },
+  "classification": {
+    "category": "material"
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "module/data/armor-defense-rules.mjs",
+    "module/data/weapon-defense.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Objet",
+        "value": "Lire le catalogue et ses usages mécaniques"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "blocks": [
+          {
+            "text": "Chaque matériau possède une famille, une rareté, une durabilité, une masse, un potentiel physique, une intensité magique et une affinité éventuelle."
+          }
+        ]
+      },
+      {
+        "label": "Armes",
+        "blocks": [
+          {
+            "text": "Le profil d’arme et le Tier de matériau déterminent notamment la capacité de revêtement, la capacité d’enchantement et les plafonds associés. La durabilité sert au calcul de solidité de l’arme."
+          }
+        ]
+      },
+      {
+        "label": "Armures et boucliers",
+        "blocks": [
+          {
+            "text": "Un matériau n’est utilisable que si la table de compatibilité l’autorise pour la catégorie d’armure ou de bouclier."
+          }
+        ]
+      }
+    ]
+  }
+}

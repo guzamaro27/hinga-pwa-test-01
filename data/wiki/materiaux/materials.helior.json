@@ -1,0 +1,236 @@
+{
+  "id": "materials.helior",
+  "type": "material",
+  "identity": {
+    "name": "Helior",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "helior",
+      "Helior",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation solaire",
+      "Jaune doré",
+      "Gemme chaude associée aux flux de soin et de vitalité.",
+      "Lumière/Vie",
+      "magical",
+      "Magique",
+      "Bon",
+      "Baguettes",
+      "reliques",
+      "instruments médicaux",
+      "temple",
+      "guérisseur",
+      "joaillier",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 6
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "helior",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 6
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation solaire"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Jaune doré"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme chaude associée aux flux de soin et de vitalité."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "6"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Lumière/Vie"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Améliore la stabilité d’un enchantement de soin."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut surchauffer lors d’un usage répété."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Baguettes",
+              "reliques",
+              "instruments médicaux"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "temple",
+              "guérisseur",
+              "joaillier",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "150"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.7"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "20"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "chaleur"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_chaud"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

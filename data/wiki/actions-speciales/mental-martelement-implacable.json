@@ -1,0 +1,46 @@
+{
+  "id": "mental-martelement-implacable",
+  "type": "codex",
+  "identity": {
+    "name": "Martèlement implacable",
+    "subtitle": "Action spéciale mentale",
+    "icon": "M"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "mental",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Profil",
+            "items": [
+              "2 PF · Majeure · 24 m · +0 à +3 paliers",
+              "Jet offensif : PSY.",
+              "Contre le même token, aux tours consécutifs du même token lanceur : palier actif, puis +1, +2 et +3 maximum, si chaque jet offensif réussit. Une défense réussie ne casse pas cette série.",
+              "Échec offensif, changement de cible, autre attaque mentale, tour suivant sauté ou fin/changement de combat : la série repart à zéro. Hors combat, chaque utilisation reste au premier stade."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Règles communes",
+        "blocks": [
+          {
+            "title": "Attaque mentale",
+            "items": [
+              "Accessible par clic droit sur Mental, dans Actions spéciales. Respecte les permissions, les blocages d’attaque et la PSY inaccessible / Fracture.",
+              "Tout décalage de palier part du palier mental actuellement actif (AUTO / MAX ou choix manuel limité), puis est borné aux onze paliers existants.",
+              "Les bonus et malus de dégâts mentaux suivent le calcul habituel une seule fois. Chaque cible conserve ses réactions mentales normales, avec les seuls ajustements propres à cette action.",
+              "Aucun état, condition, effet joint ou ActiveEffect n’est automatiquement appliqué."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

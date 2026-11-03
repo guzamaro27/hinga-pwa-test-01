@@ -1,0 +1,32 @@
+{
+  "id": "fibule",
+  "type": "creature-public",
+  "identity": {
+    "name": "Fibule",
+    "subtitle": "La flamme des dunes",
+    "tags": [
+      "sauvage",
+      "chasse",
+      "magique",
+      "territorial"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "La Fibule vit principalement dans les déserts, surtout près des rochers chauds, des dunes et des abris naturels où elle peut se cacher après ses déplacements aériens. Omnivore opportuniste, elle consomme de petites proies, de minuscules organismes, des fruits secs et parfois des restes organiques trouvés dans les zones arides. Sa petite taille, son vol agile et sa capacité à produire une courte flamme lui permettent de survivre malgré sa vulnérabilité au sol."
+          },
+          {
+            "text": "La Fibule ressemble à une petite boule de poils orangée aux reflets cuivrés. Son pelage dense conserve la chaleur tout en protégeant son corps des frottements du sable et de la roche. Ses deux ailes bleues, presque translucides sous le soleil, contrastent fortement avec son corps chaudement coloré. Deux queues fines prolongent l’arrière du corps et servent de gouvernails en vol, lui permettant de maintenir une trajectoire précise malgré sa petite taille. Sa corne frontale, courte et légèrement bleutée, semble molle et inoffensive au premier regard, mais peut projeter une brève flamme. Ses pattes sont très courtes ; au sol, elle avance lentement et maladroitement. En vol, elle devient au contraire vive, rapide et difficile à suivre."
+          },
+          {
+            "text": "La Fibule vit généralement en couple sur un territoire partagé. Les partenaires restent extrêmement fidèles et ne donnent naissance qu’à une seule portée de quatre à cinq petits au cours de leur vie. Les jeunes quittent rapidement le groupe familial afin de trouver leur propre partenaire."
+          }
+        ]
+      }
+    ]
+  }
+}

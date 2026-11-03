@@ -1,0 +1,104 @@
+{
+  "id": "sendash-vert",
+  "type": "plant",
+  "identity": {
+    "name": "Sendash vert",
+    "subtitle": "Variante des plaines temperees",
+    "unknownName": "Arbre brun a cime verte",
+    "slug": "sendash-vert",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Sendash 1 Temp.png",
+    "visualNote": "Arbre au tronc brun et droit, muni de pointes hautes, portant une large cime verte.",
+    "tags": [
+      "arbre",
+      "sendash",
+      "plaine-temperee",
+      "epines"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "plaine temperee humide",
+      "foret temperee seche"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre riche",
+      "terre humide",
+      "sol caillouteux"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification",
+      "baisse des temperatures"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 a 16 m",
+    "width": "6 a 14 m",
+    "colorMain": "vert profond",
+    "colorSecondary": "brun chaud, vert clair, jaune doux",
+    "distinctiveSigns": [
+      "tronc brun droit et epais",
+      "pointes dures sur la partie haute du tronc",
+      "couronne large et ronde vert profond",
+      "feuilles larges legerement dentees",
+      "ecorce interne vert lumineux",
+      "racines etalees avec veines claires",
+      "capsules vertes legerement herissees",
+      "petites graines vertes"
+    ],
+    "descriptionShort": "Le Sendash vert est un arbre tempere a tronc droit, cime ronde et capsules vertes.",
+    "descriptionFull": "Le Sendash vert pousse dans les plaines temperees et les lisieres assez lumineuses. Il garde une silhouette droite, solide et facile a reconnaitre, avec une couronne verte compacte posee sur un tronc brun muni de pointes hautes. Ses racines s'etendent largement dans les sols riches, tandis que ses capsules vertes murissent au retour des chaleurs."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "epineuse"
+    ],
+    "exposure": [
+      "contact"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs"
+    ],
+    "notes": "Les pointes du tronc peuvent blesser en cas de contact direct."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Sendash vert est utilise comme arbre de bordure; son bois simple convient aux pieces courantes, aux piquets et au combustible."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

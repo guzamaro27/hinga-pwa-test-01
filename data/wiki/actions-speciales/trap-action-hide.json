@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-hide",
+  "type": "codex",
+  "identity": {
+    "name": "Cacher",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "cacher"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Cacher"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Tenter de dissimuler de nouveau un piège révélé sans effacer ses données."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Cacher permet de rendre un piège révélé plus difficile à repérer. Une réussite le rend discret ; une réussite critique le rend caché."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "L'action suit les conditions d'interaction du piège : il doit être révélé, accessible et assez connu pour être manipulé."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Jet de DEX, difficulté normale."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le jet est résolu en privé. En cas de réussite, la visibilité du piège est réduite."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Non."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le bouton apparaît lorsqu'un piège est révélé, non détruit et manipulable par l'acteur."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Refus si le piège est introuvable, détruit, déjà caché ou hors de portée."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Aucune compétence active connue pour cette action actuellement."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le piège redevient discret."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le piège reste révélé."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Une réussite critique rend le piège caché. Un échec critique ne provoque pas de punition supplémentaire."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Cacher ne supprime pas les connaissances déjà acquises et ne modifie pas le créateur, le propriétaire ou le poseur."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Cacher",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

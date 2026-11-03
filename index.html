@@ -6,6 +6,23 @@ const tabs=document.querySelectorAll('[data-tab]');tabs.forEach(b=>b.onclick=()=
 function safeIcon(value){const s=String(value||'');return /^[\p{Extended_Pictographic}\p{Emoji_Presentation}\u2600-\u27BF\uFE0F\u200D\s]{1,12}$/u.test(s)?s:'✦'}let records=[];const entries=document.getElementById('entries'),detail=document.getElementById('detail'),search=document.getElementById('search');const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function renderList(){detail.classList.add('hide');entries.classList.remove('hide');const q=search.value.trim().toLocaleLowerCase('fr');const list=records.filter(r=>(r.identity?.name+' '+(r.identity?.tags||[]).join(' ')).toLocaleLowerCase('fr').includes(q));entries.innerHTML=list.length?list.map((r,i)=>'<button class="entry" data-entry="'+records.indexOf(r)+'"><span class="glyph">'+escapeHTML(safeIcon(r.identity?.icon))+'</span><span class="entrytext"><strong>'+escapeHTML(r.identity?.name||r.id)+'</strong><small>'+escapeHTML(r.identity?.subtitle||'')+'</small></span><span aria-hidden="true">›</span></button>').join(''):'<p>Aucune entrée correspondante.</p>';entries.querySelectorAll('[data-entry]').forEach(b=>b.onclick=()=>showEntry(records[Number(b.dataset.entry)]))}
 function showEntry(r){entries.classList.add('hide');detail.classList.remove('hide');let h='<button class="back" id="back">← Retour aux règles</button><h2>'+escapeHTML(safeIcon(r.identity?.icon))+' '+escapeHTML(r.identity?.name||r.id)+'</h2><p>'+escapeHTML(r.identity?.subtitle||'')+'</p>';for(const f of r.playerGuide?.quickFacts||[])h+='<div class="block"><strong>'+escapeHTML(f.label)+'</strong><p>'+escapeHTML(f.value)+'</p></div>';for(const s of r.codex?.sections||[]){h+='<div class="block"><h3>'+escapeHTML(s.label)+'</h3>';for(const b of s.blocks||[]){if(b.text)h+='<p>'+escapeHTML(b.text)+'</p>';if(b.items)h+='<ul>'+b.items.map(x=>'<li>'+escapeHTML(x)+'</li>').join('')+'</ul>'}h+='</div>'}detail.innerHTML=h;document.getElementById('back').onclick=renderList}
+// Navigation tactile : retour de la fiche vers la liste Hingadex.
+let touchStart=null;
+detail.addEventListener('touchstart',event=>{
+  if(event.touches.length!==1){touchStart=null;return;}
+  const t=event.touches[0];
+  touchStart={x:t.clientX,y:t.clientY,time:Date.now()};
+},{passive:true});
+detail.addEventListener('touchend',event=>{
+  if(!touchStart||detail.classList.contains('hide'))return;
+  const t=event.changedTouches[0];
+  const dx=t.clientX-touchStart.x,dy=t.clientY-touchStart.y;
+  const startedAtEdge=touchStart.x<=Math.max(48,window.innerWidth*0.12);
+  const isRightSwipe=dx>=85&&Math.abs(dy)<=Math.abs(dx)*0.55&&Date.now()-touchStart.time<900;
+  touchStart=null;
+  if(startedAtEdge&&isRightSwipe)renderList();
+},{passive:true});
+detail.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
 search.oninput=renderList;fetch('./data/wiki/manifest.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(async manifest=>{const settled=await Promise.allSettled(manifest.map(x=>fetch('./'+x.path).then(r=>{if(!r.ok)throw Error(x.path);return r.json()})));records=settled.filter(x=>x.status==='fulfilled').map(x=>x.value);renderList();if(settled.some(x=>x.status==='rejected')){const warning=document.createElement('p');warning.className='note';warning.textContent='Certaines fiches sont temporairement indisponibles.';entries.prepend(warning)}}).catch(()=>entries.innerHTML='<p>Impossible de charger les données du codex. Rechargez la page en ligne.</p>');
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
 </script></body></html>

@@ -1,0 +1,34 @@
+{
+  "id": "velkir",
+  "type": "creature-public",
+  "identity": {
+    "name": "Velkir",
+    "subtitle": "Le Guetteur des Branches",
+    "tags": [
+      "sauvage",
+      "arboricole",
+      "curieux",
+      "insectivore",
+      "chasse",
+      "apprivoisable"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Velkir vit principalement dans les forêts tropicales et les forêts humides denses. Il fréquente les sous-bois forestiers, les canopées basses et les lisières de jungle, où son pelage moucheté lui offre un camouflage efficace. Carnivore opportuniste à tendance insectivore, il se nourrit surtout d’insectes, de petites proies forestières et parfois de fruits. Curieux et observateur, il préfère généralement surveiller son environnement depuis les branches avant de bondir ou de fuir."
+          },
+          {
+            "text": "Le Velkir est une créature forestière agile au corps allongé et souple. Sa silhouette élancée et sa queue longue lui permettent de se déplacer avec rapidité dans les branches et les sous-bois. Son pelage brun clair moucheté de taches sombres assure un camouflage efficace dans la végétation tropicale. Sa tête triangulaire possède de grands yeux ambrés particulièrement expressifs, entourés d’un masque sombre qui accentue son regard attentif. Ses oreilles larges et mobiles pivotent constamment pour capter les moindres sons de la forêt. L’ensemble donne au Velkir une apparence vive et intelligente, comme s’il observait constamment le monde qui l’entoure."
+          },
+          {
+            "text": "Le Velkir vit seul ou en petits groupes familiaux. Les petits naissent dans des cavités d’arbres ou des nids végétaux placés en hauteur, à l’abri des prédateurs du sol."
+          }
+        ]
+      }
+    ]
+  }
+}

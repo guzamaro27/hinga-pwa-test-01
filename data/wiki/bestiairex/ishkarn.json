@@ -1,0 +1,33 @@
+{
+  "id": "ishkarn",
+  "type": "creature-public",
+  "identity": {
+    "name": "Ishkarn",
+    "subtitle": "Le Faucheur à Queue-Crochet",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Cette créature fréquente les zones rocheuses, les ruines sèches, les cavernes ouvertes et les passages étroits où sa silhouette haute peut se dissimuler entre les reliefs. Carnivore opportuniste, elle chasse les proies isolées en restant immobile, puis en frappant brusquement avec ses membres griffus et sa queue recourbée. Sa carapace segmentée lui offre une bonne protection contre les coups directs, tandis que ses antennes longues l’aident à percevoir les mouvements proches."
+          },
+          {
+            "text": "Cette créature possède un corps haut, sec et fortement segmenté. Sa tête basse porte plusieurs yeux ronds regroupés, ainsi que de longues antennes fines capables de capter les vibrations proches. Une grande plaque dorsale, rugueuse et irrégulière, couvre son dos comme un bouclier naturel et descend sur les flancs. Sous cette protection, le ventre brun rouge apparaît plus souple et plus vulnérable. Ses longues pattes articulées lui donnent une démarche anguleuse, presque mécanique, mais suffisamment rapide pour bondir sur une courte distance. Son trait le plus reconnaissable reste sa queue segmentée, dressée au-dessus du corps et terminée par un crochet sombre, épais et tranchant."
+          },
+          {
+            "text": "Les individus évitent généralement les grands espaces ouverts lorsqu’ils ne chassent pas. Ils semblent préférer les lieux où leur queue recourbée et leurs membres articulés peuvent frapper sans entrave."
+          }
+        ]
+      }
+    ]
+  }
+}

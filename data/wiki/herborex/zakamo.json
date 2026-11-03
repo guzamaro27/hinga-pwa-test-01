@@ -1,0 +1,340 @@
+{
+  "id": "zakamo",
+  "type": "plant",
+
+  "identity": {
+    "name": "Zakamo",
+    "subtitle": "L’Arbre à Fruits Dorés des Forêts Chaudes",
+    "unknownName": "Arbre tropical pâle à cime plate et fruits jaunes",
+    "slug": "zakamo",
+    "tags": [
+      "arbre",
+      "tropical",
+      "humide",
+      "chaud",
+      "tronc-pale",
+      "cime-plate",
+      "feuillage-bleu-vert",
+      "fruits",
+      "graines",
+      "racines",
+      "bois",
+      "feuilles",
+      "sève",
+      "pulpe",
+      "forêt-chaude"
+    ]
+  },
+
+  "display": {
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Zakamo.png",
+    "icon": "🌳",
+    "color": "#c99735",
+    "visualNote": "Arbre tropical au tronc long, pâle et lisse, portant une cime plate bleu-vert sous laquelle pendent de nombreux fruits dorés."
+  },
+
+  "classification": {
+    "category": "arbre",
+    "family": "bois tropical fruitier",
+    "rarity": "inhabituelle",
+    "origin": "naturelle",
+    "element": "plante",
+    "magicalNature": "faible",
+    "toxicity": "faible",
+    "legality": "libre"
+  },
+
+  "ecology": {
+    "biomes": [
+      "foret tropicale",
+      "jungle",
+      "lisiere chaude",
+      "vallon humide",
+      "bosquet humide"
+    ],
+    "climates": [
+      "tropical",
+      "humide",
+      "chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre profonde",
+      "sol humide",
+      "sol riche",
+      "vallon chaud",
+      "lisière tropicale",
+      "terrain meuble",
+      "bord de cours d’eau lent",
+      "clairière humide",
+      "pente douce stabilisée"
+    ],
+    "season": [
+      "saison humide",
+      "après pluies longues",
+      "été chaud",
+      "fin de saison des pluies",
+      "période de fructification chaude"
+    ],
+    "abundance": "dispersee",
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "forte"
+  },
+
+  "morphology": {
+    "size": "grande",
+    "height": "8 à 22 m",
+    "colorMain": "jaune doré",
+    "colorSecondary": "bleu-vert, ivoire, beige clair et violet pâle",
+    "distinctiveSigns": [
+      "tronc long, clair, beige doré à ivoire, presque lisse",
+      "base élargie en racines fines et très nombreuses",
+      "racines pâles parcourues de fines veines violettes",
+      "tronc peu ramifié jusqu’à la partie haute",
+      "branches supérieures longues, pâles, courbées et presque horizontales",
+      "cime large, plate, bleu-vert à turquoise doux",
+      "feuillage dense formant une ombrelle irrégulière",
+      "grandes feuilles longues et lancéolées, vertes à bleu-vert, nervurées de violet",
+      "fruits ovales dorés suspendus sous les branches hautes",
+      "fruit à enveloppe jaune-brun et pulpe fibreuse",
+      "grosse graine allongée au centre du fruit",
+      "section de bois claire avec cœur violet pâle rayonnant",
+      "sève claire légèrement dorée dans les blessures fraîches"
+    ],
+    "descriptionShort": "Le Zakamo est un arbre tropical humide, reconnaissable à son tronc pâle très élancé, à sa cime plate bleu-vert et à ses fruits ovales dorés suspendus sous les branches.",
+    "descriptionFull": "Le Zakamo pousse dans les forêts tropicales humides et chaudes, surtout dans les clairières, les lisières lumineuses et les vallons où le sol reste profond. Son tronc pâle monte longtemps avant de se diviser en branches hautes, courbées, qui soutiennent une cime large et presque plate. Cette forme lui permet de capter la lumière au-dessus des végétations plus basses tout en laissant pendre ses fruits sous la couronne. Les feuilles sont longues, vertes à bleu-vert, souvent marquées de fines nervures violettes. Les fruits du Zakamo sont ovales, dorés à maturité, avec une enveloppe assez ferme et une pulpe fibreuse entourant une grosse graine allongée. Dans Hinga, il est surtout recherché pour ses fruits, son bois clair et ses feuilles résistantes, mais sa récolte demande souvent d’attendre les fruits tombés, car ils pendent haut et se détachent brusquement lorsqu’ils sont mûrs."
+  },
+
+  "danger": {
+    "level": 2,
+    "labels": [
+      "fruits lourds",
+      "pulpe irritante légère",
+      "racines glissantes",
+      "fruit amer cru"
+    ],
+    "contactRisk": "faible",
+    "ingestionRisk": "faible",
+    "magicalRisk": "faible",
+    "symptoms": [
+      "petite irritation de la peau après contact prolongé avec la pulpe fraîche",
+      "coloration jaune temporaire des doigts après manipulation des fruits mûrs",
+      "goût âpre et fibreux si le fruit est consommé cru avant maturité complète",
+      "gêne digestive mineure en cas d’ingestion excessive de graines crues",
+      "risque de blessure légère lorsqu’un fruit mûr tombe d’une branche haute",
+      "risque de glissade sur les fruits écrasés au sol humide",
+      "échardes fines lors du travail du bois sec"
+    ]
+  },
+
+  "harvest": {
+    "difficulty": 40,
+    "stat": "perc",
+    "requiredTool": "panier renforcé, couteau solide, perche de récolte, corde ou gants simples",
+    "bestMethod": "Ramasser les fruits tombés récemment ou décrocher les fruits mûrs avec une perche, puis séparer rapidement la pulpe de la graine pour éviter qu’elle ne fermente.",
+    "failureEffect": "Les fruits se fendent au sol, la pulpe fermente trop vite, les graines se brisent ou les feuilles récoltées se tachent de jus doré.",
+    "yield": {
+      "min": 2,
+      "max": 8,
+      "unit": "parts"
+    },
+    "parts": [
+      {
+        "id": "fruit",
+        "name": "Fruit doré de Zakamo",
+        "difficultyModifier": 10,
+        "use": "Pulpe fibreuse, graines, préparation culinaire locale, pigment jaune faible."
+      },
+      {
+        "id": "seed",
+        "name": "Graine longue",
+        "difficultyModifier": 10,
+        "use": "Semis, huile faible, poudre végétale après séchage."
+      },
+      {
+        "id": "leaf",
+        "name": "Feuille bleu-verte",
+        "difficultyModifier": 0,
+        "use": "Emballage végétal, protection de récolte, poudre verte faible, repère botanique."
+      },
+      {
+        "id": "sap",
+        "name": "Sève dorée claire",
+        "difficultyModifier": 15,
+        "use": "Liant faible, stabilisant de pigment, vernis très léger."
+      },
+      {
+        "id": "bark",
+        "name": "Écorce pâle",
+        "difficultyModifier": 5,
+        "use": "Poudre beige, charge végétale, teinture claire faible."
+      },
+      {
+        "id": "wood",
+        "name": "Bois clair de Zakamo",
+        "difficultyModifier": 10,
+        "use": "Petites planches, manches légers, chevilles, objets décoratifs."
+      },
+      {
+        "id": "root",
+        "name": "Racine pâle veinée",
+        "difficultyModifier": 20,
+        "use": "Fibre courte, stabilisation de sol humide, décoction amère."
+      }
+    ]
+  },
+
+  "uses": {
+    "medicinal": false,
+    "toxic": false,
+    "edible": true,
+    "ritual": false,
+    "magical": false,
+    "crafting": true,
+    "construction": true,
+    "ornamental": true,
+    "effects": [
+      {
+        "id": "fruit-dore-zakamo",
+        "label": "Fruit doré de Zakamo",
+        "type": "food",
+        "description": "Le fruit mûr peut être préparé localement pour sa pulpe fibreuse, généralement après découpe, rinçage ou cuisson légère afin d’adoucir son âpreté."
+      },
+      {
+        "id": "graine-longue-zakamo",
+        "label": "Graine longue de Zakamo",
+        "type": "material",
+        "description": "La grosse graine centrale peut être séchée, pressée faiblement ou conservée pour le semis, mais elle n’est pas agréable crue."
+      },
+      {
+        "id": "feuille-emballage-zakamo",
+        "label": "Feuille d’emballage",
+        "type": "material",
+        "description": "Les grandes feuilles bleu-vert servent d’emballage végétal temporaire pour protéger des fruits, poissons ou ingrédients humides."
+      },
+      {
+        "id": "pigment-jaune-zakamo",
+        "label": "Pigment jaune doux",
+        "type": "crafting",
+        "description": "La pulpe séchée ou l’enveloppe du fruit donne un pigment jaune faible, surtout utile sur les supports clairs."
+      },
+      {
+        "id": "bois-clair-tropical",
+        "label": "Bois clair tropical",
+        "type": "material",
+        "description": "Le bois du Zakamo est clair et assez léger, utile pour les petites pièces, mais moins adapté aux structures lourdes."
+      }
+    ]
+  },
+
+  "crafting": {
+    "ingredientTier": 2,
+    "preparations": [
+      "fruit prepare",
+      "pulpe",
+      "poudre",
+      "pigment",
+      "huile faible",
+      "emballage vegetal",
+      "bois travaille",
+      "liant"
+    ],
+    "recipes": [
+      {
+        "id": "pulpe-doree-de-zakamo",
+        "name": "Pulpe Dorée de Zakamo",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "pigment-jaune-de-fruit",
+        "name": "Pigment Jaune de Fruit",
+        "requiredKnowledge": 3
+      },
+      {
+        "id": "huile-faible-de-graine-longue",
+        "name": "Huile Faible de Graine Longue",
+        "requiredKnowledge": 4
+      },
+      {
+        "id": "emballage-large-de-zakamo",
+        "name": "Emballage Large de Zakamo",
+        "requiredKnowledge": 2
+      },
+      {
+        "id": "cheville-claire-de-zakamo",
+        "name": "Cheville Claire de Zakamo",
+        "requiredKnowledge": 3
+      }
+    ],
+    "synergies": [
+      "La pulpe perd une partie de son âpreté lorsqu’elle est rincée puis chauffée doucement.",
+      "Le pigment jaune tient mieux lorsqu’il est mélangé à une poudre claire ou à une sève douce.",
+      "Les feuilles restent souples si elles sont utilisées fraîches ou conservées dans un linge humide.",
+      "Les graines donnent une huile faible lorsqu’elles sont séchées longtemps avant pression.",
+      "Le bois clair se polit correctement avec une huile légère."
+    ],
+    "incompatibilities": [
+      "Les fruits fermentent rapidement en climat tropical humide s’ils sont stockés entiers.",
+      "La pulpe devient trop amère si le fruit est récolté avant maturité complète.",
+      "Les fruits tombés depuis trop longtemps attirent insectes et moisissures.",
+      "Le pigment vire au brun si la pulpe est chauffée trop fort.",
+      "Les feuilles moisissent vite si elles sont empilées sans aération.",
+      "Le bois jeune se déforme s’il est travaillé avant séchage complet."
+    ]
+  },
+
+  "economy": {
+    "valueCategory": "modérée",
+    "baseValue": {
+      "pk": 30,
+      "pa": 0,
+      "po": 0
+    },
+    "valueNotes": "Le Zakamo a une valeur modérée dans les régions tropicales, surtout pour ses fruits, ses grandes feuilles et ses graines. Il devient plus intéressant commercialement loin des forêts chaudes, mais son transport est limité par la fermentation rapide de la pulpe.",
+    "tradeLegality": "legale",
+    "demand": "moyenne"
+  },
+
+  "gameplay": {
+    "discoverCheck": {
+      "stat": "perc",
+      "difficulty": 20
+    },
+    "identifyCheck": {
+      "stat": "intell",
+      "difficulty": 35
+    },
+    "studyCheck": {
+      "stat": "mental",
+      "difficulty": 45
+    },
+    "flags": [
+      "plant.tree",
+      "plant.tropical_wet_hot",
+      "plant.fruit_tree",
+      "harvest.fruit",
+      "harvest.seed",
+      "harvest.leaf",
+      "harvest.wood",
+      "food.fruit_prepared",
+      "craft.yellow_pigment",
+      "craft.light_wood",
+      "craft.leaf_wrap",
+      "terrain.tropical_forest",
+      "humidity.high"
+    ]
+  },
+
+  "gm": {
+    "publicNotes": "Le Zakamo est un arbre tropical fruitier au tronc pâle, à cime plate bleu-vert et aux fruits dorés suspendus. On l’utilise surtout pour ses fruits préparés, ses feuilles d’emballage et son bois clair.",
+    "privateNotes": "Le Zakamo peut être une ressource tropicale utile, proche d’un arbre fruitier local. Garder le côté sobre : fruits comestibles seulement préparés, pulpe fibreuse, transport difficile, feuilles utiles, bois clair. Sa silhouette plate et ses fruits suspendus suffisent à le rendre reconnaissable.",
+    "plotHooks": [
+      "Un village récolte les fruits de Zakamo avant qu’ils ne fermentent, mais une pluie longue complique le séchage de la pulpe.",
+      "Des voyageurs suivent une ligne de Zakamo en lisière pour retrouver un ancien vallon humide.",
+      "Un marchand veut transporter des fruits de Zakamo vers l’intérieur des terres, mais la cargaison risque de tourner avant l’arrivée.",
+      "Un cuisinier cherche des fruits parfaitement mûrs pour une préparation locale, refusant ceux tombés depuis plus d’un jour.",
+      "Des feuilles de Zakamo sont utilisées pour emballer une récolte fragile, mais elles commencent à moisir dans un panier fermé."
+    ]
+  }
+}

@@ -1,0 +1,696 @@
+{
+  "id": "filiaen",
+  "type": "peuple",
+  "identity": {
+    "name": "Filiaen",
+    "subtitle": "",
+    "slug": "filiaen",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/filiaen2.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Filiaen sont reconnaissables à leur organisme végétal ou fongique, dont la silhouette conserve une organisation humanoïde malgré une apparence extrêmement variable."
+          },
+          {
+            "text": "Chaque Filiaen est lié à un végétal non ligneux ou à un champignon particulier. Son corps en reprend les couleurs, les textures et certains attributs visibles : tiges, feuilles, pétales, épines, filaments, chapeaux ou chairs fongiques."
+          },
+          {
+            "text": "Leur apparence singulière, leur discrétion et leur stabilité intérieure leur valent une réputation d’êtres réservés, profondément liés à leur environnement et difficiles à déstabiliser lorsqu’ils se sentent en sécurité."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 3/10 — Rare"
+          },
+          {
+            "text": "**Tendances :** Les Filiaen vivent principalement dans les forêts et les territoires naturels riches en eau. Rares sont ceux qui quittent durablement ces milieux pour découvrir le monde extérieur. Ceux qui voyagent deviennent souvent aventuriers, mercenaires, explorateurs ou mages itinérants. Même lorsqu’ils se déplacent longtemps, la nature demeure généralement leur environnement de référence."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Filiaen ne possèdent pas de taille ou de poids moyens uniques."
+          },
+          {
+            "text": "Leur morphologie dépend principalement du végétal ou du champignon auquel ils sont liés."
+          },
+          {
+            "text": "Deux grandes tendances sont observées."
+          },
+          {
+            "title": "Morphotype à tige",
+            "headingLevel": 5,
+            "anchor": "morphotype-a-tige",
+            "text": "Les Filiaen liés aux fleurs, herbes, plantes grimpantes et autres végétaux non ligneux sont généralement :"
+          },
+          {
+            "items": [
+              "grands ;",
+              "fins ;",
+              "élancés ;",
+              "dotés de membres longs ;",
+              "composés de tissus souples ou fibreux ;",
+              "marqués par des articulations ressemblant à des nœuds végétaux."
+            ]
+          },
+          {
+            "text": "Leur silhouette peut porter :"
+          },
+          {
+            "items": [
+              "des feuilles ;",
+              "des pétales ;",
+              "des bourgeons ;",
+              "des vrilles ;",
+              "de petites épines ;",
+              "des excroissances florales."
+            ]
+          },
+          {
+            "title": "Morphotype fongique",
+            "headingLevel": 5,
+            "anchor": "morphotype-fongique",
+            "text": "Les Filiaen liés aux champignons sont généralement :"
+          },
+          {
+            "items": [
+              "plus bas ;",
+              "plus larges ;",
+              "plus trapus ;",
+              "dotés de membres courts et épais ;",
+              "composés de tissus plus charnus ;",
+              "surmontés ou entourés de structures rappelant des chapeaux, lamelles, pores ou filaments."
+            ]
+          },
+          {
+            "text": "Ces deux morphotypes ne constituent pas des sous-peuples séparés. Ils décrivent seulement les principales tendances d’une morphologie très variable."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La surface corporelle des Filiaen ne correspond pas toujours à une peau uniforme."
+          },
+          {
+            "text": "Elle peut être :"
+          },
+          {
+            "items": [
+              "lisse ;",
+              "fibreuse ;",
+              "nervurée ;",
+              "souple ;",
+              "charnue ;",
+              "légèrement poreuse ;",
+              "couverte de fines aspérités ;",
+              "ponctuée de feuilles, de pétales ou d’excroissances fongiques."
+            ]
+          },
+          {
+            "text": "Les couleurs dépendent du végétal ou du champignon de référence."
+          },
+          {
+            "text": "Elles peuvent comprendre :"
+          },
+          {
+            "items": [
+              "différentes nuances de vert ;",
+              "le beige ;",
+              "le brun ;",
+              "le blanc ;",
+              "le gris ;",
+              "le jaune ;",
+              "l’orange ;",
+              "le rouge ;",
+              "le rose ;",
+              "le bleu ;",
+              "le violet."
+            ]
+          },
+          {
+            "text": "Plusieurs couleurs peuvent coexister sur un même individu."
+          },
+          {
+            "text": "Les Filiaen ne développent normalement ni véritable bois massif ni écorce épaisse. Leurs tissus correspondent davantage à des tiges, des fibres végétales souples ou des chairs fongiques."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Les Filiaen possèdent toujours un visage identifiable comportant :"
+          },
+          {
+            "items": [
+              "deux yeux ;",
+              "un nez ;",
+              "une bouche ;",
+              "deux oreilles."
+            ]
+          },
+          {
+            "text": "La disposition générale reste humanoïde, mais la forme précise des traits dépend de l’individu."
+          },
+          {
+            "text": "Le visage peut être :"
+          },
+          {
+            "items": [
+              "fin ou large ;",
+              "allongé ou arrondi ;",
+              "lisse ou nervuré ;",
+              "entouré de pétales ;",
+              "prolongé par de petites feuilles ;",
+              "surmonté d’un chapeau fongique ;",
+              "marqué par des replis ou des filaments."
+            ]
+          },
+          {
+            "text": "Le nez et les oreilles sont de véritables organes sensoriels. Ils peuvent cependant être formés de tissus rappelant des feuilles, des tiges ou des chairs fongiques."
+          },
+          {
+            "text": "La bouche reste mobile et permet la parole ainsi que l’ingestion de nourriture."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Filiaen possèdent toujours deux yeux fonctionnels."
+          },
+          {
+            "text": "Leur forme peut varier selon l’individu :"
+          },
+          {
+            "items": [
+              "ronde ;",
+              "ovale ;",
+              "en amande ;",
+              "légèrement étirée ;",
+              "profondément enchâssée dans les tissus du visage."
+            ]
+          },
+          {
+            "text": "Aucune palette unique n’est retenue pour les iris. Leur coloration peut s’accorder avec les teintes générales du Filiaen ou produire un contraste marqué avec son visage."
+          },
+          {
+            "text": "Les yeux ne sont pas remplacés par des fleurs, des graines ou des excroissances végétales."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les Filiaen ne possèdent pas nécessairement de véritables cheveux."
+          },
+          {
+            "text": "La partie supérieure de leur tête peut porter :"
+          },
+          {
+            "items": [
+              "des pétales ;",
+              "des feuilles ;",
+              "de fines tiges ;",
+              "des filaments ;",
+              "de petites vrilles ;",
+              "des structures fongiques ;",
+              "un ou plusieurs chapeaux ;",
+              "des tissus souples rappelant une chevelure."
+            ]
+          },
+          {
+            "text": "Ces structures peuvent être courtes, longues, épaisses, retombantes ou dressées."
+          },
+          {
+            "text": "La pilosité corporelle est généralement absente. Elle peut être remplacée par de fins filaments végétaux ou fongiques lorsque le morphotype de l’individu en possède naturellement."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "La structure la plus fréquente comprend :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Des variations naturelles peuvent cependant apparaître."
+          },
+          {
+            "text": "Certains Filiaen possèdent :"
+          },
+          {
+            "items": [
+              "une paire de bras supplémentaire ;",
+              "une paire de jambes supplémentaire ;",
+              "des articulations supplémentaires ;",
+              "un nombre différent de doigts ou d’orteils."
+            ]
+          },
+          {
+            "text": "Ces variations se manifestent généralement par ajout plutôt que par absence."
+          },
+          {
+            "text": "Les membres supplémentaires apparaissent le plus souvent par paires et s’intègrent naturellement à la motricité de l’individu."
+          },
+          {
+            "text": "La disposition générale conserve habituellement une forme équilibrée et approximativement symétrique."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Chaque Filiaen est durablement lié à un végétal non ligneux ou à un champignon de référence."
+          },
+          {
+            "text": "Ce lien détermine notamment :"
+          },
+          {
+            "items": [
+              "la texture de ses tissus ;",
+              "ses couleurs ;",
+              "sa silhouette générale ;",
+              "ses excroissances naturelles ;",
+              "la présence éventuelle d’épines, de pétales, de feuilles ou de structures fongiques."
+            ]
+          },
+          {
+            "text": "Les articulations des morphotypes à tige se forment fréquemment autour de nœuds plus épais et plus souples."
+          },
+          {
+            "text": "Les morphotypes fongiques possèdent des tissus plus charnus et compressibles, tout en conservant une structure interne suffisamment ferme pour soutenir leur corps."
+          },
+          {
+            "text": "Les structures végétales ou fongiques endommagées peuvent cicatriser, mais les parties complexes comme les pétales, feuilles ou filaments demandent généralement davantage de temps pour retrouver leur apparence initiale."
+          },
+          {
+            "title": "Variations saisonnières",
+            "headingLevel": 4,
+            "anchor": "variations-saisonnieres",
+            "text": "L’apparence d’un Filiaen peut évoluer avec les saisons."
+          },
+          {
+            "text": "Ces variations touchent principalement :"
+          },
+          {
+            "items": [
+              "la saturation des couleurs ;",
+              "la teinte des feuilles ou pétales ;",
+              "l’intensité des motifs ;",
+              "la coloration des tissus fongiques ;",
+              "l’aspect frais ou légèrement fané de certaines structures."
+            ]
+          },
+          {
+            "text": "La forme générale du corps et le nombre de membres restent normalement stables."
+          },
+          {
+            "text": "Les variations saisonnières ne constituent pas une transformation magique volontaire."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Filiaen se nourrissent principalement de nourriture ordinaire et de produits cuisinés."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des herbes ;",
+              "des champignons ;",
+              "des racines ;",
+              "des insectes ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils peuvent également assimiler certains minéraux par leur alimentation."
+          },
+          {
+            "text": "Ces apports minéraux participent à l’entretien de leurs tissus et peuvent être consommés seuls ou intégrés à différentes préparations."
+          },
+          {
+            "text": "La lumière ne remplace pas leur alimentation."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "L’eau occupe une place essentielle dans la physiologie filiaen."
+          },
+          {
+            "text": "Un apport régulier et important est nécessaire pour :"
+          },
+          {
+            "items": [
+              "maintenir la souplesse des tissus ;",
+              "préserver leur coloration ;",
+              "soutenir la croissance ;",
+              "éviter le dessèchement des extrémités ;",
+              "conserver le bon fonctionnement des structures végétales ou fongiques."
+            ]
+          },
+          {
+            "text": "Les Filiaen possèdent une longévité importante."
+          },
+          {
+            "text": "Leur espérance de vie moyenne se situe autour de **140 ans**, tandis que les individus les plus âgés peuvent atteindre environ **190 ans**."
+          },
+          {
+            "text": "Leur développement est relativement lent. La marche autonome apparaît généralement autour de trois ans, tandis que les premiers mots peuvent apparaître vers un an et demi."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les tissus perdent progressivement de leur souplesse ;",
+              "les couleurs deviennent plus ternes ;",
+              "certaines feuilles ou structures extérieures se raréfient ;",
+              "l’apparence générale devient davantage fanée ou flétrie ;",
+              "la force et la résistance physiques diminuent."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "Les Filiaen possèdent une acuité olfactive développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les odeurs végétales ;",
+              "les champignons ;",
+              "les traces d’humidité ;",
+              "les variations de la terre ;",
+              "les matières en décomposition ;",
+              "les changements dans la qualité de l’eau ;",
+              "plusieurs odeurs naturelles mêlées."
+            ]
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Vision**"
+          },
+          {
+            "text": "L’acuité visuelle filiaen est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des détails éloignés ;",
+              "repérer de petits mouvements à grande distance ;",
+              "lire des formes fines ;",
+              "identifier rapidement une silhouette éloignée ;",
+              "observer longtemps un élément très distant."
+            ]
+          },
+          {
+            "text": "Leur vision reste pleinement fonctionnelle à courte et moyenne portée."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie filiaen repose fréquemment sur la discrétion, la stabilité mentale et l’utilisation progressive de l’environnement."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "de dissimuler une manifestation ;",
+              "de préparer une action sans attirer l’attention ;",
+              "de maintenir une intention claire ;",
+              "de soutenir ou restaurer l’esprit ;",
+              "d’attendre le moment approprié ;",
+              "d’utiliser la végétation environnante ;",
+              "de faire agir lentement un effet avant sa révélation."
+            ]
+          },
+          {
+            "text": "Leur faible Vitalité les rend moins naturellement adaptés aux pratiques demandant une importante dépense des réserves corporelles."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Plante**"
+          },
+          {
+            "text": "La Plante constitue l’affinité élémentaire recommandée pour les Filiaen."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie filiaen varie selon le morphotype de l’individu."
+          },
+          {
+            "text": "Elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de tiges fines ;",
+              "de feuilles ;",
+              "de pétales ;",
+              "de spores ;",
+              "de filaments fongiques ;",
+              "de vrilles ;",
+              "de racines souples ;",
+              "de poussières végétales ;",
+              "de bourgeons s’ouvrant au moment de l’activation."
+            ]
+          },
+          {
+            "text": "Les manifestations filiaen privilégient généralement :"
+          },
+          {
+            "items": [
+              "la discrétion ;",
+              "la préparation ;",
+              "la croissance progressive ;",
+              "la protection ;",
+              "l’immobilisation ;",
+              "le soutien mental ;",
+              "l’utilisation du terrain."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Le végétal ou le champignon de référence influence l’apparence de la magie du Filiaen, mais ne lui impose pas automatiquement une capacité particulière."
+          },
+          {
+            "text": "Un Filiaen épineux ne possède pas nécessairement une attaque naturelle, pas plus qu’un Filiaen fongique ne produit automatiquement de poison ou de spores dangereuses."
+          },
+          {
+            "text": "Les variations saisonnières du corps sont physiologiques et ne résultent pas d’une utilisation permanente de la magie."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage filiaen :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "DISCR +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "PSY +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "VITA −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Plante"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. La Plante constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Jugement Armé",
+                  "B"
+                ],
+                [
+                  "Soin Mental",
+                  "A"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Jugement Armé",
+            "headingLevel": 5,
+            "anchor": "jugement-arme",
+            "text": "Cette formation développe la capacité à observer discrètement une situation, déterminer le moment opportun et engager une action armée avec discernement."
+          },
+          {
+            "title": "Soin Mental",
+            "headingLevel": 5,
+            "anchor": "soin-mental",
+            "text": "Cette formation développe la capacité à restaurer la Santé Mentale et à soutenir les esprits fragilisés."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Jugement Armé ;",
+              "Soin Mental."
+            ]
+          },
+          {
+            "title": "Adaptation environnementale — Forêts",
+            "headingLevel": 5,
+            "anchor": "adaptation-environnementale-forets",
+            "text": "Vous obtenez la compétence **Environnement — Forêts N1**, selon les règles générales d’Adaptation environnementale."
+          },
+          {
+            "title": "Mentalité — Panique",
+            "headingLevel": 5,
+            "anchor": "mentalite-panique",
+            "text": "Vous êtes :"
+          },
+          {
+            "items": [
+              "immunisé contre **Sursaut**, l’état Panique T1 ;",
+              "avantagé d’un niveau lors des jets permettant de résister à **Anxiété**, **Crise** et **Hystérie**."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états appartenant explicitement à la famille canonique **Panique**."
+          },
+          {
+            "text": "Elle ne s’applique pas :"
+          },
+          {
+            "items": [
+              "aux états de la famille Peur ;",
+              "aux états élémentaires ;",
+              "aux états de Folie ;",
+              "aux effets provoquant une réaction paniquée sans appartenir explicitement à la famille Panique."
+            ]
+          },
+          {
+            "title": "Sens aiguisé — Odorat",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-odorat",
+            "text": "Vous obtenez **+5 en Odorat**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité olfactive."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Filiaen.md",
+    "sourceSha256": "9c2a3b33138fbb3146baf4212147ed51a3afaa47e669160bca73d12704cc1acb"
+  }
+}

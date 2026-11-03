@@ -1,0 +1,237 @@
+{
+  "id": "materials.junli",
+  "type": "material",
+  "identity": {
+    "name": "Junli",
+    "subtitle": "Textiles · Animal",
+    "icon": "◆",
+    "tags": [
+      "junli",
+      "Junli",
+      "textile",
+      "Textiles",
+      "animal",
+      "Animal",
+      "Poil dense noir",
+      "Noir profond, épais",
+      "Fibre lourde, très isolante et résistante.",
+      "Froid",
+      "physical",
+      "Physique",
+      "Normal",
+      "Capes",
+      "manteaux",
+      "couvertures polaires",
+      "nord",
+      "tailleur",
+      "voyage",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 7
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "junli",
+    "family": "textile",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Animal"
+      },
+      {
+        "label": "Rareté",
+        "value": 7
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Poil dense noir"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir profond, épais"
+          },
+          {
+            "title": "Description",
+            "text": "Fibre lourde, très isolante et résistante."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "8"
+          },
+          {
+            "title": "Masse relative",
+            "text": "4"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "1"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Faible (1)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "1"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Froid"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Isolation thermique supérieure."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Rêche et encombrant."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Capes",
+              "manteaux",
+              "couvertures polaires"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "nord",
+              "tailleur",
+              "voyage",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "250"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.85"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "12"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "froid"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_refroidi",
+              "etat_gele"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

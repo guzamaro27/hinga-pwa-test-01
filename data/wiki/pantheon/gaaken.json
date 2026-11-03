@@ -1,0 +1,185 @@
+{
+  "id": "gaaken",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Gaaken",
+    "subtitle": "L’Inexorable Juge",
+    "tags": [
+      "Gaaken",
+      "L’Inexorable Juge",
+      "esprit majeur",
+      "Justice",
+      "Loi",
+      "Ordre",
+      "Cycle",
+      "Continuité",
+      "Stabilité",
+      "Équité",
+      "Consistance",
+      "Volonté Inflexible",
+      "Immunité à l’intimidation"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#6B6F75",
+    "visualNote": "Justice • Loi • Ordre • Cycle • Continuité • Stabilité • Équité • Consistance"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "gaaken",
+    "name": "Gaaken",
+    "title": "L’Inexorable Juge",
+    "type": "esprit_majeur",
+    "domains": [
+      "Justice",
+      "Loi",
+      "Ordre",
+      "Cycle",
+      "Continuité",
+      "Stabilité",
+      "Équité",
+      "Consistance"
+    ],
+    "cycle": {
+      "type": "temporal",
+      "refresh": "season_end",
+      "label": "À chaque fin de saison"
+    },
+    "cult": {
+      "short": "Ajouter un objet au Collier de Foi",
+      "ritual": "Ajouter un objet sur son Collier de Foi."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La rigueur de Gaaken est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "volonte_inflexible": {
+        "key": "volonte_inflexible",
+        "name": "Volonté Inflexible",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Immunité à l’intimidation",
+        "fullDescription": "Rend immunisé aux tentatives d’intimidation.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "incompatibilities": [
+      "karkos"
+    ],
+    "ui": {
+      "color": "#6B6F75",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Justice",
+              "Loi",
+              "Ordre",
+              "Cycle",
+              "Continuité",
+              "Stabilité",
+              "Équité",
+              "Consistance"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Ajouter un objet au Collier de Foi"
+          },
+          {
+            "title": "Rituel",
+            "text": "Ajouter un objet sur son Collier de Foi."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque fin de saison"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "temporel"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "season_end"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Volonté Inflexible (commune, passif)",
+              "Effet court : Immunité à l’intimidation",
+              "Description : Rend immunisé aux tentatives d’intimidation.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La rigueur de Gaaken est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "karkos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "gaaken"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "actions.pieges",
+  "type": "codex",
+  "identity": {
+    "name": "Actions de pièges",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "guide"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Clic gauche",
+            "text": "Le clic gauche sur un bouton de piège utilise l'action normale."
+          },
+          {
+            "title": "Clic droit",
+            "text": "Le clic droit sur un bouton de piège ouvre directement l'entrée HingaDex associée, sans déclencher l'action et sans ouvrir de menu contextuel."
+          }
+        ]
+      },
+      {
+        "label": "Entrées disponibles",
+        "blocks": [
+          {
+            "title": "Chercher des pièges",
+            "text": "trap-action-search - Chercher les pièges proches avec un sens précis ou une recherche générale."
+          },
+          {
+            "title": "Révéler",
+            "text": "trap-action-reveal - Rendre visible ou signaler un piège déjà repéré."
+          },
+          {
+            "title": "Cacher",
+            "text": "trap-action-hide - Tenter de dissimuler de nouveau un piège révélé sans effacer ses données."
+          },
+          {
+            "title": "Analyser",
+            "text": "trap-action-analyze - Comprendre un piège déjà repéré."
+          },
+          {
+            "title": "Consulter",
+            "text": "trap-action-consult - Voir ce que le personnage sait déjà."
+          },
+          {
+            "title": "Partager la connaissance",
+            "text": "trap-action-share-knowledge - Transmettre à un autre acteur le niveau de connaissance possédé sur ce piège sans réduire sa connaissance actuelle."
+          },
+          {
+            "title": "Fabriquer",
+            "text": "trap-action-craft - Créer un nouveau piège."
+          },
+          {
+            "title": "Modifier",
+            "text": "trap-action-edit - Modifier profondément un piège via builder."
+          },
+          {
+            "title": "Reproduire",
+            "text": "trap-action-reproduce - Copier un piège mécanique maîtrisé."
+          },
+          {
+            "title": "Reconditionner",
+            "text": "trap-action-recondition - Ajuster le niveau ou la stabilité d'un piège mécanique."
+          },
+          {
+            "title": "Réparer",
+            "text": "trap-action-repair - Restaurer certains pièges mécaniques détruits."
+          },
+          {
+            "title": "Poser",
+            "text": "trap-action-place - Placer un piège du sac sur la scène."
+          },
+          {
+            "title": "Armer / Réarmer",
+            "text": "trap-action-arm - Rendre actif un piège posé et désarmé."
+          },
+          {
+            "title": "Déclencher",
+            "text": "trap-action-trigger - Activer volontairement un piège armé."
+          },
+          {
+            "title": "Désarmer",
+            "text": "trap-action-disarm - Neutraliser proprement un piège mécanique."
+          },
+          {
+            "title": "Désactiver",
+            "text": "trap-action-disable - Neutraliser un piège magique ou runique."
+          },
+          {
+            "title": "Saboter",
+            "text": "trap-action-sabotage - Altérer le comportement d'un piège identifié."
+          },
+          {
+            "title": "Ajouter sabotage",
+            "text": "trap-action-add-sabotage - Ajouter une altération sur un piège."
+          },
+          {
+            "title": "Enlever sabotage",
+            "text": "trap-action-remove-sabotage - Retirer une altération déjà présente."
+          },
+          {
+            "title": "Détruire",
+            "text": "trap-action-destroy - Briser ou neutraliser brutalement un piège."
+          },
+          {
+            "title": "Récupérer / Ranger dans le sac",
+            "text": "trap-action-recover - Mettre un piège récupérable dans le sac."
+          },
+          {
+            "title": "Transférer",
+            "text": "trap-action-transfer - Donner une unité de piège à une cible valide sans révéler le créateur."
+          }
+        ]
+      },
+      {
+        "label": "Limites",
+        "blocks": [
+          {
+            "title": "Documentation",
+            "text": "Cette page documente les actions et leurs conditions connues. Elle ne modifie pas les jets, les compétences, les permissions, les sons, les animations, les sockets, le builder ou la logique creator / owner / placer."
+          },
+          {
+            "title": "Vérité système",
+            "text": "Si une mécanique est incertaine ou prévue mais pas totalement branchée, les entrées indiquent À confirmer côté système ou Prévu pour une compétence future."
+          }
+        ]
+      }
+    ]
+  }
+}

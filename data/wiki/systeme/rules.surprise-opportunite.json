@@ -1,0 +1,83 @@
+{
+  "id": "rules.surprise-opportunite",
+  "type": "codex",
+  "identity": {
+    "name": "Surprise et opportunité",
+    "subtitle": "Fenêtres d’attaque particulières",
+    "icon": "!",
+    "tags": [
+      "Surprise et opportunité",
+      "surprise",
+      "opportunité",
+      "défense"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/attack-profile.mjs",
+    "module/helpers/combat-flow.mjs",
+    "tools/test-combat-opportunity.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Opportunité physique",
+        "value": "Pas d’Esquive standard"
+      },
+      {
+        "label": "Esquive surprise",
+        "value": "REACT / 4 lorsque proposée"
+      },
+      {
+        "label": "Défenses",
+        "value": "Dépendent du profil exact"
+      }
+    ],
+    "links": [
+      {
+        "label": "Réactions",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Esquiver",
+        "sectionId": "systeme",
+        "entryId": "rules.esquiver"
+      },
+      {
+        "label": "Oppositions",
+        "sectionId": "systeme",
+        "entryId": "rules.oppositions"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Profil d’attaque",
+        "blocks": [
+          {
+            "text": "Une attaque normale, surprise ou d’opportunité ne propose pas forcément les mêmes défenses. Le profil physique, magique ou mental décide des choix disponibles."
+          }
+        ]
+      },
+      {
+        "label": "Points sûrs",
+        "blocks": [
+          {
+            "items": [
+              "L’opportunité physique standard ne propose pas l’Esquive standard.",
+              "Quand une Esquive de surprise est proposée, elle utilise normalement REACT / 4.",
+              "Les avantages et désavantages automatiques sont affichés par le contexte de l’attaque."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

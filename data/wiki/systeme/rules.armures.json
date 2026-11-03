@@ -1,0 +1,87 @@
+{
+  "id": "rules.armures",
+  "type": "codex",
+  "identity": {
+    "name": "Armures et boucliers",
+    "subtitle": "Défense, emplacements et protections",
+    "icon": "⬟",
+    "tags": [
+      "Armures et boucliers",
+      "armure",
+      "bouclier",
+      "défense"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/armor-defense-rules.mjs",
+    "module/equipment/equipment-metrics.mjs",
+    "module/helpers/combat-flow.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Armure",
+        "value": "Protection par emplacement"
+      },
+      {
+        "label": "Bouclier",
+        "value": "Défense et encombrement selon catégorie"
+      },
+      {
+        "label": "Matériau",
+        "value": "Doit être compatible avec l’équipement"
+      }
+    ],
+    "links": [
+      {
+        "label": "Dégâts",
+        "sectionId": "systeme",
+        "entryId": "rules.degats"
+      },
+      {
+        "label": "Utiliser un bouclier",
+        "sectionId": "systeme",
+        "entryId": "rules.bouclier"
+      },
+      {
+        "label": "Garde",
+        "sectionId": "systeme",
+        "entryId": "rules.garde"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Armure",
+        "blocks": [
+          {
+            "text": "Une armure protège les emplacements qu’elle couvre. Sa catégorie, son profil de forge, son matériau et son état alimentent ses valeurs physiques et magiques."
+          }
+        ]
+      },
+      {
+        "label": "Bouclier",
+        "blocks": [
+          {
+            "text": "La catégorie et la forme du bouclier déterminent sa réserve de défense et son encombrement. La forme doit être compatible avec la catégorie choisie."
+          }
+        ]
+      },
+      {
+        "label": "Matériaux",
+        "blocks": [
+          {
+            "text": "La compatibilité peut être normale, rare ou interdite. Le catalogue des matériaux indique les choix permis."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1490,5 +1490,277 @@
   {
     "path": "data/wiki/bestiairex/ehunvatz.json",
     "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/eumi.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/evotar.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/fagumor.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/fanin.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/fibule.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/forn.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/foveuro.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/gartozor.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/gong.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/goya.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/granoulvar.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/hadok.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/hashalikan.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/irvelott.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/ishkarn.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/jaskor.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/joksa.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/jomaoh.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/karmis.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/keralom.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/kerzaros.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/kofats.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/koford.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/lagari.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/lashogar.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/lebrak.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/lerbonn.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/marluda.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/marog.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/maska.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/mephir.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/mesagula.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/mukai.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/nalkri.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/nalvori.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/narish.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/nicho.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/nogorm.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/ogardil.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/onomo.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/overgot.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/padrosh.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/patachi.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/pimo.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/pireuline.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/remugril.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/salmigodi.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/sarf.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/satapi.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/sertash.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/shivaen.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/terozoll.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/trozar.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/uaserzo.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/uska.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/vazrak.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/velkir.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/viterzov.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/vozroth.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/waskro.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/welemma.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/winfer.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/wiskran.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/xogas.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/xokashak.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/yskaro.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/zarkosho.json",
+    "section": "bestiairex"
+  },
+  {
+    "path": "data/wiki/bestiairex/zumlik.json",
+    "section": "bestiairex"
   }
 ]

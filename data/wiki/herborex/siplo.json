@@ -1,0 +1,96 @@
+{
+  "id": "siplo",
+  "type": "plant",
+  "identity": {
+    "name": "Siplo",
+    "subtitle": "Arbre commun des terres temperees",
+    "unknownName": "Arbre vert a tronc brun torsade",
+    "slug": "siplo",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Siplo.png",
+    "visualNote": "Arbre tempere au tronc brun torsade, portant une cime verte dense et des fruits verts a enveloppe epaisse.",
+    "tags": [
+      "arbre",
+      "tempere",
+      "commun",
+      "lisiere"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "foret temperee humide",
+      "plaine temperee humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre meuble",
+      "terre riche",
+      "terre humide"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification",
+      "baisse des temperatures"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "7 a 18 m",
+    "width": "5 a 13 m",
+    "colorMain": "vert vif",
+    "colorSecondary": "brun, vert clair, violet discret",
+    "distinctiveSigns": [
+      "tronc brun epais et torsade",
+      "ecorce rugueuse en plaques allongees",
+      "cime ronde tres dense",
+      "feuilles vertes dentees aux nervures violettes",
+      "jeunes rameaux fins et dresses",
+      "racines nombreuses visibles au pied",
+      "fruits verts a enveloppe epaisse",
+      "petites graines rondes vertes ou brun-violet"
+    ],
+    "descriptionShort": "Le Siplo est un arbre tempere tres repandu, au tronc brun torsade et a la cime verte dense.",
+    "descriptionFull": "Le Siplo pousse facilement dans les forets, les lisieres, les clairieres et les vallons doux. Son tronc brun se tord legerement avec l'age, puis se divise en branches solides sous une couronne verte et ronde. Ses fruits verts, ses racines apparentes et son bois regulier en font un arbre ordinaire mais tres present dans les paysages temperes."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le Siplo fournit un bois simple et facile a travailler, utile aux objets courants, aux piquets, aux petites reparations et au chauffage."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

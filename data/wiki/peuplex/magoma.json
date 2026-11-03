@@ -1,0 +1,1058 @@
+{
+  "id": "magoma",
+  "type": "peuple",
+  "identity": {
+    "name": "Magoma",
+    "subtitle": "",
+    "slug": "magoma",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/magoma.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Magoma constituent le peuple le plus répandu d’Arolnia."
+          },
+          {
+            "text": "Ils sont reconnaissables moins par une particularité anatomique spectaculaire que par une morphologie humanoïde équilibrée, une constitution généralement solide et une très grande diversité d’apparences."
+          },
+          {
+            "text": "Leur peau se décline du beige clair au beige foncé. Leurs cheveux peuvent être roux, châtains, bruns ou noirs, tandis que leurs yeux couvrent une large gamme de couleurs naturelles."
+          },
+          {
+            "text": "Leur forte présence dans toutes les régions habitées leur permet d’occuper une grande variété de fonctions et de modes de vie."
+          },
+          {
+            "text": "On rencontre des Magoma dans presque tous les domaines :"
+          },
+          {
+            "items": [
+              "l’artisanat ;",
+              "l’agriculture ;",
+              "le commerce ;",
+              "l’administration ;",
+              "les soins ;",
+              "l’étude ;",
+              "la construction ;",
+              "les transports ;",
+              "les métiers physiques ;",
+              "les activités magiques."
+            ]
+          },
+          {
+            "text": "Leur intelligence pratique, leur constitution stable et leur facilité à intégrer des communautés très différentes leur valent une réputation de peuple adaptable, méthodique et profondément ancré dans la vie quotidienne d’Arolnia."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 10/10 — Parmi les plus répandus"
+          },
+          {
+            "text": "**Tendances :** Les Magoma constituent le peuple le plus commun d’Arolnia."
+          },
+          {
+            "text": "Ils sont présents :"
+          },
+          {
+            "items": [
+              "dans les grandes villes ;",
+              "dans les petites agglomérations ;",
+              "dans les villages ;",
+              "dans les campagnes ;",
+              "sur les littoraux ;",
+              "dans les régions montagneuses ;",
+              "dans les territoires commerçants ;",
+              "le long des voies de circulation ;",
+              "dans les régions chaudes comme froides."
+            ]
+          },
+          {
+            "text": "Leur répartition ne dépend pas d’un environnement particulier."
+          },
+          {
+            "text": "Leurs communautés sont suffisamment anciennes et nombreuses pour que des variations régionales importantes se soient développées dans :"
+          },
+          {
+            "items": [
+              "la coloration de la peau ;",
+              "les traits du visage ;",
+              "les cheveux ;",
+              "la stature ;",
+              "les habitudes alimentaires ;",
+              "les pratiques culturelles."
+            ]
+          },
+          {
+            "text": "Les Magoma vivent fréquemment au sein de communautés mixtes et ne ressentent pas nécessairement le besoin de se regrouper exclusivement entre membres de leur peuple."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Magoma mesurent généralement autour de **1,80 mètre** pour environ **85 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est de taille moyenne et de constitution ordinaire à légèrement trapue."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "des épaules relativement larges ;",
+              "une cage thoracique bien développée ;",
+              "un tronc de longueur moyenne ;",
+              "une taille peu ou modérément marquée ;",
+              "un bassin solide ;",
+              "des hanches assez larges ;",
+              "des membres de longueur moyenne ;",
+              "une ossature robuste ;",
+              "une musculature modérée ;",
+              "une posture droite et stable."
+            ]
+          },
+          {
+            "text": "Leur carrure donne une impression de solidité sans être massive."
+          },
+          {
+            "text": "Leur poids est réparti de manière équilibrée entre :"
+          },
+          {
+            "items": [
+              "l’ossature ;",
+              "la musculature ;",
+              "les tissus corporels ;",
+              "la largeur du tronc et du bassin."
+            ]
+          },
+          {
+            "text": "Les Magoma ne possèdent généralement pas une silhouette extrêmement fine."
+          },
+          {
+            "text": "Même les individus minces conservent souvent :"
+          },
+          {
+            "items": [
+              "une certaine largeur d’épaules ;",
+              "un bassin stable ;",
+              "des membres de proportions ordinaires ;",
+              "une présence physique équilibrée."
+            ]
+          },
+          {
+            "text": "Les individus plus trapus présentent généralement :"
+          },
+          {
+            "items": [
+              "un tronc légèrement plus court ;",
+              "une cage thoracique plus large ;",
+              "un bassin développé ;",
+              "des membres un peu plus épais."
+            ]
+          },
+          {
+            "text": "Ils ne présentent toutefois aucune tendance naturelle au dos voûté ou à une posture tassée."
+          },
+          {
+            "text": "Leur colonne reste droite et leur tête se place naturellement au-dessus du tronc."
+          },
+          {
+            "text": "Le dimorphisme corporel reste modéré."
+          },
+          {
+            "text": "Les hommes possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "des épaules légèrement plus larges ;",
+              "un torse plus rectangulaire ;",
+              "une mâchoire plus développée ;",
+              "une musculature un peu plus visible."
+            ]
+          },
+          {
+            "text": "Les femmes possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un bassin plus large ;",
+              "des hanches davantage marquées ;",
+              "une taille légèrement plus visible ;",
+              "une silhouette aux volumes plus souples."
+            ]
+          },
+          {
+            "text": "Les femmes magoma restent cependant solidement charpentées. Elles ne présentent pas naturellement une taille extrêmement fine, des épaules fragiles ou une silhouette de mannequin."
+          },
+          {
+            "text": "Ces différences n’accordent aucun bonus ou malus mécanique supplémentaire."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau magoma se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le beige très clair ;",
+              "le beige rosé ;",
+              "le beige neutre ;",
+              "le beige chaud ;",
+              "le beige doré ;",
+              "le beige foncé ;",
+              "certains tons légèrement bruns."
+            ]
+          },
+          {
+            "text": "La coloration varie fortement selon :"
+          },
+          {
+            "items": [
+              "les familles ;",
+              "les régions ;",
+              "l’exposition au soleil ;",
+              "l’âge ;",
+              "l’individu."
+            ]
+          },
+          {
+            "text": "Certaines peaux présentent des sous-tons :"
+          },
+          {
+            "items": [
+              "rosés ;",
+              "dorés ;",
+              "neutres ;",
+              "légèrement gris ;",
+              "légèrement cuivrés."
+            ]
+          },
+          {
+            "text": "Les paumes des mains et les plantes des pieds sont généralement légèrement plus claires ou plus rosées que le reste de la peau."
+          },
+          {
+            "text": "Les lèvres et les muqueuses peuvent présenter des nuances :"
+          },
+          {
+            "items": [
+              "roses ;",
+              "rouges atténuées ;",
+              "brunes rosées ;",
+              "mauves discrètes."
+            ]
+          },
+          {
+            "text": "Les Magoma ne possèdent aucune marque corporelle universelle."
+          },
+          {
+            "text": "Ils peuvent néanmoins présenter naturellement :"
+          },
+          {
+            "items": [
+              "des taches de rousseur ;",
+              "des grains de beauté ;",
+              "des taches pigmentaires ;",
+              "des zones plus claires ou plus foncées ;",
+              "des marques liées à l’exposition solaire."
+            ]
+          },
+          {
+            "text": "Les taches de rousseur sont particulièrement visibles chez certains individus à peau claire et aux cheveux roux ou châtains."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Les visages magoma présentent une diversité importante."
+          },
+          {
+            "text": "Leur forme peut être :"
+          },
+          {
+            "items": [
+              "ronde ;",
+              "ovale ;",
+              "légèrement allongée ;",
+              "rectangulaire aux angles adoucis ;",
+              "plus large au niveau des joues ou de la mâchoire."
+            ]
+          },
+          {
+            "text": "Les traits les plus fréquents comprennent :"
+          },
+          {
+            "items": [
+              "un front de largeur moyenne ;",
+              "des pommettes modérément visibles ;",
+              "des joues pleines ou légèrement creusées ;",
+              "une mâchoire de largeur moyenne ;",
+              "un menton arrondi ou légèrement carré ;",
+              "un nez de taille moyenne ;",
+              "des oreilles arrondies ;",
+              "des sourcils bien dessinés."
+            ]
+          },
+          {
+            "text": "Le nez peut être :"
+          },
+          {
+            "items": [
+              "droit ;",
+              "légèrement aquilin ;",
+              "court ou modérément long ;",
+              "fin ou assez large ;",
+              "arrondi à son extrémité."
+            ]
+          },
+          {
+            "text": "Aucune forme de nez, de mâchoire ou de visage ne constitue à elle seule un caractère universel du peuple."
+          },
+          {
+            "text": "L’expression générale des Magoma paraît fréquemment :"
+          },
+          {
+            "items": [
+              "ouverte ;",
+              "attentive ;",
+              "calme ;",
+              "directe ;",
+              "familière."
+            ]
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Magoma possèdent des yeux de taille moyenne à grande."
+          },
+          {
+            "text": "Ils peuvent être :"
+          },
+          {
+            "items": [
+              "ronds ;",
+              "légèrement ovales ;",
+              "en amande ;",
+              "plus ou moins profondément placés."
+            ]
+          },
+          {
+            "text": "Les iris se déclinent dans une gamme très large comprenant :"
+          },
+          {
+            "items": [
+              "le bleu ;",
+              "le bleu gris ;",
+              "le gris ;",
+              "le vert ;",
+              "le vert gris ;",
+              "le noisette ;",
+              "l’ambre ;",
+              "le brun clair ;",
+              "le brun foncé."
+            ]
+          },
+          {
+            "text": "Les yeux clairs sont fréquents, mais ne dominent pas l’ensemble du peuple."
+          },
+          {
+            "text": "La diversité des yeux accompagne celle des peaux et des cheveux."
+          },
+          {
+            "text": "Leur Vision développée ne produit aucune lumière, modification permanente de la pupille ou particularité surnaturelle visible."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux magoma se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le roux clair ;",
+              "le roux cuivré ;",
+              "le roux sombre ;",
+              "l’auburn ;",
+              "le châtain clair ;",
+              "le châtain ;",
+              "le châtain foncé ;",
+              "le brun ;",
+              "le brun très sombre ;",
+              "le noir."
+            ]
+          },
+          {
+            "text": "Le roux reste une couleur fréquente et caractéristique, mais ne représente pas l’ensemble du peuple."
+          },
+          {
+            "text": "Les cheveux peuvent être :"
+          },
+          {
+            "items": [
+              "lisses ;",
+              "ondulés ;",
+              "bouclés ;",
+              "très bouclés ;",
+              "fins ;",
+              "épais."
+            ]
+          },
+          {
+            "text": "La densité est généralement moyenne à importante."
+          },
+          {
+            "text": "La pilosité corporelle et faciale suit la même palette générale."
+          },
+          {
+            "text": "Les hommes peuvent développer :"
+          },
+          {
+            "items": [
+              "une barbe légère ;",
+              "une barbe dense ;",
+              "une moustache ;",
+              "une pilosité corporelle modérée."
+            ]
+          },
+          {
+            "text": "Les femmes présentent généralement une pilosité plus discrète, sans que celle-ci soit absente."
+          },
+          {
+            "text": "Les sourcils sont fréquemment :"
+          },
+          {
+            "items": [
+              "châtains ;",
+              "bruns ;",
+              "noirs ;",
+              "roux sombres ;",
+              "légèrement plus foncés que les cheveux."
+            ]
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité deviennent progressivement :"
+          },
+          {
+            "items": [
+              "gris ;",
+              "gris argenté ;",
+              "blancs ;",
+              "plus rarement beige très clair."
+            ]
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les oreilles magoma sont généralement :"
+          },
+          {
+            "items": [
+              "arrondies ;",
+              "de taille moyenne ;",
+              "proches du crâne ou légèrement décollées ;",
+              "dotées d’un pavillon souple et mobile."
+            ]
+          },
+          {
+            "text": "Les Magoma possèdent :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "deux yeux ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Ils ne possèdent :"
+          },
+          {
+            "items": [
+              "aucune corne ;",
+              "aucune queue ;",
+              "aucune aile ;",
+              "aucun appendice externe supplémentaire."
+            ]
+          },
+          {
+            "text": "Leur organisation corporelle sert fréquemment de référence comparative pour décrire la taille et le gabarit des autres peuples humanoïdes."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les Magoma ne présentent aucune particularité anatomique majeure modifiant profondément leur fonctionnement corporel."
+          },
+          {
+            "text": "Leur constitution repose sur un équilibre entre :"
+          },
+          {
+            "items": [
+              "une ossature robuste ;",
+              "une musculature modérée ;",
+              "une cage thoracique développée ;",
+              "un bassin stable ;",
+              "une mobilité ordinaire ;",
+              "une endurance adaptée aux activités quotidiennes."
+            ]
+          },
+          {
+            "text": "Leur force naturelle facilite notamment :"
+          },
+          {
+            "items": [
+              "le port de charges modérées ;",
+              "les travaux physiques ordinaires ;",
+              "le maintien d’un effort ;",
+              "l’assistance physique d’un allié ;",
+              "les activités demandant méthode et puissance."
+            ]
+          },
+          {
+            "text": "Leur carrure n’entrave pas leur mobilité."
+          },
+          {
+            "text": "Les Magoma peuvent courir, grimper, nager et utiliser des outils sans limitation anatomique particulière."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les épaules peuvent s’affaisser modérément ;",
+              "la musculature perd progressivement en densité ;",
+              "la peau se ride ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "les mouvements deviennent moins rapides ;",
+              "la force et l’endurance diminuent graduellement."
+            ]
+          },
+          {
+            "text": "Le vieillissement ne produit normalement ni voûtement important ni transformation radicale de leur silhouette."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Magoma sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des légumineuses ;",
+              "des champignons ;",
+              "des racines ;",
+              "des produits laitiers ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Leur large répartition géographique explique une grande diversité de traditions alimentaires."
+          },
+          {
+            "text": "Ils apprécient fréquemment :"
+          },
+          {
+            "items": [
+              "les fruits sucrés ;",
+              "les pains et préparations céréalières ;",
+              "les plats mijotés ;",
+              "les produits issus de l’agriculture locale ;",
+              "les repas collectifs."
+            ]
+          },
+          {
+            "text": "Aucune préférence alimentaire n’est universelle au peuple."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Magoma présentent un équilibre général entre robustesse corporelle, endurance quotidienne et capacité de récupération ordinaire."
+          },
+          {
+            "text": "Leur organisme s’adapte correctement :"
+          },
+          {
+            "items": [
+              "aux activités prolongées ;",
+              "aux déplacements réguliers ;",
+              "au port de charges modérées ;",
+              "aux travaux demandant méthode et constance ;",
+              "aux modes de vie urbains ;",
+              "aux modes de vie ruraux ;",
+              "aux changements raisonnables de climat ;",
+              "aux environnements densément peuplés."
+            ]
+          },
+          {
+            "text": "Cette polyvalence ne constitue pas une résistance surnaturelle ou mécanique."
+          },
+          {
+            "text": "Les Magoma ne possèdent aucune résistance naturelle automatique :"
+          },
+          {
+            "items": [
+              "aux poisons ;",
+              "aux éléments ;",
+              "aux états mentaux ;",
+              "aux phénomènes magiques."
+            ]
+          },
+          {
+            "text": "Les protections correspondantes ne s’appliquent que lorsqu’elles sont accordées par une règle, une compétence ou une Voie d’héritage."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Vision**"
+          },
+          {
+            "text": "Les Magoma possèdent une acuité visuelle particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "les détails éloignés ;",
+              "les petits mouvements ;",
+              "les différences de forme ;",
+              "les changements de posture ;",
+              "les contrastes légers ;",
+              "les irrégularités présentes sur une surface ;",
+              "les éléments inhabituels dans un environnement organisé."
+            ]
+          },
+          {
+            "text": "Cette acuité facilite notamment :"
+          },
+          {
+            "items": [
+              "la lecture ;",
+              "l’observation ;",
+              "l’étude ;",
+              "le repérage ;",
+              "l’analyse d’un mécanisme ;",
+              "la surveillance d’un espace."
+            ]
+          },
+          {
+            "text": "Elle ne permet pas :"
+          },
+          {
+            "items": [
+              "de voir dans l’obscurité complète ;",
+              "de percevoir à travers un obstacle ;",
+              "de détecter automatiquement un élément entièrement dissimulé."
+            ]
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "La perception ésotérique magoma est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "remarquer une aura très faible ;",
+              "distinguer plusieurs flux magiques proches ;",
+              "suivre une trace ésotérique ténue ;",
+              "percevoir une magie dormante ;",
+              "reconnaître spontanément la nature d’une perturbation magique ;",
+              "localiser une manifestation surnaturelle par la perception seule."
+            ]
+          },
+          {
+            "text": "Cette faiblesse ne les empêche pas :"
+          },
+          {
+            "items": [
+              "d’utiliser la magie ;",
+              "d’étudier ses principes ;",
+              "d’apprendre des compétences magiques ;",
+              "de reconnaître une manifestation évidente ;",
+              "de comprendre intellectuellement un phénomène magique."
+            ]
+          },
+          {
+            "text": "Les Magoma compensent fréquemment cette perception instinctive plus faible par :"
+          },
+          {
+            "items": [
+              "l’observation ;",
+              "l’étude ;",
+              "l’expérience ;",
+              "les instruments ;",
+              "la méthode."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La pratique magoma repose fréquemment sur l’analyse, la méthode et la compréhension structurée des phénomènes."
+          },
+          {
+            "text": "Leur Intelligence développée favorise notamment :"
+          },
+          {
+            "items": [
+              "l’apprentissage de procédures complexes ;",
+              "l’analyse d’un mécanisme ;",
+              "la mémorisation de méthodes ;",
+              "la préparation d’un effet ;",
+              "la compréhension des liens entre plusieurs éléments ;",
+              "l’organisation d’une pratique magique ou technique."
+            ]
+          },
+          {
+            "text": "Leur Force naturelle permet également d’intégrer leur magie :"
+          },
+          {
+            "items": [
+              "aux actions physiques ;",
+              "au transport ;",
+              "aux structures lourdes ;",
+              "aux travaux demandant une forte stabilité ;",
+              "aux manifestations nécessitant un ancrage corporel."
+            ]
+          },
+          {
+            "text": "Leur faible Discrétion les rend moins naturellement adaptés aux pratiques reposant sur :"
+          },
+          {
+            "items": [
+              "une manifestation presque invisible ;",
+              "une exécution dissimulée ;",
+              "une approche furtive ;",
+              "des mouvements destinés à ne laisser aucune trace ;",
+              "une préparation entièrement secrète."
+            ]
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Terre**"
+          },
+          {
+            "text": "La Terre constitue l’affinité élémentaire recommandée pour les Magoma."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie magoma se manifeste fréquemment sous des formes stables, organisées et clairement structurées."
+          },
+          {
+            "text": "Lorsqu’elle utilise la Terre, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de volumes compacts ;",
+              "de surfaces régulières ;",
+              "de plaques minérales ;",
+              "de structures solidement ancrées ;",
+              "de reliefs progressifs ;",
+              "de lignes géométriques ;",
+              "de poussière se regroupant en formes cohérentes ;",
+              "de supports destinés à maintenir ou transporter une charge."
+            ]
+          },
+          {
+            "text": "Les manifestations magoma privilégient généralement :"
+          },
+          {
+            "items": [
+              "la stabilité ;",
+              "la continuité ;",
+              "la solidité ;",
+              "la méthode ;",
+              "l’utilité ;",
+              "la maîtrise progressive."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La faible perception ésotérique des Magoma ne réduit pas directement la puissance de leur magie."
+          },
+          {
+            "text": "Elle influence principalement leur capacité à identifier spontanément :"
+          },
+          {
+            "items": [
+              "un flux très faible ;",
+              "une aura discrète ;",
+              "une magie dormante ;",
+              "une perturbation ésotérique subtile."
+            ]
+          },
+          {
+            "text": "Un Magoma peut donc posséder une excellente connaissance théorique ou pratique de la magie tout en éprouvant davantage de difficultés à percevoir instinctivement certaines manifestations."
+          },
+          {
+            "text": "Leur magie s’intègre particulièrement bien :"
+          },
+          {
+            "items": [
+              "aux constructions ;",
+              "aux outils ;",
+              "aux activités collectives ;",
+              "aux soins organisés ;",
+              "au soutien physique ;",
+              "aux pratiques exigeant une procédure stable."
+            ]
+          },
+          {
+            "text": "Le **Soin Naturel** proposé dans leur Formation culturelle reste cependant une pratique non magique."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage magoma :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "INT +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "FOR +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "DISCR −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Terre"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. La Terre constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Soin Naturel",
+                  "A"
+                ],
+                [
+                  "Portée extravagante",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Soin Naturel",
+            "headingLevel": 5,
+            "anchor": "soin-naturel",
+            "text": "Cette formation développe une méthode de soin non magique reposant sur l’Intelligence, le contact et un traitement maintenu."
+          },
+          {
+            "text": "Le praticien soigne progressivement les PV d’une créature vivante consentante."
+          },
+          {
+            "text": "Le traitement demande notamment :"
+          },
+          {
+            "items": [
+              "une action majeure pour commencer ;",
+              "un contact physique avec la cible ;",
+              "le maintien du traitement pendant la durée choisie ;",
+              "l’interruption des actions offensives pendant le soin."
+            ]
+          },
+          {
+            "text": "Les soins déjà appliqués restent acquis en cas d’interruption, mais les impulsions restantes sont perdues."
+          },
+          {
+            "title": "Portée extravagante",
+            "headingLevel": 5,
+            "anchor": "portee-extravagante",
+            "text": "Cette formation développe la capacité à transporter efficacement un allié au contact."
+          },
+          {
+            "text": "Après une réussite du jet de FOR :"
+          },
+          {
+            "items": [
+              "le Magoma devient le Porteur ;",
+              "l’allié transporté suit sa position ;",
+              "l’allié conserve ses actions et ses réactions ;",
+              "l’allié ne peut plus se déplacer volontairement ;",
+              "le Porteur se consacre au déplacement et au dépôt de la cible."
+            ]
+          },
+          {
+            "text": "La compétence ne permet pas d’augmenter la portée d’une attaque ou d’un sort."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Soin Naturel ;",
+              "Portée extravagante."
+            ]
+          },
+          {
+            "title": "Adaptation environnementale — Urbain",
+            "headingLevel": 5,
+            "anchor": "adaptation-environnementale-urbain",
+            "text": "Vous obtenez la compétence d’environnement associée au milieu **urbain** au N1, selon les règles générales d’Adaptation environnementale."
+          },
+          {
+            "title": "Mentalité — Influence",
+            "headingLevel": 5,
+            "anchor": "mentalite-influence",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Influencé**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Charmé** — T2 ;",
+              "**Intimidé** — T2 ;",
+              "**Soumis** — T3 ;",
+              "**Contrôlé** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états canoniques de la famille **Influence**. :contentReference[oaicite:0]{index=0}"
+          },
+          {
+            "text": "Elle ne s’applique pas automatiquement :"
+          },
+          {
+            "items": [
+              "aux effets sans tier canonique ;",
+              "aux compétences de provocation ;",
+              "aux obligations produites par une règle particulière ;",
+              "aux effets n’appliquant pas explicitement l’un de ces états."
+            ]
+          },
+          {
+            "title": "Sens aiguisé — Vision",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-vision",
+            "text": "Vous obtenez **+5 en Vision**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur l’acuité visuelle."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Magoma.md",
+    "sourceSha256": "2b06fe48fa6f8e3184bc5039ce00c5ce499417d0d41aa7928a2051984a0cabbd"
+  }
+}

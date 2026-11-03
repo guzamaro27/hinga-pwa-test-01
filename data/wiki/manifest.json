@@ -1262,5 +1262,153 @@
   {
     "path": "data/wiki/materiaux/materials.cuir-ethar.json",
     "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/pantheon/pantheon.guide-ferveur.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/solaris.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/lunae.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/vipros.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/auranis.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/epimor.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/kronir.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/shozon.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/denros.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/meigen.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/vaknet.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/moross.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/ygval.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/gaaken.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/balort.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/mirus.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/karkos.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/lakton.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/atetis.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/eldaria.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/fermal.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/belofan.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/pyrius.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/naura.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/heter.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/lokaril.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/medeias.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/etharn.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/nomlod.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/xarnis.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/tovar.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/thyren.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/abyssar.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/libri.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/zektos.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/finiam.json",
+    "section": "pantheon"
+  },
+  {
+    "path": "data/wiki/pantheon/onyros.json",
+    "section": "pantheon"
   }
 ]

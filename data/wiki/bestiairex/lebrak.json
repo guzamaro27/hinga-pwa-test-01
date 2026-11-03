@@ -1,0 +1,32 @@
+{
+  "id": "lebrak",
+  "type": "creature-public",
+  "identity": {
+    "name": "Lebrak",
+    "subtitle": "Le Fouisseur des Rivières",
+    "tags": [
+      "sauvage",
+      "proie",
+      "aquatique",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Lebrak vit dans les forêts humides, les berges de rivières et les sous-bois ombragés. Il recherche les sols humides, les racines d’arbres et les zones riches en petits organismes aquatiques ou en champignons. Curieux mais prudent, il fouille le sol avec ses griffes et reste généralement proche de terriers situés près de l’eau."
+          },
+          {
+            "text": "Le Lebrak est une créature étrange au corps large et bas, soutenu par six pattes articulées aux longues griffes ivoire. Ses pattes sont protégées par des plaques chitineuses orange brûlé et brun sombre. Sa tête possède un museau court et souple entouré d’une épaisse fourrure gris brun, tandis que ses joues duveteuses contrastent avec la carapace brillante qui recouvre le sommet du crâne. Cette plaque crânienne ovale affiche des couleurs éclatantes mêlant turquoise, bleu et orange, donnant à la créature un aspect presque décoratif. Deux longues antennes segmentées émergent de la tête et se courbent vers l’arrière, accompagnées de deux petites antennes secondaires. Ses yeux, très grands, noirs et brillants, lui donnent une expression curieuse et attentive."
+          },
+          {
+            "text": "Le Lebrak vit en petits groupes familiaux. Les œufs sont protégés dans des terriers proches de l’eau, généralement dissimulés entre les racines ou dans un sol humide difficile à repérer."
+          }
+        ]
+      }
+    ]
+  }
+}

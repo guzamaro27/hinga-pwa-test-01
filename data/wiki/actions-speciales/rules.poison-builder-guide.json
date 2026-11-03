@@ -1,0 +1,508 @@
+{
+  "id": "rules.poison-builder-guide",
+  "type": "codex",
+  "identity": {
+    "name": "Guide du Distillateur de Poison",
+    "subtitle": "Règles / Poison / Builder",
+    "icon": "P",
+    "tags": [
+      "règles",
+      "guide",
+      "poison",
+      "builder",
+      "distillateur"
+    ]
+  },
+  "classification": {
+    "category": "regle",
+    "family": "poison",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Présentation générale",
+        "blocks": [
+          {
+            "title": "Rôle du Distillateur",
+            "items": [
+              "Le Distillateur de Poison sert à définir une substance dangereuse : identité, apparence, voie d’entrée, famille, gravité, dégâts, états, résistance et antidote.",
+              "Un poison peut être grossier, naturel, alchimique, magique, spirituel ou hybride. Sa fiche doit permettre de le décrire en jeu sans révéler trop tôt ses secrets.",
+              "Le builder prépare la substance. L’application réelle de ses effets dépend ensuite des actions, jets et règles de scène."
+            ]
+          },
+          {
+            "title": "Sommaire",
+            "items": [
+              "Identité, nom réel, nom inconnu, image, quantité et description.",
+              "Support, voie d’entrée, famille, nature, niveau de gravité et puissance.",
+              "Dégâts PV ou SM, états, tiers, durée, persistance, résistance, réussite, échec, antidote, détection, apparence, origine, notes et notes MJ.",
+              "Les options vides, Non précisé, Stat ou -- Choix -- sont des placeholders : elles signalent qu’une décision reste à prendre."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Identité du poison",
+        "blocks": [
+          {
+            "title": "Nom réel",
+            "items": [
+              "Nom réel du poison une fois identifié.",
+              "Ce nom peut rester inconnu tant que la substance n’a pas été analysée."
+            ]
+          },
+          {
+            "title": "Nom inconnu",
+            "items": [
+              "Nom affiché avant identification.",
+              "Il doit rester vague : liquide suspect, poudre amère, venin sombre, fumée irritante, substance inconnue."
+            ]
+          },
+          {
+            "title": "Quantité",
+            "items": [
+              "Nombre de doses disponibles.",
+              "Une utilisation consomme normalement une dose."
+            ]
+          },
+          {
+            "title": "Image",
+            "items": [
+              "Image utilisée dans l’inventaire, le builder et les cartes de chat.",
+              "Si aucune image n’est choisie, l’icône de poison par défaut est utilisée."
+            ]
+          },
+          {
+            "title": "Description",
+            "text": "La description résume l’apparence, l’origine, le danger, l’usage ou la réputation du poison."
+          }
+        ]
+      },
+      {
+        "label": "Support",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "Le support indique sous quelle forme le poison existe et comment il peut être manipulé, transporté ou appliqué."
+          },
+          {
+            "title": "Supports courants",
+            "items": [
+              "Application directe : substance posée sur une cible, une peau, une plaie, une aura ou une zone précise.",
+              "Arme / munition : poison porté par une lame, une flèche, un dard, un croc, une griffe ou un projectile.",
+              "Surface / objet / piège : poison déposé sur une poignée, un objet, une dalle, un piège ou une zone de contact.",
+              "Nourriture / boisson / potion : poison dissimulé dans quelque chose à avaler ou absorber.",
+              "Gaz / poudre / spores / zone : substance dispersée dans l’air sous forme de brume, fumée, poudre ou spores.",
+              "Support magique : poison transmis par sort, aura, enchantement, rune, malédiction ou flux."
+            ]
+          },
+          {
+            "title": "Détail du support",
+            "text": "Le détail du support précise un support conservé, une compatibilité ou une particularité de manipulation."
+          }
+        ]
+      },
+      {
+        "label": "Voie d’entrée",
+        "blocks": [
+          {
+            "title": "Définition",
+            "text": "La voie d’entrée indique comment le poison pénètre ou affecte la cible."
+          },
+          {
+            "title": "Options du Distillateur",
+            "items": [
+              "Cutané : agit par contact avec la peau, les muqueuses ou une surface exposée.",
+              "Sanguin : agit après entrée dans le sang par plaie, morsure, coupure, perforation, dard ou injection.",
+              "Digestif : agit après absorption par nourriture, boisson, potion ou substance avalée.",
+              "Respiratoire : agit après inhalation sous forme de gaz, spores, fumée, poudre ou brume.",
+              "Spirituel : agit sur l’esprit, l’âme, la volonté ou la conscience.",
+              "Arcanique : agit sur le flux magique, l’aura, les capacités magiques ou les structures arcaniques internes."
+            ]
+          },
+          {
+            "title": "Placeholder",
+            "text": "Une option vide ou non choisie signifie qu’aucune voie d’entrée définitive n’a encore été fixée."
+          }
+        ]
+      },
+      {
+        "label": "Famille du poison",
+        "blocks": [
+          {
+            "title": "Rôle",
+            "text": "La famille principale indique ce que la substance cherche à provoquer."
+          },
+          {
+            "title": "Familles du Distillateur",
+            "items": [
+              "Corrosif : brûle, ronge, irrite et détruit les surfaces vivantes ou matérielles.",
+              "Neurotoxique : attaque les nerfs, réflexes, coordination et mouvements.",
+              "Hémotoxique : attaque le sang, la coagulation et la vitalité.",
+              "Soporifique : endort, ralentit, assomme ou plonge dans l’inconscience.",
+              "Hallucinogène : trouble la perception, la pensée, la réalité, la peur et la confusion.",
+              "Asphyxiant : coupe le souffle, étouffe et fatigue.",
+              "Nécrosant : infecte, détruit les tissus et empêche la guérison.",
+              "Systémique : affaiblit globalement le corps, provoque fièvre, fatigue ou perte de vigueur.",
+              "Mutagène : altère le corps, transforme et rend instable.",
+              "Arcanotoxique : perturbe les flux magiques, ARC, MAG ou DEM.",
+              "Spirituel : attaque âme, esprit, volonté, désespoir, folie ou possession légère."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Nature / type d’effet",
+        "blocks": [
+          {
+            "title": "Nature",
+            "text": "La nature décrit l’origine profonde du poison : préparation alchimique, substance naturelle, flux magique, mélange hybride ou influence spirituelle."
+          },
+          {
+            "title": "Options",
+            "items": [
+              "Alchimique : préparation de laboratoire, dosage, distillation et réaction contrôlée.",
+              "Naturelle : substance issue du vivant, d’un minéral ou d’un milieu naturel.",
+              "Magique : préparation portée par un flux, une aura, une rune ou une énergie surnaturelle.",
+              "Hybride : mélange de sources, par exemple naturel et alchimique, magique et organique.",
+              "Spirituelle : agit par l’âme, la volonté, les esprits ou une influence immatérielle.",
+              "Autre : nature particulière à préciser par le MJ ou dans les notes."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Niveau / puissance",
+        "blocks": [
+          {
+            "title": "Gravité",
+            "items": [
+              "La gravité indique la dangerosité générale du poison.",
+              "Elle guide les dégâts, la durée, les états possibles et la difficulté du jet de contre."
+            ]
+          },
+          {
+            "title": "Profils de gravité",
+            "items": [
+              "Gravité naturelle : poisons bruts, venins, toxines, plantes ou substances du monde vivant.",
+              "Gravité alchimique : préparations travaillées, dosées ou distillées.",
+              "Gravité magique : poison porté par un flux, une aura, une rune ou une essence surnaturelle.",
+              "Gravité spirituelle : poison qui atteint l’esprit, l’âme ou la conscience.",
+              "Gravité hybridée : mélange de plusieurs domaines."
+            ]
+          },
+          {
+            "title": "Intensités",
+            "items": [
+              "Faible : poison léger ou instable.",
+              "Modéré : poison dangereux mais courant.",
+              "Fort : poison sévère, plus long ou plus difficile à contrer.",
+              "Létal : poison rare, expert ou très dangereux."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dégâts PV / SM / ressources",
+        "blocks": [
+          {
+            "title": "Dégâts",
+            "items": [
+              "Les dégâts indiquent si le poison retire des points à la cible.",
+              "PV représente une atteinte physique du corps.",
+              "SM représente une atteinte mentale, spirituelle ou perceptive.",
+              "Si une autre ressource existe dans une règle spécifique, elle doit être décrite clairement dans les notes."
+            ]
+          },
+          {
+            "title": "Formule",
+            "items": [
+              "La formule détermine la quantité de dégâts.",
+              "Elle dépend souvent de la gravité et de la famille du poison.",
+              "Aucun signifie que le poison ne cause pas de dégâts directs et agit plutôt par états ou effets descriptifs."
+            ]
+          },
+          {
+            "title": "Dégâts répétés",
+            "text": "Un poison persistant peut répéter un effet ou des dégâts tant qu’il reste actif."
+          }
+        ]
+      },
+      {
+        "label": "States / états appliqués",
+        "blocks": [
+          {
+            "title": "États sélectionnés",
+            "items": [
+              "Les états sont les effets automatisés appliqués par le poison : ralenti, affaibli, aveuglé, confus, empoisonné, étouffé, etc.",
+              "Un état par ligne permet de construire une substance simple à lire et à appliquer."
+            ]
+          },
+          {
+            "title": "Suggestions",
+            "items": [
+              "Les suggestions proposent des états cohérents avec la famille principale.",
+              "Elles aident à choisir un effet sans remplacer le jugement du MJ."
+            ]
+          },
+          {
+            "title": "Effets secondaires libres",
+            "text": "Les effets libres décrivent des symptômes ou conséquences non automatisées : fièvre, spasmes, vomissements, hallucinations ou évolution narrative."
+          }
+        ]
+      },
+      {
+        "label": "Tiers des états",
+        "blocks": [
+          {
+            "title": "Tier",
+            "items": [
+              "Le tier représente la puissance d’un état.",
+              "Un tier plus élevé indique un effet plus grave, plus long ou plus difficile à ignorer.",
+              "La gravité du poison aide à choisir un tier cohérent."
+            ]
+          },
+          {
+            "title": "Aucun état",
+            "text": "Aucun signifie que le poison n’applique pas cet état. Il peut tout de même infliger des dégâts ou produire un effet libre."
+          }
+        ]
+      },
+      {
+        "label": "Durée",
+        "blocks": [
+          {
+            "title": "Définition",
+            "items": [
+              "La durée indique combien de tours les dégâts et états du poison restent pertinents.",
+              "Une durée courte représente une réaction brusque. Une durée longue représente une contamination persistante."
+            ]
+          },
+          {
+            "title": "Formule de durée",
+            "text": "La formule de durée utilise des dés et un bonus pour produire un nombre de tours."
+          }
+        ]
+      },
+      {
+        "label": "Persistance",
+        "blocks": [
+          {
+            "title": "Définition",
+            "items": [
+              "Un poison persistant continue d’agir tant qu’il n’est pas neutralisé ou jusqu’à sa fin naturelle.",
+              "La persistance peut représenter une toxine qui reste dans le sang, une contamination spirituelle ou une brûlure chimique durable."
+            ]
+          },
+          {
+            "title": "Retrait / purification",
+            "items": [
+              "Le retrait ou la purification indique comment stopper l’effet.",
+              "Un échec de retrait doit préciser ce qui arrive : rien ne change, l’effet continue ou la situation s’aggrave."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résistance",
+        "blocks": [
+          {
+            "title": "Jet de contre",
+            "items": [
+              "Le jet de contre indique si la cible peut résister au poison.",
+              "Il précise la stat utilisée et la difficulté : jet normal, avantage, désavantage, demi-stat ou quart-stat."
+            ]
+          },
+          {
+            "title": "Stats possibles",
+            "items": [
+              "VITA ou CONST : résister à une atteinte toxique, physique ou biologique.",
+              "PSY ou CHAR : résister à un poison mental, émotionnel ou spirituel.",
+              "ARC ou DEM : comprendre, contenir ou contrer une contamination magique.",
+              "La stat choisie doit rester cohérente avec la famille et la voie d’entrée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Réussite",
+            "items": [
+              "Une réussite au jet de contre peut annuler le poison, réduire ses dégâts, réduire un état ou éviter une partie de l’effet.",
+              "Le résultat exact doit être décrit dans les notes si le poison demande une règle particulière."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d’échec",
+        "blocks": [
+          {
+            "title": "Échec",
+            "items": [
+              "Un échec signifie que l’effet prévu s’applique pleinement.",
+              "Le poison peut infliger ses dégâts, appliquer ses états, durer le temps indiqué ou déclencher un effet libre."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Antidote / contre-mesure",
+        "blocks": [
+          {
+            "title": "Type de contre",
+            "items": [
+              "Non précisé : aucune contre-mesure claire n’a encore été choisie.",
+              "Antidote : substance capable de neutraliser le poison.",
+              "Soin / traitement : méthode médicale, naturelle ou technique.",
+              "Rituel : contre-mesure magique, spirituelle ou cérémonielle.",
+              "Contre-jet : la cible peut retenter une résistance selon les règles fixées.",
+              "Autre : solution particulière à préciser."
+            ]
+          },
+          {
+            "title": "Description du contre",
+            "text": "La description de l’antidote peut rester cachée même si le poison est étudié. Elle explique comment neutraliser la substance."
+          }
+        ]
+      },
+      {
+        "label": "Détection du poison",
+        "blocks": [
+          {
+            "title": "Sens possibles",
+            "items": [
+              "VIS : couleur, dépôt, trace, texture ou changement visible.",
+              "OLF : odeur acide, sucrée, métallique, végétale, putride ou magique.",
+              "GUS : goût amer, piquant, sucré, anesthésiant ou irritant.",
+              "TAC : texture grasse, poudreuse, froide, brûlante ou collante.",
+              "ESO : aura, flux instable, contamination surnaturelle ou présence arcanique."
+            ]
+          },
+          {
+            "title": "Niveau de détection",
+            "items": [
+              "Visible : facile à remarquer.",
+              "Discret : demande une attention réelle.",
+              "Caché : difficile à remarquer sans méthode.",
+              "Invisible : indétectable sans capacité ou analyse spécialisée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Apparence / couleur / odeur / texture",
+        "blocks": [
+          {
+            "title": "Couleur",
+            "text": "La couleur donne une teinte dominante qui peut aider à identifier ou décrire le poison."
+          },
+          {
+            "title": "Odeur",
+            "text": "L’odeur est un indice sensoriel utile pour la détection ou la mise en scène."
+          },
+          {
+            "title": "Goût",
+            "text": "Le goût sert à décrire les poisons ingérés, mais le découvrir peut être dangereux."
+          },
+          {
+            "title": "Texture",
+            "text": "La texture indique si la substance est liquide, huileuse, poudreuse, cristalline, fumée ou pâteuse."
+          },
+          {
+            "title": "État physique",
+            "items": [
+              "Liquide : fluide, versé, bu, injecté ou appliqué.",
+              "Gazeux : fumée, brume, vapeur, spores ou souffle.",
+              "Solide : poudre, cristal, dépôt, résidu ou pâte sèche."
+            ]
+          },
+          {
+            "title": "Note visible",
+            "text": "La note visible décrit ce qu’un observateur peut percevoir sans connaître toute la substance."
+          }
+        ]
+      },
+      {
+        "label": "Origine / description RP",
+        "blocks": [
+          {
+            "title": "Origine",
+            "items": [
+              "L’origine indique d’où vient le poison : plante, créature, alchimie, magie, minéral, corruption, préparation artisanale ou création du MJ.",
+              "Si le poison est fait par le créateur, cette information peut aider à gérer sa connaissance et son usage."
+            ]
+          },
+          {
+            "title": "Description RP",
+            "text": "La description RP sert à raconter le poison : réputation, méthode de distillation, effets visibles, danger ou rumeurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes",
+        "blocks": [
+          {
+            "title": "Notes gameplay",
+            "items": [
+              "Les notes gameplay gardent les rappels utiles pour l’application en jeu : conditions, délais, cible privilégiée ou interaction spéciale.",
+              "Elles peuvent préciser un résultat de réussite, un résultat d’échec ou une règle d’usage non automatisée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Réservé au MJ",
+            "items": [
+              "Les notes MJ contiennent les informations secrètes.",
+              "Elles ne doivent pas être révélées automatiquement aux joueurs."
+            ]
+          },
+          {
+            "title": "Contre-mesure cachée",
+            "text": "Les notes d’antidote peuvent contenir une vraie solution, une piste fausse, un ingrédient rare ou une condition narrative."
+          }
+        ]
+      },
+      {
+        "label": "Placeholder / -- Choix --",
+        "blocks": [
+          {
+            "title": "Valeurs d’attente",
+            "items": [
+              "Preset, Stat, Non précisé, vide ou -- Choix -- indiquent qu’aucune option définitive n’a encore été choisie.",
+              "Remplacez ces valeurs avant de sauvegarder un poison complet.",
+              "Un placeholder peut rester volontairement si le MJ veut une substance mystérieuse ou incomplète."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Conseils de création rapide",
+        "blocks": [
+          {
+            "title": "Méthode simple",
+            "items": [
+              "Choisir une voie d’entrée claire.",
+              "Choisir une famille principale qui explique le danger.",
+              "Choisir une gravité cohérente avec la scène.",
+              "Ajouter soit des dégâts, soit des états, puis seulement ensuite les deux si le poison doit être vraiment dangereux.",
+              "Prévoir un jet de contre lisible et une contre-mesure compréhensible.",
+              "Garder les notes MJ séparées de la description visible."
+            ]
+          },
+          {
+            "title": "Bon réflexe",
+            "text": "Un poison lisible est plus utile qu’un poison chargé : une voie d’entrée, une menace principale, une durée et un moyen de s’en sortir suffisent souvent."
+          }
+        ]
+      }
+    ]
+  }
+}

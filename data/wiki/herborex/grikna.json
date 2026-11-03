@@ -1,0 +1,93 @@
+{
+  "id": "grikna",
+  "type": "plant",
+  "identity": {
+    "name": "Grikna",
+    "subtitle": "Arbre roux des lisières chaudes",
+    "unknownName": "Arbre vert à tronc roux et fruits pâles",
+    "slug": "grikna",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Grikna.png",
+    "visualNote": "Arbre chaud au tronc roux lisse et légèrement torsadé, portant une cime vert vif et des fruits vert-jaune à enveloppe épaisse.",
+    "tags": [
+      "tronc-roux",
+      "lisiere-chaude",
+      "fruit"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "tropical humide chaud",
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre riche",
+      "terre sèche",
+      "sable"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "moyenne",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "7 à 18 m",
+    "width": "4 à 10 m",
+    "colorMain": "vert vif",
+    "colorSecondary": "roux, orange brun, jaune vert",
+    "distinctiveSigns": [
+      "tronc roux à orange brun, lisse et légèrement torsadé",
+      "base élargie en grosses racines apparentes",
+      "branches hautes fines visibles sous la cime",
+      "couronne dense, irrégulière, vert vif à vert jaune",
+      "feuille longue, lancéolée, aux bords légèrement dentés",
+      "fleurs vert-jaune ouvertes avec nombreuses étamines",
+      "fruits vert-jaune à enveloppe épaisse",
+      "section de bois roux avec cœur vert pâle"
+    ],
+    "descriptionShort": "Le Grikna est un arbre chaud au tronc roux, à la cime vert vif et aux fruits vert-jaune.",
+    "descriptionFull": "Le Grikna pousse dans les lisières chaudes et les bords de mer lorsque le sol reste assez stable pour ses racines. Son tronc roux, légèrement torsadé, monte avant de se diviser en branches fines sous une cime lumineuse. Ses feuilles supportent bien la chaleur et le vent. Les fleurs vert-jaune donnent des fruits à enveloppe épaisse, remplis de nombreuses graines claires."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "artisanat",
+      "construction",
+      "semis"
+    ],
+    "notes": "Les fruits se préparent localement après maturité, et le bois roux sert à de petits objets, manches, bols ou chevilles."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

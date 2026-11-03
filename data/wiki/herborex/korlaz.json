@@ -1,0 +1,90 @@
+{
+  "id": "korlaz",
+  "type": "plant",
+  "identity": {
+    "name": "Korlaz",
+    "subtitle": "Arbre rose des forêts humides",
+    "unknownName": "Arbre rose à cime rouge",
+    "slug": "korlaz",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Korlaz.png",
+    "visualNote": "Arbre au tronc rose pâle, aux racines fines apparentes et à large cime rouge-rose très dense.",
+    "tags": [
+      "foret-humide",
+      "bois-rose",
+      "ornemental"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "7 à 18 m",
+    "width": "5 à 12 m",
+    "colorMain": "rose",
+    "colorSecondary": "rouge, rose pâle, brun clair",
+    "distinctiveSigns": [
+      "tronc rose pâle lisse avec longues stries verticales",
+      "racines fines et nombreuses visibles au pied",
+      "cime large et dense rouge-rose",
+      "feuilles allongées ondulées avec nervure claire",
+      "fleurs roses ouvertes à longues étamines",
+      "fruits groupés en amas arrondis"
+    ],
+    "descriptionShort": "Le Korlaz est un arbre humide au tronc rose pâle et à la cime rouge-rose.",
+    "descriptionFull": "Le Korlaz pousse dans les sous-bois frais et les vallons de forêt tempérée humide, où ses racines fines s'étalent souvent à la surface. Son tronc rose pâle porte une cime dense aux tons rouges, presque nuageuse de loin. Ses feuilles ondulées, ses fleurs ouvertes et ses fruits en amas gardent des nuances rosées qui en font un arbre facile à reconnaître."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Le bois rose convient aux petits objets décoratifs, tandis que les feuilles, fleurs et fruits peuvent donner un pigment rose peu durable."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

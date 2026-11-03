@@ -1,0 +1,88 @@
+{
+  "id": "abpest",
+  "type": "plant",
+  "identity": {
+    "name": "Abpest",
+    "subtitle": "Arbre-flamme du littoral sec",
+    "unknownName": "Arbre côtier aux troncs torsadés",
+    "slug": "abpest",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Abpest.png",
+    "visualNote": "Arbre côtier à troncs orangés torsadés, feuillage rond très dense, fleur pâle à longs filaments et capsules vertes remplies de graines orangées.",
+    "tags": [
+      "littoral-sec",
+      "tronc-torsade"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "floraison",
+      "fructification",
+      "pic de chaleur"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "2,5 à 6,5 m",
+    "width": "2 à 5 m",
+    "colorMain": "orange cuivré",
+    "colorSecondary": "vert sombre, or pâle",
+    "distinctiveSigns": [
+      "plusieurs troncs fins et torsadés partant d'une même base",
+      "écorce orangée parcourue de veines lumineuses",
+      "feuillage dense formant une couronne arrondie",
+      "fleurs pâles à longs filaments dorés",
+      "capsules vertes contenant de nombreuses graines orangées",
+      "racines superficielles nombreuses"
+    ],
+    "descriptionShort": "L'Abpest est un arbre côtier à troncs orange torsadés et à couronne sombre très compacte.",
+    "descriptionFull": "L'Abpest s'accroche aux côtes sèches où le vent salé et la chaleur limitent les autres arbres. Ses troncs orangés montent en vrilles depuis une base commune, renforcée par un réseau de racines fines qui retient le sable. Son feuillage forme une masse ronde et sombre. En saison chaude, il porte des fleurs claires aux longs filaments, puis des capsules vertes serrées autour de graines orange."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Aucun danger connu, même en contact prolongé ou ingestion accidentelle."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": ""
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

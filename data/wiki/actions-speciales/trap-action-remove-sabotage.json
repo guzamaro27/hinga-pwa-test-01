@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-remove-sabotage",
+  "type": "codex",
+  "identity": {
+    "name": "Enlever sabotage",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "sabotage"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Enlever sabotage"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Retirer une altération déjà présente."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Enlever sabotage retiré l'altération inscrite sur un piège, souvent depuis le Trap Manager ou une action de correction MJ."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Normalement réservé au MJ ou aux outils autorisés."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Aucun jet direct si l'action est administrative."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Le système supprimé les données de sabotage et met à jour le résumé du piège."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Non, sauf confirmation particulière."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Piège avec sabotage présent et action de gestion autorisée."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Refus si aucun sabotage n'est présent, si le piège est introuvable ou si l'utilisateur n'a pas les droits."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Aucune compétence active connue pour cette action administrative."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "L'altération est retirée."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Le sabotage reste présent."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "La suppression du sabotage ne doit pas révéler rétroactivement les informations cachées aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Enlever sabotage",
+            "text": "Le MJ peut voir les informations complètes et utiliser les outils de scène sans révéler automatiquement ces informations aux joueurs."
+          }
+        ]
+      }
+    ]
+  }
+}

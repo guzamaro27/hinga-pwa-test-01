@@ -1,0 +1,168 @@
+{
+  "id": "pyrius",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Pyrius",
+    "subtitle": "Le Forgeron de Mondes",
+    "tags": [
+      "Pyrius",
+      "Le Forgeron de Mondes",
+      "esprit majeur",
+      "Chaleur",
+      "Forge",
+      "Construction",
+      "Destruction",
+      "Décombres Fertiles",
+      "Récupération de matériaux après destruction"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#9C3B1E",
+    "visualNote": "Chaleur • Forge • Construction • Destruction"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "pyrius",
+    "name": "Pyrius",
+    "title": "Le Forgeron de Mondes",
+    "type": "esprit_majeur",
+    "domains": [
+      "Chaleur",
+      "Forge",
+      "Construction",
+      "Destruction"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunrise",
+      "label": "À chaque lever du soleil"
+    },
+    "cult": {
+      "short": "Frapper du métal",
+      "ritual": "Frapper du métal."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La maîtrise de la forge est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "decombres_fertiles": {
+        "key": "decombres_fertiles",
+        "name": "Décombres Fertiles",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Récupération de matériaux après destruction",
+        "fullDescription": "Après avoir détruit quelque chose, permet de récupérer des matériaux utilisables en bonus.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#9C3B1E",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Chaleur",
+              "Forge",
+              "Construction",
+              "Destruction"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Frapper du métal"
+          },
+          {
+            "title": "Rituel",
+            "text": "Frapper du métal."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lever du soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunrise"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Décombres Fertiles (commune, passif)",
+              "Effet court : Récupération de matériaux après destruction",
+              "Description : Après avoir détruit quelque chose, permet de récupérer des matériaux utilisables en bonus.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La maîtrise de la forge est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "pyrius"
+  }
+}

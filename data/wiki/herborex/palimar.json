@@ -1,0 +1,92 @@
+{
+  "id": "palimar",
+  "type": "plant",
+  "identity": {
+    "name": "Palimar",
+    "subtitle": "Palmier rouge des sables",
+    "unknownName": "Plante rouge à feuilles palmées",
+    "slug": "palimar",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Palimar.png",
+    "visualNote": "Plante désertique rouge aux tiges hautes et sinueuses, terminées par des bouquets de longues feuilles palmées rosées.",
+    "tags": [
+      "desert",
+      "palmier",
+      "rouge"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "palmier",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "pic de chaleur",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "lente",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "1,8 à 3,5 m",
+    "width": "1 à 3 m",
+    "colorMain": "rouge sombre",
+    "colorSecondary": "rose corail, orangé, brun rouge",
+    "distinctiveSigns": [
+      "tiges rouges hautes et sinueuses",
+      "feuilles palmées longues et retombantes",
+      "bouquets foliaires en couronne",
+      "nervures sombres dans les feuilles rosées",
+      "racines rouges superficielles et étendues",
+      "petites graines rouges luisantes",
+      "coeur interne orangé dans les tiges coupées"
+    ],
+    "descriptionShort": "Le Palimar est un palmier désertique rouge aux tiges souples et aux feuilles rosées.",
+    "descriptionFull": "Le Palimar pousse en faisceau de tiges rouges qui se dressent puis se courbent sous l'effet du vent chaud. Chaque tige porte une couronne de feuilles palmées rose corail, fines mais résistantes. Ses racines s'étalent près de la surface pour capter la moindre humidité des sables et des ravins secs."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "rituelle",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles et fibres rouges servent surtout aux tressages décoratifs, aux marques de passage et aux pigments corail."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

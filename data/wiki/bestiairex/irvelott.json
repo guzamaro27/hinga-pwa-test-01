@@ -1,0 +1,32 @@
+{
+  "id": "irvelott",
+  "type": "creature-public",
+  "identity": {
+    "name": "Irvelott",
+    "subtitle": "Le Charognard des Rivages",
+    "tags": [
+      "sauvage",
+      "urbain",
+      "alimentaire",
+      "proie"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Irvelott vit principalement dans les zones côtières tropicales, notamment les plages, les falaises maritimes, les ports, les villages et les villes côtières. Peu farouche, il fréquente volontiers les habitations et les lieux de passage pour trouver de la nourriture. Son régime omnivore et opportuniste comprend des poissons morts, des fruits, des insectes et des restes alimentaires abandonnés."
+          },
+          {
+            "text": "L’Irvelott est une créature aviaire robuste au plumage très contrasté. Sa tête est noire et surmontée d’un bec jaune orangé court et puissant. Ses yeux jaunes brillants lui donnent un regard vif et attentif. Son torse est couvert de plumes jaune vif formant un motif légèrement écailleux. Les ailes, plus sombres, présentent des plumes vert profond mêlées de noir. Sa longue queue jaune brun sert à stabiliser son vol lorsqu’il plane au-dessus des plages ou des zones habitées du littoral. Ses pattes gris foncé aux griffes noires lui permettent de se poser facilement sur les rochers, les branches ou les toits."
+          },
+          {
+            "text": "L’Irvelott vit en petits groupes bruyants ou en colonies lâches. Les nids sont simples et installés dans les arbres côtiers, sur les toits ou dans les falaises maritimes. Les individus se rassemblent facilement autour des sources de nourriture."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "solaris",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Solaris",
+    "subtitle": "L’Incandescence Radieuse",
+    "tags": [
+      "Solaris",
+      "L’Incandescence Radieuse",
+      "esprit majeur",
+      "Lumière",
+      "Révélation",
+      "Vérité",
+      "Force",
+      "Puissance",
+      "Purification",
+      "Soleil",
+      "Lumière Iridescente",
+      "+2 dégâts magiques Lumière"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#C6891A",
+    "visualNote": "Lumière • Révélation • Vérité • Force • Puissance • Purification • Soleil"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "solaris",
+    "name": "Solaris",
+    "title": "L’Incandescence Radieuse",
+    "type": "esprit_majeur",
+    "domains": [
+      "Lumière",
+      "Révélation",
+      "Vérité",
+      "Force",
+      "Puissance",
+      "Purification",
+      "Soleil"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunrise",
+      "label": "À chaque lever du soleil"
+    },
+    "cult": {
+      "short": "Prière face au soleil levant",
+      "ritual": "Allumer une flamme en offrande (torche, bougie, brasier) et réciter une prière face au soleil."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "Les bénédictions de Solaris sont renforcées.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "lumiere_iridescente": {
+        "key": "lumiere_iridescente",
+        "name": "Lumière Iridescente",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "+2 dégâts magiques Lumière",
+        "fullDescription": "Augmente de +2 tous les dégâts magiques infligés avec l’élément Lumière.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#C6891A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Lumière",
+              "Révélation",
+              "Vérité",
+              "Force",
+              "Puissance",
+              "Purification",
+              "Soleil"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Prière face au soleil levant"
+          },
+          {
+            "title": "Rituel",
+            "text": "Allumer une flamme en offrande (torche, bougie, brasier) et réciter une prière face au soleil."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lever du soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunrise"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Lumière Iridescente (commune, passif)",
+              "Effet court : +2 dégâts magiques Lumière",
+              "Description : Augmente de +2 tous les dégâts magiques infligés avec l’élément Lumière.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : Les bénédictions de Solaris sont renforcées.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "solaris"
+  }
+}

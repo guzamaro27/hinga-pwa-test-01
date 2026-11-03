@@ -1,0 +1,92 @@
+{
+  "id": "irielva",
+  "type": "plant",
+  "identity": {
+    "name": "Irielva",
+    "subtitle": "Arbuste violet des sous-bois frais",
+    "unknownName": "Petit arbuste à feuilles violettes dentées",
+    "slug": "irielva",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Irielva.png",
+    "visualNote": "Petit arbuste fin aux tiges brunes souples, portant des feuilles violettes dentées, des fleurs violettes dressées et des fruits ronds pourpres.",
+    "tags": [
+      "arbuste",
+      "feuilles-violettes",
+      "pigment"
+    ]
+  },
+  "classification": {
+    "category": "arbuste",
+    "family": "buisson",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "ruines humides"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "floraison",
+      "fructification",
+      "baisse des températures"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "40 cm à 1,6 m",
+    "width": "40 cm à 1,2 m",
+    "colorMain": "violet",
+    "colorSecondary": "brun clair, rose pâle, mauve",
+    "distinctiveSigns": [
+      "tiges fines, brunes et souples",
+      "port aéré avec peu de branches épaisses",
+      "feuilles violettes ovales et fortement dentées",
+      "nervure centrale rose pâle à brun clair",
+      "fleurs violettes dressées en bractées pointues",
+      "fruit rond violet sombre à calice brun étoilé",
+      "racines fines avec radicelles rosées ou violettes"
+    ],
+    "descriptionShort": "L'Irielva est un petit arbuste de sous-bois humide aux feuilles violettes dentées et aux fruits pourpres.",
+    "descriptionFull": "L'Irielva pousse dans les sous-bois frais et les lisières ombragées où la lumière reste filtrée. Ses tiges fines portent des feuilles violettes bien espacées, plus sombres lorsque l'air est humide. Les fleurs dressées apparaissent au sommet de certains rameaux, puis donnent des fruits ronds pourpres. Sa couleur vive en fait une plante facile à repérer malgré son port discret."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbuste inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles et fruits donnent un pigment violet fragile, utile pour marquer papier, tissu clair ou bois pâle."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

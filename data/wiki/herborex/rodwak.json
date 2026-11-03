@@ -1,0 +1,91 @@
+{
+  "id": "rodwak",
+  "type": "plant",
+  "identity": {
+    "name": "Rodwak",
+    "subtitle": "Arbre pâle des côtes sèches",
+    "unknownName": "Arbre côtier au tronc clair",
+    "slug": "rodwak",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Rodwak.png",
+    "visualNote": "Grand arbre côtier au tronc pâle et légèrement torsadé, portant une large couronne claire et arrondie.",
+    "tags": [
+      "cote-seche",
+      "tronc-pale",
+      "stabilisateur"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "terre sèche",
+      "terre pauvre"
+    ],
+    "season": [
+      "saison sèche",
+      "montée des chaleurs",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 à 15 m",
+    "width": "5 à 12 m",
+    "colorMain": "vert olive pâle",
+    "colorSecondary": "beige, brun clair, vert tendre",
+    "distinctiveSigns": [
+      "tronc clair, large et légèrement torsadé",
+      "écorce beige fibreuse à sillons verticaux",
+      "racines épaisses apparentes et étalées",
+      "couronne large, arrondie et claire",
+      "feuillage vert olive à vert gris",
+      "feuilles ovales épaisses et gaufrées",
+      "bourgeons ou fruits ronds vert pâle"
+    ],
+    "descriptionShort": "Le Rodwak est un arbre côtier au tronc pâle, adapté au vent sec et aux sols sableux.",
+    "descriptionFull": "Le Rodwak pousse sur les côtes chaudes et sèches, dans les sols pauvres ou légèrement salés. Son tronc clair se tord doucement avec l'âge et ses racines s'étalent pour retenir les talus. Le feuillage vert olive résiste aux embruns, tandis que l'écorce fibreuse protège le bois contre la sécheresse."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "construction",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le bois clair et l'écorce fibreuse servent aux objets côtiers rustiques, mais l'arbre vivant vaut surtout pour retenir les sols exposés."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

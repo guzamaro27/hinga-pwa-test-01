@@ -1,0 +1,93 @@
+{
+  "id": "fiche-personnage.inventaire-equipement",
+  "type": "codex",
+  "identity": {
+    "name": "Inventaire et équipement",
+    "subtitle": "Fiche personnage / Gérer son équipement",
+    "icon": "🎒",
+    "tags": [
+      "inventaire",
+      "équipement",
+      "arme",
+      "armure",
+      "bouclier"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Équiper",
+        "value": "état de l’objet"
+      },
+      {
+        "label": "Armes",
+        "value": "attaques et parade"
+      },
+      {
+        "label": "Bouclier",
+        "value": "BCL et défense"
+      }
+    ],
+    "links": [
+      {
+        "label": "Bouclier",
+        "sectionId": "systeme",
+        "entryId": "rules.bouclier"
+      },
+      {
+        "label": "Parade",
+        "sectionId": "systeme",
+        "entryId": "rules.parade"
+      },
+      {
+        "label": "Attaquer",
+        "sectionId": "systeme",
+        "entryId": "rules.attaquer"
+      },
+      {
+        "label": "Armures",
+        "sectionId": "systeme",
+        "entryId": "rules.armures"
+      },
+      {
+        "label": "Résistances",
+        "sectionId": "systeme",
+        "entryId": "rules.resistances"
+      },
+      {
+        "label": "Munitions",
+        "sectionId": "systeme",
+        "entryId": "rules.munitions"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "L’équipement porté détermine les actions et défenses qui vous sont proposées."
+          }
+        ]
+      },
+      {
+        "label": "À vérifier",
+        "blocks": [
+          {
+            "items": [
+              "Vérifiez qu’une arme ou un bouclier est équipé avant le combat.",
+              "Les valeurs de protection sont utilisées automatiquement.",
+              "Les boutons ? des actions renvoient aux règles Système, sans recopier leurs formules."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "rules.monnaies-prix",
+  "type": "codex",
+  "identity": {
+    "name": "Monnaies et prix",
+    "subtitle": "Konir, Aran et Ori",
+    "icon": "¤",
+    "tags": [
+      "Monnaies et prix",
+      "monnaie",
+      "prix",
+      "Konir",
+      "Aran",
+      "Ori"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/currencies.mjs",
+    "module/helpers/item-price.mjs",
+    "module/merchant/merchant-transaction-service.mjs"
+  ],
+  "mechanics": {
+    "currencies": {
+      "konir": 1,
+      "aran": 100,
+      "ori": 10000
+    }
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Référence",
+        "value": "1 Konir"
+      },
+      {
+        "label": "Aran",
+        "value": "100 Konirs"
+      },
+      {
+        "label": "Ori",
+        "value": "10 000 Konirs"
+      }
+    ],
+    "links": [
+      {
+        "label": "Commerce et marchands",
+        "sectionId": "fiche-personnage",
+        "entryId": "fiche-personnage.commerce-marchands"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Valeurs",
+        "blocks": [
+          {
+            "text": "Le Konir est l’unité de référence. Un Aran vaut 100 Konirs et un Ori vaut 10 000 Konirs."
+          }
+        ]
+      },
+      {
+        "label": "Transactions",
+        "blocks": [
+          {
+            "text": "Le prix d’un objet est exprimé en Konirs. Achat, vente et quantité utilisent les fonds disponibles et les règles du marchand. Une monnaie est un objet d’inventaire identifié comme tel."
+          }
+        ]
+      }
+    ]
+  }
+}

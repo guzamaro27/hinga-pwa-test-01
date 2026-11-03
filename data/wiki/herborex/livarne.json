@@ -1,0 +1,89 @@
+{
+  "id": "livarne",
+  "type": "plant",
+  "identity": {
+    "name": "Livarne",
+    "subtitle": "Liane des troncs humides",
+    "unknownName": "Liane verte à feuilles pendantes et capsules mauves",
+    "slug": "livarne",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Livarne.png",
+    "visualNote": "Liane fine suspendue aux troncs humides, avec petites feuilles vertes nervurées, fleurs pâles et capsules renflées aux graines mauves.",
+    "tags": [
+      "liane",
+      "marais",
+      "capsules-mauves"
+    ]
+  },
+  "classification": {
+    "category": "liane",
+    "family": "pendante",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "marais tropical humide",
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "boue",
+      "terre riche"
+    ],
+    "season": [
+      "fortes pluies",
+      "après crue",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "très forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "moyenne",
+    "height": "1 à 8 m de longueur",
+    "width": "variable",
+    "colorMain": "vert",
+    "colorSecondary": "mauve clair, violet doux, brun humide",
+    "distinctiveSigns": [
+      "longues tiges vertes souples et pendantes",
+      "petites feuilles ovales pointues à nervures claires",
+      "racines d'accroche regroupées sur l'écorce humide",
+      "fleurs pâles à coeur sombre",
+      "capsules claires renflées contenant des graines mauves",
+      "section de tige marquée de veines vertes et violettes"
+    ],
+    "descriptionShort": "La Livarne est une liane humide aux tiges pendantes et aux capsules mauves.",
+    "descriptionFull": "La Livarne s'accroche aux troncs humides, branches mortes et racines exposées des marais chauds. Ses tiges souples tombent en guirlandes et portent des feuilles ovales espacées. En période très humide, elle produit des fleurs pâles puis des capsules translucides remplies de graines mauves, souvent dispersées par la pluie et les crues."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Liane inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "fibre-livarne",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "// TODO_LINK: à lier plus tard avec l'objet ingrédient fibre-livarne"
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "semis"
+    ],
+    "notes": "Les tiges fraîches servent de liens provisoires, et leur fibre peut dépanner pour de petits tressages ou attaches de terrain."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

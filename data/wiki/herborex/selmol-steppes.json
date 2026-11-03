@@ -1,0 +1,94 @@
+{
+  "id": "selmol-steppes",
+  "type": "plant",
+  "identity": {
+    "name": "Selmol rose",
+    "subtitle": "Variante des steppes seches",
+    "unknownName": "Arbre rose a franges tombantes",
+    "slug": "selmol-steppes",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Selmol 3 Steppe.png",
+    "visualNote": "Arbre au tronc pale et torsade, portant une large couronne rose dont tombent de longues franges fines.",
+    "tags": [
+      "arbre",
+      "selmol",
+      "steppe",
+      "franges"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "steppe seche chaude"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre seche",
+      "terre pauvre",
+      "sol caillouteux",
+      "rocaille"
+    ],
+    "season": [
+      "saison seche",
+      "retour des pluies",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "5 a 12 m",
+    "width": "6 a 14 m",
+    "colorMain": "rose saumon",
+    "colorSecondary": "creme, mauve pale, brun sec",
+    "distinctiveSigns": [
+      "tronc pale, epais et torsade",
+      "branches hautes presque horizontales",
+      "couronne rose large et arrondie",
+      "longues franges vegetales tombantes",
+      "feuilles fines rosees",
+      "racines epaisses apparentes",
+      "fruits secs rosatres",
+      "bois pale legerement rose"
+    ],
+    "descriptionShort": "Le Selmol rose est une variante de steppe a couronne rose et longues franges pendantes.",
+    "descriptionFull": "Le Selmol rose pousse dans les terres seches ou le vent et la chaleur sculptent sa silhouette. Son tronc pale se tord en montant, puis ouvre deux grands bras sous une masse de feuillage rose tombant en rideau. Les franges filtrent le soleil et captent un peu d'humidite nocturne, tandis que les racines s'etendent largement dans les sols pauvres."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les etres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "ornementale",
+      "combustible",
+      "semis"
+    ],
+    "notes": "Le Selmol rose sert surtout d'arbre d'ombre et de repere de steppe; ses franges seches et son bois pale peuvent aider de petits travaux de campement."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

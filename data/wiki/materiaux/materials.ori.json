@@ -1,0 +1,239 @@
+{
+  "id": "materials.ori",
+  "type": "material",
+  "identity": {
+    "name": "Ori",
+    "subtitle": "Métaux · Base",
+    "icon": "◆",
+    "tags": [
+      "ori",
+      "Ori",
+      "metal",
+      "Métaux",
+      "base",
+      "Base",
+      "Métal natif",
+      "Doré brillant",
+      "Métal noble inoxydable et fortement conducteur de magie.",
+      "Métal/Arcane",
+      "magical",
+      "Magique",
+      "Bon",
+      "Artefacts",
+      "catalyseurs",
+      "monnaie d’Ori",
+      "mineur",
+      "mage",
+      "trésor",
+      "trésor majeur",
+      "caisse"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 8
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "ori",
+    "family": "metal",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Base"
+      },
+      {
+        "label": "Rareté",
+        "value": 8
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Métal natif"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Doré brillant"
+          },
+          {
+            "title": "Description",
+            "text": "Métal noble inoxydable et fortement conducteur de magie."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "7"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Arcane"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Excellente conduction des flux magiques."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Valeur élevée",
+              "stockage et transport surveillés."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Artefacts",
+              "catalyseurs",
+              "monnaie d’Ori"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mineur",
+              "mage",
+              "trésor",
+              "trésor majeur",
+              "caisse"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "1000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.7"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "7"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "kaerion"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_resonance_arcane"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -462,5 +462,37 @@
   {
     "path": "data/wiki/actions-speciales/trap-action-recondition.json",
     "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/materiaux/materiaux.guide-systeme.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.shants.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.lani.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.jaton.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.kotan.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.badan.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.ivernal.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.sylthe.json",
+    "section": "materiaux"
   }
 ]

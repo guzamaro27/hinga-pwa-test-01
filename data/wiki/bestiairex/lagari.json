@@ -1,0 +1,35 @@
+{
+  "id": "lagari",
+  "type": "creature-public",
+  "identity": {
+    "name": "Lagari",
+    "subtitle": "L’Échassier des Clairières",
+    "tags": [
+      "sauvage",
+      "social",
+      "aquatique",
+      "forestier",
+      "vigilant",
+      "chasse",
+      "ornement"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Lagari vit principalement dans les forêts tropicales humides, les clairières marécageuses, les bords de rivières et les zones forestières lumineuses. Omnivore opportuniste, il se nourrit de petits animaux aquatiques, d’insectes, de fruits mous et de plantes marécageuses. Sa silhouette élancée, ses longues pattes et son plumage voyant en font une présence facilement identifiable dans les zones humides ouvertes."
+          },
+          {
+            "text": "Le Lagari est un grand oiseau tropical à la silhouette élégante et au plumage spectaculaire. Son corps élancé est prolongé par un long cou gracieux et une queue fluide composée de plumes longues et souples. Son plumage bleu et turquoise aux reflets changeants attire immédiatement le regard dans les clairières humides. Ses grands yeux ambre orangé lui donnent une expression vive et attentive. Lorsqu’il se déplace dans l’eau peu profonde, ses longues pattes lui permettent de marcher lentement et avec précision à la recherche de nourriture."
+          },
+          {
+            "text": "Le Lagari vit en groupes sociaux de taille moyenne. Les nids sont construits dans les zones marécageuses, sur des racines émergentes ou dans des emplacements légèrement surélevés proches de l’eau."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "rules.fracture-mentale",
+  "type": "codex",
+  "identity": {
+    "name": "Fracture mentale",
+    "subtitle": "Quand la SM atteint le palier Fracturé",
+    "icon": "◬",
+    "tags": [
+      "Fracture mentale",
+      "fracture",
+      "SM",
+      "Fracturé"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/helpers/sm.mjs",
+    "module/engine/mental/fracture-response.mjs",
+    "module/helpers/etatsPoints.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Déclencheur",
+        "value": "Palier Fracturé"
+      },
+      {
+        "label": "Effets de jauge",
+        "value": "MENT −10, DV SM, PSY inutilisable"
+      },
+      {
+        "label": "Réponse",
+        "value": "Choix présenté par le système"
+      }
+    ],
+    "links": [
+      {
+        "label": "Santé mentale",
+        "sectionId": "systeme",
+        "entryId": "rules.sm"
+      },
+      {
+        "label": "Défenses mentales",
+        "sectionId": "systeme",
+        "entryId": "rules.defenses-mentales"
+      },
+      {
+        "label": "Repos",
+        "sectionId": "systeme",
+        "entryId": "rules.repos-recuperation"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Déclenchement",
+        "blocks": [
+          {
+            "text": "Quand la SM atteint le palier Fracturé, les effets du palier s’appliquent et une réponse de fracture peut être demandée au propriétaire du personnage."
+          }
+        ]
+      },
+      {
+        "label": "Après le choix",
+        "blocks": [
+          {
+            "text": "La réponse choisie est enregistrée pour éviter les demandes en double. Une nouvelle transition de palier peut remettre cette étape en jeu selon les règles de la fracture."
+          }
+        ]
+      }
+    ]
+  }
+}

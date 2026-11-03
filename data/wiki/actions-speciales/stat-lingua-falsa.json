@@ -1,0 +1,72 @@
+{
+  "id": "stat-lingua-falsa",
+  "type": "codex",
+  "identity": {
+    "name": "Lingua Falsa",
+    "subtitle": "Variantes contextuelles de Mentir",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Activation",
+        "blocks": [
+          {
+            "title": "Fournisseur passif",
+            "items": [
+              "Activez gratuitement Lingua Falsa, sans action, sans jet et sans coût.",
+              "La possession de la compétence seule ne suffit pas.",
+              "Le bonus concerne uniquement les deux variantes explicites de Mentir ; Mentir ordinaire reste inchangé."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modes",
+        "blocks": [
+          {
+            "title": "Mensonge fluide",
+            "items": [
+              "Mentir gagne exactement +1 niveau, sans AV1 supplémentaire.",
+              "La cible doit pouvoir entendre et comprendre l’affirmation mensongère présentée comme vraie.",
+              "Ce mode ne provoque aucune résistance PSY/2 et n’applique aucun state."
+            ]
+          },
+          {
+            "title": "Insinuation toxique",
+            "items": [
+              "Mentir gagne exactement +1 niveau, sans AV1 supplémentaire.",
+              "Désignez exactement une cible à portée d’écoute et un tiers distinct, identifiable par cette cible.",
+              "Après une réussite de Mentir, la cible résiste avec PSY/2."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "title": "Influencé T1",
+            "items": [
+              "Si PSY/2 échoue, etat_influence est appliqué pendant deux tours à l’égard du tiers désigné.",
+              "Le state conserve ses effets canoniques REACT −3, CHAR −3 et son contre ultérieur PSY/AV.",
+              "Lingua Falsa ne modifie jamais automatiquement la faction, la disposition, l’alliance ou la cible prioritaire."
+            ]
+          },
+          {
+            "title": "Critiques",
+            "items": [
+              "Lingua Falsa ne possède aucun effet critique propre.",
+              "Un critique de Mentir ne supprime pas PSY/2 et ne prolonge pas Influencé T1."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

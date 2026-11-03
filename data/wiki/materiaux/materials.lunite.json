@@ -1,0 +1,236 @@
+{
+  "id": "materials.lunite",
+  "type": "material",
+  "identity": {
+    "name": "Lunite",
+    "subtitle": "Gemmes · Naturelle",
+    "icon": "◆",
+    "tags": [
+      "lunite",
+      "Lunite",
+      "gem",
+      "Gemmes",
+      "naturelle",
+      "Naturelle",
+      "Cristallisation lunaire",
+      "Argentée phosphorescente",
+      "Gemme accordée au sommeil, au rêve et aux signaux oniriques.",
+      "Lune/Rêve",
+      "magical",
+      "Magique",
+      "Bon",
+      "Rituels",
+      "sommeil astral",
+      "communication onirique",
+      "mage",
+      "joaillier",
+      "rituel",
+      "trésor"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Gemmes",
+    "rarity": 6
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "lunite",
+    "family": "gem",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Gemmes"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Naturelle"
+      },
+      {
+        "label": "Rareté",
+        "value": 6
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Cristallisation lunaire"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Argentée phosphorescente"
+          },
+          {
+            "title": "Description",
+            "text": "Gemme accordée au sommeil, au rêve et aux signaux oniriques."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "5"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Lune/Rêve"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Facilite les enchantements oniriques et la mémoire du rêve."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Peut perturber le sommeil si elle est mal accordée."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Rituels",
+              "sommeil astral",
+              "communication onirique"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "mage",
+              "joaillier",
+              "rituel",
+              "trésor"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Gemme brute calibrée de 10 g"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.01"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "150"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.6"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Noble"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "20"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "trouble mnésique"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "trouble_mnesique_t2"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

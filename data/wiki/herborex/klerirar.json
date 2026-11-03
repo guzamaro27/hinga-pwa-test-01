@@ -1,0 +1,90 @@
+{
+  "id": "kleriar",
+  "type": "plant",
+  "identity": {
+    "name": "Kleriar",
+    "subtitle": "Dentelle d'Or du désert",
+    "unknownName": "Plante dorée à feuilles dentelées",
+    "slug": "kleriar",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Kleriar.png",
+    "visualNote": "Plante basse en rosette, aux grandes feuilles dorées très dentelées, bordées de violet et ponctuées de petites poches ambrées.",
+    "tags": [
+      "desert",
+      "succulente",
+      "resine"
+    ]
+  },
+  "classification": {
+    "category": "cactus",
+    "family": "succulente",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "désert chaud sec"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "rocaille",
+      "terre sèche"
+    ],
+    "season": [
+      "retour des pluies",
+      "pic de chaleur",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "très faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "15 à 45 cm",
+    "width": "35 à 80 cm",
+    "colorMain": "jaune doré",
+    "colorSecondary": "violet pâle, ambre, brun sable",
+    "distinctiveSigns": [
+      "larges feuilles épaisses en rosette plaquée au sol",
+      "bords très dentelés avec liseré violet",
+      "surface granuleuse et brillante",
+      "petites poches de résine ambrée entre les replis",
+      "racines courtes et nombreuses",
+      "graines rondes et tachetées"
+    ],
+    "descriptionShort": "Le Kleriar est une succulente désertique basse, formée de feuilles dorées épaisses et dentelées.",
+    "descriptionFull": "Le Kleriar pousse près du sol en rosette large, avec des feuilles dorées qui réfléchissent la lumière et se recourbent sur leurs bords violets. La surface paraît granuleuse, presque alvéolée, et laisse parfois voir de petites poches ambrées. Ses racines restent proches de la surface pour capter l'humidité brève des rares pluies, tandis que ses graines tachetées se dispersent dans les creux sableux."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "resine-kleriar",
+      "quantity": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "notes": "// TODO_LINK: à lier plus tard avec l'objet ingrédient resine-kleriar"
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "La résine sèche peut servir de petit liant d'atelier, et les feuilles donnent une teinte dorée pâle."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

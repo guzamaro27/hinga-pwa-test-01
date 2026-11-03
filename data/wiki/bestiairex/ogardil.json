@@ -1,0 +1,32 @@
+{
+  "id": "ogardil",
+  "type": "creature-public",
+  "identity": {
+    "name": "Ogardil",
+    "subtitle": "Le Glisseur Carapacé",
+    "tags": [
+      "sauvage",
+      "proie",
+      "aquatique",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "L’Ogardil vit principalement dans les forêts tropicales humides, près des berges de rivières, des cascades forestières et des sols boueux ou rocailleux proches de l’eau. Il recherche les zones riches en plantes aquatiques, petits organismes aquatiques, champignons et fruits tombés. Sa proximité avec les rivières lui offre nourriture, abris et surfaces humides favorables à son mode de déplacement par glissement."
+          },
+          {
+            "text": "L’Ogardil est une créature trapue et robuste, protégée par une large carapace dorsale. Sa carapace bombée est composée de grandes plaques polygonales mêlant des teintes orange, brunes et vertes, avec de petites pointes osseuses courant le long du dos. Sa tête triangulaire présente un museau court, des narines visibles et de grands yeux orange ambré brillants. De grandes oreilles triangulaires dressées dépassent de chaque côté de la tête, donnant à l’animal une apparence curieuse et attentive. Son long cou écailleux relie la tête à un corps massif soutenu par quatre pattes puissantes. Ses griffes ivoire longues et pointues lui permettent de creuser, grimper ou se stabiliser sur les sols humides."
+          },
+          {
+            "text": "L’Ogardil vit en petits groupes familiaux ou en individus isolés tolérants. Les œufs sont pondus dans des nids creusés près des berges, souvent dans des zones humides ou boueuses faciles à protéger."
+          }
+        ]
+      }
+    ]
+  }
+}

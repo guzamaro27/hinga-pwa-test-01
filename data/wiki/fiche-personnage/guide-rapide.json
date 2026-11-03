@@ -1,0 +1,73 @@
+{
+  "id": "fiche-personnage.guide-rapide",
+  "type": "codex",
+  "identity": {
+    "name": "Guide rapide de la fiche",
+    "subtitle": "Fiche personnage / Bien commencer",
+    "icon": "?",
+    "tags": [
+      "fiche",
+      "aide",
+      "guide",
+      "personnage"
+    ]
+  },
+  "classification": {
+    "category": "fiche-personnage",
+    "family": "aide-joueur",
+    "rarity": "commune"
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Statistiques",
+        "value": "valeurs et jets"
+      },
+      {
+        "label": "Jauges",
+        "value": "PV, SM, PF, Chance"
+      },
+      {
+        "label": "Combat",
+        "value": "attaques et réactions"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests de statistique",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Tour de combat",
+        "sectionId": "systeme",
+        "entryId": "rules.tour-combat"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "Retrouvez vos valeurs, vos ressources et les boutons d’action en un coup d’œil."
+          }
+        ]
+      },
+      {
+        "label": "Lire la fiche",
+        "blocks": [
+          {
+            "items": [
+              "Les valeurs principales se trouvent en haut de la fiche.",
+              "Les jauges indiquent vos ressources actuelles et maximales.",
+              "Les boutons d’aide (?) ouvrent la page Système correspondante.",
+              "Un clic droit sur une zone conserve l’accès à son aide contextuelle."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

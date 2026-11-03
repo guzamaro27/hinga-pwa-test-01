@@ -1,0 +1,174 @@
+{
+  "id": "etharn",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Etharn",
+    "subtitle": "La Muse Inspiratrice",
+    "tags": [
+      "Etharn",
+      "La Muse Inspiratrice",
+      "esprit majeur",
+      "Art",
+      "Esthétisme",
+      "Expression",
+      "Musique",
+      "Parole",
+      "Sentiments",
+      "Résonance Émotionnelle",
+      "Perception et influence des émotions"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#6E4C7A",
+    "visualNote": "Art • Esthétisme • Expression • Musique • Parole • Sentiments"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "etharn",
+    "name": "Etharn",
+    "title": "La Muse Inspiratrice",
+    "type": "esprit_majeur",
+    "domains": [
+      "Art",
+      "Esthétisme",
+      "Expression",
+      "Musique",
+      "Parole",
+      "Sentiments"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "morning_dew",
+      "label": "À chaque rosée du matin"
+    },
+    "cult": {
+      "short": "Exprimer son art ou ses sentiments",
+      "ritual": "Exprimer son art ou ses sentiments devant un outil de culte."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "L’inspiration d’Etharn est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "resonance_emotionnelle": {
+        "key": "resonance_emotionnelle",
+        "name": "Résonance Émotionnelle",
+        "tier": "amelioree",
+        "type": "actif",
+        "shortEffect": "Perception et influence des émotions",
+        "fullDescription": "Une fois par cycle de dévotion, peut percevoir l’humeur et les émotions dominantes d’une personne proche et influencer subtilement cette émotion, donnant un avantage en Charisme.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#6E4C7A",
+      "textColor": "#FFFFFF",
+      "glow": true
+    }
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Art",
+              "Esthétisme",
+              "Expression",
+              "Musique",
+              "Parole",
+              "Sentiments"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Exprimer son art ou ses sentiments"
+          },
+          {
+            "title": "Rituel",
+            "text": "Exprimer son art ou ses sentiments devant un outil de culte."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque rosée du matin"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "morning_dew"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Résonance Émotionnelle (améliorée, actif)",
+              "Effet court : Perception et influence des émotions",
+              "Description : Une fois par cycle de dévotion, peut percevoir l’humeur et les émotions dominantes d’une personne proche et influencer subtilement cette émotion, donnant un avantage en Charisme.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : L’inspiration d’Etharn est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": false,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "etharn"
+  }
+}

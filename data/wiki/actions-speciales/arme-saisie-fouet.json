@@ -1,0 +1,88 @@
+{
+  "id": "arme-saisie-fouet",
+  "type": "codex",
+  "identity": {
+    "name": "Saisie au fouet",
+    "subtitle": "Contrôle à distance courte",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "arme-fouet",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur Attaque avec arme puis Saisie au fouet.",
+              "Un fouet équipé est obligatoire.",
+              "La cible doit être à 2-4 cases.",
+              "Une seule cible doit être sélectionnée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ouverture",
+        "blocks": [
+          {
+            "title": "Jets",
+            "items": [
+              "Attaquant : ATK fouet/2 par defaut.",
+              "Maîtrise du Fouet N2 ou plus : ATK fouet normal.",
+              "Maîtrise du Fouet ajoute +5 au seuil quand elle s'applique.",
+              "Défense en lutte : FOR normal de la cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Choix",
+        "blocks": [
+          {
+            "title": "Réactions et options",
+            "items": [
+              "Le lanceur choisit corps, arme ou bouclier si disponible.",
+              "La cible peut ceder, lutter ou lacher l’objet vise.",
+              "Si la cible cede ou rate la lutte, pression active.",
+              "Si la cible résiste, aucune pression n’est appliquée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Suites",
+        "blocks": [
+          {
+            "title": "Débouchées",
+            "items": [
+              "Rapprocher : défenseur FOR normal ; échec tire la cible d’une case vers le lanceur.",
+              "Désarmer : seulement si arme ou bouclier saisi ; défenseur FOR normal, échec deséquipé l’objet et retire la pression.",
+              "Maintenir : conserve la pression sans nouveau jet.",
+              "Annuler : retire la pression.",
+              "Pression active : AV1 prochaine attaque du lanceur, DV1 prochaine défense de la cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Ouverture : jet attaquant, choix cible, choix défenseur, jet défenseur si lutte, résultat.",
+              "Suivi Rapprocher ou Désarmer : ajoute une carte de jet défenseur et une mise à jour de résultat.",
+              "Total courant : 4 à 7 cartes selon les suites."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

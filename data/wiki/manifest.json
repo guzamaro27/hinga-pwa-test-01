@@ -986,5 +986,281 @@
   {
     "path": "data/wiki/herborex/zarapas.json",
     "section": "herborex"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-analyse-chimique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-analyse-structurale.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-cartographie-mystique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-connaissance-creatures.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-cryptographie-avancee.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-dechiffrage-occulte.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-divination-pragmatique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-eloquence-sacree.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-etiquette-diplomatique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-histoire-vivante.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-influence-psychique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-ingenierie-appliquee.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-lingua-falsa.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/stat-main-ombre.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-focalisation.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-rupture.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-aiguille-esprit.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-resonance.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-onde-psychique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-impulsion-breve.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-contact-neural.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-pression-psychique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-coupe-pleine.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-ultimatum-absolu.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-martelement-implacable.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-coup-fourre.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-siphon.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/actions-speciales/mental-riposte-psychique.json",
+    "section": "actions-speciales"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.orian.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.tardal.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.esmir.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.nerth.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.vornite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.aethium.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.cryth.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.calite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.dimat.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.nemorite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.rivane.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.karnyx.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.tirios.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.azelite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.firoxite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.ydral.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.virinite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.finilia.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.helior.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.lunite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.solinor.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.esmarite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.umbrite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.zyrial.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.noctir.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.seraphine.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.auralite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.onirion.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.crysalin.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.astrinite.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.chalun.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.durkan.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.sylven.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.vyris.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.eldran.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.mornal.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.cuir-brun.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.cuir-tanne.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.peau-ecaille.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.cuir-ombral.json",
+    "section": "materiaux"
+  },
+  {
+    "path": "data/wiki/materiaux/materials.cuir-ethar.json",
+    "section": "materiaux"
   }
 ]

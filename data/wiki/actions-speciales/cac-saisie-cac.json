@@ -1,0 +1,99 @@
+{
+  "id": "cac-saisie-cac",
+  "type": "codex",
+  "identity": {
+    "name": "Saisie CàC",
+    "subtitle": "Contrôle au corps à corps",
+    "icon": "C"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "cac",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur CàC puis Saisie.",
+              "Une seule cible doit être sélectionnée.",
+              "Utilise la stat CàC active du lanceur : FOR ou DEX."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ouverture",
+        "blocks": [
+          {
+            "title": "Jets",
+            "items": [
+              "Attaquant : stat CàC active normale avec options de Maîtrise du Corps à Corps.",
+              "Défenseur : ATK de son arme équipée si disponible ; sinon stat CàC active.",
+              "Résolution : opposition.",
+              "Victoire attaquant : applique Saisie CàC, AV1 à la prochaine attaque du lanceur et DV1 à la prochaine défense de la cible."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Ouverture : une VS Card avec les deux jets et les options si succès.",
+              "Projection : la même VS Card reçoit les jets, les dégâts et leur bouton d’application.",
+              "Les suites non opposées conservent leurs cartes habituelles."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Options lanceur",
+        "blocks": [
+          {
+            "title": "Débouchées",
+            "items": [
+              "Relâcher : retire Saisie ou Prise.",
+              "Attaquer : lance une attaque CàC puis retire Saisie ou Prise.",
+              "Maintenir : jet lanceur sur son sélecteur CàC actuel ; échec retire l'état.",
+              "Prise : jet lanceur sur son sélecteur CàC actuel ; succès transforme Saisie en Prise et ouvre une carte défenseur.",
+              "Projection : opposition entre les sélecteurs CàC actuels des deux participants ; victoire attaquant applique À terre et dégâts de chute."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Réactions défenseur",
+        "blocks": [
+          {
+            "title": "Contre la Prise",
+            "items": [
+              "Contre : défenseur jette sa stat CàC active en demi ; succès inflige des dégâts CàC au lanceur puis rompt la prise.",
+              "Résister : défenseur sur son sélecteur CàC en demi, attaquant sur son propre sélecteur CàC normal ; si défenseur réussit et attaquant échoue, la prise est rompue.",
+              "Si la prise n’est plus active, la carte se met à jour en prise annulée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Modificateurs",
+        "blocks": [
+          {
+            "title": "Compétences",
+            "items": [
+              "Maîtrise du Corps à Corps N3 : +5 aux tests de saisie, prise, maintien et projection.",
+              "Maîtrise du Corps à Corps N3 : +5 au défenseur contre saisie, prise ou projection.",
+              "A terre ou Prise modifient ensuite les réactions défensives normales : esquive/parade peuvent disparaître."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

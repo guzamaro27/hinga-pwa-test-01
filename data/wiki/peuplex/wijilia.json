@@ -1,0 +1,719 @@
+{
+  "id": "wijilia",
+  "type": "peuple",
+  "identity": {
+    "name": "Wijilia",
+    "subtitle": "",
+    "slug": "wijilia",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/wijilia.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Wijilia sont reconnaissables à leur stature légèrement inférieure à la moyenne, leur peau bleu-gris nacrée, leurs grands yeux clairs et la structure osseuse qui recouvre entièrement leur crâne avant de se terminer en pointe derrière la tête."
+          },
+          {
+            "text": "Leur intelligence, leur goût pour les mécanismes et leur aisance avec les pratiques mentales leur valent une réputation de peuple studieux, méthodique et fortement tourné vers les activités intellectuelles."
+          },
+          {
+            "text": "Ils sont particulièrement présents dans les domaines liés :"
+          },
+          {
+            "items": [
+              "à l’ingénierie ;",
+              "à l’analyse ;",
+              "aux mécanismes ;",
+              "aux pièges ;",
+              "à la recherche ;",
+              "aux communications mentales ;",
+              "aux institutions urbaines."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 5/10 — Présence moyenne"
+          },
+          {
+            "text": "**Tendances :** Les Wijilia vivent majoritairement dans les villes et les grandes agglomérations."
+          },
+          {
+            "text": "Ils privilégient les environnements disposant :"
+          },
+          {
+            "items": [
+              "d’ateliers ;",
+              "d’écoles ;",
+              "de bibliothèques ;",
+              "de réseaux commerciaux ;",
+              "de mécanismes complexes ;",
+              "de services organisés ;",
+              "d’une population suffisamment dense pour favoriser les échanges."
+            ]
+          },
+          {
+            "text": "Ils peuvent vivre dans les campagnes, mais y sont nettement moins représentés. Leur présence rurale se concentre généralement autour des petites villes, des ateliers isolés ou des installations techniques."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Wijilia mesurent généralement autour de **1,65 mètre** pour environ **60 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est de taille moyenne à légèrement petite, avec une constitution équilibrée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc proportionné ;",
+              "des épaules modérément larges ;",
+              "des membres de longueur moyenne ;",
+              "une ossature ordinaire ;",
+              "une musculature discrète ;",
+              "une posture droite ;",
+              "des gestes précis et mesurés."
+            ]
+          },
+          {
+            "text": "Ils ne présentent ni une carrure particulièrement massive, ni une silhouette extrêmement fine."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau wijilia se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le gris clair ;",
+              "le gris bleuté ;",
+              "le bleu gris ;",
+              "le violet pâle ;",
+              "certains tons lavande."
+            ]
+          },
+          {
+            "text": "Elle présente souvent un léger aspect nacré."
+          },
+          {
+            "text": "Selon la lumière, sa surface peut produire des reflets :"
+          },
+          {
+            "items": [
+              "bleu froid ;",
+              "violet clair ;",
+              "gris argenté."
+            ]
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds, les lèvres et les muqueuses sont généralement plus foncées que le reste de la peau."
+          },
+          {
+            "text": "Elles peuvent présenter des nuances :"
+          },
+          {
+            "items": [
+              "violet sombre ;",
+              "bleu violet ;",
+              "gris profond."
+            ]
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage wijilia est généralement fin et pointu dans sa partie inférieure."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "une arcade sourcilière large ;",
+              "un front qui se prolonge directement dans la structure crânienne ;",
+              "des pommettes modérément visibles ;",
+              "une mâchoire étroite ;",
+              "un menton pointu ;",
+              "un petit nez ;",
+              "des oreilles discrètes ;",
+              "de grands yeux clairs."
+            ]
+          },
+          {
+            "text": "Le contraste entre les grands yeux et la partie inférieure étroite du visage constitue l’un de leurs traits les plus visibles."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Wijilia possèdent de grands yeux, généralement bien ouverts."
+          },
+          {
+            "text": "Leurs iris se présentent principalement dans des tons clairs."
+          },
+          {
+            "text": "Ils peuvent notamment être :"
+          },
+          {
+            "items": [
+              "gris clair ;",
+              "bleu pâle ;",
+              "violet clair ;",
+              "bleu violet."
+            ]
+          },
+          {
+            "text": "Les yeux sont particulièrement visibles sous leur large arcade sourcilière."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les Wijilia ne possèdent pas de cheveux."
+          },
+          {
+            "text": "La structure recouvrant leur crâne occupe toute la zone où une chevelure pourrait normalement se développer."
+          },
+          {
+            "text": "Ils peuvent toutefois posséder une pilosité corporelle et faciale."
+          },
+          {
+            "text": "Celle-ci se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le violet sombre ;",
+              "le violet noir ;",
+              "le gris très foncé ;",
+              "le noir."
+            ]
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "La principale particularité anatomique des Wijilia est leur structure crânienne."
+          },
+          {
+            "text": "Depuis la partie supérieure du front, plusieurs reliefs osseux se prolongent vers l’arrière et recouvrent entièrement :"
+          },
+          {
+            "items": [
+              "le sommet du crâne ;",
+              "les côtés supérieurs de la tête ;",
+              "l’arrière du crâne."
+            ]
+          },
+          {
+            "text": "La structure se termine en une pointe dirigée derrière la tête, au-dessus ou à proximité de la nuque."
+          },
+          {
+            "text": "Elle ne constitue pas un casque ni un ensemble de cornes indépendantes. Elle fait directement partie du crâne et forme son prolongement naturel."
+          },
+          {
+            "text": "Sa forme exacte peut varier selon les individus :"
+          },
+          {
+            "items": [
+              "plus ou moins longue ;",
+              "plus ou moins élevée ;",
+              "légèrement arrondie ou anguleuse ;",
+              "terminée par une pointe fine ou plus large."
+            ]
+          },
+          {
+            "text": "Les Wijilia possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "La structure crânienne wijilia se développe avec le reste du crâne pendant l’enfance et l’adolescence."
+          },
+          {
+            "text": "Elle est :"
+          },
+          {
+            "items": [
+              "rigide ;",
+              "osseuse ;",
+              "directement intégrée au squelette ;",
+              "recouverte d’une fine couche de peau."
+            ]
+          },
+          {
+            "text": "Elle ne peut pas être déplacée ou taillée comme une corne ordinaire."
+          },
+          {
+            "text": "Sa forme influence naturellement :"
+          },
+          {
+            "items": [
+              "les couvre-chefs ;",
+              "les appuis de la tête ;",
+              "la manière de s’allonger ;",
+              "les passages dans les espaces très bas ;",
+              "le placement de certains équipements."
+            ]
+          },
+          {
+            "text": "Une blessure importante touchant cette structure est considérée comme une blessure au crâne et non comme la simple cassure d’un appendice."
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Wijilia sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient particulièrement les produits sucrés, notamment :"
+          },
+          {
+            "items": [
+              "les fruits très mûrs ;",
+              "les pâtisseries ;",
+              "les confiseries ;",
+              "les sirops ;",
+              "les confitures."
+            ]
+          },
+          {
+            "text": "Cette préférence ne constitue pas une nécessité physiologique."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Wijilia possèdent une espérance de vie moyenne d’environ **85 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **110 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les rides deviennent nombreuses, particulièrement sur le visage ;",
+              "la pilosité blanchit progressivement ;",
+              "la mobilité diminue ;",
+              "la structure crânienne conserve sa forme générale."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "Les Wijilia possèdent une perception ésotérique particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "une présence magique ;",
+              "une aura active ;",
+              "une perturbation mentale surnaturelle ;",
+              "un flux arcanique ;",
+              "une résonance magique ;",
+              "une magie dormante ;",
+              "les traces laissées par un effet ;",
+              "les variations d’intensité d’une manifestation."
+            ]
+          },
+          {
+            "text": "Cette sensibilité ne révèle pas automatiquement les règles, l’origine ou les effets complets d’un phénomène inconnu."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Odorat**"
+          },
+          {
+            "text": "L’odorat wijilia est moins précis que celui de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "suivre une trace olfactive faible ;",
+              "distinguer plusieurs odeurs proches ;",
+              "localiser précisément une senteur ;",
+              "identifier une substance par son odeur seule ;",
+              "remarquer une variation olfactive légère ;",
+              "isoler une odeur dans un environnement chargé."
+            ]
+          },
+          {
+            "text": "Leur odorat reste pleinement fonctionnel pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "La magie wijilia repose fréquemment sur l’analyse, la concentration et la structuration mentale."
+          },
+          {
+            "text": "Leur Intelligence développée favorise notamment :"
+          },
+          {
+            "items": [
+              "la compréhension des mécanismes ;",
+              "l’apprentissage de procédures complexes ;",
+              "l’analyse des structures magiques ;",
+              "la construction d’un raisonnement ;",
+              "la préparation méthodique d’un effet ;",
+              "l’intégration de la magie à la technologie."
+            ]
+          },
+          {
+            "text": "Leur Psyché élevée facilite également :"
+          },
+          {
+            "items": [
+              "les communications mentales ;",
+              "la concentration prolongée ;",
+              "le partage volontaire de pensées ;",
+              "la résistance psychique ;",
+              "les pratiques demandant une volonté stable."
+            ]
+          },
+          {
+            "text": "Leur Perception générale diminuée les rend moins naturellement aptes à remarquer spontanément les détails ordinaires de leur environnement. Ils compensent fréquemment cette faiblesse par l’étude, les instruments et les méthodes d’observation."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Son**"
+          },
+          {
+            "text": "Le Son constitue l’affinité élémentaire recommandée pour les Wijilia."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie wijilia liée au Son se manifeste fréquemment sous des formes régulières et contrôlées."
+          },
+          {
+            "text": "Elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "d’ondes concentriques ;",
+              "de vibrations visibles dans l’air ;",
+              "de pulsations régulières ;",
+              "de résonances métalliques ou cristallines ;",
+              "de lignes vibratoires reliant plusieurs points ;",
+              "de sons très précis ;",
+              "de silences soudains produits par l’annulation d’une vibration."
+            ]
+          },
+          {
+            "text": "Les manifestations wijilia privilégient généralement :"
+          },
+          {
+            "items": [
+              "la précision ;",
+              "l’analyse ;",
+              "la communication ;",
+              "la synchronisation ;",
+              "la répétition ;",
+              "la stabilité."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "La forte perception ésotérique des Wijilia leur permet de repérer plus facilement les irrégularités présentes dans un mécanisme magique ou ingénomagique."
+          },
+          {
+            "text": "Cette aptitude ne leur accorde toutefois aucune connaissance automatique de son fonctionnement."
+          },
+          {
+            "text": "La structure crânienne wijilia n’est pas un organe magique autonome. Elle ne produit ni télépathie, ni amplification sonore par elle-même."
+          },
+          {
+            "text": "La Télépathie Générale doit être apprise par la Formation culturelle ou une autre source de compétence."
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage wijilia :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "INT +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "PSY +5"
+                ],
+                [
+                  "Statistique diminuée",
+                  "PERC −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Son"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Son constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Ingénierie Appliquée",
+                  "B"
+                ],
+                [
+                  "Télépathie Générale",
+                  "C"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Ingénierie Appliquée",
+            "headingLevel": 5,
+            "anchor": "ingenierie-appliquee",
+            "text": "Cette formation développe la compréhension des mécanismes, des serrures et des pièges mécaniques."
+          },
+          {
+            "text": "Lorsque le passif est actif, elle permet notamment :"
+          },
+          {
+            "items": [
+              "d’utiliser une action spéciale d’INT pour examiner ou diagnostiquer un mécanisme ;",
+              "de bénéficier d’INT AV1 lors de cette action spéciale ;",
+              "de gagner +1 niveau en Crocheter contre les mécanismes couverts par son niveau ;",
+              "de reproduire certains pièges mécaniques maîtrisés ;",
+              "de reconditionner ou réparer certains dispositifs aux niveaux supérieurs."
+            ]
+          },
+          {
+            "text": "La reproduction ou la réparation exige :"
+          },
+          {
+            "items": [
+              "une connaissance Maîtrisée du piège ;",
+              "des outils adaptés ;",
+              "les matériaux nécessaires ;",
+              "le temps suffisant."
+            ]
+          },
+          {
+            "title": "Télépathie Générale",
+            "headingLevel": 5,
+            "anchor": "telepathie-generale",
+            "text": "Cette formation permet d’établir un canal mental entre plusieurs personnes consentantes."
+          },
+          {
+            "text": "L’activation demande :"
+          },
+          {
+            "items": [
+              "une action mineure ;",
+              "un jet normal d’ARC ;",
+              "des participants consentants situés sur la même scène."
+            ]
+          },
+          {
+            "text": "Le nombre maximal de participants est égal à la moitié de l’ARC du lanceur, arrondie au supérieur. La portée maximale est égale à son ARC en mètres."
+          },
+          {
+            "text": "La liaison permet de partager volontairement :"
+          },
+          {
+            "items": [
+              "de brèves pensées ;",
+              "des paroles mentales ;",
+              "des images générales ;",
+              "des sensations imprécises ;",
+              "des sons ou odeurs approximatifs."
+            ]
+          },
+          {
+            "text": "Elle ne permet pas :"
+          },
+          {
+            "items": [
+              "de lire une pensée involontaire ;",
+              "d’extraire un souvenir ;",
+              "de contrôler un participant ;",
+              "de voir précisément à travers ses sens ;",
+              "de transmettre un sort, un state ou des dégâts."
+            ]
+          },
+          {
+            "text": "La liaison dure tant que le lanceur maintient sa concentration."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Ingénierie Appliquée ;",
+              "Télépathie Générale."
+            ]
+          },
+          {
+            "title": "Adaptation environnementale — Urbain",
+            "headingLevel": 5,
+            "anchor": "adaptation-environnementale-urbain",
+            "text": "Vous obtenez la compétence d’environnement associée au milieu **urbain** au N1, selon les règles générales d’Adaptation environnementale."
+          },
+          {
+            "title": "Mentalité — Désespoir",
+            "headingLevel": 5,
+            "anchor": "mentalite-desespoir",
+            "text": "Vous êtes immunisé contre l’état T1 suivant :"
+          },
+          {
+            "items": [
+              "**Abattement**."
+            ]
+          },
+          {
+            "text": "Vous bénéficiez d’un niveau d’avantage lors des jets permettant de résister aux états suivants :"
+          },
+          {
+            "items": [
+              "**Résignation** — T2 ;",
+              "**Effondrement** — T3 ;",
+              "**Vide** — T4."
+            ]
+          },
+          {
+            "text": "Cette protection concerne uniquement les états canoniques de la famille **Désespoir**."
+          },
+          {
+            "title": "Sens aiguisé — Perception ésotérique",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-perception-esoterique",
+            "text": "Vous obtenez **+5 en Perception ésotérique**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la perception ésotérique."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Wijilia.md",
+    "sourceSha256": "e1cdb01dc789865933a92ba2c11d80b84efd674f401fb6fd960bb34aba07e5e5"
+  }
+}

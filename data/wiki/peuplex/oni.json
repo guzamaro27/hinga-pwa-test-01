@@ -1,0 +1,697 @@
+{
+  "id": "oni",
+  "type": "peuple",
+  "identity": {
+    "name": "Oni",
+    "subtitle": "",
+    "slug": "oni",
+    "img": "systems/hinga/assets/hingadex-img/peuplex-img/oni.png",
+    "tags": []
+  },
+  "classification": {
+    "category": "peuple"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité",
+        "anchor": "identite",
+        "blocks": [
+          {
+            "text": "Les Oni sont reconnaissables à leur stature élancée, leur peau aux nuances chaudes, leurs grands yeux sombres et les deux longues cornes noires qui s’élèvent verticalement depuis leur front."
+          },
+          {
+            "text": "Leur maîtrise des flux arcaniques et leur forte disposition à la magie élémentaire leur valent une réputation de mages puissants, particulièrement à l’aise avec les manifestations du Feu."
+          },
+          {
+            "text": "Leur magie ne repose pas uniquement sur la destruction. Les Oni sont également capables d’harmoniser les incantations de plusieurs alliés, d’étendre la puissance d’un sort et de transformer leur propre défense magique en protection collective."
+          }
+        ]
+      },
+      {
+        "label": "Présence sur Arolnia",
+        "anchor": "presence-sur-arolnia",
+        "blocks": [
+          {
+            "text": "**Indice de présence globale :** 6/10 — Bien représenté"
+          },
+          {
+            "text": "**Tendances :** Les Oni sont présents dans une grande partie des territoires habités d’Arolnia."
+          },
+          {
+            "text": "Leur population se répartit approximativement ainsi :"
+          },
+          {
+            "items": [
+              "**60 % dans les campagnes et les petites communautés** ;",
+              "**40 % dans les villes et les grandes agglomérations**."
+            ]
+          },
+          {
+            "text": "Ils sont particulièrement bien représentés dans :"
+          },
+          {
+            "items": [
+              "les grandes plaines ;",
+              "les régions situées au pied des montagnes ;",
+              "les lisières forestières ;",
+              "les campagnes proches des voies commerciales ;",
+              "certaines régions côtières."
+            ]
+          },
+          {
+            "text": "Dans les villes, ils se dirigent fréquemment vers les activités liées à la magie, à l’artisanat, à la forge, à la poterie ou à l’étude des éléments."
+          }
+        ]
+      },
+      {
+        "label": "Morphologie",
+        "anchor": "morphologie",
+        "blocks": [
+          {
+            "title": "Silhouette",
+            "headingLevel": 4,
+            "anchor": "silhouette",
+            "text": "Les Oni mesurent généralement autour de **1,80 mètre** pour environ **80 kilogrammes**."
+          },
+          {
+            "text": "Leur silhouette est grande, relativement fine et solidement constituée."
+          },
+          {
+            "text": "Ils possèdent fréquemment :"
+          },
+          {
+            "items": [
+              "un tronc allongé ;",
+              "des épaules de largeur moyenne ;",
+              "des membres longs ;",
+              "une ossature robuste ;",
+              "une musculature sèche à modérée ;",
+              "une posture droite ;",
+              "des proportions générales équilibrées."
+            ]
+          },
+          {
+            "text": "Leur poids reste assez important malgré leur apparence élancée. Leur constitution ne donne pas une impression de fragilité, mais plutôt de densité contenue."
+          },
+          {
+            "title": "Peau et marques",
+            "headingLevel": 4,
+            "anchor": "peau-et-marques",
+            "text": "La peau oni se décline principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le beige foncé ;",
+              "l’ocre chaud ;",
+              "l’orange brun ;",
+              "le cuivre ;",
+              "le rouge orangé ;",
+              "certains tons presque rouges."
+            ]
+          },
+          {
+            "text": "Elle est généralement épaisse et relativement uniforme."
+          },
+          {
+            "text": "De petites taches noires peuvent apparaître sur certaines parties du corps, notamment :"
+          },
+          {
+            "items": [
+              "le visage ;",
+              "les épaules ;",
+              "le haut du torse ;",
+              "les bras."
+            ]
+          },
+          {
+            "text": "Elles restent généralement peu nombreuses."
+          },
+          {
+            "text": "Les paumes des mains, les plantes des pieds et les muqueuses sont légèrement plus foncées que le reste de la peau."
+          },
+          {
+            "title": "Visage",
+            "headingLevel": 4,
+            "anchor": "visage",
+            "text": "Le visage oni est généralement allongé et relativement lisse."
+          },
+          {
+            "text": "Il présente fréquemment :"
+          },
+          {
+            "items": [
+              "un front haut ;",
+              "des pommettes modérément visibles ;",
+              "des joues peu creusées ;",
+              "une mâchoire fine ;",
+              "un menton pointu ;",
+              "un nez court et étroit ;",
+              "une bouche de largeur moyenne ;",
+              "de petites oreilles discrètes."
+            ]
+          },
+          {
+            "text": "Les traits restent généralement fins malgré la solidité de leur constitution."
+          },
+          {
+            "title": "Yeux",
+            "headingLevel": 4,
+            "anchor": "yeux",
+            "text": "Les Oni possèdent de grands yeux, généralement ronds ou légèrement ovales."
+          },
+          {
+            "text": "Les iris se déclinent principalement dans des nuances chaudes et profondes comprenant :"
+          },
+          {
+            "items": [
+              "le jaune doré ;",
+              "l’ambre ;",
+              "l’orange sombre ;",
+              "le rouge orangé ;",
+              "le rouge profond ;",
+              "certains tons rouge brun."
+            ]
+          },
+          {
+            "text": "Les yeux sont particulièrement visibles sur leur visage allongé et constituent, avec les cornes, l’un de leurs principaux caractères distinctifs."
+          },
+          {
+            "title": "Cheveux et pilosité",
+            "headingLevel": 4,
+            "anchor": "cheveux-et-pilosite",
+            "text": "Les cheveux oni se déclinent principalement dans des nuances comprenant :"
+          },
+          {
+            "items": [
+              "le noir ;",
+              "le brun noir ;",
+              "le rouge sombre ;",
+              "le rouge brun ;",
+              "certains tons rouge vif."
+            ]
+          },
+          {
+            "text": "Ils sont fréquemment :"
+          },
+          {
+            "items": [
+              "lisses ;",
+              "épais ;",
+              "droits ou légèrement ondulés ;",
+              "de densité moyenne à importante."
+            ]
+          },
+          {
+            "text": "La pilosité corporelle et faciale suit généralement la même palette."
+          },
+          {
+            "text": "Avec l’âge, les cheveux et la pilosité perdent progressivement leur couleur avant de devenir gris ou blancs."
+          },
+          {
+            "title": "Particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "particularites-anatomiques",
+            "text": "Les Oni possèdent deux cornes prenant naissance sur la partie supérieure du front."
+          },
+          {
+            "text": "Elles poussent principalement :"
+          },
+          {
+            "items": [
+              "vers le haut ;",
+              "presque verticalement ;",
+              "parallèlement ou avec un léger écartement."
+            ]
+          },
+          {
+            "text": "Elles sont :"
+          },
+          {
+            "items": [
+              "noires ;",
+              "très fines ;",
+              "longues ;",
+              "droites ;",
+              "terminées par une pointe étroite ;",
+              "constituées d’une matière dense apparentée à l’os."
+            ]
+          },
+          {
+            "text": "Leur structure est beaucoup plus solide que celle des os ordinaires du corps."
+          },
+          {
+            "text": "Les cornes ne repoussent pas lorsqu’elles sont cassées ou sectionnées. Une perte importante constitue donc une modification permanente de l’apparence."
+          },
+          {
+            "text": "Les Oni possèdent également :"
+          },
+          {
+            "items": [
+              "deux bras ;",
+              "deux jambes ;",
+              "cinq doigts à chaque main ;",
+              "cinq orteils à chaque pied."
+            ]
+          },
+          {
+            "text": "Leurs oreilles sont petites, fines et légèrement pointées vers le haut."
+          }
+        ]
+      },
+      {
+        "label": "Physiologie",
+        "anchor": "physiologie",
+        "blocks": [
+          {
+            "title": "Fonctionnement des particularités anatomiques",
+            "headingLevel": 4,
+            "anchor": "fonctionnement-des-particularites-anatomiques",
+            "text": "Les cornes oni sont solidement ancrées dans la partie supérieure du crâne."
+          },
+          {
+            "text": "Leur finesse ne traduit pas une fragilité particulière. Leur matière dense supporte efficacement les chocs et les frottements ordinaires."
+          },
+          {
+            "text": "Elles restent cependant exposées aux fractures lors :"
+          },
+          {
+            "items": [
+              "d’un impact particulièrement violent ;",
+              "d’une chute ;",
+              "d’un écrasement ;",
+              "d’une tentative volontaire de les couper."
+            ]
+          },
+          {
+            "text": "Une fissure superficielle peut rester visible durablement. Une portion entièrement brisée ne se reconstitue pas."
+          },
+          {
+            "text": "La longueur des cornes influence naturellement :"
+          },
+          {
+            "items": [
+              "les coiffures ;",
+              "les couvre-chefs ;",
+              "la manière de dormir ;",
+              "le passage dans les espaces très bas ;",
+              "certains mouvements de tête."
+            ]
+          },
+          {
+            "title": "Régime alimentaire",
+            "headingLevel": 4,
+            "anchor": "regime-alimentaire",
+            "text": "Les Oni sont omnivores."
+          },
+          {
+            "text": "Leur alimentation peut comprendre :"
+          },
+          {
+            "items": [
+              "des viandes ;",
+              "des poissons ;",
+              "des fruits ;",
+              "des légumes ;",
+              "des céréales ;",
+              "des champignons ;",
+              "des racines ;",
+              "différentes préparations cuisinées."
+            ]
+          },
+          {
+            "text": "Ils apprécient fréquemment :"
+          },
+          {
+            "items": [
+              "les viandes grillées ou rôties ;",
+              "les plats servis chauds ;",
+              "les légumes cuisinés ;",
+              "les préparations épicées ;",
+              "les fruits frais ou séchés."
+            ]
+          },
+          {
+            "text": "Leur goût diminué les pousse parfois à privilégier les saveurs franches, les épices marquées et les préparations fortement aromatiques."
+          },
+          {
+            "title": "Particularités physiologiques",
+            "headingLevel": 4,
+            "anchor": "particularites-physiologiques",
+            "text": "Les Oni possèdent une espérance de vie moyenne d’environ **80 ans**."
+          },
+          {
+            "text": "Les individus les plus âgés peuvent atteindre approximativement **105 ans**."
+          },
+          {
+            "text": "Leur développement suit un rythme modéré. La marche autonome apparaît généralement autour de deux ans, tandis que les premiers mots se développent fréquemment vers un an et demi."
+          },
+          {
+            "text": "Avec l’âge :"
+          },
+          {
+            "items": [
+              "la stature peut légèrement diminuer ;",
+              "les rides deviennent plus nombreuses ;",
+              "la peau perd progressivement en saturation ;",
+              "des marques sombres peuvent apparaître ;",
+              "les cheveux et la pilosité blanchissent ;",
+              "la force et la résistance physiques diminuent graduellement."
+            ]
+          },
+          {
+            "text": "Les Oni ne possèdent aucune résistance naturelle automatique au Feu. Cette protection appartient uniquement aux personnages ayant choisi la Voie d’héritage correspondante."
+          }
+        ]
+      },
+      {
+        "label": "Perceptions",
+        "anchor": "perceptions",
+        "blocks": [
+          {
+            "title": "Sens favorisé",
+            "headingLevel": 4,
+            "anchor": "sens-favorise",
+            "text": "**Perception ésotérique**"
+          },
+          {
+            "text": "Les Oni possèdent une perception ésotérique particulièrement développée."
+          },
+          {
+            "text": "Ils distinguent plus facilement :"
+          },
+          {
+            "items": [
+              "une présence magique ;",
+              "un flux élémentaire actif ;",
+              "les variations d’intensité d’une incantation ;",
+              "une aura ;",
+              "une magie dormante ;",
+              "les traces laissées par un sort ;",
+              "les perturbations provoquées par plusieurs magies proches ;",
+              "les points de faiblesse ou d’instabilité d’une structure magique."
+            ]
+          },
+          {
+            "text": "Cette sensibilité facilite leur compréhension instinctive des flux, mais ne leur révèle pas automatiquement les règles exactes, l’origine ou les effets complets d’une magie inconnue."
+          },
+          {
+            "title": "Sens diminué",
+            "headingLevel": 4,
+            "anchor": "sens-diminue",
+            "text": "**Goût**"
+          },
+          {
+            "text": "La perception gustative oni est moins précise que celle de la plupart des autres peuples."
+          },
+          {
+            "text": "Ils éprouvent davantage de difficultés à :"
+          },
+          {
+            "items": [
+              "distinguer des saveurs très proches ;",
+              "reconnaître un ingrédient discret ;",
+              "percevoir de faibles variations dans une recette ;",
+              "isoler une épice au sein d’un mélange complexe ;",
+              "identifier une substance par son goût seul."
+            ]
+          },
+          {
+            "text": "Leur goût reste pleinement fonctionnel pour les activités ordinaires."
+          }
+        ]
+      },
+      {
+        "label": "Magie",
+        "anchor": "magie",
+        "blocks": [
+          {
+            "title": "Disposition magique",
+            "headingLevel": 4,
+            "anchor": "disposition-magique",
+            "text": "Les Oni possèdent une forte disposition à l’**Arcane** et à la **Démagie**."
+          },
+          {
+            "text": "Leur pratique se prête particulièrement aux effets demandant :"
+          },
+          {
+            "items": [
+              "une compréhension précise des flux ;",
+              "l’amplification d’un sort ;",
+              "la projection d’une énergie élémentaire ;",
+              "l’harmonisation de plusieurs incantations ;",
+              "la création d’une défense magique ;",
+              "le partage d’une protection ;",
+              "la stabilisation d’une canalisation."
+            ]
+          },
+          {
+            "text": "Leur réserve de **SM** est cependant naturellement plus faible."
+          },
+          {
+            "text": "Cette limite les rend moins naturellement adaptés :"
+          },
+          {
+            "items": [
+              "aux affrontements mentaux prolongés ;",
+              "aux pratiques consommant continuellement de la stabilité mentale ;",
+              "aux longues séries d’incantations soumises à une forte pression psychique ;",
+              "aux effets exigeant une importante réserve de SM."
+            ]
+          },
+          {
+            "text": "Elle ne réduit pas directement la puissance de leurs sorts."
+          },
+          {
+            "title": "Affinité recommandée",
+            "headingLevel": 4,
+            "anchor": "affinite-recommandee",
+            "text": "**Feu**"
+          },
+          {
+            "text": "Le Feu constitue l’affinité élémentaire recommandée pour les Oni."
+          },
+          {
+            "text": "Lors de la création du personnage, le joueur reste libre de choisir un autre élément."
+          },
+          {
+            "title": "Expression magique",
+            "headingLevel": 4,
+            "anchor": "expression-magique",
+            "text": "La magie oni se manifeste fréquemment sous des formes vives, structurées et intensément colorées."
+          },
+          {
+            "text": "Lorsqu’elle utilise le Feu, elle peut notamment prendre la forme :"
+          },
+          {
+            "items": [
+              "de flammes concentrées ;",
+              "de traits incandescents ;",
+              "de cercles de braises ;",
+              "de lignes ardentes reliant plusieurs bénéficiaires ;",
+              "de halos rouge orangé ;",
+              "de plaques de chaleur déformant l’air ;",
+              "de remparts de feu ou d’énergie arcanique ;",
+              "de filaments lumineux suivant les mouvements des mains."
+            ]
+          },
+          {
+            "text": "Les manifestations oni privilégient généralement :"
+          },
+          {
+            "items": [
+              "la puissance ;",
+              "la stabilité ;",
+              "la concentration ;",
+              "l’amplification ;",
+              "la projection ;",
+              "le partage des flux entre plusieurs mages."
+            ]
+          },
+          {
+            "title": "Particularités magiques",
+            "headingLevel": 4,
+            "anchor": "particularites-magiques",
+            "text": "Les Oni combinent fréquemment leur maîtrise du Feu à une compréhension plus générale des structures arcaniques."
+          },
+          {
+            "text": "Ils peuvent employer leur magie dans :"
+          },
+          {
+            "items": [
+              "le combat ;",
+              "la forge ;",
+              "la poterie ;",
+              "la cuisson ;",
+              "le travail des matériaux ;",
+              "la protection ;",
+              "les pratiques magiques collectives."
+            ]
+          },
+          {
+            "text": "Leurs cornes ne sont pas des organes magiques autonomes. Leur couleur noire et leur grande solidité appartiennent à leur anatomie naturelle et restent identiques quel que soit l’élément choisi."
+          },
+          {
+            "text": "---"
+          }
+        ]
+      },
+      {
+        "label": "Création de personnage",
+        "anchor": "creation-de-personnage",
+        "blocks": [
+          {
+            "title": "Socle du peuple",
+            "headingLevel": 4,
+            "anchor": "socle-du-peuple",
+            "text": "Lors de la création d’un personnage oni :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Donnée",
+                "Valeur"
+              ],
+              "rows": [
+                [
+                  "Statistique principale",
+                  "ARC +10"
+                ],
+                [
+                  "Statistique secondaire",
+                  "DEM +5"
+                ],
+                [
+                  "Ressource diminuée",
+                  "SM −5"
+                ],
+                [
+                  "Affinité élémentaire recommandée",
+                  "Feu"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Le joueur choisit librement l’élément de son personnage. Le Feu constitue uniquement l’affinité recommandée du peuple."
+          },
+          {
+            "title": "Formation culturelle",
+            "headingLevel": 4,
+            "anchor": "formation-culturelle",
+            "text": "Choisissez une compétence au N1 parmi les deux suivantes :"
+          },
+          {
+            "table": {
+              "headers": [
+                "Compétence",
+                "Tier"
+              ],
+              "rows": [
+                [
+                  "Confluence Arcanique",
+                  "A"
+                ],
+                [
+                  "Rempart de Flux",
+                  "B"
+                ]
+              ]
+            }
+          },
+          {
+            "title": "Confluence Arcanique",
+            "headingLevel": 5,
+            "anchor": "confluence-arcanique",
+            "text": "Cette formation développe la capacité à harmoniser les flux arcaniques d’un ou plusieurs bénéficiaires."
+          },
+          {
+            "text": "Après une activation réussie, la compétence peut notamment :"
+          },
+          {
+            "items": [
+              "augmenter la puissance des sorts offensifs ;",
+              "augmenter leur portée numérique ;",
+              "permettre de relancer un sort ayant obtenu un échec normal ;",
+              "améliorer, à haut niveau, le premier test de maintien de canalisation effectué pendant un round."
+            ]
+          },
+          {
+            "text": "Le nombre de bénéficiaires, les bonus et la durée augmentent avec le niveau de la compétence."
+          },
+          {
+            "title": "Rempart de Flux",
+            "headingLevel": 5,
+            "anchor": "rempart-de-flux",
+            "text": "Cette formation développe la capacité à étendre sa propre défense magique afin de protéger les alliés."
+          },
+          {
+            "text": "Lors de l’activation :"
+          },
+          {
+            "items": [
+              "la DEM effective de l’utilisateur devient sa DEM de référence ;",
+              "les alliés concernés peuvent employer la meilleure valeur entre leur propre DEM et cette valeur de référence ;",
+              "le seuil personnel de DEM du lanceur est fortement réduit pendant la durée."
+            ]
+          },
+          {
+            "text": "Aux niveaux supérieurs, le Rempart peut protéger plusieurs alliés ou prendre la forme d’une aura mobile."
+          },
+          {
+            "text": "Plusieurs Remparts de Flux ne cumulent jamais leurs valeurs."
+          },
+          {
+            "title": "Voie d’héritage",
+            "headingLevel": 4,
+            "anchor": "voie-dheritage",
+            "text": "Choisissez une seule option parmi les suivantes."
+          },
+          {
+            "title": "Double héritage",
+            "headingLevel": 5,
+            "anchor": "double-heritage",
+            "text": "Vous obtenez au N1 les deux compétences proposées par la Formation culturelle :"
+          },
+          {
+            "items": [
+              "Confluence Arcanique ;",
+              "Rempart de Flux."
+            ]
+          },
+          {
+            "title": "Résistance élémentaire — Feu",
+            "headingLevel": 5,
+            "anchor": "resistance-elementaire-feu",
+            "text": "Vous obtenez **+10 % de résistance au Feu**."
+          },
+          {
+            "text": "Cette résistance s’applique selon les règles générales des résistances élémentaires."
+          },
+          {
+            "title": "Réserve naturelle — PF",
+            "headingLevel": 5,
+            "anchor": "reserve-naturelle-pf",
+            "text": "Votre maximum de **PF** augmente de **5 %**, avec un minimum de 1 point gagné, selon les règles générales de Réserve naturelle."
+          },
+          {
+            "text": "Votre valeur actuelle de PF augmente du même montant lors de l’application initiale du bonus."
+          },
+          {
+            "title": "Sens aiguisé — Perception ésotérique",
+            "headingLevel": 5,
+            "anchor": "sens-aiguise-perception-esoterique",
+            "text": "Vous obtenez **+5 en Perception ésotérique**."
+          },
+          {
+            "text": "Ce bonus s’applique uniquement aux tests reposant directement sur la perception ésotérique."
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "import/peuples/# Oni.md",
+    "sourceSha256": "36951cd2b3236c1097d266a2571cb33d4674a84cb540601b4fb76e403e802eea"
+  }
+}

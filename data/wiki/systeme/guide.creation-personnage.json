@@ -1,0 +1,124 @@
+{
+  "id": "guide.creation-personnage",
+  "type": "codex",
+  "identity": {
+    "name": "Création d’un personnage",
+    "subtitle": "Parcours guidé en quatorze étapes",
+    "icon": "★",
+    "tags": [
+      "Création d’un personnage",
+      "création",
+      "personnage",
+      "assistant"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/character-creation-config.mjs",
+    "module/engine/character-creation-service.mjs",
+    "module/apps/character-creation-wizard.mjs"
+  ],
+  "mechanics": {
+    "steps": [
+      "peuple",
+      "element",
+      "competence",
+      "heritage",
+      "vocationalGroup",
+      "stats",
+      "token",
+      "chance",
+      "age",
+      "spirits",
+      "traits",
+      "extra",
+      "name",
+      "summary"
+    ]
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Étapes",
+        "value": "14"
+      },
+      {
+        "label": "Brouillon",
+        "value": "Chaque étape conserve sa sélection"
+      },
+      {
+        "label": "Finalisation",
+        "value": "Le résumé applique les choix validés"
+      }
+    ],
+    "links": [
+      {
+        "label": "Éléments",
+        "sectionId": "systeme",
+        "entryId": "rules.elements-affinites"
+      },
+      {
+        "label": "Groupes vocationnels",
+        "sectionId": "systeme",
+        "entryId": "rules.groupes-vocationnels"
+      },
+      {
+        "label": "Chance",
+        "sectionId": "systeme",
+        "entryId": "rules.chance"
+      },
+      {
+        "label": "Compétences",
+        "sectionId": "systeme",
+        "entryId": "rules.progression-competences"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Parcours",
+        "blocks": [
+          {
+            "items": [
+              "1. Peuple et apparence",
+              "2. Élément",
+              "3. Compétence culturelle",
+              "4. Don inné",
+              "5. Groupe vocationnel",
+              "6. Statistiques",
+              "7. Token",
+              "8. Chance",
+              "9. Âge",
+              "10. Esprits",
+              "11. Caractères",
+              "12. Autres options",
+              "13. Nom",
+              "14. Résumé final"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Dépendances",
+        "blocks": [
+          {
+            "text": "Modifier une étape peut invalider les étapes qui en dépendent. Relisez alors leurs choix avant de poursuivre. Les caractères et plusieurs options visuelles restent narratifs."
+          }
+        ]
+      },
+      {
+        "label": "Validation",
+        "blocks": [
+          {
+            "text": "Le résumé final présente les choix et applique la création à l’acteur après confirmation."
+          }
+        ]
+      }
+    ]
+  }
+}

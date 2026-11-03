@@ -1,0 +1,105 @@
+{
+  "id": "tirmana",
+  "type": "plant",
+  "identity": {
+    "name": "Tirmana",
+    "subtitle": "Lame bleue des cotes seches",
+    "unknownName": "Plante cotiere bleue a epis violets",
+    "slug": "tirmana",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Tirmana.png",
+    "visualNote": "Plante cotiere en touffe dense, composee de longues feuilles bleu-vert ondulees et d'epis violets dresses.",
+    "tags": [
+      "herbe",
+      "bord-de-mer",
+      "feuilles-bleues",
+      "epis-violets"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "sauvage",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "bord de mer sec chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "sable",
+      "terre seche",
+      "sol caillouteux",
+      "eau salee"
+    ],
+    "season": [
+      "montee des chaleurs",
+      "saison seche",
+      "fructification",
+      "apres tempete"
+    ],
+    "growthCycle": "vivace",
+    "light": "plein soleil",
+    "humidity": "faible",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "40 cm a 1,3 m",
+    "width": "40 cm a 1,2 m",
+    "colorMain": "bleu vert sombre",
+    "colorSecondary": "violet, turquoise, brun sableux",
+    "distinctiveSigns": [
+      "touffe dense tres enracinee",
+      "longues feuilles verticales bleu-vert",
+      "bords de feuilles ondules et epaissis",
+      "nervure centrale bleue ou violette",
+      "epis violets dresses entre les feuilles",
+      "bractees pointues serrees",
+      "graines violacees dans les epis murs",
+      "racines fines et accrocheuses"
+    ],
+    "descriptionShort": "La Tirmana est une herbe cotiere a feuilles bleu-vert ondulees et epis violets.",
+    "descriptionFull": "La Tirmana pousse sur les dunes stabilisees, les talus cotiers et les sols sableux touches par les embruns. Ses feuilles epaisses se dressent en lames ondulees, tandis que les epis violets apparaissent entre elles durant les periodes chaudes. Ses racines retiennent le sable et aident la plante a survivre au vent sale."
+  },
+  "danger": {
+    "severity": "leger",
+    "dangerType": [
+      "coupante",
+      "irritante"
+    ],
+    "exposure": [
+      "contact",
+      "inhalation"
+    ],
+    "symptoms": [
+      "picotements",
+      "rougeurs",
+      "demangeaisons"
+    ],
+    "notes": "Les feuilles seches peuvent raper la peau et les epis trop secs liberent une poussiere irritante."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "artisanat",
+      "teinture",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles de Tirmana peuvent fournir une fibre courte pour de petits liens; ses epis donnent une teinte violette fragile."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

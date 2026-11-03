@@ -1,0 +1,32 @@
+{
+  "id": "wiskran",
+  "type": "creature-public",
+  "identity": {
+    "name": "Wiskran",
+    "subtitle": "Le Murmureur Béant",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "souterrain",
+      "magique"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Wiskran hante les donjons profonds, les structures abandonnées, les couloirs étroits, les salles voûtées et les galeries résonnantes. Carnivore et imprévisible, il semble attiré par les présences prolongées et les espaces où ses murmures peuvent se propager. Sa simple proximité peut provoquer une pression mentale durable chez les survivants."
+          },
+          {
+            "text": "Le Wiskran est une aberration anatomique dont le corps entier semble n’être qu’une bouche béante. Autour de cette cavité circulaire s’alignent d’immenses dents, certaines atteignant un mètre cinquante, formant un cercle menaçant. À l’intérieur, l’obscurité est presque totale. De nombreuses petites dents pointues, disposées sans ordre apparent, semblent s’agiter comme si elles luttaient entre elles. Ses membres inférieurs ressemblent à des bras inversés : chaque extrémité se termine par une main complète dotée de cinq doigts, d’ongles et d’un poignet, tandis que les coudes servent de genoux. Deux tentacules raides poussent sur le dessus du corps, chacun portant un globe oculaire rond, large et visqueux, sans paupières ni cils, généralement marqué par trois pupilles flottantes."
+          },
+          {
+            "text": "Le Wiskran est observé seul. Sa reproduction, son origine exacte et sa durée de vie réelle restent inconnues, car les rencontres documentées se concentrent presque toujours sur la survie immédiate plutôt que sur l’observation prolongée."
+          }
+        ]
+      }
+    ]
+  }
+}

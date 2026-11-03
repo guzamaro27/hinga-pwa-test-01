@@ -1,0 +1,35 @@
+{
+  "id": "bragostone",
+  "type": "creature-public",
+  "identity": {
+    "name": "Bragostone",
+    "subtitle": "Le Guetteur des Forêts Humides",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "chasse",
+      "medicinal",
+      "magique"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Bragostone vit principalement dans les forêts humides, les zones montagneuses, les ravins rocheux et les grottes. Il occupe les parois, les zones d’ombre, les arbres bas et les cavités où il peut attendre une proie avant de bondir. Carnivore et très territorial, il défend violemment son domaine contre toute présence détectée."
+          },
+          {
+            "text": "Le Bragostone est un prédateur particulièrement redoutable au corps long et massif couvert d’écailles rugueuses. Sa tête triangulaire est armée de plusieurs cornes osseuses et d’une mâchoire gigantesque remplie de dents longues, fines et acérées, dont certaines restent visibles même lorsque la bouche est fermée. Ses yeux jaunes à pupille verticale lui offrent une excellente perception nocturne et une expression prédatrice inquiétante. Son dos est parcouru d’épines irrégulières orientées vers l’arrière, tandis que sa peau vert sombre à gris bleuté présente des plaques, bosses et reliefs rugueux. Sa caractéristique la plus étrange reste sa queue composée de puissants tentacules munis de ventouses, capables d’agripper et de retenir les proies. Ses quatre pattes puissantes et griffues lui permettent de grimper sur les rochers, les murs et certaines parois de grottes."
+          },
+          {
+            "text": "Le Bragostone vit seul et défend un territoire fixe. Les sites de reproduction sont installés dans des terriers rocheux ou des grottes humides, généralement dans des zones difficiles à atteindre."
+          }
+        ]
+      }
+    ]
+  }
+}

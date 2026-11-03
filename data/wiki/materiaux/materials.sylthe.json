@@ -1,0 +1,240 @@
+{
+  "id": "materials.sylthe",
+  "type": "material",
+  "identity": {
+    "name": "Sylthé",
+    "subtitle": "Textiles · Végétal",
+    "icon": "◆",
+    "tags": [
+      "sylthe",
+      "Sylthé",
+      "textile",
+      "Textiles",
+      "vegetal",
+      "Végétal",
+      "Fibre végétale phosphorescente",
+      "Lueur douce, fluide",
+      "Tissu lumineux et souple, recherché pour les rites et la signalisation.",
+      "Lumière",
+      "magical",
+      "Magique",
+      "Bon",
+      "Tenues rituelles",
+      "vêtements de mage",
+      "balises",
+      "temple",
+      "mage",
+      "tailleur",
+      "trésor",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Textiles",
+    "rarity": 8
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "sylthe",
+    "family": "textile",
+    "weaponProfile": "magical",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Textiles"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Végétal"
+      },
+      {
+        "label": "Rareté",
+        "value": 8
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Magique"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Fibre végétale phosphorescente"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Lueur douce, fluide"
+          },
+          {
+            "title": "Description",
+            "text": "Tissu lumineux et souple, recherché pour les rites et la signalisation."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "4"
+          },
+          {
+            "title": "Masse relative",
+            "text": "1"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Neutre (0)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "0"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Forte (3)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "3"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Lumière"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Émet une lueur faible et stable",
+              "bon support rituel."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Difficile à dissimuler sans traitement."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Tenues rituelles",
+              "vêtements de mage",
+              "balises"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Magique"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "temple",
+              "mage",
+              "tailleur",
+              "trésor",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Coupon de 1 m²"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "0.25"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "500"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.75"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "high"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Riche"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "7"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "perception/lumière"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_lumiere_ebloui_t1",
+              "etat_lumiere_ebloui"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

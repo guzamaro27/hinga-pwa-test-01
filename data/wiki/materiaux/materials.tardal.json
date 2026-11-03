@@ -1,0 +1,237 @@
+{
+  "id": "materials.tardal",
+  "type": "material",
+  "identity": {
+    "name": "Tardal",
+    "subtitle": "Métaux · Alliage",
+    "icon": "◆",
+    "tags": [
+      "tardal",
+      "Tardal",
+      "metal",
+      "Métaux",
+      "alliage",
+      "Alliage",
+      "Tar + Brondal; proportions à définir",
+      "Noir brillant",
+      "Alliage lourd d’élite, conçu pour les ouvrages soumis à des chocs extrêmes.",
+      "Métal/Anti-magie",
+      "physical",
+      "Physique",
+      "Normal",
+      "Armures lourdes d’élite",
+      "armes de siège",
+      "scellements",
+      "maître forgeron",
+      "militaire",
+      "trésor majeur",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Métaux",
+    "rarity": 9
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "tardal",
+    "family": "metal",
+    "weaponProfile": "physical",
+    "weaponTier": 2,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 1
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Métaux"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Alliage"
+      },
+      {
+        "label": "Rareté",
+        "value": 9
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Physique"
+      },
+      {
+        "label": "Tier",
+        "value": "2 — Normal"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Conservé"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Tar + Brondal; proportions à définir"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Noir brillant"
+          },
+          {
+            "title": "Description",
+            "text": "Alliage lourd d’élite, conçu pour les ouvrages soumis à des chocs extrêmes."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "10"
+          },
+          {
+            "title": "Masse relative",
+            "text": "5"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Très élevé (4)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "4"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Modérée (2)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "2"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Métal/Anti-magie"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Très haute résistance avec isolation magique partielle."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Dépend du statut canonique de Tar",
+              "forge extrêmement difficile."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Armures lourdes d’élite",
+              "armes de siège",
+              "scellements"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Physique"
+          },
+          {
+            "title": "Tier",
+            "text": "2 — Normal"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "1"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "maître forgeron",
+              "militaire",
+              "trésor majeur",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Lingot de 1 kg"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "1"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "3000"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.5"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "medium"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Fabuleux"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "3"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "serimoth"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_silence_arcanique"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

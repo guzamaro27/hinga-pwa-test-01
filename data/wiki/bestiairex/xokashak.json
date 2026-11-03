@@ -1,0 +1,36 @@
+{
+  "id": "xokashak",
+  "type": "creature-public",
+  "identity": {
+    "name": "Xokashak",
+    "subtitle": "La Menace des Ténèbres",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "souterrain",
+      "magique",
+      "chasse",
+      "trophee",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Xokashak vit dans les cavernes profondes, les abysses souterrains, les salles vastes et les galeries privées de lumière. Territorial et dominateur, il occupe les zones obscures où sa magie des Ténèbres lui permet d’éteindre les sources lumineuses proches et de renforcer l’avantage de son environnement naturel."
+          },
+          {
+            "text": "Le Xokashak est un monstre massif, dépassant largement les deux mètres de hauteur lorsqu’il se redresse. Son corps est couvert d’une fourrure noire dense recouvrant une peau épaisse et résistante. Son dos est protégé par une carapace noire extrêmement solide, dans laquelle il peut rétracter ses quatre membres pour se protéger, tandis que sa tête reste exposée. Son ventre est également protégé par une carapace plus fine. Sa tête est entourée d’une couronne de cornes couvrant l’avant et l’arrière du crâne. Une large corne domine le sommet de la tête, tandis que deux longues cornes fines et torsadées descendent vers l’avant puis se recourbent, prêtes à empaler toute cible."
+          },
+          {
+            "text": "Le Xokashak est observé seul et semble défendre un territoire obscur très étendu. Sa reproduction reste inconnue, mais sa longévité supposée très longue explique la rareté des rencontres documentées et la dangerosité des territoires qu’il occupe durablement."
+          }
+        ]
+      }
+    ]
+  }
+}

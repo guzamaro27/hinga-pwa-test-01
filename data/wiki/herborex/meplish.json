@@ -1,0 +1,93 @@
+{
+  "id": "meplish",
+  "type": "plant",
+  "identity": {
+    "name": "Meplish",
+    "subtitle": "Arbre violet des forêts humides",
+    "unknownName": "Arbre humide à large feuillage mauve translucide",
+    "slug": "meplish",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Meplish.png",
+    "visualNote": "Arbre au tronc brun droit, portant de grandes masses foliaires mauves presque translucides, traversées de nervures violettes.",
+    "tags": [
+      "foret-humide",
+      "feuillage-mauve",
+      "ornemental"
+    ]
+  },
+  "classification": {
+    "category": "arbre",
+    "family": "feuillu",
+    "rarity": "inhabituelle"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "forêt tempérée humide",
+      "tropical humide chaud"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "terre meuble"
+    ],
+    "season": [
+      "fortes pluies",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "grande",
+    "height": "6 à 17 m",
+    "width": "4 à 11 m",
+    "colorMain": "mauve clair",
+    "colorSecondary": "violet, brun, rose pâle",
+    "distinctiveSigns": [
+      "tronc brun droit et légèrement rugueux",
+      "branches étagées presque horizontales",
+      "très grandes feuilles ou plaques foliaires mauves",
+      "bords ondulés soulignés de violet",
+      "nervures violettes très visibles",
+      "surface semi-translucide en pleine lumière",
+      "fleurs mauves dressées",
+      "capsules brunes contenant une graine violette"
+    ],
+    "descriptionShort": "Le Meplish est un arbre humide à feuillage mauve translucide et fortement nervuré.",
+    "descriptionFull": "Le Meplish pousse dans les forêts humides et les lisières protégées où la lumière traverse encore la cime. Son tronc brun porte de grandes feuilles mauves, souples et ondulées, qui semblent presque transparentes lorsqu'elles sont éclairées. Les nervures violettes forment un réseau lumineux dans le feuillage, puis les fleurs mauves laissent place à de petites capsules brunes."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Arbre inoffensif pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "normal",
+    "product": {
+      "id": "",
+      "quantity": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "notes": ""
+  },
+  "uses": {
+    "knownUses": [
+      "teinture",
+      "artisanat",
+      "ornementale",
+      "semis"
+    ],
+    "notes": "Les feuilles et fleurs donnent un pigment mauve fragile; le bois brun convient seulement à de petits objets légers."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

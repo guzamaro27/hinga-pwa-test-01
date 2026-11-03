@@ -1,0 +1,32 @@
+{
+  "id": "xogas",
+  "type": "creature-public",
+  "identity": {
+    "name": "Xogas",
+    "subtitle": "Le Sauteur Épineux",
+    "tags": [
+      "sauvage",
+      "proie",
+      "chasse",
+      "medicinal"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Xogas vit principalement dans les forêts humides, les jungles et les sous-bois denses. Il fréquente le sol forestier, les racines d’arbres et les zones couvertes de feuilles, où il fouille à la recherche d’insectes, de fruits, de graines et de petits invertébrés. Peu farouche mais difficile à capturer, il se déplace par bonds rapides entre les racines et la végétation."
+          },
+          {
+            "text": "Le Xogas est une petite créature forestière à l’apparence ronde et compacte. Son corps est couvert d’une fourrure dense brune et beige, avec une zone ventrale plus claire et une collerette rousse autour du cou. Sa tête large possède de très grands yeux dorés qui lui donnent une expression vive et curieuse. De longues moustaches sensibles entourent son museau court. Au sommet de son crâne se trouve une couronne de petites épines irrégulières formées de plaques kératinisées ou osseuses. Ses pattes arrière épaisses lui permettent d’effectuer des bonds rapides entre les racines et la végétation, tandis que ses pattes avant plus courtes servent surtout à se stabiliser lorsqu’il se déplace ou fouille le sol."
+          },
+          {
+            "text": "Le Xogas vit en petits groupes familiaux. Les abris sont rudimentaires et installés dans les racines ou sous des rochers, généralement dans des zones couvertes où les jeunes peuvent rester dissimulés."
+          }
+        ]
+      }
+    ]
+  }
+}

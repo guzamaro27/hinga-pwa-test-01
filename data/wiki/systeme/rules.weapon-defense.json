@@ -1,0 +1,125 @@
+{
+  "id": "rules.weapon-defense",
+  "type": "codex",
+  "identity": {
+    "name": "Défense, Solidité et Usure des armes",
+    "subtitle": "Bloquer et préserver son arme",
+    "icon": "🛡",
+    "tags": [
+      "arme",
+      "blocage",
+      "DEF",
+      "solidité",
+      "usure",
+      "matériaux",
+      "arc",
+      "arbalète"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/data/weapon-defense.mjs",
+    "module/data/materials.mjs",
+    "module/helpers/magie.mjs",
+    "module/helpers/combat-flow.mjs"
+  ],
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Réussite",
+        "value": "Dégâts restants − DEF"
+      },
+      {
+        "label": "Usure",
+        "value": "Charge > DEF : +1"
+      },
+      {
+        "label": "Solidité",
+        "value": "Durabilité du matériau × 2 + 4"
+      }
+    ],
+    "links": [
+      {
+        "label": "Réaction",
+        "sectionId": "systeme",
+        "entryId": "rules.reaction"
+      },
+      {
+        "label": "Parade",
+        "sectionId": "systeme",
+        "entryId": "rules.parade"
+      },
+      {
+        "label": "Armures",
+        "sectionId": "systeme",
+        "entryId": "rules.armures"
+      },
+      {
+        "label": "Revêtements",
+        "sectionId": "systeme",
+        "entryId": "rules.revetements-elementaires"
+      }
+    ],
+    "example": "12 dégâts après armure et résistances, DEF 5 : 7 dégâts. Un échec ne réduit pas les dégâts par la DEF et ne provoque pas d’usure de Blocage."
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "En bref",
+        "blocks": [
+          {
+            "text": "La DEF représente les dégâts qu’une arme peut arrêter lors d’un Blocage réussi et la charge qu’elle peut supporter normalement. Le Blocage conserve son coût PF, son jet de FOR et les ajustements des compétences. La réduction est fixe : plus de division par 2."
+          }
+        ]
+      },
+      {
+        "label": "DEF des armes",
+        "blocks": [
+          {
+            "text": "Dague 4 · Épée 5 · Hache 5 · Masse 6 · Lance 7 · Arc 4 · Fouet 3 · Bâton 7 · Improvisée 2. Une arme à deux mains reçoit +1 DEF ; une arbalète reçoit encore +1. Catégorie inconnue : base 3. La rareté et le matériau ne changent pas la DEF."
+          },
+          {
+            "text": "Arc 2 mains : DEF 5. Arbalète 2 mains : DEF 6. Les armes à distance peuvent Bloquer avec une arme ; cela ne leur accorde pas de nouvelle possibilité de Parade."
+          }
+        ]
+      },
+      {
+        "label": "Solidité et états",
+        "blocks": [
+          {
+            "text": "Solidité = durabilité du matériau × 2 + 4. Durabilité 2 : 8 ; 3 : 10 ; 4 : 12 ; 5 : 14 ; 6 : 16 ; 7 : 18 ; 8 : 20 ; 9 : 22 ; 10 : 24. Sans matériau reconnu : Solidité 10. La taille et les mains ne modifient pas la Solidité."
+          },
+          {
+            "text": "L’Usure commence à 0. En dessous de la moitié de la Solidité, l’arme est Saine. Dès la moitié (arrondie au supérieur), elle est Abîmée, sans malus de DEF, de dégâts ou de jet. À sa Solidité, elle est Brisée : attaque, Blocage, Parade, Riposte et actions exigeant cette arme deviennent impossibles. L’arme reste dans l’inventaire."
+          }
+        ]
+      },
+      {
+        "label": "Charge structurelle",
+        "blocks": [
+          {
+            "text": "Après un Blocage réussi, Charge ≤ DEF : aucune Usure ; Charge > DEF : +1 Usure seulement, même pour un dépassement énorme. La Charge comprend les dégâts physiques ou neutres et chaque contribution élémentaire réelle, y compris le Revêtement, comptée une seule fois. Elle ne dépend pas des protections du porteur."
+          },
+          {
+            "text": "Pour le matériau : élément Résistant ×0, Neutre ×1, Faible ×2. Les affinités élémentaires reconnues du matériau déterminent ses résistances et faiblesses selon les relations habituelles des éléments. Les termes non élémentaires sont ignorés. Plusieurs affinités se combinent ; un conflit Résistant/Faible devient Neutre. Sans affinité reconnue, tout est Neutre."
+          },
+          {
+            "text": "18 physiques + 4 Feu donnent une Charge de 18 si le matériau résiste au Feu, 22 s’il est neutre et 26 s’il est faible. Ces résistances concernent uniquement l’arme : les dégâts du personnage suivent ses protections habituelles."
+          }
+        ]
+      },
+      {
+        "label": "Parade et compétences",
+        "blocks": [
+          {
+            "text": "La Parade reste distincte du Blocage et ne provoque aucune Usure générique. En cas d’égalité de l’opposition de Parade, le défenseur gagne. Le bonus de DEF de la Lance s’ajoute à la DEF de Blocage ; les autres maîtrises et la casse particulière d’Improvisation Martiale sont conservées."
+          }
+        ]
+      }
+    ]
+  }
+}

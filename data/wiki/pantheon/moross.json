@@ -1,0 +1,179 @@
+{
+  "id": "moross",
+  "type": "pantheon-spirit",
+  "identity": {
+    "name": "Moross",
+    "subtitle": "L’Imperturbable Forteresse",
+    "tags": [
+      "Moross",
+      "L’Imperturbable Forteresse",
+      "esprit majeur",
+      "Stabilité",
+      "Immuabilité",
+      "Endurance",
+      "Minerai",
+      "Montagne",
+      "Falaise",
+      "Bastion Immuable",
+      "Immunité aux effets de recul"
+    ]
+  },
+  "display": {
+    "icon": "✦",
+    "color": "#5A5F63",
+    "visualNote": "Stabilité • Immuabilité • Endurance • Minerai • Montagne • Falaise"
+  },
+  "classification": {
+    "category": "esprit",
+    "family": "esprit majeur",
+    "rarity": "majeur",
+    "origin": "spirituelle"
+  },
+  "pantheon": {
+    "key": "moross",
+    "name": "Moross",
+    "title": "L’Imperturbable Forteresse",
+    "type": "esprit_majeur",
+    "domains": [
+      "Stabilité",
+      "Immuabilité",
+      "Endurance",
+      "Minerai",
+      "Montagne",
+      "Falaise"
+    ],
+    "cycle": {
+      "type": "astral",
+      "refresh": "sunrise",
+      "label": "À chaque lever de soleil"
+    },
+    "cult": {
+      "short": "Poser une pierre ou briser un rocher",
+      "ritual": "Poser une pierre sur un monticule ou casser un rocher à mains nues."
+    },
+    "favor": {
+      "default": "neutral",
+      "effects": {
+        "favored": "La stabilité offerte par Moross est renforcée.",
+        "neutral": "Les bénédictions fonctionnent normalement.",
+        "wrath": "Les bénédictions peuvent se retourner contre le fidèle."
+      }
+    },
+    "blessings": {
+      "bastion_immuable": {
+        "key": "bastion_immuable",
+        "name": "Bastion Immuable",
+        "tier": "commune",
+        "type": "passif",
+        "shortEffect": "Immunité aux effets de recul",
+        "fullDescription": "Rend immunisé aux effets de recul, poussée ou déplacement forcé.",
+        "usage": {
+          "limit": 1,
+          "per": "cycle"
+        }
+      }
+    },
+    "ui": {
+      "color": "#5A5F63",
+      "textColor": "#FFFFFF",
+      "glow": true
+    },
+    "incompatibilities": [
+      "ygval"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Domaines",
+        "blocks": [
+          {
+            "title": "Domaines associés",
+            "items": [
+              "Stabilité",
+              "Immuabilité",
+              "Endurance",
+              "Minerai",
+              "Montagne",
+              "Falaise"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Culte",
+        "blocks": [
+          {
+            "title": "Culte court",
+            "text": "Poser une pierre ou briser un rocher"
+          },
+          {
+            "title": "Rituel",
+            "text": "Poser une pierre sur un monticule ou casser un rocher à mains nues."
+          }
+        ]
+      },
+      {
+        "label": "Cycle",
+        "blocks": [
+          {
+            "title": "Cycle de dévotion",
+            "text": "À chaque lever de soleil"
+          },
+          {
+            "title": "Type de cycle",
+            "text": "astral"
+          },
+          {
+            "title": "Déclencheur technique",
+            "text": "sunrise"
+          }
+        ]
+      },
+      {
+        "label": "Bénédiction",
+        "blocks": [
+          {
+            "title": "Bénédictions disponibles",
+            "items": [
+              "Bastion Immuable (commune, passif)",
+              "Effet court : Immunité aux effets de recul",
+              "Description : Rend immunisé aux effets de recul, poussée ou déplacement forcé.",
+              "Usage : 1 fois par cycle de dévotion"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Ferveur",
+        "blocks": [
+          {
+            "title": "États de faveur",
+            "items": [
+              "État par défaut : neutre",
+              "faveur : La stabilité offerte par Moross est renforcée.",
+              "neutre : Les bénédictions fonctionnent normalement.",
+              "courroux : Les bénédictions peuvent se retourner contre le fidèle."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Incompatibilités",
+        "isVisible": true,
+        "blocks": [
+          {
+            "title": "Esprits incompatibles",
+            "items": [
+              "ygval"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gm": {
+    "source": "module/data/pantheon.json",
+    "sourceKey": "moross"
+  }
+}

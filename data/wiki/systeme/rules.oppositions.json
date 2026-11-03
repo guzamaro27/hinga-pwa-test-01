@@ -1,0 +1,80 @@
+{
+  "id": "rules.oppositions",
+  "type": "codex",
+  "identity": {
+    "name": "Oppositions",
+    "subtitle": "Comparer deux résultats",
+    "icon": "↔",
+    "tags": [
+      "Oppositions",
+      "opposition",
+      "égalité",
+      "attaquant",
+      "défenseur"
+    ]
+  },
+  "classification": {
+    "category": "règle",
+    "family": "systeme",
+    "rarity": "commune"
+  },
+  "sources": [
+    "module/engine/confrontation",
+    "module/helpers/combat-flow.mjs",
+    "module/helpers/rolls.mjs"
+  ],
+  "mechanics": {},
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Principe",
+        "value": "Chaque participant effectue son jet"
+      },
+      {
+        "label": "Lecture",
+        "value": "La carte compare les résultats"
+      },
+      {
+        "label": "Égalité",
+        "value": "La règle de l’action départage"
+      }
+    ],
+    "links": [
+      {
+        "label": "Tests",
+        "sectionId": "systeme",
+        "entryId": "rules.test-statistique"
+      },
+      {
+        "label": "Parade",
+        "sectionId": "systeme",
+        "entryId": "rules.parade"
+      },
+      {
+        "label": "Surprise et opportunité",
+        "sectionId": "systeme",
+        "entryId": "rules.surprise-opportunite"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "text": "Une opposition conserve les résultats de chaque participant puis applique la règle de comparaison du contexte. Les marges, critiques et modificateurs restent attachés à leur jet."
+          }
+        ]
+      },
+      {
+        "label": "Égalités",
+        "blocks": [
+          {
+            "text": "Ne supposez pas un vainqueur universel : certaines défenses, comme la Parade, donnent l’égalité au défenseur. La carte indique la règle employée."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "remugril",
+  "type": "creature-public",
+  "identity": {
+    "name": "Remugril",
+    "subtitle": "Le Veilleur des Branches",
+    "tags": [
+      "sauvage",
+      "arboricole",
+      "proie",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Remugril vit principalement dans les forêts tropicales et les jungles, au niveau de la canopée, des branches épaisses et des troncs moussus. Omnivore opportuniste, il se nourrit de fruits, d’insectes, de petites proies arboricoles et d’œufs trouvés dans les hauteurs. Sa fourrure dense, son agilité et ses grandes oreilles sensibles lui permettent de rester discret et difficile à surprendre dans les feuillages."
+          },
+          {
+            "text": "Le Remugril est une petite créature arboricole agile et discrète. Son corps compact est recouvert d’une fourrure dense aux couleurs brun clair, crème et gris foncé, qui se confond facilement avec les feuillages et l’écorce. Son visage expressif est dominé par de grands yeux ambrés brillants et de larges oreilles triangulaires capables de capter les moindres sons de la forêt. Autour de son cou se développe une collerette de poils plus longs qui accentue son apparence vive. Ses pattes fines et souples lui permettent de se déplacer rapidement entre les branches et de bondir d’arbre en arbre avec précision."
+          },
+          {
+            "text": "Le Remugril vit en petits groupes familiaux ou en couples. Les abris sont dissimulés dans les cavités d’arbres, entre les branches épaisses ou dans des zones de feuillage dense difficiles à atteindre."
+          }
+        ]
+      }
+    ]
+  }
+}

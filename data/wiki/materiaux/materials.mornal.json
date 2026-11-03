@@ -1,0 +1,238 @@
+{
+  "id": "materials.mornal",
+  "type": "material",
+  "identity": {
+    "name": "Mornal",
+    "subtitle": "Bois · Fossilisé",
+    "icon": "◆",
+    "tags": [
+      "mornal",
+      "Mornal",
+      "wood",
+      "Bois",
+      "fossilise",
+      "Fossilisé",
+      "Bois fossilisé par magie",
+      "Gris argenté",
+      "Matière ligneuse minéralisée d’une résistance extrême.",
+      "Arcane/Terre",
+      "hybrid",
+      "Hybride",
+      "Bon",
+      "Reliques",
+      "armes légendaires",
+      "matrices",
+      "relique",
+      "mage",
+      "trésor majeur",
+      "cache"
+    ]
+  },
+  "classification": {
+    "category": "matériau",
+    "family": "Bois",
+    "rarity": 10
+  },
+  "sources": [
+    "module/data/materials.mjs",
+    "Catalogue-materiaux-Hinga-v2.xlsx"
+  ],
+  "mechanics": {
+    "materialId": "mornal",
+    "family": "wood",
+    "weaponProfile": "hybrid",
+    "weaponTier": 3,
+    "coatingCapacity": 1,
+    "enchantmentCapacity": 2
+  },
+  "playerGuide": {
+    "quickFacts": [
+      {
+        "label": "Famille",
+        "value": "Bois"
+      },
+      {
+        "label": "Sous-type",
+        "value": "Fossilisé"
+      },
+      {
+        "label": "Rareté",
+        "value": 10
+      },
+      {
+        "label": "Profil d’arme",
+        "value": "Hybride"
+      },
+      {
+        "label": "Tier",
+        "value": "3 — Bon"
+      }
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Identité et classement",
+        "blocks": [
+          {
+            "title": "Statut canonique",
+            "text": "Optionnel"
+          },
+          {
+            "title": "Origine / composition",
+            "text": "Bois fossilisé par magie"
+          },
+          {
+            "title": "Aspect / couleur",
+            "text": "Gris argenté"
+          },
+          {
+            "title": "Description",
+            "text": "Matière ligneuse minéralisée d’une résistance extrême."
+          }
+        ]
+      },
+      {
+        "label": "Caractéristiques",
+        "blocks": [
+          {
+            "title": "Durabilité",
+            "text": "10"
+          },
+          {
+            "title": "Masse relative",
+            "text": "4"
+          },
+          {
+            "title": "Potentiel PHY",
+            "text": "Très élevé (4)"
+          },
+          {
+            "title": "Indice PHY",
+            "text": "4"
+          },
+          {
+            "title": "Intensité MAG",
+            "text": "Très forte (4)"
+          },
+          {
+            "title": "Indice MAG",
+            "text": "4"
+          },
+          {
+            "title": "Élément / thème",
+            "text": "Arcane/Terre"
+          },
+          {
+            "title": "Propriétés",
+            "isList": true,
+            "items": [
+              "Très haute résistance et conduction énergétique."
+            ]
+          },
+          {
+            "title": "Risques / contraintes",
+            "isList": true,
+            "items": [
+              "Canon non confirmé",
+              "façonnage presque impossible."
+            ]
+          },
+          {
+            "title": "Usages",
+            "isList": true,
+            "items": [
+              "Reliques",
+              "armes légendaires",
+              "matrices"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Utilisation comme matériau d’arme",
+        "blocks": [
+          {
+            "title": "Profil",
+            "text": "Hybride"
+          },
+          {
+            "title": "Tier",
+            "text": "3 — Bon"
+          },
+          {
+            "title": "Revêtement maximal",
+            "text": "1"
+          },
+          {
+            "title": "Enchantements maximaux",
+            "text": "2"
+          },
+          {
+            "title": "Portée de cette donnée",
+            "text": "Informative uniquement : elle ne produit actuellement aucun effet automatique en combat."
+          }
+        ]
+      },
+      {
+        "label": "Données du catalogue",
+        "blocks": [
+          {
+            "title": "Tags",
+            "isList": true,
+            "items": [
+              "relique",
+              "mage",
+              "trésor majeur",
+              "cache"
+            ]
+          },
+          {
+            "title": "Unité standard",
+            "text": "Planche de 1 m (≈3 kg)"
+          },
+          {
+            "title": "Masse de l’unité (kg)",
+            "text": "3"
+          },
+          {
+            "title": "Valeur de l’unité (konirs)",
+            "text": "3750"
+          },
+          {
+            "title": "Confiance économique",
+            "text": "0.35"
+          },
+          {
+            "title": "Niveau de confiance économique",
+            "text": "low"
+          },
+          {
+            "title": "Rang de loot minimal",
+            "text": "Trésor majeur"
+          },
+          {
+            "title": "Poids de loot",
+            "text": "1"
+          },
+          {
+            "title": "Famille d’état liée",
+            "text": "kaerion/entrave"
+          },
+          {
+            "title": "États compatibles",
+            "isList": true,
+            "items": [
+              "etat_resonance_arcane",
+              "etat_terre_alourdi_t3"
+            ]
+          },
+          {
+            "title": "Traitement du loot",
+            "text": "Aucun effet automatique; propriété inactive tant qu’elle n’est pas portée par un objet fini."
+          }
+        ]
+      }
+    ]
+  }
+}

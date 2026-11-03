@@ -1,0 +1,107 @@
+{
+  "id": "stat-ingenierie-appliquee",
+  "type": "codex",
+  "identity": {
+    "name": "Ingénierie Appliquée",
+    "subtitle": "Passif fournisseur et action spéciale d’INT",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Activation et analyse",
+        "blocks": [
+          {
+            "title": "Action spéciale INT AV1",
+            "items": [
+              "Le passif doit être activé manuellement ; sa possession seule ne suffit pas.",
+              "Clic droit sur INT, puis Ingénierie Appliquée.",
+              "N1 couvre les mécanismes simples ; N2 ajoute les complexes ; N3 ajoute les avancés et les dispositifs lourdement endommagés.",
+              "L’action permet de comprendre, diagnostiquer et examiner. Elle ne modifie jamais automatiquement un piège structuré.",
+              "Sous pression, l’action est majeure. Une réussite critique ou critique ultime convertit cette dépense en action mineure."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Maîtrise et matériaux",
+        "blocks": [
+          {
+            "title": "Conditions des opérations matérielles",
+            "items": [
+              "Maîtrisé signifie exactement connaissance 3.",
+              "Posséder un piège ne lui accorde jamais automatiquement le niveau Maîtrisé.",
+              "Reproduction, reconditionnement et réparation exigent des outils, du temps et les matériaux nécessaires.",
+              "Si aucune recette n’est définie, le coût doit être validé par le MJ ; aucune duplication gratuite et silencieuse n’est autorisée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Reproduction",
+        "blocks": [
+          {
+            "title": "Modèle dans le sac",
+            "items": [
+              "Le modèle doit appartenir à l’acteur, se trouver dans son sac, avoir une quantité d’au moins 1, ne pas être placé et ne pas être détruit.",
+              "N1 : piège mécanique simple, INT normal.",
+              "N2 : piège mécanique simple ou complexe, INT normal.",
+              "N3 : piège simple avec INT AV1 ; piège complexe ou avancé avec INT normal.",
+              "Une réussite ajoute exactement un exemplaire. Un échec n’augmente pas la quantité."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Reconditionnement",
+        "blocks": [
+          {
+            "title": "Un seul exemplaire",
+            "items": [
+              "N2 : Instable vers Simple et Simple vers Instable.",
+              "N3 ajoute Simple vers Complexe et Complexe vers Simple.",
+              "Un piège avancé ne peut jamais être créé par reconditionnement.",
+              "Dans une pile, un seul exemplaire est extrait puis ajouté à une pile de destination compatible ou créé comme nouvel Item.",
+              "Un piège placé doit être sur la même scène, désarmé, accessible et situé à 2 mètres ou moins."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Réparation N3",
+        "blocks": [
+          {
+            "title": "Piège simple détruit",
+            "items": [
+              "La réparation concerne uniquement un piège mécanique simple détruit, Maîtrisé et situé à 2 mètres ou moins.",
+              "Les restes doivent être explicitement exploitables ; l’absence d’information ne signifie pas qu’ils le sont.",
+              "Une réussite transforme Détruit en Désarmé. Un échec laisse le piège détruit.",
+              "Après la réussite, Armer immédiatement est gratuit et ne demande aucun second jet, mais les blocages normaux d’armement restent applicables."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Crocheter",
+        "blocks": [
+          {
+            "title": "Bonus conditionnel de +1 niveau",
+            "items": [
+              "N1 : mécanismes simples.",
+              "N2 : mécanismes simples ou complexes.",
+              "N3 : mécanismes simples, complexes ou avancés.",
+              "N3 accepte une serrure ingénomagique possédant un véritable mécanisme matériel.",
+              "Rune seule, sceau purement magique, fermeture spirituelle et verrou sans mécanisme matériel sont exclus.",
+              "Le bonus est exactement +1 niveau, maximum 5, sans AV1 supplémentaire."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

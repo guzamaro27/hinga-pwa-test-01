@@ -1,0 +1,167 @@
+{
+  "id": "trap-action-analyze",
+  "type": "codex",
+  "identity": {
+    "name": "Analyser",
+    "subtitle": "Actions / Pièges",
+    "icon": "P",
+    "tags": [
+      "pièges",
+      "actions",
+      "analyser"
+    ]
+  },
+  "classification": {
+    "category": "guide",
+    "family": "pièges",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Nom du bouton",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Analyser"
+          }
+        ]
+      },
+      {
+        "label": "Rôle rapide",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Comprendre un piège déjà repéré."
+          }
+        ]
+      },
+      {
+        "label": "Description complète",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Analyser cherche à augmenter le niveau de connaissance sur un piège : famille, type, déclenchement, difficulté, sabotage, effets ou informations avancées selon les compétences actives."
+          }
+        ]
+      },
+      {
+        "label": "Comportement sans compétence",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Possible avec les informations de base, mais les détails avancés dépendent des compétences."
+          }
+        ]
+      },
+      {
+        "label": "Jet requis",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Stat selon famille : DEX ou ARC, avec modificateur selon difficulté et niveau du piège."
+          }
+        ]
+      },
+      {
+        "label": "Déroulement après clic",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Le système lance le jet, met à jour la connaissance de l'acteur, puis affiche une carte de chat avec les informations autorisées."
+          }
+        ]
+      },
+      {
+        "label": "Dialogues éventuels",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Parfois, selon le type d'analyse ou la compétence active."
+          }
+        ]
+      },
+      {
+        "label": "Conditions d'apparition du bouton",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Piège proche, repéré ou suffisamment visible pour être analysé."
+          }
+        ]
+      },
+      {
+        "label": "Conditions de refus runtime",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Refus si le piège est trop éloigné, introuvable, détruit ou si l'acteur ne peut pas ànalyser ce type."
+          }
+        ]
+      },
+      {
+        "label": "Compétences qui modifient l'action",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Analyse Structurale et Analyse Arcanique modifient cette action selon la famille du piège et leur niveau actif dans les Active Effects."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de réussite",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Le niveau de connaissance augmente et les informations autorisées sont affichées."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas d'échec",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Le niveau de connaissance ne progresse pas."
+          }
+        ]
+      },
+      {
+        "label": "Résultat en cas de critique / échec critique",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "À confirmer côté système."
+          }
+        ]
+      },
+      {
+        "label": "Informations visibles ou cachées",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Le vrai nom, le créateur, le poseur, le propriétaire, les notes MJ et les valeurs exactes restent cachés tant que le niveau de connaissance ou les permissions ne les autorisent pas."
+          }
+        ]
+      },
+      {
+        "label": "Notes creator / owner / placer",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Le créateur est celui qui a conçu la version actuelle du piège. Le propriétaire possède l'objet ou l'instance. Le poseur est celui qui l'a placé sur la scène. Ces rôles ne sont pas automatiquement révélés aux joueurs."
+          }
+        ]
+      },
+      {
+        "label": "Notes MJ",
+        "blocks": [
+          {
+            "title": "Analyser",
+            "text": "Vérifier les lignes d'information cachées avant de révéler des données sensibles au joueur."
+          }
+        ]
+      }
+    ]
+  }
+}

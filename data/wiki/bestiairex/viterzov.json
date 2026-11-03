@@ -1,0 +1,33 @@
+{
+  "id": "viterzov",
+  "type": "creature-public",
+  "identity": {
+    "name": "Viterzov",
+    "subtitle": "Le Portraitiste Massacreur",
+    "tags": [
+      "sauvage",
+      "dangereux",
+      "predateur",
+      "territorial",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Viterzov occupe principalement les ruines, les souterrains et les structures abandonnées. Il privilégie les bâtiments effondrés, les galeries fermées et les anciennes salles voûtées, qu’il transforme méthodiquement en galeries macabres. Carnivore strict, il chasse les intrus et collecte les restes de ses victimes pour composer des portraits tridimensionnels."
+          },
+          {
+            "text": "Le Viterzov possède un corps unique et variable, chaque spécimen présentant une forme légèrement différente. Sa masse centrale, aux contours irréguliers, semble modelée plutôt que construite, comme une sculpture organique inachevée. Un pied unique est relié au corps par deux membranes tubulaires épaisses qui se contractent et s’étirent pour lui permettre de se mouvoir avec une lenteur trompeuse. Sa tête allongée et légèrement penchée est reliée au corps par un segment souple et membraneux. Son visage est dominé par une large bouche garnie de dents fines et acérées. Deux yeux peuvent se déplacer de plusieurs centimètres sur la surface du visage, glissant sous la peau comme des perles sous une membrane translucide. Deux fentes nasales situées à l’arrière du crâne assurent sa respiration. Il dispose de trois membres tentaculaires sans structure osseuse : l’un griffu, l’un terminé par une pince caoutchouteuse, et le dernier par une pointe rigide perforante."
+          },
+          {
+            "text": "Le Viterzov vit seul et semble organiser son territoire autour d’une galerie personnelle. Sa reproduction reste inconnue, tout comme la manière dont les jeunes individus apparaissent ou quittent leur premier refuge."
+          }
+        ]
+      }
+    ]
+  }
+}

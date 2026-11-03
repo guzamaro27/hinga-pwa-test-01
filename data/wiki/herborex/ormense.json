@@ -1,0 +1,94 @@
+{
+  "id": "ormense",
+  "type": "plant",
+  "identity": {
+    "name": "Ormense",
+    "subtitle": "Herbe de source aux baies roses",
+    "unknownName": "Plante aromatique aux baies roses et feuilles ondulées",
+    "slug": "ormense",
+    "img": "systems/hinga/assets/hingadex-img/herborex-img/Ormense.png",
+    "visualNote": "Herbe fine à tige verticale, feuilles vertes ondulées et grappes terminales de petites baies roses translucides.",
+    "tags": [
+      "aromatique",
+      "source",
+      "baies-roses"
+    ]
+  },
+  "classification": {
+    "category": "herbe",
+    "family": "aromatique",
+    "rarity": "commune"
+  },
+  "ecology": {
+    "origin": "naturelle",
+    "zones": [
+      "rivière tempérée",
+      "marais tempéré humide",
+      "jardin cultivé"
+    ],
+    "regions": [],
+    "terrain": [
+      "terre humide",
+      "terre riche",
+      "eau douce"
+    ],
+    "season": [
+      "bourgeonnement",
+      "floraison",
+      "fructification"
+    ],
+    "growthCycle": "vivace",
+    "light": "mi-ombre",
+    "humidity": "forte",
+    "legality": "libre"
+  },
+  "morphology": {
+    "size": "petite",
+    "height": "35 à 90 cm",
+    "width": "20 à 45 cm",
+    "colorMain": "vert profond",
+    "colorSecondary": "rose pâle, blanc crème, brun clair",
+    "distinctiveSigns": [
+      "tige principale fine, droite et souple",
+      "feuilles vertes ondulées et légèrement recourbées",
+      "nervures claires sur les feuilles adultes",
+      "grappes terminales de petites baies roses translucides",
+      "rameaux floraux rosés en éventail",
+      "racines longues et fibreuses veinées de rose",
+      "odeur douce et fraîche quand les feuilles sont froissées"
+    ],
+    "descriptionShort": "L'Ormense est une herbe aromatique humide aux feuilles ondulées et aux baies roses.",
+    "descriptionFull": "L'Ormense pousse près des sources, des berges fraîches et dans les jardins humides. Sa tige fine porte des feuilles vertes ondulées qui dégagent une odeur douce lorsqu'elles sont froissées. Les grappes roses, plus délicates, apparaissent au sommet et donnent à la plante son aspect le plus reconnaissable en saison de fructification."
+  },
+  "danger": {
+    "severity": "inoffensif",
+    "dangerType": [],
+    "exposure": [],
+    "symptoms": [],
+    "notes": "Plante inoffensive pour les êtres vivants."
+  },
+  "harvest": {
+    "difficulty": "facile",
+    "product": {
+      "id": "feuille-ormense",
+      "quantity": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "notes": "// TODO_LINK: à lier plus tard avec l'objet ingrédient feuille-ormense"
+  },
+  "uses": {
+    "knownUses": [
+      "culinaire",
+      "infusion",
+      "medicinale",
+      "parfum",
+      "semis"
+    ],
+    "notes": "Les feuilles et sommités roses peuvent devenir la source de l'ingrédient Ormense prévu dans la liste WIP."
+  },
+  "gm": {
+    "privateNotes": ""
+  }
+}

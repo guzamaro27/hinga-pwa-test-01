@@ -1,0 +1,36 @@
+{
+  "id": "pireuline",
+  "type": "creature-public",
+  "identity": {
+    "name": "Pireuline",
+    "subtitle": "Le métamorphe lunaire",
+    "tags": [
+      "sauvage",
+      "arboricole",
+      "nocturne-remarquable",
+      "magique",
+      "dangereux",
+      "predateur",
+      "chasse",
+      "artisanat"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "La Pireuline vit dans les forêts tempérées et les forêts humides, au sein de zones arboricoles riches en branches, feuillages et cavités naturelles. Elle passe l’essentiel de son temps dans les arbres et se montre surtout active au crépuscule et durant la nuit. En forme diurne, elle reste calme, curieuse et omnivore ; sous l’influence lunaire, elle devient une prédatrice agressive capable de s’attaquer à des proies bien plus grandes qu’elle."
+          },
+          {
+            "text": "La Pireuline est une petite créature aviaire forestière au plumage gris, beige et orange, dotée de très grands yeux et d’une petite crête de plumes dressées au sommet du crâne. Son corps compact et léger lui permet de se déplacer rapidement entre les branches. Sa queue colorée orange et rouge ajoute à son apparence vive et presque inoffensive. Cependant, lorsque la lune apparaît, son corps se transforme brutalement. Sa taille augmente fortement, ses ailes deviennent immenses, ses griffes s’allongent et son plumage s’assombrit, lui donnant une silhouette prédatrice et monstrueuse. Ses yeux deviennent lumineux et son comportement devient extrêmement agressif."
+          },
+          {
+            "text": "La Pireuline vit seule ou en petits groupes familiaux. Les nids sont construits dans les arbres ou installés dans des cavités naturelles. La reproduction se déroule en forme diurne, lorsque la créature est plus calme et moins prédatrice."
+          }
+        ]
+      }
+    ]
+  }
+}

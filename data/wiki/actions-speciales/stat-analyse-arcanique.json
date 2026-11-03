@@ -1,0 +1,69 @@
+{
+  "id": "stat-analyse-arcanique",
+  "type": "codex",
+  "identity": {
+    "name": "Analyse Arcanique",
+    "subtitle": "Action spéciale d’ARC",
+    "icon": "S"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "stat",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Clic droit sur ARC.",
+              "Nécessite la compétence active Analyse Arcanique.",
+              "Action générique de stat spéciale."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Jets",
+        "blocks": [
+          {
+            "title": "Méthode",
+            "items": [
+              "Jet : ARC AV1.",
+              "Catégorie action : actoff.",
+              "Chemin : actions-spéciales/analyse-arcanique."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cartes",
+        "blocks": [
+          {
+            "title": "Interactions",
+            "items": [
+              "Carte d'annonce de l’action.",
+              "Carte de jet de stat.",
+              "Total courant : 2 cartes."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Débouchées",
+        "blocks": [
+          {
+            "title": "Résultats",
+            "items": [
+              "Le moteur ne pose pas d'état automatique dédié.",
+              "Le résultat sert à interpréter l'analyse magique en jeu."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

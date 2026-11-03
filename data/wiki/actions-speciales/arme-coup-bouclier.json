@@ -1,0 +1,57 @@
+{
+  "id": "arme-coup-bouclier",
+  "type": "codex",
+  "identity": {
+    "name": "Coup de bouclier",
+    "subtitle": "Action spéciale d’un bouclier équipé",
+    "icon": "A"
+  },
+  "classification": {
+    "category": "action-speciale",
+    "family": "bouclier",
+    "rarity": "commune"
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Utilisation",
+        "blocks": [
+          {
+            "title": "Conditions",
+            "items": [
+              "Choisissez Donner un coup de bouclier depuis les actions d’arme.",
+              "Le bouclier sélectionné doit être réellement équipé.",
+              "Une cible doit être sélectionnée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Résolution",
+        "blocks": [
+          {
+            "title": "Attaque physique",
+            "items": [
+              "Le coup utilise le profil offensif bouclier_off du bouclier employé.",
+              "La statistique, le coût, la portée, le repoussement et les réactions restent ceux de l’action normale.",
+              "Les défenses disponibles sont celles d’une attaque physique de mêlée."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Maîtrise du Bouclier",
+        "blocks": [
+          {
+            "title": "Bonus de dégâts",
+            "items": [
+              "Au N2 ou N3, le passif actif ajoute +2 au paquet physique principal du coup de bouclier.",
+              "Le bonus est ajouté une seule fois par cible et par résolution, avant le multiplicateur critique.",
+              "Maîtrise du Bouclier ne donne aucun bonus au seuil de l’attaque et ne possède aucun effet critique propre."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

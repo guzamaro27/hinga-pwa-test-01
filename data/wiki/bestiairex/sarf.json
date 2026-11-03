@@ -1,0 +1,31 @@
+{
+  "id": "sarf",
+  "type": "creature-public",
+  "identity": {
+    "name": "Sarf",
+    "subtitle": "Le bovin tacheté",
+    "tags": [
+      "domestique",
+      "elevage",
+      "alimentaire"
+    ]
+  },
+  "codex": {
+    "sections": [
+      {
+        "label": "Encyclopédie",
+        "blocks": [
+          {
+            "text": "Le Sarf vit principalement dans les zones d’élevage, les prairies, les pâturages et les plaines cultivées. Il est l’un des animaux d’élevage les plus répandus et constitue une base importante de nombreuses économies rurales grâce à son lait abondant, sa viande et sa facilité d’entretien. Des spécimens sauvages, plus méfiants et plus massifs, peuvent être rencontrés en périphérie des plaines cultivées."
+          },
+          {
+            "text": "Le Sarf est un grand ongulé robuste à la tête large et plate, prolongée par un museau tout aussi aplati. Sa peau, épaisse et résistante, est presque entièrement nue. Les seules zones couvertes de poils correspondent aux taches visibles sur son corps, donnant l’impression d’un pelage fragmenté. Les femelles possèdent des mamelles larges et pendantes. Les mâles sont généralement plus foncés et présentent une queue légèrement plus courte."
+          },
+          {
+            "text": "Le Sarf vit généralement en troupeau, surtout dans les contextes d’élevage. Les spécimens sauvages sont plus méfiants et plus massifs, tandis que les individus domestiques sont appréciés pour leur docilité et leur facilité d’entretien."
+          }
+        ]
+      }
+    ]
+  }
+}

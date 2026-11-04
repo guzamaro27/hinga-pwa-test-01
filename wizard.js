@@ -25,7 +25,7 @@ Array.from({length:3},(_,i)=>'<div class="wizard-pair"><label>Élément '+(i+1)+
 }else if(key==="competence"){
 html=p?'<p>Choisissez une compétence culturelle autorisée pour '+esc(p.label)+'.</p>'+select("competence",p.competenceIds.map(x=>[x,title(x)]),d.competenceId):'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="heritage"){
-html=p?'<p>Don inné parmi les options propres à votre peuple. Les effets restent descriptifs dans la PWA.</p>'+select("heritage",p.bonuses.map(x=>[x.id+(x.detail?"|"+x.detail:""),title(x.id)+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+'<p class="note">Bonus officiels : double héritage = deux compétences culturelles ; Chance accrue = +5 maximum ; Réserve naturelle = +5 % maximum ; Récupération améliorée = +10 % ; Résistance élémentaire = +10 %.</p>':'<p class="note">Choisissez d’abord un peuple.</p>';
+html=p?'<p>Don inné parmi les options propres à votre peuple. Les effets restent descriptifs dans la PWA.</p>'+select("heritage",p.bonuses.map(x=>[x.id+(x.detail?"|"+x.detail:""),title(x.id)+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+(d.heritageId?.startsWith("sens-aiguise")?'<label>Sens spécialisé</label>'+select("heritage-detail",[["vis","Vue"],["aud","Ouïe"],["olf","Odorat"],["tac","Toucher"],["gus","Goût"],["eso","Ésotérique"]],d.heritageDetail,"Choisir le sens"):"")+'<p class="note">Bonus officiels : double héritage = deux compétences culturelles ; Chance accrue = +5 maximum ; Réserve naturelle = +5 % maximum ; Récupération améliorée = +10 % ; Résistance élémentaire = +10 %.</p>':'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="vocationalGroup"){
 html='<p>Premier groupe vocationnel spécialisé : gratuit. Les compétences ne sont pas attribuées automatiquement.</p>'+select("group",GROUPS,d.primaryVocationalGroupId)+'<label>Compétences disponibles : '+skills.length+'</label><input id="skill-search" placeholder="Rechercher une compétence"><div id="skill-results"></div><div id="skill-selected"></div>';
 }else if(key==="stats"){
@@ -59,6 +59,7 @@ bind('[id^="element-"]',el=>{const i=Number(el.id.split("-")[1]);const id=el.val
 bind('[id^="level-"]',el=>{const i=Number(el.id.split("-")[1]);d.elementSlots[i]??={elementId:"",level:0};d.elementSlots[i].level=Number(el.value)});
 bind("#competence",el=>d.competenceId=el.value);
 bind("#heritage",el=>d.heritageId=el.value);
+bind("#heritage-detail",el=>d.heritageDetail=el.value);
 bind("#group",el=>d.primaryVocationalGroupId=el.value);
 bind("#preset",el=>{d.presetId=el.value;const preset=presets.find(x=>x.id===el.value);if(preset)d.baseStats={...preset.stats}});
 bind("#spirit",el=>d.spiritId=el.value);

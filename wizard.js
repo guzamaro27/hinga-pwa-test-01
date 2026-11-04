@@ -5,8 +5,8 @@ const ELEMENTS=["PLANTE","EAU","FEU","TERRE","METAL","ELECTRICITE","AIR","SON","
 const GROUPS=[["combattant-emerite","Combattant Émérite"],["corps-militaire","Corps Militaire"],["garde-protecteur","Garde Protecteur"],["gardien-de-la-nature","Gardien de la Nature"],["mage-sage","Mage Sage"],["negociateur-diplomatique","Négociateur Diplomatique"],["ombre-rebelle","Ombre Rebelle"],["peregrin-mystique","Pérégrin Mystique"],["scientifique-savant","Scientifique Savant"]];
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const title=id=>String(id??"").replace(/-/g," ").replace(/\b\p{L}/gu,x=>x.toUpperCase());
-let peoples=[];
-export async function loadPeople(){try{const r=await fetch("./data/creation/peuples.json");if(!r.ok)throw Error("Catalogue indisponible");const data=await r.json();if(data.schemaVersion!==1||!Array.isArray(data.peoples))throw Error("Catalogue invalide");peoples=data.peoples.sort((a,b)=>a.label.localeCompare(b.label,"fr"));}catch{peoples=[]}return peoples}
+let peoples=[],presets=[],skills=[],spirits=[];
+export async function loadPeople(){try{const r=await fetch("./data/creation/peuples.json");if(!r.ok)throw Error("Catalogue indisponible");const data=await r.json();if(data.schemaVersion!==1||!Array.isArray(data.peoples))throw Error("Catalogue invalide");peoples=data.peoples.sort((a,b)=>a.label.localeCompare(b.label,"fr"));}catch{peoples=[]}try{const [a,b,m]=await Promise.all([fetch("./data/creation/presets.json"),fetch("./data/creation/skills-index.json"),fetch("./data/wiki/manifest.json")]);if(a.ok)presets=(await a.json()).presets||[];if(b.ok)skills=(await b.json()).skills||[];if(m.ok){const paths=(await m.json()).filter(x=>x.section==="pantheon"&&!x.path.includes("guide-"));const data=await Promise.allSettled(paths.map(async x=>{const r=await fetch("./"+x.path);return r.ok?r.json():null}));spirits=data.filter(x=>x.status==="fulfilled"&&x.value?.type==="pantheon-spirit").map(x=>({id:x.value.id,label:x.value.identity?.name})).filter(x=>x.id&&x.label).sort((a,b)=>a.label.localeCompare(b.label,"fr"))}}catch(e){console.warn("Catalogues indisponibles",e)}return peoples}
 export function renderWizard(host,record,onChange,onClose){
 record.creation??={};const d=record.creation;let step=Number.isInteger(d.wizardStep)?Math.max(0,Math.min(13,d.wizardStep)):0;d.baseStats??=Object.fromEntries(STATS.map(k=>[k,40]));d.elementSlots??=[];d.elementSlots=d.elementSlots.map(x=>x?{elementId:x.elementId||x.id||"",level:Number(x.level)||0}:x);d.traits??=["","","",""];
 const save=()=>onChange(record);const people=()=>peoples.find(p=>p.id===d.peupleId);
@@ -27,9 +27,9 @@ html=p?'<p>Choisissez une compétence culturelle autorisée pour '+esc(p.label)+
 }else if(key==="heritage"){
 html=p?'<p>Don inné parmi les options propres à votre peuple. Les effets restent descriptifs dans la PWA.</p>'+select("heritage",p.bonuses.map(x=>[x.id+(x.detail?"|"+x.detail:""),title(x.id)+(x.detail?" — "+title(x.detail):"")]),d.heritageId):'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="vocationalGroup"){
-html='<p>Premier groupe vocationnel spécialisé : gratuit. Les compétences ne sont pas attribuées automatiquement.</p>'+select("group",GROUPS,d.primaryVocationalGroupId);
+html='<p>Premier groupe vocationnel spécialisé : gratuit. Les compétences ne sont pas attribuées automatiquement.</p>'+select("group",GROUPS,d.primaryVocationalGroupId)+'<label>Compétences disponibles : '+skills.length+'</label><input id="skill-search" placeholder="Rechercher une compétence"><div id="skill-results"></div><div id="skill-selected"></div>';
 }else if(key==="stats"){
-html='<p>Statistiques de base : <strong>'+sum+' / 480</strong> points. Les bonus du peuple restent séparés.</p>'+(sum>480?'<p class="note">Dépassement de '+(sum-480)+' points.</p>':'<p class="note">Solde indicatif : '+(480-sum)+' points.</p>')+
+html='<label>Archétype de statistiques</label>'+select("preset",presets.map(x=>[x.id,x.label]),d.presetId,"Répartition personnalisée")+'<p>Statistiques de base : <strong>'+sum+' / 480</strong> points. Les bonus du peuple restent séparés.</p>'+(sum>480?'<p class="note">Dépassement de '+(sum-480)+' points.</p>':'<p class="note">Solde indicatif : '+(480-sum)+' points.</p>')+
 STATS.map(k=>'<div class="wizard-stat"><label for="stat-'+k+'">'+esc(k.toUpperCase())+'</label><input id="stat-'+k+'" data-stat="'+k+'" type="number" min="0" max="100" step="1" value="'+esc(d.baseStats[k])+'"></div>').join("")+'<button id="balance" type="button">Répartition équilibrée (40 partout)</button>';
 }else if(key==="token"){
 html='<p>La bibliothèque de tokens Foundry n’est pas intégrée à la PWA. Conservez ici une préférence visuelle, sans inventer de fichier.</p>'+field("token","Description du token souhaité",d.tokenDescription);
@@ -38,7 +38,7 @@ html='<p>Valeur de Chance du brouillon (aucun jet Foundry).</p>'+field("chance",
 }else if(key==="age"){
 html=field("age","Âge (narratif)",d.age??"","number");
 }else if(key==="spirits"){
-html='<p>Choix narratif provisoire : les incompatibilités du panthéon ne sont pas encore validées ici.</p>'+field("spirits","Esprits / liens spirituels",d.spirits);
+html='<p>Choix narratif provisoire : les incompatibilités du panthéon ne sont pas encore validées ici.</p>'+select("spirit",spirits.map(x=>[x.id,x.label]),d.spiritId,"Aucun esprit")+field("spirits","Notes spirituelles",d.spirits);
 }else if(key==="traits"){
 html='<p>Trois qualités et un défaut, sans effet automatique.</p>'+["Qualité 1","Qualité 2","Qualité 3","Défaut"].map((x,i)=>field("trait-"+i,x,d.traits[i]||"")).join("");
 }else if(key==="extra"){
@@ -60,11 +60,14 @@ bind('[id^="level-"]',el=>{const i=Number(el.id.split("-")[1]);d.elementSlots[i]
 bind("#competence",el=>d.competenceId=el.value);
 bind("#heritage",el=>d.heritageId=el.value);
 bind("#group",el=>d.primaryVocationalGroupId=el.value);
+bind("#preset",el=>{d.presetId=el.value;const preset=presets.find(x=>x.id===el.value);if(preset)d.baseStats={...preset.stats}});
+bind("#spirit",el=>d.spiritId=el.value);
 bind("[data-stat]",el=>{const n=Number(el.value);if(Number.isInteger(n)&&n>=0&&n<=100)d.baseStats[el.dataset.stat]=n});
 bind("#token",el=>d.tokenDescription=el.value);
 bind("#chance",el=>d.chance=el.value===""?"":Number(el.value));
 bind("#age",el=>d.age=el.value===""?"":Number(el.value));
 bind("#spirits",el=>d.spirits=el.value);
+const search=host.querySelector("#skill-search");if(search){d.selectedSkillIds??=[];const results=host.querySelector("#skill-results"),selected=host.querySelector("#skill-selected");function draw(){const q=search.value.trim().toLocaleLowerCase("fr");selected.textContent=d.selectedSkillIds.map(id=>skills.find(x=>x.id===id)?.name||id).join(" · ")||"Aucune compétence sélectionnée";results.replaceChildren();if(q.length<2){results.textContent="Saisissez deux caractères.";return}for(const sk of skills.filter(x=>x.name.toLocaleLowerCase("fr").includes(q)).slice(0,20)){const b=document.createElement("button");b.type="button";b.className="tab";b.style.margin="3px";b.textContent=(d.selectedSkillIds.includes(sk.id)?"✓ ":"＋ ")+sk.name;b.onclick=()=>{if(d.selectedSkillIds.includes(sk.id))d.selectedSkillIds=d.selectedSkillIds.filter(id=>id!==sk.id);else d.selectedSkillIds.push(sk.id);save();draw()};results.append(b)}}search.oninput=draw;draw()}
 bind('[id^="trait-"]',el=>d.traits[Number(el.id.split("-")[1])]=el.value);
 bind("#extra",el=>d.extra=el.value);
 bind("#name",el=>record.name=el.value);

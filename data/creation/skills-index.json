@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 1,
+  "source": "module/engine/competences/registry.mjs",
+  "skills": [
+    {
+      "id": "acrobaties-urbaines",
+      "name": "Acrobaties Urbaines",
+      "sourcePath": "module/engine/competences/acrobaties-urbaines/acrobaties-urbaines.json"
+    },
+    {
+      "id": "agent-du-chaos",
+      "name": "Agent du Chaos",
+      "sourcePath": "module/engine/competences/agent-du-chaos/agent-du-chaos.json"
+    },
+    {
+      "id": "affinement-sensoriel",
+      "name": "Affinement Sensoriel",
+      "sourcePath": "module/engine/competences/affinement-sensoriel/affinement-sensoriel.json"
+    },
+    {
+      "id": "alchimie-de-terrain",
+      "name": "Alchimie de Terrain",
+      "sourcePath": "module/engine/competences/alchimie-de-terrain/alchimie-de-terrain.json"
+    },
+    {
+      "id": "alteration-magique",
+      "name": "Altération Magique",
+      "sourcePath": "module/engine/competences/alteration-magique/alteration-magique.json"
+    },
+    {
+      "id": "alteration-mentale",
+      "name": "Altération Mentale",
+      "sourcePath": "module/engine/competences/alteration-mentale/alteration-mentale.json"
+    },
+    {
+      "id": "alteration-physique",
+      "name": "Altération Physique",
+      "sourcePath": "module/engine/competences/alteration-physique/alteration-physique.json"
+    },
+    {
+      "id": "analyse-arcanique",
+      "name": "Analyse Arcanique",
+      "sourcePath": "module/engine/competences/analyse-arcanique/analyse-arcanique.json"
+    },
+    {
+      "id": "analyse-chimique",
+      "name": "Analyse Chimique",
+      "sourcePath": "module/engine/competences/analyse-chimique/analyse-chimique.json"
+    },
+    {
+      "id": "analyse-structurale",
+      "name": "Analyse Structurale",
+      "sourcePath": "module/engine/competences/analyse-structurale/analyse-structurale.json"
+    },
+    {
+      "id": "ancrage-mental",
+      "name": "Ancrage Mental",
+      "sourcePath": "module/engine/competences/ancrage-mental/ancrage-mental.json"
+    },
+    {
+      "id": "ancre-d-existence-invoquee",
+      "name": "Ancre d’Existence Invoquée",
+      "sourcePath": "module/engine/competences/ancre-d-existence-invoquee/ancre-d-existence-invoquee.json"
+    },
+    {
+      "id": "anticipation-parfaite",
+      "name": "Anticipation Parfaite",
+      "sourcePath": "module/engine/competences/anticipation-parfaite/anticipation-parfaite.json"
+    },
+    {
+      "id": "antidote-arcanique",
+      "name": "Antidote Arcanique",
+      "sourcePath": "module/engine/competences/antidote-arcanique/antidote-arcanique.json"
+    },
+    {
+      "id": "antidote-basique",
+      "name": "Antidote Basique",
+      "sourcePath": "module/engine/competences/antidote-basique/antidote-basique.json"
+    },
+    {
+      "id": "appel-des-plans-lointains",
+      "name": "Appel des Plans Lointains",
+      "sourcePath": "module/engine/competences/appel-des-plans-lointains/appel-des-plans-lointains.json"
+    },
+    {
+      "id": "armure-magique",
+      "name": "Armure Magique",
+      "sourcePath": "module/engine/competences/armure-magique/armure-magique.json"
+    },
+    {
+      "id": "ascendance-spirituelle",
+      "name": "Ascendance Spirituelle",
+      "sourcePath": "module/engine/competences/ascendance-spirituelle/ascendance-spirituelle.json"
+    },
+    {
+      "id": "attirance-bestiale",
+      "name": "Attirance Bestiale",
+      "sourcePath": "module/engine/competences/attirance-bestiale/attirance-bestiale.json"
+    },
+    {
+      "id": "aura-dinspiration",
+      "name": "Aura d’Inspiration",
+      "sourcePath": "module/engine/competences/aura-dinspiration/aura-dinspiration.json"
+    },
+    {
+      "id": "aura-protectrice-couverture",
+      "name": "Aura Protectrice (Couverture)",
+      "sourcePath": "module/engine/competences/aura-protectrice-couverture/aura-protectrice-couverture.json"
+    },
+    {
+      "id": "aura-protectrice-sanctuaire",
+      "name": "Aura Protectrice (Sanctuaire)",
+      "sourcePath": "module/engine/competences/aura-protectrice-sanctuaire/aura-protectrice-sanctuaire.json"
+    },
+    {
+      "id": "autorite-de-lapotre",
+      "name": "Autorité de l’Apôtre",
+      "sourcePath": "module/engine/competences/autorite-de-lapotre/autorite-de-lapotre.json"
+    },
+    {
+      "id": "barriere-elementaire",
+      "name": "Barrière Élémentaire",
+      "sourcePath": "module/engine/competences/barriere-elementaire/barriere-elementaire.json"
+    },
+    {
+      "id": "barriere-intimidante",
+      "name": "Barrière Intimidante",
+      "sourcePath": "module/engine/competences/barriere-intimidante/barriere-intimidante.json"
+    },
+    {
+      "id": "bastion-inebranlable",
+      "name": "Bastion Inébranlable",
+      "sourcePath": "module/engine/competences/bastion-inebranlable/bastion-inebranlable.json"
+    },
+    {
+      "id": "benediction-rayonnante",
+      "name": "Bénédiction Rayonnante",
+      "sourcePath": "module/engine/competences/benediction-rayonnante/benediction-rayonnante.json"
+    },
+    {
+      "id": "bouclier-du-croyant",
+      "name": "Bouclier du Croyant",
+      "sourcePath": "module/engine/competences/bouclier-du-croyant/bouclier-du-croyant.json"
+    },
+    {
+      "id": "bouclier-solidaire",
+      "name": "Bouclier Solidaire",
+      "sourcePath": "module/engine/competences/bouclier-solidaire/bouclier-solidaire.json"
+    },
+    {
+      "id": "bouclier-tactique",
+      "name": "Bouclier Tactique",
+      "sourcePath": "module/engine/competences/bouclier-tactique/bouclier-tactique.json"
+    },
+    {
+      "id": "cantique-divinatoire",
+      "name": "Cantique Divinatoire",
+      "sourcePath": "module/engine/competences/cantique-divinatoire/cantique-divinatoire.json"
+    },
+    {
+      "id": "cartographie-mystique",
+      "name": "Cartographie Mystique",
+      "sourcePath": "module/engine/competences/cartographie-mystique/cartographie-mystique.json"
+    },
+    {
+      "id": "captation-du-flux",
+      "name": "Captation du Flux",
+      "sourcePath": "module/engine/competences/captation-du-flux/captation-du-flux.json"
+    },
+    {
+      "id": "cercle-invocation-primordial",
+      "name": "Cercle d’Invocation Primordial",
+      "sourcePath": "module/engine/competences/cercle-invocation-primordial/cercle-invocation-primordial.json"
+    },
+    {
+      "id": "commande-spirituelle",
+      "name": "Commande Spirituelle",
+      "sourcePath": "module/engine/competences/commande-spirituelle/commande-spirituelle.json"
+    },
+    {
+      "id": "commandement-inspirant",
+      "name": "Commandement Inspirant",
+      "sourcePath": "module/engine/competences/commandement-inspirant/commandement-inspirant.json"
+    },
+    {
+      "id": "confluence-arcanique",
+      "name": "Confluence Arcanique",
+      "sourcePath": "module/engine/competences/confluence-arcanique/confluence-arcanique.json"
+    },
+    {
+      "id": "connaissance-des-creatures",
+      "name": "Connaissance des Créatures",
+      "sourcePath": "module/engine/competences/connaissance-des-creatures/connaissance-des-creatures.json"
+    },
+    {
+      "id": "coordination-tactique",
+      "name": "Coordination Tactique",
+      "sourcePath": "module/engine/competences/coordination-tactique/coordination-tactique.json"
+    },
+    {
+      "id": "coup-dopportunite",
+      "name": "Coup d’Opportunité",
+      "sourcePath": "module/engine/competences/coup-dopportunite/coup-dopportunite.json"
+    },
+    {
+      "id": "cryptographie-avancee",
+      "name": "Cryptographie Avancée",
+      "sourcePath": "module/engine/competences/cryptographie-avancee/cryptographie-avancee.json"
+    },
+    {
+      "id": "danse-des-elyth",
+      "name": "Danse des Elyth",
+      "sourcePath": "module/engine/competences/danse-des-elyth/danse-des-elyth.json"
+    },
+    {
+      "id": "dechiffrage-occulte",
+      "name": "Déchiffrage Occulte",
+      "sourcePath": "module/engine/competences/dechiffrage-occulte/dechiffrage-occulte.json"
+    },
+    {
+      "id": "desarmement-strategique",
+      "name": "Désarmement Stratégique",
+      "sourcePath": "module/engine/competences/desarmement-strategique/desarmement-strategique.json"
+    },
+    {
+      "id": "deviation-totale",
+      "name": "Déviation Totale",
+      "sourcePath": "module/engine/competences/deviation-totale/deviation-totale.json"
+    },
+    {
+      "id": "discours-celeste",
+      "name": "Discours Céleste",
+      "sourcePath": "module/engine/competences/discours-celeste/discours-celeste.json"
+    },
+    {
+      "id": "dissolution-spectrale",
+      "name": "Dissolution Spectrale",
+      "sourcePath": "module/engine/competences/dissolution-spectrale/dissolution-spectrale.json"
+    },
+    {
+      "id": "distorsion-illusoire",
+      "name": "Distorsion Illusoire",
+      "sourcePath": "module/engine/competences/distorsion-illusoire/distorsion-illusoire.json"
+    },
+    {
+      "id": "divination-pragmatique",
+      "name": "Divination Pragmatique",
+      "sourcePath": "module/engine/competences/divination-pragmatique/divination-pragmatique.json"
+    },
+    {
+      "id": "echo-conjuratoire",
+      "name": "Écho Conjuratoire",
+      "sourcePath": "module/engine/competences/echo-conjuratoire/echo-conjuratoire.json"
+    },
+    {
+      "id": "egide-invoquee",
+      "name": "Égide Invoquée",
+      "sourcePath": "module/engine/competences/egide-invoquee/egide-invoquee.json"
+    },
+    {
+      "id": "eloquence-sacree",
+      "name": "Éloquence Sacrée",
+      "sourcePath": "module/engine/competences/eloquence-sacree/eloquence-sacree.json"
+    },
+    {
+      "id": "empathie-subtile",
+      "name": "Empathie Subtile",
+      "sourcePath": "module/engine/competences/empathie-subtile/empathie-subtile.json"
+    },
+    {
+      "id": "empreinte-residuelle",
+      "name": "Empreinte Résiduelle",
+      "sourcePath": "module/engine/competences/empreinte-residuelle/empreinte-residuelle.json"
+    },
+    {
+      "id": "enchantement-arcanique",
+      "name": "Enchantement Arcanique",
+      "sourcePath": "module/engine/competences/enchantement-arcanique/enchantement-arcanique.json"
+    },
+    {
+      "id": "endurance-guerriere",
+      "name": "Endurance Guerrière",
+      "sourcePath": "module/engine/competences/endurance-guerriere/endurance-guerriere.json"
+    },
+    {
+      "id": "endurance-robuste",
+      "name": "Endurance Robuste",
+      "sourcePath": "module/engine/competences/endurance-robuste/endurance-robuste.json"
+    },
+    {
+      "id": "egide-esoterique",
+      "name": "Égide ésotérique",
+      "sourcePath": "module/engine/competences/egide-esoterique/egide-esoterique.json"
+    },
+    {
+      "id": "environnement-altitude",
+      "name": "Environnement - Altitude",
+      "sourcePath": "module/engine/competences/environnement-altitude/environnement-altitude.json"
+    },
+    {
+      "id": "environnement-aquatique",
+      "name": "Environnement - Aquatique",
+      "sourcePath": "module/engine/competences/environnement-aquatique/environnement-aquatique.json"
+    },
+    {
+      "id": "environnement-forets-densite-vegetale",
+      "name": "Environnement - Forêts & Densité Végétale",
+      "sourcePath": "module/engine/competences/environnement-forets-densite-vegetale/environnement-forets-densite-vegetale.json"
+    },
+    {
+      "id": "environnement-souterrains",
+      "name": "Environnement - Souterrains",
+      "sourcePath": "module/engine/competences/environnement-souterrains/environnement-souterrains.json"
+    },
+    {
+      "id": "environnement-terrains-hostiles",
+      "name": "Environnement - Terrains Hostiles",
+      "sourcePath": "module/engine/competences/environnement-terrains-hostiles/environnement-terrains-hostiles.json"
+    },
+    {
+      "id": "environnement-zones-urbanisees",
+      "name": "Environnement - Zones Urbanisées",
+      "sourcePath": "module/engine/competences/environnement-zones-urbanisees/environnement-zones-urbanisees.json"
+    },
+    {
+      "id": "etiquette-diplomatique",
+      "name": "Étiquette Diplomatique",
+      "sourcePath": "module/engine/competences/etiquette-diplomatique/etiquette-diplomatique.json"
+    },
+    {
+      "id": "eveil-aux-sylphes",
+      "name": "Éveil aux Sylphes",
+      "sourcePath": "module/engine/competences/eveil-aux-sylphes/eveil-aux-sylphes.json"
+    },
+    {
+      "id": "excommunication-anatheme",
+      "name": "Excommunication Anathème",
+      "sourcePath": "module/engine/competences/excommunication-anatheme/excommunication-anatheme.json"
+    },
+    {
+      "id": "extraction-vestigiale",
+      "name": "Extraction Vestigiale",
+      "sourcePath": "module/engine/competences/extraction-vestigiale/extraction-vestigiale.json"
+    },
+    {
+      "id": "faille-decisive",
+      "name": "Faille Décisive",
+      "sourcePath": "module/engine/competences/faille-decisive/faille-decisive.json"
+    },
+    {
+      "id": "faveur-de-la-destinee",
+      "name": "Faveur de la Destinée",
+      "sourcePath": "module/engine/competences/faveur-de-la-destinee/faveur-de-la-destinee.json"
+    },
+    {
+      "id": "feu-concentre",
+      "name": "Feu Concentré",
+      "sourcePath": "module/engine/competences/feu-concentre/feu-concentre.json"
+    },
+    {
+      "id": "filature-fantome",
+      "name": "Filature Fantôme",
+      "sourcePath": "module/engine/competences/filature-fantome/filature-fantome.json"
+    },
+    {
+      "id": "filtre-de-realite",
+      "name": "Filtre de Réalité",
+      "sourcePath": "module/engine/competences/filtre-de-realite/filtre-de-realite.json"
+    },
+    {
+      "id": "flamme-sacree",
+      "name": "Flamme Sacrée",
+      "sourcePath": "module/engine/competences/flamme-sacree/flamme-sacree.json"
+    },
+    {
+      "id": "fleau-des-heretiques",
+      "name": "Fléau des Hérétiques",
+      "sourcePath": "module/engine/competences/fleau-des-heretiques/fleau-des-heretiques.json"
+    },
+    {
+      "id": "forteresse-mentale",
+      "name": "Forteresse Mentale",
+      "sourcePath": "module/engine/competences/forteresse-mentale/forteresse-mentale.json"
+    },
+    {
+      "id": "frappe-coordonnee",
+      "name": "Frappe Coordonnée",
+      "sourcePath": "module/engine/competences/frappe-coordonnee/frappe-coordonnee.json"
+    },
+    {
+      "id": "frappe-silencieuse",
+      "name": "Frappe Silencieuse",
+      "sourcePath": "module/engine/competences/frappe-silencieuse/frappe-silencieuse.json"
+    },
+    {
+      "id": "furtivite-urbaine",
+      "name": "Furtivité Urbaine",
+      "sourcePath": "module/engine/competences/furtivite-urbaine/furtivite-urbaine.json"
+    },
+    {
+      "id": "fureur-conjuree",
+      "name": "Fureur Conjurée",
+      "sourcePath": "module/engine/competences/fureur-conjuree/fureur-conjuree.json"
+    },
+    {
+      "id": "fusion-spirituelle",
+      "name": "Fusion Spirituelle",
+      "sourcePath": "module/engine/competences/fusion-spirituelle/fusion-spirituelle.json"
+    },
+    {
+      "id": "grace-intacte",
+      "name": "Grâce Intacte",
+      "sourcePath": "module/engine/competences/grace-intacte/grace-intacte.json"
+    },
+    {
+      "id": "grip-sur",
+      "name": "Grip sûr",
+      "sourcePath": "module/engine/competences/grip-sur/grip-sur.json"
+    },
+    {
+      "id": "histoire-vivante",
+      "name": "Histoire Vivante",
+      "sourcePath": "module/engine/competences/histoire-vivante/histoire-vivante.json"
+    },
+    {
+      "id": "horizon-expanse",
+      "name": "Horizon Expansé",
+      "sourcePath": "module/engine/competences/horizon-expanse/horizon-expanse.json"
+    },
+    {
+      "id": "hurlement-effrayant",
+      "name": "Hurlement Effrayant",
+      "sourcePath": "module/engine/competences/hurlement-effrayant/hurlement-effrayant.json"
+    },
+    {
+      "id": "hypnose-de-confiance",
+      "name": "Hypnose de Confiance",
+      "sourcePath": "module/engine/competences/hypnose-de-confiance/hypnose-de-confiance.json"
+    },
+    {
+      "id": "improvisation-martiale",
+      "name": "Improvisation Martiale",
+      "sourcePath": "module/engine/competences/improvisation-martiale/improvisation-martiale.json"
+    },
+    {
+      "id": "influence-psychique",
+      "name": "Influence Psychique",
+      "sourcePath": "module/engine/competences/influence-psychique/influence-psychique.json"
+    },
+    {
+      "id": "infusion-alchimique",
+      "name": "Infusion Alchimique",
+      "sourcePath": "module/engine/competences/infusion-alchimique/infusion-alchimique.json"
+    },
+    {
+      "id": "ingenierie-appliquee",
+      "name": "Ingénierie Appliquée",
+      "sourcePath": "module/engine/competences/ingenierie-appliquee/ingenierie-appliquee.json"
+    },
+    {
+      "id": "instinct-de-predateur",
+      "name": "Instinct de Prédateur",
+      "sourcePath": "module/engine/competences/instinct-de-predateur/instinct-de-predateur.json"
+    },
+    {
+      "id": "invocations-residuelles-vengeresses",
+      "name": "Invocations Résiduelles Vengeresses",
+      "sourcePath": "module/engine/competences/invocations-residuelles-vengeresses/invocations-residuelles-vengeresses.json"
+    },
+    {
+      "id": "jugement-arme",
+      "name": "Jugement Armé",
+      "sourcePath": "module/engine/competences/jugement-arme/jugement-arme.json"
+    },
+    {
+      "id": "jugement-tactique",
+      "name": "Jugement Tactique",
+      "sourcePath": "module/engine/competences/jugement-tactique/jugement-tactique.json"
+    },
+    {
+      "id": "langage-animalier",
+      "name": "Langage Animalier",
+      "sourcePath": "module/engine/competences/langage-animalier/langage-animalier.json"
+    },
+    {
+      "id": "lien-rituel-demonique",
+      "name": "Lien Rituel Démonique",
+      "sourcePath": "module/engine/competences/lien-rituel-demonique/lien-rituel-demonique.json"
+    },
+    {
+      "id": "lien-runique",
+      "name": "Lien Runique",
+      "sourcePath": "module/engine/competences/lien-runique/lien-runique.json"
+    },
+    {
+      "id": "lingua-falsa",
+      "name": "Lingua Falsa",
+      "sourcePath": "module/engine/competences/lingua-falsa/lingua-falsa.json"
+    },
+    {
+      "id": "main-de-l-ombre",
+      "name": "Main de l'Ombre",
+      "sourcePath": "module/engine/competences/main-de-l-ombre/main-de-l-ombre.json"
+    },
+    {
+      "id": "main-forte",
+      "name": "Main Forte",
+      "sourcePath": "module/engine/competences/main-forte/main-forte.json"
+    },
+    {
+      "id": "marche-inexorable",
+      "name": "Marche Inexorable",
+      "sourcePath": "module/engine/competences/marche-inexorable/marche-inexorable.json"
+    },
+    {
+      "id": "melee-implacable",
+      "name": "Mêlée Implacable",
+      "sourcePath": "module/engine/competences/melee-implacable/melee-implacable.json"
+    },
+    {
+      "id": "maitre-de-levasion",
+      "name": "Maître de l’Évasion",
+      "sourcePath": "module/engine/competences/maitre-de-levasion/maitre-de-levasion.json"
+    },
+    {
+      "id": "maitrise-de-l-arc",
+      "name": "Maîtrise de l'Arc",
+      "sourcePath": "module/engine/competences/maitrise-de-l-arc/maitrise-de-l-arc.json"
+    },
+    {
+      "id": "maitrise-de-la-dague",
+      "name": "Maîtrise de la Dague",
+      "sourcePath": "module/engine/competences/maitrise-de-la-dague/maitrise-de-la-dague.json"
+    },
+    {
+      "id": "maitrise-de-la-hache",
+      "name": "Maîtrise de la Hache",
+      "sourcePath": "module/engine/competences/maitrise-de-la-hache/maitrise-de-la-hache.json"
+    },
+    {
+      "id": "maitrise-de-la-lance",
+      "name": "Maîtrise de la Lance",
+      "sourcePath": "module/engine/competences/maitrise-de-la-lance/maitrise-de-la-lance.json"
+    },
+    {
+      "id": "maitrise-de-la-masse",
+      "name": "Maîtrise de la Masse",
+      "sourcePath": "module/engine/competences/maitrise-de-la-masse/maitrise-de-la-masse.json"
+    },
+    {
+      "id": "maitrise-de-larmure",
+      "name": "Maîtrise de l’Armure",
+      "sourcePath": "module/engine/competences/maitrise-de-larmure/maitrise-de-larmure.json"
+    },
+    {
+      "id": "maitrise-de-lepee",
+      "name": "Maîtrise de l’Épée",
+      "sourcePath": "module/engine/competences/maitrise-de-lepee/maitrise-de-lepee.json"
+    },
+    {
+      "id": "maitrise-du-revetement",
+      "name": "Maîtrise du Revêtement",
+      "sourcePath": "module/engine/competences/maitrise-du-revetement/maitrise-du-revetement.json"
+    },
+    {
+      "id": "maitrise-du-bouclier",
+      "name": "Maîtrise du Bouclier",
+      "sourcePath": "module/engine/competences/maitrise-du-bouclier/maitrise-du-bouclier.json"
+    },
+    {
+      "id": "maitrise-du-baton",
+      "name": "Maîtrise du Bâton",
+      "sourcePath": "module/engine/competences/maitrise-du-baton/maitrise-du-baton.json"
+    },
+    {
+      "id": "maitrise-du-corps-a-corps",
+      "name": "Maîtrise du Corps à Corps",
+      "sourcePath": "module/engine/competences/maitrise-du-corps-a-corps/maitrise-du-corps-a-corps.json"
+    },
+    {
+      "id": "maitrise-du-fouet",
+      "name": "Maîtrise du Fouet",
+      "sourcePath": "module/engine/competences/maitrise-du-fouet/maitrise-du-fouet.json"
+    },
+    {
+      "id": "manipulation-subtile",
+      "name": "Manipulation Subtile",
+      "sourcePath": "module/engine/competences/manipulation-subtile/manipulation-subtile.json"
+    },
+    {
+      "id": "marque-du-chasseur",
+      "name": "Marque du Chasseur",
+      "sourcePath": "module/engine/competences/marque-du-chasseur/marque-du-chasseur.json"
+    },
+    {
+      "id": "memoire-eidetique",
+      "name": "Mémoire Eidétique",
+      "sourcePath": "module/engine/competences/memoire-eidetique/memoire-eidetique.json"
+    },
+    {
+      "id": "metabolisme-tenace",
+      "name": "Métabolisme Tenace",
+      "sourcePath": "module/engine/competences/metabolisme-tenace/metabolisme-tenace.json"
+    },
+    {
+      "id": "mutation-elementaire",
+      "name": "Mutation Élémentaire",
+      "sourcePath": "module/engine/competences/mutation-elementaire/mutation-elementaire.json"
+    },
+    {
+      "id": "mimetisme-cryptique",
+      "name": "Mimétisme Cryptique",
+      "sourcePath": "module/engine/competences/mimetisme-cryptique/mimetisme-cryptique.json"
+    },
+    {
+      "id": "mur-mobile",
+      "name": "Mur Mobile",
+      "sourcePath": "module/engine/competences/mur-mobile/mur-mobile.json"
+    },
+    {
+      "id": "nexus-dephase",
+      "name": "Nexus Déphasé",
+      "sourcePath": "module/engine/competences/nexus-dephase/nexus-dephase.json"
+    },
+    {
+      "id": "ombre-sauvage",
+      "name": "Ombre Sauvage",
+      "sourcePath": "module/engine/competences/ombre-sauvage/ombre-sauvage.json"
+    },
+    {
+      "id": "orateur-inspire",
+      "name": "Orateur Inspiré",
+      "sourcePath": "module/engine/competences/orateur-inspire/orateur-inspire.json"
+    },
+    {
+      "id": "parfum-sauvage",
+      "name": "Parfum Sauvage",
+      "sourcePath": "module/engine/competences/parfum-sauvage/parfum-sauvage.json"
+    },
+    {
+      "id": "parole-doracle",
+      "name": "Parole d’Oracle",
+      "sourcePath": "module/engine/competences/parole-doracle/parole-doracle.json"
+    },
+    {
+      "id": "peau-impenetrable",
+      "name": "Peau Impénétrable",
+      "sourcePath": "module/engine/competences/peau-impenetrable/peau-impenetrable.json"
+    },
+    {
+      "id": "perception-superieure",
+      "name": "Perception Supérieure",
+      "sourcePath": "module/engine/competences/perception-superieure/perception-superieure.json"
+    },
+    {
+      "id": "persuasion-rationnelle",
+      "name": "Persuasion Rationnelle",
+      "sourcePath": "module/engine/competences/persuasion-rationnelle/persuasion-rationnelle.json"
+    },
+    {
+      "id": "piegeage-arcanique",
+      "name": "Piégeage Arcanique",
+      "sourcePath": "module/engine/competences/piegeage-arcanique/piegeage-arcanique.json"
+    },
+    {
+      "id": "portee-extravagante",
+      "name": "Portée extravagante",
+      "sourcePath": "module/engine/competences/portee-extravagante/portee-extravagante.json"
+    },
+    {
+      "id": "piegeur-ingenieux",
+      "name": "Piégeur Ingénieux",
+      "sourcePath": "module/engine/competences/piegeur-ingenieux/piegeur-ingenieux.json"
+    },
+    {
+      "id": "pisteur-attentif",
+      "name": "Pisteur Attentif",
+      "sourcePath": "module/engine/competences/pisteur-attentif/pisteur-attentif.json"
+    },
+    {
+      "id": "pilier-ancrage",
+      "name": "Pilier d’Ancrage",
+      "sourcePath": "module/engine/competences/pilier-ancrage/pilier-ancrage.json"
+    },
+    {
+      "id": "pirate-insoumis",
+      "name": "Pirate Insoumis",
+      "sourcePath": "module/engine/competences/pirate-insoumis/pirate-insoumis.json"
+    },
+    {
+      "id": "polygraphe-mental",
+      "name": "Polygraphe Mental",
+      "sourcePath": "module/engine/competences/polygraphe-mental/polygraphe-mental.json"
+    },
+    {
+      "id": "polyphonie-conjuratoire",
+      "name": "Polyphonie Conjuratoire",
+      "sourcePath": "module/engine/competences/polyphonie-conjuratoire/polyphonie-conjuratoire.json"
+    },
+    {
+      "id": "porteur-du-halo",
+      "name": "Porteur du Halo",
+      "sourcePath": "module/engine/competences/porteur-du-halo/porteur-du-halo.json"
+    },
+    {
+      "id": "premier-secours",
+      "name": "Premier Secours",
+      "sourcePath": "module/engine/competences/premier-secours/premier-secours.json"
+    },
+    {
+      "id": "preparation-silencieuse",
+      "name": "Préparation Silencieuse",
+      "sourcePath": "module/engine/competences/preparation-silencieuse/preparation-silencieuse.json"
+    },
+    {
+      "id": "prevision-instinctive",
+      "name": "Prévision Instinctive",
+      "sourcePath": "module/engine/competences/prevision-instinctive/prevision-instinctive.json"
+    },
+    {
+      "id": "priere-de-resilience",
+      "name": "Prière de Résilience",
+      "sourcePath": "module/engine/competences/priere-de-resilience/priere-de-resilience.json"
+    },
+    {
+      "id": "profilage-intellectuel",
+      "name": "Profilage Intellectuel",
+      "sourcePath": "module/engine/competences/profilage-intellectuel/profilage-intellectuel.json"
+    },
+    {
+      "id": "prophetie-dinstant",
+      "name": "Prophétie d’Instant",
+      "sourcePath": "module/engine/competences/prophetie-dinstant/prophetie-dinstant.json"
+    },
+    {
+      "id": "protection-purificatrice",
+      "name": "Protection Purificatrice",
+      "sourcePath": "module/engine/competences/protection-purificatrice/protection-purificatrice.json"
+    },
+    {
+      "id": "puissance-arcanique",
+      "name": "Puissance Arcanique",
+      "sourcePath": "module/engine/competences/puissance-arcanique/puissance-arcanique.json"
+    },
+    {
+      "id": "rage-de-la-nature",
+      "name": "Rage de la Nature",
+      "sourcePath": "module/engine/competences/rage-de-la-nature/rage-de-la-nature.json"
+    },
+    {
+      "id": "recuperation-passive",
+      "name": "Récupération Passive",
+      "sourcePath": "module/engine/competences/recuperation-passive/recuperation-passive.json"
+    },
+    {
+      "id": "replica-arcana",
+      "name": "Replica Arcana",
+      "sourcePath": "module/engine/competences/replica-arcana/replica-arcana.json"
+    },
+    {
+      "id": "reflexe-du-gardien",
+      "name": "Réflexe du Gardien",
+      "sourcePath": "module/engine/competences/reflexe-du-gardien/reflexe-du-gardien.json"
+    },
+    {
+      "id": "refuge-mental",
+      "name": "Refuge Mental",
+      "sourcePath": "module/engine/competences/refuge-mental/refuge-mental.json"
+    },
+    {
+      "id": "regard-de-laugure",
+      "name": "Regard de l’Augure",
+      "sourcePath": "module/engine/competences/regard-de-laugure/regard-de-laugure.json"
+    },
+    {
+      "id": "rempart-de-flux",
+      "name": "Rempart de Flux",
+      "sourcePath": "module/engine/competences/rempart-de-flux/rempart-de-flux.json"
+    },
+    {
+      "id": "rempart-de-la-foi",
+      "name": "Rempart de la Foi",
+      "sourcePath": "module/engine/competences/rempart-de-la-foi/rempart-de-la-foi.json"
+    },
+    {
+      "id": "rempart-protecteur",
+      "name": "Rempart Protecteur",
+      "sourcePath": "module/engine/competences/rempart-protecteur/rempart-protecteur.json"
+    },
+    {
+      "id": "renaissance-spirituelle",
+      "name": "Renaissance Spirituelle",
+      "sourcePath": "module/engine/competences/renaissance-spirituelle/renaissance-spirituelle.json"
+    },
+    {
+      "id": "renforcement-rythmique",
+      "name": "Renforcement Rythmique",
+      "sourcePath": "module/engine/competences/renforcement-rythmique/renforcement-rythmique.json"
+    },
+    {
+      "id": "resilience-antitoxine",
+      "name": "Résilience Antitoxine",
+      "sourcePath": "module/engine/competences/resilience-antitoxine/resilience-antitoxine.json"
+    },
+    {
+      "id": "resistance-acharnee",
+      "name": "Résistance Acharnée",
+      "sourcePath": "module/engine/competences/resistance-acharnee/resistance-acharnee.json"
+    },
+    {
+      "id": "retour-de-piste",
+      "name": "Retour de Piste",
+      "sourcePath": "module/engine/competences/retour-de-piste/retour-de-piste.json"
+    },
+    {
+      "id": "riposte-tactique",
+      "name": "Riposte Tactique",
+      "sourcePath": "module/engine/competences/riposte-tactique/riposte-tactique.json"
+    },
+    {
+      "id": "ronde-des-sylphes",
+      "name": "Ronde des Sylphes",
+      "sourcePath": "module/engine/competences/ronde-des-sylphes/ronde-des-sylphes.json"
+    },
+    {
+      "id": "rythme-de-combat",
+      "name": "Rythme de Combat",
+      "sourcePath": "module/engine/competences/rythme-de-combat/rythme-de-combat.json"
+    },
+    {
+      "id": "saboteur-des-ombres",
+      "name": "Saboteur des Ombres",
+      "sourcePath": "module/engine/competences/saboteur-des-ombres/saboteur-des-ombres.json"
+    },
+    {
+      "id": "sanctuaire-de-l-ame",
+      "name": "Sanctuaire de l'Âme",
+      "sourcePath": "module/engine/competences/sanctuaire-de-l-ame/sanctuaire-de-l-ame.json"
+    },
+    {
+      "id": "sanctuaire-divin",
+      "name": "Sanctuaire Divin",
+      "sourcePath": "module/engine/competences/sanctuaire-divin/sanctuaire-divin.json"
+    },
+    {
+      "id": "sanctuaire-sauvage",
+      "name": "Sanctuaire Sauvage",
+      "sourcePath": "module/engine/competences/sanctuaire-sauvage/sanctuaire-sauvage.json"
+    },
+    {
+      "id": "savoir-thanatomique",
+      "name": "Savoir Thanatomique",
+      "sourcePath": "module/engine/competences/savoir-thanatomique/savoir-thanatomique.json"
+    },
+    {
+      "id": "scenographie-deductive",
+      "name": "Scénographie Déductive",
+      "sourcePath": "module/engine/competences/scenographie-deductive/scenographie-deductive.json"
+    },
+    {
+      "id": "semeur-d-esprits",
+      "name": "Semeur d’Esprits",
+      "sourcePath": "module/engine/competences/semeur-d-esprits/semeur-d-esprits.json"
+    },
+    {
+      "id": "sentinelle-eclairee",
+      "name": "Sentinelle Éclairée",
+      "sourcePath": "module/engine/competences/sentinelle-eclairee/sentinelle-eclairee.json"
+    },
+    {
+      "id": "serenite-du-devot",
+      "name": "Sérénité du Dévot",
+      "sourcePath": "module/engine/competences/serenite-du-devot/serenite-du-devot.json"
+    },
+    {
+      "id": "soin-magique",
+      "name": "Soin Magique",
+      "sourcePath": "module/engine/competences/soin-magique/soin-magique.json"
+    },
+    {
+      "id": "soin-mental",
+      "name": "Soin Mental",
+      "sourcePath": "module/engine/competences/soin-mental/soin-mental.json"
+    },
+    {
+      "id": "soin-naturel",
+      "name": "Soin Naturel",
+      "sourcePath": "module/engine/competences/soin-naturel/soin-naturel.json"
+    },
+    {
+      "id": "stabilite",
+      "name": "Stabilité",
+      "sourcePath": "module/engine/competences/stabilite/stabilite.json"
+    },
+    {
+      "id": "strategie-geopolitique",
+      "name": "Stratégie Géopolitique",
+      "sourcePath": "module/engine/competences/strategie-geopolitique/strategie-geopolitique.json"
+    },
+    {
+      "id": "manoeuvre-anti-riposte",
+      "name": "Manœuvre Anti-Riposte",
+      "sourcePath": "module/engine/competences/manoeuvre-anti-riposte/manoeuvre-anti-riposte.json"
+    },
+    {
+      "id": "symbiose-conjuree",
+      "name": "Symbiose Conjurée",
+      "sourcePath": "module/engine/competences/symbiose-conjuree/symbiose-conjuree.json"
+    },
+    {
+      "id": "tacticien-rhetorique",
+      "name": "Tacticien Rhétorique",
+      "sourcePath": "module/engine/competences/tacticien-rhetorique/tacticien-rhetorique.json"
+    },
+    {
+      "id": "telepathie-generale",
+      "name": "Télépathie Générale",
+      "sourcePath": "module/engine/competences/telepathie-generale/telepathie-generale.json"
+    },
+    {
+      "id": "tir-suppressif",
+      "name": "Tir Suppressif",
+      "sourcePath": "module/engine/competences/tir-suppressif/tir-suppressif.json"
+    },
+    {
+      "id": "toxicologie-appliquee",
+      "name": "Toxicologie Appliquée",
+      "sourcePath": "module/engine/competences/toxicologie-appliquee/toxicologie-appliquee.json"
+    },
+    {
+      "id": "toucher-purificateur",
+      "name": "Toucher Purificateur",
+      "sourcePath": "module/engine/competences/toucher-purificateur/toucher-purificateur.json"
+    },
+    {
+      "id": "trone-du-monarque-dechu",
+      "name": "Trône du Monarque Déchu",
+      "sourcePath": "module/engine/competences/trone-du-monarque-dechu/trone-du-monarque-dechu.json"
+    },
+    {
+      "id": "visage-emprunte",
+      "name": "Visage Emprunté",
+      "sourcePath": "module/engine/competences/visage-emprunte/visage-emprunte.json"
+    },
+    {
+      "id": "escouade-strategique",
+      "name": "Escouade Stratégique",
+      "sourcePath": "module/engine/competences/escouade-strategique/escouade-strategique.json"
+    },
+    {
+      "id": "voile-de-sanctification",
+      "name": "Voile de Sanctification",
+      "sourcePath": "module/engine/competences/voile-de-sanctification/voile-de-sanctification.json"
+    },
+    {
+      "id": "voix-conciliatrice",
+      "name": "Voix Conciliatrice",
+      "sourcePath": "module/engine/competences/voix-conciliatrice/voix-conciliatrice.json"
+    }
+  ]
+}

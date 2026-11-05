@@ -1125,52 +1125,125 @@
     {
       "id": "ingenierie-appliquee",
       "name": "Ingénierie Appliquée",
-      "sourcePath": "module/engine/competences/ingenierie-appliquee/ingenierie-appliquee.json"
+      "sourcePath": "module/engine/competences/ingenierie-appliquee/ingenierie-appliquee.json",
+      "tier": "B",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Permet d’analyser les mécanismes, de reproduire les pièges mécaniques Maîtrisés, d’en reconditionner un seul exemplaire et, au N3, de réparer certains pièges simples détruits.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "instinct-de-predateur",
       "name": "Instinct de Prédateur",
-      "sourcePath": "module/engine/competences/instinct-de-predateur/instinct-de-predateur.json"
+      "sourcePath": "module/engine/competences/instinct-de-predateur/instinct-de-predateur.json",
+      "tier": "A",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Marque une cible déjà traquée comme proie afin de renforcer Filature, vos attaques physiques et vos Intimidations contre elle.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "invocations-residuelles-vengeresses",
       "name": "Invocations Résiduelles Vengeresses",
-      "sourcePath": "module/engine/competences/invocations-residuelles-vengeresses/invocations-residuelles-vengeresses.json"
+      "sourcePath": "module/engine/competences/invocations-residuelles-vengeresses/invocations-residuelles-vengeresses.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vos invocations détruites ou dissipées par un hostile identifiable peuvent laisser un résidu qui ne poursuivra que ce responsable et n’attaquera qu’une fois.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "jugement-arme",
       "name": "Jugement Armé",
-      "sourcePath": "module/engine/competences/jugement-arme/jugement-arme.json"
+      "sourcePath": "module/engine/competences/jugement-arme/jugement-arme.json",
+      "tier": "B",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous imprégnez vos attaques physiques d’un châtiment sacré destiné aux Démons et aux Morts-vivants.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "jugement-tactique",
       "name": "Jugement Tactique",
-      "sourcePath": "module/engine/competences/jugement-tactique/jugement-tactique.json"
+      "sourcePath": "module/engine/competences/jugement-tactique/jugement-tactique.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Après un tour d’observation, vous établissez un lien tactique bref contre une cible unique.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "langage-animalier",
       "name": "Langage Animalier",
-      "sourcePath": "module/engine/competences/langage-animalier/langage-animalier.json"
+      "sourcePath": "module/engine/competences/langage-animalier/langage-animalier.json",
+      "tier": "C",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous établissez un lien instinctif avec les créatures naturelles ou domestiques afin d’échanger des informations et de solliciter leur coopération.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "lien-rituel-demonique",
       "name": "Lien Rituel Démonique",
-      "sourcePath": "module/engine/competences/lien-rituel-demonique/lien-rituel-demonique.json"
+      "sourcePath": "module/engine/competences/lien-rituel-demonique/lien-rituel-demonique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous partagez les blessures de vos invocations et pouvez infléchir leur chance.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "lien-runique",
       "name": "Lien Runique",
-      "sourcePath": "module/engine/competences/lien-runique/lien-runique.json"
+      "sourcePath": "module/engine/competences/lien-runique/lien-runique.json",
+      "tier": null,
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Relie magiquement deux alliés ou le lanceur et un allié, leur permettant d’échanger des effets bénéfiques et de partager des connaissances arcanes pendant une durée limitée.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "lingua-falsa",
       "name": "Lingua Falsa",
-      "sourcePath": "module/engine/competences/lingua-falsa/lingua-falsa.json"
+      "sourcePath": "module/engine/competences/lingua-falsa/lingua-falsa.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous présentez un mensonge avec naturel ou introduisez une idée capable de semer la défiance envers un tiers.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "main-de-l-ombre",
       "name": "Main de l'Ombre",
-      "sourcePath": "module/engine/competences/main-de-l-ombre/main-de-l-ombre.json"
+      "sourcePath": "module/engine/competences/main-de-l-ombre/main-de-l-ombre.json",
+      "tier": "D",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous perfectionnez l’art de subtiliser un objet au contact sans attirer l’attention de son porteur.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "main-forte",
@@ -1629,7 +1702,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 90,
+    "verified": 100,
     "total": 191
   }
 }

@@ -1551,62 +1551,157 @@
     {
       "id": "ombre-sauvage",
       "name": "Ombre Sauvage",
-      "sourcePath": "module/engine/competences/ombre-sauvage/ombre-sauvage.json"
+      "sourcePath": "module/engine/competences/ombre-sauvage/ombre-sauvage.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous fusionnez avec la nature, effaçant votre présence du regard des autres.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "orateur-inspire",
       "name": "Orateur Inspiré",
-      "sourcePath": "module/engine/competences/orateur-inspire/orateur-inspire.json"
+      "sourcePath": "module/engine/competences/orateur-inspire/orateur-inspire.json",
+      "tier": "S",
+      "gv": [
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous galvanisez les alliés capables de vous entendre, réduisez leur Peur ou leur Panique et renforcez temporairement leurs actions.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "parfum-sauvage",
       "name": "Parfum Sauvage",
-      "sourcePath": "module/engine/competences/parfum-sauvage/parfum-sauvage.json"
+      "sourcePath": "module/engine/competences/parfum-sauvage/parfum-sauvage.json",
+      "tier": "C",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous harmonisez votre présence avec un environnement naturel afin de mieux vous cacher et de compliquer votre détection par les sens ordinaires.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "parole-doracle",
       "name": "Parole d’Oracle",
-      "sourcePath": "module/engine/competences/parole-doracle/parole-doracle.json"
+      "sourcePath": "module/engine/competences/parole-doracle/parole-doracle.json",
+      "tier": null,
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "En annonçant un présage, vous influencez subtilement la réalité en faveur de vos alliés et au détriment de vos ennemis.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "peau-impenetrable",
       "name": "Peau Impénétrable",
-      "sourcePath": "module/engine/competences/peau-impenetrable/peau-impenetrable.json"
+      "sourcePath": "module/engine/competences/peau-impenetrable/peau-impenetrable.json",
+      "tier": "A",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous durcissez votre peau afin d’amortir les dégâts physiques et magiques, d’atténuer les poisons de contact et de résister aux impacts les plus violents.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "perception-superieure",
       "name": "Perception Supérieure",
-      "sourcePath": "module/engine/competences/perception-superieure/perception-superieure.json"
+      "sourcePath": "module/engine/competences/perception-superieure/perception-superieure.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Vous développez une perception qui dépasse les sens ordinaires et combine plusieurs canaux sensoriels.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "persuasion-rationnelle",
       "name": "Persuasion Rationnelle",
-      "sourcePath": "module/engine/competences/persuasion-rationnelle/persuasion-rationnelle.json"
+      "sourcePath": "module/engine/competences/persuasion-rationnelle/persuasion-rationnelle.json",
+      "tier": "C",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous utilisez la logique, les faits et la rhétorique pour convaincre un interlocuteur ou orienter un groupe.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "piegeage-arcanique",
       "name": "Piégeage Arcanique",
-      "sourcePath": "module/engine/competences/piegeage-arcanique/piegeage-arcanique.json"
+      "sourcePath": "module/engine/competences/piegeage-arcanique/piegeage-arcanique.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous savez fabriquer, poser et stabiliser des pièges magiques, qu’ils prennent la forme d’un flux élémentaire, d’un glyphe, d’un sceau ou d’une rune.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "portee-extravagante",
       "name": "Portée extravagante",
-      "sourcePath": "module/engine/competences/portee-extravagante/portee-extravagante.json"
+      "sourcePath": "module/engine/competences/portee-extravagante/portee-extravagante.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous portez un allié au contact : il agit depuis votre position tandis que vous vous consacrez uniquement à son transport.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "piegeur-ingenieux",
       "name": "Piégeur Ingénieux",
-      "sourcePath": "module/engine/competences/piegeur-ingenieux/piegeur-ingenieux.json"
+      "sourcePath": "module/engine/competences/piegeur-ingenieux/piegeur-ingenieux.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Gardien de la Nature",
+        "Ombre Rebelle",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous savez fabriquer, poser et manipuler des pièges mécaniques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "pisteur-attentif",
       "name": "Pisteur Attentif",
-      "sourcePath": "module/engine/competences/pisteur-attentif/pisteur-attentif.json"
+      "sourcePath": "module/engine/competences/pisteur-attentif/pisteur-attentif.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous savez lire les traces, suivre un passage et transformer de simples indices en piste exploitable.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "pilier-ancrage",
       "name": "Pilier d’Ancrage",
-      "sourcePath": "module/engine/competences/pilier-ancrage/pilier-ancrage.json"
+      "sourcePath": "module/engine/competences/pilier-ancrage/pilier-ancrage.json",
+      "tier": "A",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Fournit une relance quotidienne d’un test effectué avec une statistique déverrouillée du groupe d’ancrage choisi.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "pirate-insoumis",
@@ -1885,7 +1980,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 124,
+    "verified": 136,
     "total": 191
   }
 }

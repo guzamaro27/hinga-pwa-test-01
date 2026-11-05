@@ -267,77 +267,191 @@
     {
       "id": "aura-protectrice-sanctuaire",
       "name": "Aura Protectrice (Sanctuaire)",
-      "sourcePath": "module/engine/competences/aura-protectrice-sanctuaire/aura-protectrice-sanctuaire.json"
+      "sourcePath": "module/engine/competences/aura-protectrice-sanctuaire/aura-protectrice-sanctuaire.json",
+      "tier": "D",
+      "gv": [
+        "Garde Protecteur",
+        "Mage Sage",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous déployez un sanctuaire mobile qui réduit les dégâts physiques subis par les alliés proches et stabilise leurs appuis.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "autorite-de-lapotre",
       "name": "Autorité de l’Apôtre",
-      "sourcePath": "module/engine/competences/autorite-de-lapotre/autorite-de-lapotre.json"
+      "sourcePath": "module/engine/competences/autorite-de-lapotre/autorite-de-lapotre.json",
+      "tier": "A",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Par la puissance de votre voix et de votre charisme, vous troublez les intentions de vos adversaires et leur imposez des directives immédiates.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "barriere-elementaire",
       "name": "Barrière Élémentaire",
-      "sourcePath": "module/engine/competences/barriere-elementaire/barriere-elementaire.json"
+      "sourcePath": "module/engine/competences/barriere-elementaire/barriere-elementaire.json",
+      "tier": "A",
+      "gv": [
+        "Combattant Émérite",
+        "Mage Sage"
+      ],
+      "summary": "Vous érigez une protection magique adaptative alignée sur l’une de vos affinités élémentaires.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "barriere-intimidante",
       "name": "Barrière Intimidante",
-      "sourcePath": "module/engine/competences/barriere-intimidante/barriere-intimidante.json"
+      "sourcePath": "module/engine/competences/barriere-intimidante/barriere-intimidante.json",
+      "tier": "B",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous adoptez un rythme défensif et imposez une présence intimidante qui perturbe les ennemis proches lorsqu’ils attaquent votre ligne.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "bastion-inebranlable",
       "name": "Bastion Inébranlable",
-      "sourcePath": "module/engine/competences/bastion-inebranlable/bastion-inebranlable.json"
+      "sourcePath": "module/engine/competences/bastion-inebranlable/bastion-inebranlable.json",
+      "tier": "S",
+      "gv": [
+        "Garde Protecteur"
+      ],
+      "summary": "Après activation, un Blocage réussi contre une attaque physique vous transforme en point d’appui pour votre groupe.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "benediction-rayonnante",
       "name": "Bénédiction Rayonnante",
-      "sourcePath": "module/engine/competences/benediction-rayonnante/benediction-rayonnante.json"
+      "sourcePath": "module/engine/competences/benediction-rayonnante/benediction-rayonnante.json",
+      "tier": "S",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous accordez à un allié ou à vous-même une bénédiction lumineuse qui régénère ses ressources et renforce temporairement ses aptitudes magiques et mentales.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "bouclier-du-croyant",
       "name": "Bouclier du Croyant",
-      "sourcePath": "module/engine/competences/bouclier-du-croyant/bouclier-du-croyant.json"
+      "sourcePath": "module/engine/competences/bouclier-du-croyant/bouclier-du-croyant.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "En récitant une prière, vous invoquez un rempart spirituel qui réduit les dégâts magiques et renforce la volonté de ses bénéficiaires.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "bouclier-solidaire",
       "name": "Bouclier Solidaire",
-      "sourcePath": "module/engine/competences/bouclier-solidaire/bouclier-solidaire.json"
+      "sourcePath": "module/engine/competences/bouclier-solidaire/bouclier-solidaire.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous partagez votre robustesse avec vos alliés afin de soutenir leurs jets de CONST et leurs actions défensives.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "bouclier-tactique",
       "name": "Bouclier Tactique",
-      "sourcePath": "module/engine/competences/bouclier-tactique/bouclier-tactique.json"
+      "sourcePath": "module/engine/competences/bouclier-tactique/bouclier-tactique.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Place sur un allié distinct une protection temporaire dont la réserve, figée à l’ARC du lanceur, absorbe une partie des dégâts magiques finaux.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "cantique-divinatoire",
       "name": "Cantique Divinatoire",
-      "sourcePath": "module/engine/competences/cantique-divinatoire/cantique-divinatoire.json"
+      "sourcePath": "module/engine/competences/cantique-divinatoire/cantique-divinatoire.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous entrez en résonance avec une ancre afin de demander au MJ une vision narrative liée aux traces réellement présentes.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "cartographie-mystique",
       "name": "Cartographie Mystique",
-      "sourcePath": "module/engine/competences/cartographie-mystique/cartographie-mystique.json"
+      "sourcePath": "module/engine/competences/cartographie-mystique/cartographie-mystique.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez les traces, structures et interactions magiques imprégnant un lieu, un objet, un artefact ou un environnement.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "captation-du-flux",
       "name": "Captation du Flux",
-      "sourcePath": "module/engine/competences/captation-du-flux/captation-du-flux.json"
+      "sourcePath": "module/engine/competences/captation-du-flux/captation-du-flux.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage",
+        "Combattant Émérite"
+      ],
+      "summary": "Vous renoncez à toute défense active contre un flux hostile pour en capter la perte réelle de PV, puis libérez la charge dans votre prochaine attaque magique offensive.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "cercle-invocation-primordial",
       "name": "Cercle d’Invocation Primordial",
-      "sourcePath": "module/engine/competences/cercle-invocation-primordial/cercle-invocation-primordial.json"
+      "sourcePath": "module/engine/competences/cercle-invocation-primordial/cercle-invocation-primordial.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous tracez un cercle primordial fixe qui protège et régénère les invocations alliées présentes dans sa zone.",
+      "levels": 1,
+      "status": "ready"
     },
     {
       "id": "commande-spirituelle",
       "name": "Commande Spirituelle",
-      "sourcePath": "module/engine/competences/commande-spirituelle/commande-spirituelle.json"
+      "sourcePath": "module/engine/competences/commande-spirituelle/commande-spirituelle.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Augmente la maîtrise des Sylphes mineurs, améliorant leur durée, leur portée et leur nombre.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "commandement-inspirant",
       "name": "Commandement Inspirant",
-      "sourcePath": "module/engine/competences/commandement-inspirant/commandement-inspirant.json"
+      "sourcePath": "module/engine/competences/commandement-inspirant/commandement-inspirant.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous galvanisez vos alliés par un discours ou un cri, améliorant temporairement leurs performances offensives et défensives.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "confluence-arcanique",
@@ -1116,7 +1230,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 21,
+    "verified": 35,
     "total": 191
   }
 }

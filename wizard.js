@@ -57,12 +57,16 @@ html='<p>Choisissez votre peuple. Ses affinités, compétences et dons dépenden
 html='<p>Jusqu’à trois éléments distincts. Maîtrise N0 (Néophyte) à N4 (Sage). L’affinité du peuple est indiquée à titre informatif.</p>'+(p?'<p>Affinité du peuple : <strong>'+esc(p.affinity)+'</strong></p>':'<p class="note">Peuple non sélectionné.</p>')+
 Array.from({length:3},(_,i)=>'<div class="wizard-pair"><label>Élément '+(i+1)+select("element-"+i,ELEMENTS.map(x=>[x,title(x)]),d.elementSlots[i]?.elementId,"Aucun")+'</label><label>Maîtrise'+select("level-"+i,[0,1,2,3,4].map(n=>[n,"N"+n]),d.elementSlots[i]?.level??0,"Niveau")+'</label></div>').join("");
 }else if(key==="competence"){
-html=p?'<p>Choisissez une compétence culturelle gratuite parmi les deux proposées par votre peuple.</p>'+select("competence",p.competenceIds.map(x=>[x,skills.find(y=>y.id===x)?.name||title(x)]),d.competenceId)+(d.heritageId==="double-heritage"?'<p class="note">Double héritage : les deux compétences culturelles sont gratuites.</p>':''):'<p class="note">Choisissez d’abord un peuple.</p>';
+const cultural=p?.competenceIds.map(id=>skills.find(x=>x.id===id)).filter(Boolean)||[];
+html=p?'<p class="note">Votre peuple vous propose deux compétences culturelles. Vous en recevez une gratuitement, sans dépenser vos 12 points. Le don « Double héritage » permet de recevoir les deux.</p>'+
+cultural.map(sk=>'<div class="choice-card"><label><input type="radio" name="cultural-choice" data-cultural="'+esc(sk.id)+'" '+(d.competenceId===sk.id?'checked':'')+'> <strong>'+esc(sk.name)+'</strong> · '+esc(sk.tier||'Rang non précisé')+'</label><p>'+esc(sk.summary||'Description non disponible dans le catalogue.')+'</p><small>'+esc(sk.gv?.join(' · ')||'')+'</small></div>').join('')+
+(d.heritageId==="double-heritage"?'<p class="note">Double héritage choisi : les deux compétences seront gratuites.</p>':''):'<p>Choisissez d’abord votre peuple.</p>';
 }else if(key==="heritage"){
 const bonus=p?.bonuses.find(x=>x.id===d.heritageId);
-const info=BONUS_INFO[bonus?.id]||[title(bonus?.id),"Bonus racial descriptif"];
 const options=bonus?(BONUS_DETAILS[bonus.id]||[]):[];
-html=p?'<p>Choisissez un don inné de votre peuple. Les bonus sont récapitulés sans déclencher d’effet Foundry.</p>'+select("heritage",p.bonuses.map(x=>[x.id,(BONUS_INFO[x.id]?.[0]||title(x.id))+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+(bonus?'<p class="note"><strong>'+esc(info[0])+'</strong> — '+esc(info[1])+'</p>':'')+(bonus&&options.length?'<label>Précision du don</label>'+select("heritage-detail",options,bonus.detail||d.heritageDetail,"Choisir"):''):'<p class="note">Choisissez d’abord un peuple.</p>';
+html=p?'<p class="note">Un don inné est un avantage propre à votre peuple. Choisissez-en un ; son effet est conservé dans votre fiche, sans exécuter automatiquement ses effets Foundry.</p>'+
+p.bonuses.map(x=>'<div class="choice-card"><label><input type="radio" name="heritage-choice" data-heritage="'+esc(x.id)+'" '+(d.heritageId===x.id?'checked':'')+'> <strong>'+esc(BONUS_INFO[x.id]?.[0]||title(x.id))+'</strong></label><p>'+esc(BONUS_INFO[x.id]?.[1]||'Effet à consulter dans les règles officielles.')+'</p>'+(x.detail?'<small>Précision raciale : '+esc(title(x.detail))+'</small>':'')+'</div>').join('')+
+(bonus&&options.length?'<label>Précision du don sélectionné</label>'+select("heritage-detail",options,bonus.detail||d.heritageDetail,"Choisir"):''):'<p>Choisissez d’abord votre peuple.</p>';
 }else if(key==="vocationalGroup"){
 const owned=[d.primaryVocationalGroupId,...(d.additionalVocationalGroupIds||[])].filter(Boolean);
 const nextCost=owned.length===0?0:(owned.length===1?2:(owned.length+1)*2);
@@ -101,6 +105,8 @@ bind('[id^="element-"]',el=>{const i=Number(el.id.split("-")[1]);const id=el.val
 bind('[id^="level-"]',el=>{const i=Number(el.id.split("-")[1]);d.elementSlots[i]??={elementId:"",level:0};d.elementSlots[i].level=Number(el.value)});
 bind("#competence",el=>d.competenceId=el.value);
 bind("#heritage",el=>{d.heritageId=el.value;d.heritageDetail=""});
+bind("[data-heritage]",el=>{if(el.checked){d.heritageId=el.dataset.heritage;d.heritageDetail="";}});
+bind("[data-cultural]",el=>{if(el.checked)d.competenceId=el.dataset.cultural});
 bind("#heritage-detail",el=>d.heritageDetail=el.value);
 bind("#group",el=>{d.primaryVocationalGroupId=el.value;d.additionalVocationalGroupIds=(d.additionalVocationalGroupIds||[]).filter(id=>id!==el.value)});
 bind("#preset",el=>{d.presetId=el.value;const preset=presets.find(x=>x.id===el.value);if(preset)d.baseStats={...preset.stats}});

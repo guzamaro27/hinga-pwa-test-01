@@ -903,42 +903,100 @@
     {
       "id": "filtre-de-realite",
       "name": "Filtre de Réalité",
-      "sourcePath": "module/engine/competences/filtre-de-realite/filtre-de-realite.json"
+      "sourcePath": "module/engine/competences/filtre-de-realite/filtre-de-realite.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Dissipe les Confusions et les illusions personnelles d’un allié, puis le protège temporairement contre ces altérations.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "flamme-sacree",
       "name": "Flamme Sacrée",
-      "sourcePath": "module/engine/competences/flamme-sacree/flamme-sacree.json"
+      "sourcePath": "module/engine/competences/flamme-sacree/flamme-sacree.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Votre corps est imprégné d’une lumière ardente et d’un feu divin qui renforce votre force et charge vos attaques physiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "fleau-des-heretiques",
       "name": "Fléau des Hérétiques",
-      "sourcePath": "module/engine/competences/fleau-des-heretiques/fleau-des-heretiques.json"
+      "sourcePath": "module/engine/competences/fleau-des-heretiques/fleau-des-heretiques.json",
+      "tier": null,
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Votre aura sacrée renforce vos attaques contre les êtres impies et dresse une barrière de lumière pour repousser les entités maléfiques.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "forteresse-mentale",
       "name": "Forteresse Mentale",
-      "sourcePath": "module/engine/competences/forteresse-mentale/forteresse-mentale.json"
+      "sourcePath": "module/engine/competences/forteresse-mentale/forteresse-mentale.json",
+      "tier": "A",
+      "gv": [
+        "Garde Protecteur",
+        "Mage Sage",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous érigez votre esprit en rempart afin de réduire les dégâts Mentaux et de protéger les alliés proches.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "frappe-coordonnee",
       "name": "Frappe Coordonnée",
-      "sourcePath": "module/engine/competences/frappe-coordonnee/frappe-coordonnee.json"
+      "sourcePath": "module/engine/competences/frappe-coordonnee/frappe-coordonnee.json",
+      "tier": null,
+      "gv": [
+        "Corps Militaire"
+      ],
+      "summary": "Une attaque coordonnée entre vous et vos alliés pour maximiser les dégâts.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "frappe-silencieuse",
       "name": "Frappe Silencieuse",
-      "sourcePath": "module/engine/competences/frappe-silencieuse/frappe-silencieuse.json"
+      "sourcePath": "module/engine/competences/frappe-silencieuse/frappe-silencieuse.json",
+      "tier": null,
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous frappez lorsque la vigilance faiblit. Une seule attaque bien placée suffit à semer le chaos ou abattre une cible imprudente.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "furtivite-urbaine",
       "name": "Furtivité Urbaine",
-      "sourcePath": "module/engine/competences/furtivite-urbaine/furtivite-urbaine.json"
+      "sourcePath": "module/engine/competences/furtivite-urbaine/furtivite-urbaine.json",
+      "tier": "B",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous exploitez l’architecture, les foules, les ombres et le désordre des villes pour dissimuler vos mouvements, brouiller vos traces et trouver des refuges difficiles à localiser.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "fureur-conjuree",
       "name": "Fureur Conjurée",
-      "sourcePath": "module/engine/competences/fureur-conjuree/fureur-conjuree.json"
+      "sourcePath": "module/engine/competences/fureur-conjuree/fureur-conjuree.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous canalisez une puissance destructrice supplémentaire dans les créatures qui vous appartiennent explicitement.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "fusion-spirituelle",
@@ -1497,7 +1555,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 72,
+    "verified": 80,
     "total": 191
   }
 }

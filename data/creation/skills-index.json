@@ -2002,62 +2002,152 @@
     {
       "id": "resistance-acharnee",
       "name": "Résistance Acharnée",
-      "sourcePath": "module/engine/competences/resistance-acharnee/resistance-acharnee.json"
+      "sourcePath": "module/engine/competences/resistance-acharnee/resistance-acharnee.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Votre instinct de survie renforce votre défense physique lorsque vos blessures deviennent critiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "retour-de-piste",
       "name": "Retour de Piste",
-      "sourcePath": "module/engine/competences/retour-de-piste/retour-de-piste.json"
+      "sourcePath": "module/engine/competences/retour-de-piste/retour-de-piste.json",
+      "tier": "A",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous retournez vos sens vers les pistes, marques et traques réellement actives contre vous ou votre groupe proche.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "riposte-tactique",
       "name": "Riposte Tactique",
-      "sourcePath": "module/engine/competences/riposte-tactique/riposte-tactique.json"
+      "sourcePath": "module/engine/competences/riposte-tactique/riposte-tactique.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous adoptez une garde de contre-offensive qui améliore brièvement vos réactions offensives de corps-à-corps.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "ronde-des-sylphes",
       "name": "Ronde des Sylphes",
-      "sourcePath": "module/engine/competences/ronde-des-sylphes/ronde-des-sylphes.json"
+      "sourcePath": "module/engine/competences/ronde-des-sylphes/ronde-des-sylphes.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous entrez en communion avec les Sylphes, laissant leur énergie influencer la zone et les entités proches.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "rythme-de-combat",
       "name": "Rythme de Combat",
-      "sourcePath": "module/engine/competences/rythme-de-combat/rythme-de-combat.json"
+      "sourcePath": "module/engine/competences/rythme-de-combat/rythme-de-combat.json",
+      "tier": null,
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Vous obtenez une maîtrise profonde de l’équilibre corporel, de l’anticipation, et du changement de rythme.",
+      "levels": 1,
+      "status": "deferred"
     },
     {
       "id": "saboteur-des-ombres",
       "name": "Saboteur des Ombres",
-      "sourcePath": "module/engine/competences/saboteur-des-ombres/saboteur-des-ombres.json"
+      "sourcePath": "module/engine/competences/saboteur-des-ombres/saboteur-des-ombres.json",
+      "tier": "C",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous altérez les pièges mécaniques, magiques et runiques afin de détourner leur prochain déclenchement ou leur prochaine manipulation.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "sanctuaire-de-l-ame",
       "name": "Sanctuaire de l'Âme",
-      "sourcePath": "module/engine/competences/sanctuaire-de-l-ame/sanctuaire-de-l-ame.json"
+      "sourcePath": "module/engine/competences/sanctuaire-de-l-ame/sanctuaire-de-l-ame.json",
+      "tier": null,
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous créez une zone sacrée imprégnée d’énergie protectrice, renforçant la résistance mentale de vos alliés contre les attaques psychiques et les influences néfastes.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "sanctuaire-divin",
       "name": "Sanctuaire Divin",
-      "sourcePath": "module/engine/competences/sanctuaire-divin/sanctuaire-divin.json"
+      "sourcePath": "module/engine/competences/sanctuaire-divin/sanctuaire-divin.json",
+      "tier": "S",
+      "gv": [
+        "Garde Protecteur",
+        "Mage Sage",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous créez autour de votre token une aura sacrée mobile qui soigne et protège vos alliés.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "sanctuaire-sauvage",
       "name": "Sanctuaire Sauvage",
-      "sourcePath": "module/engine/competences/sanctuaire-sauvage/sanctuaire-sauvage.json"
+      "sourcePath": "module/engine/competences/sanctuaire-sauvage/sanctuaire-sauvage.json",
+      "tier": "A",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous créez une zone sauvage fixe qui entrave les hostiles et perturbe les attaques magiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "savoir-thanatomique",
       "name": "Savoir Thanatomique",
-      "sourcePath": "module/engine/competences/savoir-thanatomique/savoir-thanatomique.json"
+      "sourcePath": "module/engine/competences/savoir-thanatomique/savoir-thanatomique.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous examinez un corps, une blessure ou une scène observable afin de formuler une demande d’analyse médico-légale fondée sur les preuves accessibles.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "scenographie-deductive",
       "name": "Scénographie Déductive",
-      "sourcePath": "module/engine/competences/scenographie-deductive/scenographie-deductive.json"
+      "sourcePath": "module/engine/competences/scenographie-deductive/scenographie-deductive.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez une scène ou un ensemble cohérent de traces afin de demander au MJ une reconstitution déductive fondée sur les indices accessibles.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "semeur-d-esprits",
       "name": "Semeur d’Esprits",
-      "sourcePath": "module/engine/competences/semeur-d-esprits/semeur-d-esprits.json"
+      "sourcePath": "module/engine/competences/semeur-d-esprits/semeur-d-esprits.json",
+      "tier": "B",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Après une réussite offensive finale, vous pouvez imposer à un hostile directement affecté le contre canonique d’un trouble mental.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "sentinelle-eclairee",
@@ -2156,7 +2246,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 160,
+    "verified": 172,
     "total": 191
   }
 }

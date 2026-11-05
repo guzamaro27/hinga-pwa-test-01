@@ -2299,41 +2299,93 @@
     {
       "id": "toxicologie-appliquee",
       "name": "Toxicologie Appliquée",
-      "sourcePath": "module/engine/competences/toxicologie-appliquee/toxicologie-appliquee.json"
+      "sourcePath": "module/engine/competences/toxicologie-appliquee/toxicologie-appliquee.json",
+      "tier": "C",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous déterminez le degré maximal de poison que vous pouvez créer dans le Créateur de poison.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "toucher-purificateur",
       "name": "Toucher Purificateur",
-      "sourcePath": "module/engine/competences/toucher-purificateur/toucher-purificateur.json"
+      "sourcePath": "module/engine/competences/toucher-purificateur/toucher-purificateur.json",
+      "tier": "B",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous suspendez brièvement un state négatif mental ou perceptif affectant un allié au contact.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "trone-du-monarque-dechu",
       "name": "Trône du Monarque Déchu",
-      "sourcePath": "module/engine/competences/trone-du-monarque-dechu/trone-du-monarque-dechu.json"
+      "sourcePath": "module/engine/competences/trone-du-monarque-dechu/trone-du-monarque-dechu.json",
+      "tier": "S",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous renoncez à vos actions personnelles pour exalter vos invocations au prix de votre Santé Mentale.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "visage-emprunte",
       "name": "Visage Emprunté",
-      "sourcePath": "module/engine/competences/visage-emprunte/visage-emprunte.json"
+      "sourcePath": "module/engine/competences/visage-emprunte/visage-emprunte.json",
+      "tier": "B",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous préparez une couverture sociale fondée sur une observation réelle et un appui crédible.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "escouade-strategique",
       "name": "Escouade Stratégique",
-      "sourcePath": "module/engine/competences/escouade-strategique/escouade-strategique.json"
+      "sourcePath": "module/engine/competences/escouade-strategique/escouade-strategique.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous définissez un objectif commun et coordonnez les actions de vos alliés dans un plan tactique.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "voile-de-sanctification",
       "name": "Voile de Sanctification",
-      "sourcePath": "module/engine/competences/voile-de-sanctification/voile-de-sanctification.json"
+      "sourcePath": "module/engine/competences/voile-de-sanctification/voile-de-sanctification.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous enveloppez jusqu’à trois alliés d’une protection commune contre certaines influences mentales et les échecs critiques de résistance.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "voix-conciliatrice",
       "name": "Voix Conciliatrice",
-      "sourcePath": "module/engine/competences/voix-conciliatrice/voix-conciliatrice.json"
+      "sourcePath": "module/engine/competences/voix-conciliatrice/voix-conciliatrice.json",
+      "tier": "A",
+      "gv": [
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Votre maîtrise de Calmer augmente d’un niveau et ses réussites ouvrent une brève accalmie.",
+      "levels": 3,
+      "status": null
     }
   ],
   "metadataCoverage": {
-    "verified": 184,
+    "verified": 191,
     "total": 191
   }
 }

@@ -1,6 +1,6 @@
 {
   "source": "module/data/peuple-canon-v2.mjs",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "peoples": [
     {
       "id": "amdalar",
@@ -41,7 +41,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     },
     {
       "id": "anioma",
@@ -82,7 +92,14 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "vis",
+          "value": 5
+        },
+        "penalty": null
+      }
     },
     {
       "id": "arionar",
@@ -123,7 +140,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "befoni",
@@ -164,7 +191,17 @@
           "id": "mentalite",
           "detail": "serimoth"
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "borors",
@@ -205,7 +242,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     },
     {
       "id": "epektrior",
@@ -246,7 +293,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "tac",
+          "value": -5
+        }
+      }
     },
     {
       "id": "erounmer",
@@ -287,7 +344,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "esia",
@@ -328,7 +395,17 @@
           "id": "chance-accrue",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "eso",
+          "value": 5
+        },
+        "penalty": {
+          "id": "gus",
+          "value": -5
+        }
+      }
     },
     {
       "id": "fahoma",
@@ -369,7 +446,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "tac",
+          "value": -5
+        }
+      }
     },
     {
       "id": "farlin",
@@ -410,7 +497,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "filiaen",
@@ -451,7 +548,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "fona",
@@ -492,7 +599,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "vis",
+          "value": -5
+        }
+      }
     },
     {
       "id": "houlvar",
@@ -533,7 +650,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "tac",
+          "value": 5
+        },
+        "penalty": {
+          "id": "gus",
+          "value": -5
+        }
+      }
     },
     {
       "id": "iegoma",
@@ -574,7 +701,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "tac",
+          "value": 5
+        },
+        "penalty": {
+          "id": "aud",
+          "value": -5
+        }
+      }
     },
     {
       "id": "jounaril",
@@ -615,7 +752,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "vis",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     },
     {
       "id": "kai",
@@ -656,7 +803,17 @@
           "id": "transformation-condition",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "eso",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     },
     {
       "id": "kalmani",
@@ -697,7 +854,14 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "gus",
+          "value": 5
+        },
+        "penalty": null
+      }
     },
     {
       "id": "karzak",
@@ -738,7 +902,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "tac",
+          "value": 5
+        },
+        "penalty": {
+          "id": "eso",
+          "value": -5
+        }
+      }
     },
     {
       "id": "kifirt",
@@ -779,7 +953,17 @@
           "id": "transformation-condition",
           "detail": "demon/autre"
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "vis",
+          "value": 5
+        },
+        "penalty": {
+          "id": "eso",
+          "value": -5
+        }
+      }
     },
     {
       "id": "kreun",
@@ -820,7 +1004,17 @@
           "id": "transformation-condition",
           "detail": "Falstanie"
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "gus",
+          "value": 5
+        },
+        "penalty": {
+          "id": "aud",
+          "value": -5
+        }
+      }
     },
     {
       "id": "latchari",
@@ -861,7 +1055,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "gus",
+          "value": -5
+        }
+      }
     },
     {
       "id": "loenmer",
@@ -902,7 +1106,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "olf",
+          "value": 5
+        },
+        "penalty": {
+          "id": "aud",
+          "value": -5
+        }
+      }
     },
     {
       "id": "magoma",
@@ -943,7 +1157,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "vis",
+          "value": 5
+        },
+        "penalty": {
+          "id": "eso",
+          "value": -5
+        }
+      }
     },
     {
       "id": "marnasa",
@@ -984,7 +1208,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "aud",
+          "value": 5
+        },
+        "penalty": {
+          "id": "tac",
+          "value": -5
+        }
+      }
     },
     {
       "id": "nanjao",
@@ -1025,7 +1259,17 @@
           "id": "transformation-condition",
           "detail": "vampire"
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "vis",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     },
     {
       "id": "oni",
@@ -1066,7 +1310,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "eso",
+          "value": 5
+        },
+        "penalty": {
+          "id": "gus",
+          "value": -5
+        }
+      }
     },
     {
       "id": "pashran",
@@ -1107,7 +1361,17 @@
           "id": "transformation-condition",
           "detail": "demon"
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "eso",
+          "value": 5
+        },
+        "penalty": {
+          "id": "tac",
+          "value": -5
+        }
+      }
     },
     {
       "id": "rogmandar",
@@ -1148,7 +1412,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "tac",
+          "value": 5
+        },
+        "penalty": {
+          "id": "eso",
+          "value": -5
+        }
+      }
     },
     {
       "id": "satranvor",
@@ -1189,7 +1463,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "gus",
+          "value": 5
+        },
+        "penalty": {
+          "id": "aud",
+          "value": -5
+        }
+      }
     },
     {
       "id": "wijilia",
@@ -1230,7 +1514,17 @@
           "id": "sens-aiguise",
           "detail": null
         }
-      ]
+      ],
+      "senses": {
+        "bonus": {
+          "id": "eso",
+          "value": 5
+        },
+        "penalty": {
+          "id": "olf",
+          "value": -5
+        }
+      }
     }
   ]
 }

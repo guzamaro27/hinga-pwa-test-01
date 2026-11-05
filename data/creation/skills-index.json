@@ -1001,52 +1001,126 @@
     {
       "id": "fusion-spirituelle",
       "name": "Fusion Spirituelle",
-      "sourcePath": "module/engine/competences/fusion-spirituelle/fusion-spirituelle.json"
+      "sourcePath": "module/engine/competences/fusion-spirituelle/fusion-spirituelle.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Permet de combiner plusieurs Sylphes mineurs pour invoquer des Élyths plus puissants et autonomes.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "grace-intacte",
       "name": "Grâce Intacte",
-      "sourcePath": "module/engine/competences/grace-intacte/grace-intacte.json"
+      "sourcePath": "module/engine/competences/grace-intacte/grace-intacte.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Votre sérénité intérieure renforce votre Résistance Mentale et vous aide à repousser les Confusions tant que vous ne portez pas d’armure lourde.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "grip-sur",
       "name": "Grip sûr",
-      "sourcePath": "module/engine/competences/grip-sur/grip-sur.json"
+      "sourcePath": "module/engine/competences/grip-sur/grip-sur.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Votre première résistance au Désarmement du tour gagne AV1 et peut ouvrir une riposte classique en cas de résistance réussie.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "histoire-vivante",
       "name": "Histoire Vivante",
-      "sourcePath": "module/engine/competences/histoire-vivante/histoire-vivante.json"
+      "sourcePath": "module/engine/competences/histoire-vivante/histoire-vivante.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Votre connaissance de l’histoire, des légendes et des traditions permet d’analyser des sujets historiques et d’employer des références culturelles pertinentes dans vos interactions sociales.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "horizon-expanse",
       "name": "Horizon Expansé",
-      "sourcePath": "module/engine/competences/horizon-expanse/horizon-expanse.json"
+      "sourcePath": "module/engine/competences/horizon-expanse/horizon-expanse.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Mage Sage"
+      ],
+      "summary": "Votre maîtrise de l’espace magique accroît la portée de vos attaques magiques offensives et le rayon de leurs zones circulaires.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "hurlement-effrayant",
       "name": "Hurlement Effrayant",
-      "sourcePath": "module/engine/competences/hurlement-effrayant/hurlement-effrayant.json"
+      "sourcePath": "module/engine/competences/hurlement-effrayant/hurlement-effrayant.json",
+      "tier": "S",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous libérez un hurlement primal qui impose une résistance de CHAR aux ennemis proches capables de vous voir.",
+      "levels": 3,
+      "status": "ready"
     },
     {
       "id": "hypnose-de-confiance",
       "name": "Hypnose de Confiance",
-      "sourcePath": "module/engine/competences/hypnose-de-confiance/hypnose-de-confiance.json"
+      "sourcePath": "module/engine/competences/hypnose-de-confiance/hypnose-de-confiance.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Instaure une confiance hypnotique pour obtenir une réponse honnête, apaiser une cible et influencer une foule réceptive.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "improvisation-martiale",
       "name": "Improvisation Martiale",
-      "sourcePath": "module/engine/competences/improvisation-martiale/improvisation-martiale.json"
+      "sourcePath": "module/engine/competences/improvisation-martiale/improvisation-martiale.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous transformez les objets solides du quotidien en armes de fortune capables d’attaquer, de bloquer et de parer.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "influence-psychique",
       "name": "Influence Psychique",
-      "sourcePath": "module/engine/competences/influence-psychique/influence-psychique.json"
+      "sourcePath": "module/engine/competences/influence-psychique/influence-psychique.json",
+      "tier": "B",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Intensifie votre présence psychique pour renforcer vos actions d’influence mentale et fragiliser une cible proche.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "infusion-alchimique",
       "name": "Infusion Alchimique",
-      "sourcePath": "module/engine/competences/infusion-alchimique/infusion-alchimique.json"
+      "sourcePath": "module/engine/competences/infusion-alchimique/infusion-alchimique.json",
+      "tier": "C",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous déterminez le degré maximal de potion que vous pouvez créer dans le Créateur de potion.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "ingenierie-appliquee",
@@ -1555,7 +1629,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 80,
+    "verified": 90,
     "total": 191
   }
 }

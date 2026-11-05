@@ -641,77 +641,190 @@
     {
       "id": "eloquence-sacree",
       "name": "Éloquence Sacrée",
-      "sourcePath": "module/engine/competences/eloquence-sacree/eloquence-sacree.json"
+      "sourcePath": "module/engine/competences/eloquence-sacree/eloquence-sacree.json",
+      "tier": "B",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Par votre voix, vous apaisez les tensions, restaurez la lucidité de vos alliés et guidez les émotions d’un groupe.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "empathie-subtile",
       "name": "Empathie Subtile",
-      "sourcePath": "module/engine/competences/empathie-subtile/empathie-subtile.json"
+      "sourcePath": "module/engine/competences/empathie-subtile/empathie-subtile.json",
+      "tier": "C",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous observez les signes perceptibles d’une personne afin d’en comprendre l’état émotionnel.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "empreinte-residuelle",
       "name": "Empreinte Résiduelle",
-      "sourcePath": "module/engine/competences/empreinte-residuelle/empreinte-residuelle.json"
+      "sourcePath": "module/engine/competences/empreinte-residuelle/empreinte-residuelle.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous examinez les traces matérielles laissées sur un objet ou une scène afin d’en tirer des conclusions sur les événements récents.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "enchantement-arcanique",
       "name": "Enchantement Arcanique",
-      "sourcePath": "module/engine/competences/enchantement-arcanique/enchantement-arcanique.json"
+      "sourcePath": "module/engine/competences/enchantement-arcanique/enchantement-arcanique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Artisanat magique : le niveau N acquis autorise la pose d'enchantements permanents E1 à E3 sur des armes compatibles.",
+      "levels": 3,
+      "status": "ready"
     },
     {
       "id": "endurance-guerriere",
       "name": "Endurance Guerrière",
-      "sourcePath": "module/engine/competences/endurance-guerriere/endurance-guerriere.json"
+      "sourcePath": "module/engine/competences/endurance-guerriere/endurance-guerriere.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Votre corps apprend à encaisser après avoir subi les conséquences d’un coup particulièrement violent.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "endurance-robuste",
       "name": "Endurance Robuste",
-      "sourcePath": "module/engine/competences/endurance-robuste/endurance-robuste.json"
+      "sourcePath": "module/engine/competences/endurance-robuste/endurance-robuste.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous mobilisez vos dernières réserves pour réduire certains coûts de combat et atténuer temporairement les effets de la fatigue.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "egide-esoterique",
       "name": "Égide ésotérique",
-      "sourcePath": "module/engine/competences/egide-esoterique/egide-esoterique.json"
+      "sourcePath": "module/engine/competences/egide-esoterique/egide-esoterique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage",
+        "Garde Protecteur",
+        "Pérégrin Mystique"
+      ],
+      "summary": "",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "environnement-altitude",
       "name": "Environnement - Altitude",
-      "sourcePath": "module/engine/competences/environnement-altitude/environnement-altitude.json"
+      "sourcePath": "module/engine/competences/environnement-altitude/environnement-altitude.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Vous êtes habitué aux hauteurs, aux falaises, aux sommets, aux structures suspendues et aux espaces dominant le vide.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "environnement-aquatique",
       "name": "Environnement - Aquatique",
-      "sourcePath": "module/engine/competences/environnement-aquatique/environnement-aquatique.json"
+      "sourcePath": "module/engine/competences/environnement-aquatique/environnement-aquatique.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Habitué à l’eau, aux courants et aux environnements immergés, vous vous déplacez plus efficacement dans les milieux aquatiques et résistez aux peurs directement provoquées par l’immersion.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "environnement-forets-densite-vegetale",
       "name": "Environnement - Forêts & Densité Végétale",
-      "sourcePath": "module/engine/competences/environnement-forets-densite-vegetale/environnement-forets-densite-vegetale.json"
+      "sourcePath": "module/engine/competences/environnement-forets-densite-vegetale/environnement-forets-densite-vegetale.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Habitué aux forêts, jungles, taillis et marécages végétalisés, vous progressez plus efficacement parmi les racines, les lianes, les sous-bois et les sols encombrés.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "environnement-souterrains",
       "name": "Environnement - Souterrains",
-      "sourcePath": "module/engine/competences/environnement-souterrains/environnement-souterrains.json"
+      "sourcePath": "module/engine/competences/environnement-souterrains/environnement-souterrains.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Habitué aux espaces souterrains, obscurs, confinés ou labyrinthiques, vous préservez plus facilement votre stabilité mentale dans les lieux qui oppressent ou désorientent la plupart des individus.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "environnement-terrains-hostiles",
       "name": "Environnement - Terrains Hostiles",
-      "sourcePath": "module/engine/competences/environnement-terrains-hostiles/environnement-terrains-hostiles.json"
+      "sourcePath": "module/engine/competences/environnement-terrains-hostiles/environnement-terrains-hostiles.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Habitué aux régions extrêmes, vous préservez plus efficacement votre endurance dans les milieux qui épuisent les voyageurs moins préparés.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "environnement-zones-urbanisees",
       "name": "Environnement - Zones Urbanisées",
-      "sourcePath": "module/engine/competences/environnement-zones-urbanisees/environnement-zones-urbanisees.json"
+      "sourcePath": "module/engine/competences/environnement-zones-urbanisees/environnement-zones-urbanisees.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Habitué à la densité des rues, au bruit constant, à la proximité des foules et aux mouvements imprévisibles de la cité, vous conservez plus facilement vos repères dans les environnements urbains.",
+      "levels": 2,
+      "status": null
     },
     {
       "id": "etiquette-diplomatique",
       "name": "Étiquette Diplomatique",
-      "sourcePath": "module/engine/competences/etiquette-diplomatique/etiquette-diplomatique.json"
+      "sourcePath": "module/engine/competences/etiquette-diplomatique/etiquette-diplomatique.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous maîtrisez les titres, les usages et les protocoles formels d’une autorité afin d’être reconnu comme un interlocuteur légitime.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "eveil-aux-sylphes",
       "name": "Éveil aux Sylphes",
-      "sourcePath": "module/engine/competences/eveil-aux-sylphes/eveil-aux-sylphes.json"
+      "sourcePath": "module/engine/competences/eveil-aux-sylphes/eveil-aux-sylphes.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Permet de percevoir les Sylphes et de les invoquer pour la première fois. Sans cette compétence, il est impossible d’interagir volontairement avec eux.",
+      "levels": 1,
+      "status": "deferred"
     },
     {
       "id": "excommunication-anatheme",
@@ -1340,7 +1453,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 51,
+    "verified": 66,
     "total": 191
   }
 }

@@ -456,77 +456,187 @@
     {
       "id": "confluence-arcanique",
       "name": "Confluence Arcanique",
-      "sourcePath": "module/engine/competences/confluence-arcanique/confluence-arcanique.json"
+      "sourcePath": "module/engine/competences/confluence-arcanique/confluence-arcanique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Harmonise les flux arcaniques des bénéficiaires pour accroître la puissance et la portée numérique de leurs sorts, permettre une relance immédiate après un échec ordinaire et, au N3, avantager le premier maintien de canalisation de chaque round.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "connaissance-des-creatures",
       "name": "Connaissance des Créatures",
-      "sourcePath": "module/engine/competences/connaissance-des-creatures/connaissance-des-creatures.json"
+      "sourcePath": "module/engine/competences/connaissance-des-creatures/connaissance-des-creatures.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Améliore l’action Étudier une créature et permet d’atteindre les connaissances expertes du Bestiairex.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "coordination-tactique",
       "name": "Coordination Tactique",
-      "sourcePath": "module/engine/competences/coordination-tactique/coordination-tactique.json"
+      "sourcePath": "module/engine/competences/coordination-tactique/coordination-tactique.json",
+      "tier": "B",
+      "gv": [
+        "Corps Militaire"
+      ],
+      "summary": "Vous abandonnez votre propre tour afin d’offrir immédiatement à un allié une ouverture qu’il pourra exploiter avant son tour normal.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "coup-dopportunite",
       "name": "Coup d’Opportunité",
-      "sourcePath": "module/engine/competences/coup-dopportunite/coup-dopportunite.json"
+      "sourcePath": "module/engine/competences/coup-dopportunite/coup-dopportunite.json",
+      "tier": "A",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous renforcez les dégâts de vos attaques réactives et armez une garde physique après leur résolution.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "cryptographie-avancee",
       "name": "Cryptographie Avancée",
-      "sourcePath": "module/engine/competences/cryptographie-avancee/cryptographie-avancee.json"
+      "sourcePath": "module/engine/competences/cryptographie-avancee/cryptographie-avancee.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez les textes chiffrés, écritures anciennes, messages dissimulés et systèmes de protection cryptographique.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "danse-des-elyth",
       "name": "Danse des Elyth",
-      "sourcePath": "module/engine/competences/danse-des-elyth/danse-des-elyth.json"
+      "sourcePath": "module/engine/competences/danse-des-elyth/danse-des-elyth.json",
+      "tier": null,
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous maîtrisez pleinement l’énergie des Elyth, leur permettant d’agir avec plus d’autonomie et de puissance. Chaque activation déclenche un effet avancé parmi une liste disponible. Avec l’expérience, vous pourrez choisir plusieurs effets, renforcer leur puissance et prolonger leur influence.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "dechiffrage-occulte",
       "name": "Déchiffrage Occulte",
-      "sourcePath": "module/engine/competences/dechiffrage-occulte/dechiffrage-occulte.json"
+      "sourcePath": "module/engine/competences/dechiffrage-occulte/dechiffrage-occulte.json",
+      "tier": "D",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez les textes rituels, runes, glyphes et ancrages occultes afin d’en comprendre la structure et, aux niveaux avancés, de tenter de les modifier.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "desarmement-strategique",
       "name": "Désarmement Stratégique",
-      "sourcePath": "module/engine/competences/desarmement-strategique/desarmement-strategique.json"
+      "sourcePath": "module/engine/competences/desarmement-strategique/desarmement-strategique.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire"
+      ],
+      "summary": "Vous savez reconnaître l’instant où la posture d’un adversaire expose son arme ou son bouclier.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "deviation-totale",
       "name": "Déviation Totale",
-      "sourcePath": "module/engine/competences/deviation-totale/deviation-totale.json"
+      "sourcePath": "module/engine/competences/deviation-totale/deviation-totale.json",
+      "tier": null,
+      "gv": [
+        "Garde Protecteur"
+      ],
+      "summary": "Redirigez une attaque vers une autre cible proche.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "discours-celeste",
       "name": "Discours Céleste",
-      "sourcePath": "module/engine/competences/discours-celeste/discours-celeste.json"
+      "sourcePath": "module/engine/competences/discours-celeste/discours-celeste.json",
+      "tier": "S",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Par une déclamation inspirée, vous restaurez la clarté mentale de vos alliés, dissipez les influences qui les affaiblissent et ravivez leur Santé Mentale.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "dissolution-spectrale",
       "name": "Dissolution Spectrale",
-      "sourcePath": "module/engine/competences/dissolution-spectrale/dissolution-spectrale.json"
+      "sourcePath": "module/engine/competences/dissolution-spectrale/dissolution-spectrale.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous désorganisez les flux d’un adversaire, dissolvez ses renforcements actifs et affaiblissez temporairement ses capacités magiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "distorsion-illusoire",
       "name": "Distorsion Illusoire",
-      "sourcePath": "module/engine/competences/distorsion-illusoire/distorsion-illusoire.json"
+      "sourcePath": "module/engine/competences/distorsion-illusoire/distorsion-illusoire.json",
+      "tier": "D",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Permet de créer des illusions visuelles ou mentales, avec une évolution progressive vers des illusions plus puissantes et réalistes.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "divination-pragmatique",
       "name": "Divination Pragmatique",
-      "sourcePath": "module/engine/competences/divination-pragmatique/divination-pragmatique.json"
+      "sourcePath": "module/engine/competences/divination-pragmatique/divination-pragmatique.json",
+      "tier": "C",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez rapidement les indices, comportements et probabilités d’une situation afin d’en anticiper le déroulement à court terme.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "echo-conjuratoire",
       "name": "Écho Conjuratoire",
-      "sourcePath": "module/engine/competences/echo-conjuratoire/echo-conjuratoire.json"
+      "sourcePath": "module/engine/competences/echo-conjuratoire/echo-conjuratoire.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Votre lien avec l’éther renforce toutes les invocations qui vous appartiennent.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "egide-invoquee",
       "name": "Égide Invoquée",
-      "sourcePath": "module/engine/competences/egide-invoquee/egide-invoquee.json"
+      "sourcePath": "module/engine/competences/egide-invoquee/egide-invoquee.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous renforcez la manifestation de toutes les invocations qui vous appartiennent.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "eloquence-sacree",
@@ -1230,7 +1340,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 35,
+    "verified": 51,
     "total": 191
   }
 }

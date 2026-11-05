@@ -72,7 +72,7 @@ STATS.map(k=>'<div class="wizard-stat"><label for="stat-'+k+'">'+esc(k.toUpperCa
 }else if(key==="token"){
 html='<p>La bibliothèque de tokens Foundry n’est pas intégrée à la PWA. Conservez ici une préférence visuelle, sans inventer de fichier.</p>'+field("token","Description du token souhaité",d.tokenDescription);
 }else if(key==="chance"){
-html='<p>Valeur de Chance du brouillon (aucun jet Foundry).</p>'+field("chance","Chance",d.chance??"","number");
+const bonus=d.heritageId==="chance-accrue"?5:0;html='<p>Chance : plafond Foundry par défaut 100, augmenté de +5 par le don Chance accrue. Valeur actuelle du brouillon, sans jet automatique.</p><p class="note">Maximum indicatif : <strong>'+(100+bonus)+'</strong></p>'+field("chance","Chance actuelle",d.chance??"","number");
 }else if(key==="age"){
 html=field("age","Âge (narratif)",d.age??"","number");
 }else if(key==="spirits"){

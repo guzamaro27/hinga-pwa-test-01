@@ -1853,62 +1853,151 @@
     {
       "id": "rage-de-la-nature",
       "name": "Rage de la Nature",
-      "sourcePath": "module/engine/competences/rage-de-la-nature/rage-de-la-nature.json"
+      "sourcePath": "module/engine/competences/rage-de-la-nature/rage-de-la-nature.json",
+      "tier": "A",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous canalisez votre vitalité pour renforcer vos attaques physiques de mêlée, au prix d’un contrecoup en PV.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "recuperation-passive",
       "name": "Récupération Passive",
-      "sourcePath": "module/engine/competences/recuperation-passive/recuperation-passive.json"
+      "sourcePath": "module/engine/competences/recuperation-passive/recuperation-passive.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Gardien de la Nature"
+      ],
+      "summary": "Votre organisme régénère naturellement vos blessures au début de vos tours de combat.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "replica-arcana",
       "name": "Replica Arcana",
-      "sourcePath": "module/engine/competences/replica-arcana/replica-arcana.json"
+      "sourcePath": "module/engine/competences/replica-arcana/replica-arcana.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous photographiez la formule intrinsèque d’un sort entièrement résolu et en créez une réplique temporaire adaptée à votre maîtrise élémentaire.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "reflexe-du-gardien",
       "name": "Réflexe du Gardien",
-      "sourcePath": "module/engine/competences/reflexe-du-gardien/reflexe-du-gardien.json"
+      "sourcePath": "module/engine/competences/reflexe-du-gardien/reflexe-du-gardien.json",
+      "tier": "S",
+      "gv": [
+        "Garde Protecteur"
+      ],
+      "summary": "Intervenez avant la défense d’un allié proche et devenez le défenseur d’une attaque ciblée.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "refuge-mental",
       "name": "Refuge Mental",
-      "sourcePath": "module/engine/competences/refuge-mental/refuge-mental.json"
+      "sourcePath": "module/engine/competences/refuge-mental/refuge-mental.json",
+      "tier": "A",
+      "gv": [
+        "Garde Protecteur",
+        "Mage Sage",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous devenez le centre mobile d’un refuge psychique qui stabilise les alliés proches.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "regard-de-laugure",
       "name": "Regard de l’Augure",
-      "sourcePath": "module/engine/competences/regard-de-laugure/regard-de-laugure.json"
+      "sourcePath": "module/engine/competences/regard-de-laugure/regard-de-laugure.json",
+      "tier": "D",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous lisez les traces persistantes qui entourent un être, un objet ou un phénomène observable.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "rempart-de-flux",
       "name": "Rempart de Flux",
-      "sourcePath": "module/engine/competences/rempart-de-flux/rempart-de-flux.json"
+      "sourcePath": "module/engine/competences/rempart-de-flux/rempart-de-flux.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage",
+        "Garde Protecteur",
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous partagez un seuil de DEM figé avec vos alliés tout en réduisant votre propre seuil de DEM.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "rempart-de-la-foi",
       "name": "Rempart de la Foi",
-      "sourcePath": "module/engine/competences/rempart-de-la-foi/rempart-de-la-foi.json"
+      "sourcePath": "module/engine/competences/rempart-de-la-foi/rempart-de-la-foi.json",
+      "tier": "B",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Une prière forme un bouclier spirituel dont chaque bénéficiaire possède sa propre réserve contre les dégâts magiques directs.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "rempart-protecteur",
       "name": "Rempart Protecteur",
-      "sourcePath": "module/engine/competences/rempart-protecteur/rempart-protecteur.json"
+      "sourcePath": "module/engine/competences/rempart-protecteur/rempart-protecteur.json",
+      "tier": "A",
+      "gv": [
+        "Garde Protecteur"
+      ],
+      "summary": "Vous vous ancrez derrière votre bouclier pour former un véritable rempart, protégeant les alliés placés derrière vous contre les attaques larges venant de face.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "renaissance-spirituelle",
       "name": "Renaissance Spirituelle",
-      "sourcePath": "module/engine/competences/renaissance-spirituelle/renaissance-spirituelle.json"
+      "sourcePath": "module/engine/competences/renaissance-spirituelle/renaissance-spirituelle.json",
+      "tier": "S",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Tente de réunir l’âme et le corps d’une personne réellement décédée depuis très peu de temps.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "renforcement-rythmique",
       "name": "Renforcement Rythmique",
-      "sourcePath": "module/engine/competences/renforcement-rythmique/renforcement-rythmique.json"
+      "sourcePath": "module/engine/competences/renforcement-rythmique/renforcement-rythmique.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vos tours successifs de soins actifs renforcent progressivement leurs soins de tour.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "resilience-antitoxine",
       "name": "Résilience Antitoxine",
-      "sourcePath": "module/engine/competences/resilience-antitoxine/resilience-antitoxine.json"
+      "sourcePath": "module/engine/competences/resilience-antitoxine/resilience-antitoxine.json",
+      "tier": "C",
+      "gv": [
+        "Gardien de la Nature"
+      ],
+      "summary": "Votre organisme apprend à neutraliser les substances toxiques qui l’affectent.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "resistance-acharnee",
@@ -2067,7 +2156,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 148,
+    "verified": 160,
     "total": 191
   }
 }

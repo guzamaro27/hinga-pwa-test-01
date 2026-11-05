@@ -1399,62 +1399,154 @@
     {
       "id": "maitrise-du-bouclier",
       "name": "Maîtrise du Bouclier",
-      "sourcePath": "module/engine/competences/maitrise-du-bouclier/maitrise-du-bouclier.json"
+      "sourcePath": "module/engine/competences/maitrise-du-bouclier/maitrise-du-bouclier.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous perfectionnez votre maniement du bouclier afin de limiter sa gêne, améliorer vos blocages et renforcer vos coups de bouclier.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-du-baton",
       "name": "Maîtrise du Bâton",
-      "sourcePath": "module/engine/competences/maitrise-du-baton/maitrise-du-baton.json"
+      "sourcePath": "module/engine/competences/maitrise-du-baton/maitrise-du-baton.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les bâtons et armes martiales techniques afin d’améliorer vos attaques, vos blocages, vos parades et votre contrôle du terrain.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-du-corps-a-corps",
       "name": "Maîtrise du Corps à Corps",
-      "sourcePath": "module/engine/competences/maitrise-du-corps-a-corps/maitrise-du-corps-a-corps.json"
+      "sourcePath": "module/engine/competences/maitrise-du-corps-a-corps/maitrise-du-corps-a-corps.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les attaques CàC, résistez mieux aux coups à mains nues et améliorez vos manœuvres de contrôle physique.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-du-fouet",
       "name": "Maîtrise du Fouet",
-      "sourcePath": "module/engine/competences/maitrise-du-fouet/maitrise-du-fouet.json"
+      "sourcePath": "module/engine/competences/maitrise-du-fouet/maitrise-du-fouet.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les fouets, chaînes et autres armes souples. Votre précision améliore vos attaques, vous permet d’accrocher une cible à distance et rend vos coups difficiles à arrêter avec une arme.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "manipulation-subtile",
       "name": "Manipulation Subtile",
-      "sourcePath": "module/engine/competences/manipulation-subtile/manipulation-subtile.json"
+      "sourcePath": "module/engine/competences/manipulation-subtile/manipulation-subtile.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous orientez subtilement une conversation afin d’insinuer une idée, modifier légèrement une opinion ou détourner l’attention d’un sujet sensible.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "marque-du-chasseur",
       "name": "Marque du Chasseur",
-      "sourcePath": "module/engine/competences/marque-du-chasseur/marque-du-chasseur.json"
+      "sourcePath": "module/engine/competences/marque-du-chasseur/marque-du-chasseur.json",
+      "tier": "A",
+      "gv": [
+        "Gardien de la Nature",
+        "Ombre Rebelle"
+      ],
+      "summary": "Appose une marque invisible sur une cible qui ne vous a pas repéré afin de gêner ses actions, faciliter la chasse à distance et suivre sa position.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "memoire-eidetique",
       "name": "Mémoire Eidétique",
-      "sourcePath": "module/engine/competences/memoire-eidetique/memoire-eidetique.json"
+      "sourcePath": "module/engine/competences/memoire-eidetique/memoire-eidetique.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Votre mémoire exceptionnelle vous permet de retrouver avec précision les informations que vous avez réellement vues, entendues ou lues par le passé.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "metabolisme-tenace",
       "name": "Métabolisme Tenace",
-      "sourcePath": "module/engine/competences/metabolisme-tenace/metabolisme-tenace.json"
+      "sourcePath": "module/engine/competences/metabolisme-tenace/metabolisme-tenace.json",
+      "tier": "B",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Votre organisme lutte volontairement contre une affliction corporelle tirée au hasard avant ses dégâts périodiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "mutation-elementaire",
       "name": "Mutation Élémentaire",
-      "sourcePath": "module/engine/competences/mutation-elementaire/mutation-elementaire.json"
+      "sourcePath": "module/engine/competences/mutation-elementaire/mutation-elementaire.json",
+      "tier": "A",
+      "gv": [
+        "Gardien de la Nature",
+        "Mage Sage"
+      ],
+      "summary": "Votre organisme attend une attaque magique élémentaire hostile, puis remplace temporairement son affinité principale par l’élément qui vous a blessé.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "mimetisme-cryptique",
       "name": "Mimétisme Cryptique",
-      "sourcePath": "module/engine/competences/mimetisme-cryptique/mimetisme-cryptique.json"
+      "sourcePath": "module/engine/competences/mimetisme-cryptique/mimetisme-cryptique.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous modifiez temporairement votre apparence afin d’imiter une créature ou une personne.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "mur-mobile",
       "name": "Mur Mobile",
-      "sourcePath": "module/engine/competences/mur-mobile/mur-mobile.json"
+      "sourcePath": "module/engine/competences/mur-mobile/mur-mobile.json",
+      "tier": "B",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous déplacez des alliés derrière votre bouclier, empêchez leurs attaques d’opportunité et interceptez les attaques physiques qui les visent pendant l’escorte.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "nexus-dephase",
       "name": "Nexus Déphasé",
-      "sourcePath": "module/engine/competences/nexus-dephase/nexus-dephase.json"
+      "sourcePath": "module/engine/competences/nexus-dephase/nexus-dephase.json",
+      "tier": null,
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Crée une zone de magie erratique et déphasée, rendant toute manipulation magique imprécise et chaotique pour ceux qui s’y trouvent.",
+      "levels": 3,
+      "status": "deferred"
     },
     {
       "id": "ombre-sauvage",
@@ -1793,7 +1885,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 112,
+    "verified": 124,
     "total": 191
   }
 }

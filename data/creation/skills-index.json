@@ -203,27 +203,66 @@
     {
       "id": "armure-magique",
       "name": "Armure Magique",
-      "sourcePath": "module/engine/competences/armure-magique/armure-magique.json"
+      "sourcePath": "module/engine/competences/armure-magique/armure-magique.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage",
+        "Garde Protecteur",
+        "Combattant Émérite"
+      ],
+      "summary": "Enveloppe une cible d’une protection qui renforce sa défense magique et, aux niveaux supérieurs, sa résistance aux états élémentaires.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "ascendance-spirituelle",
       "name": "Ascendance Spirituelle",
-      "sourcePath": "module/engine/competences/ascendance-spirituelle/ascendance-spirituelle.json"
+      "sourcePath": "module/engine/competences/ascendance-spirituelle/ascendance-spirituelle.json",
+      "tier": "S",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous maintenez autour de vous une aura qui élève temporairement l’esprit de vos alliés et renforce leurs aptitudes arcaniques, spirituelles et perceptives.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "attirance-bestiale",
       "name": "Attirance Bestiale",
-      "sourcePath": "module/engine/competences/attirance-bestiale/attirance-bestiale.json"
+      "sourcePath": "module/engine/competences/attirance-bestiale/attirance-bestiale.json",
+      "tier": "B",
+      "gv": [
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Votre présence dominante impose un défi aux ennemis proches et les pousse à concentrer leurs actions offensives sur vous.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "aura-dinspiration",
       "name": "Aura d’Inspiration",
-      "sourcePath": "module/engine/competences/aura-dinspiration/aura-dinspiration.json"
+      "sourcePath": "module/engine/competences/aura-dinspiration/aura-dinspiration.json",
+      "tier": "A",
+      "gv": [
+        "Garde Protecteur",
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Votre présence galvanise les alliés proches, améliore leur coordination et renforce progressivement leur efficacité au combat.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "aura-protectrice-couverture",
       "name": "Aura Protectrice (Couverture)",
-      "sourcePath": "module/engine/competences/aura-protectrice-couverture/aura-protectrice-couverture.json"
+      "sourcePath": "module/engine/competences/aura-protectrice-couverture/aura-protectrice-couverture.json",
+      "tier": "D",
+      "gv": [
+        "Corps Militaire"
+      ],
+      "summary": "Vous déployez une aura mobile qui réduit les dégâts physiques subis par les alliés proches et couvre leurs déplacements.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "aura-protectrice-sanctuaire",
@@ -1077,7 +1116,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 16,
+    "verified": 21,
     "total": 191
   }
 }

@@ -152,22 +152,53 @@
     {
       "id": "anticipation-parfaite",
       "name": "Anticipation Parfaite",
-      "sourcePath": "module/engine/competences/anticipation-parfaite/anticipation-parfaite.json"
+      "sourcePath": "module/engine/competences/anticipation-parfaite/anticipation-parfaite.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vos réflexes neutralisent la première attaque Surprise valide qui vous cible après l’activation du passif.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "antidote-arcanique",
       "name": "Antidote Arcanique",
-      "sourcePath": "module/engine/competences/antidote-arcanique/antidote-arcanique.json"
+      "sourcePath": "module/engine/competences/antidote-arcanique/antidote-arcanique.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Réaligne le flux d’une cible afin de réduire ou neutraliser une toxine magique déjà active.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "antidote-basique",
       "name": "Antidote Basique",
-      "sourcePath": "module/engine/competences/antidote-basique/antidote-basique.json"
+      "sourcePath": "module/engine/competences/antidote-basique/antidote-basique.json",
+      "tier": "C",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous appliquez un traitement d’urgence afin d’extraire, diluer, neutraliser ou ralentir un poison physique non magique déjà actif.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "appel-des-plans-lointains",
       "name": "Appel des Plans Lointains",
-      "sourcePath": "module/engine/competences/appel-des-plans-lointains/appel-des-plans-lointains.json"
+      "sourcePath": "module/engine/competences/appel-des-plans-lointains/appel-des-plans-lointains.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous ouvrez un passage vers un plan lointain et faites apparaître une puissante entité incontrôlable jouée par le MJ.",
+      "levels": 1,
+      "status": "ready"
     },
     {
       "id": "armure-magique",
@@ -1046,7 +1077,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 12,
+    "verified": 16,
     "total": 191
   }
 }

@@ -1248,62 +1248,153 @@
     {
       "id": "main-forte",
       "name": "Main Forte",
-      "sourcePath": "module/engine/competences/main-forte/main-forte.json"
+      "sourcePath": "module/engine/competences/main-forte/main-forte.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous remettez un allié renversé ou déséquilibré sur ses appuis et lui accordez brièvement +5 REACT.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "marche-inexorable",
       "name": "Marche Inexorable",
-      "sourcePath": "module/engine/competences/marche-inexorable/marche-inexorable.json"
+      "sourcePath": "module/engine/competences/marche-inexorable/marche-inexorable.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur",
+        "Gardien de la Nature"
+      ],
+      "summary": "Vous forcez un passage à travers un obstacle matériel ou une ligne hostile au moyen d’un unique jet de FOR avec AV1.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "melee-implacable",
       "name": "Mêlée Implacable",
-      "sourcePath": "module/engine/competences/melee-implacable/melee-implacable.json"
+      "sourcePath": "module/engine/competences/melee-implacable/melee-implacable.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite",
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous engagez une créature au contact dans une opposition de FOR entretenue tour après tour.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitre-de-levasion",
       "name": "Maître de l’Évasion",
-      "sourcePath": "module/engine/competences/maitre-de-levasion/maitre-de-levasion.json"
+      "sourcePath": "module/engine/competences/maitre-de-levasion/maitre-de-levasion.json",
+      "tier": "A",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous exploitez la moindre ouverture pour vous retirer instantanément sans laisser à vos adversaires le temps de réagir.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-l-arc",
       "name": "Maîtrise de l'Arc",
-      "sourcePath": "module/engine/competences/maitrise-de-l-arc/maitrise-de-l-arc.json"
+      "sourcePath": "module/engine/competences/maitrise-de-l-arc/maitrise-de-l-arc.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les arcs et arbalètes et savez adapter votre tir à la distance ainsi qu’au mouvement du tireur ou de sa cible.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-la-dague",
       "name": "Maîtrise de la Dague",
-      "sourcePath": "module/engine/competences/maitrise-de-la-dague/maitrise-de-la-dague.json"
+      "sourcePath": "module/engine/competences/maitrise-de-la-dague/maitrise-de-la-dague.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les dagues, couteaux et armes légères assimilées afin d’améliorer vos attaques, vos ripostes et votre capacité à porter des coups critiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-la-hache",
       "name": "Maîtrise de la Hache",
-      "sourcePath": "module/engine/competences/maitrise-de-la-hache/maitrise-de-la-hache.json"
+      "sourcePath": "module/engine/competences/maitrise-de-la-hache/maitrise-de-la-hache.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les haches légères et lourdes, utilisant leur force d’impact pour améliorer vos attaques, traverser une partie de l’armure adverse et fragiliser durablement les protections ennemies.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-la-lance",
       "name": "Maîtrise de la Lance",
-      "sourcePath": "module/engine/competences/maitrise-de-la-lance/maitrise-de-la-lance.json"
+      "sourcePath": "module/engine/competences/maitrise-de-la-lance/maitrise-de-la-lance.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les lances et les armes d’hast afin d’améliorer vos attaques, vos dégâts et vos blocages, puis d’ouvrir la garde adverse avec un Coup de hampe.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-la-masse",
       "name": "Maîtrise de la Masse",
-      "sourcePath": "module/engine/competences/maitrise-de-la-masse/maitrise-de-la-masse.json"
+      "sourcePath": "module/engine/competences/maitrise-de-la-masse/maitrise-de-la-masse.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous maîtrisez les masses et autres armes d’impact. Vos coups gagnent en précision et en puissance, transmettent une partie de leur force à travers les blocages et accumulent progressivement un Élan renforçant vos attaques suivantes.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-larmure",
       "name": "Maîtrise de l’Armure",
-      "sourcePath": "module/engine/competences/maitrise-de-larmure/maitrise-de-larmure.json"
+      "sourcePath": "module/engine/competences/maitrise-de-larmure/maitrise-de-larmure.json",
+      "tier": "B",
+      "gv": [
+        "Corps Militaire",
+        "Combattant Émérite"
+      ],
+      "summary": "Vous exploitez le poids et la protection de votre armure pour mieux encaisser, vous déplacer et résister aux repoussements.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-de-lepee",
       "name": "Maîtrise de l’Épée",
-      "sourcePath": "module/engine/competences/maitrise-de-lepee/maitrise-de-lepee.json"
+      "sourcePath": "module/engine/competences/maitrise-de-lepee/maitrise-de-lepee.json",
+      "tier": "B",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous adaptez votre technique à chaque épée afin d’améliorer vos attaques, vos dégâts, vos parades et vos contre-attaques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-du-revetement",
       "name": "Maîtrise du Revêtement",
-      "sourcePath": "module/engine/competences/maitrise-du-revetement/maitrise-du-revetement.json"
+      "sourcePath": "module/engine/competences/maitrise-du-revetement/maitrise-du-revetement.json",
+      "tier": "C",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Vous améliorez le profil demandé de vos Revêtements élémentaires sans en réduire le coût.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "maitrise-du-bouclier",
@@ -1702,7 +1793,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 100,
+    "verified": 112,
     "total": 191
   }
 }

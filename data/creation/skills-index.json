@@ -2152,27 +2152,63 @@
     {
       "id": "sentinelle-eclairee",
       "name": "Sentinelle Éclairée",
-      "sourcePath": "module/engine/competences/sentinelle-eclairee/sentinelle-eclairee.json"
+      "sourcePath": "module/engine/competences/sentinelle-eclairee/sentinelle-eclairee.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous maintenez une surveillance mobile qui vous avertit lorsqu’une menace hostile franchit sa limite.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "serenite-du-devot",
       "name": "Sérénité du Dévot",
-      "sourcePath": "module/engine/competences/serenite-du-devot/serenite-du-devot.json"
+      "sourcePath": "module/engine/competences/serenite-du-devot/serenite-du-devot.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Votre sérénité restaure votre Santé Mentale à l’entrée d’un combat qualifiant, puis aux niveaux supérieurs à sa fin et lors d’un franchissement critique du seuil de 50 %.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "soin-magique",
       "name": "Soin Magique",
-      "sourcePath": "module/engine/competences/soin-magique/soin-magique.json"
+      "sourcePath": "module/engine/competences/soin-magique/soin-magique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous canalisez un soin magique sur une créature vivante consentante et blessée.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "soin-mental",
       "name": "Soin Mental",
-      "sourcePath": "module/engine/competences/soin-mental/soin-mental.json"
+      "sourcePath": "module/engine/competences/soin-mental/soin-mental.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous canalisez un soin psychique qui restaure uniquement la Santé Mentale d’une cible consentante.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "soin-naturel",
       "name": "Soin Naturel",
-      "sourcePath": "module/engine/competences/soin-naturel/soin-naturel.json"
+      "sourcePath": "module/engine/competences/soin-naturel/soin-naturel.json",
+      "tier": "A",
+      "gv": [
+        "Scientifique Savant"
+      ],
+      "summary": "Vous prodiguez au contact un soin naturel non magique à une créature vivante, consentante, blessée et traitable.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "stabilite",
@@ -2246,7 +2282,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 172,
+    "verified": 177,
     "total": 191
   }
 }

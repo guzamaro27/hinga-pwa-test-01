@@ -2,6 +2,30 @@
 const STEPS=[["peuple","Peuple et apparence"],["element","Élément"],["competence","Compétence culturelle"],["heritage","Don inné"],["vocationalGroup","Groupe vocationnel"],["stats","Statistiques"],["token","Token"],["chance","Chance"],["age","Âge"],["spirits","Esprits"],["traits","Caractères"],["extra","Autres options"],["name","Nom"],["summary","Résumé final"]];
 const STATS=["force","constit","vita","psych","intell","charisme","demag","arcane","perc","dex","react","discr"];
 const ELEMENTS=["PLANTE","EAU","FEU","TERRE","METAL","ELECTRICITE","AIR","SON","CORPS","LUMIERE","TENEBRES","TEMPS","ESPACE"];
+const BONUS_INFO={
+"double-heritage":["Double héritage","Les deux compétences culturelles du peuple sont gratuites."],
+"point-competence":["Point de compétence","+1 point supplémentaire au budget de compétences."],
+"chance-accrue":["Chance accrue","+5 au maximum de Chance."],
+"mentalite":["Mentalité","Immunité aux états de tier 1 de la famille choisie ; AV1 contre les tiers 2 à 4."],
+"recuperation-amelioree":["Récupération améliorée","+10 % de récupération de la ressource choisie."],
+"reserve-naturelle":["Réserve naturelle","+5 % au maximum de la ressource choisie, arrondi au supérieur."],
+"transformation-condition":["Transformation & Condition","Héritage narratif, sans automatisation."],
+"adaptation-environnementale":["Adaptation environnementale","Compétence N1 gratuite de l’environnement choisi."],
+"sens-aiguise":["Sens aiguisé","+5 dans le sens choisi."],
+"resistance-elementaire":["Résistance élémentaire","+10 % contre l’élément choisi."],
+"resistance-poisons":["Résistance aux poisons","+10 % contre les poisons indiqués."],
+"pilier-ancrage":["Pilier d’Ancrage","Pilier d’Ancrage N1 gratuit et choix de statistique d’ancrage."]
+};
+const BONUS_DETAILS={
+"sens-aiguise":[["vis","Vue"],["aud","Ouïe"],["olf","Odorat"],["tac","Toucher"],["gus","Goût"],["eso","Ésotérique"]],
+"mentalite":["folie","serimoth","peur","desespoir","panique","influence","brouillage_sensoriel","confusion"].map(x=>[x,title(x)]),
+"recuperation-amelioree":[["pv","Points de vie"],["sm","Santé mentale"],["pf","Points de fatigue"]],
+"reserve-naturelle":[["pv","Points de vie"],["sm","Santé mentale"],["pf","Points de fatigue"]],
+"adaptation-environnementale":[["altitude","Altitude"],["aquatique","Aquatique"],["forets-denses","Forêts denses"],["souterrains","Souterrains"],["terrains-hostiles","Terrains hostiles"],["zones-urbanisees","Zones urbanisées"]],
+"resistance-elementaire":ELEMENTS.map(x=>[x,title(x)]),
+"resistance-poisons":[["poison_phy","Poison naturel"],["poison_mag","Poison magique"],["poison_phy|poison_mag","Poisons naturel et magique"]]
+};
+const ENV_SKILLS={"altitude":"environnement-altitude","aquatique":"environnement-aquatique","forets-denses":"environnement-forets-densite-vegetale","souterrains":"environnement-souterrains","terrains-hostiles":"environnement-terrains-hostiles","zones-urbanisees":"environnement-zones-urbanisees"};
 const GROUPS=[["combattant-emerite","Combattant Émérite"],["corps-militaire","Corps Militaire"],["garde-protecteur","Garde Protecteur"],["gardien-de-la-nature","Gardien de la Nature"],["mage-sage","Mage Sage"],["negociateur-diplomatique","Négociateur Diplomatique"],["ombre-rebelle","Ombre Rebelle"],["peregrin-mystique","Pérégrin Mystique"],["scientifique-savant","Scientifique Savant"]];
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const title=id=>String(id??"").replace(/-/g," ").replace(/\b\p{L}/gu,x=>x.toUpperCase());
@@ -23,9 +47,12 @@ html='<p>Choisissez votre peuple. Ses affinités, compétences et dons dépenden
 html='<p>Jusqu’à trois éléments distincts. Maîtrise N0 (Néophyte) à N4 (Sage). L’affinité du peuple est indiquée à titre informatif.</p>'+(p?'<p>Affinité du peuple : <strong>'+esc(p.affinity)+'</strong></p>':'<p class="note">Peuple non sélectionné.</p>')+
 Array.from({length:3},(_,i)=>'<div class="wizard-pair"><label>Élément '+(i+1)+select("element-"+i,ELEMENTS.map(x=>[x,title(x)]),d.elementSlots[i]?.elementId,"Aucun")+'</label><label>Maîtrise'+select("level-"+i,[0,1,2,3,4].map(n=>[n,"N"+n]),d.elementSlots[i]?.level??0,"Niveau")+'</label></div>').join("");
 }else if(key==="competence"){
-html=p?'<p>Choisissez une compétence culturelle autorisée pour '+esc(p.label)+'.</p>'+select("competence",p.competenceIds.map(x=>[x,title(x)]),d.competenceId):'<p class="note">Choisissez d’abord un peuple.</p>';
+html=p?'<p>Choisissez une compétence culturelle gratuite parmi les deux proposées par votre peuple.</p>'+select("competence",p.competenceIds.map(x=>[x,skills.find(y=>y.id===x)?.name||title(x)]),d.competenceId)+(d.heritageId==="double-heritage"?'<p class="note">Double héritage : les deux compétences culturelles sont gratuites.</p>':''):'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="heritage"){
-html=p?'<p>Don inné parmi les options propres à votre peuple. Les effets restent descriptifs dans la PWA.</p>'+select("heritage",p.bonuses.map(x=>[x.id+(x.detail?"|"+x.detail:""),title(x.id)+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+(d.heritageId?.startsWith("sens-aiguise")?'<label>Sens spécialisé</label>'+select("heritage-detail",[["vis","Vue"],["aud","Ouïe"],["olf","Odorat"],["tac","Toucher"],["gus","Goût"],["eso","Ésotérique"]],d.heritageDetail,"Choisir le sens"):"")+'<p class="note">Bonus officiels : double héritage = deux compétences culturelles ; Chance accrue = +5 maximum ; Réserve naturelle = +5 % maximum ; Récupération améliorée = +10 % ; Résistance élémentaire = +10 %.</p>':'<p class="note">Choisissez d’abord un peuple.</p>';
+const bonus=p?.bonuses.find(x=>x.id===d.heritageId);
+const info=BONUS_INFO[bonus?.id]||[title(bonus?.id),"Bonus racial descriptif"];
+const options=bonus?(BONUS_DETAILS[bonus.id]||[]):[];
+html=p?'<p>Choisissez un don inné de votre peuple. Les bonus sont récapitulés sans déclencher d’effet Foundry.</p>'+select("heritage",p.bonuses.map(x=>[x.id,(BONUS_INFO[x.id]?.[0]||title(x.id))+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+(bonus?'<p class="note"><strong>'+esc(info[0])+'</strong> — '+esc(info[1])+'</p>':'')+(bonus&&options.length?'<label>Précision du don</label>'+select("heritage-detail",options,bonus.detail||d.heritageDetail,"Choisir"):''):'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="vocationalGroup"){
 const owned=[d.primaryVocationalGroupId,...(d.additionalVocationalGroupIds||[])].filter(Boolean);
 const nextCost=owned.length===0?0:(owned.length===1?2:(owned.length+1)*2);
@@ -57,12 +84,12 @@ host.innerHTML='<button id="wiz-close" class="back">← Retour au personnage</bu
 host.querySelector("#wiz-close").onclick=()=>onClose();
 host.querySelector("#prev").onclick=()=>{step--;d.wizardStep=step;save();render()};
 host.querySelector("#next").onclick=()=>{if(step<13){step++;d.wizardStep=step;save();render()}else{d.wizardStep=13;save();onClose()}};
-bind("#p",el=>{if(d.peupleId!==el.value){d.peupleId=el.value;d.competenceId="";d.heritageId="";d.elementSlots=[]}});
+bind("#p",el=>{if(d.peupleId!==el.value){d.peupleId=el.value;d.competenceId="";d.heritageId="";d.heritageDetail="";d.elementSlots=[]}});
 bind("#gender",el=>d.gender=el.value);
 bind('[id^="element-"]',el=>{const i=Number(el.id.split("-")[1]);const id=el.value;if(id&&d.elementSlots.some((x,j)=>j!==i&&x?.elementId===id)){d.elementSlots[i]={elementId:"",level:0};return}d.elementSlots[i]={elementId:id,level:d.elementSlots[i]?.level??0}});
 bind('[id^="level-"]',el=>{const i=Number(el.id.split("-")[1]);d.elementSlots[i]??={elementId:"",level:0};d.elementSlots[i].level=Number(el.value)});
 bind("#competence",el=>d.competenceId=el.value);
-bind("#heritage",el=>d.heritageId=el.value);
+bind("#heritage",el=>{d.heritageId=el.value;d.heritageDetail=""});
 bind("#heritage-detail",el=>d.heritageDetail=el.value);
 bind("#group",el=>{d.primaryVocationalGroupId=el.value;d.additionalVocationalGroupIds=(d.additionalVocationalGroupIds||[]).filter(id=>id!==el.value)});
 bind("#preset",el=>{d.presetId=el.value;const preset=presets.find(x=>x.id===el.value);if(preset)d.baseStats={...preset.stats}});
@@ -75,7 +102,7 @@ bind("#spirits",el=>d.spirits=el.value);
 const search=host.querySelector("#skill-search");
 if(search){
 d.selectedSkillIds??=[];d.additionalVocationalGroupIds??=[];
-const cost={D:1,C:2,B:3,A:4,S:5};
+const cost={D:1,C:2,B:3,A:4,S:5};const budgetMax=()=>12+(d.heritageId==="point-competence"?1:0);
 const normalize=g=>GROUPS.find(([id,label])=>g===id||g===label)?.[0]||(g==="Générales"||g==="Generales"?"generales":null);
 const owned=()=>[d.primaryVocationalGroupId,...d.additionalVocationalGroupIds].filter(Boolean);
 const groupCost=()=>d.additionalVocationalGroupIds.reduce((n,_,i)=>n+(i===0?2:(i+2)*2),0);
@@ -85,12 +112,12 @@ const eligible=sk=>Array.isArray(sk.gv)&&sk.gv.some(g=>normalize(g)==="generales
 const valid=sk=>sk&&cost[sk.tier]&&sk.status!=="deferred"&&eligible(sk);
 const selected=host.querySelector("#skill-selected"),results=host.querySelector("#skill-results"),groups=host.querySelector("#additional-groups"),budget=host.querySelector("#skill-budget");
 function draw(){
-const spent=skillSpent()+groupCost(),remaining=12-spent;
+const spent=skillSpent()+groupCost(),remaining=budgetMax()-spent;
 const invalid=d.selectedSkillIds.filter(id=>!valid(skills.find(x=>x.id===id)));
-budget.textContent="12 points initiaux · GV : "+groupCost()+" · Compétences : "+skillSpent()+" · Restants : "+remaining+(invalid.length?" · "+invalid.length+" choix à corriger":"")+(remaining<0?" · Budget dépassé":"");
+budget.textContent=""+budgetMax()+" points initiaux · GV : "+groupCost()+" · Compétences : "+skillSpent()+" · Restants : "+remaining+(invalid.length?" · "+invalid.length+" choix à corriger":"")+(remaining<0?" · Budget dépassé":"");
 groups.replaceChildren();
 for(const id of d.additionalVocationalGroupIds){const line=document.createElement("div");line.className="wizard-pair";const label=document.createElement("span");label.textContent=GROUPS.find(x=>x[0]===id)?.[1]||id;const remove=document.createElement("button");remove.type="button";remove.textContent="Retirer";remove.onclick=()=>{d.additionalVocationalGroupIds=d.additionalVocationalGroupIds.filter(x=>x!==id);save();draw()};line.append(label,remove);groups.append(line)}
-const options=GROUPS.filter(x=>!owned().includes(x[0]));if(options.length&&d.primaryVocationalGroupId){const sel=document.createElement("select");sel.innerHTML='<option value="">Ajouter un GV (coût '+(owned().length===1?2:(owned().length+1)*2)+' points)</option>'+options.map(([id,label])=>'<option value="'+esc(id)+'">'+esc(label)+'</option>').join("");sel.onchange=()=>{const c=owned().length===1?2:(owned().length+1)*2;if(!sel.value)return;if(spent+c>12){alert("Points insuffisants pour ce groupe.");sel.value="";return}d.additionalVocationalGroupIds.push(sel.value);save();draw()};groups.append(sel)}
+const options=GROUPS.filter(x=>!owned().includes(x[0]));if(options.length&&d.primaryVocationalGroupId){const sel=document.createElement("select");sel.innerHTML='<option value="">Ajouter un GV (coût '+(owned().length===1?2:(owned().length+1)*2)+' points)</option>'+options.map(([id,label])=>'<option value="'+esc(id)+'">'+esc(label)+'</option>').join("");sel.onchange=()=>{const c=owned().length===1?2:(owned().length+1)*2;if(!sel.value)return;if(spent+c>budgetMax()){alert("Points insuffisants pour ce groupe.");sel.value="";return}d.additionalVocationalGroupIds.push(sel.value);save();draw()};groups.append(sel)}
 selected.replaceChildren();if(!d.selectedSkillIds.length)selected.textContent="Aucune compétence achetée.";
 for(const id of d.selectedSkillIds){const sk=skills.find(x=>x.id===id);const line=document.createElement("div");line.className="wizard-pair";const name=document.createElement("span");name.textContent=(sk?.name||id)+" · N1 · "+(skillCost(id)||"?")+" pt"+(skillCost(id)>1?"s":"")+(valid(sk)?"":" · À CORRIGER");const remove=document.createElement("button");remove.type="button";remove.textContent="Retirer";remove.onclick=()=>{d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==id);save();draw()};line.append(name,remove);selected.append(line)}
 results.replaceChildren();const q=search.value.trim().toLocaleLowerCase("fr");const visible=skills.filter(sk=>(!q||sk.name.toLocaleLowerCase("fr").includes(q)||sk.gv?.some(g=>g.toLocaleLowerCase("fr").includes(q)))&&(q.length>=2||eligible(sk))).slice(0,45);

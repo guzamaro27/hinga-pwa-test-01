@@ -2,6 +2,7 @@
 const STEPS=[["peuple","Peuple et apparence"],["element","Élément"],["competence","Compétence culturelle"],["heritage","Don inné"],["vocationalGroup","Groupe vocationnel"],["stats","Statistiques"],["token","Token"],["chance","Chance"],["age","Âge"],["spirits","Esprits"],["traits","Caractères"],["extra","Autres options"],["name","Nom"],["summary","Résumé final"]];
 const STATS=["force","constit","vita","psych","intell","charisme","demag","arcane","perc","dex","react","discr"];
 const ELEMENTS=["PLANTE","EAU","FEU","TERRE","METAL","ELECTRICITE","AIR","SON","CORPS","LUMIERE","TENEBRES","TEMPS","ESPACE"];
+const title=id=>String(id??"").replace(/-/g," ").replace(/\b\p{L}/gu,x=>x.toUpperCase());
 const BONUS_INFO={
 "double-heritage":["Double héritage","Les deux compétences culturelles du peuple sont gratuites."],
 "point-competence":["Point de compétence","+1 point supplémentaire au budget de compétences."],
@@ -28,7 +29,7 @@ const BONUS_DETAILS={
 const ENV_SKILLS={"altitude":"environnement-altitude","aquatique":"environnement-aquatique","forets-denses":"environnement-forets-densite-vegetale","souterrains":"environnement-souterrains","terrains-hostiles":"environnement-terrains-hostiles","zones-urbanisees":"environnement-zones-urbanisees"};
 const GROUPS=[["combattant-emerite","Combattant Émérite"],["corps-militaire","Corps Militaire"],["garde-protecteur","Garde Protecteur"],["gardien-de-la-nature","Gardien de la Nature"],["mage-sage","Mage Sage"],["negociateur-diplomatique","Négociateur Diplomatique"],["ombre-rebelle","Ombre Rebelle"],["peregrin-mystique","Pérégrin Mystique"],["scientifique-savant","Scientifique Savant"]];
 const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const title=id=>String(id??"").replace(/-/g," ").replace(/\b\p{L}/gu,x=>x.toUpperCase());
+
 let peoples=[],presets=[],skills=[],spirits=[];
 export async function loadPeople(){try{const r=await fetch("./data/creation/peuples.json");if(!r.ok)throw Error("Catalogue indisponible");const data=await r.json();if(![1,2].includes(data.schemaVersion)||!Array.isArray(data.peoples))throw Error("Catalogue invalide");peoples=data.peoples.sort((a,b)=>a.label.localeCompare(b.label,"fr"));}catch{peoples=[]}try{const [a,b,m]=await Promise.all([fetch("./data/creation/presets.json"),fetch("./data/creation/skills-index.json"),fetch("./data/wiki/manifest.json")]);if(a.ok)presets=(await a.json()).presets||[];if(b.ok)skills=(await b.json()).skills||[];if(m.ok){const paths=(await m.json()).filter(x=>x.section==="pantheon"&&!x.path.includes("guide-"));const data=await Promise.allSettled(paths.map(async x=>{const r=await fetch("./"+x.path);return r.ok?r.json():null}));spirits=data.filter(x=>x.status==="fulfilled"&&x.value?.type==="pantheon-spirit").map(x=>({id:x.value.id,label:x.value.identity?.name,domains:x.value.pantheon?.domains||[],blessings:Object.values(x.value.pantheon?.blessings||{}).map(b=>({name:b.name,effect:b.shortEffect,tier:b.tier}))})).filter(x=>x.id&&x.label).sort((a,b)=>a.label.localeCompare(b.label,"fr"))}}catch(e){console.warn("Catalogues indisponibles",e)}return peoples}
 export function renderWizard(host,record,onChange,onClose){

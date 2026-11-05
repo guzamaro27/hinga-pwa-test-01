@@ -27,7 +27,11 @@ html=p?'<p>Choisissez une compétence culturelle autorisée pour '+esc(p.label)+
 }else if(key==="heritage"){
 html=p?'<p>Don inné parmi les options propres à votre peuple. Les effets restent descriptifs dans la PWA.</p>'+select("heritage",p.bonuses.map(x=>[x.id+(x.detail?"|"+x.detail:""),title(x.id)+(x.detail?" — "+title(x.detail):"")]),d.heritageId)+(d.heritageId?.startsWith("sens-aiguise")?'<label>Sens spécialisé</label>'+select("heritage-detail",[["vis","Vue"],["aud","Ouïe"],["olf","Odorat"],["tac","Toucher"],["gus","Goût"],["eso","Ésotérique"]],d.heritageDetail,"Choisir le sens"):"")+'<p class="note">Bonus officiels : double héritage = deux compétences culturelles ; Chance accrue = +5 maximum ; Réserve naturelle = +5 % maximum ; Récupération améliorée = +10 % ; Résistance élémentaire = +10 %.</p>':'<p class="note">Choisissez d’abord un peuple.</p>';
 }else if(key==="vocationalGroup"){
-html='<p>Premier groupe vocationnel spécialisé : gratuit. Les compétences ne sont pas attribuées automatiquement.</p>'+select("group",GROUPS,d.primaryVocationalGroupId)+'<label>Compétences disponibles : '+skills.length+'</label><input id="skill-search" placeholder="Rechercher une compétence"><div id="skill-results"></div><div id="skill-selected"></div>';
+const owned=[d.primaryVocationalGroupId,...(d.additionalVocationalGroupIds||[])].filter(Boolean);
+const nextCost=owned.length===0?0:(owned.length+1)*2;
+html='<p>Choisissez vos groupes vocationnels, puis achetez des compétences N1. Aucun effet automatique n’est appliqué.</p><p class="note">Générales : toujours accessibles. Premier GV gratuit ; deuxième 2 points ; troisième 6 points ; quatrième 8 points.</p>'+
+'<label>Groupe principal (gratuit)</label>'+select("group",GROUPS,d.primaryVocationalGroupId)+
+'<div id="additional-groups"></div><p id="skill-budget"></p><label>Catalogue des compétences</label><input id="skill-search" placeholder="Rechercher une compétence (nom ou GV)"><div id="skill-results"></div><h4>Compétences choisies</h4><div id="skill-selected"></div>';
 }else if(key==="stats"){
 html='<label>Archétype de statistiques</label>'+select("preset",presets.map(x=>[x.id,x.label]),d.presetId,"Répartition personnalisée")+'<p>Statistiques de base : <strong>'+sum+' / 480</strong> points. Les bonus du peuple restent séparés.</p>'+(sum>480?'<p class="note">Dépassement de '+(sum-480)+' points.</p>':'<p class="note">Solde indicatif : '+(480-sum)+' points.</p>')+
 STATS.map(k=>'<div class="wizard-stat"><label for="stat-'+k+'">'+esc(k.toUpperCase())+'</label><input id="stat-'+k+'" data-stat="'+k+'" type="number" min="0" max="100" step="1" value="'+esc(d.baseStats[k])+'"></div>').join("")+'<button id="balance" type="button">Répartition équilibrée (40 partout)</button>';
@@ -68,7 +72,33 @@ bind("#token",el=>d.tokenDescription=el.value);
 bind("#chance",el=>d.chance=el.value===""?"":Number(el.value));
 bind("#age",el=>d.age=el.value===""?"":Number(el.value));
 bind("#spirits",el=>d.spirits=el.value);
-const search=host.querySelector("#skill-search");if(search){d.selectedSkillIds??=[];const results=host.querySelector("#skill-results"),selected=host.querySelector("#skill-selected");function draw(){const q=search.value.trim().toLocaleLowerCase("fr");const cost={D:1,C:2,B:3,A:4,S:5};const verified=d.selectedSkillIds.map(id=>skills.find(x=>x.id===id)).filter(Boolean);const spent=verified.reduce((n,x)=>n+(cost[x.tier]||0),0);const validGroup=x=>Array.isArray(x.gv)&&x.gv.some(g=>g==="Générales"||g==="Generales"||g===d.primaryVocationalGroupId||GROUPS.some(([id,label])=>id===d.primaryVocationalGroupId&&label===g));const pending=d.selectedSkillIds.filter(id=>{const x=skills.find(y=>y.id===id);return !x||!cost[x.tier]||x.status==="deferred"||!validGroup(x)});selected.textContent="Points initiaux : "+spent+" / 12"+(pending.length?" · "+pending.length+" choix à corriger (rang, disponibilité ou GV)":"")+(spent>12?" · BUDGET DÉPASSÉ":"")+" · "+(d.selectedSkillIds.map(id=>skills.find(x=>x.id===id)?.name||id).join(" · ")||"Aucune compétence sélectionnée");results.replaceChildren();if(q.length<2){results.textContent="Saisissez deux caractères.";return}for(const sk of skills.filter(x=>x.name.toLocaleLowerCase("fr").includes(q)).slice(0,20)){const b=document.createElement("button");b.type="button";b.className="tab";b.style.margin="3px";b.textContent=(d.selectedSkillIds.includes(sk.id)?"✓ ":"＋ ")+sk.name+(sk.tier?" · "+sk.tier:"")+(sk.status==="deferred"?" · Différée":"")+(sk.summary?" — "+sk.summary.slice(0,95):"");b.onclick=()=>{if(d.selectedSkillIds.includes(sk.id))d.selectedSkillIds=d.selectedSkillIds.filter(id=>id!==sk.id);else{const c={D:1,C:2,B:3,A:4,S:5}[sk.tier];if(sk.status==="deferred"){alert("Compétence différée : indisponible en HINGA V1.");return}if(!c){alert("Cette compétence ne possède pas de rang canonique achetable.");return}const eligible=validGroup(sk);if(!eligible){alert("Compétence hors du groupe vocationnel choisi.");return}if(pending.length){alert("Corrigez les compétences déjà sélectionnées avant un nouvel achat.");return}if(spent+c>12){alert("Budget initial de 12 points dépassé.");return}d.selectedSkillIds.push(sk.id)}save();draw()};results.append(b)}}search.oninput=draw;draw()}
+const search=host.querySelector("#skill-search");
+if(search){
+d.selectedSkillIds??=[];d.additionalVocationalGroupIds??=[];
+const cost={D:1,C:2,B:3,A:4,S:5};
+const normalize=g=>GROUPS.find(([id,label])=>g===id||g===label)?.[0]||(g==="Générales"||g==="Generales"?"generales":null);
+const owned=()=>[d.primaryVocationalGroupId,...d.additionalVocationalGroupIds].filter(Boolean);
+const groupCost=()=>d.additionalVocationalGroupIds.reduce((n,_,i)=>n+(i===0?2:(i+2)*2),0);
+const skillCost=id=>cost[skills.find(x=>x.id===id)?.tier]||0;
+const skillSpent=()=>d.selectedSkillIds.reduce((n,id)=>n+skillCost(id),0);
+const eligible=sk=>Array.isArray(sk.gv)&&sk.gv.some(g=>normalize(g)==="generales"||owned().includes(normalize(g)));
+const valid=sk=>sk&&cost[sk.tier]&&sk.status!=="deferred"&&eligible(sk);
+const selected=host.querySelector("#skill-selected"),results=host.querySelector("#skill-results"),groups=host.querySelector("#additional-groups"),budget=host.querySelector("#skill-budget");
+function draw(){
+const spent=skillSpent()+groupCost(),remaining=12-spent;
+const invalid=d.selectedSkillIds.filter(id=>!valid(skills.find(x=>x.id===id)));
+budget.textContent="12 points initiaux · GV : "+groupCost()+" · Compétences : "+skillSpent()+" · Restants : "+remaining+(invalid.length?" · "+invalid.length+" choix à corriger":"")+(remaining<0?" · Budget dépassé":"");
+groups.replaceChildren();
+for(const id of d.additionalVocationalGroupIds){const line=document.createElement("div");line.className="wizard-pair";const label=document.createElement("span");label.textContent=GROUPS.find(x=>x[0]===id)?.[1]||id;const remove=document.createElement("button");remove.type="button";remove.textContent="Retirer";remove.onclick=()=>{d.additionalVocationalGroupIds=d.additionalVocationalGroupIds.filter(x=>x!==id);save();draw()};line.append(label,remove);groups.append(line)}
+const options=GROUPS.filter(x=>!owned().includes(x[0]));if(options.length&&d.primaryVocationalGroupId){const sel=document.createElement("select");sel.innerHTML='<option value="">Ajouter un GV (coût '+(owned().length+1)*2+' points)</option>'+options.map(([id,label])=>'<option value="'+esc(id)+'">'+esc(label)+'</option>').join("");sel.onchange=()=>{const c=(owned().length+1)*2;if(!sel.value)return;if(spent+c>12){alert("Points insuffisants pour ce groupe.");sel.value="";return}d.additionalVocationalGroupIds.push(sel.value);save();draw()};groups.append(sel)}
+selected.replaceChildren();if(!d.selectedSkillIds.length)selected.textContent="Aucune compétence achetée.";
+for(const id of d.selectedSkillIds){const sk=skills.find(x=>x.id===id);const line=document.createElement("div");line.className="wizard-pair";const name=document.createElement("span");name.textContent=(sk?.name||id)+" · N1 · "+(skillCost(id)||"?")+" pt"+(skillCost(id)>1?"s":"")+(valid(sk)?"":" · À CORRIGER");const remove=document.createElement("button");remove.type="button";remove.textContent="Retirer";remove.onclick=()=>{d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==id);save();draw()};line.append(name,remove);selected.append(line)}
+results.replaceChildren();const q=search.value.trim().toLocaleLowerCase("fr");const visible=skills.filter(sk=>(!q||sk.name.toLocaleLowerCase("fr").includes(q)||sk.gv?.some(g=>g.toLocaleLowerCase("fr").includes(q)))&&(q.length>=2||eligible(sk))).slice(0,45);
+for(const sk of visible){const b=document.createElement("button");b.type="button";b.className="tab";b.style.margin="3px";const already=d.selectedSkillIds.includes(sk.id);b.textContent=(already?"✓ ":"＋ ")+sk.name+" · "+(sk.tier||"?")+" ("+sk.gv.join(", ")+")"+(sk.status==="deferred"?" · Différée":"");b.onclick=()=>{if(already){d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==sk.id)}else{if(!valid(sk)){alert("Compétence indisponible, sans rang, ou GV non débloqué.");return}if(invalid.length||remaining<skillCost(sk.id)){alert("Budget insuffisant ou anciens choix à corriger.");return}d.selectedSkillIds.push(sk.id)}save();draw()};results.append(b)}
+if(!visible.length)results.textContent="Aucune compétence correspondante.";
+}
+search.oninput=draw;draw();
+}
 bind('[id^="trait-"]',el=>d.traits[Number(el.id.split("-")[1])]=el.value);
 bind("#extra",el=>d.extra=el.value);
 bind("#name",el=>record.name=el.value);

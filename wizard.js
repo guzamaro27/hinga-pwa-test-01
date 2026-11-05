@@ -139,7 +139,18 @@ const options=GROUPS.filter(x=>!owned().includes(x[0]));if(options.length&&d.pri
 selected.replaceChildren();if(!d.selectedSkillIds.length)selected.textContent="Aucune compétence achetée.";
 for(const id of d.selectedSkillIds){const sk=skills.find(x=>x.id===id);const line=document.createElement("div");line.className="wizard-pair";const name=document.createElement("span");name.textContent=(sk?.name||id)+" · N1 · "+(skillCost(id)||"?")+" pt"+(skillCost(id)>1?"s":"")+(valid(sk)?"":" · À CORRIGER");const remove=document.createElement("button");remove.type="button";remove.textContent="Retirer";remove.onclick=()=>{d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==id);save();draw()};line.append(name,remove);selected.append(line)}
 results.replaceChildren();const q=search.value.trim().toLocaleLowerCase("fr");const visible=skills.filter(sk=>(!q||sk.name.toLocaleLowerCase("fr").includes(q)||sk.gv?.some(g=>g.toLocaleLowerCase("fr").includes(q)))&&(q.length>=2||eligible(sk))).slice(0,45);
-for(const sk of visible){const b=document.createElement("button");b.type="button";b.className="tab";b.style.margin="3px";const already=d.selectedSkillIds.includes(sk.id);b.textContent=(already?"✓ ":"＋ ")+sk.name+" · "+(sk.tier||"?")+" ("+sk.gv.join(", ")+")"+(sk.status==="deferred"?" · Différée":"");b.onclick=()=>{if(already){d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==sk.id)}else{if(!valid(sk)&&!freeSkillIds().includes(sk.id)){alert("Compétence indisponible, sans rang, ou GV non débloqué.");return}if(invalid.length||remaining<(freeSkillIds().includes(sk.id)?0:skillCost(sk.id))){alert("Budget insuffisant ou anciens choix à corriger.");return}d.selectedSkillIds.push(sk.id)}save();draw()};results.append(b)}
+for(const sk of visible){
+const card=document.createElement("div");card.className="choice-card skill-card";
+const heading=document.createElement("strong");heading.textContent=sk.name;card.append(heading);
+const meta=document.createElement("p");meta.className="note";const c=skillCost(sk.id);meta.textContent=(sk.tier?"Rang "+sk.tier+" · "+c+" point"+(c>1?"s":""):"Rang non défini")+" · "+(sk.gv||[]).join(", ")+(sk.status==="deferred"?" · Différée":"");card.append(meta);
+const desc=document.createElement("p");desc.textContent=sk.summary||"Description non disponible dans le catalogue.";card.append(desc);
+const button=document.createElement("button");button.type="button";button.className="tab";button.style.width="100%";button.style.whiteSpace="normal";
+const already=d.selectedSkillIds.includes(sk.id),free=freeSkillIds().includes(sk.id);
+button.textContent=already?"Retirer cette compétence":free?"Ajouter (gratuite)":!valid(sk)?"Non accessible avec les GV actuels":"Ajouter · "+c+" point"+(c>1?"s":"");
+button.disabled=!already&&!free&&!valid(sk);
+button.onclick=()=>{if(already){d.selectedSkillIds=d.selectedSkillIds.filter(x=>x!==sk.id)}else{if(!valid(sk)&&!free){alert("Compétence indisponible ou GV non débloqué.");return}if(invalid.length||remaining<(free?0:c)){alert("Budget insuffisant ou choix à corriger.");return}d.selectedSkillIds.push(sk.id)}save();draw()};
+card.append(button);results.append(card);
+}
 if(!visible.length)results.textContent="Aucune compétence correspondante.";
 }
 search.oninput=draw;draw();

@@ -829,32 +829,76 @@
     {
       "id": "excommunication-anatheme",
       "name": "Excommunication Anathème",
-      "sourcePath": "module/engine/competences/excommunication-anatheme/excommunication-anatheme.json"
+      "sourcePath": "module/engine/competences/excommunication-anatheme/excommunication-anatheme.json",
+      "tier": "B",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous créez une Zone d’Anathème mobile qui fragilise les Invocations hostiles et permet de les exiler.",
+      "levels": 3,
+      "status": "ready"
     },
     {
       "id": "extraction-vestigiale",
       "name": "Extraction Vestigiale",
-      "sourcePath": "module/engine/competences/extraction-vestigiale/extraction-vestigiale.json"
+      "sourcePath": "module/engine/competences/extraction-vestigiale/extraction-vestigiale.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous pouvez extraire un Vestige d’une créature vaincue au contact.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "faille-decisive",
       "name": "Faille Décisive",
-      "sourcePath": "module/engine/competences/faille-decisive/faille-decisive.json"
+      "sourcePath": "module/engine/competences/faille-decisive/faille-decisive.json",
+      "tier": "C",
+      "gv": [
+        "Combattant Émérite"
+      ],
+      "summary": "Vous identifiez et exploitez plus efficacement les ouvertures offertes par une attaque critique.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "faveur-de-la-destinee",
       "name": "Faveur de la Destinée",
-      "sourcePath": "module/engine/competences/faveur-de-la-destinee/faveur-de-la-destinee.json"
+      "sourcePath": "module/engine/competences/faveur-de-la-destinee/faveur-de-la-destinee.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous infléchissez le destin autour de vous pour favoriser les attaques décisives de vos alliés et les protéger des coups critiques ennemis.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "feu-concentre",
       "name": "Feu Concentré",
-      "sourcePath": "module/engine/competences/feu-concentre/feu-concentre.json"
+      "sourcePath": "module/engine/competences/feu-concentre/feu-concentre.json",
+      "tier": "S",
+      "gv": [
+        "Corps Militaire",
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous désignez une cible prioritaire et coordonnez les alliés afin que chacun concentre sa prochaine attaque sur elle.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "filature-fantome",
       "name": "Filature Fantôme",
-      "sourcePath": "module/engine/competences/filature-fantome/filature-fantome.json"
+      "sourcePath": "module/engine/competences/filature-fantome/filature-fantome.json",
+      "tier": "B",
+      "gv": [
+        "Gardien de la Nature",
+        "Ombre Rebelle"
+      ],
+      "summary": "Renforce une filature déjà établie contre sa cible exacte.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "filtre-de-realite",
@@ -1453,7 +1497,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 66,
+    "verified": 72,
     "total": 191
   }
 }

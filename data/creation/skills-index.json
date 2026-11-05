@@ -2213,37 +2213,88 @@
     {
       "id": "stabilite",
       "name": "Stabilité",
-      "sourcePath": "module/engine/competences/stabilite/stabilite.json"
+      "sourcePath": "module/engine/competences/stabilite/stabilite.json",
+      "tier": "B",
+      "gv": [
+        "Garde Protecteur"
+      ],
+      "summary": "Réduit d’un seul degré certaines pertes d’équilibre, projections et prises au moment où elles devraient vous affecter.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "strategie-geopolitique",
       "name": "Stratégie Géopolitique",
-      "sourcePath": "module/engine/competences/strategie-geopolitique/strategie-geopolitique.json"
+      "sourcePath": "module/engine/competences/strategie-geopolitique/strategie-geopolitique.json",
+      "tier": "C",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez une situation politique afin d’en exploiter un levier lors d’une tentative sociale directement liée.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "manoeuvre-anti-riposte",
       "name": "Manœuvre Anti-Riposte",
-      "sourcePath": "module/engine/competences/manoeuvre-anti-riposte/manoeuvre-anti-riposte.json"
+      "sourcePath": "module/engine/competences/manoeuvre-anti-riposte/manoeuvre-anti-riposte.json",
+      "tier": "C",
+      "gv": [
+        "Corps Militaire"
+      ],
+      "summary": "Vous perturbez les contre-offensives d’un hostile visible jusqu’au début de votre prochain tour.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "symbiose-conjuree",
       "name": "Symbiose Conjurée",
-      "sourcePath": "module/engine/competences/symbiose-conjuree/symbiose-conjuree.json"
+      "sourcePath": "module/engine/competences/symbiose-conjuree/symbiose-conjuree.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous absorbez une de vos invocations et empruntez ses meilleures capacités jusqu’à son renvoi définitif.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "tacticien-rhetorique",
       "name": "Tacticien Rhétorique",
-      "sourcePath": "module/engine/competences/tacticien-rhetorique/tacticien-rhetorique.json"
+      "sourcePath": "module/engine/competences/tacticien-rhetorique/tacticien-rhetorique.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous analysez les arguments et réactions d’un échange afin de demander au MJ un effet rhétorique fondé sur les éléments réellement accessibles.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "telepathie-generale",
       "name": "Télépathie Générale",
-      "sourcePath": "module/engine/competences/telepathie-generale/telepathie-generale.json"
+      "sourcePath": "module/engine/competences/telepathie-generale/telepathie-generale.json",
+      "tier": "C",
+      "gv": [
+        "Mage Sage",
+        "Négociateur Diplomatique"
+      ],
+      "summary": "Vous établissez entre plusieurs personnes consentantes un canal mental commun maintenu par votre concentration.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "tir-suppressif",
       "name": "Tir Suppressif",
-      "sourcePath": "module/engine/competences/tir-suppressif/tir-suppressif.json"
+      "sourcePath": "module/engine/competences/tir-suppressif/tir-suppressif.json",
+      "tier": "A",
+      "gv": [
+        "Corps Militaire"
+      ],
+      "summary": "Vous créez une zone fixe de tir de couverture qui gêne les hostiles et rend leur sortie dangereuse.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "toxicologie-appliquee",
@@ -2282,7 +2333,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 177,
+    "verified": 184,
     "total": 191
   }
 }

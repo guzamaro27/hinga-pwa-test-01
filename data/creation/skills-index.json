@@ -1706,62 +1706,149 @@
     {
       "id": "pirate-insoumis",
       "name": "Pirate Insoumis",
-      "sourcePath": "module/engine/competences/pirate-insoumis/pirate-insoumis.json"
+      "sourcePath": "module/engine/competences/pirate-insoumis/pirate-insoumis.json",
+      "tier": "A",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous brisez les entraves matérielles et refusez les influences qui cherchent à vous soumettre.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "polygraphe-mental",
       "name": "Polygraphe Mental",
-      "sourcePath": "module/engine/competences/polygraphe-mental/polygraphe-mental.json"
+      "sourcePath": "module/engine/competences/polygraphe-mental/polygraphe-mental.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous analysez instinctivement les incohérences, omissions et manipulations perceptibles dans le discours d’un interlocuteur.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "polyphonie-conjuratoire",
       "name": "Polyphonie Conjuratoire",
-      "sourcePath": "module/engine/competences/polyphonie-conjuratoire/polyphonie-conjuratoire.json"
+      "sourcePath": "module/engine/competences/polyphonie-conjuratoire/polyphonie-conjuratoire.json",
+      "tier": "B",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous êtes capable de maintenir deux invocations de créature simultanément.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "porteur-du-halo",
       "name": "Porteur du Halo",
-      "sourcePath": "module/engine/competences/porteur-du-halo/porteur-du-halo.json"
+      "sourcePath": "module/engine/competences/porteur-du-halo/porteur-du-halo.json",
+      "tier": "S",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous attribuez un halo sacré qui atténue les states mentaux négatifs et renforce les compétences de Soutien de sa cible.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "premier-secours",
       "name": "Premier Secours",
-      "sourcePath": "module/engine/competences/premier-secours/premier-secours.json"
+      "sourcePath": "module/engine/competences/premier-secours/premier-secours.json",
+      "tier": "B",
+      "gv": [
+        "Générales"
+      ],
+      "summary": "Vous préparez les gestes permettant de soigner un allié et de neutraliser temporairement les pertes de PV dues au saignement.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "preparation-silencieuse",
       "name": "Préparation Silencieuse",
-      "sourcePath": "module/engine/competences/preparation-silencieuse/preparation-silencieuse.json"
+      "sourcePath": "module/engine/competences/preparation-silencieuse/preparation-silencieuse.json",
+      "tier": "D",
+      "gv": [
+        "Ombre Rebelle"
+      ],
+      "summary": "Vous manipulez les potions, poisons et fioles alchimiques avec une rapidité et une discrétion remarquables.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "prevision-instinctive",
       "name": "Prévision Instinctive",
-      "sourcePath": "module/engine/competences/prevision-instinctive/prevision-instinctive.json"
+      "sourcePath": "module/engine/competences/prevision-instinctive/prevision-instinctive.json",
+      "tier": "S",
+      "gv": [
+        "Corps Militaire",
+        "Garde Protecteur"
+      ],
+      "summary": "Vous observez des ennemis précis et anticipez leurs prochaines manœuvres.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "priere-de-resilience",
       "name": "Prière de Résilience",
-      "sourcePath": "module/engine/competences/priere-de-resilience/priere-de-resilience.json"
+      "sourcePath": "module/engine/competences/priere-de-resilience/priere-de-resilience.json",
+      "tier": "A",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous préparez une prière continue qui fortifie l’esprit du lanceur et de ses alliés proches.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "profilage-intellectuel",
       "name": "Profilage Intellectuel",
-      "sourcePath": "module/engine/competences/profilage-intellectuel/profilage-intellectuel.json"
+      "sourcePath": "module/engine/competences/profilage-intellectuel/profilage-intellectuel.json",
+      "tier": "D",
+      "gv": [
+        "Négociateur Diplomatique",
+        "Scientifique Savant"
+      ],
+      "summary": "Vous observez le comportement d’une personne et tirez des conclusions utiles à partir d’indices réels.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "prophetie-dinstant",
       "name": "Prophétie d’Instant",
-      "sourcePath": "module/engine/competences/prophetie-dinstant/prophetie-dinstant.json"
+      "sourcePath": "module/engine/competences/prophetie-dinstant/prophetie-dinstant.json",
+      "tier": "D",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous prévenez vos alliés de l’offensive probable d’un ennemi visible afin d’améliorer leurs réactions contre lui.",
+      "levels": 1,
+      "status": null
     },
     {
       "id": "protection-purificatrice",
       "name": "Protection Purificatrice",
-      "sourcePath": "module/engine/competences/protection-purificatrice/protection-purificatrice.json"
+      "sourcePath": "module/engine/competences/protection-purificatrice/protection-purificatrice.json",
+      "tier": "C",
+      "gv": [
+        "Pérégrin Mystique"
+      ],
+      "summary": "Vous invoquez une énergie sacrée qui protège vos alliés contre les attaques empoisonnées, les toxines et les Ténèbres magiques.",
+      "levels": 3,
+      "status": null
     },
     {
       "id": "puissance-arcanique",
       "name": "Puissance Arcanique",
-      "sourcePath": "module/engine/competences/puissance-arcanique/puissance-arcanique.json"
+      "sourcePath": "module/engine/competences/puissance-arcanique/puissance-arcanique.json",
+      "tier": "A",
+      "gv": [
+        "Mage Sage"
+      ],
+      "summary": "Vous faites rayonner les éléments personnels inscrits sur votre fiche afin d’amplifier les attaques magiques offensives alliées dans une aura mobile.",
+      "levels": 3,
+      "status": "ready"
     },
     {
       "id": "rage-de-la-nature",
@@ -1980,7 +2067,7 @@
     }
   ],
   "metadataCoverage": {
-    "verified": 136,
+    "verified": 148,
     "total": 191
   }
 }

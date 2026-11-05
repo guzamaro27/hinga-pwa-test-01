@@ -12,7 +12,7 @@
       ],
       "summary": "Vous utilisez l’environnement urbain comme terrain de jeu. Escaliers, rebords, murs, toits et ruelles encombrées deviennent autant d’atouts dans votre fuite ou votre infiltration.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "agent-du-chaos",
@@ -24,7 +24,7 @@
       ],
       "summary": "Vous semez la confusion, brisez les tentatives de coordination ennemie et créez l’ouverture parfaite pour disparaître.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "affinement-sensoriel",
@@ -36,7 +36,7 @@
       ],
       "summary": "Vous entraînez un ou plusieurs sens jusqu’à dépasser leur usage ordinaire.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "alchimie-de-terrain",
@@ -48,7 +48,7 @@
       ],
       "summary": "Vous manipulez en urgence des réactifs, extraits et catalyseurs pour fabriquer rapidement des fioles, vapeurs ou potions aux effets immédiats.",
       "levels": 3,
-      "implementationStatus": "deferred"
+      "status": "deferred"
     },
     {
       "id": "alteration-magique",
@@ -61,7 +61,7 @@
       ],
       "summary": "Vous modifiez temporairement les flux magiques d’une cible afin de renforcer ou d’affaiblir sa puissance offensive ou sa défense magique.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "alteration-mentale",
@@ -73,7 +73,7 @@
       ],
       "summary": "Vous modifiez temporairement la stabilité mentale d’une cible afin de renforcer ou d’affaiblir sa puissance psychique ou sa défense mentale.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "alteration-physique",
@@ -86,7 +86,7 @@
       ],
       "summary": "Vous modifiez temporairement les capacités physiques d’une cible afin de renforcer ou d’affaiblir sa puissance offensive ou sa défense physique.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "analyse-arcanique",
@@ -99,7 +99,7 @@
       ],
       "summary": "Votre sensibilité aux flux magiques et votre connaissance des arcanes vous permettent d’identifier, d’interpréter et de comprendre des sorts, enchantements et anomalies magiques.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "analyse-chimique",
@@ -111,7 +111,7 @@
       ],
       "summary": "Vous identifiez les propriétés, composants, dangers et interactions d’une substance et accélérez sa progression dans le système de connaissance des substances.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "analyse-structurale",
@@ -123,7 +123,7 @@
       ],
       "summary": "Votre esprit analytique vous permet d’étudier la structure d’un objet, d’une créature ou d’un bâtiment afin d’en révéler les faiblesses, les points sensibles et les risques de rupture.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "ancrage-mental",
@@ -135,7 +135,7 @@
       ],
       "summary": "Vous stabilisez l’esprit d’une ou plusieurs cibles afin de les protéger temporairement contre de nouvelles pénalités appliquées à leurs statistiques mentales.",
       "levels": 3,
-      "implementationStatus": null
+      "status": null
     },
     {
       "id": "ancre-d-existence-invoquee",
@@ -147,7 +147,7 @@
       ],
       "summary": "Vous liez une invocation active à une marque matérielle qui doit être détruite avant qu’elle puisse disparaître par dégâts, expiration ou dissipation.",
       "levels": 1,
-      "implementationStatus": "ready"
+      "status": "ready"
     },
     {
       "id": "anticipation-parfaite",
@@ -2386,6 +2386,8 @@
   ],
   "metadataCoverage": {
     "verified": 191,
-    "total": 191
+    "total": 191,
+    "untiered": 15,
+    "deferred": 17
   }
 }
